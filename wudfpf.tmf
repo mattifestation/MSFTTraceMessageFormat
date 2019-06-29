@@ -1,0 +1,1458 @@
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: invalid EPROCESS" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::RdProcess
+{
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0invalid lpc port name %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::RdProcess
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0unable to allocate buffer to copy str %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::RdProcess
+{
+Arg, ItemWString -- 10
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0unable to copy str %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::RdProcess
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: unable to allocate a host process sid " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::ConnectToProcess
+{
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0unable to connect to host io port - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::ConnectToProcess
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0unable to connect to host io cancel port - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::ConnectToProcess
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0unable to connect to host system event port - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::ConnectToProcess
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0unable to connect to host non-state-changing event port - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::ConnectToProcess
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+08057329-d642-3c63-13b8-1765fcbb05d3 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Timeout for host process %10!p! increased to %11!d! seconds" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_PROCESS FUNC=RdProcess::UpdateHostProcessTimeout
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to get allocate memory for connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to get initialize connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get allocate memory for communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get initialize communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Connection Port %10!s! already exist" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_CONNECTION FUNC=WdfLpc::Listen
+{
+Arg, ItemWString -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: message 0x%10!p! too small 0x%11!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: repy message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected at least 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0invalid reply status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: unable to allocate driver object extension" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=DriverEntry
+{
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate RdDriver object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=DriverEntry
+{
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Unable to init RdDriver %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=DriverEntry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: failure to initialize LPC" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdDriver
+{
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0unable to create Non PnP library control device" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdDriver
+{
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0unable to init Non PnP library control object %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: unable to open WUDF key %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a66a25b-1764-3981-def1-0c681331ca74 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Invalid HostFailKdDebugBreak value in registry %10!u!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_FDO FUNC=RdDriver::RdDriver
+{
+Arg, ItemLong -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: no host process associated with device" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdPrepareToCommunicateWithCompanionHost
+{
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Failed to preallocate LPC message for synchronous tasks %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdPrepareToCommunicateWithCompanionHost
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Missing kernel service name associated with companion" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdFdoDevice
+{
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to open device's diagnostics key - %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdFdoDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Unable to allocate rundown work-item - %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdFdoDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: RtlStringCchLengthW failed to get KernelServiceName length, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::OpenCompanionConfigRegKey
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: Unable to allocate memory for companion config registry key %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::OpenCompanionConfigRegKey
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: RtlAppendUnicodeStringToString failed for companion config key, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::OpenCompanionConfigRegKey
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: RtlAppendUnicodeStringToString failed for service name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::OpenCompanionConfigRegKey
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: ZwOpenKey failed to open companion reg key, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::OpenCompanionConfigRegKey
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0RdFdoDevice %10!p! add device message size exceeds maximum supported size of 0x%11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionAddMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: Unable to send companion add message - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionAddMessageToCompanionHost
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0RdFdoDevice %10!p! prepare hardware buffer size exceeds maximum supported size of 0x%11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionEventMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Unknown companion event type %10!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionEventMessageToCompanionHost
+{
+Arg, ItemLong -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: Unable to send companion event %10!d! message - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionEventMessageToCompanionHost
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Reply to companion event %10!d! returned error %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionEventMessageToCompanionHost
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: RdFdoDevice %10!p! absolute timeout value %11!I64d! is not supported - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionSynchronousTaskMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: RdFdoDevice %10!p! task buffer size exceeds maximum supported size of 0x%11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionSynchronousTaskMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: RdFdoDevice %10!p! unable to send task to companion - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionSynchronousTaskMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC!: RdFdoDevice %10!p! BytesWritten %11!Iu! exceeds OutputBufferLength 0x%12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionSynchronousTaskMessageToCompanionHost
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: unable to send CompanionRemove to host after. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionRemoveMessageToCompanionHost
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+24a96765-434a-3282-892a-a9b60e54e800 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: Reply to CompanionRemove returned error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendCompanionRemoveMessageToCompanionHost
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: reported device termination PNP event." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::DisableDevice
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: error %10!s! reporting device termination PNP event" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::DisableDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0RdFdoDevice 0x%10!p! !devobj 0x%11!p! %12!s! %13!s! %14!s! %15!s! %16!s! HostProcess:0x%17!p!  CurrentProcess:0x%18!p! KD break:%19!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::DisableDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(WudfProblem) -- 12
+Arg, ItemEnum(WudfOperationType) -- 13
+Arg, ItemEnum(_WUDFMESSAGE) -- 14
+Arg, ItemEnum(WdfDeviceStartStateType) -- 15
+Arg, ItemNTSTATUS -- 16
+Arg, ItemPtr -- 17
+Arg, ItemPtr -- 18
+Arg, ItemListLong(false,true) -- 19
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unable to send CloseProcess message to driver manager after AddDevice failure." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::SendTeardownMessagesOnAddDeviceFailure
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Reply to CloseProcess, sent after AddDevice failure, returned error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::SendTeardownMessagesOnAddDeviceFailure
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0unable to open host process %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::SendTeardownMessagesOnAddDeviceFailure
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0unable to terminate host process %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::SendTeardownMessagesOnAddDeviceFailure
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! sending WdfProcMgmt_Message_QueryProcess message %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+Arg, ItemWString -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0unable to query process" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0unable to query process properties %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! sending WdfProcMgmt_Message_OpenProcess message %10!s! w/ timeout of %11!u! secs and debug flags of %12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0unable to send open process message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Open process reply returned error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: skipping OpenProcess message since LPC didn't initialize" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSendOpenProcessMessageToDrvMgr
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: invalid host process object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdSetHostProcess
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0RtlStringCchLengthW() on PDO name should never fail.  %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::SendCloseProcessMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: asking drvmgr to terminate host for rdFdo 0x%10!p! for reason %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::SendCloseProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(WudfProblem) -- 11
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: asking drvmgr to terminate host for rdFdo 0x%10!p! - normal termination" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::SendCloseProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0host process fails CloseProcess %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::RdCloseProcessReply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0unable to open host process %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::RdCloseProcessReply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0unable to terminate host process %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::RdCloseProcessReply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC! RdFdoDevice 0x%10!p! !devobj 0x%11!p!, Timeout occurred while waiting for host process 0x%12!p! to exit." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::WaitForHostProcessExit
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0unable to allocate memory for registry key (1) during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0RtlAppendUnicodeStringToString (1) failed during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0RtlAppendUnicodeStringToString (2) failed during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0unable to allocate memory for registry key (2) during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0RtlAppendUnicodeStringToString (3) failed during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0RtlAppendUnicodeStringToString (4) failed during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Could not open registry key for getting driver info %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0unable to allocate memory list during PopulateDriverInfo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0unable to retrieve image name from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0unable to retrieve major version number from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC! RdFdoDevice 0x%10!p!: legacy and non-legacy UMDF drivers cannot run in the same stack %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0unable to retrieve minor version number from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC! unable to allocate memory for servicename  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfoWorker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Could not allocate new driver info structure - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfo
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0received invalid string from registry for driver names %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfo
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Driver count was 0 when populating driver info structure. " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfo
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Companion count was greater than 1 when populating driver info structure. " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfo
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Could not populate driver info " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdFdoDevice::PopulateDriverInfo
+{
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC!: Failed to open device hardware key %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::GetDriverListFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: Failed to open companion configuration hardware key %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::GetDriverListFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC!: Failed to read the driver list %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::GetDriverListFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC!: Failed to query DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC!: Failed to query DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%!FUNC!: Failed to allocate memory for getting DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%!FUNC!: Failed to query DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%!FUNC!: Unexpected length, or type received for DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+51b87cc9-5bd8-32af-8160-461c0376aefd WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%!FUNC!: Incorrect string format received for DriverList from registry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdFdoDevice::ReadMultiStringFromRegistry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: unable to query pdo name length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate memory for pdo name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to query pdo name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to allocate RdCompanionDevice object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Failed to poulate driver info %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to connect to companion host %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::_LoadCompanion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Failed to retrieve device token from QI %10!s! and from registry %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Using software secure device token" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::Initialize
+{
+}
+
+67fb466e-7582-319d-de44-ab5cda211342 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to allocate memory for pdo enumerator name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=RdDeviceCompanion::QuerySoftwareDeviceTag
+{
+}
+
+7d194206-2126-35cb-8764-af1cda072fab LpcCoreClient // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0unable to connect to %10!s!. %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPCDRVR_TRACE_DEVICE FUNC=WdfLpcCorePortInterface::Connect
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e52e062-6271-30ed-b7e5-ff79e85d9e80 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0lpcport got a message!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::RetrieveMessage
+{
+}
+
+8fae3f8a-cd1b-35a3-b980-59631162522c WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate security descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdFxLibCtrlDevice::RdFxLibCtrlDevice
+{
+}
+
+8fae3f8a-cd1b-35a3-b980-59631162522c WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to open a handle to self %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_CONTROL FUNC=RdFxLibCtrlDevice::RdFxLibCtrlDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fae3f8a-cd1b-35a3-b980-59631162522c WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to adjust device object security descriptor. status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdFxLibCtrlDevice::RdFxLibCtrlDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fae3f8a-cd1b-35a3-b980-59631162522c WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! created FxLib control object %10!s! " //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_DMCONTROL FUNC=RdFxLibCtrlDevice::RdFxLibCtrlDevice
+{
+Arg, ItemWString -- 10
+}
+
+8fae3f8a-cd1b-35a3-b980-59631162522c WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unexpected process 0x%10!p! trying to open fx lib control object 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_CONTROL FUNC=RdFxLibCtrlDevice::RdCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: required CommPortList is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to create server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Invalid connection message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to create comm lpc port object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: unable to accept connection. er = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get allocate memory for alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unable to allocate alpc reply message 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: message id not set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: unable to send reply message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: invalid alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: unable to reserve alpc resource %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Unable to allocate reply callback lock" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0unable to allocate data buffer %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: lpc message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0attribute size must be at least as large as the header size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: Integer overflow while rounding up message attribute size. Pre-roundup size: %10!I64d! bytes, Post-roundup size: %11!I64d! bytes." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!: unable to allocate 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcMessagePreCtor
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!: unable to allocate section size 0x%10!x!, %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!: unable to allocate section view, %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: 0x%10!p! requires reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: 0x%10!p! cannot have reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: 0x%10!p! lpc message cannot have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: 0x%10!p! lpc message must have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: reply message smaller than expected" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate security descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDrvMgrCtrlDevice::RdDrvMgrCtrlDevice
+{
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to open a handle to self %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_CONTROL FUNC=RdDrvMgrCtrlDevice::RdDrvMgrCtrlDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to adjust device object security descriptor. status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDrvMgrCtrlDevice::RdDrvMgrCtrlDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! created DM control object %10!s! " //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDrvMgrCtrlDevice
+{
+Arg, ItemWString -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: message header too smaller" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: message body too small" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: message body size is bad" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: pdo name too long 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemLong -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC!: invalid pdo name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: invalide pdo name expectedLen %10!d! != actualLen %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: invalid string %10!s! from device manager - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: string %10!s! from device manager is 0 length - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: unable to reference process handle %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: IoAllocateWorkItem failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: could not find FDO object for %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC!: failure to find or create host process for %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b697452a-c782-38fe-94ff-40ce2a9b3d40 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: failure to set host process  for %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DMCONTROL FUNC=RdDrvMgrCtrlDevice::RdDeviceIoControl
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: server port name is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: message notification callback object is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to allocate buffer for ALPC_FLG_MSG_CONTEXT_ATTR" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0lpc handle 0x%10!p! received msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0lpc handle %10!p! received reply msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0lpc handle %10!p! received LPC_CANCELED msg" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0lpc handle %10!p! received LPC_PORT_CLOSED msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0lpc handle %10!p! received LPC_CONNECTION_REPLY msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LPC Message type 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemLong -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0unable to get driver object extension" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdGetDriver
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: ExUuidCreate failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdCreateUniqueName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: unable to allocate buffer for unique device name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdCreateUniqueName
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: unable to create unique name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::RdCreateUniqueName
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: invalid control object name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::ControlObjectMessage
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: invalid pdo name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::QueryProcessMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: invalid kernel svc name for companion %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::QueryProcessMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: invalid pdo name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::OpenProcessMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: invalid kernel svc name for companion %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::OpenProcessMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0unable to create driver manager control object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::PrepareSharedResources
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0unable to init driver manager control object %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::PrepareSharedResources
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0unable to create control object message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::PrepareSharedResources
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0unable to sent control object info to drvmgr" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::PrepareSharedResources
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0control object message failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::PrepareSharedResources
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC!: WdfGetLpcInterface failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC!: unable to create periodic timer object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: unable to allocate lpc object - error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: unable to allocate RdLpcNotification object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: unable to allocate a DrvMgr sid " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDriver::InitializeLpcAndConnect
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0UMDF reflector is unable to connect to service control manager (SCM). This is expected during boot, when SCM has not started yet. Will retry when it starts." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0unable to connect to lpc server port %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::InitializeLpcAndConnect
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%!FUNC!: This routine cannot handle more than %10!d! device objects associated with the reflector. Currently %11!d! device objects are associated with the reflector." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::HintDrvMgrCtrlDeviceInRdDeviceList
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: Unable to allocate memory to retrieve device objects associated with the reflector." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::HintDrvMgrCtrlDeviceInRdDeviceList
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: The number of device objects associated with the reflector is more than expected. Expected: %10!d!, Actual: %11!d!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::HintDrvMgrCtrlDeviceInRdDeviceList
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: Driver manager control device object has not yet been deleted. Waiting for deletion ..." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::WaitForDrvMgrCtrlDeviceDeletion
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC!: Giving up waiting for driver manager control object deletion. Failure to delete driver manager object may prevent reflector from unloading." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::WaitForDrvMgrCtrlDeviceDeletion
+{
+}
+
+c63b2b89-ed97-3161-a456-0c055e8ce6c5 WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC!: unable to open root WDF key %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DRIVER FUNC=RdDriver::QueryGlobalRegistrySettings
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to allocate fastreply port message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0unable to get allocate memory for fast reply attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to connect to server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0RegisterReplyCallback failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GetMessage returned unexpected error %10!s! in ALPC callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::_AlpcRequestCallback
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ExCreateCallback failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::RegisterReplyCallback
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ExRegisterCallback failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::RegisterReplyCallback
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ALPC SetInformation failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::RegisterReplyCallback
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: unable to send message because number of pending messages exceeds 0x%10!x!. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::Send
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0LPC ReceiveMessage 0x%10!p! sender pid 0x%11!p! does not match expected pid 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: LpcMsg (%10!p!,%11!p!) was cancelled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: LPC Message %10!p! not found on list - assuming it has already been cancelled or completed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: m_PendingMessages has lpcmsg 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: lpcMsg has been cancelled 0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: unable to cancel WudfLpcMessage 0x%10!p!. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: number of alpc messages cancelled %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemLong -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0send reply message (id=0x%10!x!) failed %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcCommPort::FastReply
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unsupported device type %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemLong -- 10
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: invalid device name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to allocate memory for nt device name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unable to build nt device name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: unable to create device object. status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: dosDeviceNameLen would exceeed MAXUSHORT" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: unable to allocate memory for dos device name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: unable to build dos device name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: unable to create symbolic link %10!s! for %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdDevice
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: MainString keys must not be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdCreatePnpRegKey
+{
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: unable to open device key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdCreatePnpRegKey
+{
+}
+
+fa5ad5d4-1c5a-3a80-619b-82eb79caf22f WudfPf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: unable to open hardware root key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_DEVICE FUNC=RdDevice::RdCreatePnpRegKey
+{
+}
+

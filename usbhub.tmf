@@ -1,0 +1,153 @@
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed opening the USB registry key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed reading registry value DualRoleFeaturesTestOverride. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DualRoleFeaturesTestOverride = 0x%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed opening the USB registry key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed reading the manifest assigned DualRoleFeatures value. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DualRoleFeatures = 0x%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed opening the USBFn\Default key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed reading IncludeDefaultCfg under USBFn\Default. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0USBFn\Default\IncludeDefaultCfg = %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed opening the USBFn key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed reading IncludeDefaultCfg under USBFn. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0USBFn\IncludeDefaultCfg = %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed opening the USBFn\Default key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed reading the CurrentConfiguration value. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0USBFn\Default\CurrentConfiguration = [%10!s!]" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemWString -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed allocating memory for reading USBFn current configuration. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed opening the configuration key [%10!s!]. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed querying USBFn InterfaceList value. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed opening the USB\Control key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed reading the registry value UcmIsPresent. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0UcmIsPresent = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Returning DualRoleFeatures=0x%10!X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0MTP Initiator found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0MTP Initiator not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0MTP Responder found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0MTP Responder not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+

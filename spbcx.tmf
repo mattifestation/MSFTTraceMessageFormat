@@ -1,0 +1,1268 @@
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failure adding driver's target context to WDFFILEOBJECT %10!p! -%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfSpinLockCreate failed with error - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failure allocating buffer for connection ID string - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failure stringing ConnectionID %10!I64x! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failure allocating buffer for scope tag - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failure copying scope tag %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failure creating target queue for WDFFILEOBJECT %10!p! (connectionId %11!s!) - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Initialized target context for WDFFILEOBJECT %10!p! (connectionId %11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to retrieve resource hub ID from filename %10!s! for WDFFILEOBJECT %11!p! - %12!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Missing required scope tag for connectionID %10!I64x! for for WDFFILEOBJECT %11!p! - %12!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Invalid tag %10!s! for connectionID %11!I64x! for for WDFFILEOBJECT %12!p! - %13!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemWString -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SleepstudyHelper_RegisterComponentEx failed for connectionID %10!I64x! - %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Ignoring cleanup for target %10!p! (ConnectionTag %11!s!) opened by kernel-mode client" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Received cleanup for target %10!p! (ConnectionTag %11!s!) - purging target I/O queue.  Target is%12!s! exclusive owner.Active request is %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemPtr -- 13
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Received close for target %10!p! (ConnectionTag %11!s!).  Target is %12!s! exclusive owner." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Purging queue for SPBTARGET %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0SPBTARGET %10!p! is still locked - issuing unlock request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Attempt to unlock SPBTARGET %10!p! during IRP_MJ_CLOSE handling has failed - %11!s!.  This is presently an unrecoverable error" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0SPBTARGET %10!p! is still locked - issuing unlock connection request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Attempt to unlock SPBTARGET %10!p! during IRP_MJ_CLOSE handling has failed - %11!s!.  This is presently an unrecoverable error" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SPBTARGET %10!p! queue%11!s!frozen while SPBREQUEST %12!p! is active" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0SPBTARGET %10!p! is already locked.  Failing lock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0SPBTARGET %10!p! is not locked.  Failing unlock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0SPBTARGET %10!p! already has controller locked. Failing lock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0SPBTARGET %10!p! already has connection locked. Failing lock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0SPBTARGET %10!p! is already controller locked. Failing lock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SPBTARGET %10!p! is not locked.  Failing unlock request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0SPBTARGET %10!p! is locked. Failing sequence request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0SPBTARGET %10!p! - unable to retrieve stack location from IRP %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0SPBTARGET %10!p! - unable to dispatch IRP %11!p! to target queue - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0SPBTARGET %10!p! active request %11!p! completed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0SPBTARGET %10!p! no longer exlusive controller owner - releasing power reference" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0SPBTARGET %10!p! no longer exclusive %11!s! owner - restarting queue" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0SPBTARGET %10!p! - unable to allocate IOCTL IRP - %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0SPBTARGET %10!p! - unable to create IOCTL request - %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0SPBTARGET %10!p! - unable to reuse IOCTL request - %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0SPBTARGET %10!p! - WdfRequestReuse failed when clearing IRP from request - %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+01e66912-d87c-3367-8b2b-3943b11901ff sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failure querying target connection properties - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failure adding driver request context to WDFREQUEST %10!p! (target ConnectionTag %11!s!) - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error constructing request object context - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Request %10!p! to controller %11!p!, target %12!p! (ConnectionTag %13!s!) is of unsupported request type %14!s! - %15!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+Arg, ItemEnum(_WDF_REQUEST_TYPE) -- 14
+Arg, ItemNTSTATUS -- 15
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Request %10!p! to controller %11!p!, target %12!p! (ConnectionTag %13!s!) is of unsupported request type %14!s! - %15!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+Arg, ItemEnum(_WDF_REQUEST_TYPE) -- 14
+Arg, ItemNTSTATUS -- 15
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Request %10!p! to controller %11!p!, target %12!p! (ConnectionTag %13!s!) is of type %14!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+Arg, ItemEnum(_SPB_REQUEST_TYPE) -- 14
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error handling transfer list IOCTL request %10!p!: expected output buffer length to be 0 - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error handling transfer list IOCTL request %10!p!: unable to retrieve input buffer - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Error validating transfer list IOCTL request %10!p!: Size is %11!d!, not sizeof(SPB_PACKET) (%12!d!) - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Error validating transfer list IOCTL request %10!p!: Reserved is %11!d!, not 0 - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Error validating transfer list IOCTL request %10!p!: TransferCount is < 1 - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Error validating transfer list IOCTL request %10!p!: TransferCount is too large (%11!d!, max is %12!d!) - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: arithmetic overflow allocating transfer descriptors %11!d! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error handling IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: could not allocate %11!d! transfer descriptors - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: failure to capture transfer descriptor %11!d! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! BufferFormat value (%12!s!) is only for use by kernel-mode clients - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_SPB_TRANSFER_BUFFER_FORMAT) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Transfer length overflow processing SPB PACKET IOCTL request %10!p! on transfer descriptor %11!d! (length %12!d!) - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! Direction value (%12!s!) is invalid - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_SPB_TRANSFER_DIRECTION) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! NULL or zero length buffer not allowed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! NULL DDL not allowed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! NULL or 0 length list not allowed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: transfer descriptor %11!d! BufferFormat value (%12!s!) is invalid - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_SPB_TRANSFER_BUFFER_FORMAT) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: could not allocate MDL for transfer buffer - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: error probing transfer buffer (addr %11!p!) - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Error processing SPBREQUEST %10!p!: Buffer size calculation overflow (length %11!d!) - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Error processing SPBREQUEST %10!p!: Invalid buffer list address %11!p! (length %12!d!) - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Exception reading buffer list %10!p! entry %11!d! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Error validating IOCTL_SPB_EXECUTE_SEQUENCE request %10!p!: buffer list entry %11!d! NULL or zero length buffer not allowed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Could not reserve system address for MDL." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_REQUEST
+{
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0SPBREQUEST %10!p! completed with %11!Iu! out of %12!Iu! expected bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0SPBREQUEST %10!p! for SPBTARGET %11!p! completed with %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1e31755b-540a-3c6a-ed28-2c2959bb34e5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0SPBREQUEST %10!p! for SPBTARGET %11!p! completed with %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0SpbRequest %10!p! is not a real SPB request object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SpbRequest %10!p! is not a real SPB request object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0SpbRequest %10!p! is not a real SPB request object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Parameters %10!p! Size %11!d! incorrect, expected %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0SpbRequest %10!p! is not a real SPB request object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0TransferDescriptor %10!p! Size %11!d! incorrect, expected %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Transfer index %10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SpbRequest %10!p! is not a real SPB request object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SpbRequest %10!p! was not presented in an I/O callback and hence is not fully constructed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0SpbRequest %10!p! failed with %11!s!. %12!s! should always succeed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemEnum(_SPB_REQUEST_TYPE) -- 12
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SpbRequest %10!p! is not a real SPB request object - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SpbRequest %10!p! has already been constructed, its transferlist cannot be captured - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0SpbRequest %10!p! is of unsupported request type %11!s!  - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_WDF_REQUEST_TYPE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Transfer list for SpbRequest %10!p! cannot be captured for internally supported SPB IOCTLs - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+37eaba80-d156-30d8-2794-b82925785f5d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Unable to allocate context for request %10!p! to target %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FxDevice %10!p! already has a controller associated with it - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Config %10!p! Size %11!d! incorrect, expected %12!d! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Invalid dispatch type set in Config %10!p! for WDFDEVICE %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Missing required callback in Config %10!p! for WDFDEVICE %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Unlock callback required with lock callback in Config %10!p! for WDFDEVICE %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FxDevice %10!p! does not have a controller associated with it" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0EvtSpbControllerIoOther has already been set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0FxDevice %10!p! does not have a controller associated with it" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0RequestAttributes %10!p! Size %11!d! incorrect, expected %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0RequestAttributes %10!p! invalid, can only set ExtCleanupCallback, EvtDestroyCallback, ContextSizeOverride, and ContextTypeInfo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0FxDevice %10!p! does not have a controller associated with it" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0TargetAttributes %10!p! Size %11!d! incorrect, expected %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6a02d5a7-ad0a-3bb7-ff1a-b62f4e31166e sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0TargetAttributes %10!p! invalid, can only set ExtCleanupCallback, EvtDestroyCallback, ContextSizeOverride, and ContextTypeInfo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+d59d0cc1-f9f9-3bf9-0644-83edf341eb56 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ConnectionParameters %10!p! Size %11!d! incorrect, expected %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d59d0cc1-f9f9-3bf9-0644-83edf341eb56 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Target %10!p! is not a real SPB target object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+d59d0cc1-f9f9-3bf9-0644-83edf341eb56 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Target %10!p! is not a real SPB target object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DriverEntry failure - could not create WDF driver (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DriverEntry failure - could not create control device init (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfRegisterClassLibrary Failed: (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0SleepstudyHelper_Initialize Failed: (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DriverEntry failure - could not create control device (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0SpbCx driver loaded - control device name = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemPWString -- 10
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0SpbCx driver unloading" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Incorrect major version %10!u!. Major version must be %11!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Controller function table count (%10!d!) doesn't match with SPB framework extension (%11!d!). Rebuild the controller driver." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unsupported minor version. Controller driver minor version: %10!u!, SPB framework minor version: %11!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e2aa6410-efef-3e66-6850-eade737e60c2 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to allocate client globals - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e31ceefd-1058-3901-6500-572b9ab70519 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0NULL required parameter passed to a SpbCx DDI - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e31ceefd-1058-3901-6500-572b9ab70519 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Called at wrong IRQL, should be less than or equal to %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e31ceefd-1058-3901-6500-572b9ab70519 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Called at wrong IRQL, should be %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e31ceefd-1058-3901-6500-572b9ab70519 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Private globals %10!p! are invalid - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to assign a preprocess callback for IRP_MJ_POWER to CxDeviceInit %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to assign a preprocess callback for IRP_MJ_PNP to CxDeviceInit %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to assign SDDL string %10!s! to DeviceInit %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error allocating controller object context - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Error constructing controller object context - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error registering dispatch callback for IRP_MJ_WRITE for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error registering dispatch callback for IRP_MJ_READ for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Error registering dispatch callback for IRP_MJ_DEVICE_CONTROL for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Error registering dispatch callback for IRP_MJ_INTERNAL_DEVICE_CONTROL for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Error creating controller queue for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Error creating lock queue for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Error creating watchdog timer for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error creating target list lock for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Error creating Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Error opening Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Error getting SECURITY_DESCRIPTOR for DEVICE_OBJECT %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Error setting SECURITY_DESCRIPTOR %10!p! for DEVICE_OBJECT %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0CREATE on controller %10!p! target %11!s! no filename, treat as query and complete - %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0CREATE on controller %10!p! target %11!s! invalid filename, failing CREATE request - %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0CREATE on controller %10!p! target %11!s! failed to parse filename, handoff to controller - %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0CREATE on controller %10!p! target %11!s! failed to fetch BIOS descriptor for connection %12!I64x! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Error opening function config connections.Failing CREATE request - %10!s!%" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Error creating target. Failing CREATE request - %10!s!%" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failure allocating buffer for connection ids%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failure allocating buffer for connection io targets%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failure creating path from function config connection id%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failure creating io target for function config connection%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failure opening io target for function config connection%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failure formatting IOCTL to commit function config pins%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to parse function config resources%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Forward IRP %10!p! to SPBTARGET %11!p! queue for controller %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0IRP %10!p! not intended for SPB target, handoff to controller %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Locked IO watchdog expired for target %10!p!, controller %11!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Unable to allocate context for request %10!p! to target %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Invoking EvtSpbTargetConnect callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0EvtSpbTargetConnect callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) returned %13!s!" //   LEVEL=(NT_SUCCESS(status) ? TRACE_LEVEL_INFORMATION : TRACE_LEVEL_ERROR) FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Invoking EvtSpbTargetDisconnect callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0EvtSpbTargetDisconnect callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TARGET
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0SPBREQUEST %10!p! to SPBTARGET %11!p! dispatched from controller %12!p! queue" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Lock queue %10!p! is currently blocked, request processing deferred" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0WDFDEVICE %10!p! controller queue has been stopped for lock operation" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Disabling idle detection on controller %10!p! due to lock request for target %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0SPBREQUEST %10!p! is an unsupported I/O type.  Completing with status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Invoking EvtSpbIoRead callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0EvtSpbIoRead callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Invoking EvtSpbIoWrite callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0EvtSpbIoWrite callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Invoking EvtSpbIoSequence callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0EvtSpbIoSequence callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Invoking EvtSpbIoOther callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p! (control code 0x%14!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0EvtSpbIoOther callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Invoking EvtSpbControllerLock callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0EvtSpbControllerLock callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0No EvtSpbControllerLock callback provided for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!. Completing with status %14!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Invoking EvtSpbControllerUnlock callback for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0EvtSpbControllerUnlock callback for controller %10!p!, target %11!p! req %12!p! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Done with connection lock for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!. Completing with status %14!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+ee16b8de-63ae-391f-7b8e-24b91b986442 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Done with connection unlock for controller %10!p!, file/target %11!p! (ConnectionTag %12!s!) request %13!p!. Completing with status %14!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROLLER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+Arg, ItemNTSTATUS -- 14
+}
+

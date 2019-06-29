@@ -1,0 +1,1504 @@
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp234 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp312 19 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp320 20 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp35 10 "%0NV12 src/dst supported for device @%10!p!? %11!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+pDev, ItemPtr -- 10
+fNV12SrcDstSupport ? 'Yes' : 'No', ItemString -- 11
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp396 23 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp406 24 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp420 25 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp449 26 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp463 27 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp47 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp484 28 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp498 29 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp508 30 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp522 31 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp531 32 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp545 33 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp558 34 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp572 35 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp591 36 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp605 37 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp623 38 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp644 39 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp653 40 "%0@%10!p! CopyResource and Map done" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp662 41 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+6083a081-aef8-356b-b352-789929f5604c lib // SRC=d3d11ipcore.cpp MJ= MN=
+#typev d3d11ipcore_cpp82 12 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+62d88404-fe45-3259-1441-ded57e5dbffb lib // SRC=VideoStabilizationEffectEnabledChangedEventArgs.cpp MJ= MN=
+#typev VideoStabilizationEffectEnabledChangedEventArgs_cpp23 10 "%0@%10!p! created" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+62d88404-fe45-3259-1441-ded57e5dbffb lib // SRC=VideoStabilizationEffectEnabledChangedEventArgs.cpp MJ= MN=
+#typev VideoStabilizationEffectEnabledChangedEventArgs_cpp28 11 "%0@%10!p! destroyed" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+62d88404-fe45-3259-1441-ded57e5dbffb lib // SRC=VideoStabilizationEffectEnabledChangedEventArgs.cpp MJ= MN=
+#typev VideoStabilizationEffectEnabledChangedEventArgs_cpp36 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+62d88404-fe45-3259-1441-ded57e5dbffb lib // SRC=VideoStabilizationEffectEnabledChangedEventArgs.cpp MJ= MN=
+#typev VideoStabilizationEffectEnabledChangedEventArgs_cpp49 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1053 36 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1088 37 "%0@%10!p! drop MF_MT_SAMPLE_SIZE attribute" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1113 38 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1152 39 "%0@%10!p! drop MF_MT_SAMPLE_SIZE attribute" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1155 40 "%0@%10!p! dwTypeIndex = %11!d!, returning the cropped media type" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+dwTypeIndex, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1159 41 "%0@%10!p! dwTypeIndex = %11!d!, returning the same media type as input" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+dwTypeIndex, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1165 42 "%0@%10!p! dwTypeIndex = %11!d!,  returning no more types" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+dwTypeIndex, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1242 43 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1312 44 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1334 45 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1374 46 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1440 47 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1474 48 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1540 49 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1547 50 "%0@%10!p! MFT_MESSAGE_COMMAND_FLUSH received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1553 51 "%0@%10!p! MFT_MESSAGE_COMMAND_DRAIN received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1561 52 "%0@%10!p! MFT_MESSAGE_SET_D3D_MANAGER received and ulParam is not null" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1593 53 "%0@%10!p! D3D11WarperCreated: %11!d!, DxAcceleratedPath: %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_D3D11warper.IsCreated(), ItemLong -- 11
+m_fDxAcceleratedPath, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1605 54 "%0@%10!p! MFT_MESSAGE_SET_D3D_MANAGER received, but ulParam is null" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1612 55 "%0@%10!p! MFT_MESSAGE_NOTIFY_BEGIN_STREAMING received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1617 56 "%0@%10!p! MFT_MESSAGE_NOTIFY_END_STREAMING received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1626 57 "%0@%10!p! m_fEffectEnabled state changed during streaming, updated m_fHardwareVSEnabled to match the new state" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1632 58 "%0@%10!p! MFT_MESSAGE_NOTIFY_END_OF_STREAM received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1635 59 "%0@%10!p! MFT_MESSAGE_NOTIFY_START_OF_STREAM received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1639 60 "%0@%10!p! Unhandled message %11!d! received" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+eMessage, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp169 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp181 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp1926 61 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp200 12 "%0@%10!p! Effect.Enabled: %11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_fEffectEnabled, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2001 62 "%0@%10!p! DX cropping" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2005 63 "%0@%10!p! Sample allocator not initialized" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2014 64 "%0@%10!p! pass the input pointer" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2020 65 "%0@%10!p! software cropping" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2033 66 "%0@%10!p! DX downsizing" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2037 67 "%0@%10!p! Sample allocator not initialized" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2045 68 "%0@%10!p! software downsizing" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2051 69 "%0@%10!p! pass the input pointer" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp208 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2103 70 "%0@%10!p! outputavailable" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp211 14 "%0@%10!p! Effect.Enabled: %11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+*value, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2114 71 "%0@%10!p! Sample allocator not initialized" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2186 72 "%0@%10!p! IntQM: %11!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+fUpdateQMStatistics ? 'on' : 'off', ItemString -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2200 73 "%0@%10!p! IntQM:  %11!I64d! measured roundtrip=0 internal=%12!I64d! (tmn=%13!I64d!)" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_uiLatencyArray[t].QuadPart, ItemLongLong -- 11
+end.QuadPart - start.QuadPart, ItemLongLong -- 12
+latencyT_minus_n, ItemLongLong -- 13
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2206 74 "%0@%10!p! IntQM:  %11!I64d! (%12!d! FPS) average rate (%13!I64d! target (%14!d! FPS))" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_uiCurrentAverageLatency.QuadPart, ItemLongLong -- 11
+(int)(m_uiCountFrequency.QuadPart / (1 + m_uiCurrentAverageLatency.QuadPart)), ItemLong -- 12
+m_uiMaxLatencyInTicks, ItemLongLong -- 13
+(int)(m_uiCountFrequency.QuadPart / m_uiMaxLatencyInTicks), ItemLong -- 14
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp221 15 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp222 16 "%0@%10!p! Entered" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2232 75 "%0@%10!p! %11!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_eQualityLevel == MF_QUALITY_NORMAL ? 'MF_QUALITY_NORMAL' : 'MF_QUALITY_NORMAL_MINUS_1', ItemString -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2236 76 "%0@%10!p! IntQM triggered." //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2280 77 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2297 78 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2305 79 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2328 80 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2420 81 "%0@%10!p! Updated encoding properties has FRAME_SIZE (%11!u!, %12!u!)" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiWidth, ItemLong -- 11
+uiHeight, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2450 82 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2484 83 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2506 84 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2515 85 "%0@%10!p! Entering DecimateImage" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2518 86 "%0@%10!p! Exited DecimateImage" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2525 87 "%0@%10!p! Entering CopyResourceForGetImage" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2527 88 "%0@%10!p! Exited CopyResourceForGetImage" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2534 89 "%0@%10!p! Entering GetImageBits" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2537 90 "%0@%10!p! Exited GetImageBits" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2562 91 "%0@%10!p! ProcessInput2Internal started" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2578 92 "%0@%10!p! Path for lower resolutions where downsampling is not needed" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2616 93 "%0@%10!p! ProcessInput2Internal is done" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2622 94 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2632 95 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2633 96 "%0@%10!p! ProcessOutputInternal started" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2671 97 "%0@%10!p! ProcessOutputInternal is done" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2716 98 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2792 99 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2879 100 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2939 101 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp295 17 "%0@%10!p! Target frame-rate: %11!d!/%12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiTargetFrameRateNum, ItemLong -- 11
+uiTargetFrameRateDenom, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp297 18 "%0@%10!p! Starting evaluation of padded input candidates" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp2996 102 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3043 103 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3069 104 "%0@%10!p! IntQM no framerate set, using 30" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3092 105 "%0@%10!p! Output resolution is %11!d!, %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_uiOutputWidth, ItemLong -- 11
+m_uiOutputHeight, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3139 106 "%0@%10!p! Forcing passthrough due to quality event" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3188 107 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3249 108 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3299 109 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp336 19 "%0@%10!p! Number of padded input candidates for evaluation : %11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiSize, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3373 110 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3380 111 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3403 112 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3475 113 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp352 20 "%0@%10!p! Skipping candidate due to frame-rate mismatch. Candidate frame-rate: %11!d!/%12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiFrameRateNum, ItemLong -- 11
+uiFrameRateDenom, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3532 114 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp358 21 "%0@%10!p! Resolution(%11!d!, %12!d!) being evaluated as padded input" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiWidth, ItemLong -- 11
+uiHeight, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3639 115 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp365 22 "%0@%10!p! Skipping candidate due to high pixel-rate. Candidate frame-rate: %11!d!/%12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+uiFrameRateNum, ItemLong -- 11
+uiFrameRateDenom, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3708 116 "%0@%10!p! D3D11WarperCreated: %11!d!, DxAcceleratedPath: %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_D3D11warper.IsCreated(), ItemLong -- 11
+m_fDxAcceleratedPath, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3792 117 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3812 118 "%0@%10!p! MaxPixelsPerSecond registry value not found. Defaulting to %11!I64d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+qwMaxPixelsPerSecond, ItemLongLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3816 119 "%0@%10!p! MaxPixelsPerSecond registry value found and equal to %11!I64d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+qwMaxPixelsPerSecond, ItemLongLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3824 120 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3839 122 "%0@%10!p! KSPROPERTY_CAMERACONTROL_EXTENDED_VIDEOSTABILIZATION must support ON" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3849 123 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3860 124 "%0@%10!p! Hardware video stabilization is on" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3867 125 "%0@%10!p! Hardware video stabilization is off" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3917 126 "%0@%10!p! MF_MT_FRAME_RATE not found on input media type. Assuming 30fps" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3921 127 "%0@%10!p! CurrentPixelsPerSecond evaluated to %11!I64d!, width: %12!d!, height: %13!d!, frame-rate:%14!d!/%15!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+qwCurrentPixelsPerSecond, ItemLongLong -- 11
+m_uiWidth, ItemLong -- 12
+m_uiHeight, ItemLong -- 13
+uiInputFrameRateNum, ItemLong -- 14
+uiInputFrameRateDenom, ItemLong -- 15
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3936 128 "%0@%10!p! Forcing passthrough since pixels per second is above limit" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3952 129 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3965 130 "%0@%10!p! MFVideoDSPMode set to %11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_eVideoDSPMode, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp3986 131 "%0@%10!p! MFVideoDSPMode set to %11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_eVideoDSPMode, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4010 132 "%0@%10!p! SetModeQM registry value not found. Allowing QM" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4021 133 "%0@%10!p! IntQM failed to calculate average time per frame, using 30" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4024 134 "%0@%10!p! IntQM init: max=%11!I64d! tickspersec=%12!I64d! framerate=%13!d!:%14!d! duration=%15!I64d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_uiMaxLatencyInTicks, ItemLongLong -- 11
+m_uiCountFrequency.QuadPart, ItemLongLong -- 12
+m_uiFrameRateNum, ItemLong -- 13
+m_uiFrameRateDenom, ItemLong -- 14
+averageTimePerFrame, ItemLongLong -- 15
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4047 135 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4079 136 "%0@%10!p! Flushing" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4093 137 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4154 138 "%0@%10!p! Input resolution is %11!d!, %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_uiWidth, ItemLong -- 11
+m_uiHeight, ItemLong -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4273 139 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4277 140 "%0@%10!p! GUID %11!08X!-%12!04X!-%13!04X!-%14!02X!%15!02X!-%16!02X!%17!02X!%18!02X!%19!02X!%20!02X!%21!02X! present = %22!x!, value : %23!d!,%24!d!,%25!d!,%26!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+guid.Data1, ItemLong -- 11
+guid.Data2, ItemShort -- 12
+guid.Data3, ItemShort -- 13
+guid.Data4[0], ItemLong -- 14
+guid.Data4[1], ItemLong -- 15
+guid.Data4[2], ItemLong -- 16
+guid.Data4[3], ItemLong -- 17
+guid.Data4[4], ItemLong -- 18
+guid.Data4[5], ItemLong -- 19
+guid.Data4[6], ItemLong -- 20
+guid.Data4[7], ItemLong -- 21
+hr, ItemLong -- 22
+AreaOriginal.OffsetX.value, ItemLong -- 23
+AreaOriginal.OffsetY.value, ItemLong -- 24
+AreaOriginal.Area.cx, ItemLong -- 25
+AreaOriginal.Area.cy, ItemLong -- 26
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4313 141 "%0@%10!p! Configured Aperture %11!08X!-%12!04X!-%13!04X!-%14!02X!%15!02X!-%16!02X!%17!02X!%18!02X!%19!02X!%20!02X!%21!02X!: %22!d!,%23!d!,%24!d!,%25!d! input: %26!d!,%27!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+guid.Data1, ItemLong -- 11
+guid.Data2, ItemShort -- 12
+guid.Data3, ItemShort -- 13
+guid.Data4[0], ItemLong -- 14
+guid.Data4[1], ItemLong -- 15
+guid.Data4[2], ItemLong -- 16
+guid.Data4[3], ItemLong -- 17
+guid.Data4[4], ItemLong -- 18
+guid.Data4[5], ItemLong -- 19
+guid.Data4[6], ItemLong -- 20
+guid.Data4[7], ItemLong -- 21
+area.OffsetX.value, ItemLong -- 22
+area.OffsetY.value, ItemLong -- 23
+area.Area.cx, ItemLong -- 24
+area.Area.cy, ItemLong -- 25
+uiWidth, ItemLong -- 26
+uiHeight, ItemLong -- 27
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4333 142 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4345 143 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4359 144 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4369 145 "%0@%10!p! REG_VALUE_IGNORE_DRIVER_IMPLEMENTATION registry value not found" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4375 146 "%0@%10!p! regKey Forcing software VS" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4387 147 "%0@%10!p! Stream type is not MediaStreamType_VideoRecord, do not enable hardware VS" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4393 148 "%0@%10!p! hardware VS is supported" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4403 149 "%0@%10!p! Something went wrong when enabling hardware VS" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4422 150 "%0@%10!p! ResetInternalQM done" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4428 151 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4452 152 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4469 153 "%0@0x%10!p! failed %11!s!" //   CHECKHRGOTO_EXP=RtwqSetLongRunning(m_dwWorkQueueID, TRUE) LABEL=done
+{
+__pThis, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4474 154 "%0@%10!p! Exit with hr=0x%11!x!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4483 155 "%0@0x%10!p! failed %11!s!" //   CHECKHRGOTO_EXP=RtwqSetLongRunning(m_dwWorkQueueID, FALSE) LABEL=done
+{
+__pThis, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4488 156 "%0@%10!p! Exit with hr=0x%11!x!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4499 157 "%0@0x%10!p! failed %11!s!" //   CHECKHRGOTO_EXP=RtwqSetDeadline(m_dwWorkQueueID, llDeadlineInHns, &hNewDeadline) LABEL=done
+{
+__pThis, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4502 158 "%0@0x%10!p! failed %11!s!" //   CHECKHRGOTO_EXP=hr LABEL=done
+{
+__pThis, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4506 159 "%0@%10!p! Exit with hr=0x%11!x!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4515 160 "%0@0x%10!p! failed %11!s!" //   CHECKHRGOTO_EXP=RtwqCancelDeadline(m_hDeadline) LABEL=done
+{
+__pThis, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4520 161 "%0@%10!p! Exit with hr=0x%11!x!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4590 162 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4616 163 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4627 164 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4638 165 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4651 166 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4663 167 "%0@%10!p! Quality level is set to MF_QUALITY_NORMAL_MINUS_1 due to quality event" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp470 23 "%0@%10!p! PaddedInputType: %11!d!, PaddedInputWidth: %12!d!, PaddedInputHeight: %13!d!, TargetWidth: %14!d!, TargetHeight: %15!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+ePaddedInputType, ItemLong -- 11
+uiPaddedInputWidth, ItemLong -- 12
+uiPaddedInputHeight, ItemLong -- 13
+uiTargetWidth, ItemLong -- 14
+uiTargetHeight, ItemLong -- 15
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4705 168 "%0@%10!p! Lowering quality level due to quality event.Sample lag" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp4713 169 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp489 24 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp501 25 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp631 26 "%0@%10!p! Video Stabilization MFT created" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp650 27 "%0@%10!p! Video Stabilization MFT destroyed" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp704 28 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp757 29 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp788 30 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp838 31 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp889 32 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp932 33 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp962 34 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+68bca301-6e8e-361c-2dda-9fe600000657 lib // SRC=VideoStabilization.cpp MJ= MN=
+#typev VideoStabilization_cpp994 35 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp244 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp252 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp286 14 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp329 15 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp344 16 "%0@%10!p! Source or render target is not NV12 format" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp35 10 "%0@%10!p! Deallocate called" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp502 17 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp545 18 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp666 23 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp669 24 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp765 25 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp82 11 "%0@%10!p! device is not set" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+}
+
+88b6b6e6-c670-3f1c-3f36-eb297168a9ad lib // SRC=d3d11warp.cpp MJ= MN=
+#typev d3d11warp_cpp907 26 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+a4b3e94f-dcba-317e-7c94-50a1c1e29643 lib // SRC=VideoStabilizationEffectDefinition.cpp MJ= MN=
+#typev VideoStabilizationEffectDefinition_cpp27 10 "%0@%10!p! created" //   FLAGS=DH_THIS_FILE LEVEL=TP_SCOPE_TRACE
+{
+this, ItemPtr -- 10
+}
+
+a4b3e94f-dcba-317e-7c94-50a1c1e29643 lib // SRC=VideoStabilizationEffectDefinition.cpp MJ= MN=
+#typev VideoStabilizationEffectDefinition_cpp32 11 "%0@%10!p! destroyed" //   FLAGS=DH_THIS_FILE LEVEL=TP_SCOPE_TRACE
+{
+this, ItemPtr -- 10
+}
+
+a4b3e94f-dcba-317e-7c94-50a1c1e29643 lib // SRC=VideoStabilizationEffectDefinition.cpp MJ= MN=
+#typev VideoStabilizationEffectDefinition_cpp42 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+a4b3e94f-dcba-317e-7c94-50a1c1e29643 lib // SRC=VideoStabilizationEffectDefinition.cpp MJ= MN=
+#typev VideoStabilizationEffectDefinition_cpp57 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+a4b3e94f-dcba-317e-7c94-50a1c1e29643 lib // SRC=VideoStabilizationEffectDefinition.cpp MJ= MN=
+#typev VideoStabilizationEffectDefinition_cpp68 14 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+

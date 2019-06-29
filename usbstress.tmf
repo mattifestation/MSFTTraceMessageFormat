@@ -1,0 +1,1398 @@
+246acb91-10a9-3eb1-a20d-efb7b52705f0 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device %10!d!: WdfUsbTargetDeviceRetrieveConfigDescriptor failed when query required buffer sizee %11!x!" //   IFRLOG=pDeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+246acb91-10a9-3eb1-a20d-efb7b52705f0 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: WdfMemoryCreate for size %11!d! failed: 0x%12!x!" //   IFRLOG=pDeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+246acb91-10a9-3eb1-a20d-efb7b52705f0 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfUsbTargetDeviceRetrieveConfigDescriptor failed with Status code %11!x!" //   IFRLOG=pDeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to open DisableTest registry key: %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_START
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfDeviceAllocAndQueryProperty failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: USBD_CreateHandle failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: Invoking PrepareHardware from AddDevice" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: DeviceRemove (Pass, Fail) Reenumerate %11!d!,%12!d! ResetPort %13!d!,%14!d! CyclePort %15!d!,%16!d! ResetControllerCount %17!d!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: WdfUsbTargetDeviceCreate failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device %10!d!: StressSelectDeSelectInterfaces failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device %10!d!: WdfUsbTargetDeviceCreateWithParameters failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device %10!d!: GetStackCapabilities failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device %10!d!: GetControllerType failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Device %10!d!: AllocateResourcesForIoTest failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Device %10!d!: ConfigureContReaderForInterruptEndPoint failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device %10!d!: D0Entry from %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device %10!d!: D0Exit to %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Device %10!d!: WdfUsbTargetDeviceSelectConfig failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device %10!d!: AlternateSetting %11!d! of %12!d! selected" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device %10!d!: WdfUsbInterfaceSelectSetting failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device %10!d!: GetStackCapabilities failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device %10!d!: InitializePipeStreamsContextForBulkPipe failed for read pipe %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Device %10!d!: InitializePipeStreamsContextForBulkPipe failed for write pipe %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device %10!d! does not have any isoch endpoint %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Device %10!d! does not have any bulk endpoint %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device %10!d! does not have any bulk streams endpoint %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Device %10!d! does not have any interrupt endpoint %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device %10!d!: WdfUsbTargetDeviceSelectConfig deconfigure failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Device %10!d!: WdfUsbTargetDeviceCreateWithParameters failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Device %10!d!: SelectInterfaces failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Device %10!d!: DeSelectInterfaces returned STATUS_NO_SUCH_DEVICE" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Device %10!d!: DeSelectInterfaces failed in StressSelectDeSelectInterfaces %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Query %10!s! registry key failed %11!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Device %10!d!: Query %11!s! registry key failed %12!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Open Parameters registry key failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Device %10!d!: Open Parameters registry key failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Device %10!d!: BulkRWTest: %11!s!, BulkStreamsRWTest: %12!s!, IsochTest: %13!s!, CancelTest: %14!s!, InterruptTest:%15!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemString -- 13
+Arg, ItemString -- 14
+Arg, ItemString -- 15
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Device %10!d!: ReenumerationTest: %11!s!, ReenumerationFailTest: %12!s!, ResetPort: %13!s!, CyclePortTest: %14!s!, ResetController: %15!s!, SuspendResumeTest: %16!s!, RoleSwitchTest: %17!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemString -- 13
+Arg, ItemString -- 14
+Arg, ItemString -- 15
+Arg, ItemString -- 16
+Arg, ItemString -- 17
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Device %10!d!: WdfUsbTargetDeviceQueryUsbCapability failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Device %10!d!: USBD_QueryUsbCapability failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Device %10!d!: usbBusInterface.QueryControllerType failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Device %10!d!: WdfFdoQueryForInterface failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Device %10!d!: USBD_ParseConfigurationDescriptorEx failed to retrieve Interface Descriptor." //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Device %10!d!: USBD_ParseDescriptors failed to retrieve SuperSpeed Endpoint Descriptor unexpectedly" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Device %10!d!: USBD_ParseDescriptors failed to retrieve SuperSpeed Endpoint Companion Descriptor unexpectedly" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Device %10!d!: pEndpointCompanionDescriptor is invalid (NULL) " //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Device %10!d!: SuperSpeed isochronouse endpoints's wBytesPerInterval value (%11!d!) is greater than wMaxPacketSize * (bMaxBurst+1) * (Mult +1) (%12!d!) " //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Device %10!d!: SuperSpeed isochronouse endpoints must have wMaxPacketSize value of %11!d! bytes when bMaxpBurst is %12!d! " //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Device %10!d!: SuperSpeed isochronouse endpoints must have wMaxPacketSize value no more than %11!d! bytes when bMaxpBurst is %12!d! " //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Device %10!d!: bInterval value in pipeInfo is invalid (0 or > 4)" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Device %10!d!: ERROR: MaximumPacketSize of 0 in the pipe info is invalid" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Device %10!d!: ERROR: MaximumPacketSize of %11!d! in the pipe info is invalid (must be <= (1024*3))" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Device %10!d!: ERROR: bInterval value of %11!d! in the pipe info is invalid (must be 1, 2, 3 or 4)" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Device %10!d!: ERROR: MaximumPacketSize of 0 in the endpoint descriptor is invalid" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Device %10!d!: ERROR: MaximumPacketSize of %11!d! in the endpoint descriptor is invalid (must be > 1023)" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Device %10!d!: ERROR: bInterval value of %11!d! in endpoint descriptor is invalid (must be 1)" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to create recorder log for device %10!d!, so using default log. (status %11!s!)" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Device %10!d!: 3.0 Stack Supported Features:" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Device %10!d!:Legacy Stack Supported Features:" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Asmedia" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ChainedMdl" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0FunctionSuspend" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0SelectiveSuspend" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0SuperSpeed" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0HighSpeed" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0FullSpeed" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0LowSpeed" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Device %10!d!: EvtDeviceWakeFromS0Triggered was called" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+2bc75323-4201-31bc-fe78-e5da0d6dded2 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Device %10!d!: EvtDeviceWakeFromSxTriggered was called" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+511ca1e6-07e5-37aa-60d8-af27c88a84d8 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Change FX3 PID " //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+}
+
+511ca1e6-07e5-37aa-60d8-af27c88a84d8 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: Failed to switch FX3 PID %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+511ca1e6-07e5-37aa-60d8-af27c88a84d8 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: Failed to get device descriptor %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+511ca1e6-07e5-37aa-60d8-af27c88a84d8 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: Setting Device PID to 0x%11!x!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+511ca1e6-07e5-37aa-60d8-af27c88a84d8 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: Failed to set device's PID %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device %10!d!: WdfDeviceAssignS0IdleSettings failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: WdfDeviceAssignSxWakeSettings failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfUsbTargetDeviceRetrieveInformation failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: IsDeviceRemoteWakeable: %11!s!," //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: IdlePolicy is IdleUsbSelectiveSuspend" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: IdlePolicy is IdleCanWakeFromS0" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device %10!d!: IdlePolicy is IdleCannotWakeFromS0" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: WdfTimerCreate (Suspend/Resume) failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device %10!d!: WdfDeviceStopIdle failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8d74572a-771e-344d-11d5-c303bebd3a55 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device %10!d!: WdfDeviceSetPowerPolicyS0IdlePolicy failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: This device is NOT an onboard control MUTT (%11!s!)" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: This device IS an onboard control MUTT" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: SetDeviceToSinkSourceOrLoopback failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: GetExposedPortPowerStatus failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device %10!d!: GetExposedPortOverCurrentStatus failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: StallGetConfigDescriptor with timeout %11!I64d!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device %10!d!: StallGetConfigDescriptor failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device %10!d!: Set overcurrent" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device %10!d!: Clear overcurrent" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device %10!d!: SetClearOverCurrentOnExposedPort failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device %10!d!: ResetHub failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Device %10!d!: PowerOffExposedPort" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Device %10!d!: PowerOnExposedPort" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device %10!d!: PowerOnOffExposedPort failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device %10!d!: Set device as full Speed Isoch Device" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device %10!d!: Set device as high Speed Isoch Device" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device %10!d!: ERROR: Command used to set device isoch speed is invalid: %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_USBFX2_COMMANDS) -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device %10!d!: SetDeviceIsochSpeed command %11!s! failed %12!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_USBFX2_COMMANDS) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Device %10!d!: SetDeviceRemoteWakeTimer: time = %11!d! ms" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device %10!d!: SetDeviceRemoteWakeTimer failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Device %10!d!: DisconnectAfterSuspend called with wait time = %11!d! ms" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device %10!d!: DisconnectAfterSuspend failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Device %10!d!: StallControlTransferModN: %11!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+90a6c065-6ce0-3939-c120-9ac0607e4c6d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device %10!d!: StallControlTransferModN failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+921f761d-4e25-3f2d-3ba4-c6a9ace182e7 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device %10!d!: ACTION_RESET_USING_VENDOR_COMMAND failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+921f761d-4e25-3f2d-3ba4-c6a9ace182e7 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: ACTION_RESET_USING_VENDOR_COMMAND succeeded %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+921f761d-4e25-3f2d-3ba4-c6a9ace182e7 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfTimerCreate (EnumerateFailTest) failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device %10!d!: No SRAM Status Data Available. %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: Last Host Test Status: Fail Count: %11!d!, Host Acknowledge: %12!d!, Corrupted Input: %13!d!, Timeout: %14!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfUsbTargetDeviceSendControlTransferSynchronously failed to set host params with status %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: WdfUsbTargetDeviceSendControlTransferSynchronously failed to add action with status %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: WdfUsbTargetDeviceSendControlTransferSynchronously failed to switch host mode with status %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: ACTION_DR_HOST_SWITCH_USING_VENDOR_COMMAND failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device %10!d!: ACTION_DR_HOST_SWITCH_USING_VENDOR_COMMAND succeeded %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c4214d53-4319-36c3-adcb-b4f48c11570c usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: WdfTimerCreate (Dual-Role Switch) failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device %10!d!: WdfObjectAllocateContext failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: WdfCollectionCreate(RequestSendCollection) failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: WdfCollectionCreate(RequestCompletedCollection) failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: WdfCollectionCreate(RequestCancellationCollection) failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: WdfSpinLockCreate failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: WdfRequestCreate failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device %10!d!: Code chose invalid length %11!d!. Failing with status %12!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: WdfMemoryCreate for length %11!d! failed: %12!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device %10!d!: WdfUsbTargetDeviceCreateUrb failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device %10!d!: AllocateMdls failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device %10!d!: AllocateIsochMdls failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device %10!d!: WdfCollectionAdd failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device %10!d!: TimerForPostingReadRequests WdfTimerCreate failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Device %10!d!: TimerForPostingWriteRequests WdfTimerCreate failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Device %10!d!: TimerForCancellingRequests WdfTimerCreate failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device %10!d!: ERROR: Missing Requests: totalRequests = %11!d!, PreAllocated = %12!d!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device %10!d!:WdfIoTargetStart failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Device %10!d!: ERROR: The transferLength value must be multiples of %11!d! (must evenly start and end on whole frame boundaries)" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device %10!d!: ERROR: NumberOfPackets %11!d! required to transfer exceeds the limit %12!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device %10!d!: ERROR: NumberOfPackets %11!d! required to transfer exceeds the limit %12!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device %10!d!: ERROR: NumberOfPackets %11!d! required to transfer exceeds the limit %12!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device %10!d!: WdfUsbTargetDeviceCreateIsochUrb or WdfMemoryCreate failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Device %10!d!: Failed to get frame number urb %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Device %10!d!: Failed to format request for urb %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device %10!d!: deleting preallocated request %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Device %10!d!: WdfIoTargetFormatRequest failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device %10!d!: deleting preallocated request failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Device %10!d!: WdfRequestSend failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Device %10!d!: Took more than 5 secs to complete a cancelled request: %11!I64d! milliseconds" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Device %10!d!: IsoPacket[%11!d!].Length = %12!d! IsoPacket[%13!d!].Status = %14!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Device %10!d!: ReqContext 0x%11!p! 0x%12!x! - 0x%13!x!, %14!s! - %15!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemString -- 14
+Arg, ItemString -- 15
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Device %10!d!: Write buffer is overwritten " //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Device %10!d!: Transfered more than I asked for..What! " //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Device %10!d!: Data read from the device doesn't match write pattern " //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Device %10!d!: Unfilled portion of the read buffer is corrupt " //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Device %10!d!: InterruptPipe WdfIoTargetStart failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Device %10!d!: Error: Device doesn't have interrupt endpoint" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Device %10!d!: ConfigureContReaderForInterruptEndPoint failed %11!s!" //   IFRLOG=DeviceContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Zero length read occurred on the Interrupt Pipe's Continuous Reader" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Device %10!d!: Failed to WdfUsbTargetDeviceFormatRequestForControlTransfer - %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Device %10!d!: WdfUsbTargetDeviceFormatRequestForUrb failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Device %10!d!: ERROR: Io is stuck ++++" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Device %10!d!: Success/Failure BulkRead(%11!d!/%12!d!), BulkWrite(%13!d!/%14!d!), StreamsRead(%15!d!/%16!d!), StreamsWrite(%17!d!/%18!d!), IsochRead(%19!d!/%20!d!), IsochWrite(%21!d!/%22!d!),Control(%23!d!/%24!d!), String(%25!d!/%26!d!), Abort(%27!d!/%28!d!)" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_START
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+Arg, ItemLong -- 21
+Arg, ItemLong -- 22
+Arg, ItemLong -- 23
+Arg, ItemLong -- 24
+Arg, ItemLong -- 25
+Arg, ItemLong -- 26
+Arg, ItemLong -- 27
+Arg, ItemLong -- 28
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Device %10!d!: Bulk (bytesRead %11!I64d!, bytesWritten %12!I64d!), Streams (bytesRead %13!I64d!, bytesWritten %14!I64d!), ISOCH (bytesRead %15!I64d!, bytesWritten %16!I64d!)" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_START
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLongLong -- 13
+Arg, ItemLongLong -- 14
+Arg, ItemLongLong -- 15
+Arg, ItemLongLong -- 16
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Device %10!d!: Total USBD Errors: %11!d!, Total NTSTATUS errors: %12!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_START
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Device %10!d!: Isoch USBD Errors (ZERO %11!d!, Other %12!d!, FFFFFFFF %13!d!, NotAccessedLate %14!d!, XACT %15!d!, NotAccessedByHW %16!d!, BabbleDetected %17!d! BadStartFrame %18!d!, NoAccessed %19!d! InterfaceNotFound %20!d! DevNotResponding %21!d!, NoLateUsbPort %22!d! BufferOverrun %23!d! IsochRequestFailed %24!d!, InvalidStreamType %25!d!, IsoTDError %26!d!, NoPingResponse %27!d!, InvalidStreamID %28!d!, InvalidParameter %29!d!)" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_START
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+Arg, ItemLong -- 21
+Arg, ItemLong -- 22
+Arg, ItemLong -- 23
+Arg, ItemLong -- 24
+Arg, ItemLong -- 25
+Arg, ItemLong -- 26
+Arg, ItemLong -- 27
+Arg, ItemLong -- 28
+Arg, ItemLong -- 29
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Device %10!d!: Pending:  BulkRead %11!d!, BulkWrite %12!d!, StreamsRead %13!d!, StreamsWrite %14!d!, IsochRead %15!d!, IsochWrite %16!d!, Control %17!d!, Abort %18!d!, String %19!d!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_START
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Device %10!d!: AllocateIsochMdls - ExAllocatePoolWithTag failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Device %10!d!: AllocateIsochMdls - IoAllocateMdl failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ce235ae9-7bfc-30cf-1329-ab7f015a338d usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Device %10!d!: AllocateIsochMdls - MmProbeAndLockPages failed with status %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!d!: WdfTimerCreate (Suspend/Resume) failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!d!: ACTION_RESET_USING_VENDOR_COMMAND failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!d!: ACTION_RESET_USING_VENDOR_COMMAND succeeded %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device %10!d!: WdfTimerCreate (ResetPort/CyclePort) failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device %10!d!: CyclePortResetPortTest not started because test is not enabled" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device %10!d!: CyclePortResetPortTest started with timeout %11!I64d! ms" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device %10!d!: ACTION_RESET_PORT failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device %10!d!: ACTION_RESET_PORT succeeded %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device %10!d!: ACTION_CYCLE_PORT (%11!d!) failed %12!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device %10!d!: ACTION_CYCLE_PORT (%11!d!) succeeded %12!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0RtlUnicodeStringPrintf failed %10!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfIoTargetCreate failed %10!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfIoTargetAllocAndQueryTargetProperty failed %10!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfMemoryGetBuffer failed" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device %10!d!: WdfRequestCreate failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device %10!d!: WdfIoTargetFormatRequestForInternalIoctl failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Controller: %10!s! PDO: 0x%11!p!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device %10!d!: WdfRequestSend failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device %10!d!: DeSelectInterfaces failed in EvtCyclePortResetPortTest %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device %10!d!: SelectInterfaces failed %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device %10!d!: ResetPipe request 0x%11!p! failed %12!s! %13!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Device %10!d!: ResetPipe succeeded %11!s!" //   IFRLOG=pDevContext->DebugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device %10!d!: WdfRequestCreate failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Device %10!d!: WdfUsbTargetPipeFormatRequestForReset failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+dd5f097b-1136-3953-f075-6249f1606c60 usbstress // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device %10!d!: Reset Pipe Async request failed %11!s!" //   IFRLOG=DevContext->DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_RUN
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+

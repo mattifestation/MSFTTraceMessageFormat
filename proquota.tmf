@@ -1,0 +1,326 @@
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ProQuota already running." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Proquota couldn't get ProQuota dlg event. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ProQuota is disabled by configuration." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0InitializeCriticalSectionAndSpinCount failed. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0InitializeCriticalSectionAndSpinCount threw an exception." //   LEVEL=PublicError
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to register "proquota" class. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create main window. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create exit event. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create thread. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to load OK icon. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to load Warning icon. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to load stop icon. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to setup file change notification. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to open policy registry key. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to setup event for change notification. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to register for GP notification. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to enumerate profile with quota dialog handle." //   LEVEL=PublicError
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to enumerate profile without quota dialog handle." //   LEVEL=PublicError
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0User has exceeded their profile quota." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0User is within 10%% of their profile quota." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Insufficient buffer for message. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Failed to allocate memory. error %10!d!." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to allocate memory. error %10!d!." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to get size of message with expanded environment variables. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to expand environment variables. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to allocate memory. Not expanding environment variables. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Profile quotas are enabled." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Max Profile Size: %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Show registry in file list: %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Warn user when quota exceeded: %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0User warning reminder timeout: %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to read quota message." //   LEVEL=PublicError
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Profile quotas are DISABLED." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to query EnableProfileQuota from registry. error %10!d!." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to open policy key. error %10!d!." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0FindFirstFile for <%10!s!> failed. error %11!d!." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Found a reparse point <%10!s!>, skip it." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0lpTemp exceded STRSAFE_MAX_CCH in length. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Skipping <%10!s!> due to exclusion list." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Skipping <%10!s!> due to error." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0File name exceded STRSAFE_MAX_CCH in length. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0SHGetFileInfo failed. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0SHGetFileInfo failed. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Failed to query exclusion list from policy setting or it's empty. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Failed to query exclusion list from user setting or it's empty. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Both policy and user exclusion list are empty." //   LEVEL=Public
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Policy list is empty, returning user list = <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0User list is empty, returning policy list = <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0User list = <%10!s!>, Policy list = <%11!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0StringCchLength failed on policy list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0StringCchLength failed on user list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Failed to allocate memory for the merged list." //   LEVEL=PublicError
+{
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Failed to copy user list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to get length of merged list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to append policy list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+a8bb52e6-3d38-3385-5d49-391ae9671e72 proquota // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Merged list = <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+

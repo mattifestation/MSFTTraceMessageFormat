@@ -1,0 +1,1249 @@
+01bfb725-1974-39e3-351a-6e0884b7cd4a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0AddDevice to PDO %10!p!" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+01bfb725-1974-39e3-351a-6e0884b7cd4a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to attach device to stack. PDO: %10!p!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+01bfb725-1974-39e3-351a-6e0884b7cd4a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AddDevice (new bus %10!p! is child of bus 0x%11!x!)." //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+01bfb725-1974-39e3-351a-6e0884b7cd4a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PciCreateControlDevice failed - %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e4370c0-1013-3503-54df-7d4a4be00934 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0(%10!x!:%11!x!) %12!s!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0BIOS supplied LTR values for downstream port (%10!x!:%11!x!) but the port doesn't claim support" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0(%10!x!:%11!x!) BIOS left OBFF hardware set to: %12!s!" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_EXPRESS_PORT_OBFF_CONTROL) -- 12
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0BIOS said use wake# for OBFF" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0(%10!x!:%11!x!) %12!s! hw:%13!s! sw:%14!s!" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_EXPRESS_PORT_OBFF_SUPPORT) -- 12
+Arg, ItemEnum(_EXPRESS_PORT_OBFF_CONTROL) -- 13
+Arg, ItemEnum(_EXPRESS_PORT_OBFF_CONTROL) -- 14
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0(%10!x!:%11!x!) Turning off OBFF when it was left on for some reason" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+1f05db90-4b01-38c1-1862-52af48ffcb15 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0(%10!x!:%11!x!) Turning off OBFF" //   IFRLOG=ExpressPort->Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Request to begin transition of Extension %10!p! to %11!s!" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR trying to enter %10!s! from %11!s!" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Illegal request to try to enter %10!s! from state %11!s!, rejecting" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0-> %10!s!" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Commit transition of Extension %10!p! to %11!s!" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Request to cancel transition of Extension %10!p! to %11!s!" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0-> ST_NOTOK" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+2a3990fb-991b-371e-4961-f30496e34bbd driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0-> ST_OK" //   IFRLOG=blackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PciScanBus initiating" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Next slot: %10!d! - %11!x!:%12!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ARI is busted" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Current: %10!p!  Slot %11!x!:%12!x!  %13!s!  D3cold: %14!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 13
+Arg, ItemLong -- 14
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Skip check for device: (0x%10!x!.0x%11!x!.0x%12!x!) during ScanBus because it is in D3cold. IsThunderboltDevice=%13!s!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0empty slot" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid data read from device - skipping.Status: %10!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0device found in dev %10!x! func %11!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0already found" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0processing new device" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Old device (pdox) %10!p! not found" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PreviousDevice: %10!p! - %11!x!:%12!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Getting next function from ARI: %10!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Getting discontinguous function from multi-function device: %10!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Getting subsequent function from multi-function device: %10!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Attempting to reset a device (%10!x!:%11!x!)" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Attempting to reset a device (%10!x!:%11!x!) that shouldn't be disconnected" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Using Express FLR" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Using Conventional FLR" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Using Secondary Bus Reset" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+46d0c373-2fb4-3d5b-d87a-5f23684be99b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Bus numbers have been changed!  Restoring originals.Local: 0x%10!02x!, Register: 0x%11!02x!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+476bb1f9-53fd-3821-9f2d-0b7c7cab7b70 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PciReadDeviceConfigEx - (%10!x!,%11!x!,%12!x!) Offset[%13!x!] + length[%14!x!] > %15!x!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_CONFIG
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+476bb1f9-53fd-3821-9f2d-0b7c7cab7b70 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PciExternalReadDeviceConfig: %10!p! reading config space while in D3cold - offset: 0x%11!x! len: 0x%12!x!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+476bb1f9-53fd-3821-9f2d-0b7c7cab7b70 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PciExternalWriteDeviceConfig: %10!p! writing config space while in D3cold - offset: 0x%11!x! len: 0x%12!x!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+476bb1f9-53fd-3821-9f2d-0b7c7cab7b70 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PciExternalWriteDeviceConfig: %10!p! writing illegal range - offset: 0x%11!x! len: 0x%12!x!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_CONFIG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0(%10!x!:%11!x!) failed to set device resources %12!s!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0(%10!x!:%11!x!) ISA bit didn't stick" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0(%10!x!:%11!x!) cache line size non-sticky, not enabling MWI" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0(%10!x!:%11!x!) PciConnectDevice" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0(%10!x!:%11!x!) PciDisconnectDevice" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0(%10!x!:%11!x!) PciReconnectDevice" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4b7351d0-eb82-3f3d-36c5-d0c9cfd1af5a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0(%10!x!:%11!x!) resetting bridge" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[WARN]  Running out of bus number to assign for device (0x%10!02x!.0x%11!02x!.0x%12!02x!), Secondary=0x%13!02x!, MaxSubordinate=0x%14!02x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) windows: MemBase=0x%13!I64x!, MemLimit=0x%14!I64x!, PrefetchMemBase=0x%15!I64x! PrefetchMemLimit=0x%16!I64x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLongLongX -- 14
+Arg, ItemLongLongX -- 15
+Arg, ItemLongLongX -- 16
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) ADD extra MEMORY resources: 0x%13!I64x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[INFO]  Find child device (%10!02x!.%11!02x!.%12!02x!), HeaderType = %13!d!, Old PowerState = %14!d!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[INFO]  Scanning between 0x%10!x! and 0x%11!x!, starting at bus %12!p!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[ERROR] Bus number limit %10!d! < base %11!d! for bus %12!p!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[ERROR] Out of bus numbers for bus %10!p!." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ENUM
+{
+Arg, ItemPtr -- 10
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[ERROR] Out of memory." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ENUM
+{
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[VERB]  Bus (%10!d!) has saved IO resource: [Before alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[VERB]  Bus (%10!d!) has saved IO resource: [After alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[VERB]  Bus (%10!d!) has saved Memory resource: [Before alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0[VERB]  Bus (%10!d!) has saved Memory resource: [After alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[VERB]  Bus (%10!d!) has saved PrefetchMemory resource: [Before alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[VERB]  Bus (%10!d!) has saved PrefetchMemory resource: [After alignment] size=0x%11!I64x!, alignment=0x%12!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0[INFO]  Scan for BAR requirements for device (%10!02x!.%11!02x!.%12!02x!)." //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[INFO]  BAR %10!d!: type=0x%11!x!, flags=0x%12!x! [0x%13!I64x! - 0x%14!I64x!] size=0x%15!I64x!, alignment=0x%16!I64x!. Window size =0x%17!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLongLongX -- 14
+Arg, ItemLongLongX -- 15
+Arg, ItemLongLongX -- 16
+Arg, ItemLongLongX -- 17
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[INFO]  Updating bus 0x%10!x! ( 0x%11!p! ) to subordinate bus 0x%12!x!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[VERB]  Updating bus number hints for device OLD (0x%10!02x!.0x%11!02x!.0x%12!02x!) to NEW (0x%13!02x!.0x%14!02x!.0x%15!02x!), DeviceIgnored=%16!d!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[VERB]  Creating bus number hint for device (0x%10!02x!.0x%11!02x!.0x%12!02x!), DevicesPresent=%13!d!, SlotImplemented=%14!d!, HotplugCount=%15!d!, IsThunderBolt=%16!d!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[INFO]  Disconnected device: (%10!02x!.%11!02x!.%12!02x!), HeaderType = %13!d!, Command Saved = %14!x!, OnDebugPath = %15!d!." //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0[INFO]  Reconnected device: (%10!02x!.%11!02x!.%12!02x!), HeaderType = %13!d!, Command Restored = %14!x!." //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) compute extra resources: MemoryResources=0x%13!I64x!, MemoryRequirements=0x%14!I64x!, ExtraMemory=0x%15!I64x!, PrefetchResources=0x%16!I64x!, PrefetchRequirements=0x%17!I64x!, ExtraPrefetch=0x%18!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLongLongX -- 14
+Arg, ItemLongLongX -- 15
+Arg, ItemLongLongX -- 16
+Arg, ItemLongLongX -- 17
+Arg, ItemLongLongX -- 18
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) child (0x%13!02x!.0x%14!02x!.0x%15!02x!): DeviceIgnored: %16!d!, HotplugCount: %17!d!, HotplugCapable:%18!d!, SlotImplemented: %19!d!, IsThunderBolt: %20!d!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) assign extra resources to Child (0x%13!02x!.0x%14!02x!.0x%15!02x!): Child original requirements: Memory=0x%16!I64x!, Prefetch=0x%17!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLongLongX -- 16
+Arg, ItemLongLongX -- 17
+}
+
+51acb22a-99e6-3393-cabc-87ee3a706235 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[INFO]  Bridge (0x%10!02x!.0x%11!02x!.0x%12!02x!) assign extra resources to Child (0x%13!02x!.0x%14!02x!.0x%15!02x!): Child added requirements: ExtraMemory=0x%16!I64x!, ExtraPrefetch=0x%17!I64x!" //   IFRLOG=BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLongLongX -- 16
+Arg, ItemLongLongX -- 17
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0device is not started, current device state: %10!s!." //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 10
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0bus scan failed %10!s!" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Scan bus completed" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0QueryBusRelations" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0  PDO %10!p! (x %11!p!)" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0  PDO %10!p! (x %11!p!)  <Omitted, device flaged not present>" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+62bacb3c-8222-3cce-626f-e90164f4d350 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0  Total PDO count = 0x%10!x! (0x%11!x! already in list)" //   IFRLOG=bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+96dd6c7c-1ce5-3da2-3f3d-201eff305a04 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ACS failure because a non-express bridge was an ancestor" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+96dd6c7c-1ce5-3da2-3f3d-201eff305a04 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ACS failure because a downstream port didn't implement ACS" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+96dd6c7c-1ce5-3da2-3f3d-201eff305a04 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ACS failure because a root port didn't implement ACS" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+96dd6c7c-1ce5-3da2-3f3d-201eff305a04 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ACS failure because there was an ancestor was an E->X bridge or something similar" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+96dd6c7c-1ce5-3da2-3f3d-201eff305a04 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Caller requesting that undefined ACS bits be set: %10!04x!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+9a0b676c-65d4-368d-e8f5-99b2d38f90b7 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PPO
+{
+Arg, ItemEnum(_PCI_ROOT_PME_EVENTS) -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0(%10!x!): BusPowerUnregisterPep called" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PoFx says active" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PoFx says idle" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0(%10!x!): PoFx says to move to F-State %11!d!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0(%10!x!): PoFx says power required" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0(%10!x!): PoFx says power not required" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Queuing D0 IRP %10!p! for device (%11!x!:%12!x!)" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0(%10!x!): %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0(%10!x!): wait wake completed %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=NT_SUCCESS(IoStatus->Status) ? TRACE_LEVEL_INFORMATION : TRACE_LEVEL_WARNING FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PciBus_PowerReference for reason %10!d!, Current IRQL: %11!d!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PciBus_PowerReference on a NULL handle" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PciBus_PowerDereference for reason %10!d!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PciBus_PowerDereference on a NULL handle" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0(%10!x!): sending wait wake" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0(0x%10!p!): Release extra power reference on the parent for send WW" //   IFRLOG=Bus->ParentBus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0(0x%10!p!): Release extra power reference on the parent for cancel WW" //   IFRLOG=Bus->ParentBus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0(%10!x!): sending D0 IRP" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0(%10!x!): PoRequestPowerIrp %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0(%10!x!): Arming bus for wake even though the BIOS didn't supply wake objects.  Probably a faulty BIOS." //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0(%10!x!): => %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_BUS_POWER_EVENTS) -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_BUS_POWER_STATES) -- 11
+Arg, ItemEnum(_PCI_BUS_POWER_STATES) -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0(%10!x!): UNEXPECTED EVENT FOR STATE %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_BUS_POWER_STATES) -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_BUS_POWER_STATES) -- 11
+Arg, ItemEnum(_PCI_BUS_POWER_STATES) -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0(%10!x!): => %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_BUS_WAKE_EVENTS) -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_EXPRESS_WAKE_STATES) -- 11
+Arg, ItemEnum(_PCI_EXPRESS_WAKE_STATES) -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_CONVENTIONAL_WAKE_STATES) -- 11
+Arg, ItemEnum(_PCI_CONVENTIONAL_WAKE_STATES) -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0(%10!x!): UNEXPECTED EVENT FOR STATE %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_EXPRESS_WAKE_STATES) -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0(%10!x!): UNEXPECTED EVENT FOR STATE %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_CONVENTIONAL_WAKE_STATES) -- 11
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Child Bus (0x%10!p!): Take an extra power reference on the parent for send WW" //   IFRLOG=Bus->ParentBus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Child Bus (0x%10!p!): Take an extra power reference on the parent for cancel WW" //   IFRLOG=Bus->ParentBus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_EXPRESS_WAKE_STATES) -- 11
+Arg, ItemEnum(_PCI_EXPRESS_WAKE_STATES) -- 12
+}
+
+a5f3a0d7-b465-389e-0a1a-2397b5b2d64a driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0(%10!x!): From %11!s! to %12!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PCI_CONVENTIONAL_WAKE_STATES) -- 11
+Arg, ItemEnum(_PCI_CONVENTIONAL_WAKE_STATES) -- 12
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PciLocationInterface_GetLocationStrings failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PciLocationInterface_GetLocationStrings failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0VmProxyIsSubString failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VmProxyIsSubString failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0VmProxyAddPath failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0VmProxyRemovePath failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0VmProxyWriteDevicePathsToRegistry failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d12c7456-cd87-3241-5ea4-e1f748a3c39b driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0VmProxyWriteDevicePathsToRegistry failed %10!s!" //   IFRLOG=WppRecorderLogGetDefault() LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_DSM(query,%10!s!,ver.%11!d!) %12!s!" //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemEnum(_PCI_FIRMWARE_DSM_FUNCTIONS) -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0(%10!x!:%11!x!) _DSM(query,%12!s!,ver.%13!d!) %14!s!" //   IFRLOG=((PPCI_DEVICE)DeviceObject->DeviceExtension)->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_PCI_FIRMWARE_DSM_FUNCTIONS) -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0_DSM(ignore boot config) returned a non-integer.Type: 0x%10!04x!, Argument: 0x%11!x!." //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0(%10!x!:%11!x!) _DSM(ignore boot config) returned a a non-integer.Type: 0x%12!04x!, Argument: 0x%13!x!." //   IFRLOG=((PPCI_DEVICE)DeviceObject->DeviceExtension)->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0_DSM(LTR) returned a package containing non-integers.Type: 0x%10!04x!." //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0(%10!x!:%11!x!) _DSM(LTR) returned a package containing non-integers.Type: 0x%12!04x!." //   IFRLOG=((PPCI_DEVICE)DeviceObject->DeviceExtension)->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0_DSM(OBFF) %10!s!" //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0(%10!x!:%11!x!) _DSM(OBFF) %12!s!" //   IFRLOG=((PPCI_DEVICE)DeviceObject->DeviceExtension)->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0_DSM(DelayOnSxResume) returned a non-integer" //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0_DSM(DelayOpt) returned a package containing non-integers" //   IFRLOG=((PPCI_BUS)DeviceObject->DeviceExtension)->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0(%10!x!:%11!x!) _DSM(DelayOpt) returned a package containing non-integers" //   IFRLOG=((PPCI_DEVICE)DeviceObject->DeviceExtension)->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ENUM
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e133dea3-4dd5-3f68-d9fc-2d336d695a19 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Root port 0x%10!p! checking for _DSD: %11!s!" //   IFRLOG=Bus->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PPO
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ef39cb5d-4c5f-3150-a449-d83ed1a9efb6 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Disabling device (%10!x!:%11!x!) to comply with Group Policy" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0(%10!x!): device %11!p! Invalid supplied power parameter" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0(%10!x!): device %11!p! nop" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0device %10!p! tried to change power state while the parent wasn't running, Device state is: %11!s!." //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PCI_OBJECT_STATE) -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0device %10!p! sent more than one D0 IRP at a time" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0(%10!x!): releasing D0 IRP for device %11!p!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!p!: D0 transition failed because IDs didn't match on power-up %11!04x!:%12!04x!:%13!02x!:%14!04x!:%15!04x!. Status: %16!s!" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemNTSTATUS -- 16
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0(%10!x!): device %11!p! going to %12!s!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0(%10!x!): device %11!p! %12!s! not valid for wake.Device wake level is %13!s!." //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 13
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0(%10!x!): device %11!p! does not support PM" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0(%10!x!): device %11!p! is on a bus that cannot support wake" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0(%10!x!): device %11!p! is already waiting" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0(%10!x!): device %11!p! setting PMEEnable" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0(%10!x!): completing IRP_MN_WAIT_WAKE for device %11!p! - PMEStatus: %12!x!," //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0(%10!x!): device %11!p! IRP: %12!p!" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0(%10!x!:%11!x!) Invalid power capability!Expected: 0x%12!02x!, Actual: 0x%13!02x!." //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0(%10!x!:%11!x!) failed to stall long enough for power state change" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0(%10!x!): device %11!p! No verifier data." //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0(%10!x!:%11!x!) -> %12!s!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0(%10!x!:%11!x!) -> %12!s!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0(%10!x!:%11!x!) : PciStallForPowerChange: PMCSR.PowerState = 0x%12!x!" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0(%10!x!:%11!x!) : PciStallForPowerChange: Maximum retry reached" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0(%10!x!): device %11!p! but PME not owned" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0(%10!x!): device %11!p! but PME not owned" //   IFRLOG=Device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0device %10!p! driver wants to change d3cold state but the registry is forcing it off" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVPOWER
+{
+Arg, ItemPtr -- 10
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Reporting no runtime wake capability for device (b:%10!x! d:%11!x! f:%12!x!) because the BIOS left Express in Compatibility mode" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Reporting no runtime wake capability for device (b:%10!x! d:%11!x! f:%12!x!) because the parent bus was a root bus and the BIOS didn't describe the device as wakeable, as with an _S0W object" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Reporting no runtime wake capability for device (b:%10!x! d:%11!x! f:%12!x!) because the parent bus wasn't running in native Express mode and the BIOS didn't describe the device as wakeable, as with an _S0W object" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Reporting no runtime wake capability for a PCI bridge at (b:%10!x! d:%11!x! f:%12!x!) because the BIOS didn't describe the device as wakeable, as with an _S0W object and no INF claimed to support this bridge specifically, setting D3ColdSupported to 1" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Reporting no runtime wake capability for device (b:%10!x! d:%11!x! f:%12!x!) because the device has been indentified in errata.inf as one which does not support wake signals" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fefc3851-685e-3332-3223-fbc941e6f2f5 driver // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Reporting no runtime wake capability for device (b:%10!x! d:%11!x! f:%12!x!) because the device claimed not to support it in its Power Management capability structure" //   IFRLOG=device->Parent->BlackBoxHandle LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_DEVPOWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+

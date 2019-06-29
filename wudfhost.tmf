@@ -1,0 +1,2258 @@
+00c5e2df-169f-385c-e589-4766044dba28 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0System boot mode is %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfHostGlobals::Initialize
+{
+Arg, ItemEnum(_WUDF_BOOT_MODE) -- 10
+}
+
+00c5e2df-169f-385c-e589-4766044dba28 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0System boot mode is %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfHostGlobals::Initialize
+{
+Arg, ItemEnum(_WUDF_BOOT_MODE) -- 10
+}
+
+0d40ac06-82ca-3ec2-eb21-3b0e4f517987 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!, CWudfDeviceStack 0x%10!p!, failed to allocate memory for marshaller %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=WudfMarshaller::Create
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0d40ac06-82ca-3ec2-eb21-3b0e4f517987 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!, CWudfDeviceStack 0x%10!p!, failed to allocate memory for HID marshaller %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=WudfMarshaller::Create
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0d40ac06-82ca-3ec2-eb21-3b0e4f517987 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CWudfDeviceStack 0x%10!p!, CWudfIoIrp::RetrieveBuffers failed marshaller %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RD_TRACE_FDO FUNC=WudfHidMarshaller::UpdateInformationForOutputBuffer
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WudfLdr: BuildDriverRegistryPath: StringCchLengthW failed, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0WudfLdr: WudfRegisterClassLibrary: failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0WudfLdr: WudfRegisterClassLibrary: invalid service path %10!s!: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0WudfLdr: WudfRegisterClassLibrary: enter %10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0WudfLdr: WudfRegisterClassLibrary: FindModuleAndReference %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0WudfLdr: WudfRegisterClassLibrary: ModuleInfo %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPtr -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0WudfLdr: WudfRegisterClassLibrary: ClassLibraryInitialize %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%!FUNC!: WdfLdrDiagnosticsValueByNameAsULONG: RegOpenKeyEx %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WdfLdrDiagnosticsValueByNameAsULONG
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%!FUNC!: WdfLdrDiagnosticsValueByNameAsULONG: RegQueryValueEx %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WdfLdrDiagnosticsValueByNameAsULONG
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WudfLdr: BuildDriverRegistryPath: out of resources, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WudfLdr: BuildDriverRegistryPath: StringCchPrintfW failed, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Obtaining module image path length failed, potentially module name is too long. hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Moudle image path is blank. Returning hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Malformed module image path %10!s!, returning hr: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Malformed module image path %10!s!, returning hr: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Invalid registry configuration: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::GetStringFromRegistry
+{
+Arg, ItemLong -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to allocate memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::GetStringFromRegistry
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Obtaining length of string %10!s! failed, possibly due to name being too long or not being null terminated, max allowable length: %11!d!, %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to allocate buffer for string %10!s!, returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to copy module name %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate CWudfModuleInfo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Configuration error: Failed to allocate path str for WUDF framework WUDFx.dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Configuration error: Failed to allocate path str for WUDF framework .dll, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Unable to build the driver's (%10!s!) registry path, hr=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Configuration error: Failed to read %10!s! value for driver %11!s!, err=%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWINERROR -- 12
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Configuration error: CLSID not a REG_SZ type for %10!s!, Win32 err=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Configuration error: Invalid CLSID %10!s! for %11!s!, hr=%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to open driver Service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Configuration error: Failed to allocate path str for companion , %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to build the driver's (%10!s!) registry path, hr=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Configuration error: Failed to allocate name str for driver %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Configuration error: Failed to allocate path str for WUDF framework WUDFx.dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Configuration error: Failed to allocate path str for WUDF framework .dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Unable to open driver Service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Configuration error: Failed to read %10!s! value for driver %11!s!, err %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WudfLdr: CWudfModuleInfo: LibraryDecommission failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::Release
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!:Failed to load driver binary %10!s!. hr = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadFrameworkAndDriver
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC!:Unable to copy the image name. Error is %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemLong -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%!FUNC!:Unable to copy the image name. Error is %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CWudfModuleTable::SearchForMatchingIfrInformation
+{
+Arg, ItemLong -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DRIVER_OBJECT_UM allocation failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CreateAndInitializeDriverObject
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0CreateThreadpoolCleanupGroup failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CreateAndInitializeDriverObject
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Error canonicalizing driver path %10!s!: %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Error - driver path %10!s! is not located under required driver root %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Loading module %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Load module %10!s! failed - error %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Error %10!s! - Could not get DllGetClassObject, or FxDriverEntryUm function, or FxFrameworkEntryUm from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DRIVER_OBJECT_UM allocation failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Error %10!s! - FxDriverEntryUm failed on %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Error %10!s! - Could not get umdf version from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Error %10!s! - Could not get class factory interface from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Error %10!s! - Could not create requested interface from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: Your driver is not compatible with this framework.  To fix: recompile using the latest framework headers." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC!:Failed to load driver binary %10!s! with clsid %11!s!. hr = %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemGuid -- 11
+Arg, ItemHRESULT -- 12
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0HResult %10!s! - Unable to bind to %11!s! v%12!d!.%13!d!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Error %10!s! - FxFrameworkEntryUm failed on %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC!: Error loading dbghelp.dll - %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Error %10!s! - %!FUNC!: CreateFile failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Error %10!s! - %!FUNC!: GetFileSizeEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Error %10!s! - %!FUNC!: CreateFileMapping failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Error %10!s! - %!FUNC!: MapViewOfFile failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Error %10!s! - %!FUNC!: ImageDirectoryEntryToDataEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: IMAGE_DEBUG_DIRECTORY.Type is not IMAGE_DEBUG_TYPE_CODEVIEW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC!: %10!s! has an invalid file size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWString -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC!: CV Signature is not RSDS" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC!: out of memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0WudfLdr: GetFrameworkServiceName: invalid bind info: component name is missing, failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WudfLdr: GetFrameworkServiceName: invalid bind info: component name is invalid (%10!s!), failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WudfLdr: GetFrameworkServiceName: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0WudfLdr: GetFrameworkServiceName: StringCchCopy: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0WudfLdr: GetFrameworkServiceName: StringCchPrintfW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0WudfLdr: WdfVersionBind: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WudfLdr: WudfVersionBind: GetFrameworkServiceName failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0WudfLdr: WudfVersionBind: LibraryRegisterClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0WudfLdr: WudfVersionUnbind: LibraryUnregisterClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::DereferenceVersion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WudfLdr: WudfVersionUnbind: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionUnbind
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0WudfLdr: WudfRegisterLibrary: failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0WudfLdr: WudfRegisterLibrary: enter %10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0WudfLdr: WudfRegisterLibrary: LibraryCommission %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0WudfLdr: GetClassServiceName: invalid bind info: component name is missing, failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0WudfLdr: GetClassServiceName: StringCchLengthW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0WudfLdr: GetClassServiceName: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0WudfLdr: GetClassServiceName: StringCchPrintfW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0WudfLdr: WudfVersionBindClass: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0WudfLdr: WudfVersionBindClass: GetClassModuleName failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0WudfLdr: WudfVersionBindClass: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0WudfLdr: WudfVersionBindClass: client's framework %10!s! (v%11!d!.%12!d!) and wdf extension's framework %13!s! (v%14!d!.%15!d!) are different,status: %16!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemNTSTATUS -- 16
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0WudfLdr: WudfVersionBindClass: _LinkClientToClass failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0WudfLdr: WudfVersionBindClass: ClassLibraryBindClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1d5799c7-52f3-3863-6717-c3b362af0f1a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0WudfLdr: WudfVersionUnbindClass: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionUnbindClass
+{
+}
+
+1dbd53dc-749e-3d1f-7107-64ebdb80a098 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfIoDispatcher::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+1dbd53dc-749e-3d1f-7107-64ebdb80a098 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfIoDispatcher::QueryInterface
+{
+Arg, ItemHRESULT -- 10
+}
+
+1dbd53dc-749e-3d1f-7107-64ebdb80a098 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Canceling request %10!p! failed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=HandleCancelationDefault
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1dbd53dc-749e-3d1f-7107-64ebdb80a098 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: I/O Dispatcher _CancelRoutine invoked for !umirp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfIoDispatcher::_CancelRoutine
+{
+Arg, ItemPtr -- 10
+}
+
+26a46322-0468-338b-9145-1f442399f130 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Error loading WINUSB.DLL - %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_USB_DISPATCHER FUNC=CWudfUsbDispatcher::CreateUsbDispatcher
+{
+Arg, ItemHRESULT -- 10
+}
+
+26a46322-0468-338b-9145-1f442399f130 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Could not create Win32 dispatcher object, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_USB_DISPATCHER FUNC=CWudfUsbDispatcher::CreateUsbDispatcher
+{
+Arg, ItemHRESULT -- 10
+}
+
+26a46322-0468-338b-9145-1f442399f130 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WinUsb_Initialize failed, error = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_USB_IOTARGET FUNC=CWudfUsbDispatcher::SubmitIo
+{
+Arg, ItemWINERROR -- 10
+}
+
+26a46322-0468-338b-9145-1f442399f130 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WinUsb async operation failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfUsbDispatcher::SubmitUsbIo
+{
+Arg, ItemWINERROR -- 10
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RegistrySubPath is NULL" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=GetDwordHostSetting
+{
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to open reg key %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=GetDwordHostSetting
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to open reg key %10!s!\%11!s! %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=GetDwordHostSetting
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWINERROR -- 12
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Host setting %10!s! not found" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_PROCESS FUNC=GetDwordHostSetting
+{
+Arg, ItemWString -- 10
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Failed to get windows directory name: %10!s!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=GetDiagnosticsRootDirectory
+{
+Arg, ItemWINERROR -- 10
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Error %10!s! building root directory name." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=GetDiagnosticsRootDirectory
+{
+Arg, ItemHRESULT -- 10
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Host process waiting for %10!s! debugger to connect, Timeout:%11!d! secs" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=WdfHostProcDbgBreakOnStart
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+286a8fd8-6655-3ed1-e6fb-c73976ef5cec WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0NOT waiting for debugger connection at host process start" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_PROCESS FUNC=WdfHostProcDbgBreakOnStart
+{
+}
+
+34d14c33-365e-3a6c-2303-051e57e1e5b6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Could not create Win32 dispatcher object, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfWin32Dispatcher::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+3695b594-636f-32c3-5ffc-033fb8f01996 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: SetThreadpoolThreadMinimum failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::SetMinimumThreadCount
+{
+Arg, ItemHRESULT -- 10
+}
+
+39037bc1-abaf-37a1-2e57-bb9e2c9993cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!:Memory allocation failure. Cannot create host process file object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfFileObj::CreateAndInitialize
+{
+}
+
+39037bc1-abaf-37a1-2e57-bb9e2c9993cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Memory allocation failure. Cannot allocate framework fileobject array" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfFileObj::Initialize
+{
+}
+
+39037bc1-abaf-37a1-2e57-bb9e2c9993cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:File name too long, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfFileObj::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+39037bc1-abaf-37a1-2e57-bb9e2c9993cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!:Memory allocation failure, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfFileObj::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+4ad3856f-e0b8-3a8a-7069-4ebcf7b102a9 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Sending Close irp for driver created file %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDriverCreatedFile::SendCloseIrp
+{
+Arg, ItemPtr -- 10
+}
+
+4ad3856f-e0b8-3a8a-7069-4ebcf7b102a9 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Driver created file %10!p! has I/Os queued, deferring sending Close irp" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDriverCreatedFile::Close
+{
+Arg, ItemPtr -- 10
+}
+
+4ad3856f-e0b8-3a8a-7069-4ebcf7b102a9 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:Memory allocation failure. Cannot create host process file object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDriverCreatedFile::CreateAndInitialize
+{
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Table (0x%10!p!) does not contain the item :0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfDeviceStack>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Table (0x%10!p!) does not contain the item :0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfIrp>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Table (0x%10!p!) does not contain the item :0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfModuleInfo>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Table (0x%10!p!) is empty:0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfDeviceStack>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Table (0x%10!p!) is empty:0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfIrp>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+509e1596-746c-3f5d-b8f1-295425db99e7 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Table (0x%10!p!) is empty:0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfModuleInfo>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+51561702-0c81-3619-713f-50ec0aa5f2ff WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!:Memory allocation failure. Cannot create host process device object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDevice::_CreateAndInitialize
+{
+}
+
+51561702-0c81-3619-713f-50ec0aa5f2ff WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Cannot allocate WDM extension for host device." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDevice::_CreateAndInitialize
+{
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Not able to allocate CLpcNotification object %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateInstance
+{
+Arg, ItemHRESULT -- 10
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Fail to get LPC object for %10!s! messages, NTSTATUS:0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateLpcAndThreads
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:Unable to listen on %10!s! port %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::LpcListenAndWaitOnHandle
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Could not create event. %10!s!=, %11!s!=" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateProcesExitEvent
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemHRESULT -- 11
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! GetSystemSid(%10!s!) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::GetSystemSid
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to allocate WaiterThreads" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateWaiterThreads
+{
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Host process receives message: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+Arg, ItemLong -- 10
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: pnp message: WudfMsg_ExitProcess" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: pnp message: WudfMsg_UNKNOWN" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Leaving %!FUNC!..." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: Event wait failed: Win32 err: %10!d!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Run
+{
+Arg, ItemLong -- 10
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: Main thread exiting. Win32 status:0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::Run
+{
+Arg, ItemLong -- 10
+}
+
+53d04d9b-b928-3419-2719-f46f578e33cc WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate Threadpool" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateThreadpool
+{
+}
+
+65837272-a8e1-3c85-57f0-b356ac9a06a8 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Thread pool creation failed, error %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::Initialize
+{
+Arg, ItemLong -- 10
+}
+
+65837272-a8e1-3c85-57f0-b356ac9a06a8 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Thread pool wait object creation failed, error %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::WaitOnHandle
+{
+Arg, ItemLong -- 10
+}
+
+65837272-a8e1-3c85-57f0-b356ac9a06a8 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Cannot initialize COM runtime: 0x%10!X!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::WorkerThread
+{
+Arg, ItemLong -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Could not create Win32 dispatcher object, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Canceling request %10!p! failed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfDefaultDispatcher::CancelIo
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Allocating file name full path failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoCreate
+{
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Calling win32 CreateFile with file name %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoCreate
+{
+Arg, ItemWString -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0CreateFile failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoCreate
+{
+Arg, ItemWINERROR -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0BindIoCompletionCallback failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0RetrieveBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoRead
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ReadFile failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoRead
+{
+Arg, ItemWINERROR -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0RetrieveBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoWrite
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WriteFile failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoWrite
+{
+Arg, ItemWINERROR -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0RetrieveBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoIoctl
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceIoControl failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoIoctl
+{
+Arg, ItemWINERROR -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0NativeFlushFileBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::DoFlushBuffers
+{
+Arg, ItemWINERROR -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0RetrieveBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::SubmitQuerySetInformation
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0RetrieveBuffers failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::SubmitQuerySetInformation
+{
+Arg, ItemHRESULT -- 10
+}
+
+66f86ce2-19e3-36c1-325f-3bf7c4ca4b44 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!InformationFile failed, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfDefaultDispatcher::SubmitQuerySetInformation
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+75762790-04e6-3e81-f44b-0462d3f48b9a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Could not create USB dispatcher object, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_USB_DISPATCHER FUNC=CWudfNativeUsbDispatcher::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+75762790-04e6-3e81-f44b-0462d3f48b9a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0USB device creation failed, error = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_USB_IOTARGET FUNC=CWudfNativeUsbDispatcher::SubmitIo
+{
+Arg, ItemWINERROR -- 10
+}
+
+75762790-04e6-3e81-f44b-0462d3f48b9a WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0NativeUsb async operation failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_WIN32_DISPATCHER FUNC=CWudfNativeUsbDispatcher::SubmitUsbIo
+{
+Arg, ItemWINERROR -- 10
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Exit: argc:%10!d!, %11!s! %12!s! %13!s! %14!s! %15!s! %16!s! %17!s! %18!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCmdLineParams::CWudfCmdLineParams
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemWString -- 14
+Arg, ItemWString -- 15
+Arg, ItemWString -- 16
+Arg, ItemWString -- 17
+Arg, ItemWString -- 18
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Entering host process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=wmain
+{
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error converting Lifetime ID %10!s! to guid: %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Failed to get windows directory name: %10!s!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemWINERROR -- 10
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to get LPC interface %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemHRESULT -- 10
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Cannot allocate space to hold driver root - %10!d!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=WudfMain
+{
+Arg, ItemLong -- 10
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Cannot initialize COM runtime: 0x%10!X!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=WudfMain
+{
+Arg, ItemLong -- 10
+}
+
+a776e7d8-c7cf-3bc9-9d58-23e55f1e8a99 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Leaving host process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Could not find IRP ID:0x%10!I64x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpTable::MarkCancel
+{
+Arg, ItemLongLongX -- 10
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Could not find IRP ID:0x%10!I64x!. May have completed" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpTable::GetAndSetCancelRoutine
+{
+Arg, ItemLongLongX -- 10
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: IRP ID:0x%10!I64x!, Cancel flag set, Fx cancel routine 0x%11!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpTable::GetAndSetCancelRoutine
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemPtr -- 11
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: RevertToSelf failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_IO FUNC=CWudfIrp::RevertImpersonation
+{
+Arg, ItemHRESULT -- 10
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Copying output buffer for request id %10!d! (0x%11!I64x! bytes) failed with status %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfIoIrp::CompleteHandlerPreAlpcReply
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Copying output buffer for request id %10!d! (0x%11!I64x! bytes) failed with status %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfIoIrp::CompleteHandlerPreAlpcReply
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Irp type 0x%10!x! (WITH completion callbacks)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::ForwardToRedirector
+{
+Arg, ItemLong -- 10
+}
+
+b8aa0d29-9eb5-3840-9a46-6f235e494356 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: Irp type 0x%10!x! (WITHOUT completion callbacks)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::ForwardToRedirector
+{
+Arg, ItemLong -- 10
+}
+
+b9f24d61-48c3-335a-8060-a5f6d5742913 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Could not create Remote dispatcher object, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_REMOTE_DISPATCHER FUNC=CWudfRemoteDispatcher::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+b9f24d61-48c3-335a-8060-a5f6d5742913 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0BindIoCompletionCallback failed, status=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_REMOTE_DISPATCHER FUNC=CWudfRemoteDispatcher::BindToHandle
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b9f24d61-48c3-335a-8060-a5f6d5742913 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Canceling umirp %10!p! failed.Please note that remote target I/O cancellation has no effect on XP/Srv03. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfRemoteDispatcher::CancelIo
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+b9f24d61-48c3-335a-8060-a5f6d5742913 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Canceling umirp %10!p! failed. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfRemoteDispatcher::CancelIo
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!:Memory allocation failure. Cannot allocate device stack object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Create
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%!FUNC! called with an invalid dispatcher type: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::OpenUSBCommunicationChannel
+{
+Arg, ItemLong -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%!FUNC!: Failed to get the length of ServiceName, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::AllocateIfrMemory
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%!FUNC!: Service name allocation fails, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::AllocateIfrMemory
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%!FUNC!: Failed to copy ServiceName to the message, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::AllocateIfrMemory
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%!FUNC!: Failed retrieving the module information object to store the IFR address in. Minidumps will not contain IFR logs" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::AllocateIfrMemory
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%!FUNC!: Get IFR buffer message failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::AllocateIfrMemory
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%!FUNC!: %10!s! failed, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::UpdateProcessKeepAliveCount
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%!FUNC!: Self re-enumeration attempt failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::ReenumerateSelf
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Memory allocation failure. Cannot allocate WudfMarshaller. %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:Memory allocation failure. Cannot allocate WUDF NotificationEvent." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Create
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AllocateEvent failed, error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::ForwardSynchoronously
+{
+Arg, ItemWINERROR -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: BindIoCompletionCallback failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfDeviceStack::CreateWdfFileForOpenHandle
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: DeviceIoControl failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfDeviceStack::SendFastIoToControlObject
+{
+Arg, ItemWINERROR -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!FUNC!: RegOpenKeyEx %10!s! failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfDeviceStack::GetDeviceProcessSharingInfo
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!:PDO Name string too long or badly formed path. Invalid configuration %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!:Memory allocation failure. Cannot allocate device stack object" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!:Unable to copy PDO name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!:Kernel device Name string too long or badly formed path. Invalid configuration %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!:Memory allocation failure. Cannot allocate memory for kernel device name" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!:Unable to copy device path name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC!:Unable to copy kernel device name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: Trailing name string %10!d! too long or badly formed path. Invalid configuration %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: Cannot allocate memory for trailing name '%10!s!'." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemWString -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Unable to copy trailing name %10!d!. %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: Failed to allocate memory for control device name." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: Unable to construct control device name with trailing name '%10!s!'. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: Cannot open kernel control object '%10!s!'. %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC!: BindIoCompletionCallback failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: Unable to construct control device name for elevations. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Unsupported I/O Dispatcher specified : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfDeviceStack::LoadIoDispatcher
+{
+Arg, ItemWString -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Creating I/O Dispatcher failed : 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfDeviceStack::LoadIoDispatcher
+{
+Arg, ItemLong -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: Failed to get symbolic link, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::GetInterfaceSymbolicLink
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC!: Cannot allocate set device interface message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::GetInterfaceSymbolicLink
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC!: Cannot allocate set device interface message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::AllocateSetDeviceInterfaceMsg
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%!FUNC!: Cannot allocate set device interface message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::AllocateGetDeviceInterfaceSymLinkMsg
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: Memory allocation failure" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::PostEvent
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: Invalid parameter for symbolic link, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!: Symbolic link is not null terminated, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!: Invalid parameter for reference string, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC!: Reference string is not null terminated, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!: Overflow, while processing the size of the symbolic link, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%!FUNC!: Overflow, while processing the size of the reference string, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!: Overflow, while processing the size of the reference string, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!: Overflow, while adding the sizes of the symbolic link and the reference string, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC!: Overflow, while calculating the size of the internal structure, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC!: Overflow, while copying the symbolic link length, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: Problem, while copying the symbolic link, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: Overflow, while copying the symbolic link length, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: Overflow, while copying the symbolic link length, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: Problem, while copying the reference string, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%!FUNC!: Overflow, while copying the reference string length, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%!FUNC!: Out of memory, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::CreateSymbolicLinkW
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: Failed to set Value" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_DDI FUNC=CWudfDeviceStack::SaveIdleState
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: Cannot allocate Target Device Registration" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CWudfDeviceStack::RegisterTargetDeviceNotification
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Error allocating %10!d! character string to hold device interface ids.  Host's environment block will not contain a full set of running devices." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfDevStackTable::UpdateEnvironmentBlock
+{
+Arg, ItemLong -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Error %10!s! assigning device list in environment block" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfDevStackTable::UpdateEnvironmentBlock
+{
+Arg, ItemWINERROR -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC!: The value of DesiredAccess is not allowed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_DDI FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC!: Invalid value for RootSpecifier->RootClass" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_DDI FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC!: Invalid value for key name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_DDI FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC!: Invalid length for main string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%!FUNC!: Invalid length for secondary string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%!FUNC!: Invalid full subkey string length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC!: Error calculating struct size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC!: Error calculating struct size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: Out of memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC!: Invalid value for Flags" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC!: Invalid value for propertyStoreMessage->rootPathCch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC!: Invalid value for propertyStoreMessage->rootPathCch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%!FUNC!: Error creating main string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%!FUNC!: Error creating secondary string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%!FUNC!: Failed to send msg to reflector %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::CreateRegistryEntry
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%!FUNC!: Device stack direct transfer threshold increased to %10!d! by driver %11!s! (level %12!d!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%!FUNC!: Device stack retrieval mode reduced to %10!d! by driver %11!s! (level %12!d!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%!FUNC!: Incompatible preferred transfer mode for device stack.  Device start will fail.  Previous mode for RW/Ioctl was (%10!d!,%11!d!).  New incompatible mode is (%12!d!/%13!d!) requested by driver %14!s! (level %15!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemWString -- 14
+Arg, ItemLong -- 15
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%!FUNC!: Device stack Read/Write i/o type preference changed to %10!d! (from %11!d!) by driver %12!s! (level %13!d!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%!FUNC!: Device stack Ioctl i/o type preference changed to %10!d! (from %11!d!) by driver %12!s! (level %13!d!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%!FUNC!: Incompatible preferred transfer mode for device stack when running in a device pool. Device start will fail. Incompatible mode is (%10!d!/%11!d!) requested by driver %12!s! (level %13!d!)." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::VerifyAndAssignPreferredTransferMode
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%!FUNC!: Error opening diagnostic key - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfDeviceStack::WasTransferModeConflictEventAlreadyLogged
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%!FUNC!: Invalid device interface length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%!FUNC!: Invalid device interface length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%!FUNC!: Error calculating struct size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%!FUNC!: Error calculating struct size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%!FUNC!: Out of memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%!FUNC!: PropertyStoreMessage->StoreParameters is too big" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%!FUNC!: Error copying reference string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC!: Invalid value for propertyStoreMessage->StoreParameters->RefStringCch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::_AllocateAndSetDeviceInterfaceParameters
+{
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC!: PropertyDataSize too long: %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::GetUnifiedPropertyData
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%!FUNC!: Out of memory while trying to allocate property store reply message, returning %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::GetUnifiedPropertyData
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%!FUNC!: Unified property get message failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::GetUnifiedPropertyData
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%!FUNC!: PropertyData too long, Size: %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::SetUnifiedPropertyData
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC!: Out of memory while trying to allocate property store message, returning %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::SetUnifiedPropertyData
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%!FUNC!: Unified property set message failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::SetUnifiedPropertyData
+{
+Arg, ItemHRESULT -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%!FUNC!: Failed to copy systemroot\system32. Error -> %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::ExtractWppRecorderPdbInformation
+{
+Arg, ItemLong -- 10
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%!FUNC!: Failed to concatenate %10!s!. Error -> %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::ExtractWppRecorderPdbInformation
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+cbeb4a17-fec0-3ea4-c040-6b5c240a72f6 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0%!FUNC!: Failed to extract PDB information from %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfDeviceStack::ExtractWppRecorderPdbInformation
+{
+Arg, ItemWString -- 10
+}
+
+cc9d0e29-21cd-36d8-5359-abd838cfc105 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to set activity ID for IRP %10!p!, ERROR:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfIoDispatcher::_SetActivityIdFromIrp
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+cc9d0e29-21cd-36d8-5359-abd838cfc105 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to restore activity ID, ERROR:%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_DISPATCHER FUNC=CWudfIoDispatcher::_RestoreOriginalActivityId
+{
+Arg, ItemWINERROR -- 10
+}
+
+e7b07529-d437-335e-c820-23bb06acc729 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIoStack::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+f12255ed-56f9-32f9-ecff-309e20f56825 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Cannot initialize COM runtime: 0x%10!X!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=WaiterWorkerThreadThunk
+{
+Arg, ItemLong -- 10
+}
+
+f12255ed-56f9-32f9-ecff-309e20f56825 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Create m_ThreadsStoppingEvent failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+Arg, ItemWINERROR -- 10
+}
+
+f12255ed-56f9-32f9-ecff-309e20f56825 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Out of memory, not able to allcoate array for thread handles" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+}
+
+f12255ed-56f9-32f9-ecff-309e20f56825 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!:failed to create waiter worker thread, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!. This should have caused a failure in AppendVersionPdbStructureAddDevice." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CheckIfVersionPdbStructureAlreadyContained
+{
+Arg, ItemWString -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Unable to find the binary name in this absolute path %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=AppendVersionPdbStructureAddDevice
+{
+Arg, ItemWString -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Fdo did not allocate enough memory for the Add Device return message data segment" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=AppendVersionPdbStructureAddDevice
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!:Failed copying the service namein Add Device. Error = %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=AppendVersionPdbStructureAddDevice
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Abnormal host shutdown: There is an active device stack in the host" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::PortIsClosed
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Host process receives message: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Failing Create Device Stack - error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: LPC message(0x%10!x!) format is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!:Failed Add Device, could not preallocate PnP UM irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: Failing Add Device - error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: Create message %10!d! with host related file obj:0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_IO FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: LPC message(0x%10!x!) format is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: WudfMsg_CREATE for host file obj:0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_IO FUNC=CLpcNotification::Message
+{
+Arg, ItemPtr -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: Builidng create Irp failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC!: Message %10!d! for host file obj:0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_IO FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: Builidng I/O Irp (%10!s!) failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_IO FUNC=CLpcNotification::Message
+{
+Arg, ItemEnum(_WUDFMESSAGE) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: Completion irp (code 0x%10!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: LPC message(0x%10!x!) format is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: LPC message(0x%10!x!) format is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: LPC message(0x%10!x!) format is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: Failing WmiPowerData Message - error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Leaving %!FUNC!..." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: Invalid registry configuration: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetStringFromRegistry
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: unable to allocate memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetStringFromRegistry
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: RegOpenKeyEx %10!s! failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Invalid configuration. Registry entry %10!s! could not be read, err %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Invalid configuration. DriverList key is empty." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Unable to load driver %10!s! in boot mode %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_WUDF_BOOT_MODE) -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Unable to open driver Service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unable to read WdfMajorVersion from registry for %10!s!, err=%11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Unable to read CLSID from registry for %10!s!, err=%11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Configuration error: CLSID not a REG_SZ type for %10!s!, Win32 err=%11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Configuration error: Invalid CLSID %10!s! for %11!s!, hr=0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Configuration error: Failed to read %10!s! value for driver %11!s!, err %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!:Out of memory. Not able to copy driver configuration path. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemHRESULT -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%!FUNC!:String operation failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceStackConfiguration
+{
+Arg, ItemHRESULT -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!: Invalid Pdo name. hr = 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!: Memory allocation failure. hr = 0x%10!x!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemLong -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC!: DevObjCreateDeviceInfoList failed Error=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC!: DevObjGetClassDevs failed Error=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: GetDeviceHwKeyHelper failed, PDO name. Error=%10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: Could not find an correct match for PDO. Error=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: DevObjGetDeviceInstanceId misbehaving?? %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: SetupDiGetDeviceInstance failed %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%!FUNC!: Out of memory" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%!FUNC!: instance id = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWString -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: Could not get device hardware id?? %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: Could not get device setup class %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: Could not get bus enumerator ?? %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC!: Could not get manufacturer name ?? %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::GetDeviceHwKeyAndPropertiesHelper
+{
+Arg, ItemWINERROR -- 10
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC!: Received IRP (major/minor) = (0x%10!x!/0x%11!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::ProcessPnpPowerIrp
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC!: Invalid IRP! (mj/mn)=(0x%10!x!, 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::ProcessPnpPowerIrp
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC!: Using preallocted IRP ((mj/mn)=(0x%10!x!, 0x%11!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::WudfPnpHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC!:  PnP UM irp allocation failed((mj/mn)=(0x%10!x!, 0x%11!x!). Using fast reply" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::WudfPnpHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%!FUNC! UMDF does not recognize safe boot mode %10!d!.  Driver %11!s! will not be loaded." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::IsDriverEnabledInSafeMode
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%!FUNC!: Error opening SafeBoot key HKLM\%10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::IsDriverEnabledInSafeMode
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC!: Driver %10!s! is not listed for SafeBoot mode %11!s!.  The driver will not be loaded and the device stack will not start." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::IsDriverEnabledInSafeMode
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_WUDF_BOOT_MODE) -- 11
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC!: Error opening SafeBoot key %10!s!\%11!s! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::IsDriverEnabledInSafeMode
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWINERROR -- 12
+}
+
+f9966258-1caa-3fb0-af0e-b05fe148a0cf WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: Driver %10!s! is enabled for safe-mode %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CLpcNotification::IsDriverEnabledInSafeMode
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_WUDF_BOOT_MODE) -- 11
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpT<class CWudfIoIrp,struct IWudfIoIrp2,struct _WUDFMESSAGE_IO_HEADER *,struct _WUDFMESSAGE_REPLY_HEADER *>::CreateAndInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpT<class CWudfPnpIrp,struct IWudfPnpIrp,struct _WUDFMESSAGE_IRP *,union _WUDFMESSAGE_PNP_REPLY_ALL *>::CreateAndInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Memory allocation failure %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpT<class CWudfIoIrp,struct IWudfIoIrp2,struct _WUDFMESSAGE_IO_HEADER *,struct _WUDFMESSAGE_REPLY_HEADER *>::CreateAndInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!:Memory allocation failure %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfIrpT<class CWudfPnpIrp,struct IWudfPnpIrp,struct _WUDFMESSAGE_IRP *,union _WUDFMESSAGE_PNP_REPLY_ALL *>::CreateAndInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Raw resource size is non-zero butresource pointer is NULL, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: memory allocation failed for raw resources %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Translated resource size is non-zero butresource pointer is NULL, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+fabfdf35-5ff9-3889-9343-73c901396dc4 WUDFHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: memory allocation failed for translated resources %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfPnpIrp::Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+

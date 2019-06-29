@@ -1,0 +1,182 @@
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='SimpleIO Action IMGeneric SetTarget() - Invalid target provided'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'DisplayName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o->this(%11!p!):%!FUNC!(IMGenericSimpleIo: Entering Open Device())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!INFO:IMGenericSimpleIo: Exiting OpenDevice()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='Failed to find IM Generic Device.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!INFO:IMGenericSimpleIo: Exiting OpenDevice()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='Failed to get HID Properties for Device 1.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!INFO:IMGenericSimpleIo: Exiting OpenDevice()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o->this(%11!p!):%!FUNC!(IMGenericSimpleIo: Entered CloseDevice())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='IMGenericSimpleIo: CloseHandle failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!INFO:IMGenericSimpleIo: Exiting CloseDevice()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o->this(%11!p!):%!FUNC!(IMGenericSimpleIo: Entering RunIO())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!INFO:IMGenericSimpleIo: Exiting RunIO()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+cb5172d1-42a2-3e96-92d8-fbe502a5fc73 WDTF_Action_SimpleIO_IMGeneric // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

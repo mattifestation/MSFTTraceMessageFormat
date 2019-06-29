@@ -1,0 +1,3753 @@
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Add to Cache Disk# %10!d! %11!I64x! Length 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Add to Cache Disk# %10!d! FAILED. Status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Add to Cache Disk# %10!d! Offset %11!I64x! Length  0x%12!Ix! ShouldCache? %13!c!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemPtr -- 12
+Arg, ItemChar -- 13
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Restore MDL for Irp %10!p! to %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Complete request Irp %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Replace Irp %10!p! MDL for I/O to %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Convert to Partial request Irp %10!p! RelativeOffset 0x%11!x! Length 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Forward Original request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Forward original request down %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0AcquireRange Irp %10!p! IoContext %11!p! 0x%12!I64x! 0x%13!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLong -- 13
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0MmGetSystemAddressForMdlSafe returned NULL Irp %10!p! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Mdl is NULL Irp %10!p! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device %10!p! Irp %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Allocated IoContext Irp %10!p! Context %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Device %10!p! Irp %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Allocated IoContext Irp %10!p! Context %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device %10!p! Irp %11!p! %12!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Cache not initialized status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Cache enabled on %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Cache Disable Callback Context %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Cache disable on %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0IOCTL_CSV_CONFIG_CACHE Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WdfRequestRetrieveInputBuffer failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DevExt (%10!p!) offset 0x%11!I64x!  Length 0x%12!I64x! STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PurgeBlockCache %10!s! Reqoffset 0x%11!I64x! Reqlength 0x%12!I64x! LockOffset 0x%13!I64x! LockLength 0x%14!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemGuid -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLongLongX -- 14
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Device (%10!p!) offset 0x%11!I64x!  Length 0x%12!I64x! STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0PurgeBlockCache %10!s! Reqoffset 0x%11!I64x! Reqlength 0x%12!I64x! LockOffset 0x%13!I64x! LockLength 0x%14!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemGuid -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLongLongX -- 14
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0VxVolumeGetBlockCacheCallback Enter device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0VxVolumeGetBlockCacheCallback LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0(CsvCacheSetCacheIntention) !!! StRtlSetIoCacheIntention failed with status %10!s!, Irp %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0(CsvCacheShouldCache) !!! StRtlGetIoCacheIntention failed with status %10!s!, Irp %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+79c962bf-f508-31a5-e3bd-6eceaa070838 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0(CsvCacheSetCacheIntention) !!! StRtlSetIoCacheIntention failed with status %10!s!, Irp %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0We found device matching id %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0We hijacked %10!s! for Device %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0We hijacked %10!s! for Device %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0RtlStringCchLengthW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Create PDO for target FsPath  %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0RtlStringCchCopyNW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Reset target path  %10!s! " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0VBUS Reached MaxDevice support" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0VBUS Reached MaxDevice support status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0VBUS new device # is %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Create Pdo Flags 0x%10!x! Length 0x%11!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0RtlStringCchLengthW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Create PDO for target %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0RtlStringCchCopyNW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0CheckTargetByName failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0RtlStringCchLengthW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Create PDO for target FsPath  %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0RtlStringCchCopyNW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to allocate memory extend device bitmap)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Disable Volume and CSV interfaces WDFDev %10!p! PDO %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Remove device at %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Delete symlink for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0RtlStringFromGUID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Delete symlink for Device %10!p!(%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VBUS Reached MaxDevice support status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0Delete symlink for Device %10!p!(%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0WdfChildListUpdateChildDescriptionAsMissing success" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0WdfChildListUpdateChildDescriptionAsMissing failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0WdfRequestRetrieveInputBuffer  failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Leave DeviceNumber %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0WdfIoTargetSendIoctlSynchronously Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0Invalid Params 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0Enable Hidden Volume Interface on Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0Enable Volume Interface on Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0Device (%10!p!) STATUS_BUFFER_OVERFLOW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0Device (%10!p!) STATUS_BUFFER_OVERFLOW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfIoTargetSendIoctlSynchronously Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0Device (%10!p!) removed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0Device (%10!p!) removed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0Device (%10!p!) removed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0Device (%10!p!) removed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to allocate memory to get pdo)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 204 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 207 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x! failed to update UnmapGranularityAlignment" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 208 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate memory to get pdo %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 217 "%0Device (%10!p!) already removed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 218 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 219 "%0STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Return PDO %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 220 "%0Passed in Buffer %10!p! Length 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 221 "%0UnPack %10!d! Info" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 222 "%0Failed to allocate memory)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 223 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 224 "%0Device (%10!p!) already removed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 225 "%0Device (%10!p!) has no network path" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 226 "%0Activate Failed 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 227 "%0Device (%10!p!) Local %11!d! Snapshot  %12!d! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 228 "%0Activate Failed 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 229 "%0Device (%10!p!) stack %11!d!, target stack %12!d! networkStackSize %13!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ENTER Device (%10!p!) " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 230 "%0Target stacksize configured extraStackLocations %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 231 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 232 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 233 "%0Error 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 234 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 235 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 236 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 237 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 238 "%0RtlStringCchLengthW failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 239 "%0CheckTargetByName failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 240 "%0Clear current target and disconnect for device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 241 "%0Reset FS target path to %10!s! " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 242 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 243 "%0Set PerfCounterName %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 244 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 245 "%0CsvVolumePerfCreateCsvVolumeCounterSet failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 246 "%0PerfCounterName %10!s! active n" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 247 "%0CsvVolumePerfCreateCsvVolumeCounterSet failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 248 "%0PerfCounterName %10!s! active n" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemWString -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 249 "%0Set new target for device %10!p! to %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LEAVE WdfIoTargetCreate Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 250 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 251 "%0TargetConnect failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 252 "%0Target now connected for device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 253 "%0Device (%10!p!) stack %11!d!, target stack %12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 254 "%0Target stacksize configured extraStackLocations %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 255 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 256 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 257 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 258 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 259 "%0pseudo volume not connected Device (%10!p!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfIoTargetOpen Device (%10!p!) failed status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 260 "%0Device (%10!p!) STATUS_BUFFER_OVERFLOW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 261 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 262 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 263 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 264 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 265 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 266 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 267 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 268 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 269 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0LEAVE Device (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 276 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 277 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 278 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 279 "%0pseudo volume not connected Device (%10!p!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0GetTargetByName Device (%10!p!) failed status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 280 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 281 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 282 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 283 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 284 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 285 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 286 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 287 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 288 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 289 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0GetStackObjects Device (%10!p!) failed status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 290 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 291 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 292 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 293 "%0Device (%10!p!) STATUS_BUFFER_OVERFLOW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 294 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 295 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 296 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 297 "%0Device (%10!p!) STATUS_INVALID_PARAMETER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 298 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 299 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0GetTargetByWDMObject Device (%10!p!) failed status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 300 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 301 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 302 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 303 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 304 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 305 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 306 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 307 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 308 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 309 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0GetTargetByWDMObject Device (%10!p!) failed status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 310 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 311 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 312 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 313 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 314 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 315 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 316 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 317 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 318 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 319 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0VBusRegisterForDeviceRemoval Device (%10!p!) Failed 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 320 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 321 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 322 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 323 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 324 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 325 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 326 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 327 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 328 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 329 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 330 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 331 "%0WdfRequestRetrieveInputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 332 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 333 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 334 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 335 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 336 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 337 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 338 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 339 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Enable Hidden Volume Interface on Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 340 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 341 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 342 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 343 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 344 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 345 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 346 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 347 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 348 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 349 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Enable Volume Interface on Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 350 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 351 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 352 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 353 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 354 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 355 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 356 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 357 "%0WdfRequestRetrieveOutputBuffer Device (%10!p!)failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 358 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 359 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Device (%10!p!) stack %11!d!, target stack %12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 360 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 361 "%0Device (%10!p!) removed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 362 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 363 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 364 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 365 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 366 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 367 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 368 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 369 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0IoAdjustStackSizeForRedirection failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 370 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 371 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 372 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 373 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 374 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 375 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 376 "%0ENTER Device (%10!p!) Request (%11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 377 "%0LEAVE Device (%10!p!) Request (%11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 378 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 379 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to create performance counters for the volume. 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 380 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 381 "%0STATUS_DELETE_PENDING for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 382 "%0pdoData->TopOfTheStack %10!p!  deviceConnected %11!d! for device(%12!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 383 "%0IoSetDeviceInterfaceState status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 384 "%0IoSetDeviceInterfaceState status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 385 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 386 "%0ENTER Device (%10!p!): IoControl %11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 387 "%0IOCTL_MOUNTDEV_QUERY_UNIQUE_ID" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 388 "%0IOCTL_MOUNTDEV_QUERY_DEVICE_NAME" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 389 "%0IOCTL_MOUNTDEV_QUERY_STABLE_GUID" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to create cache performance counters for the volume. 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 390 "%0IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 391 "%0IOCTL_MOUNTDEV_LINK_CREATED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 392 "%0IOCTL_MOUNTDEV_LINK_DELETED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 393 "%0IOCTL_VOLUME_ONLINE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 394 "%0IOCTL_VOLUME_OFFLINE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 395 "%0IOCTL_VOLUME_IS_OFFLINE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 396 "%0IOCTL_VOLUME_GET_GPT_ATTRIBUTES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 397 "%0IOCTL_VOLUME_SET_GPT_ATTRIBUTES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 398 "%0IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 399 "%0IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS_ADMIN" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0LEAVE Device (%10!p!) status 0x%11!x! adjusted stack %12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 400 "%0IOCTL_VOLUME_SUPPORTS_ONLINE_OFFLINE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 401 "%0IOCTL_VOLUME_IS_IO_CAPABLE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 402 "%0IOCTL_VOLUME_QUERY_FAILOVER_SET" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 403 "%0IOCTL_VOLUME_QUERY_VOLUME_NUMBER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 404 "%0IOCTL_VOLUME_LOGICAL_TO_PHYSICAL" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 405 "%0IOCTL_VOLUME_PHYSICAL_TO_LOGICAL" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 406 "%0IOCTL_VOLUME_IS_PARTITION" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 407 "%0IOCTL_VOLUME_IS_DYNAMIC" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 408 "%0IOCTL_VOLUME_GET_BC_PROPERTIES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 409 "%0IOCTL_VOLUME_ALLOCATE_BC_STREAM" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 410 "%0IOCTL_VOLUME_FREE_BC_STREAM" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 411 "%0IOCTL_VOLUME_PREPARE_FOR_CRITICAL_IO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 412 "%0IOCTL_VOLUME_QUERY_MINIMUM_SHRINK_SIZE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 413 "%0IOCTL_VOLUME_PREPARE_FOR_SHRINK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 414 "%0IOCTL_VOLUME_UPDATE_PROPERTIES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 415 "%0IOCTL_VOLUME_IS_CLUSTERED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 416 "%0IOCTL_DISK_GET_LENGTH_INFO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 417 "%0IOCTL_STORAGE_QUERY_PROPERTY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 418 "%0IOCTL_DISK_GET_DRIVE_GEOMETRY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 419 "%0IOCTL_CSV_GET_CSV_PRIVDATA" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 420 "%0IOCTL_DISK_GET_DRIVE_GEOMETRY_EX" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 421 "%0IOCTL_DISK_IS_WRITABLE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 422 "%0IOCTL_DISK_GET_DRIVE_LAYOUT" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 423 "%0IOCTL_DISK_GET_DRIVE_LAYOUT_EX" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 424 "%0IOCTL_DISK_CHECK_VERIFY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 425 "%0IOCTL_DISK_VERIFY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 426 "%0IOCTL_DISK_GET_PARTITION_INFO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 427 "%0IOCTL_DISK_GET_PARTITION_INFO_EX" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 428 "%0IOCTL_DISK_GET_PARTITION_ATTRIBUTES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 429 "%0IOCTL_DISK_GET_PARTITION_ATTRIBUTES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0LEAVE Device (%10!p!) " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 430 "%0IOCTL_DISK_SET_PARTITION_INFO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 431 "%0IOCTL_DISK_SET_PARTITION_INFO_EX" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 432 "%0IOCTL_DISK_PERFORMANCE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 433 "%0IOCTL_DISK_PERFORMANCE_OFF" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 434 "%0IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 435 "%0IOCTL_DISK_GET_CLUSTER_INFO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 436 "%0IOCTL_STORAGE_GET_DEVICE_NUMBER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 437 "%0IOCTL_STORAGE_QUERY_DEPENDENT_DISK_QOS" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 438 "%0IOCTL_STORAGE_QUERY_DEPENDENT_DISK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 439 "%0IOCTL_CBSI_ADD_FILE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 440 "%0IOCTL_CBSI_DELETE_FILE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 441 "%0IOCTL_CBSI_GET_FILES" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 442 "%0IOCTL_DISK_MEDIA_REMOVAL" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 443 "%0IOCTL_CSV_GET_TARGET_PATH" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 444 "%0IOCTL_CSV_SET_TARGET_PATH" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 445 "%0IOCTL_CSV_SET_FS_BLOB" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 446 "%0IOCTL_CSV_GET_FS_BLOB" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 447 "%0IOCTL_CSV_IS_CONNECTED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 448 "%0IOCTL_CSV_SET_READONLY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 449 "%0IOCTL_CSV_RESET_READONLY" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0LEAVE lhs %10!d! rhs %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 450 "%0IOCTL_CSV_IS_CSVVOLUME" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 451 "%0IOCTL_CSV_NOTIFY_VOLUME_STATE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 452 "%0IOCTL_VOLSNAP_QUERY_NAMES_OF_SNAPSHOTS" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 453 "%0IOCTL_CSV_ADD_PATH" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 454 "%0IOCTL_CSV_DEL_PATH" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 455 "%0IOCTL_CSV_CLEAR_PATHS" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 456 "%0IOCTL_CSV_TEST_REDIRECT" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 457 "%0IOCTL_CSV_NETWORK_PATH_ACTIVATE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 458 "%0IOCTL_CSV_FORCE_DISCONNECT" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 459 "%0IOCTL_CSV_PURGE_CACHE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 460 "%0IOCTL_CSV_ENABLE_CACHE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 461 "%0IOCTL_CSV_DISABLE_CACHE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 462 "%0IOCTL_CSV_CONFIG_CACHE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 464 "%0IOCTL_VOLUME_GET_CSVBLOCKCACHE_CALLBACK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 465 "%0IOCTL_CSV_REGISTER_CSVFS_CALLBACK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 466 "%0IOCTL_CSV_SET_STORAGE_PROP" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 467 "%0Default Iocontrol 0x%10!x! DeviceType 0x%11!x! Function 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 468 "%0LEAVE Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0RtlStringCchCopyNW failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 484 "%0ENTER (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 485 "%0Free Tunnel %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 486 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 487 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 488 "%0ENTER (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 489 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 490 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 491 "%0ENTER (%10!p!) Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 492 "%0Redirect the request to MDS" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 493 "%0Queue Work item" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 494 "%0Queue Work item failed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 495 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 496 "%0LEAVE (%10!p!) status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 497 "%0ENTER Request %10!p! irpFlag 0x%11!x! irpspflag 0x%12!x! zeroRequest %13!d! syncRequest %14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 498 "%0%10!p! status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 499 "%0ChildIrp Allocation failed for %10!p! with status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 500 "%0Sync IO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 501 "%0PrepForZeroTunnel failed for Irp %10!p! with status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 502 "%0Sync IO" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 503 "%0LEAVE Request %10!p! irpFlag 0x%11!x! irpspflag 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 504 "%0LEAVE Request (%10!p!) status 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 505 "%0ENTER Request (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 506 "%0Queue Work item" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 507 "%0Queue Work item failed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 508 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 509 "%0ENTER Device (%10!p!) Request (%11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 510 "%0offset %10!I64x! Length %11!Id!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 511 "%0Beyond volume boundary offset %10!I64x!  length %11!x! passed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 512 "%0Invalid offset %10!I64x! passed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 513 "%0LEAVE Device (%10!p!) Request (%11!p!) status (0x%12!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 514 "%0ENTER Device (%10!p!) Request (%11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 515 "%0offset %10!I64x! Length %11!Id!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 516 "%0Beyond volume boundary offset %10!I64x!  length %11!x! passed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 517 "%0Invalid offset %10!I64x! passed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+Arg, ItemLongLongX -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 518 "%0LEAVE Device (%10!p!) Request (%11!p!) status (0x%12!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 519 "%0ENTER Device (%10!p!) Request (%11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 520 "%0LEAVE Device (%10!p!) Request (%11!p!) status (0x%12!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 521 "%0IOCTL_MOUNTDEV_QUERY_UNIQUE_ID" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 522 "%0IOCTL_MOUNTDEV_QUERY_STABLE_GUID" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 523 "%0IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 524 "%0IOCTL_MOUNTDEV_LINK_CREATED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 525 "%0IOCTL_MOUNTDEV_LINK_DELETED" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 527 "%0IOCTL_VOLUME_GET_CSVBLOCKCACHE_CALLBACK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 528 "%0IOCTL_CSV_REGISTER_CSVFS_CALLBACK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 529 "%0IOCTL_CSV_GET_CSV_PRIVDATA" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Delete symlink for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 530 "%0IOCTL_DISK_IS_WRITABLE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 531 "%0IOCTL_CSV_IS_CSVVOLUME" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 532 "%0Forward to power managed queue" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 533 "%0forward failed (%10!p!) status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0RtlStringFromGUID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Delete symlink for Device %10!p!(%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Delete symlink for Device %10!p!(%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0LEAVE Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0ENTER " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0RtlStringFromGUID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0WdfPdoInitAssignDeviceID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0WdfPdoInitAddHardwareID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0WdfPdoInitAssignInstanceID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0WdfDeviceInitAssignName failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0WdfPdoInitAddDeviceText failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WdfPdoInitAssignRawDevice failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WdfDeviceInitAssignSDDLString failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Write WdfDeviceInitAssignWdmIrpPreprocessCallback failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Read WdfDeviceInitAssignWdmIrpPreprocessCallback failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Read WdfDeviceInitAssignWdmIrpPreprocessCallback failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WdfDeviceCreate failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0WdfStringCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0WdfWaitLockCreate failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0WdfWaitLockCreate failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WdfDeviceCreateDeviceInterface failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0WdfDeviceCreateDeviceInterface failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0WdfIoQueueCreate failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0WdfIoQueueCreate failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0We created %10!s! for Device %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0We hijacked %10!s! for Device %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0We hijacked %10!s! for Device %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Device %10!p! created, Device number %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0LEAVE status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0WdfIoTargetOpen failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+7a54b583-b1cb-3582-8387-620fadbb23ac vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0LEAVE status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IoSetDeviceInterfaceState status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LEAVE Device (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ENTER Device (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Enumerate Child list for (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Child list is empty" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Iterate Child list" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Found device in child list (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device not in child list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Got Removal callback" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IoSetDeviceInterfaceState status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0LEAVE Device (%10!p!) status 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0IoRegisterPlugPlayNotification Device (%10!p!) Error Status = 0x%11!X! Hande(%12!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0IoRegisterPlugPlayNotification Done for (%10!p!) and hande is %11!p! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0STATUS_INSUFFICIENT_RESOURCES" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IO
+{
+}
+
+8aac781c-48ea-3942-2d33-ad3d0a99e7a5 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PrepForZeroTunnel Tunnel %10!p! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=IO
+{
+Arg, ItemPtr -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0FsRtlAllocateExtraCreateParameterList failed status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FsRtlAllocateExtraCreateParameter failed status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0FsRtlInsertExtraCreateParameter failed status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0VxVolumeCamGenerateEa failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0CsvCamSignAndImpersonate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to logoon to %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPWString -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CsvCamRevertToPreviousTokenState failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device (%10!p!) network path is NULL return 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Target FsPath  %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=API
+{
+Arg, ItemPWString -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0VxVolumeGetDeviceObjectPointer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ExAllocatePoolWithTagPriority Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Added NetworkPath Entry %10!p! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0RtlUnicodeStringCopyString Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0RtlUnicodeStringCopyString Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ExAllocatePoolWithTagPriority Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Added NetworkPath Entry %10!p! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfRequestRetrieveInputBuffer Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0RtlUnicodeStringCopyString Device (%10!p!) failed status 0x%11!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Removing Entry %10!p! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ENTER Context %10!p! workItem %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ForceDisconnect status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ForceDisconnect status 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+a4a0781f-2599-3061-cc79-0e345740db49 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Vbus Driver Load" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DebugAlwaysUpdatePerfCounters: %10!c!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=INIT
+{
+Arg, ItemChar -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DebugShuntIO: %10!c!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=INIT
+{
+Arg, ItemChar -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VBUS: WdfDriverCreate failed with status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0VBUS: VxVolumeCamLoad failed with status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to load the driver" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Vbus Filter Driver Unload" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Vbus(0) Started %10!d! #Items %11!d! Active %12!d! NThread %13!d! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Vbus(1) Started %10!d! #Items %11!d! Active %12!d! NThread %13!d! " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfDeviceInitAssignName failed with status code 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfDeviceInitAssignSDDLString failed with status code 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfDeviceCreate failed with status code 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfDeviceCreateSymbolicLink failed with status code 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfIoQueueCreate failed with status code 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LEAVE status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Iterate and eject devices" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0RtlUnicodeStringPrintf failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Delete symlink for Device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0RtlStringFromGUID failed status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfChildListUpdateChildDescriptionAsMissing succeess" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfChildListUpdateChildDescriptionAsMissing failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0done device cleanup" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfIoTargetCreate failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfIoTargetOpen failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Local node try to get volume device name for Device  %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to allocate memory to get device name - 0 Device %10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to allocate memory to get device name - 1 Device %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed IOCTL_MOUNTDEV_QUERY_DEVICE_NAME - (0x%10!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=INIT
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0LEAVE status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ENTER" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0IOCTL_VBUS_CREATE_VOLPDO Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0AddChildPdoCallback failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WdfRequestRetrieveInputBuffer failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0IOCTL_VBUS_DELETE_VOLPDO Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0RemoveChildPdoCallback failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfRequestRetrieveInputBuffer failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0IOCTL_VBUS_RESET_SYMLINK Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0ResetSymLink failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ResetSymLink failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0IOCTL_VBUS_SET_SECURITY_INFO Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0IOCTL_VBUS_SET_SECURITY_INFO failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0IOCTL_VBUS_SET_SECURITY_INFO failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0IOCTL_VBUS_CONFIG_CACHE Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0WdfRequestRetrieveInputBuffer failed status 0x%10!0x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+Arg, ItemLong -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0IOCTL_VBUS_CLEAR_TOKENS Request" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Invalid request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0LEAVE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=API
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Iterate to find device by Id" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Found device %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Device %10!p! already removed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Device %10!p! match" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+
+c3c6bcb5-644e-3ae6-3f5b-66d12ce5ed77 vbus // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Found %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=INIT
+{
+Arg, ItemPtr -- 10
+}
+

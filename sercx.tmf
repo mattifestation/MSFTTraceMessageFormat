@@ -1,0 +1,895 @@
+23ae6116-d73c-3072-0127-4f27be806286 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0NULL required parameter passed to a SerCx DDI - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+23ae6116-d73c-3072-0127-4f27be806286 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Called at wrong IRQL, should be less than or equal to %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+23ae6116-d73c-3072-0127-4f27be806286 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Called at wrong IRQL, should be %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+23ae6116-d73c-3072-0127-4f27be806286 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Private globals %10!p! are invalid - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Config %10!p! Size %11!d! incorrect, expected %12!d! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Missing required callback in Config %10!p!  - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to assign SDDL string %10!s! to DeviceInit %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error getting SECURITY_DESCRIPTOR for DEVICE_OBJECT %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Error setting SECURITY_DESCRIPTOR %10!p! for DEVICE_OBJECT %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Error creating Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+26c8fd49-08ee-3c4a-ba9e-23a2029a5788 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Error opening Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Length should not be zero - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0BufferDescriptor %10!p! Size %11!d! incorrect, expected %12!d! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Controller has outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Ring buffer is full - %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Ring buffer is invalid, cannot retrieve a buffer - %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Controller has outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Cannot retrieve MDL without active read request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Cannot retrieve MDL with %10!u! completed bytes - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to retrieve output MDL for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Invalid SERCX_STATUS %10!u! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Controller must have outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0BytesReceived %10!u! > buffer lengh %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0BytesReceived %10!u! > bytes remaining %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Controller should not have an MDL when copyinginto the ring buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Read request %10!p! has already been cancelled - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Request %10!p! has already been cancelled, cancel callback has not executed yet so defer completion - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Read request %10!p! timed out" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0New read request %10!p! with %11!u! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Cancel for read request %10!p! before WdfRequestMarkCancelableEx returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0EvtIoReadStop called for Request %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Cancel for read request %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Ring Buffer Copy (0x%10!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Copied %10!x! bytes from Ring Buffer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Request %10!p! has already been cancelled - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Request %10!p! has already been cancelled, deferring completion to cancel callback - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Controller has outstanding buffer for request %10!p!, marked with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Already tried to cancel request %10!p!,this time with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Completion queued for request %10!p! with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4418d6ab-b91c-32f8-871b-c9eadd311b5a sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Completion already pending for request %10!p! with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Received file open with SerCx unitialized - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CREATE on device %10!p! with name %11!s! not found - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0File open callback returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to configure device - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Controller opened by file %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemPtr -- 10
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0KeWaitForSingleObject for RingBufferReturnedEvent %10!p! failed, leaking ring buffer memory - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Controller closed by file %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemPtr -- 10
+}
+
+5296d8b5-a55c-3872-d04b-4f99ea1571c8 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failure querying connection properties for WDFFILEOBJECT %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_FILE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+6bc8e75b-fc55-38ec-b590-d92162d26814 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Activity %10!p! Size %11!d! incorrect, expected %12!d! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+6bc8e75b-fc55-38ec-b590-d92162d26814 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate ring buffer memory - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6bc8e75b-fc55-38ec-b590-d92162d26814 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+6bc8e75b-fc55-38ec-b590-d92162d26814 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfRequestComplete( %10!p! => %11!s! ) READ 0x%12!x! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+6bc8e75b-fc55-38ec-b590-d92162d26814 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfRequestComplete( %10!p! => %11!s! ) WRITE 0x%12!x! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Length should not be zero - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0BufferDescriptor %10!p! Size %11!d! incorrect, expected %12!d! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Controller has outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Cannot retrieve transmit buffer without a request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Controller has outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Cannot retrieve transmit MDL without a request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Cannot retrieve MDL with %10!u! completed bytes - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to retrieve input MDL for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Invalid SERCX_STATUS %10!u! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Controller must have outstanding buffer - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BytesTransmitted %10!u! > buffer lengh %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0BytesTransmitted %10!u! > bytes remaining %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Request %10!p! has already been cancelled - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Request %10!p! has already been cancelled, cancel callback has not executed yet so defer completion - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0New transmit request %10!p! with %11!u! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Cancel for write request %10!p! before WdfRequestMarkCancelableEx returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0EvtIoWriteStop called for Request %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Cancel for write request %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Request %10!p! has already been cancelled, deferring completion to cancel callback - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Request %10!p! has already been cancelled, deferring completion to cancel callback - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0During cancel, controller has outstanding buffer for request %10!p!, marked with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Already tried to cancel request %10!p!,this time with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Completion queued for request %10!p! with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e39a8e3-6320-3238-3216-3687a7ae5dad sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0During cancel, completion already pending for request %10!p! with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ac5e0e5-0717-338e-dab7-f0591b4a8d65 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Switching on %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemWString -- 10
+}
+
+9ac5e0e5-0717-338e-dab7-f0591b4a8d65 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Handing IOCTL off to controller driver" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Rescheduling timer - next timeout in %10!I64u! ms" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+Arg, ItemULongLong -- 10
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Rescheduling timer - no timeout pending" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Write timeout with %10!I64u! ms used" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+Arg, ItemULongLong -- 10
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Using read after 1st byte timeout, setting interval timeout to 1" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_STATE
+{
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Read immediate timeout" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Read total timeout with %10!I64u! ms used" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+Arg, ItemULongLong -- 10
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Read interval timeout with %10!I64u! ms used since last byte" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_STATE
+{
+Arg, ItemULongLong -- 10
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Invalid value in SERIAL_TIMEOUTS %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Read request %10!p! timed out" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+}
+
+a04a7a1e-0e2b-3cd7-f99a-5bc36e9ebaf5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Transmit request %10!p! timed out" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Event 0x%10!x! not present in wait mask 0x%11!x! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_APIERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! called with Events=0x%10!x!, WaitMask=0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to retrieve next request from queue %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_API
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Invalid mask specified, 0x%10!x! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to retrieve next request from queue %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae558f1d-0bdc-3a08-fa3c-9d32d97ea99c sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Unexpected error when forwarding WDFREQEUST %10!p! to WaitMaskQueue %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Set queue size %10!u! <= current size %11!u!, ignoring request %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failure invoking EvtSerCxApplyConfig - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bd9d57f1-8dae-3b34-aa0c-000a71b2d9da sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfRequestComplete( %10!p! => %11!s! )" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DriverEntry failure - could not create WDF driver (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DriverEntry failure - could not create control device init (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Calling WdfControlFinishInitializing" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Calling WdfRegisterClassLibrary" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DriverEntry failure - could not create control device (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SerCx driver loaded - control device name = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+Arg, ItemPWString -- 10
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SerCx driver unloading" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_LOADING
+{
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Function table mismatch: expected %10!u!, got %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_EXTENSION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+edb93934-ae80-3875-fb11-d66632bb1603 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to allocate client globals - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_EXTENSION
+{
+Arg, ItemNTSTATUS -- 10
+}
+

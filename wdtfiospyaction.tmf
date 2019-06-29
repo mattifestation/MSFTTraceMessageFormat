@@ -1,0 +1,995 @@
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(m_IoSpyDataFileDirectoryRoot)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(L'\')
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(L'IoSpyData_')
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(m_UniquePerDeviceName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%10!s!o->this(%11!p!):%!FUNC!(ppsDataFileDir = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileDirectoryRoot.CopyTo(ppsDataFileDir)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!s!o->this(%11!p!):%!FUNC!(ppsDataFile = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.CopyTo(ppsDataFile)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Type=Device'), &Res)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Invalid target provided to Action\IoSpy.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'DeviceId'), &m_DeviceId)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'UniquePerDeviceName'), &m_UniquePerDeviceName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(L'IoSpyData_')
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_IoSpyDataFileName.Append(m_UniquePerDeviceName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbRebootRequired
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!-->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=ResetServiceStartType()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::Enabled', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(L'IOSPY::DataFileName', &DataFile)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::DataFilePresent', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(L'IOSPY::DataFileName', &DataFile)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::DataFileName', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::DataFilePresent', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='Append for m_IoSpy.m_IoSpyDataFileName failed inside EnableOnly function'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->InternalGetInterfaceVer2(L'DeviceSupport', CComVariant(), CComVariant(), &pAction)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='QueryInterface for IWDTFDeviceSupportAction2 failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pDs->EnableUMDFSupportIfRequired()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbRebootRequired
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=EnableOnly(pbRebootRequired)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::Enabled', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='Append for m_IoSpy.GetDataFileName failed inside Disable function'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->InternalGetInterfaceVer2(L'DeviceSupport', CComVariant(), CComVariant(), &pAction)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='QueryInterface for IWDTFDeviceSupportAction2 failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pDs->DisableUMDFSupportIfRequired()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(L'IOSPY::DataFileName', &DataFile)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::DataFilePresent', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbRebootRequired
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=DisableOnly(pbRebootRequired)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=bRet
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::Enabled', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG=L'CWDTFIoSpyImpl::ResetServiceStartType() - OpenSCManager() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG=L'CWDTFIoSpyImpl::ResetServiceStartType() - OpenServiceW() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG=L'CWDTFIoSpyImpl::ResetServiceStartType() - ChangeServiceConfigW() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IsDisableable', &bIsDisableable)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->InternalGetInterfaceVer2(L'PNP', CComVariant(), CComVariant(), &pAction)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pPNP->DisableDevice(&bSuccess)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pPNP->EnableDevice(&bSuccess)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IsRebootNeeded', &bRebootRequired)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pPNP->GetStatus(&m_LastError.m_hr)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pPNP->GetStatusString(&m_LastError.m_sErrorString)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%10!s!o->this(%11!p!):%!FUNC!(Tag = "%12!s!", psDataFileDir)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(L'IOSPY::Enabled OR IOSPY::DataFileName', &bSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=m_LastError.m_hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+81bc5175-a308-3dc0-ca40-899a5ff4be7f WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'UniquePerDeviceName'), &m_UniquePerDeviceName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=PerformTaskOnAllItems(IOSPYEnableOnlyPrivate, pbRebootRequired, VARIANT_FALSE, &pResult, &m_Log)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=PerformTaskOnAllActionItems(pParentActions, IOSPYDeviceRestartPrivate, pbRebootRequired, VARIANT_FALSE, &pResult, &m_Log)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=PerformTaskOnAllItems(IOSPYDisableOnlyPrivate, pActions, VARIANT_FALSE, &pResult, &m_Log)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActionsFromActions(pActions, &pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=PerformTaskOnAllActionItems(pParentActions, IOSPYDeviceRestartPrivate, pbRebootRequired, VARIANT_FALSE, &pResult, &m_Log)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o->this(%11!p!):%!FUNC!(ppsDataFileDir = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+c0d69001-862e-3a66-61bf-8875bfa812c5 WDTFIoSpyAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

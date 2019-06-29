@@ -1,0 +1,78 @@
+36925589-cf9e-352c-1e91-75c1815c649e MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[ERROR] Status 0x%10!X! in module %11!s!, file %12!s!, line %13!u!, message: '%14!s!'" //   LEVEL=AJ_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemString -- 14
+}
+
+36925589-cf9e-352c-1e91-75c1815c649e MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Module %10!s!, file %11!s!, line %12!u!, message: '%13!s!' (status 0x%14!X!)" //   LEVEL=AJ_TRACE
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+Arg, ItemLong -- 14
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[RouterNodeContext] AllJoynInit returned failure, QStatus = %10!u!" //   LEVEL=AJ_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[RouterNodeContext] AllJoynRouterInit returned failure, QStatus = %10!u!" //   LEVEL=AJ_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[~RouterNodeContext] AllJoynShutdown returned failure, QStatus = %10!u!" //   LEVEL=AJ_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Entering router node run" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Configuring the current router instance" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Extract the AllJoyn listen spec strings from the configuration" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Initialize the AllJoyn bus object" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Create the AllJoyn bus controller and start the bus" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0RouterNodeRun successful" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DLL_PROCESS_ATTACH" //   LEVEL=AJ_TRACE
+{
+}
+
+95f7a00c-1837-31cc-3285-5acc0288f834 MSAJApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DLL_PROCESS_DETACH" //   LEVEL=AJ_TRACE
+{
+}
+

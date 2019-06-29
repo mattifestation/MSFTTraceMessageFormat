@@ -1,0 +1,432 @@
+094b8e51-ab88-3e6f-6521-e59912980f34 lib // SRC=MediaBuffer.cpp MJ= MN=
+#typev MediaBuffer_cpp123 10 "%0@%10!p! Buffer lock count incremented to:%11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_NORMAL
+{
+this, ItemPtr -- 10
+m_bufferLockCount, ItemLong -- 11
+}
+
+094b8e51-ab88-3e6f-6521-e59912980f34 lib // SRC=MediaBuffer.cpp MJ= MN=
+#typev MediaBuffer_cpp142 11 "%0@%10!p! Starting delayed clean up" //   FLAGS=DH_THIS_FILE LEVEL=TP_NORMAL
+{
+this, ItemPtr -- 10
+}
+
+094b8e51-ab88-3e6f-6521-e59912980f34 lib // SRC=MediaBuffer.cpp MJ= MN=
+#typev MediaBuffer_cpp147 12 "%0@%10!p! Buffer lock count decremented to:%11!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_NORMAL
+{
+this, ItemPtr -- 10
+m_bufferLockCount, ItemLong -- 11
+}
+
+094b8e51-ab88-3e6f-6521-e59912980f34 lib // SRC=MediaBuffer.cpp MJ= MN=
+#typev MediaBuffer_cpp155 13 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+094b8e51-ab88-3e6f-6521-e59912980f34 lib // SRC=MediaBuffer.cpp MJ= MN=
+#typev MediaBuffer_cpp167 14 "%0@%10!p! Clean up was delayed" //   FLAGS=DH_THIS_FILE LEVEL=TP_NORMAL
+{
+this, ItemPtr -- 10
+}
+
+251cd220-3491-36e5-7790-ca6043bb6350 lib // SRC=MediaFrameHelpers.cpp MJ= MN=
+#typev MediaFrameHelpers_cpp622 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=nullptr phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp109 12 "%0@%10!p! wrapped MF 2D buffer @%11!p!, subtype %12!d!, width %13!d!, height %14!d!, forceReadOnly %15!d!, device manager @%16!p!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+mfBuffer.Get(), ItemPtr -- 11
+subtype.Data1, ItemLong -- 12
+width, ItemLong -- 13
+height, ItemLong -- 14
+forceReadOnly, ItemLong -- 15
+pDeviceManager, ItemPtr -- 16
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp122 13 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp158 14 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp27 10 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp345 15 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp366 16 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp386 17 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+47795d62-303e-3434-2ecc-d3ef944717f0 lib // SRC=VideoFrame.cpp MJ= MN=
+#typev VideoFrame_cpp43 11 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+59094188-e1f1-3f1a-5326-9502172e33cb lib // SRC=AudioFrameFactory.cpp MJ= MN=
+#typev AudioFrameFactory_cpp25 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+59094188-e1f1-3f1a-5326-9502172e33cb lib // SRC=AudioFrameFactory.cpp MJ= MN=
+#typev AudioFrameFactory_cpp54 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp135 11 "%0@%10!p! from WIC, pixel format %11!d!, alpha %12!d!, width %13!d!, height %14!d!, dpiX %15!s!, dpiY %16!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_format, ItemLong -- 11
+m_alpha, ItemLong -- 12
+m_width, ItemLong -- 13
+m_height, ItemLong -- 14
+m_dpiX, ItemDouble -- 15
+m_dpiY, ItemDouble -- 16
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp194 12 "%0@%10!p! from MF, pixel format %11!d!, alpha %12!d!, width %13!d!, height %14!d!, dpiX %15!s!, dpiY %16!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_format, ItemLong -- 11
+m_alpha, ItemLong -- 12
+m_width, ItemLong -- 13
+m_height, ItemLong -- 14
+m_dpiX, ItemDouble -- 15
+m_dpiY, ItemDouble -- 16
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp241 13 "%0@%10!p! allocated buffer @%11!p! with pixel format %12!d!, alpha %13!d!, width %14!d!, height %15!d!, dpiX %16!s!, dpiY %17!s!, IsMF %18!d!, IsWIC %19!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_mfBuffer != nullptr ? static_cast<IUnknown*>(m_mfBuffer.Get()) : static_cast<IUnknown*>(m_wicBitmap.Get()), ItemPtr -- 11
+m_format, ItemLong -- 12
+m_alpha, ItemLong -- 13
+m_width, ItemLong -- 14
+m_height, ItemLong -- 15
+m_dpiX, ItemDouble -- 16
+m_dpiY, ItemDouble -- 17
+m_mfBuffer != nullptr, ItemLong -- 18
+m_wicBitmap != nullptr, ItemLong -- 19
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp337 14 "%0@%10!p! lock exclusive %11!d!, shared %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_lockBitmapExclusive, ItemLong -- 11
+m_lockBitmapSharedCount, ItemLong -- 12
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp425 15 "%0@%10!p! lock exclusive %11!d!, shared %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_lockBitmapExclusive, ItemLong -- 11
+m_lockBitmapSharedCount, ItemLong -- 12
+}
+
+743d2447-52e4-390e-1b0e-54e5b9932f5e lib // SRC=SoftwareBitmapState.cpp MJ= MN=
+#typev SoftwareBitmapState_cpp97 10 "%0@%10!p! from WIC, pixel format %11!d!, alpha %12!d!, width %13!d!, height %14!d!, dpiX %15!s!, dpiY %16!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_format, ItemLong -- 11
+m_alpha, ItemLong -- 12
+m_width, ItemLong -- 13
+m_height, ItemLong -- 14
+m_dpiX, ItemDouble -- 15
+m_dpiY, ItemDouble -- 16
+}
+
+7639c835-bfcc-3f2e-9e96-8e846e64e712 lib // SRC=AudioFrame.cpp MJ= MN=
+#typev AudioFrame_cpp109 12 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+7639c835-bfcc-3f2e-9e96-8e846e64e712 lib // SRC=AudioFrame.cpp MJ= MN=
+#typev AudioFrame_cpp55 10 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+7639c835-bfcc-3f2e-9e96-8e846e64e712 lib // SRC=AudioFrame.cpp MJ= MN=
+#typev AudioFrame_cpp78 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+775d6b44-1cac-305b-b499-2b275d3e669b lib // SRC=VideoFrameFactory.cpp MJ= MN=
+#typev VideoFrameFactory_cpp111 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+775d6b44-1cac-305b-b499-2b275d3e669b lib // SRC=VideoFrameFactory.cpp MJ= MN=
+#typev VideoFrameFactory_cpp27 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+775d6b44-1cac-305b-b499-2b275d3e669b lib // SRC=VideoFrameFactory.cpp MJ= MN=
+#typev VideoFrameFactory_cpp57 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+775d6b44-1cac-305b-b499-2b275d3e669b lib // SRC=VideoFrameFactory.cpp MJ= MN=
+#typev VideoFrameFactory_cpp80 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+8860bc36-4ac3-3979-0e2d-60991fd3e94a lib // SRC=AudioFrameState.cpp MJ= MN=
+#typev AudioFrameState_cpp122 12 "%0@%10!p! lock exclusive %11!d!, shared %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_lockFrameExclusive, ItemLong -- 11
+m_lockFrameSharedCount, ItemLong -- 12
+}
+
+8860bc36-4ac3-3979-0e2d-60991fd3e94a lib // SRC=AudioFrameState.cpp MJ= MN=
+#typev AudioFrameState_cpp58 10 "%0@%10!p! allocated buffer @%11!p! with capacity %12!d!B" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_mfBuffer.Get(), ItemPtr -- 11
+m_capacity, ItemLong -- 12
+}
+
+8860bc36-4ac3-3979-0e2d-60991fd3e94a lib // SRC=AudioFrameState.cpp MJ= MN=
+#typev AudioFrameState_cpp89 11 "%0@%10!p! lock exclusive %11!d!, shared %12!d!" //   FLAGS=DH_THIS_FILE LEVEL=TP_LOWEST
+{
+this, ItemPtr -- 10
+m_lockFrameExclusive, ItemLong -- 11
+m_lockFrameSharedCount, ItemLong -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp195 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp227 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp312 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp379 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp448 14 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp469 15 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+ad93b30e-9dad-32ee-4af7-4654e4fe12ad lib // SRC=SoftwareBitmap.cpp MJ= MN=
+#typev SoftwareBitmap_cpp479 16 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+b44dd309-585f-328c-d570-de21b6597efb lib // SRC=BufferReference.cpp MJ= MN=
+#typev BufferReference_cpp68 10 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+bcf20728-324e-3c26-4ddb-65301eaa8d86 lib // SRC=MediaFrame.cpp MJ= MN=
+#typev MediaFrame_cpp26 10 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+bcf20728-324e-3c26-4ddb-65301eaa8d86 lib // SRC=MediaFrame.cpp MJ= MN=
+#typev MediaFrame_cpp281 13 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+bcf20728-324e-3c26-4ddb-65301eaa8d86 lib // SRC=MediaFrame.cpp MJ= MN=
+#typev MediaFrame_cpp31 11 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+bcf20728-324e-3c26-4ddb-65301eaa8d86 lib // SRC=MediaFrame.cpp MJ= MN=
+#typev MediaFrame_cpp36 12 "%0@0x%10!p! exit" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this
+{
+_po, ItemPtr -- 10
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp108 13 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp134 14 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp169 15 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp29 10 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp331 16 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp529 17 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp54 11 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp557 18 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp581 19 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp609 20 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp627 21 "%0@%10!p! Surface multithread protection is %11!s!" //   FLAGS=DH_THIS_FILE LEVEL=TP_NORMAL
+{
+this, ItemPtr -- 10
+isMultithreadProtected? 'enabled' : 'disabled', ItemString -- 11
+}
+
+c3178517-eb6c-36e9-cdc8-f86c0ee078a7 lib // SRC=SoftwareBitmapFactory.cpp MJ= MN=
+#typev SoftwareBitmapFactory_cpp78 12 "%0@0x%10!p! exit%11!s!%12!s!" //   pszScopeName=__FUNCTION__ dwComponent=DH_THIS_FILE dwLevel=TP_SCOPE_TRACE pObject=this phr=&hr
+{
+(_po), ItemPtr -- 10
+((_ph == nullptr) || SUCCEEDED(*_ph) ? ' ' : ' failed '), ItemString -- 11
+(_ph == nullptr ? S_OK : *_ph), ItemHRESULT -- 12
+}
+

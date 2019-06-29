@@ -1,0 +1,1504 @@
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to check for roaming profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Failed to create local path exclusion list." //   LEVEL=PublicError
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Failed to convert source path exclusion list." //   LEVEL=PublicError
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Failed to initialize COM. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Failed to create folder manager. hr %10!#08x!)" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Failed to get list of known folder IDs. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Failed to copy <%10!s!> to <%11!s!>. error %12!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to upload profile directory. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Failed to copy <%10!s!> to <%11!s!>. error %12!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Failed to get known folder path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Failed to copy directory. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Failed to recreate known folders excluded from roaming, profile load will continue. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to set the upload timestamp. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0Failed to copy exclusion list from network default profile. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Failed to copy exclusion list from local default profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Failed to get the default profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Failed to get the exclusion list. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0Failed to impersonate the user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Failed to copy profile directory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create load timestamp string. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0Failed to get exclusion list for <%10!s!>. hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0Failed to get exclusion list for <%10!s!>. hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0At least one of the exclusion list is NULL, ignoring: Server list: <%10!s!>  Client list: <%11!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0The exclusion lists between server and client are different, ignoring: Server list: <%10!s!>  Client list: <%11!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0The exclusion lists on both server and client are empty, ignoring." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0The exclusion lists on both server and client are the same: <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0Failed to set the exclusion list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to create unload timestamp string. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0Failed to generate profile list key name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0Failed to open profile list key. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0Failed to generate local user hive path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0Failed to roll back user hive time stamp. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0Failed to set the profile path to the roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0Failed to determine if the bypass path is needed, forcing bypass path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0Failed to generate CSC bypass path, defaulting to profile path. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0Failed to set roaming path to CSC bypass path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0Bypass path not needed for profile <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0Profile <%10!s!> is on a local path, no bypass necessary." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0_SetNtUserPolTime failed, hr = %10!08X!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0SetServerNtUserIni failed. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0SetLocalNtUserIni failed. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0SetHiveFileTime failed. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to check auto-cached status of profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0pszPath returned NULL. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0Failed to append the user's .ini file name to the roaming profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0Failed to write exclusion list to the user's remote .ini file. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0Failed to write flags to the user's remote .ini file. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0Failed to validate the user's .ini file. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0Failed to append the user's .ini file name to the local profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0Failed to write exclusion list to the user's local .ini file. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0SetNtUserPolTime: Failed to build profile path: hr =%10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0SetNtUserPolTime:  couldn't get file attributes <%10!s!>, error = %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Profile resides on an auto-cached share, bypass path needed." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0SetNtUserPolTime: Failed to build ntuser.pol file path: hr = %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0SetNtUserPolTime:  couldn't open local policy file <%10!s!>, error = %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0SetNtUserPolTime: couldn't set time on local policy file, error = %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0Failed to append the mandatory profile hive file name to the roaming profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0Failed to append the user hive file name to the roaming profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0Failed to open remote hive file <%10!s!>. error %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0Failed to get time stamp on remote profile. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0Failed to append the mandatory profile hive file name to the local profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0Failed to append the user hive file name to the local profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0Failed to open local hive file <%10!s!>. error %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0Failed to set the time stamp on local profile. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0Failed to get time stamp on local profile. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0Failed to set the time stamp on remote profile. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0Failed to generate profile list key name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0Failed to open profile list key. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0Failed to write low DWORD of profile unload time into the registry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0Failed to write high DWORD of profile unload time into the registry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Profile contains pinned content or is offine, bypass path needed." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0Failed to evaluate slow link, defaulting to fast link. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0Slowlink detected, do not upload profile." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0Failed to append user's .ini file name to roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0No pinned content and online, no bypass path needed." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to check CSC status of profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Offline Files not active, no bypass path needed." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to acquire Offline Files state. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Bypass path needed: %10!c!  hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemChar -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0User preference is local, ignoring roaming profile path" //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to check for cross forest logon. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Cross forest logon detected, disable RUP." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to get "Add Admin Group To RUP" registry value. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to get "Read Only Profile" registry value. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to determine if the bypass path is needed, forcing bypass path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to set the roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to generate CSC bypass path. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Bypass path not needed for profile <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Profile <%10!s!> is on a local path, no bypass necessary." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to copy the roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to set the roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to check for slow connection. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Slow connection detected, disable RUP." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Failed to determine primary computer. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Not a primary computer, disable RUP." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Cannot access mandatory profile. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Cannot access read only profile. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to get user SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed to create directory <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Error when checking roaming path. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Get disable ownership check registry value failed. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Policy set to disable ownership check" //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to copy roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to add backslash to roaming path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to copy mandatory hive name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Found a mandatory profile <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Open <%10!s!> failed. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Failed to copy user hive name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Found an user profile <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Open <%10!s!> failed. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0No hive file found, empty roaming profile, OK to create one." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Not Primary Computer for user." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Cross domain login found, handle as if primary computer detected." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0DC does not support the primary computer feature, handle as if primary computer detected." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Checking primary computer relationship failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Mandatory or ReadOnly profile detected, always consider it fast link." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0The profile is across a slow link." //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed to copy profile path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Profile path is <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0No share is found in UNC path." //   LEVEL=PublicError
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Could not get network share information. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Invalid DFS path." //   LEVEL=PublicError
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to get DFS root physical share information. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Invalid profile folder path!" //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Failed to get length of physical server name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Failed to split the path name - Invalid server/share name!!!" //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Failed to get the path's root - Invalid server/share name!!!" //   LEVEL=Public
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed to get network share information for the physical server. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Share auto-cached: %10!c!  hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemChar -- 10
+Arg, ItemLong -- 11
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Checking Offline Files status for path <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Failed to initialize COM. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Failed to create IOfflineFilesCache instance. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Failed to get IOfflineFilesPinInfo2. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed IOfflineFilesPinInfo2->IsPinned. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Failed IOfflineFilesPinInfo2->IsPartlyPinned. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0The item not present or inaccessible in the CSC cache. Treat as success. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Failed IOfflineFilesCache->FindItem. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Failed IOfflineFilesCache->FindItem. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Failed to get IOfflineFilesConnectionInfo. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Failed IOfflineFilesConnectionInfo->GetConnectState. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+0163232a-d2aa-3067-096b-61facfe946e8 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Pinned Items: %10!c!  Offline: %11!c!  hr %12!#08x!" //   LEVEL=Public
+{
+Arg, ItemChar -- 10
+Arg, ItemChar -- 11
+Arg, ItemLong -- 12
+}
+
+2655f3c5-9ae7-33f7-0488-111b7858743f cscsuspendpolicy // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Retrieved "CSC Suspend Dirs" value: <%10!s!>, hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2655f3c5-9ae7-33f7-0488-111b7858743f cscsuspendpolicy // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Impersonation failed, hr = %10!08X!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+2655f3c5-9ae7-33f7-0488-111b7858743f cscsuspendpolicy // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Suspend dirs string length: %10!d!, hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Connected or no network worth waitng on. Signaling event." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Zero length buffer, WCM service is probably down. Signaling event." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0No interfaces to wait on. Signaling event." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to create interface context object for interface %10!x!-%11!x!. This interface will be ignored." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to query state. status %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to subscribe for changes. status %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to subscribe for interface list change notifications. status %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to query for interface list. status %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Waiting for %10!d! ms." //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Either network connectivity is established or connectivity cannot be established." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Timed out waiting for connectivity." //   LEVEL=PublicError
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed while checking connectivity. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Connectivity signaled - but network not ready." //   LEVEL=PublicError
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Connectivity signaled - Either network connectivity is established or connectivity cannot be established." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Timed out waiting for connectivity." //   LEVEL=PublicError
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0MsgWait failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to register for connectivity notification. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to allocate connectivity watcher object." //   LEVEL=PublicError
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed event to signal connectivity. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Checking slow link through IP network for %10!s! ..." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to append to FileName. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to append to final path. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to append prefix path. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Failed to execute the second datawrite of two hundred byte for bandwidth check. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Failed to send the FSCTL_LMR_SET_DEBUG_INFO. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Failed to execute the first datawrite data for bandwidth check. status %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0LatencyLimit = %10!d!, LatencyActualRate = %11!d!, BandwidthLimit = %12!d!, BandWidthActualRate = %13!d!, SLOWLINK = %14!s!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemString -- 14
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Failure status %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Check latency and bandwidth for slow link failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0SlowLinkDetectEnabled %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0SlowLinkTimeOut %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0SlowLinkDlgTimeOut %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0SlowLinkUIEnabled %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0WaitForRemoteProfile %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0TransferRate %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Slow link detection is disabled by policy, always consider it fast link." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Policy set to always wait for remote profile, always consider it fast link." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Minimum transfer rate is set to 0 by policy, always consider it fast link." //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Slow link timeout is set to 0 by policy, always consider it SLOW link!!!" //   LEVEL=Public
+{
+}
+
+55020c98-4a8c-3b91-cfce-fa18e6e02a35 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0User choose to download profile even on slow link, always consider it fast link." //   LEVEL=Public
+{
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to open Tempory File Name: <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to remove READONLY attribute from %10!s!. Copy may fail" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to restore file attributes of %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to restore file attributes of %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Copy from %10!s! to %11!s! succeeded!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to rename %10!s! to %11!s!, hr = %12!08X!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to copy %10!s! to %11!s!, hr = %12!08X!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to delete %10!s!, error = %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to set attributes for %10!s!, error = %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0_GetTempFileName failed for <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Cannot allocate memory to create a temporary file name." //   LEVEL=PublicError
+{
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Copy from <%10!s!> to <%11!s!> failed. hr %12!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to create the destination directory <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to duplicate user token. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to duplicate token for user SID <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to add user to RUP user list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to remove user from RUP user list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to get profile type. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0RUP user list is empty, disabling task." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Enabling background upload task." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Background upload policy disabled. Disabling task." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Background hive upload task has been enabled." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to enable background upload task. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Background hive upload task has been disabled." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to disable background upload task. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Stopping hive upload task." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to create <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to get the local AppData path for user SID <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to generate profile list key name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to open profile list key. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to write low DWORD of background profile unload time into the registry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to write high DWORD of background profile unload time into the registry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to save user's hive into <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Failed to enable BACKUP privilege. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Failed to open root key for user SID <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Failed to delete old hive file <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to upload <%10!s!> to <%11!s!>. hr %12!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Hive upload task for <%10!s!> failed. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Aborted Hive upload task for user SID <%10!s!>, profile marked local." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Unable to retrieve "Read Only Profile" value. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to get RUP user list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Read only profile, not uploaded." //   LEVEL=Public
+{
+}
+
+becd79cc-ed8a-347b-7988-9f809ca8562b roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Hive upload task finished. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+cd732345-2c29-3602-5c93-d08e4c7e8d28 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to start factory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+cd732345-2c29-3602-5c93-d08e4c7e8d28 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create object. hr 0x%10!08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+cd732345-2c29-3602-5c93-d08e4c7e8d28 roaming // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to revoke class factory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Memory allocation failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to append .ini file name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GetFileAttributesEx failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Invalid file size for ntuser.ini!" //   LEVEL=PublicError
+{
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Memory allocation failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Memory allocation failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+f587cdc0-998e-36ff-8da1-03f9f0f0b2c8 profsvcext // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0StringCchCopy failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+

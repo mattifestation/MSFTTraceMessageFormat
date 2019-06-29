@@ -1,0 +1,732 @@
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0ConvertSidToStringSid failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0LookupAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Allocating memory failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0LookupAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0GetSIDFromAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0OpenThreadToken failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0CheckTokenMembership failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0ConvertCertificateFromWStringToBytes(): Input string is empty" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Initialization failed: BeginRevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0ConvertCertificateFromWStringToBytes(): Input certificate string is expected to be a multiple of 2." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0ConvertCertificateFromWStringToBytes(): Could not allocate new memory" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0CertificateBlob had non hex charactes. Hence aborting convertion to bytes." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Could not create cert context from certificate blob with HRESULT Error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Memory allocation failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Failed to get publisher name" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Max expected certficate publisher name size( in chars ) %10!d!, Got size %11!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0Memory allocation failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Could not get certificate publisher name. Expecting to see size %10!d!, got size %11!d!. Bailing out." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0BeginRevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Could not create cert context from certificate blob" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Trying to register provider with URI=[%10!s!] and user=[%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0RegisterProvider called with null uri" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0RegisterProvider called with null username or password" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0BeginRevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0AddProviderToRegistry failed with internal Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0AddProviderToSMService failed with internal Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0AddCredsToCredVault failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Trying to unregister provider with URI=[%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemWString -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0UnRegisterProvider called with null uri" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0User can't read the registry entry. readStringValue failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0BeginRevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0FetchCredsFromCredVault returned HRESULT error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0RemoveProviderFromSMService returned internal error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0RemoveProviderFromCredVault returned HRESULT error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0RemoveProviderFromRegistry returned HRESULT error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Trying to perform SearchProviders" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0MI_Application_Initialize failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0MI_Application_NewSession failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0MI_Operation_GetInstance for Enumerate failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0MI_Instance_GetElement for ServiceURI failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Trying to perform GetPersistentHostsDetails" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0IsCallerStorageService failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Call was not Storage Service, so not allowing access" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0BeginRevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0readNodeNames failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ImpersonateSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0OpenThreadToken failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0RevertToSelf failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Provider %10!s! already exists. Returning error back" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemWString -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Calling readNodeNames failed unexpectedly with HRESULT %10!d!" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0GetSecurityDescriptorFromAccessList failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Creating Registry node failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0SetUserCredentials on Vault failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0MI_Application_Initialize failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0MI_Application_NewSession failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0MI_Operation_GetInstance for Enumerate failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0MI_Session_EnumerateInstances returned more than 1 instances. This is Error" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0MI_Application_NewParameterSet failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0MI_Instance_AddElement for StartDiscovery failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0MI_Operation_GetInstance for Invoke StartDiscovery failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0MI_Instance_GetElement for StartDiscovery returnValue failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0MI_Instance_GetElement for StartDiscovery returnValue returned internal error s%10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0MI_Instance_GetElement for discovery Job failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0MI_Operation_GetInstance for discovery job poll failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0MI_Instance_GetElement for ErrorCode returned internal error %10!d!, prompting certificate to be needed" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0MI_Instance_GetElement for ErrorCode returned internal error %10!d!, unauthorized" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0MI_Instance_GetElement for ErrorCode returned internal error %10!d!, Could not establish connection" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0MI_Instance_GetElement for ErrorCode returned internal error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0MI_Instance_GetElement for job OperationalStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0MI_Instance_GetElement for JobState failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0MI_Instance_GetElement for job ErrorCode failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0MI_Instance_GetElement for job ExtendedStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0MI_Instance_GetElement for discovery ExtendedStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0MI_Instance_GetElement for discovery ExtendedStatus returned null embedded object" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0MI_Instance_GetElement for SMDetails inside job ExtendedStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0MI_Instance_GetElement for SMErorrCode inside job ExtendedStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0MI_Instance_GetElement for SMMessage inside ExtendedStatus failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Provider [%10!s!] couldn't be removed from registry. HRESULT Error: %11!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0RemoveUserCredentials on Vault failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0MI_Application_Initialize failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0MI_Application_NewSession failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0MI_Operation_GetInstance for provider query failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0MI_Session_QueryInstances provider query returned zero instances. This is means a discovery failed." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0miWrapper->MiApplicationNewParameterSet for remove provider failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0MI_Instance_AddElement failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0MI_Operation_GetInstance for Invoke RemoveProvider failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0MI_Instance_GetElement for RemoveProvider returnValue failed with MI Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Call to Remove() internal return value = %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0readStringValue failed. HRESULT Error: %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0GetUserCredentials failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0GetSIDStringFromAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0GetSIDStringFromAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ConvertStringSecurityDescriptorToSecurityDescriptor failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+02bbe83b-6f91-378b-9023-c39929b1f01e smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0GetSIDFromAccountName failed with HRESULT Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Opening the vault failed with error %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Vault Schema not found. Creating a new one." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Creating vault schema returned = %10!d!" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Schema registration verification failed Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Getting password from cred store failed Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GetVaultReturned unexpected data" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error updating the password failed. Error = %10!x!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Adding entry to CedVault failed error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+}
+
+e95a8c00-d56f-390c-f242-75900b86ed2c smisconfigprov // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Removing password from cred store failed Error = %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SMISCONFIGPROV_DLL
+{
+Arg, ItemLong -- 10
+}
+

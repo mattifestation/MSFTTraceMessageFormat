@@ -1,0 +1,2764 @@
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Found USB_DEVICE_CLASS_CONTENT_SECURITY interface #%10!d!." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device has %10!d! interfaces and %11!d! functions" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Could not allocate memory for deviceRelations %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0IoCreateDevice failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Created function PDO %10!p! (#%11!d!)" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Successfully created %10!d! PDOs!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Error occurred while creating PDOs, will fail start with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Using custom hardware ID for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Allocation for custom USB hardwareID failed, %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Using custom Device ID for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Allocation for custom Device ID failed, %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Using %10!s! for PDO %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Allocation for %10!s! failed, %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Built config desc for function: %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemHEXDump -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PDO %10!p! SELECT_INTERFACE for interface %11!d! SUCESS" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Not enough memory for interface entry %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Function selected invalid interface no: %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0PDO %10!p! received NULL URB!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0PDO %10!p! received URB while in reset!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PDO %10!p! received URB request while FDO has pnpstate %11!d!." //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PDO %10!p! DISPATCH SELECT_CONFIGURATION urb %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PDO %10!p! DISPATCH GET_DESCRIPTOR urb %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0PDO %10!p! DISPATCH SELECT_INTERFACE urb %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0URB function %10!x!h not implemented - passing to parent" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_URB
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0PDO %10!p! received INTERNAL_DEVICE_CONTROL request while PDO pnpstate is %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_USBC_PNP_STATE) -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0PDO %10!p! received INTERNAL_DEVICE_CONTROL request while PDO is in %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0PDO %10!p! received INTERNAL_DEVICE_CONTROL request while FDO has %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PDO %10!p! do not DISPATCH RESET as it finished before this request arrived" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0PDO %10!p! DISPATCH RESET or CYCLE PORT, will affect ALL pdos" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Removing function PDO %10!p! (#%11!d!)" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Unable to query the RevisionId registry value %10!s!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0PDO %10!p! already checked for MS Ext Prop descriptor" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0PDO %10!p! Insufficient Resources: Memory alloc of ext prop desc header failed!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0PDO %10!p! Attempt to get MsOs Prop Desc Header failed with %11!s!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0PDO %10!p! Invalid MsOS ext prop descriptor header!!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0PDO %10!p! Insufficient Resources: Memory alloc of ext prop desc failed!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0PDO %10!p! Attempt to obtain entire MS OS ext prop descriptor failed with %11!s!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0PDO %10!p! Invalid MS OS ext prop header returned" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0PDO %10!p! Extended MS OS ext prop descriptor validation failed with %11!s!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0PDO %10!p! Error while attempting to write MS ext properties to registry, %11!s!" //   IFRLOG=FunctionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to allocate IRP %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to set function handle data, %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0PDO %10!p! sending get interface statue request to find our remote-wake capability" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0PDO %10!p! failed to get interface status %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Number of bytes returned for get interface status is invalid - %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0PDO %10!p! is not remote-wakeup capable - interface number %11!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Allocate FUNCTION_SUSPEND_CONTEXT failed!!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0IoAllocateWorkItem for function-suspend failed!!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0IoAllocateIrp for remote-wake-notification failed, %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0IoAllocateWorkItem for wakeNotificationComplete failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0IoAllocateIrp for controlTransfer failed, %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Attempt to retrieve EnumeratorFlag failed with %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Bad EnumeratorFlag type %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to set MS OS 2.0 registry value %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Error parsing MS OS 2.0 function subset" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Error parsing MS OS 2.0 descriptor set" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Error parsing MS OS 2.0 descriptor set" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0PDO %10!p! Returning %11!s! for %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_WAKE_DEPTH) -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0PDO %10!p! Device IsD3ColdSupported %11!s!, %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0PDO %10!p! BusDriver IsD3ColdSupported %11!s!, %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0b4bcd03-8c3e-3076-75f3-2cbd8bbc66f1 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0PDO %10!p! LastTransitionStatus %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_D3COLD_LAST_TRANSITION_STATUS) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Received Irp %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Irp %10!p! receieved while fdo state = STATE_INITIALIZED" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unhandled Power irp of type %10!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemLong -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Parent successfully powered up to D0" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Parent D0 irp failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0System power irp completing with error %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0System irp for %10!s! completed, sending Dirp for %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PoRequestPowerIrp returned %10!s! while sending a Dx irp" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0System irp for %10!s! completed, sending Dirp for %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0FdoSendSetPowerRequest: returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Received non-standard SET_POWER irp for %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Completing WW irp %10!p! for PDO %11!p! with %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0All PDO irps dequeued, reseting isWaitWakePending!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Completing WW irp %10!p! for PDO %11!p! with %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Reseting isWaitWakePending!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Waiting for parentD0Event ...." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Queued worker to complete PDO WW irps" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0FDO WW irp completed successfully, but PoRequestPowerIrp failed!!  Cannot power up device." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Submitting parent ww irp to our stack" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0FDO %10!p! DISPATCH WW irp %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Parent WW irp cancelled before reaching fdo dispatch" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Cancelling parent WW irp %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0CancelParentWaitWake: Cancel Pending for non-dispatched parent WW irp" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0CheckParentWaitWake" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0isWaitWakePending = %10!d!, child irps pending = %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Parent WW irp %10!p! completing with %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0FDO SETPOWER D0 callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device power Irp complete, Now completing system set power irp ..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0PDO %10!p! DISPATCH system query power irp %11!p! for state %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0PDO %10!p! DISPATCH device query power irp %11!p! for state %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unhandled PDO power irp %10!p! of type %11!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0System query power irp for %10!s! completing with %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0System irp for %10!s! completed, sending Dirp for %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0System irp for %10!s! completed, sending Dirp for %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0PoRequestPowerIrp returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0FDO %10!p! DISPATCH system query power irp %11!p! for %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0FDO %10!p! DISPATCH device query power irp %11!p! for %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Warning, invalid QUERY_POWER irp!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0FDO %10!p! DISPATCH system power irp %11!p! for %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0FDO %10!p! DISPATCH device power irp %11!p! for PowerDeviceD0" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0FDO %10!p! DISPATCH device power irp %11!p!, setting FDO to D1" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0FDO %10!p! DISPATCH device power irp %11!p!, setting FDO to D2" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0FDO %10!p! DISPATCH device power irp %11!p!, setting FDO to D3" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0FDO %10!p! DISPATCH device power irp %11!p! for unknown state %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0PDO %10!p! received wait wake irp %11!p! while it is removed %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0PDO %10!p! received wait wake irp %11!p! when it's not wake capable %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0PDO %10!p! DISPATCH wait wake IRP %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0DispatchPdoPower: Queueing PDO WW Irp ...." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Pdo %10!p! sent WW irp %11!p! but has ww irp pending, %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Already Set it Once, Dont do it again" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Don't defer cancelation of idle irp to another thread" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Allow Idle IRP in D3" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0PDO %10!p! DISPATCH SET_POWER D0 irp %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0PDO %10!p! DISPATCH System irp %11!p! for %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0PDO %10!p! DISPATCH SET_POWER irp %11!p! PowerDeviceD0" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0PDO %10!p! DISPATCH SET_POWER D0 irp %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0PDO %10!p! DISPATCH SET_POWER irp %11!p! %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0PDO %10!p! is already powered down (in %11!s!) - no action" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0AllocateWorker for SetSelectiveSuspendRegistryFlag worker Failed " //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0PDO %10!p! DISPATCH DeviceSetPower irp for state %11!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0D0 irp already in flight" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0No D0 irp in flight, requesting irp ...." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Error, PoRequestPowerIrp returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0PDO %10!p! canceling remoteWakeNotification Irp %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Completing WW irp %10!p! for PDO %11!p! with %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0PDO %10!p! ProcessWakeNotificationWorker is called" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0PDO %10!p! completing wait-wake irp %11!p! that has been already cancelled" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0PDO %10!p! wait-wake irp might still be in the queue" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0PDO %10!p! remote notifcation irp %11!p! completed with %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0PDO %10!p! canceling controlTransferIrp IRP %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0PDO %10!p! queued a workitem to call ProcessWakeNotificationWorker" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ACQUIRE_REMOVE_LOCK failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0PDO %10!p! sending IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION irp %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0PDO %10!p! Set-feature request to suspend completed with %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0PDO %10!p! canceling remote-wake notification IRP %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0PDO %10!p! canceling remote-wake notification IRP %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0PDO %10!p! sending SET FEATURE request %11!p! to Suspend " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0PDO %10!p! sending SET FEATURE request %11!p! to arm for wake and suspend " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0PDO %10!p! sending SET FEATURE request %11!p! to resume " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0PDO %10!p! Set-feature request to suspend completed with %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0ACQUIRE_REMOVE_LOCK failed, cannot send control request" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0PDO %10!p! sending SET FEATURE request %11!p! to Suspend " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0PDO %10!p! sending SET FEATURE request %11!p! to arm for wake and suspend " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+131ce303-2565-3e6a-8fee-30a678e29729 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0PDO %10!p! sending SET FEATURE request %11!p! to resume " //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0USBC_START_DEVICE_CALLBACK validation failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0USBC_START_DEVICE_CALLBACK ProcessCallbackData failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Calling START_DEVICE_CALLBACK FDO %10!p!..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0USBC_START_DEVICE_CALLBACK failed with status %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0START_DEVICE_CALLBACK invoked but failed to create functions" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+20b74f61-cfc4-3487-0385-749fe4fbbfd7 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0No START_DEVICE_CALLBACK found" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Pdo %10!p! SET_CONFIGURATION not enough memory for SELECT_INTERFACE URB of size %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Child IfaceInfo->Length=%10!d!, our IfaceInfo->Length=%11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Truncating child URB InterfaceInfo from %10!d! to %11!d! bytes" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Not enough memory for interface entry, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Pdo %10!p! close configuration" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Pdo %10!p! SET_CONFIGURATION hdr.length = %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Pdo SET_CONFIGURATION Invalid Interface Information" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Pdo SET_CONFIGURATION Invalid Interface Information" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Changing alt iface in UrbFunctionSelectConfiguration (iface #%10!x!h from %11!x!h to %12!x!h)." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Pdo %10!p! SET_CONFIGURATION Invalid Interface Information Length = %11!x!. minimum size required = %12!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Coverage: Changing MaximumPacketSize in UrbFunctionSelectConfiguration to %10!x!." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PDO %10!p! SELECT_CONFIG request %11!p! using endpoint %12!d! with priority" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Pdo %10!p! SET_CONFIGURATION Invalid Interface Information Length=%11!d!, required=%12!d!.  Cannot Copy interface info!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failing Pdo %10!p! request with %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PDO %10!p! requesting USB_DEVICE_DESCRIPTOR_TYPE." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0PDO %10!p! requesting USB_CONFIGURATION_DESCRIPTOR_TYPE." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+2a407461-f55f-3407-26bf-8fb7d06ec7c3 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0PDO %10!p! Unhandled desc type: %11!x!h." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Obtained %10!s! from Software Key: 0x%11!08x!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Interface %10!d!: alternate setting %11!d! out of order" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Interface %10!d!: invalid alternate setting descriptor length %11!d!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Interface %10!d!: alternate setting %11!d! out of order" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Interface %10!d!: UFD references invalid or nonexistent interface %11!d!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Interface %10!d!: missing UFD" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Interface %10!d!: missing or invalid endpoint descriptor" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Interface %10!d!: missing or invalid endpoint descriptor" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2f9721b8-ed1a-390e-679f-ee23e9ab3e06 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Interface %10!d!: subordinate interfaces not sequential" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unique id: %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemHEXDump -- 10
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0CSM1_REQUEST_GET_UNIQUE_ID failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0couldn't allocate unique id buf, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0*** IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER ***" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad buffer with IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, irp=%10!p! %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+50ed05f8-7413-36c6-23e2-0148921b01ef usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Did not find supported CSM !" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unsupported registry value type %10!d!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Did not retrieve capablities from registry, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to format device key string for KseQueryDeviceFlags %10!s!" //   IFRLOG=IfrLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to format device key string for KseQueryDeviceFlags %10!s!" //   IFRLOG=IfrLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0SleepstudyHelper_Initialize Failed: %10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to created parent FDO, %10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0AllocateIdleIrp Failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IoAllocateWorkItem for check-parent-idle failed!!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0FDO %10!p! - USBD_CreateHandle failed for USBD_CLIENT_CONTRACT_VERSION_602" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Created parent FDO %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create per FDO %10!p! log. So using default log, %11!s!" //   IFRLOG=ParentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0FDO %10!p! using IdleTimeoutPeriodInMilliSec: %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+519720b5-9e70-3c64-2a58-7e3268486c81 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0FDO %10!p! has a registry override for IdleTimeoutPeriodInMilliSec: %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+54ed818b-e78c-34a1-6182-b5ce4934fc6a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PDO %10!p! completing WW irp %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+54ed818b-e78c-34a1-6182-b5ce4934fc6a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PDO %10!p! cancelling SS irp %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0CheckParentIdleDpc: Enter" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ACQUIRE_REMOVE_LOCK failed, cannot queue work item" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempting to send IDLE irp after FDO REMOVE!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0All PDOs Idle, Sending parent IDLE irp %10!p! to hub ..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Sent IDLE irp %10!p! to hub, IoCallDriver returned %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Attempting to send IDLE irp after FDO REMOVE!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0All PDOs Idle, Pretending to send parent IDLE irp %10!p! to hub ..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to allocate worker for ParentIdleCallbackWorker" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0All PDOS are idle" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Sending Idle IRP" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0No action taken because parent IdleState is not idle, IdleIrp = %10!p!, IdleState = %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_FDO_IDLE_STATE) -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0No action taken because either all chidlren are not idle or parent IdleState is not idle, IdleIrp = %10!p!, IdleState = %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_FDO_IDLE_STATE) -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PDO %10!p! DISPATCH idle IRP %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Idle Request: No idlecallbackinfo for irp %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PDO %10!p!: No callback for idle irp %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0PDO %10!p! sent idle irp %11!p! but has idle irp pending, %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PDO %10!p! completing child IDLE irp %11!p! received with status %12!x!." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Idle notification IRP for FDO %10!p! completed %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Parent Idle irp completed and parent is in %10!s!, powering up parent ..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0FdoSendSetPowerIrp returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Context allocation failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0AllocateWorker failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Completing Child IDLE irp %10!p! with %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Complete all child Idle IRPs for FDO %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Completing Child IDLE irp %10!p! with %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0FDO IDLE SETPOWER %10!s! callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0FDO %10!p! going idle!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0IdleTimerState %10!s!.  Veto Callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Idle IRP cancel/complete pending.  Veto Callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Parent callback called when PDO %10!p! is NOT idle!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Calling driver's idle callback routine! USB_IDLE_CALLBACK_INFO %10!p! callback %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0PDO %10!p! idle IRP was cancelled during the idle callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Idle IRP cancel/complete pending.  Veto Callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Idle IRP cancel/complete pending.  Veto Callback" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0All children powered down, Parent powering down to %10!s! ...." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Cannot set FDO %10!p! to %11!s!, PoRequestPowerIrp Failed" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Completing function idle IRPs due to veto" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Unknown Idle state - %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemEnum(_FDO_IDLE_STATE) -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Cancelling FDO IDLE irp %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Cancelling FDO IDLE irp %10!p! Failed %11!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0disabling IDLE timer..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Staring IDLE timer" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Setting PDO %10!p! idleFlags to 0x%11!x!, reason %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_IDLE_REASON) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Changing FDO %10!p! idle state from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_FDO_IDLE_STATE) -- 11
+Arg, ItemEnum(_FDO_IDLE_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Enable Timer FDO %10!p! Tag %11!c!%12!c!%13!c!%14!c! CallersAddress 0x%15!p! idleDisableCount %16!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemChar -- 11
+Arg, ItemChar -- 12
+Arg, ItemChar -- 13
+Arg, ItemChar -- 14
+Arg, ItemPtr -- 15
+Arg, ItemLong -- 16
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Disable Timer FDO %10!p! Tag %11!c!%12!c!%13!c!%14!c! CallersAddress 0x%15!p! idleDisableCount %16!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemChar -- 11
+Arg, ItemChar -- 12
+Arg, ItemChar -- 13
+Arg, ItemChar -- 14
+Arg, ItemPtr -- 15
+Arg, ItemLong -- 16
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0PauseIdleTimer FDO %10!p! IdleTimerState:%11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ResumeIdleTimer FDO %10!p! IdleTimerState:%11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0FDO %10!p! unable resume idle timer due to low memory condition" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Changing FDO %10!p! IdleTimerState from %11!s! to %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 11
+Arg, ItemEnum(_IDLE_TIMER_STATE) -- 12
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Parent IDLE irp allocation failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ACQUIRE_REMOVE_LOCK failed, cannot queue functionSuspendWorkItem" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Calling driver's idle callback routine! USB_IDLE_CALLBACK_INFO %10!p! callback %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5b0b062e-a6e8-35a6-aedf-3a6795cfa37a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0FDO 0x%10!p! - one of the functions hasn't gone to sleep yet.So pick D2 as the idle state for parent" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IDLE
+{
+Arg, ItemPtr -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CallDriverSync timed out after %10!d! ms" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AllocationFailed!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Buffer error, newIdLen = %10!d!, oldIdLen = %11!d!, suffixLen = %12!d!!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Invalid string descriptor length at string index %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid NULL string descriptor at string index %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid Non-Even length for string descriptor at string index %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Invalid descriptor type for string descriptor at index %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Returned with %10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=ParentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Insufficient resources to allocate descriptor header" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Attempt to retrieve MS OS extended config desc header failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid descriptor header" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Insufficient resources to allocate descriptor" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Attempt to retrieve full MS OS extended config desc failed with status %10!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Incomplete or invalid descriptor returned by device" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Extended validation of ext config descriptor failed" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Insufficient resources to allocate descriptor header" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Attempt to retrieve MS OS 2.0 desc header failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Invalid MS OS 2.0 desc header!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Insufficient resources to allocate descriptor" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Attempt to retrieve full MS OS 2.0 desc failed with status %10!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Returned MS OS 2.0 desc header too small!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Error: IAD describes too many interfaces.  InterfaceCount = %10!d! while InterfaceRemaining = %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Invalid IAD Descriptors, too many functions found" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Cannot allocate memory for function list." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Invalid Interface Association Descriptor" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Invalid Config Desc, too many functions found.  IAD described too many interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0IAD described interfaces not found where expected" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Cannot allocate memory for function interface list." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Error: IAD descriptor is not followed by a sequential list of grouped interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Invalid Config Desc, too many functions found. IAD described too many interfaces." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Cannot allocate memory for function interface list." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0IAD described too many interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Error while creating USB IAD function groupings.  FunctionCount = %10!d!, FunctionIndex = %11!d! " //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Error, size of Interface Assoc descriptor found is %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Enter: BuildSelectConfigUrb" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0BuildSelectConfigUrb: Overflow calculating interface size, can't hold more than MAXUSHORT in _URB_HEADER.Length" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0BuildSelectConfigUrb: Invalid interface list!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0BuildSelectConfigUrb: Invalid Interface Descriptor bNumEndpoints out of bounds!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0MemDup: Memory allocation (size %10!x!h) failed -- not a bug if verifier pool failures enabled." //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Allocate workerContext failed!!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0IoAllocateWorkItem failed!!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Queuing worker %10!p! with context %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ACQUIRE_REMOVE_LOCK failed, cannot queue work item" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0UsbcIncrementPendingCount allocation failed" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0UsbcDecrementPendingCount IRP not found in list" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ERROR
+{
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0IoSetCompletionRoutineEx failed %10!s! so calling IoSetCompletionRoutine" //   IFRLOG=DebugLog LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Watchdog: Thread 0x%10!p! has waited %11!d! minutes for %12!s! to be signalled" //   IFRLOG=DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0ERROR: WaitForSignal exiting after KeWaitForSingleObject returned failure %10!s! (thread 0x%11!p!, waiting on %12!s!)" //   IFRLOG=DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Watchdog: Thread 0x%10!p! has waited %11!d! minutes to acquire %12!s!" //   IFRLOG=DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: AcquireMutex exiting after KeWaitForSingleObject returned failure %10!s! (thread 0x%11!p!, waiting on %12!s!)" //   IFRLOG=DebugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%00x%10!p! UsbcDbgBreak called due to %11!s!. For more details run: !rcdrlogdump usbccgp" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0An error occurred getting controller suffix from hub %10!s!" //   IFRLOG=functionPdoExt->parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6c52f02e-7fb3-30b3-1613-73438373579f usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Could not allocate IRP to get controller suffix from hub" //   IFRLOG=functionPdoExt->parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0HW_COMPLIANCE: Invalid number of interfaces (interfaceNumber > 256). WILL FAIL START!!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Insufficient Resources: Interface List Allocation failed!  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Invalid Device Config Descriptor, bNumInterfaces = 0.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Memory Allocation of Select Config URB Failed!  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0URB_FUNCTION_SELECT_CONFIGURATION failed with %10!x!h.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Insufficient Resources: Memory Allocation of interfaceInfo Failed.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Close config failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Insufficient resources to allocate initial config desc, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Bus driver failed get config header urb with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Invalid urb transfer buffer length for config desc header, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Insufficient resources to allocate config desc, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Bus driver failed get config urb with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Bus driver returned truncated config descriptor, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Extended validation of config descriptor failed with usbdstatus %10!x! at offset %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Got config desc: %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemHEXDump -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Got valid descriptor on attempt %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Attempt to obtain valid config descriptor %10!d! from device failed with %11!s! (attempt #%12!d!)." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0FDO configuration descriptor Validation failed %10!d! times (status = %11!x!h)!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Attempt to retrieve valid config descriptor from device failed %10!d! times (%11!s!)!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0USBD_UrbAllocate failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Got device desc @ %10!p!h, len=%11!x!h (should be %12!x!h)." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Attempt to get device descriptor failed with %10!s!.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0FDO REMOVE: Waiting for remove count ...." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Removing %10!d! child PDOs." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Deleting FDO ....... " //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Insufficient resources: IRP allocation for device capabilities.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Parent driver failed IRP to get device capabilities with %10!s!. WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0StartParentFdo: failed to allocate memory for Hardware ID list." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0StartParentFdo: failed IoGetDevicePropertyData with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0StartParentFdo: discovered recursive enumeration of USBCCGP, failing start on this FDO." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0HUB has failed start irp with %10!s!.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Time taken by the lower driver to complete start: %10!I64d! milliseconds" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemLongLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Start after Stop!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0StartParentFdo: Select config failed %10!s!, trying alternate configuration %11!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0StartParentFdo: SelectConfig failed for configuration %10!d!, status %11!s!, altStatus %12!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0StartParentFdo: Failing enumeration attempt %10!d! with status %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0StartParentFdo: ERROR: All enumeration attempts failed!  %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Pnp sent a START irp while we were in an invalid pnp state %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemEnum(_USBC_PNP_STATE) -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failing START irp with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Parent FDO started successfully!, time to process start: %10!I64d! milliseconds" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLongLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0QueryParentDeviceRelations: DeviceRelations is NULL!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0QueryParentDeviceRelations: Filter driver has %10!d! objects" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0QueryParentDeviceRelations: Parent returned %10!d! PDOs" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failing QUERY_DEVICE_RELATIONS with status %10!x!h." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Overlapping reset/cycle port call on parent, may cause problems" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Received Device Control Irp %10!p! while in %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0ParentDeviceControl - passing IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER to parent because no Content Security interface on device" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_DEVICE_CONTROL
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0INTERNAL_DEVICE_CONTROL DISPATCH FDO %10!p! Parent has bad PNP state %11!d!, failing request." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0INTERNAL_DEVICE_CONTROL DISPATCH FDO %10!p! Parent has bad power state %11!s!, failing request." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 11
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Power up FDO %10!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0FDO: %10!p! Already in D0" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Internal Error(CreateFunctionList): Error, numFunctions == 0.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Insufficient resouces:(CreateFunctionList) for functionlist.  WILL FAIL START!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Device Class Callback used to group interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Interface Association Descriptor used to group interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Legacy method used to group interfaces" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Attempt to retrieve alt configuration num failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Bad alternate configuration number %10!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Attempt to retrieve original configuration num failed with %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Bad original configuration registry entry" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0IoCallDriver failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0IoAllocateIrp failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Memory alloc for function-handles failed, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to allocate IRP %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to unregister composite driver, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0FunctionSuspend is not supported, %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80e06513-5658-3b65-3af6-e998f85c8635 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Parent FDO %10!p! %11!s! D3 cold support" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FDO %10!p! received %11!s! irp while suspended, powering up to D0 ..." //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ParentSetD0 failed %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unhandled FDO %10!p! PNP irp of type %11!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FDO %10!p! complete PNP %11!s!, IRP %12!p! with %13!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to find length of substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to parse multi-string" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0No strings in endpoint priority multistring" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to allocate priority endpoint structure" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to parse endpoint string, not enough commas found" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to initialize unicode string for configuration number substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Unable to convert configuration number string to integer %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Invalid endpoint priority configuration number %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unable to initialize unicode string for interface number substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unable to convert interface number string to integer %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Invalid endpoint priority interface number %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Unable to initialize unicode string for alternate setting number substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Unable to convert unicode endpoint priority alternate setting substring string to integer %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Invalid endpoint priority interface number %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Unable to initialize unicode string for endpoint type substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Unknown endpoint type %10!s!, ignoring" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Ignoring endpoint priority for type %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Unable to initialize unicode string for endpoint position substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to convert unicode endpoint position substring string to integer %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Invalid endpoint position number %10!d!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unable to initialize unicode string for endpoint priority substring %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Unknown endpoint priority %10!s!, ignoring" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0No valid endpoint priorities found" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0SleepstudyHelper_RegisterPdoWithParentPdo Failed %10!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Unhandled PDO %10!p! PNP irp of type %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0FDO %10!p! REMOVE IRP %11!p!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PNP_REMOVE_DEVICE for pdo %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Insufficient Resources: Allocation for string descriptor header failed!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Attempt to retrieve string desc header index %10!d! from PDO %11!p! failed with %12!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Insufficient Resources: Allocation for string descriptor failed!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Using custom string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Allocation for custom USB string failed!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Using IAD ifunction string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Using Interface %10!d! iInterface string for PDO %11!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Using Generic Composite USB string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Allocation for generic USB string failed!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Using iProduct string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0No string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Allocation for device text string failed!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to find string for PDO %10!p!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Unhandled DeviceTextType 0x%10!x!. Returning status %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0PDO %10!p! DEVICE_TEXT_STRING %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0PDO %10!p! returning LocationInformation String %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+a0c1ea55-2983-38db-a3c0-3d04715f4ffe usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0PDO %10!p! UsbcGetTopologyAddress failed with %11!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b19ea51d-3d80-3fa8-f27a-10c7c7cef6d8 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b19ea51d-3d80-3fa8-f27a-10c7c7cef6d8 usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Returned %10!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Received irp %10!p! after FDO has received REMOVE irp" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DevObj=%10!p!: DISPATCH IRP maj=%11!d! min=%12!d!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unsupported irp majorFunction 0x%10!x!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IRP_LOG
+{
+Arg, ItemLong -- 10
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FDO %10!p! dispatch POWER %11!s!, IRP %12!p!, , PnpState %13!s!, PwrState %14!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_WAIT_WAKE,IRP_MN_POWER_SEQUENCE,IRP_MN_SET_POWER,IRP_MN_QUERY_POWER) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemEnum(_USBC_PNP_STATE) -- 13
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 14
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FDO %10!p! dispatch PNP %11!s!, IRP %12!p!, PnpState %13!s!, PwrState %14!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemEnum(_USBC_PNP_STATE) -- 13
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 14
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0FDO %10!p! dispatch PNP %11!s!, IRP %12!p!, PnpState %13!s!, PwrState %14!s!" //   IFRLOG=parentFdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemEnum(_USBC_PNP_STATE) -- 13
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 14
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PDO %10!p! dispatch PNP %11!s!, IRP %12!p!, PnpState %13!s!, PwrState %14!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemEnum(_USBC_PNP_STATE) -- 13
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 14
+}
+
+becd29c9-49e5-35e2-d495-960e1cc8580a usbccgp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PDO %10!p! dispatch PNP %11!s!, IRP %12!p!, PnpState %13!s!, PwrState %14!s!" //   IFRLOG=functionPdoExt->debugLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IRP_LOG
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemEnum(_USBC_PNP_STATE) -- 13
+Arg, ItemEnum(_DEVICE_POWER_STATE) -- 14
+}
+

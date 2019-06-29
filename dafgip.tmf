@@ -1,0 +1,818 @@
+0cf2ac53-5b25-3196-a816-7502035f8f93 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Initializing DafGip.dll" //   COMPID=DAFGIP_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+0cf2ac53-5b25-3196-a816-7502035f8f93 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unloading DafGip.dll" //   COMPID=DAFGIP_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to allocate properties!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to build category string list %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to allocate category string list." //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to copy string ID %10!d! with %11!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to allocate buffer for string ID %10!d!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+1ac1da0a-1d25-3e90-7787-889cedc5f681 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to load string ID %10!d! with %11!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create exit event %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0StartQuery: Failed to copy AEP keys. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0StartQuery: Failed to copy keys. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to CreateThreadpoolWork with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0StartQueryInstance: Failed to create threadpool work. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0StartQueryInstances: Failed to copy AEP IDs. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Required parameter not specified to %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0m_spCallback is NULL!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed OnQueryStateUpdate() callback with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Enrollment request completed." //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed HandleEnrolledDeviceArrived with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed InsertPendingEnrollment, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Signaled exit thread pool work." //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Enrollment request timed out." //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed WaitForSingleObject with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Processing %!FUNC! stopped with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed OnQueryStateUpdate() callback with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0DeviceInformation parameter NULL!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Properties.Initialize failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0GipStringFromGuid failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0m_spCallback->OnQueryResultUpdate(DevQueryResultAdd) failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Reported new device {%10!s!}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to create event %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0StartQuery: Failed to copy AEP keys. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0StartQuery: Failed to copy keys. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to CreateThreadpoolWork with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0StartQueryInstance: Failed to create threadpool work. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0StartQueryInstances: Failed to copy AEP IDs. %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Required parameter not specified to %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0m_spCallback is NULL!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Failed OnQueryStateUpdate() callback with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to build the list of approved devices %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed HandleApprovedDeviceArrived with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Processing %!FUNC! stopped with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed OnQueryStateUpdate() callback with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Entering %!FUNC!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0DeviceInformation parameter NULL!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Properties.Initialize failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0GipStringFromGuid failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0m_spCallback->OnQueryResultUpdate(DevQueryResultAdd) failed with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Reported existing device {%10!s!}
+
+33ad6eee-a25c-3c33-b62b-bdae1b231e0e DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device does not exist (already removed)" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_WARNING
+{
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed DevObjUninstallDevice, with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed GipAepIdFromGuid with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed DevObjCreateDeviceInfoList with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed DevObjGetClassDevs with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed DevObjEnumDeviceInfo with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed DevObjGetDeviceProperty with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Uninstalled device node {%10!s!}
+
+41693fda-4bed-332d-bba0-229dfcfe8250 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unexpected property type 0x%10!x! for AEP ID string" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Opened GIP handle 0x%10!p!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GIP bound adapter %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemWString -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to initialize GIP enrollment, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Closed GIP handle 0x%10!p!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to open GIP handle, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to enter enrollment with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Closed GIP handle 0x%10!p!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to start the enrollment process, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Started enrollment process." //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to initialize device query, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to dispatch device query, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to complete device query, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0BSS Enabled" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to enable BSS, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to query BSS state, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BSS Disabled" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to disable BSS, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to query approved device count, %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0GIP unbound adapter %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemWString -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Closed GIP handle 0x%10!p! forcefully" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Registered for WMI NDIS notification" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to register for WMI NDIS notification with %10!s!" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cedb9d8d-bd84-38ad-bff1-26497c2f2d27 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unregistered from WMI NDIS notification" //   COMPID=DAFGIP_QUERY LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to allocate provider AEP ID" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to copy provider AEP ID. %10!s!)" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0m_spCallback->OnEnumCeremoniesComplete failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid ceremony: {%10!s!}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0m_spCallback is NULL!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0GipGuidFromString failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Found device {%10!s!}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Passing %10!s! to OnFinalizeComplete" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0m_spCallback->OnFinalizeComplete failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0m_spCallback is NULL!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0m_spCallback->OnFinalizeComplete failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Entering %!FUNC!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0m_spCallback is NULL!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0GipGuidFromString failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to remove approved device with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Removed approved device {%10!s!}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to disassociate the device {%10!s!}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed UninstallAepDevnode with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_WARNING
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0m_spCallback->OnFinalizeComplete failed with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemHRESULT -- 10
+}
+
+e3c5f89b-e778-33db-30d5-8a003af55bf7 DafGip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Exiting %!FUNC! with %10!s!" //   COMPID=DAFGIP_ASSOC LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemHRESULT -- 10
+}
+

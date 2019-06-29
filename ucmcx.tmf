@@ -1,0 +1,3639 @@
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=DriverEntry
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: VariableSupplyNonBattery MC10mA:%13!d! MinV50mV:%14!d! MaxV50mV:%15!d! Ul:0x%16!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: VariableSupplyNonBattery OC10mA:%13!d! MinV50mV:%14!d! MaxV50mV:%15!d! Ul:0x%16!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0ConnectorId:0x%10!I64X! %11!s! %12!s! unrecognized PDO: Type:%13!d! Ul:0x%14!X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0ConnectorId:0x%10!I64X! RDO: OP:%11!d! Fixed&Var{MOC10mA:%12!d! OC10mA:%13!d!}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] Driver entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[DriverObject: 0x%10!p!] WdfDriverCreate failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] UsbDualRoleFeaturesMarkUcmPresence failed - %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_DRIVER FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=DriverEntry
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=EvtDriverUnload
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[WdfDriverObject: 0x%10!p!] Driver unloading" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=EvtDriverUnload
+{
+Arg, ItemPtr -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=EvtDriverUnload
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmCxContextCleanup
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmCxContextCleanup
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Received an unexpected PnP event of the [%10!s!] interface." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+Arg, ItemString -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfIoTargetCreate failed for the [%10!s!] interface. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+Arg, ItemString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfIoTargetOpen failed for the [%10!s!] interface. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+Arg, ItemString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0The [%10!s!] interface is opened successfully." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+Arg, ItemString -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0The [%10!s!] interface is closed." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+Arg, ItemString -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=PnPEventHandler
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtIoTargetQueryRemove
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0The IoTarget of the [%10!s!] interface gets query-remove." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtIoTargetQueryRemove
+{
+Arg, ItemString -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtIoTargetQueryRemove
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0URS request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtUrsRequestCompletion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0URS request completed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtUrsRequestCompletion
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0URS device is not available." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfRequestCreate for URS request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfMemoryCreate for URS request buffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0No need to update the URS state for port partner type %10!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemEnum(_UCM_TYPEC_PARTNER) -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Sending %10!s! to URS for port partner type %11!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemEnum(_URS_HARDWARE_EVENT) -- 10
+Arg, ItemEnum(_UCM_TYPEC_PARTNER) -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Sending %10!s! to URS." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemEnum(_URS_HARDWARE_EVENT) -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfIoTargetFormatRequestForIoctl failed for URS request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WdfRequestSend for URS request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateUrsState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0CAD request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtCadRequestCompletion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0CAD request completed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtCadRequestCompletion
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0CAD device is not available." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfRequestCreate for CAD request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WdfMemoryCreate for CAD request buffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0[ConnectorId:0x%10!I64X!] No charging for source power role." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0[ConnectorId:0x%10!I64X!] Unexpected Type-C current value %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0[ConnectorId:0x%10!I64X!] No charging after a failed PD connection negotiation (or a power direction change)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0[ConnectorId:0x%10!I64X!] Unexpected PD connection state %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_PD_CONN_STATE) -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0[ConnectorId:0x%10!I64X!] Unexpected LocalPortPowerRole value %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0[ConnectorId:0x%10!I64X!] No need to notify CAD again for not charging." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0[ConnectorId:0x%10!I64X!] Sending request to CAD with MaxCurrent:%11!d!, Voltage:%12!d! and DefaultUsb:%13!d!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WdfIoTargetFormatRequestForIoctl failed for CAD request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfRequestSend for CAD request failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UpdateCadState
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetDataRole
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetDataRole
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0No Power Data Objects available." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmConnectorPdConnectionStateChangedInternal
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Invalid PDO index (%10!d!/%11!d!) received." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmConnectorPdConnectionStateChangedInternal
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WdfMemoryGetBuffer failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmConnectorPdConnectionStateChangedInternal
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0The Power Data Object index %10!d! has an invalid PDO type value %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmConnectorPdConnectionStateChangedInternal
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPdConnStateTimerFunc
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPdConnStateTimerFunc
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtAlternateModeStateTimerFunc
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtAlternateModeStateTimerFunc
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetPowerRole
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetPowerRole
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetPowerLevel
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=EvtPolicyManagerSetPowerLevel
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Invalid data role %10!s! provided - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Invalid connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0EvtSetDataRole is not available for connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Calling EvtSetDataRole(connectorId:0x%10!I64X!, %11!s!)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0EvtSetDataRole(connectorId:0x%10!I64X!, %11!s!) failed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Waiting for EventDataDirectionChanged of connectorId 0x%10!I64X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Device detached while waiting for EventDataDirectionChanged of connectorId 0x%10!I64X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0#%10!d! wait for EventDataDirectionChanged of connectorId 0x%11!I64X! failed - %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorDataRoleInternal
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Invalid power role %10!s! provided - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Invalid connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0EvtSetPowerRole is not available for connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Calling EvtSetPowerRole(connectorId:0x%10!I64X!, %11!s!)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0EvtSetPowerRole(connectorId:0x%10!I64X!, %11!s!) failed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Waiting for EventPowerDirectionChanged of connectorId 0x%10!I64X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Device detached while waiting for EventPowerDirectionChanged of connectorId 0x%10!I64X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0#%10!d! wait for EventPowerDirectionChanged of connectorId 0x%11!I64X! failed - %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerRoleInternal
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerLevelInternal
+{
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Invalid connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerLevelInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0EvtSetPowerLevel is not available for connectorId 0x%10!I64X! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerLevelInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Calling EvtSetPowerLevel(connectorId:0x%10!I64X!)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerLevelInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0EvtSetPowerLevel(connectorId:0x%10!I64X!) failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=SetConnectorPowerLevelInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: FixedSupply MC10mA:%13!d! V50mV:%14!d! PC:%15!d! DRS:%16!d! UCC:%17!d! EP:%18!d! USS:%19!d! DRP:%20!d! Ul:0x%21!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+Arg, ItemLong -- 21
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: FixedSupply OC10mA:%13!d! V50mV:%14!d! DRS:%15!d! UCC:%16!d! EP:%17!d! HC:%18!d! DRP:%19!d! Ul:0x%20!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: BatterySupply MAP250mW:%13!d! MinV50mV:%14!d! MaxV50mV:%15!d! Ul:0x%16!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+0cd966ea-469e-3e79-55f2-8e0baf633c98 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0ConnectorId:0x%10!I64X! %11!s! PD %12!s! PDO: BatterySupply OP250mW:%13!d! MinV50mV:%14!d! MaxV50mV:%15!d! Ul:0x%16!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=UcmDumpPdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CM_Register_Notification for [%10!s!] interface failed with %11!d! (%12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmRegisterForPnPEvents
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0CM_Get_Device_Interface_List doesn't find existing [%10!s!] interface. 0x%11!x! (%12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmRegisterForPnPEvents
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed allocating %10!d! bytes memory for [%11!s!] device interface symbolic links. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmRegisterForPnPEvents
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CM_Get_Device_Interface_List failed for [%10!s!] interface with 0x%11!x! (%12!s!)." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmRegisterForPnPEvents
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmDeregisterForPnPEvents
+{
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0CM_Unregister_Notification failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmDeregisterForPnPEvents
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=UcmDeregisterForPnPEvents
+{
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Received an unexpected event (Action:%10!d!) of the [%11!s!] device interface." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=PnpEventHandlerUm
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+2817fa8d-0e81-3150-d41f-6939f3b2b13b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to open the [%10!s!] device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=PnpEventHandlerUm
+{
+Arg, ItemString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPartnerPdAlternateModes
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModesSupportedChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! received connector PD alternate modes supported change. New number of alternate modes supported: %12!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModesSupportedChanged
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCreate failed to allocate memory for %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModesSupportedChanged
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCopyToBuffer failed to copy %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=imp_UcmConnectorPdAlternateModesSupportedChanged
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModesSupportedChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0UcmConnectorPdAlternateModeEntered(ConnectorId:0x%10!I64X!, SVID: %11!u!. Mode: %12!u!.)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Port partner is not attached." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0ConnectorId:0x%10!I64X!: Reported unsupported alternate mode entry. Number of alternate modes entered: %11!u!. Number of alternate modes that partner supports: %12!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0UCM_MANAGER_CONFIG size 0x%10!x! incorrect" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemLong -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0ConnectorId:0x%10!I64X!: WdfMemoryCreate for new PD alternate mode failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeEntered
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeExited
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0UcmConnectorPdAlternateModeExited(ConnectorId:0x%10!I64X!, Alternate Mode SVID:%11!u!. Alternate Mode:%12!u!.)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeExited
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0ConnectorId:0x%10!I64X!: Reported alternate mode exit when an alternate mode was not active." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeExited
+{
+Arg, ItemLongLongXX -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0ConnectorId:0x%10!I64X!: Reported exit of an alternate mode which had not been reported as entered. SVID: %11!u!. Mode: %12!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeExited
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeExited
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0UcmConnectorPdAlternateModeHardwareConfigured(ConnectorId:0x%10!I64X!, SVID: %11!u!. Mode: %12!u!.)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0Port partner is not attached." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed allocating UcmCx context. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0ConnectorId:0x%10!I64X!: Reported alternate mode hardware configured when an alternate mode was not active. SVID: %11!u!. Mode: %12!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0ConnectorId:0x%10!I64X!: Reported hardware configured for an alternate mode which had not been reported as entered. SVID: %11!u!. Mode: %12!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Reporting attach to URS." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdAlternateModeHardwareConfigured
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCableProperties
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! received cable properties when port partner is not attached. - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCableProperties
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCableProperties
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed creating the WDFWAITLOCK. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed creating the WDFWAITLOCK. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed creating the WDFWAITLOCK. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed creating the WDFWAITLOCK. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed creating the WDFWAITLOCK. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed creating the connector collection. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed allocating memory (%10!d! bytes). %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed waiting for the CAD device interface. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed allocating memory (%10!d! bytes). %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed waiting for the URS device interface. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed initializing Policy Manager - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed initializing Capability Store - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmInitializeDevice
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Connector (Id:0x%10!I64x!) must be Type-C - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ConnectorId 0x%10!I64x! already exists and cannot be added again. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DRP connector (Id:0x%10!I64x!) has to support EvtSetDataRole - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0The parent of Connector (Id 0x%10!I64x!) has to be the UCM device - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfObjectCreate failed to create the UCMCONNECTOR object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfObjectAllocateContext failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed creating a timer object - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed creating a timer object - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfWaitLockCreate failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed initializing event object - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed initializing event object - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCreate failed to allocate memory for %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCopyToBuffer failed to copy %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0[Device:0x%10!p!] Failed to find a capability store connector of connectorId:0x%11!I64X! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0[Device:0x%10!p!] Overwriting connector (Id:0x%11!I64x!) capability %12!s! value %13!u! with capability store value %14!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0[Device:0x%10!p!] Overwriting connector (Id:0x%11!I64x!) capability %12!s! value %13!u! with capability store value %14!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0[Device:0x%10!p!] Overwriting connector (Id:0x%11!I64x!) capability %12!s! value %13!d! with capability store value %14!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0[Device:0x%10!p!] Overwriting connector (Id:0x%11!I64x!) capability %12!s! value %13!d! with capability store value %14!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0[Device:0x%10!p!] Overwriting connector (Id:0x%11!I64x!) capability %12!s! value %13!u! with capability store value %14!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0[Device:0x%10!p!] Writing connector (Id:0x%11!I64x!) capability %12!s! with capability store value %13!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0[Device:0x%10!p!] Writing connector (Id:0x%11!I64x!) capability %12!s! count value with capability store value %13!u!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed adding the newly created UCMCONNECTOR object to the collection. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed creating a policy manager connector. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorCreate
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCAttach
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Port partner (%10!s!,%11!s!) attached on ConnectorId:0x%12!I64x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCAttach
+{
+Arg, ItemEnum(_UCM_TYPEC_PARTNER) -- 10
+Arg, ItemEnum(_UCM_TYPEC_CURRENT) -- 11
+Arg, ItemLongLongX -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Received two consecutive attach events without detach from ConnectorId:0x%10!I64x!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCAttach
+{
+Arg, ItemLongLongX -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCAttach
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCDetach
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Expected 0 alternate modes active upon detach. Actual alternate modes active: %10!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCDetach
+{
+Arg, ItemLong -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCDetach
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdConnectionStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdConnectionStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCCurrentAdChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Received CurrentAdvertisement:%10!s! for ConnectorId:0x%11!I64x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCCurrentAdChanged
+{
+Arg, ItemEnum(_UCM_TYPEC_CURRENT) -- 10
+Arg, ItemLongLongX -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Ignored CurrentAdvertisement:%10!s! for %11!s! ConnectorId:0x%12!I64x!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCCurrentAdChanged
+{
+Arg, ItemEnum(_UCM_TYPEC_CURRENT) -- 10
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 11
+Arg, ItemLongLongX -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorTypeCCurrentAdChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0PD port partner's source capabilities should have at least one power data object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0The first power data object in PD port partner's source capabilities must be a fixed supply PDO. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed allocating the memory for %10!d! power data objects (%11!Id! bytes). %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0WdfMemoryCopyFromBuffer() failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdPartnerSourceCaps
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0PD port's source capabilities should have at least one power data object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0The first power data object in PD port's source capabilities must be a fixed supply PDO. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Failed allocating the memory for %10!d! power data objects (%11!Id! bytes). %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WdfMemoryCopyFromBuffer() failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPdSourceCaps
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorDataDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0UcmConnectorDataDirectionChanged(ConnectorId:0x%10!I64X!, Success:%11!s!, CurrentDataRole:%12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorDataDirectionChanged
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Unexpected local data role %10!s! for ConnectorId:0x%11!I64X!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorDataDirectionChanged
+{
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Port partner is not attached." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorDataDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorDataDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPowerDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0UcmConnectorPowerDirectionChanged(ConnectorId:0x%10!I64X!, Success:%11!s!, CurrentPowerRole:%12!s!) OldPowerRole:%13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPowerDirectionChanged
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 12
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Power role (%10!s!) remains unchanged on ConnectorId:0x%11!I64X!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPowerDirectionChanged
+{
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Port partner is not attached." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPowerDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPowerDirectionChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorChargingStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Cannot report charging state when not a power sink." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorChargingStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0UcmConnectorChargingStateChanged(ConnectorId:0x%10!I64X!, %11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorChargingStateChanged
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_CHARGING_STATE) -- 11
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Invalid charging state." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorChargingStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorChargingStateChanged
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmDeviceGetConnectorIds
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmDeviceGetConnectorIds
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorGetPolicy
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0UcmConnectorGetPolicy(ConnectorId:0x%10!I64X!, %11!s!) completed - %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorGetPolicy
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_CONNECTOR_POLICY_TYPE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorGetPolicy
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPartnerPdAlternateModes
+{
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! received partner PD alternate modes when port partner is not attached. - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPartnerPdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCreate failed to allocate memory for %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UCMMGR FUNC=imp_UcmConnectorPartnerPdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+2d901779-4577-3bf5-bc0e-56d212885e3b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCopyToBuffer failed to copy %12!u! PD alternate modes. - %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=imp_UcmConnectorPartnerPdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[Device:0x%10!p!] WdfMemoryCreate for %11!Iu! bytes failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[Device:0x%10!p!] WdfMemoryCreate for %11!Iu! bytes failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[Device:0x%10!p!] Invalid data in ACPI_ENUM_CHILDREN_OUTPUT_BUFFER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[Device:0x%10!p!] No child devices in ACPI_ENUM_CHILDREN_OUTPUT_BUFFER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[Device:0x%10!p!] IOCTL_ACPI_ENUM_CHILDREN failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[Device:0x%10!p!] Invalid data in ACPI_ENUM_CHILDREN_OUTPUT_BUFFER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+Arg, ItemPtr -- 10
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEnumChildren
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[Device:0x%10!p!] RtlStringCchCopyA failed to copy ACPI method name - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[Device:0x%10!p!] WdfMemoryCreate failed for %11!Iu! bytes - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0[Device:0x%10!p!] IOCTL_ACPI_EVAL_METHOD_EX has failed with %11!s! for %12!u! times. Stopped retrying." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[Device:0x%10!p!] IOCTL_ACPI_EVAL_METHOD_EX failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[Device:0x%10!p!] IOCTL_ACPI_EVAL_METHOD_EX returned 0 byte - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0[Device:0x%10!p!] ACPI_EVAL_OUTPUT_BUFFER signature (0x%11!x!) is incorrect" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateMethod
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[Device:0x%10!p!] RtlStringCchPrintfA for creating method name failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[Device:0x%10!p!] ACPIEvaluateMethod failed on [%11!s!] - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[Device:0x%10!p!] _ADR of [%11!s!] didn't return anything - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0[Device:0x%10!p!] _ADR of [%11!s!] returned an unexpected argument of type %12!u! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemShort -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[Device:0x%10!p!] Unexpected argument from _ADR of [%11!s!] - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateAdr
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[Device:0x%10!p!] RtlStringCchPrintfA for creating method name failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[Device:0x%10!p!] AcpiEvaluateMethod failed to read [%11!s!] from ACPI - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0[Device:0x%10!p!] _PLD for %11!s! didn't return anything - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0[Device:0x%10!p!] _PLD for %11!s! returned an unexpected argument of type %12!u! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemShort -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[Device:0x%10!p!] Unexpected _PLD buffer size for %11!s!. Expected %12!Iu! bytes, got %13!Iu! bytes - %14!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluatePld
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateDsd
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0[Device:0x%10!p!] RtlStringCchPrintfA for creating method name failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateDsd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0[Device:0x%10!p!] AcpiEvaluateMethod failed on [%11!s!] - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateDsd
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiEvaluateDsd
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Unexpected Argument DataLength. Expected: %10!u!, Actual: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParseGuid
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0[Device 0x%10!p!] PDOs are not contained in a package. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0[Device 0x%10!p!] Element #%11!u! in the PDO package is not an integer. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0[Device 0x%10!p!] No PDOs are found in the PDO capability package. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0[Device 0x%10!p!] WdfMemoryCreate failed to allocate memory for %11!u! power data objects. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdPdos
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0[Device 0x%10!p!] PdAlternateModes are not contained in a package. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0[Device 0x%10!p!] Element #%11!u! in the PdAlternateModes package is not an integer. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0[Device 0x%10!p!] Element #%11!u! in the PdAlternateModes package is too big (0x%12!x!) for a 16-bit SVID. %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0[Device 0x%10!p!] Unexpected number of elements (%11!u!) in the PD alternate modes package. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0[Device 0x%10!p!] WdfMemoryCreate failed to allocate memory for %11!u! PD alternate modes. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a9d8edb-87b8-32c0-e90c-730547b09cd4 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiParsePdAlternateModes
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed opening the USB registry key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed reading registry value DualRoleFeaturesTestOverride. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DualRoleFeaturesTestOverride = 0x%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadTestOverrideValue
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed opening the USB registry key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed reading the manifest assigned DualRoleFeatures value. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DualRoleFeatures = 0x%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadManifestAssignedValue
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed opening the USBFn\Default key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed reading IncludeDefaultCfg under USBFn\Default. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0USBFn\Default\IncludeDefaultCfg = %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed opening the USBFn key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed reading IncludeDefaultCfg under USBFn. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0USBFn\IncludeDefaultCfg = %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=CheckUSBFnIncludeDefaultCfg
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed opening the USBFn\Default key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed reading the CurrentConfiguration value. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0USBFn\Default\CurrentConfiguration = [%10!s!]" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemWString -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed allocating memory for reading USBFn current configuration. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed opening the configuration key [%10!s!]. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed querying USBFn InterfaceList value. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadUSBFnFeaturesFromCurrentConfiguration
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed opening the USB\Control key. %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed reading the registry value UcmIsPresent. %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0UcmIsPresent = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpdateUcmIsPresentBit
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Returning DualRoleFeatures=0x%10!X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+Arg, ItemLong -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0MTP Initiator found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0MTP Initiator not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0MTP Responder found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0MTP Responder not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesQueryLocalMachine
+{
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed opening the USB registry key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UsbDualRoleFeaturesMarkUcmPresence
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed writing UcmIsPresent value. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UsbDualRoleFeaturesMarkUcmPresence
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4020955e-32f7-39b2-468c-4a2c1fbaa770 UsbDualRoleFeatures // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0UcmIsPresent is written to the registry." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UsbDualRoleFeaturesMarkUcmPresence
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceEvtIoDeviceControl
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Received request 0x%10!p! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceEvtIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_UPM_IOCTL) -- 11
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Intercepted unknown IOCTL: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmInterfaceEvtIoDeviceControl
+{
+Arg, ItemEnum(_UPM_IOCTL) -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceEvtIoDeviceControl
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+Arg, ItemEnum(_UPM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+Arg, ItemEnum(_UPM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfRequestRetrieveOutputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed finding connector ID %10!I64u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+Arg, ItemULongLong -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceGetConnectorProperties
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+Arg, ItemEnum(_UPM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+Arg, ItemEnum(_UPM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfRequestRetrieveOutputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed finding connector ID %10!I64u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+Arg, ItemULongLong -- 10
+}
+
+4c18d359-a4d3-3d9a-ce34-1bd43c1b95ee PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmInterfaceGetConnectorState
+{
+}
+
+4e926423-6bec-31cc-18b1-e777a83f9468 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxRegister
+{
+}
+
+4e926423-6bec-31cc-18b1-e777a83f9468 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] WdfRegisterClassLibrary failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER FUNC=CxRegister
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4e926423-6bec-31cc-18b1-e777a83f9468 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxRegister
+{
+}
+
+4e926423-6bec-31cc-18b1-e777a83f9468 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxUnregister
+{
+}
+
+4e926423-6bec-31cc-18b1-e777a83f9468 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxUnregister
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCOperatingMode
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ConnectorId:0x%10!I64X! Failed to get supported operating modes from capability store. %11!s! Fall back to the client-provided value 0x%12!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCOperatingMode
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ConnectorId:0x%10!I64X! Type C Operating Mode %11!s! returned" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCOperatingMode
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_TYPEC_OPERATING_MODE) -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCOperatingMode
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCSourceCurrentLevel
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ConnectorId:0x%10!I64X! Failed to get type-C source capabilities from capability store. %11!s! Fall back to the client-provided value 0x%12!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCSourceCurrentLevel
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ConnectorId:0x%10!I64X! Type-C Source Current Level %11!s! returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCSourceCurrentLevel
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_TYPEC_CURRENT) -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetTypeCSourceCurrentLevel
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSourceCapabilities
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCopyToBuffer failed to copy %12!u! PD source PDOs. - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSourceCapabilities
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSourceCapabilities
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSinkCapabilities
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! WdfMemoryCopyToBuffer failed to copy %12!u! PD sink PDOs. - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSinkCapabilities
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdSinkCapabilities
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdRequestDataObject
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ConnectorId:0x%10!I64X! The PD Request Data Object is not ready yet. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdRequestDataObject
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ConnectorId:0x%10!I64X! PD Request Data Object 0x%11!08X! returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdRequestDataObject
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdRequestDataObject
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModes
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModes
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModeToNegotiate
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ConnectorId:0x%10!I64X! The PdAlternateModeToNegotiate is not ready yet. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModeToNegotiate
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ConnectorId:0x%10!I64X! PdAlternateModeToNegotiate (SVID:0x%11!x!, Mode:0x%12!x!) returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModeToNegotiate
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdAlternateModeToNegotiate
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPrepareRdo
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ConnectorId:0x%10!I64X! Failed to get PD sink PDOs from capability store. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPrepareRdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ConnectorId:0x%10!I64X! Cannot find a matching Partner Source PDO. Use vSafe5V with CapabilityMismatch" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPrepareRdo
+{
+Arg, ItemLongLongXX -- 10
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ConnectorId:0x%10!I64X! Prepared a PD Request Data Object Ul:0x%11!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPrepareRdo
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPrepareRdo
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPreparePdAlternateModeToNegotiate
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ConnectorId:0x%10!I64X! Failed to get supported PD alternate modes from capability store. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPreparePdAlternateModeToNegotiate
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ConnectorId:0x%10!I64X! Found a matching supported PD alternate mode (SVID:0x%11!x!, Mode:0x%12!x!)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPreparePdAlternateModeToNegotiate
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ConnectorId:0x%10!I64X! Failed to find a matching supported PD alternate mode. - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPreparePdAlternateModeToNegotiate
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyPreparePdAlternateModeToNegotiate
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetSupportedPowerRoles
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ConnectorId:0x%10!I64X! does not support PD. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetSupportedPowerRoles
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ConnectorId:0x%10!I64X! SupportedPowerRoles:0x%11!x! returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetSupportedPowerRoles
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetSupportedPowerRoles
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdEnabled
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ConnectorId:0x%10!I64X! PDEnabled:%11!s! returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdEnabled
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetPdEnabled
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetAlternateModeEnumerationDelayEnabled
+{
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ConnectorId:0x%10!I64X! AlternateModeEnumerationDelayEnabled:%11!s! returned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetAlternateModeEnumerationDelayEnabled
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+}
+
+56d39975-4ece-333a-8baa-9919c6c7a21c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POLICY FUNC=PolicyGetAlternateModeEnumerationDelayEnabled
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetProperties
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Tried to query connector properties for an invalid index (%10!u!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetProperties
+{
+Arg, ItemLong -- 10
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetProperties
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ConnectorId:0x%10!I64X! Failed to get PD Source PDOs from capability store. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorFillState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ConnectorId:0x%10!I64X! Failed to get PD alternate modes from capability store. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorFillState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetState
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Tried to query connector state for an invalid index (%10!u!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetState
+{
+Arg, ItemLong -- 10
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorGetState
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorInitializeNotifications
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WnfCreateConnectorStateName failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorInitializeNotifications
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorInitializeNotifications
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorIndicateStateChangeAndReleaseLock
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WnfPublishConnectorStateChange failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorIndicateStateChangeAndReleaseLock
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorIndicateStateChangeAndReleaseLock
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorCleanup
+{
+}
+
+6d83e625-72d4-30c8-f6c0-a6f0bb00e090 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONNECTOR FUNC=ConnectorCleanup
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[Device:0x%10!p!] Capability Store is already initialized. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[Device:0x%10!p!] Failed reading Capability Store from ACPI. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[Device:0x%10!p!] Failed creating a WDF memory object for all %11!u! connector Ids. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[Device:0x%10!p!] Capability Store is initialized successfully." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+Arg, ItemPtr -- 10
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitialize
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetConnectorIds
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[Device:0x%10!p!] Invalid parameter ConnectorCount(0x%11!p!) or ConnectorIds(0x%12!p!). %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetConnectorIds
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[Device:0x%10!p!] Capability Store is not initialized yet. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetConnectorIds
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetConnectorIds
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[Device:0x%10!p!] Acpi_EnumChildren failed. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0[Device:0x%10!p!] Unexpected connector index (%11!u!) found on connector [%12!s!]." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[Device:0x%10!p!] AcpiEvaluatePld failed on connector [%11!s!]. %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[Device:0x%10!p!] Found connector [%11!s!] with connector index %12!u! and connector Id 0x%13!I64X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongXX -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[Device:0x%10!p!] AcpiEvaluateDsd failed on connector device [%11!s!]. %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[Device:0x%10!p!] _DSD retrieved from ACPI for connector device [%11!s!]." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[Device:0x%10!p!] ACPI Error: Argument type other than UUID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0[Device:0x%10!p!] CapStoreParseAllCapabilitesInAcpiDsdData failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[Device:0x%10!p!] ACPI Error: UUID element not found in _DSD. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[Device:0x%10!p!] ACPI Error: Data structure element not found in _DSD. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[Device:0x%10!p!] WdfMemoryCreate for capability store connector failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[Device:0x%10!p!] No connectors retrieved from ACPI. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreInitializeUsingAcpi
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0[Device:0x%10!p!] ACPI Error: The data structure element of _DSD must be of type Package. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0[Device:0x%10!p!] ACPI Error: Capability object #%11!u! is not of type PACKAGE" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[Device:0x%10!p!] Failed parsing capability index at capability #%11!u!. %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0[Device:0x%10!p!] The first PD source PDO is not a vSafe5V Fixed Supply. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0[Device:0x%10!p!] The first PD sink PDO is not a vSafe5V Fixed Supply. - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0[Device:0x%10!p!] Unexpected capability ID %11!u! at capability #%12!u!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0[Device:0x%10!p!] Failed parsing capability value for index %11!u! at capability #%12!u! of connector Id:0x%13!I64x!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreParseAcpiDsdData
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreFindConnectorById
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreFindConnectorById
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityUlong
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! fails getting %12!s! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityUlong
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0[Device:0x%10!p!] ConnectorId:0x%11!I64X! returns %12!s! value 0x%13!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityUlong
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemEnum(CapabilityId) -- 12
+Arg, ItemLong -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityUlong
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0[Device:0x%10!p!] Unexpected capability ID %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0[Device:0x%10!p!] Connector Id:0x%11!I64X! capability of ID:%12!u! is not available - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0[Device:0x%10!p!] Connector Id:0x%11!I64X! capability of ID:%12!u! is not available - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0[Device:0x%10!p!] Connector Id:0x%11!I64X! capability of ID:%12!u! is not available - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+9f1706ff-0b32-3723-1a7d-02699ab3ee8c UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPSTORE FUNC=CapStoreGetCapabilityMemory
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceCreate
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfIoQueueCreate failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfDeviceConfigureWdmIrpDispatchCallback failed - %10!s!. Not creating UCM interface. This failure is most likely due to the client driver calling UcmInitializeDevice after EvtDriverDeviceAdd has returned." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDeviceCreateDeviceInterface failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceCreate
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtIoDeviceControl
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Received request 0x%10!p! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_UCM_IOCTL) -- 11
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Intercepted unknown IOCTL: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtIoDeviceControl
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtIoDeviceControl
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtDeviceWdmIrpDispatch
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceEvtDeviceWdmIrpDispatch
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetInformation
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetInformation
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetInformation
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfRequestRetrieveOutputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetInformation
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetInformation
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfRequestRetrieveOutputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorProperties
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfRequestRetrieveOutputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmGetConnectorState
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorDataRole
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorDataRole
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorDataRole
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorDataRole
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorDataRole
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorPowerRole
+{
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Unexpected input buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorPowerRole
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Unexpected output buffer size for %10!s!. Expected %11!Iu! bytes, got %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorPowerRole
+{
+Arg, ItemEnum(_UCM_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfRequestRetrieveInputBuffer failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorPowerRole
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a415c3ba-458d-3b2c-665b-e0de57fb28f8 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERFACE FUNC=InterfaceUcmSetConnectorPowerRole
+{
+}
+
+aad762e0-ee79-3d57-9e50-1cfc974d3aa2 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiGetIoTarget
+{
+}
+
+aad762e0-ee79-3d57-9e50-1cfc974d3aa2 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[Device: 0x%10!p!] WdfIoTargetCreate for ACPI IoTarget failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiGetIoTarget
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aad762e0-ee79-3d57-9e50-1cfc974d3aa2 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[Device: 0x%10!p!] WdfIoTargetOpen for ACPI IoTarget failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI FUNC=AcpiGetIoTarget
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aad762e0-ee79-3d57-9e50-1cfc974d3aa2 UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI FUNC=AcpiGetIoTarget
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmDeviceContextCleanup
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmDeviceContextCleanup
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorContextCleanup
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorContextCleanup
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWnfHandler
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Received WNF_USB_TYPE_C_PARTNER_STATE(ConnectorId:0x%10!I64X!, Arrival:%11!d!, Features:0x%12!X!) ChangeStamp:%13!u! AttachedWnf:%14!d! State.Attached:%15!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWnfHandler
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unexpected Arrival:%10!d! of ConnectorId:0x%11!I64X!. Previous state(s) might have missed." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorWnfHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWnfHandler
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbPeerDeviceState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Publishing WNF_USB_PEER_DEVICE_STATE(ConnectorId:0x%10!I64X!, Arrival:%11!s!, ConnState:%12!d!) - %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbPeerDeviceState
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbPeerDeviceState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbChargingState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Publishing WNF_USB_CHARGING_STATE(UsbChargingState:%10!d!) - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbChargingState
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbChargingState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbErrorNotification
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Publishing WNF_USB_ERROR_NOTIFICATION(UsbErrorNotification:%10!u!) on connector 0x%11!I64X!- %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbErrorNotification
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfUsbErrorNotification
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfEventForAttach
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfEventForAttach
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfEventForDetach
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPublishWnfEventForDetach
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0LOCAL(Features:0x%10!x!, ConnectorId:0x%11!I64X!) %12!s! REMOTE(Features:0x%13!x!, %14!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemEnum(_UCM_TYPEC_PARTNER) -- 14
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Windows Mobile with UCM -- Windows Desktop without UCM." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Windows Mobile -- Windows Desktop with UCM. No action will be taken here on Windows Mobile." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Windows Mobile -- non-Windows. No action will be taken here on Windows Mobile." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Data role (%10!s!) change is not required for ConnectorId:0x%11!I64X!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UcmConnectorRunPolicy
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0PolicyManagerConnectorChargingStateChanged(ConnectorId:0x%10!I64X!, %11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_CHARGING_STATE) -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Invalid charging state %10!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+Arg, ItemEnum(_UCM_CHARGING_STATE) -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Received %10!s! on ConnectorId:0x%11!I64X!, but no port partner is attached now." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+Arg, ItemEnum(_UCM_CHARGING_STATE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0The charging state of ConnectorId:0x%10!I64X! is not changed." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Error condition is already active on ConnectorId:0x%10!I64x!. Abandoning check for further charging errors." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+Arg, ItemLongLongX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorChargingStateChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0PD Connection state changed on ConnectorId:0x%10!I64X! to %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_PD_CONN_STATE) -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ConnectorId:0x%10!I64X!: Connected sink no longer indicates capability mismatch." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Error condition is already active on ConnectorId:0x%10!I64x!. Abandoning check for further errors." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+Arg, ItemLongLongX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ConnectorId:0x%10!I64X!: Connected sink has indicated capability mismatch." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPdConnStateChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Error condition is already active on ConnectorId:0x%10!I64x!. Abandoning check for further errors." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+Arg, ItemLongLongX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0ConnectorId:0x%10!I64X!: DisplayPort resource contention" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ConnectorId:0x%10!I64X!: Thunderbolt resource contention" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0ConnectorId:0x%10!I64X!: DisplayPort not supported, but supported on ConnectorId:0x%11!I64X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ConnectorId:0x%10!I64X!: Thunderbolt not supported, but supported on ConnectorId:0x%11!I64X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorPartnerPdAlternateModesChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSupportedAlternateModesChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Error condition is already active on ConnectorId:0x%10!I64x!. Abandoning check for further errors." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSupportedAlternateModesChangedInternal
+{
+Arg, ItemLongLongX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSupportedAlternateModesChangedInternal
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0No interface to change data role for ConnectorId:0x%10!I64X! to %11!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Policy Manager is currently disabled. No action is taken." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Failed setting data role to %10!s! for ConnectorId:0x%11!I64X!. %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Successfully set data role to %10!s! for ConnectorId:0x%11!I64X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetDataRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0No interface to change power role for ConnectorId:0x%10!I64X! to %11!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Policy Manager is currently disabled. No action is taken." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed setting power role to %10!s! for ConnectorId:0x%11!I64X!. %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Successfully setting power role to %10!s! for ConnectorId:0x%11!I64X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 10
+Arg, ItemLongLongXX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorInvokeSetPowerRole
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWorkItemCallback
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Running policy for the 1st time since attach. ConnectorId:0x%10!I64X! ChangeSequence:0x%11!X! PartnerFeatures:0x%12!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWorkItemCallback
+{
+Arg, ItemLongLongXX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Running policy for the PartnerFeatures change from 0x%10!X! to 0x%11!X!. ConnectorId:0x%12!I64X! ChangeSequence:0x%13!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWorkItemCallback
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongXX -- 12
+Arg, ItemLong -- 13
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Policy run is skipped due to unchanged PartnerFeatures:0x%10!X!. ConnectorId:0x%11!I64X! ChangeSequence:0x%12!X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWorkItemCallback
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongXX -- 11
+Arg, ItemLong -- 12
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorWorkItemCallback
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSchedulePolicyWorkItem
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Policy workitem for ConnectorId:0x%10!I64x! has been scheduled already. No new workitem is scheduled for ChangeSequence:0x%11!X!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSchedulePolicyWorkItem
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Policy workitem for ConnectorId:0x%10!I64x! ChangeSequence:0x%11!x! queued successfully." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSchedulePolicyWorkItem
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorSchedulePolicyWorkItem
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmDeviceWnfCallback
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0The state data size (%10!d!) is unexpected." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmDeviceWnfCallback
+{
+Arg, ItemLong -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0The state data pointer is NULL." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmDeviceWnfCallback
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Invalid ConnectorId:0x%10!I64X!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=UpmDeviceWnfCallback
+{
+Arg, ItemLongLongXX -- 10
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmDeviceWnfCallback
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorIndicateStateChange
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorIndicateStateChange
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorGetProperties
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorGetProperties
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorGetState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorGetState
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorUcmStateChanged
+{
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0UcmCx reported charging state %10!u! for connector ID (0x%11!I64x!) after detach." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=UpmConnectorUcmStateChanged
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+}
+
+e17d248f-c72e-3002-3272-0dbec7d7cd90 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=UpmConnectorUcmStateChanged
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerInitialize
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed allocating Policy Manager context. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed creating a WDFWAITLOCK object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed creating a WDFCOLLECTION object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed subscribing WNF event. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfIoQueueCreate failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfDeviceCreateDeviceInterface failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerInitialize
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfObjectCreate failed to create the UPMCONNECTOR object. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfWaitLockCreate failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfWorkItemCreate failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PM_EventInitialize failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfCollectionAdd failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerConnectorCreate
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerInspectIoCtlForInterception
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerInspectIoCtlForInterception
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerUcmConnectorStateChanged
+{
+}
+
+e5169677-f84f-34d1-5c8e-776ba9e194b8 PolicyManager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PolicyManagerUcmConnectorStateChanged
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxInitialize
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxInitialize
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxDeinitialize
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxDeinitialize
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxBindClient
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Cx function count: %10!u!, Client function count: %11!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxBindClient
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Cannot bind client (CX version %10!u!.%11!u!) with UcmCx (version %12!u!.%13!u!) due to incorrect client function count %14!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER FUNC=CxBindClient
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to allocate client driver globals" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER FUNC=CxBindClient
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxBindClient
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxUnbindClient
+{
+}
+
+fe15e06e-072c-3f6b-40a3-d40befa3609b UcmCx // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER FUNC=CxUnbindClient
+{
+}
+

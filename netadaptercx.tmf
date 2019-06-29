@@ -1,0 +1,717 @@
+34b9bb54-85bd-3019-3359-ed4899c17c17 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 !! NetAdapterCx - %!FUNC!:The Request probably has already been completed / deferred completed, STATUS_INVALID_DEVICE_STATE" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxRequest->GetRecorderLog() FLAGS=FLAG_REQUEST
+{
+}
+
+34b9bb54-85bd-3019-3359-ed4899c17c17 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 !! NetAdapterCx - %!FUNC!:Required Input Length %10!d!, Actual %11!d!, STATUS_BUFFER_TOO_SMALL" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxRequest->GetRecorderLog() FLAGS=FLAG_REQUEST
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+34b9bb54-85bd-3019-3359-ed4899c17c17 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 !! NetAdapterCx - %!FUNC!:Required Output Length %10!d!, Actual %11!d!, STATUS_BUFFER_TOO_SMALL" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxRequest->GetRecorderLog() FLAGS=FLAG_REQUEST
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+37d8ef45-0e5a-3ae4-5e9d-f9f73960c527 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 !! NetAdapterCx - %!FUNC!:Type %10!s!, STATUS_NOT_SUPPORTED" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NxAdapter->GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemEnum(_NDIS_REQUEST_TYPE) -- 10
+}
+
+37d8ef45-0e5a-3ae4-5e9d-f9f73960c527 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectCreate for NetRequest failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NxAdapter->GetRecorderLog() FLAGS=FLAG_REQUEST
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+37d8ef45-0e5a-3ae4-5e9d-f9f73960c527 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext for client's NetRequest attributes failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxRequest->GetRecorderLog() FLAGS=FLAG_REQUEST
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ecc9ff2-8f9b-363b-8182-9eff156c7b66 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 !! NetAdapterCx - %!FUNC!:Invalid Flags Value %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxConfiguration->GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NET_CONFIGURATION_QUERY_ULONG_FLAGS) -- 10
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 !! NetAdapterCx - %!FUNC!:Length %10!d! is not a multiple of 2, STATUS_OBJECT_TYPE_MISMATCH" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+Arg, ItemLong -- 10
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 !! NetAdapterCx - %!FUNC!:BufferLength %10!d! is greater than USHORT_MAX" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+Arg, ItemLong -- 10
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 !! NetAdapterCx - %!FUNC!:Buffer does not have double NULL terminal chars, STATUS_OBJECT_TYPE_MISMATCH" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0  . NetAdapterCx - %!FUNC!:Multi Sz includes string %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+Arg, ItemPWString -- 10
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 !! NetAdapterCx - %!FUNC!:The WdfStringCreate failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+609e39a6-c070-3e80-1a58-86cc62659d1e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 !! NetAdapterCx - %!FUNC!:The WdfCollectionAdd failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_UTILITY
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfPnpPowerEventHandler(Start)" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 !! NetAdapterCx - %!FUNC!:EvtDevicePrepareHardware NdisWdfActionPnpStart failed Device 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpAddDevice failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfPnpPowerEventHandler(SurpriseRemove)" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionPnpSurpriseRemove failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfPnpPowerEventHandler(PreReleaseHardware)" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionPreReleaseHardware failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfPnpPowerEventHandler(PostReleaseHardware)" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionPostReleaseHardware failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfPnpPowerEventHandler(PreRelease)" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 !! NetAdapterCx - %!FUNC!:EvtDeviceReleaseHardware NdisWdfActionPreReleaseHardware failed NxDevice 0x%10!p!, 0x%11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionPostReleaseHardware failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionDeviceObjectCleanup failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler NdisWdfActionPnpRebalance failed NxDevice 0x%10!p!, 0x%11!s!, Ignoring it" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=PrivateGlobals->NxDriver->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 !! NetAdapterCx - %!FUNC!:StateMachineEngine_Init failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=PrivateGlobals->NxDriver->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfActionStartPowerManagement failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 !! NetAdapterCx - %!FUNC!:InitializeWdfDevicePowerReferences failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfPnpPowerEventHandler %10!d! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0    NetAdapterCx - %!FUNC!:Mx::MxAcquireRemoveLock failed, irp 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0  . NetAdapterCx - %!FUNC!:EvtWdfCxDeviceWdmIrpPreProcess IRP_MJ_CREATE Device 0x%10!p!, IRP 0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0  . NetAdapterCx - %!FUNC!:EvtWdfCxDeviceWdmIrpPreProcess IRP_MJ_CLOSE Device 0x%10!p!, IRP 0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0  . NetAdapterCx - %!FUNC!:EvtWdfCxDeviceWdmIrpPreProcess IRP_MJ code 0x%10!x!, Device 0x%11!p!, IRP 0x%12!p!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+903a3830-8dcc-3e77-87f6-9ff6fdf3d3b0 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0  . NetAdapterCx - %!FUNC!:EvtWdfCxDeviceWdmIrpPreProcess IRP_MJ_SYSTEM_CONTROL Device 0x%10!p!, IRP 0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDevice->GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectCreate for NETPOWERSETTINGS failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NetAdapter->GetRecorderLog() FLAGS=FLAG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext with NetPowerSettingsObjectAttributes failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NetAdapter->GetRecorderLog() FLAGS=FLAG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 !! NetAdapterCx - %!FUNC!:Invalid InformationBufferLength %10!u! for protocol offload entry" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_POWER
+{
+Arg, ItemLong -- 10
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 !! NetAdapterCx - %!FUNC!:Allocation for Nx power entry failed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_POWER
+{
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 !! NetAdapterCx - %!FUNC!:Unable to compute size requirement for WoL entry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 !! NetAdapterCx - %!FUNC!:Invalid InformationBufferLength %10!u! for WoL entry" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_POWER
+{
+Arg, ItemLong -- 10
+}
+
+a88441df-0fba-3a02-a2c0-0cfd2101913b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 !! NetAdapterCx - %!FUNC!:Allocation for Nx power entry failed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_POWER
+{
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectCreate for NetRequestQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NxAdapter->GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext for ClientAttributes failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxRequestQueue->GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 !! NetAdapterCx - %!FUNC!:Oid %10!s!, Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemListLong(0,1) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 !! NetAdapterCx - %!FUNC!:Oid %10!s!, Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemListLong(0,1) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 !! NetAdapterCx - %!FUNC!:Oid %10!s!, Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemListLong(0,1) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 !! NetAdapterCx - %!FUNC!:NetRequest 0x%10!p! Type %11!s!, STATUS_NOT_SUPPORTED" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_NDIS_REQUEST_TYPE) -- 11
+}
+
+b61a96a2-b261-3b8c-2d97-eb0f4cca541e km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 !! NetAdapterCx - %!FUNC!:NetRequest 0x%10!p!, Id %11!s!, Type %12!s!, STATUS_NOT_SUPPORTED" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_REQUEST_QUEUE
+{
+Arg, ItemPtr -- 10
+Arg, ItemListLong(0,1) -- 11
+Arg, ItemEnum(_NDIS_REQUEST_TYPE) -- 12
+}
+
+c979b0fe-6f5b-32d9-c4f8-c13614a486de km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfRegisterMiniportDriver" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_DRIVER
+{
+}
+
+c979b0fe-6f5b-32d9-c4f8-c13614a486de km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfRegisterMiniportDriver Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DRIVER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c979b0fe-6f5b-32d9-c4f8-c13614a486de km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0  . NetAdapterCx - %!FUNC!:Called NxDriver::_SetOptions" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDriver->GetRecorderLog() FLAGS=FLAG_DRIVER
+{
+}
+
+c979b0fe-6f5b-32d9-c4f8-c13614a486de km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0  . NetAdapterCx - %!FUNC!:Calling NdisMDeregisterMiniportDriver" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDriver->GetRecorderLog() FLAGS=FLAG_DRIVER
+{
+}
+
+c979b0fe-6f5b-32d9-c4f8-c13614a486de km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0  . NetAdapterCx - %!FUNC!:Did not call NdisMDeregisterMiniportDriver since m_NdisMiniportDriverHandle was NULL" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxDriver->GetRecorderLog() FLAGS=FLAG_DRIVER
+{
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 !! NetAdapterCx - %!FUNC!:RtlIntegerToUnicodeString failed for %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 !! NetAdapterCx - %!FUNC!:RtlAppendUnicodeStringToString failed to append %10!d! \Device\NDMP, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 !! NetAdapterCx - %!FUNC!:WdfDeviceInitAssignName failed for \Device\NDMP%10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 !! NetAdapterCx - %!FUNC!:WdfDeviceInitAssignWdmIrpPreprocessCallback failed for 0x%10!x!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 !! NetAdapterCx - %!FUNC!:WdfDeviceInitAssignWdmIrpPreprocessCallback failed for IRP_MJ_PNP %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d786d871-c4ac-3681-c49c-cca0c1731435 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 !! NetAdapterCx - %!FUNC!:WdfDeviceInitAssignWdmIrpPreprocessCallback failed for IRP_MJ_POWER %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 !! NetAdapterCx - %!FUNC!:NdisWdfReadConfiguration failed to read keyword %10!s! : status=%11!s!, ndisStatus=%12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemNDIS_STATUS -- 12
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectCreate for NetConfiguration failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NxAdapter->GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 !! NetAdapterCx - %!FUNC!:NdisOpenConfigurationEx failed ndis-status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=m_NxAdapter->GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNDIS_STATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 !! NetAdapterCx - %!FUNC!:NdisOpenConfigurationKeyByName failed ndis-status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=m_NxAdapter->GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNDIS_STATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=m_NxAdapter->GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 !! NetAdapterCx - %!FUNC!:Invalid Flags Value %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NET_CONFIGURATION_QUERY_ULONG_FLAGS) -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 !! NetAdapterCx - %!FUNC!:ReadConfiguration returned data of type %10!s!, but the caller requested an Integer type" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NDIS_PARAMETER_TYPE) -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0  . NetAdapterCx - %!FUNC!:Read Configuration Value %10!s! : %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemPWString -- 10
+Arg, ItemLong -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 !! NetAdapterCx - %!FUNC!:ReadConfiguration returned data of type %10!s!, but the caller requested a String type" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NDIS_PARAMETER_TYPE) -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0  . NetAdapterCx - %!FUNC!:Read Configuratration Value %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemPWString -- 10
+Arg, ItemPWString -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 !! NetAdapterCx - %!FUNC!:WdfStringCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 !! NetAdapterCx - %!FUNC!:ReadConfiguration returned data of type %10!s!, but the caller requested a MultiString type" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NDIS_PARAMETER_TYPE) -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 !! NetAdapterCx - %!FUNC!:ReadConfiguration returned data of type %10!s!, but the caller requested a Binary type" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemEnum(_NDIS_PARAMETER_TYPE) -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 !! NetAdapterCx - %!FUNC!:WdfMemoryCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0    NetAdapterCx - %!FUNC!:Failed to read network address. Likely there is no address stored for this adapter. Status %10!s! ndisStatus %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNDIS_STATUS -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0 !! NetAdapterCx - %!FUNC!:NdisReadNetworkAddress returned too many bytes, resultLength=%10!u!, NDIS_MAX_PHYS_ADDRESS_LENGTH=%11!u!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0 !! NetAdapterCx - %!FUNC!:NdisWriteConfiguration failed with status %10!s! ndisStatus %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNDIS_STATUS -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 !! NetAdapterCx - %!FUNC!:NdisWriteConfiguration failed with status %10!s! ndisStatus %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNDIS_STATUS -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0 !! NetAdapterCx - %!FUNC!:Buffer size is too long: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemLong -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0 !! NetAdapterCx - %!FUNC!:NdisWriteConfiguration failed with status %10!s! ndisStatus %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNDIS_STATUS -- 11
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0 !! NetAdapterCx - %!FUNC!:Too long multi string" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0 !! NetAdapterCx - %!FUNC!:ExAllocatePool failed for size %10!d!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemLong -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 !! NetAdapterCx - %!FUNC!:Buffer length (%10!d!) that we allocated was not sufficient" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemLong -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 !! NetAdapterCx - %!FUNC!:Buffer length (%10!d!) that we allocated was not sufficient. There is no space for the 2nd trailing NULL" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemLong -- 10
+}
+
+d9674881-a3ef-3ca7-b779-e7baf210527b km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0 !! NetAdapterCx - %!FUNC!:NdisWriteConfiguration failed with status %10!s! ndisStatus %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_CONFIGURATION
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemNDIS_STATUS -- 11
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0  . NetAdapterCx - %!FUNC!:Ignoring OID_PNP_SET_POWER" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0  ! NetAdapterCx - %!FUNC!:Rejecting OID, client didn't create a default queue" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0  ! NetAdapterCx - %!FUNC!:Rejecting OID, client didn't create a default direct queue" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 !! NetAdapterCx - %!FUNC!:WdfWorkItemCreate failed (m_PowerRequiredWorkItem) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0  . NetAdapterCx - %!FUNC!:Calling NdisWdfMiniportDataPathPause" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 !! NetAdapterCx - %!FUNC!:WdfWorkItemCreate failed (m_AoAcDisengageWorkItem) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0 !! NetAdapterCx - %!FUNC!:Client EvtAdapterSetCapabilities failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 !! NetAdapterCx - %!FUNC!:WdfWorkItemCreate failed (m_StartDatapathWorkItem) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0 !! NetAdapterCx - %!FUNC!:Failed to initialize datapath, will trigger device removal." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0  . NetAdapterCx - %!FUNC!:Calling NdisMRestartComplete" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0  . NetAdapterCx - %!FUNC!:Calling NdisMPauseComplete" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0  . NetAdapterCx - %!FUNC!:Calling NetPacketClientPauseComplete" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 !! NetAdapterCx - %!FUNC!:StateMachineEngine_Init failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectCreate for NetAdapter failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=PrivateGlobals->NxDriver->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext for ClientAttributes failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=PrivateGlobals->NxDriver->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0  ! NetAdapterCx - %!FUNC!:WdfDeviceStopIdle failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0  ! NetAdapterCx - %!FUNC!:WdfDeviceStopIdle from work item failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 !! NetAdapterCx - %!FUNC!:WdfObjectAllocateContext failed to allocate the miniport block, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 !! NetAdapterCx - %!FUNC!:NdisMSetMiniportAttributes failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNDIS_STATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 !! NetAdapterCx - %!FUNC!:Client missed or incorrectly called NetAdapterSetLinkLayerCapabilities" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 !! NetAdapterCx - %!FUNC!:Client missed or incorrectly called NetAdapterSetMtuSize" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0 !! NetAdapterCx - %!FUNC!:The client set permanent and current link layer addresses with different lengths." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0 !! NetAdapterCx - %!FUNC!:NdisMSetMiniportAttributes failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemNDIS_STATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0    NetAdapterCx - %!FUNC!:Device is not the power policy owner" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0 !! NetAdapterCx - %!FUNC!:Error %10!s! WDFDEVICE is not the power policy owner. Power capabilities reported by NetAdapterSetPowerCapabilities require ownership" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=GetRecorderLog() FLAGS=FLAG_DEVICE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0  . NetAdapterCx - %!FUNC!:Updated MTU Size to %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0    NetAdapterCx - %!FUNC!:On NdisPowerProfileBattery" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0    NetAdapterCx - %!FUNC!:On NdisPowerProfileAcOnLine" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0 !! NetAdapterCx - %!FUNC!:Unexpected PowerProfile %10!d!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemLong -- 10
+}
+
+fa9af42d-578a-33be-8777-1323eb5ad0c1 km // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0    NetAdapterCx - %!FUNC!:PnpEvent %10!s! from Ndis.sys" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=nxAdapter->GetRecorderLog() FLAGS=FLAG_ADAPTER
+{
+Arg, ItemEnum(_NDIS_DEVICE_PNP_EVENT) -- 10
+}
+

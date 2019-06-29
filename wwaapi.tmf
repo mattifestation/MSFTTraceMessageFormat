@@ -1,0 +1,51 @@
+9879bf54-b2e2-3515-2559-2f77cf18f4f6 dll // SRC=WwaApi.cpp MJ= MN=
+#typev WwaApi_cpp149 10 "%0IfFalseReturnError(%10!s!) is returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=IFFAILEDMACROS IfFalseReturnErrorEXP=CommonLibraryDllProcessAttach(Instance) ERROR=FALSE
+{
+#IfFalseReturnErrorEXP, ItemString -- 10
+ERROR, ItemHRESULT -- 11
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp101 12 "%0Making WebUIActivatedDeferral::_fEventInProgress as FALSE." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp55 10 "%0Making WebUIActivatedDeferral::_fEventInProgress as TRUE." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp587 13 "%0Before calling LifetimeHelper method DecrementActivatedDeferralCount." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp594 14 "%0After calling LifetimeHelper method DecrementActivatedDeferralCount. WebUIActivatedDeferral::_cDeferral = %10!d!, WebUIActivatedDeferral::_fEventInProgress = %11!d!." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+_cDeferral, ItemLong -- 10
+_fEventInProgress, ItemLong -- 11
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp604 15 "%0Before calling Lifetimehelper method ActivatedHandled." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp611 16 "%0After calling Lifetimehelper method ActivatedHandled." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp74 11 "%0After calling LifetimeHelper method IncrementActivatedDeferralCount.WebUIActivatedDeferral::_cDeferral = %10!d!." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+_cDeferral, ItemLong -- 10
+}
+
+c9561471-6637-3481-0a6c-f57e08fbee9a common // SRC=WebUIActivationEvents.cpp MJ= MN=
+#typev WebUIActivationEvents_cpp768 17 "%0Creating event args for activation kind = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_WWAAPI
+{
+activationKind, ItemLong -- 10
+}
+

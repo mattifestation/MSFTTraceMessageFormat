@@ -1,0 +1,2575 @@
+151f647b-d97c-3f82-fa4b-bae528067d98 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for SessionMemberAddedEventArgs (%10!p!): unique name: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+151f647b-d97c-3f82-fa4b-bae528067d98 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SessionMemberAddedEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+1f496584-a589-3d51-e3a3-b388b874280e ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GetEncodedLength(%10!s!) failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f496584-a589-3d51-e3a3-b388b874280e ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WideCharToMultiByte(%10!s!) returned %11!u! converted for %12!u! required bytes, %13!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWINERROR -- 13
+}
+
+1f496584-a589-3d51-e3a3-b388b874280e ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WideCharToMultiByte(%10!s!) failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1f496584-a589-3d51-e3a3-b388b874280e ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0MultiByteToWideChar(%10!s!) failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1f496584-a589-3d51-e3a3-b388b874280e ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0MultiByteToWideChar(%10!s!) failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PingOperation object (%10!p!) created" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PingOperation object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RuntimeClassInitialize called for PingOperation (%10!p!): parent: %11!p!, unique name: %12!s!%13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemString -- 13
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PingOperation (%10!p!): RuntimeClassInitialize completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PingOperation (%10!p!): new complete handler value requested: %11!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PingOperation (%10!p!): ThreadPoolHelper::QueueComWorkItem returned %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PingOperation (%10!p!): ping worker" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PingOperation (%10!p!): alljoyn_busattachment_ping(%11!p!, %12!s!, %13!u!) returned 0x%14!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PingOperation (%10!p!): start" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PingOperation (%10!p!): complete" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PingOperation (%10!p!): close (no-op)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+22ca6bc4-20e9-3f14-4040-54e73c343acc ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PingOperation (%10!p!): cancel (no-op)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Credentials object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for Credentials (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Credentials (%10!p!): peer unique name %11!s!%12!s!, requested user name %13!s!%14!s!, credentials mask 0x%15!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemWString -- 13
+Arg, ItemString -- 14
+Arg, ItemLong -- 15
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Credentials (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Credentials (%10!p!): new Certificate value requested (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Credentials (%10!p!): private key check failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Credentials (%10!p!): certificate is missing required private key information" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Credentials (%10!p!): GetPemEncodedPrivateKey failed with %11!s!, certificate is not exportable" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Credentials (%10!p!): Certificate value (%11!p!) accepted" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Credentials (%10!p!): new PasswordCredential value requested (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Credentials (%10!p!): new Timeout value requested (%11!I64d!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLong -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Credentials (%10!p!): GetRawCredentials called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Credentials (%10!p!): calling alljoyn_credentials_setpassword" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Credentials (%10!p!): calling alljoyn_credentials_setusername" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Credentials (%10!p!): GetPemEncodedCertificate: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Credentials (%10!p!): calling alljoyn_credentials_setcertchain" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Credentials (%10!p!): GetPemEncodedPrivateKey: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Credentials (%10!p!): calling alljoyn_credentials_setprivatekey" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Credentials (%10!p!): calling alljoyn_credentials_setexpiration" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Credentials (%10!p!): GetRawCredentials succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0FindAuthenticationMechanism(%10!s!) called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0FindAuthenticationMechanism(%10!s!) failed and defaulted to None" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0GetMechanismsString called" //   LEVEL=AJRT_TRACE
+{
+}
+
+2910d8ab-207d-3f4f-5b11-25cbc3a49d64 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Mechanism found: %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+2e5f354f-9fcb-360e-fe14-6967ddcc6371 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for AuthenticationMechanismVector (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+2e5f354f-9fcb-360e-fe14-6967ddcc6371 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AuthenticationMechanismVector (%10!p!): %11!s! contains an unrecognized AllJoynAuthenticationMechanism value: %12!u!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+2e5f354f-9fcb-360e-fe14-6967ddcc6371 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AuthenticationMechanismVector (%10!p!): IndexOf(%11!u!) returned %12!s! and found: %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemLong -- 13
+}
+
+2e5f354f-9fcb-360e-fe14-6967ddcc6371 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AuthenticationMechanismVector (%10!p!): cannot add duplicate value" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0AboutDataView (%10!p!): calling alljoyn_msgarg_destroy(%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AboutDataView object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RuntimeClassInitialize called for AboutDataView (%10!p!): status: %11!#X!, about data msgarg: %12!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AboutDataView (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0AboutDataView (%10!p!): SetProperties called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0AboutDataView (%10!p!): SetProperties succeeded early" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0AboutDataView (%10!p!): alljoyn_msgarg_get(%11!p!, 'a{sv}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0AboutDataView (%10!p!): entry %11!Iu!: alljoyn_msgarg_get(alljoyn_msgarg_array_element('{ss}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0AboutDataView (%10!p!): entry %11!Iu!: ER_BUS_SIGNATURE_MISMATCH (1st)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0AboutDataView (%10!p!): entry %11!Iu!: alljoyn_msgarg_get(alljoyn_msgarg_array_element('{say}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0AboutDataView (%10!p!): entry %11!Iu!: ER_BUS_SIGNATURE_MISMATCH (2nd)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0AboutDataView (%10!p!): entry %11!Iu!: alljoyn_msgarg_get('{sas}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0AboutDataView (%10!p!): entry %11!Iu! pass completed with %12!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0AboutDataView (%10!p!): SetProperties succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0AboutDataView (%10!p!): FindStringField(%11!s!) called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0AboutDataView (%10!p!): alljoyn_msgarg_getdictelement('{sv}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0AboutDataView (%10!p!): alljoyn_msgarg_get('s') returned %11!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0AboutDataView (%10!p!): FindStringField(%11!s!) succeeded, value: %12!s!%13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemWString -- 12
+Arg, ItemString -- 13
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0AboutDataView (%10!p!): set new AppId" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0AboutDataView (%10!p!): alljoyn_msgarg_getdictelement('{sv}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0AboutDataView (%10!p!): alljoyn_msgarg_get('ay') returned %11!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0AboutDataView (%10!p!): new AppId: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0AboutDataView (%10!p!): existing AppId remains unchanged: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0AboutDataView (%10!p!): SetSupportedLanguages called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0AboutDataView (%10!p!): SetSupportedLanguages succeeded early" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0AboutDataView (%10!p!): alljoyn_msgarg_getdictelement('{sv}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0AboutDataView (%10!p!): alljoyn_msgarg_get('as') returned %11!#X! and %12!Iu! entries" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0AboutDataView (%10!p!): at entry %11!Iu! alljoyn_msgarg_get(alljoyn_msgarg_array_element('s') returned %12!#X! and language tag: %13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0AboutDataView (%10!p!): SetSupportedLanguages succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0AboutDataView (%10!p!): GetDataBySessionPortAsync called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0AboutDataView (%10!p!): GetDataBySessionPortWithLanguageAsync called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0AboutDataView (static): GetDataBySessionPortAsyncInternal(%10!s!%11!s!, %12!p!, %13!u!, %14!s!%15!s!, %16!u!) called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemWString -- 14
+Arg, ItemString -- 15
+Arg, ItemLong -- 16
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0AboutDataView (static): Returning most preferred language match (exact): %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0AboutDataView (static): Returning most preferred language match (region-neutral): %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0AboutDataView (static): Returning most preferred language match (partial): %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0AboutDataView (static): Returning most preferred language match (default): %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0AboutDataView (static): alljoyn_aboutdata_getdefaultlanguage returned: %10!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0TemporaryBusAttachment: alljoyn_busattachment_create returned %10!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0TemporaryBusAttachment: alljoyn_busattachment_start(%10!p!) returned %11!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0TemporaryBusAttachment: alljoyn_busattachment_connect(%10!p!,%11!s!) returned %12!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0TemporaryBusAttachment: calling alljoyn_busattachment_destroy(%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0AboutDataView (static): GetDataCore(%10!s!%11!s!, %12!p!, %13!u!, %14!s!%15!s!, %16!u!) called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemWString -- 14
+Arg, ItemString -- 15
+Arg, ItemLong -- 16
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0AboutDataView (static): alljoyn_busattachment_joinsession(%10!s!) returned %11!#X! and session id %12!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0AboutDataView (static): alljoyn_busattachment_joinsession(%10!s!) returned %11!#X! and session id %12!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0AboutDataView (static): alljoyn_msgarg_create returned data: %10!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0AboutDataView (static): alljoyn_aboutproxy_create returned proxy: %10!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0AboutDataView (static): GetUserPreferredLanguages returned %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0AboutDataView (static): alljoyn_aboutproxy_getaboutdata using the producer's default language returned %10!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0AboutDataView (static): alljoyn_aboutdata_createfrommsgarg returned %10!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0AboutDataView (static): alljoyn_aboutdata_getdefaultlanguage returned %10!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0AboutDataView (static): The most preferred supported language was determined to be: %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0AboutDataView (static): alljoyn_aboutproxy_getaboutdata(%10!s!) using the best-matching language returned %11!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0AboutDataView (static): calling alljoyn_aboutproxy_destroy(%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0AboutDataView (static): calling alljoyn_busattachment_leavesession" //   LEVEL=AJRT_TRACE
+{
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0AboutDataView (static): GetDataCore returns %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+338f2c0e-cc15-3dd2-2161-79999f33ef6c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0AboutDataView (static): found user preferred language %10!u!: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+3cd76eb6-9607-39bc-9142-b73ab8d3524a ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for BusObjectStoppedEventArgs (%10!p!): status: 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4a0aec42-a9fe-32c6-cb91-f6b46c6f574a ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for WatcherStoppedEventArgs (%10!p!): status: 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0BusObject (%10!p!): PropertyGetHandler invoked with with interface name %11!s!, property name %12!s!, alljoyn_msgarg (%13!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemPtr -- 13
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0BusObject (%10!p!): PropertySetHandler invoked with with interface name %11!s!, property name %12!s!, alljoyn_msgarg (%13!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemPtr -- 13
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0BusObject (%10!p!): UnregistrationHandler invoked" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0BusObject (%10!p!): TryInvokePropertyHandler called with interface name %11!s!, property name %12!s!, alljoyn_msgarg (%13!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemPtr -- 13
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0BusObject (%10!p!): Property handler found. Calling (%11!p!) with context (%12!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0BusObject (%10!p!): Property handler returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0BusObject (%10!p!): TryInvokeStoppedEventHandler called  with status %11!#X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0RuntimeClassInitialize called for BusObject (%10!p!): object path %11!s!%12!s!, bus attachment (%13!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemPtr -- 13
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0BusObject (%10!p!): Start called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0BusObject (%10!p!): Stop called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0BusObject (%10!p!): AddProducer called with producer (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0BusObject (%10!p!): Producer's SetBusObject method returned %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0BusObject (%10!p!): ConnectAndStart called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0BusObject (%10!p!): alljoyn_busattachment_registerbusobject returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0BusObject (%10!p!): AddPropertyGetHandler called with context (%11!p!), callback (%12!p!) and interface name %13!s!%14!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+Arg, ItemString -- 14
+}
+
+4baa43e3-2faa-3fcd-09a9-1a8b11a29983 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BusObject (%10!p!): AddPropertySetHandler called with context (%11!p!), callback (%12!p!) and interface name %13!s!%14!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+Arg, ItemString -- 14
+}
+
+52ba81d7-585f-38c0-282c-0e884d4d4247 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for SessionMemberRemovedEventArgs (%10!p!): unique name: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+52ba81d7-585f-38c0-282c-0e884d4d4247 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SessionMemberRemovedEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for AllJoynSession (%10!p!): unique name %11!s!%12!s!, session port %13!u!, session ID %14!u!, status %15!d!, isValid %16!u!, bus attachment (%17!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemPtr -- 17
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Session (%10!p!): Invalidate called with status 0x%11!X! and reason %12!d!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Session (%10!p!): ReleaseSession returned %11!s! during session destruction" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Session object destroyed (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Session (%10!p!): RemoveMemberAsync called with unique name %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Session (%10!p!): alljoyn_busattachment_removesessionmember returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Session (%10!p!): DoInvokeMemberAddedEvent called with uniqueName %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Session (%10!p!): DoInvokeMemberRemovedEvent called with uniqueName %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Session (%10!p!): DoInvokeLostEvent called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0SessionStatics: GetFromServiceInfoAsync called with service info (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SessionStatics: GetFromServiceInfoAsync called with service info (%10!p!) and bus attachment (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5afab3e8-e40d-3d09-0d87-48cbef8e06f4 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SessionStatics: GetFromServiceInfoAndBusAttachmentCore called with unique name %10!s!%11!s!, session port %12!u!, bus attachment (%13!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+}
+
+64dc3d3b-2c75-39e4-9b28-bf4c050daa88 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0MessageInfo object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+64dc3d3b-2c75-39e4-9b28-bf4c050daa88 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for MessageInfo (%10!p!): sender unique name: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+64dc3d3b-2c75-39e4-9b28-bf4c050daa88 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0MessageInfo (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+71a262aa-92b0-38d4-9d59-cca45b4dfc66 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for BusAttachmentStateChangedEventArgs (%10!p!): state %11!u!, status 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7fc66f5d-05d5-32c5-0086-35d2bf78b56d ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Report error: %10!s!, message: %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+83663b78-d927-38df-57b1-3a07372caeee ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for ProducerStoppedEventArgs (%10!p!): status: 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for ServiceInfo (%10!p!): unique name: %11!s!%12!s!, object path: %13!s!%14!s!, session port: %15!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemWString -- 13
+Arg, ItemString -- 14
+Arg, ItemLong -- 15
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ServiceInfo (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AllJoynServiceInfoFactory: FromIdAsync called with device ID %10!s!%11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ServiceInfoFactory: DeviceInformation::CreateFromIdAsyncWithAdditionalProperties failed with %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ServiceInfoFactory: Failed to get unique name property from DeviceInformation with %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ServiceInfoFactory: The unique name '%10!s!%11!s!' retrieved from the device is empty" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ServiceInfoFactory: Failed to get object path property from DeviceInformation with %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ServiceInfoFactory: The object path '%10!s!%11!s!' retrieved from the device is empty" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+}
+
+8d52c88b-5cb0-3048-a84c-4a315f95ce14 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ServiceInfoFactory: Failed to get session port property from DeviceInformation with %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CryptBinaryToStringA failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0CryptQueryObject failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CryptStringToBinaryA(1st) failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CryptStringToBinaryA(2nd) failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0CertGetCertificateChain failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0CryptAcquireCertificatePrivateKey failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0NCryptExportKey failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0CryptEncodeObjectEx failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CryptEncodeObjectEx failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CertOpenStore failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+93c75206-d737-3f6c-fc9e-389f7f0c35f1 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0CertFindCertificateInStore failed with %10!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWINERROR -- 10
+}
+
+95518260-077e-33db-8d08-75238dbdf303 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ServiceInfoRemovedEventArgs object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+95518260-077e-33db-8d08-75238dbdf303 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for ServiceInfoRemovedEventArgs (%10!p!): unique name: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+95518260-077e-33db-8d08-75238dbdf303 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ServiceInfoRemovedEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+97859726-bab7-3a2d-cd03-b5ab570e01e0 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for SessionJoinedEventArgs (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Calling alljoyn_init" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0BusAttachment (%10!p!): ClearSessions called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0BusAttachment (%10!p!): GetLocalSession called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0BusAttachmentFactory: GetDefault called" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0BusAttachmentFactory: Initializing the default bus attachment failed with %10!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0BusAttachmentFactory: GetWatcher called" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0BusAttachmentFactory: CreateDefaultBusAttachment called" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0alljoyn_init returned 0x%10!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Calling alljoyn_shutdown" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0alljoyn_shutdown completed" //   LEVEL=AJRT_TRACE
+{
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0New BusAttachment object created (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0BusAttachment object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0RuntimeClassInitialize called for BusAttachment (%10!p!): owned %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!. Returning %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!. Returning %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0BusAttachment (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0BusAttachment (%10!p!): GetAboutDataAsync called with service info (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0BusAttachment (%10!p!): GetAboutDataWithLanguageAsync called with service info (%11!p!) and language (%12!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0BusAttachment (%10!p!): GetAboutDataAsyncInternal called with unique name %11!s!%12!s!, session port %13!u!, language (%14!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemPtr -- 14
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0BusAttachment (%10!p!): waiting for the bus attachment to be connected" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0BusAttachment (%10!p!): the bus attachment failed to connect" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BusAttachment (%10!p!) unique name: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0BusAttachment (%10!p!) connection specification: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0BusAttachment (%10!p!): GetParametersFromCBusAttachment succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0BusAttachment (%10!p!): attempting to connect" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0BusAttachment (%10!p!): attempting to disconnect" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0BusAttachment (%10!p!): InternalBusAttachmentState_Stopping" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0BusAttachment (%10!p!): alljoyn_busattachment_join returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0BusAttachment (%10!p!): InternalBusAttachmentState_Disconnected" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0BusAttachment (%10!p!): alljoyn_busattachment_start returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0BusAttachment (%10!p!): alljoyn_busattachment_enablepeersecurity returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0BusAttachment (%10!p!): InternalBusAttachmentState_Started" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0BusAttachment (%10!p!): alljoyn_busattachment_connect returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0BusAttachment (%10!p!): StartAboutProducer failed with %11!s!, InternalBusAttachmentState_Disconnected" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0BusAttachment (%10!p!): StartAboutProducer failed with %11!s!, InternalBusAttachmentState_Disconnected" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0BusAttachment (%10!p!): BindSessionPort failed with %11!s!, InternalBusAttachmentState_Disconnected" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0BusAttachment (%10!p!): calling alljoyn_busattachment_enablepeersecurity" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0BusAttachment (%10!p!): alljoyn_busattachment_stop returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0BusAttachment (%10!p!): InternalBusAttachmentState_Connected (default)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0BusAttachment (%10!p!): alljoyn_busattachment_disconnect returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0BusAttachment (%10!p!): DoInvokeCredentialsRequestedEvent called for user %11!s!, peer %12!s!, authentication %13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemString -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0BusAttachment (%10!p!): DoInvokeCredentialsRequestedEvent succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0BusAttachment (%10!p!): CredentialsRequested callback received" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0BusAttachment (%10!p!): CredentialsRequested callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0BusAttachment (%10!p!): SessionLost callback received for session ID %11!u! and reason %12!d!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0BusAttachment (%10!p!): Skipping lost event invocation for session with ID %11!u! because no session was found" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0BusAttachment (%10!p!): Invalidating and invoking Lost event for session with ID %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0BusAttachment (%10!p!): SessionLost callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0BusAttachment (%10!p!): SessionMemberAdded callback received for session ID %11!u! and unique name %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0BusAttachment (%10!p!): SessionMemberAdded callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0BusAttachment (%10!p!): SessionMemberRemoved callback received for session ID %11!u! and unique name %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0BusAttachment (%10!p!): SessionMemberRemoved callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0BusAttachment (%10!p!): AcceptSessionJoiner callback received for session port %11!u! and unique name %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0BusAttachment (%10!p!): AcceptSessionJoinerRequestedEvent invocation ended with Accepted = %11!d!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0BusAttachment (%10!p!): AcceptSessionJoiner callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0BusAttachment (%10!p!): SessionJoined callback received for session port %11!u!, session ID %12!u! and unique name %13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0BusAttachment (%10!p!): No local session exists, so creating a new one." //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0BusAttachment (%10!p!): SessionJoined called with existing session ID (%11!u!)." //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0BusAttachment (%10!p!): alljoyn_busattachment_setsessionlistener returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0BusAttachment (%10!p!): SessionJoined callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0BusAttachment (%10!p!): DoInvokeCredentialsVerificationRequestedEvent called for peer %11!s!, authentication %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0BusAttachment (%10!p!): DoInvokeCredentialsVerificationRequestedEvent succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0BusAttachment (%10!p!): CredentialsVerificationRequested callback received" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0BusAttachment (%10!p!): CredentialsVerificationRequested callback completed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0BusAttachment (%10!p!): DoInvokeAuthenticationCompleteEvent called for peer %11!s!, authentication %12!s!, success: %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0BusAttachment (%10!p!): DoInvokeAuthenticationCompleteEvent suceeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0BusAttachment (%10!p!): AuthenticationComplete callback received" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0BusAttachment (%10!p!): AuthenticationComplete callback completed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0BusAttachment (%10!p!): DoInvokeAcceptSessionJoinerRequestedEvent called for peer %11!s!, sessionPort %12!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0BusAttachment (%10!p!): DoInvokeAcceptSessionJoinerRequestedEvent suceeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0BusAttachment (%10!p!): DoInvokeSessionJoinedEvent called with session (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0BusAttachment (%10!p!): DoInvokeSessionJoinedEvent succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0BusAttachment (%10!p!): ConnectAndWait called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0BusAttachment (%10!p!): The bus attachment failed to connect within the %11!d!ms timeout" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0BusAttachment (%10!p!): BindSessionPort called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0BusAttachment (%10!p!): alljoyn_busattachment_bindsessionport returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0BusAttachment (%10!p!): SetSessionPortListenerRequired called with %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0BusAttachment (%10!p!): FindSessionById called with session ID %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0BusAttachment (%10!p!): Found producer session with ID %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0BusAttachment (%10!p!): Found consumer session with ID %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0BusAttachment (%10!p!): Could not find a session with ID %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0BusAttachment (%10!p!): CreateSession called with unique name %11!s!%12!s! and session port %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0BusAttachment (%10!p!): alljoyn_busattachment_joinsession returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0BusAttachment (%10!p!): alljoyn_busattachment_setsessionlistener returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0BusAttachment (%10!p!): GetSession called for unique name %11!s!%12!s! and session port %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0BusAttachment (%10!p!): Waiting for the bus attachment to be connected" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0BusAttachment (%10!p!): The bus attachment failed to connect" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0BusAttachment (%10!p!): A session with an endpoint matching unique name %11!s!%12!s! and session port %13!u! already exists, so returning it" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0BusAttachment (%10!p!): Did not find a session with an endpoint matching unique name %11!s!%12!s! and session port %13!u! so establishing a new one" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0BusAttachment (%10!p!): ReleaseSession called for unique name %11!s!%12!s! and session port %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0BusAttachment (%10!p!): ReleaseSessionInternal called for unique name %11!s!%12!s! and session port %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0BusAttachment (%10!p!): Removing local session" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0BusAttachment (%10!p!): Removing session with endpoint key %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0BusAttachment (%10!p!): Could not find a session with uniqueName %11!s!%12!s! and session port %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0BusAttachment (%10!p!): LeaveSession called with weak session (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9d61704c-7529-3318-cc58-9299658e9356 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0BusAttachment (%10!p!): alljoyn_busattachment_leavesession returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c574aa97-0578-3d02-c8b2-7398a97f5188 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DLL_PROCESS_ATTACH" //   LEVEL=AJRT_TRACE
+{
+}
+
+c574aa97-0578-3d02-c8b2-7398a97f5188 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DLL_PROCESS_DETACH (%10!u!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+c64a9a37-6b2f-34b6-e5d0-d4a61bf55670 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for AuthenticationCompleteEventArgs (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c64a9a37-6b2f-34b6-e5d0-d4a61bf55670 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AuthenticationCompleteEventArgs (%10!p!): auth mech %11!u!, peer unique name: %12!s!%13!s!, succeeded %14!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemString -- 13
+Arg, ItemLong -- 14
+}
+
+c64a9a37-6b2f-34b6-e5d0-d4a61bf55670 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AuthenticationCompleteEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0AboutData object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for AboutData (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AboutData (%10!p!): alljoyn_sessionportlistener_create returned %11!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AboutData (%10!p!): used by a Desktop app (%11!s!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0AboutData (%10!p!): SoftwareVersion: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0AboutData (%10!p!): CreateFile(%11!s!) returned (%12!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemPtr -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0AboutData (%10!p!): UniqueName: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0AboutData (%10!p!): used by a Store app (%11!s!, see UniqueName for package name)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0AboutData (%10!p!): alljoyn_aboutdata_setdefaultlanguage(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0AboutData (%10!p!): alljoyn_aboutdata_setsupportedlanguage(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0AboutData (%10!p!): DisplayName: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0AboutData (%10!p!): SoftwareVersion: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0AboutData (%10!p!): Description: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0AboutData (%10!p!): Manufacturer: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0AboutData (%10!p!): UniqueName: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0AboutData (%10!p!): HostName: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0AboutData (%10!p!): alljoyn_aboutdata_setdevicename(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0AboutData (%10!p!): alljoyn_aboutdata_setdeviceid(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0AboutData (%10!p!): alljoyn_aboutdata_setmodelnumber() returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0AboutData (%10!p!): CryptAcquireContext failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0AboutData (%10!p!): CryptCreateHash failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0AboutData (%10!p!): CryptHashData failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0AboutData (%10!p!): CryptHashData failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0AboutData (%10!p!): CryptGetHashParam failed with %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0AboutData (%10!p!): crypt hash data result: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0AboutData (%10!p!): Something went wrong, returning %11!s!" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0AboutData (%10!p!): alljoyn_aboutdata_setappid returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0AboutData (%10!p!): alljoyn_aboutdata_isvalid returned %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0AboutData (%10!p!): alljoyn_aboutdata_isvalid(default language: %11!s!) returned %12!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0AboutData (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0AboutData (%10!p!): InitializeLocalizableProperties called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0AboutData (%10!p!): translated sub-block %11!u!: %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0AboutData (%10!p!): FileDescription[%11!u!]: %12!s!, ok: %13!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0AboutData (%10!p!): Language[%11!u!]: %12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0AboutData (%10!p!): alljoyn_aboutdata_setsupportedlanguage(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0AboutData (%10!p!): alljoyn_aboutdata_setdefaultlanguage(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0AboutData (%10!p!): InitializeLocalizableProperties succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0AboutData (%10!p!): invalid IsEnabled call" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0AboutData (%10!p!): alljoyn_aboutdata_getappid returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0AboutData (%10!p!): alljoyn_aboutdata_setappid returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0AboutData (%10!p!): StartAboutProducer called without a valid AboutObject or BusAttachment" //   LEVEL=AJRT_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0AboutData (%10!p!): alljoyn_busattachment_isconnected returned %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0AboutData (%10!p!): alljoyn_aboutobj_create returned %11!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0AboutData (%10!p!): alljoyn_sessionopts_create returned %11!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0AboutData (%10!p!): alljoyn_busattachment_bindsessionport returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0AboutData (%10!p!): alljoyn_aboutobj_announce returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0AboutData (%10!p!): StartAboutProducer succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0AboutData (%10!p!): StopAboutProducer completed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0AboutData (%10!p!): ReleaseSessionPort called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0AboutData (%10!p!): alljoyn_busattachment_unbindsessionport returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0AboutData (%10!p!): new DefaultAppName value requested: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0AboutData (%10!p!): new DateOfManufacture value requested" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0AboutData (%10!p!): alljoyn_aboutdata_setdateofmanufacture() returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0AboutData (%10!p!): alljoyn_aboutdata_setdateofmanufacture(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0AboutData (%10!p!): new DefaultDescription value requested: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0AboutData (%10!p!): new DefaultManufacturer value requested: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0AboutData (%10!p!): alljoyn_aboutdata_getmodelnumber returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0AboutData (%10!p!): new ModelNumber value requested: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0AboutData (%10!p!): alljoyn_aboutdata_setmodelnumber(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0AboutData (%10!p!): alljoyn_aboutdata_getsoftwareversion returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0AboutData (%10!p!): new SoftwareVersion value requested: %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0AboutData (%10!p!): alljoyn_aboutdata_setsoftwareversion returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0AboutData (%10!p!): new SupportUrl value requested: %11!p!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0AboutData (%10!p!): alljoyn_aboutdata_setsupporturl(null) returned 0x%11!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0AboutData (%10!p!): alljoyn_aboutdata_setsupporturl(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0AboutData (%10!p!): AppNameChanged called with key %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0AboutData (%10!p!): alljoyn_aboutdata_setappname(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0AboutData (%10!p!): DescriptionChanged called with key %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0AboutData (%10!p!): alljoyn_aboutdata_setdescription(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0AboutData (%10!p!): ManufacturerChanged called with key %11!s!%12!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0AboutData (%10!p!): alljoyn_aboutdata_setmanufacturer(%11!s!) returned 0x%12!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0AppNameMapListener (%10!p!): RuntimeClassInitialize called, AboutData (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0AppNameMapListener (%10!p!): alljoyn_aboutdata_getsupportedlanguages returned %11!u! languages" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0AppNameMapListener (%10!p!): alljoyn_aboutdata_setappname for language %11!s! at %12!u! returned 0x%13!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0DescriptionMapListener (%10!p!): RuntimeClassInitialize called, AboutData (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DescriptionMapListener (%10!p!): alljoyn_aboutdata_getsupportedlanguages (1st) returned %11!u! languages" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0DescriptionMapListener (%10!p!): alljoyn_aboutdata_getsupportedlanguages (2nd) returned %11!u! languages" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0DescriptionMapListener (%10!p!): alljoyn_aboutdata_setdescription for language %11!s! at %12!u! returned 0x%13!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0ManufacturerMapListener (%10!p!): RuntimeClassInitialize called, AboutData (%11!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0ManufacturerMapListener (%10!p!): alljoyn_aboutdata_getsupportedlanguages (1st) returned %11!u! languages" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0ManufacturerMapListener (%10!p!): alljoyn_aboutdata_getsupportedlanguages (2nd) returned %11!u! languages" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c7aa6f1b-876b-34d3-f761-833fad2a95e2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DescriptionMapListener (%10!p!): alljoyn_aboutdata_setmanufacturer for language %11!s! at %12!u! returned 0x%13!X!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ce4eb874-6957-3e5a-dac8-eb691670c733 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CredentialsRequestedEventArgs object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ce4eb874-6957-3e5a-dac8-eb691670c733 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for CredentialsRequestedEventArgs (%10!p!): peer unique name: %11!s!%12!s!, attempt count: %13!u!, requested user name: %14!s!%15!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemWString -- 14
+Arg, ItemString -- 15
+}
+
+ce4eb874-6957-3e5a-dac8-eb691670c733 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CredentialsRequestedEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ce4eb874-6957-3e5a-dac8-eb691670c733 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CredentialsRequestedEventArgs (%10!p!): invoke complete handler" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d7d4e9a0-e1c5-3091-2701-b8bfb29d2f9c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0AcceptSessionJoinerEventArgs object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d7d4e9a0-e1c5-3091-2701-b8bfb29d2f9c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for AcceptSessionJoinerEventArgs (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d7d4e9a0-e1c5-3091-2701-b8bfb29d2f9c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AcceptSessionJoinerEventArgs (%10!p!): unique name: %11!s!%12!s!, session port %13!u!, traffic type %14!u!, proximity: %15!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+d7d4e9a0-e1c5-3091-2701-b8bfb29d2f9c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AcceptSessionJoinerEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d7d4e9a0-e1c5-3091-2701-b8bfb29d2f9c ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0AcceptSessionJoinerEventArgs (%10!p!): Accept called" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+f04846c3-e9e3-3d90-5b7a-c84bf4448118 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RuntimeClassInitialize called for SessionLostEventArgs (%10!p!): reason: %11!u!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CredentialsVerificationRequestedEventArgs object (%10!p!) destroyed" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RuntimeClassInitialize called for CredentialsVerificationRequestedEventArgs (%10!p!)" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CredentialsVerificationRequestedEventArgs (%10!p!): make empty vectors" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CredentialsVerificationRequestedEventArgs (%10!p!): get X.509 based certificate chain" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0CredentialsVerificationRequestedEventArgs (%10!p!): StringToCertificateChain failed with %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0CredentialsVerificationRequestedEventArgs (%10!p!): RuntimeClassInitialize succeeded early" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0CredentialsVerificationRequestedEventArgs (%10!p!): analyze the certificate" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0CredentialsVerificationRequestedEventArgs (%10!p!): ValidateCertificateChain: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CredentialsVerificationRequestedEventArgs (%10!p!): extract server (end-entity) certificate from chain" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CredentialsVerificationRequestedEventArgs (%10!p!): CreateCertificateFromContext: %11!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0CredentialsVerificationRequestedEventArgs (%10!p!): extract remaining certificates from chain" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0CredentialsVerificationRequestedEventArgs (%10!p!): step %11!u! of %12!u!: CreateCertificateFromContext: %13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemHRESULT -- 13
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0CredentialsVerificationRequestedEventArgs (%10!p!): step %11!u! of %12!u!: Append: %13!s!" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemHRESULT -- 13
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0CredentialsVerificationRequestedEventArgs (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+fedb5d4c-0b99-35c9-436c-c9d0657d5ba2 ALLJOYNRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0CredentialsVerificationRequestedEventArgs (%10!p!): invoke complete handler" //   LEVEL=AJRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+

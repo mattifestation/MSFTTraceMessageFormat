@@ -1,0 +1,1635 @@
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: SetupDiCreateDeviceInfoList failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::Initialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: CreateWaitableTimer failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::Initialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: RegisterWaitForSingleObject failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::Initialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Failed to allocate memory for WdfTransientDevStateMgr" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::CreateAndInitialize
+{
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: UnregisterWaitEx failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::~WdfTransientDevStateMgr
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: SetupDiOpenDeviceInfo failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::AddDevice
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: SetWaitableTimer failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::StartTimer
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: SetupDiEnumDeviceInfo failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::TryToRestartTransientStateDevices
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: SetupDiGetDeviceInstanceId failed with error %10!s!. In case of subsequent errors related to this device, log messages will not contain the device instance ID." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::TryToRestartTransientStateDevices
+{
+Arg, ItemWINERROR -- 10
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: CM_Get_DevNode_Status for device '%10!s!' failed with CONFIGRET 0x%11!X!. No further attempts will be made to start this device." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::TryToRestartTransientStateDevices
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: Timed out waiting for device '%10!s!' to come out of a transient state. Device status 0x%11!X!, problem code 0x%12!X!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::TryToRestartTransientStateDevices
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+194f2bd2-5776-31f5-d505-0114c5d873ee wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: SetupDiDeleteDeviceInfo for device '%10!s!' failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfTransientDevStateMgr::TryToRestartTransientStateDevices
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0		host GUID : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0		driver name : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0		image path : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0unable to get instance id length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Failed to allocate instance id buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Failed to allocate flattened instance id buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Failed to get device instance id - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Failed to get device %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Failed to get device location info - %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to get host process sid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::WdfDevNode
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Failed to get device hardware id - %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0DiGetDevicePropertyString(DEVPKEY_Device_MatchingDeviceId) error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::GetDeviceProperties
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0device error count is reset from %10!d! to 1" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::UpdateDeviceRestartParameters
+{
+Arg, ItemLong -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0unable to allocate m_DeviceGroupId string" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetDefaultProcessSharing
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0failed to copy into m_DeviceGroupId %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetDefaultProcessSharing
+{
+Arg, ItemHRESULT -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0unable to get device parameter key SD size %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0unable to allocate memory for SD" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0unable to get device parameter SD %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0unable to get SD control %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0unable to get SD DACL %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0dacl not present when it is supposed to" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device Parameters key or one of its subkeys has NULL dacl for device with InstanceId: %10!s!, HardwareId: %11!s!. PLEASE NOTE that NULL dacl is not recommended." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0unable to get ACE %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0desired access already given" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device Parameters key or one of its subkeys has no dacl present for device with InstanceId: %10!s!, HardwareId: %11!s!. PLEASE NOTE that absent dacl is not recommended." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0unable to allocate memory for new DACL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0unable to init new DACL %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0unable to get ACE %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0unable to set ACE %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0unable to set ACE %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0new DACL is invalid %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0InitializeSecurityDescriptor failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SetSecurityDescriptorDacl failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0RegSetKeySecurity failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::SetRegKeySecurity
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0SetupDiGetDeviceProperty returned an invalid string, setting error code to %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DiGetDevicePropertyString
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0SetupDiGetDeviceProperty failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DiGetDevicePropertyString
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0unable to allocate string buffer, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DiGetDevicePropertyString
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0SetupDiGetDeviceProperty failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DiGetDevicePropertyString
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0property-type is not a string-type, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DiGetDevicePropertyString
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0unable to allocate error tag, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0SetupDiGetDeviceProperty(DEVPKEY_Device_DriverInfPath) error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0unable to get DEVPKEY_Device_DriverInfPath, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0unable to compute the inf path length, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0SetupDiGetDeviceProperty(DEVPKEY_Device_DriverInfSection) error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0unable to get DEVPKEY_Device_DriverInfSection, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0unable to compute the error tag name length, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0unable to allocate memory for error tag name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0unable to copy the error tag name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0SetupDiGetDeviceProperty(DEVPKEY_Device_DriverDate) error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0unable to get DEVPKEY_Device_DriverDate, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0FileTimeToSystemTime failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0GetDateFormat failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0unable to compute the driver date string length, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0SetupDiGetDeviceProperty(DEVPKEY_Device_DriverVersion) error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0unable to get DEVPKEY_Device_DriverVersion, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0unable to compute the error tag value length, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0unable to allocate memory for error tag value, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0unable to copy the error tag value, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceErrorTag Name: '%10!s!', Value: '%11!s!'" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::InitErrorTag
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0unable to open pool restriction key, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::DetectErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0unable to open (for write) pool restriction key, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::WriteErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0unable to write pool restriction, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::WriteErrorTag
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC! unable to allocate memory for deviceKey string - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyGlobalPoolPolicyOverrides
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC! StringCchPrintfW deviceKey error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyGlobalPoolPolicyOverrides
+{
+Arg, ItemHRESULT -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0device flags for hwid %10!s! have been set to disable pooling" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyGlobalPoolPolicyOverrides
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0unable to query device flags for hwid %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyGlobalPoolPolicyOverrides
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC! (WdfDevNode %10!#0p!) Device has no hwid, did not query device flags" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyGlobalPoolPolicyOverrides
+{
+Arg, ItemPtr -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0device error tag detected, disable pooling" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::ApplyLocalPoolPolicyOverrides
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0RegOpenKeyEx %10!s! failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0registry entry %10!s! not found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Could not open subkey %10!s! under WUDF device key. Error: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Could not open subkey %10!s!\%11!s! under WUDF device key. Error: %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWINERROR -- 12
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Companion registry entry %10!s! not found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0unable to get process timeout value. use default" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0invalid driver list in registry" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0unable to allocate memory for service key object array" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0unable to load service key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0invalid driver list in registry" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Invalid driver list - drivers do not use the same host GUID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Invalid service type specified in INF" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Invalid number of CompanionServices specified" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0UMDF service type in INF is not of type companion" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0driver node has %10!u! stacks" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0device stack too deep 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Invalid configuration for Device Group ID.  Registry Type is %10!d!, expected REG_SZ" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Invalid configuration for Device group id. Expected non-zero length string" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Pool name %10!s! is reserved for UMDF" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Pool name %10!s! is reserved for UMDF" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Device Group Id:%10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0unable to find host process" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadProcess
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%!FUNC!: Driver priority does not match host. Check INF for consistent UmdfHostPriorty. ProcessPri=%10!u! DriverPri=%11!u! %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadProcess
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%!FUNC!: RD_IOCTL_SET_PROCESS_ID call failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::LoadProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC!: PdoName is too long" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=WdfDevNode::FindDeviceInfo
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC!: PdoName is too long" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=WdfDevNode::FindDeviceInfo
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%!FUNC!: could not allocate %10!I64u!l bytes to copy instance ID %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=WdfDevNode::FindDeviceInfo
+{
+Arg, ItemULongLong -- 10
+Arg, ItemWString -- 11
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%!FUNC!: unable to create devinfoset %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDevNode::FindDeviceInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%!FUNC!: DevObjGetClassDevs failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDevNode::FindDeviceInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC!: found devinfo data " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_LPC FUNC=WdfDevNode::FindDeviceInfo
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0DevObjOpenDevRegKey failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::OpenDeviceKey
+{
+Arg, ItemWINERROR -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0devnode data :" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0	device name : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+Arg, ItemWString -- 10
+}
+
+1bd4ee95-831e-3d9e-164e-740d411acc26 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0	timeout : %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDevNode::PrintDevNode
+{
+Arg, ItemLong -- 10
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Cannot initialize UMDF driver manager in a container." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=InitWudfDriverManager
+{
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Cannot initialize UMDF driver manager in WinPE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=InitWudfDriverManager
+{
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Unable to initialize platform library %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=InitWudfDriverManager
+{
+Arg, ItemHRESULT -- 10
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Unable to new WdfDriverManager %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=InitWudfDriverManager
+{
+Arg, ItemWINERROR -- 10
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Unable to new WdfDriverManager %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=InitWudfDriverManager
+{
+Arg, ItemWINERROR -- 10
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: releasing DrvMgrExt 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=TearDownWudfDriverManager
+{
+Arg, ItemPtr -- 10
+}
+
+22ed2d89-589b-3156-8ef5-0c5c918c4fba wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: DrvMgrExt 0x%10!p! released " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=TearDownWudfDriverManager
+{
+Arg, ItemPtr -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0found a umdf device: status 0x%10!x! and problem 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0numDeviceSucceeded: %10!u!. numDeviceFailed: %11!u!. numTransientStateDevices: %12!u!." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%!FUNC!: SetupDiGetDeviceInstanceId failed with error %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::AddDeviceToTransientStateList
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%!FUNC!: Device '%10!s!' is currently in a transient state and cannot be started now. Errors were encountered while setting up deferred start for this device and hence it will also not be started later." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::AddDeviceToTransientStateList
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%!FUNC!: Device '%10!s!' is currently in a transient state and cannot be started now. The driver manager will attempt to start this device later." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::AddDeviceToTransientStateList
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%!FUNC!: unable to get devinfoset %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=CheckForDevicePresence
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0DevObjGetClassDevs failed with error %10!s! when we were attempting to check for the presence of device %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CheckForDevicePresence
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0SetupDiEnumDeviceInfo failed with error %10!s! when we were attempting to check for the presence of device %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=CheckForDevicePresence
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%!FUNC!: Failed to get the code integrity policy %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfDriverManager::_IsTestSigningEnabled
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to open service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0UMDF service type not found. Going with default type" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid UMDF service type specified for %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfServiceKey::WdfServiceKey
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Unable to get trustlet identify for secure companion" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0unable to get host process guid" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0unable to find image path for driver: %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0unable to get default imagepath length" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0default imagepath is too long" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0unable to allocate memory for imagepath" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0unable to create default imagepath %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_SERVICE_KEY FUNC=WdfServiceKey::WdfServiceKey
+{
+Arg, ItemHRESULT -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0unable to get major version value" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0unable to get minor version value" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfServiceKey::WdfServiceKey
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unexpected error obtaining path to log directory %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::InitializePlatformLibrary
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Calling WdfDriverManager::WdfDriverManager()...1" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::WdfDriverManager
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: WdfDriverManager .ctor failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0unable to get lpc interface" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::Initialize
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0unable to create lpc object directory %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::Initialize
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: unable to create threadpool %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::Initialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: unable to create threadpool cleanup group %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::Initialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0calling ~WdfDriverManager..." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::~WdfDriverManager
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0The driver manager service is being shut down, but the host process for a UMDF device is still running." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::~WdfDriverManager
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: about to be done with WdfDriverManager::~WdfDriverManager 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::~WdfDriverManager
+{
+Arg, ItemPtr -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0unable to open reg key %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0m_ReconfigureAllowed = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0unable to get device stacks max value. use default" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0m_NumDeviceStacksMax = %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0invalid max. number of device stacks%10!u!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0m_PoolRestartCountMax = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0m_DeviceRestartCountMax = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0m_DeviceRestartMinRunTime = %10!I64u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemULongLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0unable to get process_shared_by_default value. use default" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0invalid process_shared_by_default setting %10!u!. use default" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0m_HostProcessSharedByDefault = %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0unable to get default value. use default" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0registry entry %10!s! not found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0m_DefaultHostProcessGUID = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Fail to reload registry, %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::DrvMgrDeviceArrival
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: unable to get devinfoset %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::RestartFailedDevice
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: SetupDiOpenDeviceInfo() failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::RestartFailedDevice
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%!FUNC!: unable to get device status 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::RestartFailedDevice
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0waited %10!u! msec before trying to enable device" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::RestartFailedDevice
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: invalid pdo name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0pdoNameLen (%10!u!) too large" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0pdoNameLen (%10!u!) too large" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC!: set pid message too large 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC!: unable to allocate set pid message 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemLong -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Unable to convert lifetime ID for host process to string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%!FUNC!: unable to copy lifetime id %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%!FUNC!: unable to copy io event port name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC!: unable to copy io cancel port name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC!: unable to copy system event port name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: unable to copy non-state-changing event port name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC!: unable to copy pdo name %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC!: unable to open control object %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC!: RD_IOCTL_SET_PROCESS_ID call failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_DEVNODE FUNC=WdfDriverManager::SetRdProcessId
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0unable to allocate system directory buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=SearchWindowSystemPath
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0unable to find system directory %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=SearchWindowSystemPath
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0unable to get full path length %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=SearchWindowSystemPath
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0unable to find image path for driver: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=SearchWindowSystemPath
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0unable to find driver in system directory %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=SearchWindowSystemPath
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0guid string too short: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=ValidateGUIDString
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0unable to allocate memory need to validate GUID string" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=ValidateGUIDString
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0driver host guid %10!s! not in {...}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0invalid host guid: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=ValidateGUIDString
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Starting activity log" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::StartActivityLog
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Failed to create activity log session: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::StartActivityLog
+{
+Arg, ItemHRESULT -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Failed to configure activity trace: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::StartActivityLog
+{
+Arg, ItemHRESULT -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Created activity log." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::StartActivityLog
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Stopped activity log." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::StopActivityLog
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Device %10!s! is not being restarted because it has already reached its maximum restart count limit of %11!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::PostRestartDeviceWorkItem
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Device %10!s! is not being restarted because it is in debug mode" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::PostRestartDeviceWorkItem
+{
+Arg, ItemWString -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Unable to queue workitem to restart devices %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::PostRestartDeviceWorkItem
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0unable to enable device %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::EnableDevice
+{
+Arg, ItemHRESULT -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0unable to disable device, CONFIGRET code = 0x%10!x!.  PNP_VETO_TYPE = 0x%11!x!, veto name %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::DisableDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Enabling all UMDF device" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Disabling all UMDF device" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC!: unable to get devinfoset %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%!FUNC!: DevObjGetClassDevs failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%!FUNC!: unable to get device detail %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemWINERROR -- 10
+}
+
+4895a521-de1b-3ada-a904-1831dfce690c wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%!FUNC!: unable to get device status 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=WdfDriverManager::ChangeAllDeviceStates
+{
+Arg, ItemLong -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0UMDF driver host process being created with HIGH_PRIORITY_CLASS" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPCDRVR_TRACE_DEVICE FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to allocate memory for copying Device Group Id string" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to create lifetime ID for new host process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Unable to calculate hardware id length: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unable to allocate memory for copying Hardware Id" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to copy hardware id: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to convert lifetime ID to string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0unable to create GUID for server portname %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0unable to create server port name string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0unable to allocate memory for server port name %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemLong -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0unable to construct server port name HostProcess-%10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unable to construct timeout string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unable to construct timeout string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0createprocess cmd length = 0x%10!I64x! characters" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemLongLongX -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0unable to allocate cmdline buffer" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0unable to compose create process command %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0CreateProcess cmdbuf: imagepath:%10!s! args:%11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Unable to allocate admin SID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0unable to LogonUser: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to create host security descriptor: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Unable to load user profile %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0unable to create hostProcess: %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0unable to generate path to host process log files - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0unable to get host process to start running %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPCDRVR_TRACE_DEVICE FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0hostProcess terminated unexpectedly" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0unable to connect to host process lpc port %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::WdfProcess
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0process not terminating gracefully: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::~WdfProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: failed to determine length of hardware id string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::CreatePooledHardwareIdString
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!: failed to determine length of device group id string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::CreatePooledHardwareIdString
+{
+Arg, ItemHRESULT -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!: failed to allocate string for pooled hardware id" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::CreatePooledHardwareIdString
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0unable to open reg key %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0unable to open reg key %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0unable to query %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::LoadRegistrySettings
+{
+Arg, ItemWString -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0::TerminateProcess() failed %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::TerminateProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC! - Error waiting for host process exit. %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::TerminateProcess
+{
+Arg, ItemWINERROR -- 10
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC! - Timeout waiting for host process exit." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::TerminateProcess
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0unable to open reg key %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::QueryProcessTimeout
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0unable to open reg key %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_PROCESS FUNC=WdfProcess::QueryProcessTimeout
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0unable to get host process timeout. use default" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::QueryProcessTimeout
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0unable to get host process timeout. use default" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::QueryProcessTimeout
+{
+}
+
+525fa595-ab2a-3f82-f077-da942d8fa5b8 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0host process debugger enabled.  override process timeout" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_DEVNODE FUNC=WdfProcess::QueryProcessTimeout
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Create m_StopThreadEvent failed (%10!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::DrvMgrLpcNotification
+{
+Arg, ItemLong -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:failed to create waiter worker thread, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::DrvMgrLpcNotification
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0A user mode component tried to connect to driver manager" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::PortIsConnected
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid client identifier specified while connecting to driver mgr" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::PortIsConnected
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: message too small" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0request not from kernel mode" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: invalide control object name offset" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: invalide control object name.  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: receive WdfProcMgmt_Message_ControlObjectName %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemWString -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: invalide pdo name.  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC!: receive WdfProcMgmt_Message_QueryProcess %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemWString -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: invalide KM service name for companion. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: WdfDevNode already exists for %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemWString -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: Non-secure companion are supported only when test signing is enabled (%10!s!), %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: invalide pdo name.  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC!: receive WdfProcMgmt_Message_OpenProcess %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemWString -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC!: invalide KM service name for companion. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+Arg, ItemHRESULT -- 10
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0open process is not allowed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: receive WdfProcMgmt_Message_CloseProcess message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::Message
+{
+}
+
+8f160ba9-7ba9-3fa0-cb99-fde093aba7b9 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!:WaitForMultipleObjects failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_LPC FUNC=DrvMgrLpcNotification::DrvMgrWorkerThread
+{
+Arg, ItemHRESULT -- 10
+}
+
+c92d5a73-8602-3636-49e3-df668889cb69 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0SeCreateAndSetSD: No memory to create absolute SD" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=DmCreateAndSetHostSD
+{
+}
+
+c92d5a73-8602-3636-49e3-df668889cb69 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ScCreateAndSetSD: Fail DACL Create %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=DmCreateAndSetHostSD
+{
+Arg, ItemWINERROR -- 10
+}
+
+c92d5a73-8602-3636-49e3-df668889cb69 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ScCreateAndSetSD: Fail SACL Create %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=DmCreateAndSetHostSD
+{
+Arg, ItemWINERROR -- 10
+}
+
+c92d5a73-8602-3636-49e3-df668889cb69 wudfscm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ScCreateAndSetSD: Fail InitAce i: %10!d! error: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_PROCESS FUNC=DmCreateAndSetHostSD
+{
+Arg, ItemLong -- 10
+Arg, ItemWINERROR -- 11
+}
+

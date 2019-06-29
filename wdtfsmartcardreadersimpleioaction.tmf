@@ -1,0 +1,585 @@
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=StopAndDisableService(m_hService)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(dwError) ERRMSG='CSmartCardReaderImpl::IsAthenaT0() - Could not open a handle to the Smart Card Reader device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(dwError) ERRMSG='CSmartCardReaderImpl::IsAthenaT0() - Failed to reset card reader'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=EnableAndStartService(m_hService)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=hService
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Enabling scardsvr service failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Starting scardsvr service failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::EnableAndStartService() - Failed to successfully start scardsvr service after several retries'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=hService
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Stopping scardsvr service failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Querying for scardsvr service status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Failed to successfully stop scardsvr service after several retries'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::StopAndDisableService() - Disabling scardsvr service failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::FinalConstruct() Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='SmartCardReaderPlugin: SetTarget() - Failed to get DeviceID'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='SmartCardReaderPlugin: SetTarget() - DeviceID variant type not as expected'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='SmartCardReaderPlugin: SetTarget() - Failed to get device interfaces'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='SmartCardReaderPlugin: SetTarget() - Failed to get device interfaces count'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=IsAthenaT0()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValue(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_WDTF_ACTION_DEVICE_NOT_CONFIGURED_PROPERLY_FOR_PLUGIN ERRMSG='SmartCardReaderPlugin: SetTarget() - Failed to find a smart card reader with AthenaT0 test card inserted'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::Open() - Already Open.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=StopAndDisableService(m_hService)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CSmartCardReaderImpl::Open() - Failed to get a handle to the Smart Card Reader Device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::Open() - Failed to reset card reader'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::Open() - Failed to set protocol'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Already Closed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=EnableAndStartService(m_hService)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Failed to reset card reader'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Failed to get card reader state'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Reader state not SCARD_NEGOTIABLE'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Failed to set protocol'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Failed to erase card files'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Unidentified step failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Create test file 002 failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Unexpected status received after creating file'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Unexpected status received after creating file'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Selecting file failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Unexpected status received after selecting file'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Writing to the file failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Unexpected status received after writing data'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(l_RetVal) ERRMSG='CSmartCardReaderImpl::RunIO() - Reading from the file failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Unexpected status received after reading data'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CSmartCardReaderImpl::RunIO() - Data read back differs from what was written'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9f0d3daa-8487-3922-0f50-a34fef9387fd WDTF_Action_SimpleIO_SmartCardReader // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

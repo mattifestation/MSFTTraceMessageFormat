@@ -1,0 +1,798 @@
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] DriverEntry Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0WDFDEVICE:0x%10!p! WdfRequestCreate failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0WDFDEVICE:0x%10!p! WdfIoTargetFormatRequestForRead failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0WDFDEVICE:0x%10!p! WdfRequestSend failed sending the read. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! is completed with %12!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceButtonReadCompletion
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! is completed with zero byte." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceButtonReadCompletion
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed getting usages from the completed read. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceButtonReadCompletion
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed formatting the read. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceButtonReadCompletion
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed sending the read. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceButtonReadCompletion
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error: WdfDriverCreate failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0WDFDEVICE:0x%10!p! Connected Standby: Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=WnfEventHandler
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0WDFDEVICE:0x%10!p! Connected Standby: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=WnfEventHandler
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0WDFDEVICE:0x%10!p! Audio: Start" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=WnfEventHandler
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0WDFDEVICE:0x%10!p! Audio: Stop" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=WnfEventHandler
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0WDFDEVICE:0x%10!p! Dropping the oldest input report. Report ID: %11!d!, Data:0x%12!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=EnqueueInputReport
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0WDFDEVICE:0x%10!p! Completing a read with ReportID:%11!d! and Data:0x%12!x! (Seq:%13!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=RundownInputReportQueue
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0REQUEST:0x%10!p! WdfRequestRetrieveOutputMemory failed 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=RequestCopyFromBuffer
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0REQUEST:0x%10!p! RequestCopyFromBuffer: buffer too small. Size %11!u!, expect %12!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=RequestCopyFromBuffer
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0REQUEST:0x%10!p! WdfMemoryCopyFromBuffer failed 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=RequestCopyFromBuffer
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed opening the Parameters key. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0WDFDEVICE:0x%10!p! The output buffer of request 0x%11!p! is too small (%12!u! < %13!u!). %14!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ChildHidReadReport
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0WDFDEVICE:0x%10!p! Completing a read with ReportID:%11!d! and Data:0x%12!x! (Seq:%13!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ChildHidReadReport
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0WDFDEVICE:0x%10!p! WdfRequestForwardToIoQueue failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ChildHidReadReport
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0WDFDEVICE:0x%10!p! WdfRequestForwardToIoQueue failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ChildHidReadReport
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0WDFDEVICE:0x%10!p! ButtonsDown:0x%11!08X! ButtonsDisabled:0x%12!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ProcessButtonDowns
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0WDFDEVICE:0x%10!p! ++SetButtonEnabled(%11!s!,%12!d!) ButtonsDisabled:0x%13!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0WDFDEVICE:0x%10!p! %11!s! is not present. Skipped." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed querying reg value [%10!s!]. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0WDFDEVICE:0x%10!p! %11!s! is already %12!s!. No feature report is sent. ButtonsDisabled:0x%13!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0WDFDEVICE:0x%10!p! IoTarget is not opened yet. %11!s! cannot be %12!s!. ButtonsDisabled:0x%13!08X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0WDFDEVICE:0x%10!p! Failed finding a logical collection of usage %11!d!|%12!d!. %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0WDFDEVICE:0x%10!p! Failed finding the Control Enable usage in the feature report of logical collection %11!d! with %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0WDFDEVICE:0x%10!p! Failed preparing the feature report.  %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0WDFDEVICE:0x%10!p! Failed getting the feature report. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0WDFDEVICE:0x%10!p! Failed setting or unsetting HID_USAGE_GENERIC_CONTROL_ENABLE in the feature report. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0WDFDEVICE:0x%10!p! IOCTL_HID_SET_FEATURE failed. %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0WDFDEVICE:0x%10!p! Sending fake button bits [0x%11!08X!]." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0WDFDEVICE:0x%10!p! --SetButtonEnabled(%11!s!,%12!d!) ButtonsDisabled:0x%13!08X! %14!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=SetButtonEnabled
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Reg value [%10!s!] not found." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemWString -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Buttons will be mapped for Windows Mobile." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Buttons will be mapped for Windows Desktop." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[DriverObject: 0x%10!p!] DriverEntry Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[DriverObject: 0x%10!p!] DriverUnload" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverUnload
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfDeviceCreate failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WDFDEVICE:0x%10!p! Failed creating a spinlock. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WDFDEVICE:0x%10!p! Failed creating a spinlock. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WDFDEVICE:0x%10!p! Failed creating the framework waitlock object. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WDFDEVICE:0x%10!p! Failed creating a timer object. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WDFDEVICE:0x%10!p! Failed creating a timer object. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WDFDEVICE:0x%10!p! Failed opening the Device Parameters subkey under the device's hardware key. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WDFDEVICE:0x%10!p! Read ButtonsToDisableInCS:0x%11!08x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WDFDEVICE:0x%10!p! Failed reading ButtonsToDisableInCS. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WDFDEVICE:0x%10!p! Failed creating the child HID device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WDFDEVICE:0x%10!p! Failed allocating WDFDEVICE_INIT for the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WDFDEVICE:0x%10!p! Failed assigning device ID to the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WDFDEVICE:0x%10!p! Failed adding hardware ID to the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WDFDEVICE:0x%10!p! Failed adding instance ID to the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WDFDEVICE:0x%10!p! Failed creating the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WDFDEVICE:0x%10!p! Failed creating a spinlock. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WDFDEVICE:0x%10!p! Failed creating child device's IO queue. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WDFDEVICE:0x%10!p! Failed creating the manual queue for the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WDFDEVICE:0x%10!p! Failed adding the child HID device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildHidDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WDFDEVICE:0x%10!p! Failed allocating WDFDEVICE_INIT for the child device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WDFDEVICE:0x%10!p! WdfDeviceInitAssignSDDLString failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WDFDEVICE:0x%10!p! WdfPdoInitAssignRawDevice failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WDFDEVICE:0x%10!p! Failed assigning device ID to the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WDFDEVICE:0x%10!p! Failed adding hardware ID to the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WDFDEVICE:0x%10!p! Failed adding instance ID to the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WDFDEVICE:0x%10!p! Failed creating the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WDFDEVICE:0x%10!p! Failed creating the I/O queue. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WDFDEVICE:0x%10!p! Failed registering GUID_GPIOBUTTONS_NOTIFY_INTERFACE for the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WDFDEVICE:0x%10!p! Failed adding the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=CreateChildRawDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0WDFDEVICE:0x%10!p! Failed registering for PnP callback for GUID_CLASS_INPUT. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WDFDEVICE:0x%10!p! IoRegisterPlugPlayNotification() returned %11!s! with handle 0x%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemPtr -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WDFDEVICE:0x%10!p! IoUnregisterPlugPlayNotificationEx(0x%11!p!) returned %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0WDFDEVICE:0x%10!p! Failed sending IOCTL_HID_GET_COLLECTION_INFORMATION. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WDFDEVICE:0x%10!p! Failed allocating %11!u! bytes for prepared data. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WDFDEVICE:0x%10!p! Failed sending IOCTL_HID_GET_COLLECTION_DESCRIPTOR to get the prepared data. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WDFDEVICE:0x%10!p! Failed getting HIDP_CAPS. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0WDFDEVICE:0x%10!p! Failed allocating %11!u! bytes for usages. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0WDFDEVICE:0x%10!p! Failed creating the memory object of %11!u! bytes for the read request. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0WDFDEVICE:0x%10!p! Failed creating the memory object of %11!u! bytes for the get/set feature requests. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0WDFDEVICE:0x%10!p! Found %11!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WDFDEVICE:0x%10!p! WdfDeviceAssignProperty for DEVPKEY_ButtonConverter_SASSupport failed with  %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0WDFDEVICE:0x%10!p! ButtonsPresent:0x%11!08X! ButtonsToDisableInCS(updated):0x%12!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0WDFDEVICE:0x%10!p! Failed creating the child raw device. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0WDFDEVICE:0x%10!p! EACreateAggregateEvent failed with %11!d! while creating event for low-power epoch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0WDFDEVICE:0x%10!p! EACreateAggregateEvent failed with %11!d! while creating event for audio playback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0WDFDEVICE:0x%10!p! HID_USAGE_GENERIC_CONTROL_ENABLE is not found." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=EvtDevicePrepareHardware
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0WDFDEVICE:0x%10!p! EADeleteAggregateEvent failed deleting the event[%11!d!]: %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtDeviceReleaseHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0WDFDEVICE:0x%10!p! IoUnregisterPlugPlayNotificationEx(0x%11!p!) returned %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtDeviceReleaseHardware
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0WDFDEVICE:0x%10!p! Power button timer is fired." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtPowerButtonHoldTimerFunc
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WDFDEVICE:0x%10!p! Power button long hold timer is fired." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtPowerButtonLongHoldTimerFunc
+{
+Arg, ItemPtr -- 10
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed getting input buffer of IOCTL_BUTTON_SET_ENABLED_ON_IDLE. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed converting GPIOBUTTONS_BUTTON_TYPE %12!s! in IOCTL_BUTTON_SET_ENABLED_ON_IDLE. %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_GPIOBUTTONS_BUTTON_TYPE) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Invalid button ID %12!s! in IOCTL_BUTTON_SET_ENABLED_ON_IDLE. %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed IOCTL_BUTTON_SET_ENABLED_ON_IDLE during connected standby. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! IOCTL_BUTTON_SET_ENABLED_ON_IDLE(%12!s!|%13!s!,%14!d!) ButtonsToDisableInCS:0x%15!08X!->0x%16!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_GPIOBUTTONS_BUTTON_TYPE) -- 12
+Arg, ItemEnum(_BTNCONV_BUTTON_ID) -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed opening the registry key to save the change for IOCTL_BUTTON_SET_ENABLED_ON_IDLE. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed writing the change to registry for IOCTL_BUTTON_SET_ENABLED_ON_IDLE. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed getting input buffer of IOCTL_BUTTON_GET_ENABLED_ON_IDLE. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed getting output buffer of IOCTL_BUTTON_GET_ENABLED_ON_IDLE. %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0WDFDEVICE:0x%10!p! WDFREQUEST:0x%11!p! Failed converting GPIOBUTTONS_BUTTON_TYPE %12!s! in IOCTL_BUTTON_GET_ENABLED_ON_IDLE. %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=EvtChildRawDeviceIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_GPIOBUTTONS_BUTTON_TYPE) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0WDFDEVICE:0x%10!p! IoGetDeviceInterfaces failed on our own physical device. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0WDFDEVICE:0x%10!p! Found the device interface [%11!s!]." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0WDFDEVICE:0x%10!p! IoUnregisterPlugPlayNotificationEx(0x%11!p!) returned %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0WDFDEVICE:0x%10!p! WdfIoTargetCreate failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0WDFDEVICE:0x%10!p! WdfIoTargetOpen failed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5da7b556-dc52-33e3-ab55-792997361ea7 buttonconverter // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0WDFDEVICE:0x%10!p! IoTarget opened successfully." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PnpEventHandler
+{
+Arg, ItemPtr -- 10
+}
+

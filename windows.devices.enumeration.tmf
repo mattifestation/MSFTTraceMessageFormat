@@ -1,0 +1,374 @@
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1101 13 "%0[%10!s!] %11!s! = true, effective policy code: %12!s!" //   LEVEL=WPP_INFO
+{
+pszClassGuid, ItemWString -- 10
+c_szRegLegacySettingValueName, ItemWString -- 11
+szActivePolicyCode, ItemWString -- 12
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1117 14 "%0[%10!s!] Failed to query the active policy, %11!s!." //   LEVEL=WPP_ERROR
+{
+pszClassGuid, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1124 15 "%0[%10!s!] Using non-default policy: %11!s!, policy code: %12!s!" //   LEVEL=WPP_INFO
+{
+pszClassGuid, ItemWString -- 10
+bNonDefaultPolicyActive, ItemListLong(false,true) -- 11
+szActivePolicyCode, ItemWString -- 12
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1165 16 "%0[%10!s!] Failed to get the %11!s! policy, %12!s!." //   LEVEL=WPP_ERROR
+{
+pszClassGuid, ItemWString -- 10
+szActivePolicyCode, ItemWString -- 11
+hr, ItemHRESULT -- 12
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1191 17 "%0[%10!s!] Failed to get the default policy, %11!s!." //   LEVEL=WPP_ERROR
+{
+pszClassGuid, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp1946 18 "%0DeviceBrokerUtil: Failed extracting interface class for instance path %10!s! with error %11!s!." //   LEVEL=WPP_ERROR
+{
+pszDeviceInterfacePath, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp591 10 "%0ValidateInterfacePath: Failed validating path %10!s! with error %11!s!." //   LEVEL=WPP_ERROR
+{
+pszDeviceInterfacePath, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp743 11 "%0GetDevPropertiesFromInterfacePath: Failed validating path %10!s! with error %11!s!." //   LEVEL=WPP_ERROR
+{
+pszDeviceInterfacePath, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+0727b35c-051c-3d8d-97f7-e95e5c79198d DeviceCommon // SRC=util.cpp MJ= MN=
+#typev util_cpp889 12 "%0DeviceBrokerUtil: Failed extracting the model ID for instance path %10!s! with error %11!s!." //   LEVEL=WPP_ERROR
+{
+pszDeviceInterfacePathNoTrailingNames, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h104 11 "%0FindAllAsyncOperation::RuntimeClassInitialize[%10!p!] returning with %11!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h221 12 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: Action:%11!s!, State:%12!s!" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.State, ItemEnum(_DEV_QUERY_STATE) -- 12
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h230 13 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: Action:%11!s!, Type:%12!s!, Id:%13!s!" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.DeviceObject.ObjectType, ItemEnum(_DEV_OBJECT_TYPE) -- 12
+pActionData->Data.DeviceObject.pszObjectId, ItemWString -- 13
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h241 14 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) failed, hr = %11!s!. Returning" //   LEVEL=WPP_ERROR
+{
+context->_this, ItemPtr -- 10
+(HRESULT)winRtInit, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h251 15 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) returned S_FALSE. This is unexpected since we assume the thread is "clean"" //   LEVEL=WPP_ERROR
+{
+context->_this, ItemPtr -- 10
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h289 16 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: All context states are equal. Fire completion and stop query" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h309 17 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: All context states are equal. Fire completion and stop query" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h357 18 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: hr = %11!s!. Transition to error, fire completion and stop query" //   LEVEL=WPP_ERROR
+{
+context->_this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h371 19 "%0FindAllAsyncOperation::DevQueryCallback[%10!p!]: returning" //   LEVEL=WPP_INFO
+{
+asyncOp, ItemPtr -- 10
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h408 20 "%0FindAllAsyncOperation::OnStart[%10!p!]: SubSystem:%11!u!/%12!u!, ObjectType:%13!s!, Filter:%14!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+i+1, ItemLong -- 11
+_queryParameters.GetRequiredSubsystemsCount(), ItemLong -- 12
+_contexts[curContext]._type, ItemEnum(_DEV_OBJECT_TYPE) -- 13
+_queryParameters.GetAqsFilterString(), ItemWString -- 14
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h465 21 "%0FindAllAsyncOperation::OnStart[%10!p!]: DevCreateObjectQueryEx failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h488 22 "%0FindAllAsyncOperation::OnStart[%10!p!]: DevCreateObjectQuery failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h533 23 "%0FindAllAsyncOperation::OnStart[%10!p!]: returning with %11!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+7ed7d82b-370c-3e5d-21fe-6c46f7c0a7db DeviceEnumeration // SRC=FindAllOp.h MJ= MN=
+#typev FindAllOp_h61 10 "%0FindAllAsyncOperation::RuntimeClassInitialize[%10!p!] called" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp279 10 "%0Successfully created access information object for device id %10!s!, app %11!s!, consent id %12!s!" //   LEVEL=WPP_INFO
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+_consentId, ItemWString -- 12
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp287 11 "%0Failed creating access information object for device id %10!s!, app %11!s!, consent id %12!s!, hr = %13!s!" //   LEVEL=WPP_ERROR
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+_consentId, ItemWString -- 12
+hr, ItemHRESULT -- 13
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp398 12 "%0Successfully created access information object for InterfaceClass %10!s! and app %11!s!" //   LEVEL=WPP_INFO
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp405 13 "%0Failed creating access information object for InterfaceClass %10!s! and app %11!s! - hr 0x%12!x!" //   LEVEL=WPP_ERROR
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+hr, ItemLong -- 12
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp477 14 "%0Firing update events for registered id %10!s! and app %11!s!" //   LEVEL=WPP_INFO
+{
+pServer->_registeredEventId, ItemWString -- 10
+pServer->_appId, ItemWString -- 11
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp486 15 "%0Error firing update events for registered id %10!s! and app %11!s!: 0x%12!x!" //   LEVEL=WPP_ERROR
+{
+pServer->_registeredEventId, ItemWString -- 10
+pServer->_appId, ItemWString -- 11
+hr, ItemLong -- 12
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp527 16 "%0Registered update events for registerd id %10!s! and app %11!s!" //   LEVEL=WPP_INFO
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+}
+
+95c63ed0-146c-367c-a228-91541bd87eff DeviceEnumeration // SRC=AccessInformation.cpp MJ= MN=
+#typev AccessInformation_cpp541 17 "%0Removing update events for registered id %10!s! and app %11!s!" //   LEVEL=WPP_INFO
+{
+_registeredEventId, ItemWString -- 10
+_appId, ItemWString -- 11
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h102 11 "%0CreateFromIdAsyncOperation::RuntimeClassInitialize[%10!p!] returning with %11!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h218 12 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: Action:%11!s!, State:%12!s!" //   LEVEL=WPP_INFO
+{
+pContext, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.State, ItemEnum(_DEV_QUERY_STATE) -- 12
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h227 13 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: Action:%11!s!, Type:%12!s!, Id:%13!s!" //   LEVEL=WPP_INFO
+{
+pContext, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.DeviceObject.ObjectType, ItemEnum(_DEV_OBJECT_TYPE) -- 12
+pActionData->Data.DeviceObject.pszObjectId, ItemWString -- 13
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h238 14 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) failed, hr = %11!s!. Returning" //   LEVEL=WPP_ERROR
+{
+pContext, ItemPtr -- 10
+(HRESULT)winRtInit, ItemHRESULT -- 11
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h248 15 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) returned S_FALSE. This is unexpected since we assume the thread is "clean"" //   LEVEL=WPP_ERROR
+{
+pContext, ItemPtr -- 10
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h304 16 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: hr = %11!s!. Transition to error" //   LEVEL=WPP_ERROR
+{
+pContext, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h313 17 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: Fire completion. Stop query." //   LEVEL=WPP_INFO
+{
+pContext, ItemPtr -- 10
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h327 18 "%0CreateFromIdAsyncOperation::DevQueryCallback[%10!p!]: returning" //   LEVEL=WPP_INFO
+{
+pContext, ItemPtr -- 10
+}
+
+9cde5ce2-2c97-3e5b-e0ac-1a037f9dcd5e DeviceEnumeration // SRC=FromIdOp.h MJ= MN=
+#typev FromIdOp_h61 10 "%0CreateFromIdAsyncOperation::RuntimeClassInitialize[%10!p!] called" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h1039 20 "%0Watcher::RuntimeClassInitialize[%10!p!] called" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h1053 21 "%0Watcher::RuntimeClassInitialize[%10!p!] returning with %11!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h484 10 "%0Watcher::Start[%10!p!]: SubSystem:%11!u!/%12!u!, ObjectType:%13!s!, Filter:%14!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+i + 1, ItemLong -- 11
+_queryParameters.GetRequiredSubsystemsCount(), ItemLong -- 12
+_contexts[curContext]._type, ItemEnum(_DEV_OBJECT_TYPE) -- 13
+_queryParameters.GetAqsFilterString(), ItemWString -- 14
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h540 11 "%0Watcher::Start[%10!p!]: DevCreateObjectQueryEx failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h566 12 "%0Watcher::Start[%10!p!]: returning with %11!s!" //   LEVEL=WPP_INFO
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h764 13 "%0Watcher::DevQueryCallback[%10!p!]: Action:%11!s!, State:%12!s!" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.State, ItemEnum(_DEV_QUERY_STATE) -- 12
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h773 14 "%0Watcher::DevQueryCallback[%10!p!]: Action:%11!s!, Type:%12!s!, Id:%13!s!" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+pActionData->Action, ItemEnum(_DEV_QUERY_RESULT_ACTION) -- 11
+pActionData->Data.DeviceObject.ObjectType, ItemEnum(_DEV_OBJECT_TYPE) -- 12
+pActionData->Data.DeviceObject.pszObjectId, ItemWString -- 13
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h784 15 "%0Watcher::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) failed, hr = %11!s!. Returning" //   LEVEL=WPP_ERROR
+{
+context->_this, ItemPtr -- 10
+(HRESULT)winRtInit, ItemHRESULT -- 11
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h794 16 "%0Watcher::DevQueryCallback[%10!p!]: RoInitializeWrapper(WINRT_INIT_MULTITHREADED) returned S_FALSE. This is unexpected since we assume the thread is "clean"" //   LEVEL=WPP_ERROR
+{
+context->_this, ItemPtr -- 10
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h827 17 "%0Watcher::DevQueryCallback[%10!p!]: All context states are equal. Fire enum completed event." //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h853 18 "%0Watcher::DevQueryCallback[%10!p!]: All context states are equal. Fire stopped event." //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+}
+
+b2a8d6a4-ba15-3c45-9661-ff3887b4097c DeviceEnumeration // SRC=Watcher.h MJ= MN=
+#typev Watcher_h985 19 "%0Watcher::DevQueryCallback[%10!p!]: Failure %11!s!. Transition to stopping state" //   LEVEL=WPP_INFO
+{
+context->_this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+

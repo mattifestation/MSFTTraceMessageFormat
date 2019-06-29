@@ -1,0 +1,1437 @@
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfCxDeviceInitAssignWdmIrpPreprocessCallback for IRP_MJ_DEVICE_CONTROL failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!WdfCxDeviceInitAssignWdmIrpPreprocessCallback for IRP_MJ_POWER failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfCxDeviceInitAssignWdmIrpPreprocessCallback for IRP_MJ_PNP failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!PoUnregisterPowerSettingCallback failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!WdfSpinLockCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!ExSubscribeWnfStateChange for XX failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!PoRegisterPowerSettingCallback for XX failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!Read registry keys failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!WdfSpinLockCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!SerCx_CreateResourceHubTarget failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!SerCx_SetupQueues failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!SerCx_ApplySecurityDescriptor failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0!!Error creating Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0!!Error opening Resource Hub IoTarget for WDFDEVICE %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0!!Failed to Create a receive queue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0!!Failed to create a Recorder log for Rx %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0!!Receive StateMachine could not be initalized %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0!!WdfDeviceConfigureRequestDispatching failed for receive queue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0!!Failed to Create a transmit queue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0!!Failed to create a Recorder log for Tx %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0!!Transmit StateMachine could not be initalized %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0!!WdfDeviceConfigureRequestDispatching failed for transmit queue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0!!WdfIoQueueCreate for ioctlQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0!!WdfDeviceConfigureRequestDispatching failed for ioctl queue %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0!!WdfIoQueueCreate for passiveIoctlQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0!!WdfDriverOpenParametersRegistryKey failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0!!SerCx_ReadULongFromParametersRegistryValue failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0!!SerCx_ReadULongFromParametersRegistryValue failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0!!SerCx_ReadULongFromParametersRegistryValue failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0!!WdfRegistryQueryULong failed for value name %10!s! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Retrieved value data %10!x! for value name %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=Context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0!!WdfWdmDeviceGetWdfDeviceHandle failed." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_CONTROL
+{
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0!!ExQueryWnfStateData failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0!!FunctionConfigConnectionIds allocation failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0!!FunctionConfigConnectionTarget allocation failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0!!Failed to create function config resource connection string (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0!!Failed to create I/O target for function config (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0!!Failed to open I/O target for function config (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0923c573-459b-3dd2-97c9-d9c34a654474 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0!!Failed to format IOCTL for function config (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!DriverEntry failure - could not create WDF driver (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!Could not create a DeviceListLock - (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!DriverEntry failure - could not create control device init (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Calling WdfControlFinishInitializing" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Calling WdfRegisterClassLibrary" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!DriverEntry failure - could not create control device (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SerCx driver loaded - control device name = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+Arg, ItemPWString -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SerCx driver unloading" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=NULL FLAGS=FLAG_LOADING
+{
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!Incorrect Major version %10!u!. Major Version must be 2" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_EXTENSION
+{
+Arg, ItemLong -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0!!Unsupported Minor version: Supported Versions: 0, Client's Minor Version %10!u!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_EXTENSION
+{
+Arg, ItemLong -- 10
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!Function table mismatch: expected %10!u!, got %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_EXTENSION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4b906b3e-5823-3211-c3c3-df0c78399f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!Failed to allocate client globals - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_EXTENSION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfTimerCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_TIMER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!WdfSpinLockCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_TIMER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!IntervalTimeout value MAXULONG not supported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!TotalTimeoutMultiplier value MAXULONG not supported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!TotalTimeoutConstant value MAXULONG not supported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!!IntervalTimeout value %10!d! is > DAY, unsupported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+Arg, ItemLong -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!TotalTimeoutMultiplier %10!d! is > DAY, unsupported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+Arg, ItemLong -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!TotalTimeoutConstant %10!d! is > DAY, unsupported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+Arg, ItemLong -- 10
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Interval Timeout Disabled, using 100 Year as timeout instead" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Total Timeout Disabled, using 100 Year as timeout instead" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+5b49d9c7-4c3b-345f-53ea-a0b1b68e4911 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Timeout has already happened" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_TIMER
+{
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Created SERCX2SYSTEMDMATRANSMIT %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0!!CustomTransmit Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Missing data purge/drain callback" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Overriding system DMA transmit minimum transaction length with %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=serCxContext->RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0!!WdfIoQueueCreate Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Created SERCX2CUSTOMTRANSMIT %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0!!CustomTransmitTransaction Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0!!IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!PioTransmit Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0!!WdfRequestCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0!!WdfObjectAllocateContext for request failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0!!WdfObjectAllocateContext failed for transaction %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Created SERCX2CUSTOMTRANSMITTRANSACTION %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0!!WdfRequestForwardToIoQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Created SERCX2PIOTRANSMIT %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!Bytes purged %10!u! bytes transferred with PIO %11!u!, adjusting bytes purged to prevent bytes transferred underrun" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=pioTransmitContext->TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Context 0x%10!p!, Purged %11!u! bytes, Transferred total of %12!u! bytes" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=pioTransmitContext->TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!Bytes purged %10!u! more than bytes transferred with system DMA %11!u!, adjusting bytes purged to prevent bytes transferred underrun" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=systemDmaTransmitContext->TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Context 0x%10!p!, Purged %11!u! bytes, Transferred total of %12!u! bytes" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=systemDmaTransmitContext->TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Context 0x%10!p!, Tried to write %11!u! bytes, Bytes written %12!u!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=pioTransmitContext->TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0!!WdfRequestRetrieveInputBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0!!WdfRequestRetrieveInputWdmMdl failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0!!Larger than %10!d! size transfer not supported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Write WdfRequest %10!p!, Mdl 0x%11!p!, Buffer 0x%12!p!, Len %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DmaCounter %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Dma Context 0x%10!p!, Request Context 0x%11!p!, Bytes Transferred %12!d!, Total Bytes Transferred %13!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0!!Dma Context 0x%10!p!, Request Context 0x%11!p!, Bytes Transferred %12!d!, Total Bytes Transferred %13!d!, %14!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0EvtDmaTransactionConfigureDmaChannel called with NULL MDL, Dma Context 0x%10!p!, Request Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0!!Dma Context 0x%10!p!, Request Context 0x%11!p!, Total Bytes Transferred %12!d!, %13!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=transmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0!!WdfDmaTransactionInitializeUsingOffset failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0!!WdfDmaTransactionExecute failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=TransmitContext->TransferSmContext.RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0!!Missing data purge/drain callback" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0!!WdfDmaEnablerCreate for SystemDmaTransmit Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0!!WdfDmaEnablerConfigureSystemProfile failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0!!WdfDmaTransactionCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0!!GetDmaAdapterInfo failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Overriding custom transmit minimum transaction length with %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=serCxContext->RecorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemLong -- 10
+}
+
+6b0cb4e2-0b3a-3c7a-bf00-9255728d8e95 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_TRANSMIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0!!CustomReceive Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Overriding custom receive minimum transaction length with %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=serCxContext->RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!PioReceive Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0!!WdfIoQueueCreate Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Created SERCX2CUSTOMRECEIVE %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0!!CustomReceiveTransaction Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0!!IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0!!WdfRequestCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!RingBuffer_Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0!!WdfObjectAllocateContext for request failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0!!WdfObjectAllocateContext for transaction failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Created SERCX2CUSTOMRECEIVETRANSACTION %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0!!WdfRequestForwardToIoQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Created SERCX2PIORECEIVE %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!Requested FifoSize %10!d!, Returned by Ring Buffer %11!d!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!EvtSerCx2PioReceiveInitializeTransaction failed, couldnt save fifo during Dx" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=receiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Context 0x%10!p!, Read %11!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Context 0x%10!p!, Requested to read %11!d! bytes, Bytes Read %12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=pioReceiveContext->ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Context %10!p!, Copied %11!d! Bytes from Ring Buffer" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DmaCounter %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Dma Context 0x%10!p!, Request Context 0x%11!p!, Bytes Transferred %12!d!, Total Bytes Transferred %13!d!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0!!Dma Context 0x%10!p!, Request Context 0x%11!p!, Bytes Transferred %12!d!, Total Bytes Transferred %13!d!, %14!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0EvtDmaTransactionConfigureDmaChannel called with NULL MDL, Dma Context 0x%10!p!, Request Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=receiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0!!Dma Context 0x%10!p!, Request Context 0x%11!p!, Total Bytes Transferred %12!d!, %13!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=receiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0!!WdfDmaTransactionInitializeUsingOffset failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0!!WdfDmaTransactionExecute failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=ReceiveContext->TransferSmContext.RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0!!WdfRequestRetrieveOutputBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0!!WdfRequestRetrieveOutputWdmMdl failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0!!Larger than %10!d! size transfer not supported" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Read WdfRequest %10!p!, Mdl 0x%11!p!, Buffer 0x%12!p!, Len %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0!!WdfDmaEnablerCreate for SystemDmaReceive Object Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0!!WdfDmaEnablerConfigureSystemProfile failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0!!WdfDmaTransactionCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0!!GetDmaAdapterInfo failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Overriding system DMA receive minimum transaction length with %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=serCxContext->RecorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemLong -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0!!WdfObjectAllocateContext failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7256a31e-a5c4-32e7-f1bd-ffcc72c018f5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Created SERCX2SYSTEMDMARECEIVE %10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=recorderLog FLAGS=FLAG_RECEIVE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0Time for current DPC is near expiring" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0Time for DPCs collectively is near expiring" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Completing WdfRequest %10!p! (%11!c!), Context 0x%12!p!, Len %13!d! [%14!d!], %15!s!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+Arg, ItemPtr -- 10
+Arg, ItemChar -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemNTSTATUS -- 15
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!WdfDeviceStopIdle failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfDeviceStopIdle returned STATUS_PENDING" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!WdfDeviceStopIdle failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Cancel WdfRequest %10!p! (%11!c!), Context 0x%12!p!" //   LEVEL=TRACE_LEVEL_VERBOSE IFRLOG=requestContext->TransferSMContext->RecorderLog FLAGS=FLAG_TRANSFER
+{
+Arg, ItemPtr -- 10
+Arg, ItemChar -- 11
+Arg, ItemPtr -- 12
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0!!Timer_Create failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+78bfff08-b664-38a8-919b-a7b43edfd77b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0!!StateMachineEngine_Init failed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=Context->RecorderLog FLAGS=FLAG_TRANSFER
+{
+}
+
+8c6d7669-412f-3a7e-6279-b787b495dd79 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!%10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_VERIFIER
+{
+Arg, ItemString -- 10
+}
+
+8c6d7669-412f-3a7e-6279-b787b495dd79 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!NULL Parameter is not allowed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_VERIFIER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8c6d7669-412f-3a7e-6279-b787b495dd79 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!Called at wrong IRQL, should be less than or equal to %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_VERIFIER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8c6d7669-412f-3a7e-6279-b787b495dd79 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!Called at wrong IRQL, should be %10!d! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_VERIFIER
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8c6d7669-412f-3a7e-6279-b787b495dd79 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!Private globals %10!p! are invalid - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_VERIFIER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Event 0x%10!x! invalid - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!Event 0x%10!x! not present in wait mask 0x%11!x! or pending wait mask 0x%12!x! - %13!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0SerCx2CompleteWait called with Events=0x%10!x!, WaitMask=0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0No wait requests pended, new EventHistory 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemLong -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!Failed to retrieve next request from queue %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->ReceiveContext FLAGS=FLAG_API
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Completed wait on mask request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_API
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!Invalid input buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!Failed to retrieve input buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!Failed to set Transmit Timeouts %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!Failed to set Receive Timeouts %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0New Timeouts: Read {Int %10!d!, Const %11!d!, Mult %12!d!}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0!!Invalid output buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!Failed to retrieve output buffer for request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!Invalid input buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0!!WdfRequestRetrieveInputBuffer failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Purge Ioctl WdfRequst %10!p!, PurgeMask %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Explicitly ignoring the SERIAL_PURGE_RXCLEAR flag" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Explicitly ignoring SERIAL_PURGE_TXCLEAR flag" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0!!Unexpected error when forwarding WDFREQUEST %10!p! to PassiveIoctlQueue %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Completing Purge Ioctl WdfRequst %10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0!!Unexpected error when forwarding WDFREQUEST %10!p! to PassiveIoctlQueue %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0!!Invalid output buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0!!Failed to retrieve output buffer for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Got NULL special chars" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0!!Invalid input buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0!!Failed to retrieve input buffer for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0!!Invalid mask specified, 0x%10!x! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Set wait mask 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemLong -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0!!Failed to retrieve next request from queue %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0!!Failed to retreive output buffer for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Completed wait on mask request %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0!!Invalid output buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0!!Failed to retrieve output buffer for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0!!Invalid output buffer length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0!!Only one Wait on Mask ioctl is allowed" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0!!Failed to retrieve output buffer for WDFREQUEST %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Completed wait-on-mask request immediately %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Starting Ioctl Queue since pending IOCTL_SERIAL_WAIT_ON_MASK CurrentIrp 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0!!Unexpected error when forwarding WDFREQUEST %10!p! to WaitMaskQueue %11!p! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Stopping Ioctl Queue for WdfRequest 0x%10!p! (CurrentIrp 0x%11!p!) (%12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SERCX_IOCTL) -- 12
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0!%10!s! is not supported by SerCx2" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemEnum(_SERCX_IOCTL) -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Handing %10!s! off to controller driver" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemEnum(_SERCX_IOCTL) -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Completing Purge Ioctl WdfRequst %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0!!WdfDeviceWdmDispatchIrp failed (%10!s!)." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_CONTROL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0!!WdfWdmDeviceGetWdfDeviceHandle failed." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_CONTROL
+{
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Completing Irp 0x%10!p!  (%11!s!) with %12!s!, starting Ioctl Queue" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_SERCX_IOCTL) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0CurrentIrp 0x%10!p!, Completing Irp 0x%11!p! (%12!s!) with %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SERCX_IOCTL) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+ea4885b2-99f0-3920-3c3c-e4734ecc8124 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0!!Invalid output buffer length, AmountInInQueue not incremented." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_CONTROL
+{
+}
+
+ef8e28b9-c48c-3aa2-a120-64856d3c31a1 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfMemoryCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=RecorderLog FLAGS=FLAG_RING_BUFFER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ef8e28b9-c48c-3aa2-a120-64856d3c31a1 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Context 0x%10!p!, Added %11!d! bytes to ring buffer, New Total %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_RING_BUFFER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ef8e28b9-c48c-3aa2-a120-64856d3c31a1 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Context 0x%10!p!, Discarding %11!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_RING_BUFFER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ef8e28b9-c48c-3aa2-a120-64856d3c31a1 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Context 0x%10!p!, Removed %11!d! bytes from ring buffer, New Total %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_RING_BUFFER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!IoGetDevicePropertyData failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ETW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!DEVPKEY_Device_InstanceId is zero-length" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ETW
+{
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!ExAllocatePoolWithTag for %10!u! bytes failed." //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ETW
+{
+Arg, ItemLong -- 10
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!IoGetDevicePropertyData failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_ETW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!EtwActivityIdControl failed (%10!s!)" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=NULL FLAGS=FLAG_ETW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+efe4f232-3ef6-3b02-9247-467b67860efe sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!IoSetActivityIdIrp failed (%10!s!)" //   LEVEL=TRACE_LEVEL_WARNING IFRLOG=NULL FLAGS=FLAG_ETW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Received file open with SerCx unitialized - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=NULL FLAGS=FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Uninteresting File Handle. Just Exit" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!File_QueryConnectionProperties on device %10!p! with name %11!s! failed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!WdfDeviceStopIdle on device %10!p! with name %11!s! failed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!OpenFunctionConfigConnections failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!File open callback returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!Failed to configure device - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Controller opened by file %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemPtr -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0non Interesting file handle" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Controller closed by file %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemPtr -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0non Interesting file handle" //   LEVEL=TRACE_LEVEL_INFORMATION IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!RESOURCE_HUB_ID_FROM_FILE_NAME failed, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!Failure querying connection properties for WDFFILEOBJECT %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+fce66d3e-46b8-30e5-36fb-3561ba776f02 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0!!We didnt expect this function to loop so much" //   LEVEL=TRACE_LEVEL_ERROR IFRLOG=context->RecorderLog FLAGS=FLAG_FILE
+{
+}
+

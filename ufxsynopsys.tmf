@@ -1,0 +1,2561 @@
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed UFX initialization[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to create wdf device[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to initialize default queue[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to create DMA enabler object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to create UFX Device object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create DPC lock[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create Dx lock[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create USB2 PHY lock[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to read the HW registers[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to create WDFINTERRUPT object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Controller device interrupt is NULL.[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Synopsys ID: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to create Event Buffer common buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to register for ACPI notifications[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to create port detector machine[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Previous State = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_WDF_POWER_DEVICE_STATE) -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Target State = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_WDF_POWER_DEVICE_STATE) -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Detached on WdfPowerDeviceD3Final" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Entering Hibernation" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Controller running when entering hibernation" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Exiting Hibernation" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Hibernation Supported" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0PCI Bus.Device.Function: %10!d!.%11!d!.%12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0PCI: VendorId 0x%10!04x! DeviceId 0x%11!04x! RevisionId 0x%12!02x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0WdfDeviceQueryProperty(DevicePropertyBusNumber) Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0WdfDeviceQueryProperty(DevicePropertyAddress) Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0WdfFdoQueryForInterface Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed to read pciCommonConfig[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Failed to allocate memory[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Failed to allocate memory[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0IOCTL_INTERNAL_URS_GET_DEVICE_INFORMATION failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0IOCTL_ACPI_GET_DEVICE_INFORMATION failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to allocate memory[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0IOCTL_ACPI_GET_DEVICE_INFORMATION failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0IoGetDeviceProperty for DevicePropertyEnumeratorName failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0SynopsysDevice_RetrievePciData Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0SynopsysDevice_RetrieveAcpiData Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0SynopsysDevice_RetrieveUrsData Failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Found DeviceFlags 0x%10!I64x! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemWString -- 11
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Found DeviceFlags 0x%10!I64x! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemWString -- 11
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Found DeviceFlags 0x%10!I64x! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemWString -- 11
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Found DeviceFlags 0x%10!I64x! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemWString -- 11
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Found DeviceFlags 0x%10!I64x! for %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemWString -- 11
+}
+
+0408beed-0d5c-30bb-1790-40326237723c ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0No Kse Device Flags were found for %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemWString -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to create ufxendpoint![%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to initialize endpoint transfers[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to register ready notify[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemString -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ENDPOINT COMMAND Registers: 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ENDPOINT COMMAND Param0: %10!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ENDPOINT COMMAND Param1: %10!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ENDPOINT COMMAND Param2: %10!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ENDPOINT COMMAND Command: %10!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0CONFIGURE ENDPOINT: 0x%10!p! Endpoint (%11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to stop idle to disable endpoint[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to retrieve command output buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to update endpoint descriptor[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0bd9512e-229e-3b56-e3a2-8c328841e947 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0TRANSFER %10!s!: 0x%11!p! (%12!d!), RQ: 0x%13!p!, DMA: 0x%14!p!, BytesReq: %15!08X!, BytesProg: %16!08X!, BytesTrans: %17!08X!, SG: %18!d!/%19!d!, TRB: %20!d!/%21!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+Arg, ItemLong -- 21
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0TRB: EP: 0x%10!p! (%11!d!) -- (%12!d!) %13!08X! %14!08X! %15!08X! %16!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfRequestUnmarkCancelable failed during queue stop[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to unmark cancelable on try cleanup[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WdfRequestUnmarkCancelable failed during programming[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to mark request cancelable[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ERROR: Failed a setup packet!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Transferred more than what is asked for: Bytes Requested: %10!d!, Bytes Transferred:%11!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to unmark status cancellable[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ERROR: XferComplete for setup stage with HWO=1!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: XferComplete for handshake stage with HWO=1!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed to unmark cancelable[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Unexpected XferComplete on control endpoint!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed to create transfer spinlock[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Failed to create common trb buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Physical endpoint maximum exceeded[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Failed to create setup packet buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to create extra OUT buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to create completion work item[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Failed to create DMA Transaction[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Failed to allocate request context[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Failed to mark request cancellable[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed to initialize DMA transaction using request[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Failed to allocate request context[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Failed to mark quest cancelable[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Handshake waiting for XferNotReady" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0XferNotReady: Endpoint = %10!x!, Stage = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Failed to retrieve next request[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0INVALID: 0x%10!p! (%11!d!), Ioctl: %12!08X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+11d43736-125e-3589-b2c2-ce8cb5b3a1cf ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Other interrupt resource [0X%10!X!] is detected and is being ignored" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to create Device interrupt[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Generating Live Kernel Dump" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Exiting DPC and re-enabling interrupts" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+22d15efa-4d05-3453-a43a-e70d9266167e ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfIoQueueCreate failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Queue 0x%10!p!, Request 0x%11!p!, OutputBufferLength %12!d!, InputBufferLength %13!d!, IoControlCode %14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Received an unsupported IOCTL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0InternalQueue 0x%10!p!, Request 0x%11!p!, OutputBufferLength %12!d!, InputBufferLength %13!d!, IoControlCode %14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Received an unsupported IOCTL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+36152123-6fe9-3f96-2838-184bc52751c3 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to get ACPI port type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Incorrect return parameters for Get Port Type DSM function" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0New PORT: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_USBFN_PORT_TYPE) -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ACPI get port type DSM method returned undefined port type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Undefined bus speed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unknown device state" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to set ACPI device state[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to create ACPI eval input buffer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to create preallocated memory object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Evaluation of DSM method failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to send IOCTL_ACPI_EVAL_METHOD Request[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Returned output buffer for IOCTL_ACPI_EVAL_METHOD is not valid[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0USBFN_DSM_ATTACH_AND_PORT_DETECTION_GUID not supported[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Incorrect return parameters for DSM function query IOCTL[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Bitmap of supported ACPI attach and port detection functions: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Get Properties DSM method failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Invalid output buffer for get properties DSM method" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Implied ACPI detach" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ACPI attach notification" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ACPI detach notification" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Unknown ACPI notify code received" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to register for ACPI notifications[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0USBFN_DSM_VENDOR_PROPERTIES_GUID not supported[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Incorrect return parameters for DSM vendor properties function query IOCTL[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Bitmap of supported ACPI vendor properties functions: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to get vendor device flags[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Incorrect return parameters for DSM vendor device flags function query IOCTL[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Vendor Device Flags: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Failed to set ACPI PMU state[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ACPI notification enabled _DSM method failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Failed to perform ACPI soft core reset[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+57d8b8ad-9363-3cb7-0275-91e79543ae33 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to create memory object for ACPI method[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0UseHighSpeedDescriptorsOnly: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create UFXDEVICE object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to initialize proprietary charging[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to create disconnect timer![%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to create interrupt watchdog timer![%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Disconnect Timer -- Completing Disconnect, halted: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Disconnect Timer -- Completing Disconnect with ConnectionDone!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device Controller NOT Halted -- Pending Disconnect" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to create endpoint[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to create default endpoint![%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0New STATE: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_USBFN_DEVICE_STATE) -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0New PORT: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_USBFN_PORT_TYPE) -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to update device idle settings[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Stopping idle" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to stop idle[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Resuming idle" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0No idle action" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Failed to stop idle %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Unsupported Test Mode (%10!d!) requested!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Entering Test Mode: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+66f9772c-c2cf-3a3f-0f9a-7a6962b57f5f ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Connected Speed is %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_SYNOPSYS_USB_DEVICE_SPEED) -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Ignoring link state change event: 0X%10!X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device commands are not being used. Unexpected event" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Event Buffer Overflow reported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unknown device event raised by controller" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ENDPOINT EVENT: Endpoint %10!d! not found!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ENDPOINT EVENT: XferInProgress or XferComplete" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ENDPOINT EVENT: XferNotReady" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ENDPOINT EVENT: Command Complete Start Transfer, Status = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ENDPOINT EVENT: Command Complete End Transfer, Status = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ENDPOINT EVENT: Command Complete Stall Set, Status = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ENDPOINT EVENT: Command Complete Stall Clear, Status = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ENDPOINT EVENT: Command Complete: %10!d!, Status = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unexpected endpoint event!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0EVENT: %10!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+9075c9d3-6445-38f4-0c68-8664f67d1024 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to create WDFDRIVER object[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to create wdf device[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+988b506f-e4de-3923-bb45-4d2a54baebcd ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c6c6a859-aab7-367f-ef6c-8155f1d373db ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c6c6a859-aab7-367f-ef6c-8155f1d373db ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Resources doesn't map all the needed registers[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c6c6a859-aab7-367f-ef6c-8155f1d373db ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to allocate context for registers[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c6c6a859-aab7-367f-ef6c-8155f1d373db ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0MmMapIoSpace failed[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c6c6a859-aab7-367f-ef6c-8155f1d373db ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Attach interface not supported[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to create GetAttachAction work item[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create AbortGetAttachAction work item[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device detached before GetAttachAction call" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Error in evaluating GetAttachAction[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Port Detected %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+Arg, ItemEnum(_USBFN_PORT_TYPE) -- 10
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Port Detected No CAD" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Performing legacy port detection" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Ignoring Attach" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Detecting proprietary charger" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0GetAttachActionAbortOperation returned an error" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+c8826bb1-14ec-37b0-6e68-bd75f2405652 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create DCD Enable timer[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+de143f1b-1c2a-3836-a9e0-51c509bc6eb1 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Not all proprietary charger methods implemented" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Proprietary charger not supported, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagDriverWideLog
+{
+Arg, ItemLong -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create proprietary charger detection work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create proprietary charger set property work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create proprietary charger abort operation work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create proprietary charger reset operation work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to create a work item[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Proprietary Charger Operation -- attempting to decrement zero ref!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Can't begin this operation[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Failed to retrieve input charger properties[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Can't begin this operation[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to set proprietary charger properties[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to abort proprietary charger operation[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0==>%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed to reset the proprietary charger[%10!s!]" //   CHK=DUMMY LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagDriverWideLog STATUS=Status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f8276892-bc87-3fc6-7ab5-1832187656a6 ufxsynopsys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0<==%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagDriverWideLog
+{
+}
+

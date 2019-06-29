@@ -1,0 +1,571 @@
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp264 26 "%0 Error (Failed to set PKEY_SensorData_ElevationChangeFloorCount to %10!d!, %11!s!=%12!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+threshold.ulVal, ItemLong -- 10
+#HR, ItemString -- 11
+HR, ItemHRESULT -- 12
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp269 27 "%0Unexpected sensor type, expected FloorElevationSensor, got %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PublicError FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+type, ItemLong -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp274 28 "%0Unexpected parameter count, expected %10!d!, got %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PublicError FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+static_cast<USHORT>(FloorsChangedThresholdServer::Parameter::Count), ItemLong -- 10
+eventData.cParameters, ItemLong -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp295 30 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::MemberCallback
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp349 31 "%0 Exit ()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::MemberCallback
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp35 10 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::RuntimeClassInitialize
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp359 32 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::MakeSensorAsyncOperation
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp368 33 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::MakeSensorAsyncOperation::<lambda_f607d5a00f2310b174aa6d42785f8e64>::operator ()
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp393 34 "%0Access denied, returning null" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PublicWarning FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::MakeSensorAsyncOperation::<lambda_f607d5a00f2310b174aa6d42785f8e64>::operator ()
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp397 35 "%0 Exit (hr=%10!s!)" //   LEVEL=InternalApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::MakeSensorAsyncOperation::<lambda_f607d5a00f2310b174aa6d42785f8e64>::operator ()
+{
+HR, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp400 36 "%0 Exit (hr=%10!s!)" //   LEVEL=InternalApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::MakeSensorAsyncOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp475 49 "%0 Error (Failed to get the floor elevation trigger reports, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp481 50 "%0 Error (Failed to create an agile vector for floor elevation change readings, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp488 51 "%0 Error (Failed to convert record to reading at index %10!d!, %11!s!=%12!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+i, ItemLong -- 10
+#HR, ItemString -- 11
+HR, ItemHRESULT -- 12
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp553 53 "%0 Error (Failed to get PKEY_SensorData_Timestamp, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::RuntimeClassInitialize
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp558 54 "%0 Error (Failed to get PKEY_SensorData_ElevationChangeMode, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::RuntimeClassInitialize
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp564 55 "%0 Error (Failed to get PKEY_SensorData_CumulativeElevation_Meters, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::RuntimeClassInitialize
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp570 56 "%0 Error (Failed to get PKEY_SensorData_CumulativeElevationFloorCount, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::RuntimeClassInitialize
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp576 57 "%0 Error (Failed to get PKEY_SensorData_ElevationChange_Meters, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::RuntimeClassInitialize
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp666 61 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::RuntimeClassInitialize
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp667 62 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=InternalApi POINTER=sensor HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::RuntimeClassInitialize
+{
+'POINTER', ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp676 63 "%0 Exit (hr=%10!s!)" //   LEVEL=InternalApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::RuntimeClassInitialize
+{
+HR, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=FloorElevationSensor.cpp MJ= MN=
+#typev FloorElevationSensor_cpp74 11 "%0 Exit (hr=%10!s!)" //   LEVEL=InternalApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::RuntimeClassInitialize
+{
+HR, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::GetCurrentReading
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=reading HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::GetCurrentReading
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::GetCurrentReading
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::add_ReadingChanged
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=handler HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::add_ReadingChanged
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=token HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::add_ReadingChanged
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::add_ReadingChanged
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::remove_ReadingChanged
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=S_OK FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::remove_ReadingChanged
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::get_Threshold
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::get_Threshold
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::get_Threshold
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorServer::put_Threshold
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDefaultAsync
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=result HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDefaultAsync
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDefaultAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::FromIdAsync
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=interfaceId HR=E_INVALIDARG FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::FromIdAsync
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=result HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::FromIdAsync
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::FromIdAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDeviceSelector
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=result HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDeviceSelector
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetDeviceSelector
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=readings HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationSensorFactory::GetReadingsFromTriggerDetails
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::get_CumulativeSteps
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::get_CumulativeSteps
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorElevationChangeReadingServer::get_CumulativeSteps
+{
+Arg, ItemHRESULT -- 10
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::get_EventParameters
+{
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::get_EventParameters
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1f062123-de51-318d-8191-cbc2ae56daf6 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::Internal::FloorsChangedThresholdServer::get_EventParameters
+{
+Arg, ItemHRESULT -- 10
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp154 10 "%0 Enter()" //   LEVEL=InternalApi FUNC=Windows::Devices::Sensors::AltimeterServer::Initialize
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp175 11 "%0Deriving Altimeter readings from barometer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PublicInformation FUNC=Windows::Devices::Sensors::AltimeterServer::Initialize
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp191 12 "%0Getting Altimeter readings from floor elevation sensor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PublicInformation FUNC=Windows::Devices::Sensors::AltimeterServer::Initialize
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp230 13 "%0 Exit (hr=%10!s!)" //   LEVEL=InternalApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::Initialize
+{
+HR, ItemHRESULT -- 10
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp390 23 "%0 Error (Failed to create altimeter reading from a barometer reading, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::GetReadingFromData
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp405 24 "%0 Error (Failed to get PKEY_SensorData_ElevationChange_Meters, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::GetReadingFromData
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp411 25 "%0 Error (Failed to get PKEY_SensorData_VerticalSpeed_MetersPerSecond, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::GetReadingFromData
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Altimeter.cpp MJ= MN=
+#typev Altimeter_cpp426 26 "%0 Error (Failed to create altimeter reading from a floor elevation sensor reading, %10!s!=%11!s!)" //   LEVEL=Error HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::GetReadingFromData
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::AltimeterServer::GetCurrentReading
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=result HR=E_INVALIDARG FUNC=Windows::Devices::Sensors::AltimeterServer::GetCurrentReading
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::GetCurrentReading
+{
+Arg, ItemHRESULT -- 10
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::AltimeterServer::add_ReadingChanged
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=handler HR=E_POINTER FUNC=Windows::Devices::Sensors::AltimeterServer::add_ReadingChanged
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=token HR=E_POINTER FUNC=Windows::Devices::Sensors::AltimeterServer::add_ReadingChanged
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::AltimeterServer::add_ReadingChanged
+{
+Arg, ItemHRESULT -- 10
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::AltimeterServer::remove_ReadingChanged
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=S_OK FUNC=Windows::Devices::Sensors::AltimeterServer::remove_ReadingChanged
+{
+Arg, ItemHRESULT -- 10
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Sensors::AltimeterFactory::GetDefault
+{
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=result HR=E_POINTER FUNC=Windows::Devices::Sensors::AltimeterFactory::GetDefault
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+30b651c6-9b1d-3301-bdce-40ab7523a586 SensorsWinRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Sensors::AltimeterFactory::GetDefault
+{
+Arg, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp143 11 "%0 Error (OpenClient() failed!, %10!s!=%11!s!)" //   LEVEL=Error HR=hr
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp176 12 "%0 Error (Failed to close RPC connection, %10!s!=%11!s!)" //   LEVEL=Warning HR=hr
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp189 13 "%0 Error (StopListenerThread() during SimpleDeviceOrientationRpcClient destructor failed!, %10!s!=%11!s!)" //   LEVEL=Error HR=hr
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp195 14 "%0 Error (Failed to close client!, %10!s!=%11!s!)" //   LEVEL=Error HR=hr
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp226 15 "%0 Error (DoesSdoExist failed!, %10!s!=%11!s!)" //   LEVEL=Error HR=hr
+{
+#HR, ItemString -- 10
+HR, ItemHRESULT -- 11
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp259 16 "%0%!FUNC! ERROR: CreateThread m_pipeReadThread failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp350 18 "%0%!FUNC! ERROR: GetCurrentOrientation failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp458 20 "%0%!FUNC! ERROR: CreateFile m_namedPipeHandle failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp504 21 "%0%!FUNC! ERROR: ReadFile m_namedPipeHandle failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp532 22 "%0%!FUNC! ERROR: GetOverlappedResult using m_namedPipeHandle and m_pipeReadAsyncInfo failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp539 23 "%0%!FUNC! ERROR: sizeof(SENSOR_SDO_SAMPLE_IDL) != bytesRead, unexpected: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp557 24 "%0%!FUNC! ERROR: WaitForMultipleObjectsEx threadEvents failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp568 25 "%0%!FUNC! ERROR: CompletePendingRead failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp592 26 "%0%!FUNC! ERROR: CloseHandle m_namedPipeHandle failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp624 27 "%0%!FUNC! ERROR: GetOverlappedResult using m_namedPipeHandle and m_pipeReadAsyncInfo failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+
+45a48acb-687b-31f2-ff7d-00ca8ff9e0a0 SensorBrokerClient // SRC=SimpleDeviceOrientationRpcClient.cpp MJ= MN=
+#typev SimpleDeviceOrientationRpcClient_cpp71 10 "%0WARNING: SimpleDeviceOrientationRpcClient::CreateInstance failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Error
+{
+hr, ItemHRESULT -- 10
+}
+

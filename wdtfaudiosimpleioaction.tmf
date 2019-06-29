@@ -1,0 +1,392 @@
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_POINTER ERRMSG=L'AudioPlugin: SetTarget() - pMainTarget is NULL'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: SetTarget() - QueryInterface to IWDTFTarget2 failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValue(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Type=Device'), &Res)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG=L'AudioPlugin: SetTarget() - Invalid target provided to Audio SimpleIO.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: SetTarget() - Failed to get DeviceID'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_UNEXPECTED ERRMSG=L'AudioPlugin: SetTarget() - unexpected DeviceId variant type (expected VT_BSTR)'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: SetTarget() - failed to get count of IWDTFStrings2'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=FindEndpoints(deviceId.bstrVal)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=szError
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_UNEXPECTED ERRMSG=L'RunIO called but streaming device not open!'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=szError
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!-->this(%11!p!):%!FUNC!(deviceId = %12!s!)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=FindEndpoint(deviceId, eRender)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=FindEndpoint(deviceId, eCapture)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!-->this(%11!p!):%!FUNC!(EDataFlow = %12!u!, deviceId = %13!s!)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - CoCreateInstance failed for CLSID_MMDeviceEnumerator.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - EnumAudioEndpoints failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - GetCount for endpoints failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!INFO:AudioPlugin: FindEndpoint() - Endpoint collection count: %11!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - Item() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - Activate(IDeviceTopology) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - GetConnector(0) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - GetDeviceIdConnectedTo() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - GetDevice() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - OpenPropertyStore() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - IPropertyStore::GetValue() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'AudioPlugin: FindEndpoint() - IPropertyStore::GetValue() failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!INFO:AudioPlugin: FindEndpoint() - found endpoint of flow %11!u! on device %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!INFO:AudioPlugin: FindEndpoint() - no endpoints of flow %11!u! on device %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+fc8aae60-e9d4-32db-4d22-879778c78e37 WDTF_Action_SimpleIO_Audio // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

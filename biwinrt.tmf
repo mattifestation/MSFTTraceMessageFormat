@@ -1,0 +1,65 @@
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp769 10 "%0QueryInterface for IBackgroundActivationContext returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp776 11 "%0IBackgroundActivationContext::get_InitData returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp784 12 "%0GlobalAlloc failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp793 13 "%0CreateStreamOnHGlobal returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp800 14 "%0IStream::Write returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp808 15 "%0IStream::Seek returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp820 16 "%0CoUnmarshalInterface returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp833 17 "%0MakeAndInitialize<CBackgroundWorkItemInstanceEvents> returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp840 18 "%0IBackgroundWorkItemInstanceRemote::WireWorkItemInstanceEvents returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=BiWinRT
+{
+hr, ItemHRESULT -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp857 19 "%0New BackgroundTaskInstance created with Id=%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=BiWinRT
+{
+&InstanceId, ItemGuid -- 10
+}
+
+1c0c0c10-7bd4-3113-577d-910a9aa6bf32 bir // SRC=actbwii.cpp MJ= MN=
+#typev actbwii_cpp884 20 "%0New BackgroundTaskInstance already cancelled with reason = %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=BiWinRT
+{
+static_cast<ULONG>(m_canceledReason), ItemLong -- 10
+}
+

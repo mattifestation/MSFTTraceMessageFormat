@@ -1,0 +1,237 @@
+099ab6ad-89fa-3498-830c-2ca4c846bf24 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Revision mismatch: HIDCLASS revision:0x%10!x! Minidriver revision:0x%11!x! status:%12!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+099ab6ad-89fa-3498-830c-2ca4c846bf24 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SleepstudyHelper_Initialize for DriverObject:0x%10!p! failed with status:%11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SLEEPSTUDY
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+099ab6ad-89fa-3498-830c-2ca4c846bf24 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0IoAllocateDriverObjectExtension for DriverObject:0x%10!p! failed with status:%11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+099ab6ad-89fa-3498-830c-2ca4c846bf24 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed allocating registry path buffer status:%10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+099ab6ad-89fa-3498-830c-2ca4c846bf24 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0HID minidriver loaded. Status:%10!s! DriverObject:0x%11!p! RegistryPath:[%12!s!]" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR: HID ASSERT failed due to %10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemString -- 10
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0WPP Enable Callback. Guid:%10!s! Logger:0x%11!I64x! Enable:%12!d! Flags:0x%13!x! Level:%14!d!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemGuid -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Rundown starts." //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DDI
+{
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Rundown completes. Total FDOs:%10!d!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DDI
+{
+Arg, ItemLong -- 10
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0FDO:0x%10!p! VendorID:0x%11!04X! ProductID:0x%12!04X! Version:0x%13!04X! NumCollections:%14!u! IsPresent:%15!d!" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0FDO:0x%10!p! ParentPDO:0x%11!p! BusNum:%12!u! MiniDriverRegPath:[%13!s!]" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0FDO:0x%10!p! CurrentState:%11!s! CurrentPowerState:%12!s!/%13!s! DeviceCapabilities: SystemWake:%14!s! DeviceWake:%15!s!" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_HIDSM_STATE) -- 11
+Arg, ItemEnum(_SState) -- 12
+Arg, ItemEnum(_DState) -- 13
+Arg, ItemEnum(_SState) -- 14
+Arg, ItemEnum(_DState) -- 15
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0FDO:0x%10!p! OpenCount:%11!u!  LastIntReportCompletion:%12!s! (%13!s!)" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemTimestamp -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Collections not created yet" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0FDO:0x%10!p! Col:%11!u! UsagePage:0x%12!04x! Usage:0x%13!04x! PDO:0x%14!p! OpenCount:%15!ld! WakeOnSxEnabled:%16!d! NumPendingReads:%17!u! LastIntReportTime:%18!s! AccumIntReports:%19!I64u! LastStopIdleForIoTime:%20!s!" //   IFRLOG=FdoExt->recorderLogDeviceInfo LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemTimestamp -- 18
+Arg, ItemULongLong -- 19
+Arg, ItemTimestamp -- 20
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0RtlUnicodeStringPrintf failed with status:%10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SLEEPSTUDY
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+80bdf131-a16a-32b2-92c6-53ac33e07eff hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0SleepstudyHelper_RegisterComponentEx failed with status:%10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SLEEPSTUDY
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Memory allocation failed (device name) for Driver object:0x%10!p! status:%11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0RtlStringCbPrintfW failed creating name for Driver object:0x%10!p! status:%11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IoCreateDevice failed creating FDO for Driver object:0x%10!p! with status:%11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate the IdleNotificationIrp status:%10!s!" //   IFRLOG=hidClassExtension->fdoExt.recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate state-machine workitem status:%10!s!" //   IFRLOG=hidClassExtension->fdoExt.recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to set registry values, status:%10!s!" //   IFRLOG=hidClassExtension->fdoExt.recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Minidriver returned failure from its AddDevice routine, %10!s!" //   IFRLOG=hidClassExtension->fdoExt.recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0HidpAddDevice returning failure %10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0FDO:0x%10!p! Failed to create per FDO default log, using the driver default log, %11!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to create per FDO 0x%10!p! recorder log for device info, using default log, %11!s!" //   IFRLOG=fdoExt->recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to create per FDO 0x%10!p! recorder log for interrupt reports, using default log, %11!s!" //   IFRLOG=fdoExt->recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0PDO 0x%10!p! Collection:%11!d! not found status:%12!s!" //   IFRLOG=fdoExt->recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0PDO 0x%10!p! Collection:%11!d! not found status:%12!s!" //   IFRLOG=fdoExt->recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+aefa1aa5-8200-3e41-f6ad-90aaf22f7fcc hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0PDO 0x%10!p! IoSetDeviceInterfacePropertyData failed %11!s!" //   IFRLOG=fdoExt->recorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c1725079-bfa5-3c77-ccca-2bdf91c77991 hidclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ZwOpenKey failed with status:%10!s!" //   IFRLOG=g_RecorderLog LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_REGISTRY
+{
+Arg, ItemNTSTATUS -- 10
+}
+

@@ -1,0 +1,1758 @@
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!p!: VirtualDeviceMapIDT" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!p!: Attempt to map interrupts both through VpciMsgCreateInterruptMessage and VpciMsgAssignedResources" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!p!: Create Single Interrupt Message from %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!p!: Guest exceeded MAX_SUPPORTED_INTERRUPT_MESSAGES" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!p!: Newly mapped interrupt address %11!I64x! data %12!08x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!p!: Failed to map single interrupt %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!p!: Delete Single Interrupt Message from %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!p!: Guest asked to unmap interrupt that wasn't known" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!p!: Guest attempting to enable BAR[%11!d!] with a zero in it" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!p!: VirtualBusValidateGuestMmioRange() failed %11!s! for BAR %12!u! (guestBaseAddress %13!#I64x!, guestLength %14!I64u!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemULongLong -- 14
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!p!: Attempt to create a fully virtual BAR with no mitigations for BAR %11!u! This is normal for GPU-paravirt, as we rely on DXG lazily mapping regions(guestBaseAddress %12!#I64x!, guestLength %13!I64u!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemULongLong -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: BAR %11!d! is 64 bit, next resource should be null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!p!: Non-null resource for NULL BAR %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: guest length (%11!I64u!) does not match host length (%12!I64u!) for BAR %13!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemLong -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!p!: VirtualDeviceMapBARs too many mapping contexts" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!p!: VDev failed to complete mitigations request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!p!: VirtualDeviceSetBusMasterEnable failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!p!: ExAllocatePoolWithTag() for size %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!p!: VirtualDeviceMapBARs returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0SetPowerState failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!p!: SetVfPowerState(PowerDeviceD3) failed - expected on surprise removal. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!p!: ResetVf failed - expected if the device was surprise-removed. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!p!: Couldn't get IOCTL_VPCI_WAIT_FOR_MITIGATIONS output buffer. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!p!: Resend VpciMsgInvalidateBlock for device %11!p! from device state %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!p!: VmbPacketSend() failed for VpciMsgInvalidateBlock: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!p!: Sending VpciMsgInvalidateBlock packet" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!p!: VmbPacketSend() failed for VpciMsgInvalidateBlock packet: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!p!: WinHvDetachDevice failed %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!p!: VirtualDeviceDetachfromHv attempted to detach a device that wasn't attached." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WinHvAttachDevice failed to attach to shared host partition. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WinHvAttachDevice failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0VirtualDeviceDestroy %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!p!: Assign Resources Message from %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!p!: Translate packet already pending" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!p!: Dropping request with too many MSIs" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!p!: Dropping unexpected Assign Resources event" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!p!: Assign Resources 2 Message from %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!p!: Translate packet already pending" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!p!: Dropping unexpected Assign Resources 2 event" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!p!: Received D0Message in %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 12
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!p!: Power packet already pending" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!p!: Dropping unexpected d0 event" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!p!: Received DxMessage %11!s! in %12!s! %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_WDF_POWER_DEVICE_STATE) -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!p!: Dropping unsupported Dx event Target=%11!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!p!: Power packet already pending" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!p!: Dropping unexpected Dx event" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Mapping interrupts for a device failed because we've seen devices from more segments than VPCI_MAX_SUPPORTED_SEGMENTS" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_VPCI_MSG
+{
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Mapping interrupts for a device failed because we're out of IRT entries for use by child partitions" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_VPCI_MSG
+{
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Received an out of bounds processor index %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemLong -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Mapping interrupts failed even though we've remained within the budget that the hypervisor gave us. (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Mapping interrupts failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!p!: From %11!s! To %12!s! Event %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+Arg, ItemEnum(_VPCIVSP_BUS_EVENT) -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!p!: From %11!s! To %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!p!: Unknown notification event code %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!p!: IOCTL_SRIOV_NOTIFICATION - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!p!: From %11!s! To %12!s! Event %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 12
+Arg, ItemEnum(_VPCIVSP_POWER_EVENT) -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!p!: From %11!s! To %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCIVSP_POWER_STATE_NAME) -- 12
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0MmAllocateMdlForIoSpace failed %10!s! (PartitionId %11!I64u!, GuestBaseAddress %12!#I64x!, HostBaseAddress %13!#I64x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0VID::CreateMbSpecifyParentGpas failed %10!s! (PartitionId %11!I64u!, GuestBaseAddress %12!#I64x!, HostBaseAddress %13!#I64x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0VID::CreateMbGpaRange failed %10!s! (PartitionId %11!I64u!, GuestBaseAddress %12!#I64x!, HostBaseAddress %13!#I64x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+11d2dca4-9617-3176-7ea7-c184bd980fa5 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0VID::SetMbClientContext failed %10!s! (PartitionId %11!I64u!, memoryBlockHandle %12!p!, VidNotifierClientContext %13!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!#p! QueryRootPortErrorHandler failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IoWMIOpenBlock failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0numberOfInstance: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0RootPortAlternateErrorDelivery instance found: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPWString -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to open WMI for RootPortAlternateErrorDelivery %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0IoWMIExecuteMethod[EnableAlternateErrorDelivery] failed: %10!s!   %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to open WMI for RootPortAlternateErrorDelivery %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IoWMIExecuteMethod[DisableAlternateErrorDelivery] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to open WMI for RootPortAlternateErrorDelivery %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1e17d170-ba89-34c2-52b4-8459f65d2a99 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0IoWMIExecuteMethod[ReenableErrorDelivery] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfWaitLockCreate failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IoRegisterPlugPlayNotification failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfWaitLockCreate[StateLock] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfWaitLockCreate[AttachLock] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfIoTargetOpen %10!s!: failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device is not isloated using ACS.  Portential Security issue for GPUP" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfIoTargetOpen %10!s!: failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!p!: PF in the progress of removing: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!p!: detaching from proxy %11!p! EventPending = %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListByte(FALSE,TRUE) -- 12
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!p!: sending IOCTL_SRIOV_EVENT_COMPLETE" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!p!: status from %11!p! : %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: IOCTL_SRIOV_NOTIFICATION - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!p!: IOCTL_SRIOV_NOTIFICATION completed, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_SRIOV_PF_EVENT) -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: Unexpected event code from Proxy/PF" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!p!: Proxy (%11!p!) Event Ignored. State (%12!d!) MuxEvent (%13!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!p!: Waiting for %11!d! clients (event %12!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!p!: sending IOCTL_SRIOV_NOTIFICATION" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!p!: IOCTL_SRIOV_INVALIDATE_BLOCK - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!p!: IOCTL_SRIOV_INVALIDATE_BLOCK completed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!p!: sending IOCTL_SRIOV_INVALIDATE_BLOCK" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!p!: Proxy already detached" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!p!: WdfIoTargetFormatRequestForIoctl() failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!p!: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!p!: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE completed" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!p!: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE - Unable to find matching device" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0MuxGetMitigatedPageList failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0VirtualDeviceUpdateMitigatedPages failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!p!: MuxpMitigationUpdateWorkItem failed to update BARs.  Unmapping everything to maintain security. Device failure imminent  %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!p!: sending IOCTL_SRIOV_MITIGATED_RANGE_UPDATE" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!p!: Proxy already detached" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!p!: WdfIoTargetFormatRequestForIoctl() failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0MuxSendVmBusHandle failed to get the VmBusHandle" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0MuxGetHwVirtLevel failed FlexIovInterface.GetVirtualizationFlags failed %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!p!: skipping attach/detach because target %11!s! got removed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!p!: sending IOCTL_SRIOV_ATTACH to %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!p!: sending IOCTL_SRIOV_DETACH to %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfIoTargetFormatRequestForIoctl FAILED status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WdfRequestGetStatus status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!p!: MuxEvtIoTargetQueryRemove" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WdfIoTargetCloseForQueryRemove %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!p!: MuxEvtIoTargetRemoveCanceled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0reopen target - %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfIoTargetOpen reopen failed %10!p! - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!p!: MuxEvtIoTargetRemoveComplete" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!p!: MuxEvtIoTargetRemoveComplete - will re-wait" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5dca5507-4dfb-3e00-e244-a8402c4af661 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!p!: MuxpSharedProxyDestroy" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfDriverCreate %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Driver unloading" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback (power) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDeviceCreateSymbolicLink %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0HalQuerySystemInformation %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfIoQueueCreate failed 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Registry override of GuestTimeoutValueSeconds is %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRegistryQueryValue of GuestTimeoutValueSeconds failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfDriverOpenParametersRegistryKey failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfWaitLockCreate[RootPortLock] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfWaitLockCreate[ErrataLock] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0VspEvtFileCleanup() called for %10!p! (file context %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0VspEvtFileClose() called for %10!p! (file context %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!#p! VspFileEnterSerializedIoctl() failed for %11!s! (status %12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VSP_FILE_CONTEXT_EVENT) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!#p! VpciVspFileStateTransition() could not make a transition for event %11!s! at state %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VSP_FILE_CONTEXT_EVENT) -- 11
+Arg, ItemEnum(_VSP_FILE_CONTEXT_STATE) -- 12
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0IoGetDeviceInterfaces(): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfIoTargetCreate(): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfIoTargetOpen(): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+60e0c2aa-b5a2-366e-838b-9f810dfbc901 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfIoTargetQueryForInterface(): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0IOCTL_VPCI_XXXX without a file object Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IOCTL_VPCI_XXXX without IOCTL_VPCI_CREATE_BUS Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0invalid input buffer for IOCTL_VPCI_READ_WRITE_CONFIG Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0invalid output buffer for IOCTL_VPCI_READ_WRITE_CONFIG Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!p!: Write Config space Slot=%11!x! Offset=%12!x! Length=%13!x! Data=%14!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!p!: Read Config space Slot=%11!x! Offset=%12!x! Length=%13!x! -> %14!x! Send to Proxy=%15!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0IOCTL on queue %10!p! IoControlCode %11!x! Request %12!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Request %10!p! completed status %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Cancelling request %10!p! (wait for D-State)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0invalid output buffer for IOCTL_VPCI_WAIT_FOR_D_STATE Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Too many IOCTL_VPCI_WAIT_FOR_D_STATE" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: Waiting for D-state change. Request %11!p! (VPCI bus %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0invalid invalid buffer for IOCTL_VPCI_COMPLETE_D_STATE Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: Completing D-state change packet %11!s! (VPCI bus %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemPtr -- 12
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0invalid invalid buffer for IOCTL_VPCI_ASSIGN_DEVICE Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0invalid invalid buffer for IOCTL_VPCI_UNPLUG_DEVICE Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+acbfab2d-8a20-30a2-2257-9b97078b7220 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0invalid output buffer for IOCTL_VPCI_QUERY_ERRATA_INFO Request %10!p! status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VirtualBusCreate FileObject=%10!p! Partition=%11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0MuxGetMitigatedPageList failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0VirtualBusGetDevicePnpIds failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0VirtualBusScanDeviceCapabilities failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0RootPortAttach failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0VirtualDeviceAttachHv failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Virtual bus %10!p! sending new device to child partition: (%11!04x!:%12!04x!:%13!04x!%14!04x!:%15!02x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0VirtualBusRevokeDevice asked to revoke a device which wasn't found at slot: %10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!p!: KeWaitForSingleObject() timed out" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!p!: Send VpciMsgBusRelations" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0%10!p!: VmbPacketSend() failed for SendBusRelations: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Invalid MMIO GPA ranges FileObject=%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0BAR[%10!d!]: %11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0%10!p!: Changed emulated memory enable bit unexpectedly." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%10!x! -> BAR[%11!d!]" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0%10!p!: Throwing away write to unimplemented BAR %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0%10!p!: Writing High part of bar %11!d! (Bar Index %12!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0%10!p!: Updated bar %11!d!, base address: 0x%12!I64x! length: 0x%13!I64x! flags: 0x%14!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLong -- 14
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0%10!p!: Throwing away write to ACS capability" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0%10!p!: Throwing away unimplemented change from one interior D-state to another" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0%10!p!: Guest changed emulated D-states in an unexpected path" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0queryProtocolPacket size too small" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Redundant call to VirtualBusCreate FileObject=%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0%10!p!: Protocol from client (0x%11!x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0STATUS_VERSION_MISMATCH" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Failed to allocate VmBus packet" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0Failed to allocate BusRelations VmBus packet context" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Failed to allocate Invalidation VmBus packet" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0ERROR: More than 32 processors specified for an MSI" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create the KMCL channel: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to allocate VPCI VSP VmBus channel context: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0VirtualBusCreate FileObject=%10!p! Partition=%11!s! VirtualBus=%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+Arg, ItemPtr -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0VirtualBusCreate failed. status=%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!p!: VPCI VSP VmBus channel suspended" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!p!: VPCI VSP VmBus channel resumed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Deleting Virtual Bus %10!p! (file object %11!p!, thread: %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Found a device %10!p! on channel %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: Deferring processing of VPCI packet (completion context %11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!p!: Received VPCI packet too short (BufSize: %11!u!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: Received unexpected VPCI packet %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_MESSAGE) -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!p!: Received VPCI packet %11!s! (completion context %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_MESSAGE) -- 11
+Arg, ItemPtr -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!p!: short VPCI_FDO_D0_ENTRY packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!p!: VPCI_FDO_D0_ENTRY message (MmioStart: %11!#I64x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!p!: VpciMsgFdoD0Entry received an invalid MmioStart." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!p!: VPCI_FDO_D0_EXIT message" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!p!: short VPCI_DEVICE_POWER_CHANGE packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!p!: VPCI_DEVICE_POWER_CHANGE Slot 0x%11!x! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_WDF_POWER_DEVICE_STATE) -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!p!: VPCI_DEVICE_POWER_CHANGE Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!p!: short VPCI_DEVICE_TRANSLATE packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!p!: VPCI_DEVICE_TRANSLATE with not enough space for  %11!d! message descriptors" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!p!: VPCI_DEVICE_TRANSLATE Slot 0x%11!x! MsiResourceCount %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!p!: VPCI_DEVICE_TRANSLATE with too many descriptors" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!p!: VPCI_DEVICE_TRANSLATE Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!p!: short VPCI_DEVICE_TRANSLATE_2 packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!p!: VPCI_DEVICE_TRANSLATE_2 with not enough space for  %11!d! message descriptors" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!p!: VpciMsgAssignedResources2 received on an old protocol" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!p!: VPCI_DEVICE_TRANSLATE_2 Slot 0x%11!x! MsiResourceCount %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!p!: VPCI_DEVICE_TRANSLATE_2 with too many descriptors" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!p!: VPCI_DEVICE_TRANSLATE_2 Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!p!: short VPCI_PDO_MESSAGE release-resources packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!p!: Release Resources: Slot 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!p!: VPCI_PDO_MESSAGE release-resources Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!p!: short VPCI_CREATE_INTERRUPT_MESSAGE_2 packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!p!: VPCI_CREATE_INTERRUPT_MESSAGE Slot 0x%11!x! for non existent device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!p!: short VPCI_CREATE_INTERRUPT_MESSAGE_2 packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!p!: VpciMsgCreateInterruptMessage2 received on an old protocol" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!p!: VpciMsgCreateInterruptMessage2 received an invalid ProcessorCount" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!p!: VPCI_CREATE_INTERRUPT_MESSAGE_2 Slot 0x%11!x! for non existent device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!p!: short VPCI_DELETE_INTERRUPT_MESSAGE packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!p!: VPCI_DELETE_INTERRUPT_MESSAGE Slot 0x%11!x! for non existent device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!p!: short VPCI_DELETE_INTERRUPT_MESSAGE_2 packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!p!: VpciMsgDeleteInterruptMessage2 received on an old protocol" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!p!: VPCI_DELETE_INTERRUPT_MESSAGE_2 Slot 0x%11!x! for non existent device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!p!: short VPCI_QUERY_RESOURCE_REQUIREMENTS packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!p!: VPCI_QUERY_RESOURCE_REQUIREMENTS Slot 0x%11!x! for non existent device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!p!: short VPCI_RESOURCES packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!p!: short VPCI_READ_BLOCK_REQUEST packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!p!: short VPCI_WRITE_BLOCK_REQUEST packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!p!: short VPCI_PDO_MESSAGE query-stop-failed packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!p!: VPCI_PDO_MESSAGE query-stop-failed message Slot 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!p!: query-stop-failed message Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!p!: short VPCI_EJECT_COMPLETE packet" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!p!: VPCI_EJECT_COMPLETE message Slot 0x%11!x! Status %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!p!: VPCI_EJECT_COMPLETE message Slot 0x%11!x! for non-existing device" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!p!: received invalid packet: message type 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!p!: Send VPCI completion packet with error reply (completion context %11!p!, status %12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!p!: VPCI VSC driver opened the VmBus channel" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!p!: VPCI VSC driver closed the VmBus channel" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!p!: VmbPacketAllocate() failed for VpciMsgEject" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!p!: Send VpciMsgEject for device %11!p! from device state %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!p!: VmbPacketSend() failed for VpciMsgEject: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!p!: VmbPacketAllocate() failed for VpciMsgReEnable" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!p!: Send VpciMsgReEnable for device %11!p! from device state %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!p!: VmbPacketSend() failed for VpciMsgReEnable: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!p!: VmbPacketAllocate() failed for VpciMsgQueryStop" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%10!p!: Send VpciMsgQueryStop for device %11!p! from device state %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_VPCIVSP_DEVICE_STATE_NAME) -- 12
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!p!: VmbPacketSend() failed for VpciMsgQueryStop: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0ReadVfConfig failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0ReadVfConfig failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0ReadVfConfig failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0attempting DDA on a non-display device without PCIe capabilities, failing" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Invalid capability pointer 0x%10!x! for Device %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0ReadVfConfig failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Invalid express capability ID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Specified invalid slot (%10!d! > VPCI_MAX_DEVICES_PER_BUS) in VirtualBusInsertDevice." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0GuestTimeoutValueSeconds is overridden to be %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Specified slot in VirtualBusInsertDevice was already in use by another device." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0MuxAttach failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Failed to attach because a VFIndex was specified for a Device that supports the more secure LUID interfaces" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Failed to convert VF LUID to VFIndex" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Failing a paravirtualized device without a unique RID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0QueryProbedBars failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e64ae433-3982-3548-e643-f85773e0cd82 vsp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Zeroing I/O BAR" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+}
+

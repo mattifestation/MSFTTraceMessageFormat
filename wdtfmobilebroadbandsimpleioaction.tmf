@@ -1,0 +1,237 @@
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Type=Device'), &Res)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='MobileBroadBandPlugin: SetTarget() - Invalid target provided to Action\MobileBroadband.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->GetValue(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='MobileBroadbandPlugin: Open() - CoInitialize failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=ExerciseMBDevices()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=ExerciseMBDevices()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='MobileBroadbandPlugin: Cocreate instance of device factory and interface manager returned failure.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='MobileBroadbandPlugin: Getting all Mobile Broadband interfaces returned failure.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!INFO:MobileBroadbandPlugin: DeviceId: %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!INFO:MobileBroadbandPlugin: Manufacturer: %11!s! Model: %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!INFO:MobileBroadbandPlugin: DeviceID: %11!s! Firmware Info: %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!INFO:MobileBroadbandPlugin: CellularClass: %11!d! ControlCaps: %12!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!INFO:MobileBroadbandPlugin: ReadyState: %11!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!INFO:MobileBroadbandPlugin: Home Provider ID %11!s!. Home Provider Name %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!INFO:MobileBroadbandPlugin: Home Provider State %11!d!. Home Provider DataClass %12!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+70ab1b2d-9f7f-3ba5-5edc-e2752161a6cc WDTF_Action_SimpleIO_MobileBroadband // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

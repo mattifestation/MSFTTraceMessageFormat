@@ -1,0 +1,212 @@
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CWDTFDriverVerifierSystemImpl::SetTarget() - Invalid target provided to Action\DV'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o->this(%11!p!):%!FUNC!(dwDVLevel = %12!u!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=InternalBuildDriverList(pTarget, strDriversToVerify)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=InternalBuildDriverList(pTarget2, strDriversToVerify)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=DeviceOutput(pTarget)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pTarget->Eval(CComBSTR(L'Class=Net'), &Res)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='CWDTFDriverVerifierSystemImpl::DeviceOutput() - Failed to get UniqueTargetName'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+8b687b3b-cb38-3fe7-f059-6c97599a0a3c WDTFDriverVerifierSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CWDTFDriverVerifierSystemImpl::DeviceOutput() - Variant type of UniqueTargetName not as expected'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+

@@ -1,0 +1,7 @@
+cddbe67a-9d6e-3da9-dbe5-f18787905d85 JScriptLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IDispatch::Invoke for JavaScript function "%10!s!" returned %11!s!" //   LEVEL=JScriptLib_Public
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+

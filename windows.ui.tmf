@@ -1,0 +1,1218 @@
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp116 10 "%0GetUnmarshalClass: Status: %10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+hr, ItemLong -- 10
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp152 11 "%0GetMarshalSizeMax: Status: %10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+hr, ItemLong -- 10
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp184 12 "%0MarshalInterface: _hWnd: %10!p!, this: %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+_hWnd, ItemPtr -- 10
+this, ItemPtr -- 11
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp212 13 "%0MarshalInterface: Status: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_MARSHAL
+{
+hr, ItemLong -- 10
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp248 14 "%0UnmarshalInterface: Existing Window: %10!p! hr: %11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+*ppv, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp265 15 "%0UnmarshalInterface: SecucreCompareBuffer failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_MARSHAL
+{
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp274 16 "%0UnmarshalInterface: _hWnd: %10!p! is %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+_hWnd, ItemPtr -- 10
+isWindow, ItemLong -- 11
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp277 17 "%0UnmarshalInterface: New Window: %10!p! hr: %11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MARSHAL
+{
+*ppv, ItemPtr -- 10
+hr, ItemLong -- 11
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp281 18 "%0UnmarshalInterface: Status: %10!x! Window: %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_MARSHAL
+{
+hr, ItemLong -- 10
+*ppv, ItemPtr -- 11
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp315 19 "%0InitSecret: %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_MARSHAL
+{
+&s_fSecretInit, ItemPtr -- 10
+}
+
+41aaff90-e702-3220-a71b-d2efc0f3a36f common // SRC=Marshal.cpp MJ= MN=
+#typev Marshal_cpp324 20 "%0InitSecret: RtlGenRandom failed with error: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_MARSHAL
+{
+GetLastError(), ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp1647 22 "%0SetDesiredBoundsMode: BoundsMode: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_boundsMode, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp1724 23 "%0Initialize: BoundsModeOverride Enabled: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_boundsMode, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp1728 24 "%0Initialize: BoundsModeOverride Invalid value: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+boundsModeOverride, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp188 10 "%0CreateCoreWindow: ZBID: %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+zbid, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp1886 25 "%0GetRawInputData failed with error: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+GetLastError(), ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp194 11 "%0CreateCoreWindow: CoreWindow created successfully: %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+*ppv, ItemPtr -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp1954 26 "%0GetRawInputData failed with error: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+GetLastError(), ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp199 12 "%0CreateCoreWindow: Invalid argument" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2250 27 "%0OnWindowActivateEventInternal: wParam %10!d! activationMode 0x%11!x! descendentActivationMode 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+wParam, ItemLong -- 10
+_activationMode, ItemLong -- 11
+_descendentActivationMode, ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2338 28 "%0OnWindowActivateEvent: wParam %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+wParam, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2381 29 "%0OnActivationStateChange: activationMode 0x%10!x! descendentActivationMode 0x%11!x! activatedView 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+activationMode, ItemLong -- 10
+descendentActivationMode, ItemLong -- 11
+activatedView, ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2408 30 "%0CreateCoreWindow: Invalid argument" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2419 31 "%0CreateCoreWindow: Invalid argument" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp253 13 "%0~WindowServer: CoreWindow: %10!p! TID: %11!X! Proxy: %12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+this, ItemPtr -- 10
+_ThreadId, ItemLong -- 11
+_fProxy, ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2770 32 "%0PopulatePointerEventArgs: GetActivationFactory failed with error: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2784 33 "%0PopulatePointerEventArgs: GetCurrentPoint failed with error: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2806 34 "%0WindowServer::OnPointerDownEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2815 35 "%0WindowServer::OnPointerDownEvent: Received primary pointer down. Set focus to: %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+_hWnd, ItemPtr -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2846 36 "%0WindowServer::OnPointerUpEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2871 37 "%0WindowServer::OnPointerMoveEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2909 38 "%0WindowServer::OnPointerEnterEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp2936 39 "%0WindowServer::OnPointerLeaveEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3020 40 "%0WindowServer::OnPointerRoutedAwayEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3050 41 "%0WindowServer::OnPointerRoutedToEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3079 42 "%0WindowServer::OnPointerRoutedReleasedEvent: ID: %10!d! Position: %11!d!:%12!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GET_POINTERID_WPARAM(wParam), ItemLong -- 10
+GET_X_LPARAM(lParam), ItemLong -- 11
+GET_Y_LPARAM(lParam), ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp325 14 "%0~WindowServer: UnregisterClass failed with error: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+GetLastError(), ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3476 43 "%0GetProcessSid: Successfully acquired AppContainer Sid for ProcessId %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+dwProcessId, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3485 44 "%0GetProcessSid: GetTokenInformation failed with hr: 0x%10!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3492 45 "%0GetProcessSid: GetTokenInformation failed with hr: 0x%10!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3501 46 "%0GetProcessSid: OpenProcessToken failed with hr: 0x%10!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3509 47 "%0GetProcessSid: OpenProcess failed with hr: 0x%10!x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3930 48 "%0CreateNewWindow: Successfully created default cursor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3938 49 "%0Creating default cursor failed with error: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp3958 50 "%0ReloadCursorOnEnter: Successfully reloaded cursor" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp4020 51 "%0RegisterInput: RegisterRawInputDevices failed with hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp4118 52 "%0get_PointerVisualizationSettings: PointerVisualizationSettings creation failed with hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp412 15 "%0Initialize: Window (%10!p!) already exists for Thread: %11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+pWindow, ItemPtr -- 10
+_ThreadId, ItemLong -- 11
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp4150 53 "%0get_CoreWindowResizeManager: CoreWindowResizeManager creation failed with hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp439 16 "%0Initialize: CoreWindow: %10!p! HWND: %11!p! Thread: %12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_pCoreWindow, ItemPtr -- 10
+_hWnd, ItemPtr -- 11
+_ThreadId, ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp4840 54 "%0GetWindowBounds failed with error: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+GetLastError(), ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp511 17 "%0AddCoreWindowEntry: %10!p! HWND: %11!p! Thread: %12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_pCoreWindow, ItemPtr -- 10
+_hWnd, ItemPtr -- 11
+_ThreadId, ItemLong -- 12
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp542 18 "%0RemoveCoreWindowEntry: _ThreadId: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_ThreadId, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp6730 55 "%0GetForCurrentThread: TID: %10!X! Window: %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_WINDOW
+{
+GetCurrentThreadId(), ItemLong -- 10
+*ppWindow, ItemPtr -- 11
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp6752 56 "%0CreateInstance: Creating new window: %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+spWindow.Get(), ItemPtr -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp6761 57 "%0CreateInstance: Status: %10!x! Proxy window: %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+*ppv, ItemPtr -- 11
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp7001 58 "%0get_IsContactFeedbackEnabled: GetWindowFeedbackSetting hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp7015 59 "%0put_IsContactFeedbackEnabled: SetWindowFeedbackSetting hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp7027 60 "%0get_IsBarrelButtonFeedbackEnabled: GetWindowFeedbackSetting hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp7041 61 "%0put_IsBarrelButtonFeedbackEnabled: SetWindowFeedbackSetting hr: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+hr, ItemLong -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp889 19 "%0Initialize: _hWnd: %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_MARSHAL
+{
+_hWnd, ItemPtr -- 10
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp962 20 "%0Initialize: Creating window: %10!s! Band: %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_WINDOW
+{
+pWindowTitle, ItemWString -- 10
+zbid, ItemLong -- 11
+}
+
+443c6619-d5c0-3a51-0d80-6859df3d89ef common // SRC=WindowServer.cpp MJ= MN=
+#typev WindowServer_cpp984 21 "%0Initialize: Window created successfully: HWND: %10!p! " //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_WINDOW
+{
+_hWnd, ItemPtr -- 10
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1032 26 "%0CDispatcher(%10!p!, tid %11!x!)::DequeueInvokeItem: Removed item: %12!p! Count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+*ppEntry, ItemPtr -- 12
+_uInvokeItemCount, ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp105 10 "%0CDispatcher(%10!p!, tid %11!x!)::RuntimeClassInitialize: %12!s!, Nested ProcessEvents quirk enabled: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_fMainView ? 'main view dispatcher' : 'secondary view or CoreInput dispatcher', ItemString -- 12
+_fQuirkAllowNestedProcessEvents, ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1066 27 "%0CDispatcher(%10!p!, tid %11!x!)::RemoveInvokeItem: Removed item: %12!p! Count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+pRemoveEntry, ItemPtr -- 12
+_uInvokeItemCount, ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1149 28 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessInvokeItem: Dequeue invoke item with priority: %12!d!. Status: %13!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+requiredPriority, ItemLong -- 12
+dwStatus, ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1158 29 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessInvokeItem: Processing item: %12!p! Priority: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+pInvokeItem, ItemPtr -- 12
+pInvokeItem->Priority, ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1203 30 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessInvokeItem: Invoke completed with status: 0x%12!x!. Calling FireCompletion" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1209 31 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessInvokeItem: Invoke item canceled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1450 32 "%0CDispatcher(%10!p!, tid %11!x!)::ShouldYieldToPriority: GetQueueStatus returned %12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+dwStatus, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1464 33 "%0CDispatcher(%10!p!, tid %11!x!)::ShouldYieldToPriority: NextPriority: %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+nextPriority, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1579 34 "%0CDispatcher(%10!p!, tid %11!x!)::PostThreadMessage failed with error: 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+ResultFromKnownLastError(), ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1707 35 "%0CDispatcher(%10!p!, tid %11!x!)::SetCoreWindowState: Main View Dispatcher" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1771 36 "%0CDispatcher::Create(tid %10!x!): Fail to create CoreDispatcher." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1840 37 "%0CDispatcher(%10!p!, tid %11!x!)::WaitAndProcessMessages: Event count: %12!d! hEventWait: %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+dwEventsCount, ItemLong -- 12
+hEventWait, ItemPtr -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1881 38 "%0CDispatcher(%10!p!, tid %11!x!)::WaitAndProcessMessagesInternal: Yielded for spurious wake on off-thread input." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp1921 39 "%0CDispatcher(%10!p!, tid %11!x!)::WaitAndProcessMessagesInternal: WaitExit event signaled. Wait status: %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+dwRet, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp2048 40 "%0ICoreAsyncInfo::StartProcess: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+_ulState, ItemLong -- 10
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp2056 41 "%0ICoreAsyncInfo::StartProcess: Unable to start canceled request." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp2076 42 "%0ICoreAsyncInfo::OnCancel: State: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+_ulState, ItemLong -- 10
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp2080 43 "%0ICoreAsyncInfo::OnCancel: Only queued items can be canceled. State: %10!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_DISPATCHER
+{
+_ulState, ItemLong -- 10
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp325 11 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessMessage - translating and dispatching MSG hwnd %12!x!, message %13!x!, wParam, %14!x!, lParam %15!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+(UINT)msg.hwnd, ItemLong -- 12
+msg.message, ItemLong -- 13
+(UINT)msg.wParam, ItemLong -- 14
+(UINT)msg.lParam, ItemLong -- 15
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp331 12 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessMessage - CoHandlePriorityEventsFromMessagePump(), MSG hwnd %12!x!, message %13!x!, wParam, %14!x!, lParam %15!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+(UINT)msg.hwnd, ItemLong -- 12
+msg.message, ItemLong -- 13
+(UINT)msg.wParam, ItemLong -- 14
+(UINT)msg.lParam, ItemLong -- 15
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp424 13 "%0CDispatcher(%10!p!, tid %11!x!)::IsWaitExitEventSignaled: dwWait: %12!d! " //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+dwWait, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp500 14 "%0GetDispatcherForCurrentThread: TID: %10!X! Dispatcher: %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_DISPATCHER
+{
+GetCurrentThreadId(), ItemLong -- 10
+*ppDispatcher, ItemPtr -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp532 15 "%0GetOrCreateForCurrentThread: TID: %10!X! Dispatcher: %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_DISPATCHER
+{
+GetCurrentThreadId(), ItemLong -- 10
+*ppDispatcher, ItemPtr -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp557 16 "%0CDispatcher(%10!p!, tid %11!x!)::ProcessEvents: Nested calls to ProcessEvents method is not allowed. Quirk enabled: %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_fQuirkAllowNestedProcessEvents, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp703 17 "%0CDispatcher(%10!p!, tid %11!x!)::RunAsync: Invalid priority: %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+priority, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp761 18 "%0CDispatcher(%10!p!, tid %11!x!)::TryRunAsync: Invalid priority: %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+priority, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp801 19 "%0CDispatcher(%10!p!, tid %11!x!)::RunAsyncWorker: priority %12!d!, TID: %13!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+priority, ItemLong -- 12
+GetCurrentThreadId(), ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp849 20 "%0CDispatcher(%10!p!, tid %11!x!)::RunAsyncWorker: Invalid window handle on %12!s! thread" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_fMainView ? 'main view CoreWindow' : 'secondary view or CoreInput', ItemString -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp869 21 "%0CDispatcher(%10!p!, tid %11!x!)::EnqueueAsyncWork: priority %12!d!, TID: %13!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+priority, ItemLong -- 12
+GetCurrentThreadId(), ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp908 22 "%0CDispatcher(%10!p!, tid %11!x!)::EnqueueAsyncWork: Queuing item: %12!p! TID: %13!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+pInvokeEntry, ItemPtr -- 12
+GetCurrentThreadId(), ItemLong -- 13
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp931 23 "%0CDispatcher(%10!p!, tid %11!x!)::EnqueueAsyncWork: RequestInvokeProcessing failed with error: 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp946 24 "%0CDispatcher(%10!p!, tid %11!x!)::EnqueueAsyncWork: Callback is not agile." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+5e8d44d5-f71d-3b18-c9c3-6fd2eb6122d9 common // SRC=Dispatcher.cpp MJ= MN=
+#typev Dispatcher_cpp992 25 "%0CDispatcher(%10!p!, tid %11!x!)::EnqueueInvokeItem: Added item: %12!p! Count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+pNewEntry, ItemPtr -- 12
+_uInvokeItemCount, ItemLong -- 13
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp129 10 "%0CoreInputThreadContext(%10!p!, tid %11!x!)::UpdateCoreInput: ComponentInput in IndependentInput Worker thread is not allowed " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp159 11 "%0CoreInputThreadContext(%10!p!, tid %11!x!)::UpdateCoreInput: IndependentInput in ComponentInput CoreWindow thread is not allowed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp175 12 "%0CoreInputThreadContext(%10!p!, tid %11!x!)::UpdateCoreInput: IndependentInput in ComponentInput Worker thread is not allowed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp196 13 "%0CoreInputThreadContext(%10!p!, tid %11!x!)::UpdateCoreInput: Unexpected input type %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+inputType, ItemLong -- 12
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp240 14 "%0CoreInputThreadContext(%10!p!, tid %11!x!)::UpdateCoreInput: Unexpected type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+638c293b-4047-3b10-4119-1ed7e79b2500 common // SRC=InputThreadContext.cpp MJ= MN=
+#typev InputThreadContext_cpp293 15 "%0CoreInputThreadContext::Create: Fail to create CoreInputThreadContext on tid %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp249 10 "%0ReadRegistryDWord: Name: %10!s! Value: %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_GENERAL
+{
+pszValueName, ItemWString -- 10
+dwValue, ItemLong -- 11
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp338 11 "%0CoreInputSink(%10!p!, tid %11!x!)::Cleanup: Detaching input source" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp373 12 "%0CoreInputSink(%10!p!, tid %11!x!)::SetInputSource: Hwnd %12!p! DComp visual %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+hwnd, ItemPtr -- 12
+pUnknown, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp405 13 "%0CoreInputSink(%10!p!, tid %11!x!)::SetInputSource: existing InputSink found for Hwnd %12!p! pInputSink %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+hwnd, ItemPtr -- 12
+pInputSink, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp416 14 "%0CoreInputSink(%10!p!, tid %11!x!)::SetInputSource: InputSink created successfully for Hwnd %12!p! pInputSink %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+hwnd, ItemPtr -- 12
+pInputSink, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp422 15 "%0CoreInputSink(%10!p!, tid %11!x!)::SetInputSource: Unable to create InputSink for Hwnd %12!p! pInputSink %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+hwnd, ItemPtr -- 12
+pInputSink, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp436 16 "%0CoreInputSink(%10!p!, tid %11!x!)::SetInputSource: Input source is already attached" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp452 17 "%0CoreInputSink(%10!p!, tid %11!x!)::AddInputSinkEntry: DComp visual: %12!p! / %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pDComp2Visual, ItemPtr -- 12
+pWinCompVisual, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp470 18 "%0CoreInputSink(%10!p!, tid %11!x!)::AddInputSinkEntry: CoreInput: %12!p! InputSink: %13!p! Count: %14!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pEntry, ItemPtr -- 12
+this, ItemPtr -- 13
+_cInputSinks, ItemLong -- 14
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp490 19 "%0CoreInputSink(%10!p!, tid %11!x!)::FindInputSinkEntry: DComp visual: %12!p! / %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pDComp2Visual, ItemPtr -- 12
+pWinCompVisual, ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp507 20 "%0CoreInputSink(%10!p!, tid %11!x!)::FindInputSinkEntry: InputSink: %12!p! found for visual %13!p! / %14!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pEntry, ItemPtr -- 12
+pDComp2Visual, ItemPtr -- 13
+pWinCompVisual, ItemPtr -- 14
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp525 21 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: PointerType: %12!x! Hwnd: %13!p! InputSink: %14!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pointerTypes, ItemLong -- 12
+hWnd, ItemPtr -- 13
+pInputSinkEntry, ItemPtr -- 14
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp539 22 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: Invalid pointer type. Overwritting existing input type." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp554 23 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: Update touchQueue: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry->InputSink.touchQueue.hwnd, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp563 24 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: Update penQueue: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry->InputSink.penQueue.hwnd, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp572 25 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: Update mouseQueue: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry->InputSink.mouseQueue.hwnd, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp581 26 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: Update keyboardQueue: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry->InputSink.keyboardQueue.hwnd, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp589 27 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: touch: %12!p! pen: %13!p! mouse: %14!p! keyboard: %15!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry->InputSink.touchQueue.hwnd, ItemPtr -- 12
+pInputSinkEntry->InputSink.penQueue.hwnd, ItemPtr -- 13
+pInputSinkEntry->InputSink.mouseQueue.hwnd, ItemPtr -- 14
+pInputSinkEntry->InputSink.keyboardQueue.hwnd, ItemPtr -- 15
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp609 28 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: NtCreateCompositionInputSink handle %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+newHandle, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp638 29 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: InputSink: %12!p! CoreInput count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry, ItemPtr -- 12
+pInputSinkEntry->uCoreInputCount, ItemLong -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp644 30 "%0CoreInputSink(%10!p!, tid %11!x!)::UpdateAndRegisterInputSink: SetInput failed with status %12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp681 31 "%0CoreInputSink(%10!p!, tid %11!x!)::NtCreateCompositionInputSink failed with NTSTATUS 0x%12!X!: touch: %13!p! pen: %14!p! mouse: %15!p! keyboard: %16!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+status, ItemLong -- 12
+pInputSinkEntry->InputSink.touchQueue.hwnd, ItemPtr -- 13
+pInputSinkEntry->InputSink.penQueue.hwnd, ItemPtr -- 14
+pInputSinkEntry->InputSink.mouseQueue.hwnd, ItemPtr -- 15
+pInputSinkEntry->InputSink.keyboardQueue.hwnd, ItemPtr -- 16
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp693 32 "%0CCoreInput(%10!p!, tid %11!x!)::RemoveInputSinkEntry: InputSink: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry, ItemPtr -- 12
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp707 33 "%0CCoreInput(%10!p!, tid %11!x!)::RemoveInputSinkEntry: InputSink: %12!p! CoreInput count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pInputSinkEntry, ItemPtr -- 12
+pInputSinkEntry->uCoreInputCount, ItemLong -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp724 34 "%0CCoreInput(%10!p!, tid %11!x!)::RemoveInputSinkEntry: Calling SetInput with nullptr for visual: %12!p! / %13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pEntry->spDComp2Visual.Get(), ItemPtr -- 12
+pEntry->spWinCompVisual.Get(), ItemPtr -- 13
+}
+
+b0588754-e5c8-3343-fa76-1b379a684257 common // SRC=Helper.cpp MJ= MN=
+#typev Helper_cpp752 35 "%0CCoreInput(%10!p!, tid %11!x!)::RemoveInputSinkEntry: InputSink: %12!p! Count: %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DISPATCHER
+{
+this, ItemPtr -- 10
+GetCurrentThreadId(), ItemLong -- 11
+pEntry, ItemPtr -- 12
+_cInputSinks, ItemLong -- 13
+}
+
+e9af76a0-be82-3172-d796-5f49af0f1bf4 common // SRC=EventArgs.cpp MJ= MN=
+#typev EventArgs_cpp668 10 "%0GetIntermediatePoints: GetIntermediatePoints failed with error: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_EVENT
+{
+hr, ItemLong -- 10
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp103 14 "%0CreateCoreInput(tid %10!x!): Invalid pointer type: %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+PointerTypes, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp110 15 "%0CreateCoreInput(tid %10!x!): Invalid input type: %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+InputType, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp1961 27 "%0CCoreInput(%10!p!, tid %11!x!)::PopulatePointerEventArgs: GetActivationFactory failed with error: %12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp1977 28 "%0CCoreInput(%10!p!, tid %11!x!)::PopulatePointerEventArgs: GetCurrentPoint failed with error: %12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2028 29 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerDownEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2036 30 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerDownEvent: Received primary pointer down. Set focus to: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_hWnd, ItemPtr -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2070 31 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerUpEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2102 32 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerMoveEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2134 33 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerEnterEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2165 34 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerLeaveEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2203 35 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerWheelEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2234 36 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerRoutedAwayEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2268 37 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerRoutedToEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2301 38 "%0CCoreInput(%10!p!, tid %11!x!)::OnPointerRoutedReleasedEvent: ID: %12!d! Position: %13!d!:%14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GET_POINTERID_WPARAM(wParam), ItemLong -- 12
+GET_X_LPARAM(lParam), ItemLong -- 13
+GET_Y_LPARAM(lParam), ItemLong -- 14
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp241 16 "%0CCoreInput(%10!p!, tid %11!x!)::~CoreInput " //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2575 39 "%0CCoreInput(%10!p!, tid %11!x!)::CreateDefaultCursor: Successfully created default cursor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2586 40 "%0CCoreInput(%10!p!, tid %11!x!)::CreateDefaultCursor: Creating default cursor failed with error: 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp2609 41 "%0CCoreInput(%10!p!, tid %11!x!)::ReloadCursorOnEnter: Successfully reloaded cursor" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp276 17 "%0CCoreInput(%10!p!, tid %11!x!)::RuntimeClassInitialize: Count: %12!d! %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+s_instanceCount, ItemLong -- 12
+(PCHAR)ClassName, ItemString -- 13
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp347 18 "%0CCoreInput(%10!p!, tid %11!x!)::RuntimeClassInitialize: Passed CoreWindow %12!p! doesn't match with existing CoreWindow %13!p! " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+spCoreWindow.Get(), ItemPtr -- 12
+pCoreWindowOnThread, ItemPtr -- 13
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp368 19 "%0CCoreInput(%10!p!, tid %11!x!)::RuntimeClassInitialize: Parent window %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_hParentWnd, ItemPtr -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp389 20 "%0CCoreInput(%10!p!, tid %11!x!)::RuntimeClassInitialize: Unexpected type %12!d! " //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+InputType, ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp508 21 "%0CCoreInput(%10!p!, tid %11!x!)::InitializeIndependentInput: Creating dispatcher for HWND: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_hWnd, ItemPtr -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp59 10 "%0CreateCoreInput(tid %10!x!): Input type: CoreComponentInput" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp598 22 "%0CCoreInput(%10!p!, tid %11!x!)::CreateNewWindow: Window created successfully: HWND: %12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+_hWnd, ItemPtr -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp604 23 "%0CCoreInput(%10!p!, tid %11!x!)::CreateNewWindow: Invalid parent or CreateWindowInBand failed. Error: %12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+hr, ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp625 24 "%0CCoreInput(%10!p!, tid %11!x!)::Cleanup: Releasing CoreInput from wrong thread context is not allowed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp668 25 "%0CCoreInput(%10!p!, tid %11!x!)::Cleanup: instance count: %12!d! %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+s_instanceCount, ItemLong -- 12
+(PCHAR)ClassName, ItemString -- 13
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp676 26 "%0CCoreInput(%10!p!, tid %11!x!)::Cleanup: UnregisterClass failed with error: 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INPUT
+{
+this, ItemPtr -- 10
+_dwThreadId, ItemLong -- 11
+GetLastError(), ItemLong -- 12
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp73 11 "%0CreateCoreInput(tid %10!x!): CoreComponentInput: %11!p! SUCCEEDED." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+*ppv, ItemPtr -- 11
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp80 12 "%0CreateCoreInput(tid %10!x!): Input type: CoreIndependentInput" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+}
+
+eee46fc9-23db-3afe-512c-77b5de18c4a7 common // SRC=Input.cpp MJ= MN=
+#typev Input_cpp96 13 "%0CreateCoreInput(tid %10!x!): CoreIndependentInput: %11!p!  SUCCEEDED." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INPUT
+{
+GetCurrentThreadId(), ItemLong -- 10
+*ppv, ItemPtr -- 11
+}
+

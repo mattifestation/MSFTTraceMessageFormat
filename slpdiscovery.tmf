@@ -1,0 +1,92 @@
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Using SCOPEs (%10!s!)" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SLP will allow IPv6 addresses." //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Invalid service reply." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid reply type (%10!d!)." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemLong -- 10
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Can't translate address %10!s!, error (%11!ld!)" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Can't create socket for %10!s!, error (%11!d!)" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Can't connect to %10!s!, error (%11!d!)" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Can't set option to non-blocking for %10!s!, error (%11!d!)" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SLP could not send request to %10!s!, error %11!d!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0SLP connection closed, no data" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+}
+
+02d03295-753d-3f0e-47af-45d2a8cb7b0a slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SLP could not get data for %10!s!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemString -- 10
+}
+
+26bd749c-1859-3e66-f131-95f219870066 slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WSAStartup failed: %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemLong -- 10
+}
+
+26bd749c-1859-3e66-f131-95f219870066 slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GetNameInfoW failed %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemLong -- 10
+}
+
+26bd749c-1859-3e66-f131-95f219870066 slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GetAddrInfoW failed %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemLong -- 10
+}
+
+26bd749c-1859-3e66-f131-95f219870066 slpdiscovery // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GetAddrInfoW failed %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_SLP_DLL
+{
+Arg, ItemLong -- 10
+}
+

@@ -1,0 +1,2673 @@
+1d1b3fe4-95e9-33e9-a81a-c00040c6c2df sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DriverEntry: GPIO initialization failed! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+1d1b3fe4-95e9-33e9-a81a-c00040c6c2df sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DriverEntry: WdfDriverCreate() failed! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+1d1b3fe4-95e9-33e9-a81a-c00040c6c2df sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DriverEntry: GPIO initialization failed! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+1d1b3fe4-95e9-33e9-a81a-c00040c6c2df sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DriverEntry: Failed to create class library object! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+1d1b3fe4-95e9-33e9-a81a-c00040c6c2df sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GpioClxEvtDriverUnload: Driver unloaded!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!: Gsiv supplied is invalid! Extn = 0x%11!p!, Gsiv = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!: Failed to allocate work item! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!: Invoking ISR for Bank = %11!p!, Relative Pin = %12!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!: IsrNotDispatched: Flipping the polarity! Bank = %11!p!, Relative PinNumber = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GpiopServiceInterrupt: Failed to query active and enabled interrupt status from client! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!: Interrupts to service: Bank = %11!p!, PinMask = 0x%12!I64x!, RawPinMask = %13!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!: Non-enabled active interrupts pinmask: 0x%11!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLongLongX -- 11
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: ReplayRegister: 0x%11!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLongLongX -- 11
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!: Failed to query active interrupts from client driver! Status = %11!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!: Bank = %11!p!, Relative Pin = %12!#x!: %13!s!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+}
+
+260a0624-10e1-3029-67f5-f53582fe4c2b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!: Bank = %11!p!, Relative Pin = %12!#x!: %13!s!0x%14!x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemString -- 13
+Arg, ItemLong -- 14
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GpioHubEnableInterrupt: Failed to query BIOS descriptor from the Resource Hub! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GpioHubEnableInterrupt: Failed to find BIOS name to GPIO entry mapping! Gsiv = %10!#x!, Bios Name = %11!s!, Status = %12!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GpioHubEnableInterrupt: Failed to create Gsiv to GPIO entry mapping! Gsiv = %10!#x!, Bios Name = %11!s!, Status = %12!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GpioHubEnableInterrupt: Created Gsiv: %10!#x! <--> BIOS name: %11!s! <--> GPIO entry %12!p! mapping." //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemPtr -- 12
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GpioHubQueryPrimaryInterruptInformation: Supplied Gsiv is not in the secondary interrupt range. Gsiv = %10!#x!!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!: Failed to query BIOS descriptor  from the Resource Hub! Gsiv = %11!#x!, Status = %12!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!: Failed to find BIOS name to GPIO entry mapping! Gsiv = %11!#x!, Bios Name = %12!s!, Status = %13!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: Failed to create Gsiv to GPIO entry mapping! Gsiv = %11!#x!, Bios Name = %12!s!, Status = %13!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!: Created Gsiv: %11!#x! <--> BIOS name: %12!s! <--> GPIO entry %13!p! mapping." //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GpioHubQueryPrimaryInterruptInformation: Failed to query interrupt information! Gsiv = %10!#x!, Entry = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GpioHubQueryPrimaryInterruptInformation: Primary interrupt mapping found! GSIV = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GpioHubQueryPrimaryInterruptInformation: Primary interrupt mapping not found! Returning root (virtual) GPIO controller information. GSIV = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GpioHubQueryPrimaryInterruptInformation: Primary interrupt mapping not found!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!: GpioHubpCreateHubDeviceObject() failed! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0GpioHubpInitialize: WdfDpcCreate() failed! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0GpioHubpInitialize: Failed to register secondary interrupt interface with the HAL! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!: WdfControlDeviceInitAllocate() failed!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!: WdfDeviceCreate() failed! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!: Failed to query secondary interrupt information fromthe HAL! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0GpioHubpRegisterGpioDevice: Failed to allocate memory for new hub entry!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0GpioHubpFindGpioEntry: Failed to find GPIO entry! Type = %10!d!, Value = %11!#I64d!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0GpioHubpMapGsivToControllerName: Failed to query BIOS descriptor from the Resource Hub! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0GpioHubpMapGsivToControllerName: Failed to extract BIOS name from descriptor! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!: Failed to create emergency service thread! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+3dc622b2-75b6-3149-8624-7a487144638b sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!: Failed to reference emergency service thread! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GpioClxProcessAddDevicePreDeviceCreate: Failed to find GPIO client driver entry in the list!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GpioClxProcessAddDevicePreDeviceCreate: Failed to assign name to the GPIO device! Status = %10!#x!, DeviceInit = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GpioClxProcessAddDevicePreDeviceCreate: Failed to apply SDDL (System - ALL, Adm - ALL, LocalService - ALL) to the GPIO device object! Status = %10!#x!, DeviceInit = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!: WdfDeviceInitAssignWdmIrpPreprocessCallback() failed! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!: WdfDeviceInitAssignWdmIrpPreprocessCallback() failed! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to find GPIO client driver entry in the list!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to build GPIO device extension! Status = %10!#x!" //   IFRLOG=LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0GpioClxProcessAddDevicePostDeviceCreate: PDO 0x%10!p!, FDO 0x%11!p! Extension = 0x%12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to setupIO queues! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to setup self IO target! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to query BIOS name for the GPIO from ACPI! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GpioClxProcessAddDevicePostDeviceCreate: Failed to register client with the hub! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GpioClxRegisterClient: Failed to create client driver entry! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!: Client driver supplied an invalid context! Extension = %11!p!, Bank ID = 0x%12!x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!: Client driver specified an invalid bank ID! Bank ID = 0x%11!x!, Total banks = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!: Client driver tried to acquire the interrupt lock that was already acquired by current thread! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!: Client driver tried to acquire the passive-level lock that was already acquired by current thread! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!: Client driver supplied an invalid context! Extension = %11!p!, Bank ID = 0x%12!x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!: Client driver specified an invalid bank ID! Bank ID = 0x%11!x!, Total banks = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!: Client driver tried to release the interrupt lock that it did not own! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!: Client driver tried to release the passive-level lock that it did not own! Bank ID = 0x%11!x!, Total banks = %12!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0GpiopAssignTargetName: Failed to allocate memory for target name! Length = %10!d!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0GpiopSetupPrimaryDeviceIoQueue: Failed to create WDF IO queue! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0GpiopSetupSelfIoTarget: Failed to create self IO  target! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0GpiopSetupSelfIoTarget: Failed to open self IO  target! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0GpiopOpenResourceHubTarget: Failed to create resource hub target! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+427606fe-c5cc-3a46-a268-9d428fedee9f sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0GpiopOpenResourceHubTarget: Failed to open resource hub target! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!: Unexpected return value returned from ACPI driver! Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!: Unrecognized output buffer returned from ACPI driver! Signature = %11!#x!, Size = %12!#x!, Status = %13!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!: Failed to allocate memory for ACPI output buffer! Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!: IOCTL_ACPI_ENUM_CHILDREN failed! Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!: Unrecognized output buffer returned from ACPI driver! Signature = %11!#x!, Children = %12!#x!, Size = %13!#x!, Reqd = %14!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: Failed to open parameters registry key! Path = %11!s!\%12!s!, Status= %13!#x!." //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!: Failed to query registry flags! Path = %11!s!\%12!s!, ValueKey = %13!s!, Status= %14!#x!." //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemLong -- 14
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!: Successfully queried registry flags! Path = %11!s!\%12!s!, ValueKey = %13!s!, Value = %14!#x!." //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemLong -- 14
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PinCount = %10!#x!, PinNumbers = [ -- NULL -- ]" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PinCount = %10!#x!, PinNumbers = [%11!#x!]" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PinCount = %10!#x!, PinNumbers = [%11!s!]" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!#x!," //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+4afd5c69-d0d9-3ec2-26ad-4c6710eb130d sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!#x!]" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GpiopEnableInterrupt: Invalid interrupt polarity specified! Failing enable interrupt request! Gsiv = %10!#x!, Mode = %11!d!, Polarity = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0GpiopConnectGpioPins: Connect mode not compatible with mode for pin! Absolute pin = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0GpiopConnectGpioPins: Client driver failed to connect pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%10!s!: IORestriction is input only...failing output connect request! Extn = 0x%11!p!, ID = [0x%12!I64x!], Mode = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%10!s!: IORestriction is output only...failing input connect request! Extn = 0x%11!p!, ID = [0x%12!I64x!], Mode = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!s!: Pin already configured for function config! Absolute pin = %11!#x!, FunctionConfigPinState = %12!#x! Mode = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%10!s!: Interrupt pin cannot be opened in output mode without registry override! Absolute pin = %11!#x!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%10!s!: Input pin cannot be opened in output mode! Absolute pin = %11!#x!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!s!: Output pin cannot be opened in input mode! Absolute pin = %11!#x!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!s!: Pin already opened in exclusive mode! Absolute pin = %11!#x!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0GpiopDisconnectGpioPins: Attempting to disconnect GPIO pins! Extn = 0x%10!p!, Mode = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GpiopEnableInterrupt: Invalid interrupt polarity specified! Failing enable interrupt request! Gsiv = %10!#x!, Mode = %11!d!, Polarity = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0%10!s!: Successfully disconnected GPIO pins! Extn = 0x%11!p!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%10!s!: Switching pin direction to %11!s!! Extn = 0x%12!p!, PinTable = 0x%13!p!, PinCount = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0%10!s!: Failed to switch pin direction to %11!s!! Extn = 0x%12!p!, PinTable = 0x%13!p!, PinCount = %14!#x!, Status = %15!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0%10!s!: Successfully switched pin direction to %11!s!! Extn = 0x%12!p!, PinTable = 0x%13!p!, PinCount = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0GpiopReadPins: Pins not connected for input. Read is not permitted! Extn = 0x%10!p!, ConnectMode = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0GpiopReadPins: Invalid handle - Pin number table or count is not valid! Extn = 0x%10!p! PinNumberTable = 0x%11!p!, PinCount = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0GpiopReadPins: Input buffer size to small...failing read!Extn = 0x%10!p!, Size = %11!d!, Reqd = %12!d!, PinCount = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0GpiopReadPins: Attempting to read GPIO IO pins! Extn = 0x%10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0GpiopReadPins: Device not in its started state! Failing read request! Extn = 0x%10!p!, PinCount = %11!#x!, State = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GpiopEnableInterrupt: Failed to query BIOS descriptor from the Resource Hub! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0GpiopReadPins: Client driver failed to read IO pins! Extn = 0x%10!p!, Size = %11!d!, PinCount = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0GpiopReadPins: Client driver failed to connect input pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0GpiopReadPins: Successfully read IO pins! Extn = 0x%10!p!, Buffer = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0GpiopWritePins: Pins not connected for output. Write is not permitted! Extn = 0x%10!p!, ConnectMode = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0GpiopWritePins: Invalid handle - Pin number table or count is not valid! Extn = 0x%10!p! PinNumberTable = 0x%11!p!, PinCount = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0GpiopWritePins: Input buffer to small...failing write!Extn = 0x%10!p!, Size = %11!d!, Reqd = %12!d!, PinCount = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0GpiopWritePins: Attempting to write to GPIO IO pins! Extn = 0x%10!p! Request = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0GpiopWritePins: Device not in its started state! Failing write request! Extn = 0x%10!p!, PinCount = %11!#x!, State = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0GpiopWritePins: Client driver failed to write IO pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0GpiopWritePins: Client driver failed to connect output pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GpiopEnableInterrupt: BIOS GPIO descriptor length is invalid! Gsiv = %10!#x!, Length = %11!d!, Reqd = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0GpiopWritePins: Successfully wrote to IO pins! Extn = 0x%10!p!, Request = 0x%11!p!, Buffer = 0x%12!p!, BitsWritten = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0%10!s!: ActiveBoth is not emulated. Skipping _DSM call." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0%10!s!: Optional _DSM does not exist." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0%10!s!: _DSM query function failed to execute." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0%10!s!: _DSM does not support optional ActiveBothPolarity function." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0%10!s!: _DSM ActiveBothPolarity function failed to execute." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0%10!s!: _DSM ActiveBothFunction returned a package of %11!#x! pin numbers," //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0%10!s!: Controller-relative pin #%11!#x! is ActiveHigh." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0%10!s!: Exiting with Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0GpiopInitialize: Failed to initialize the HUB device (phase 0 init)! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GpiopEnableInterrupt: BIOS GPIO descriptor length is invalid! Gsiv = %10!#x!, Length = %11!d!, Reqd = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0GpiopInitialize: Failed to initialize the HUB device (phase 1 init)! Status = %10!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0GpiopCreateClient: Registration packet is not valid!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0GpiopCreateClient: Failed to allocate memory for client! driver" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0%10!s!: Client driver failed query for bank information! Status = %11!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0%10!s!: Client driver returned invalid bank information!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0%10!s!: Client driver failed query device attributes! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0%10!s!: Failed to setup banks for the GPIO controller! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0%10!s!: Failed to setup interrupts for GPIO banks!Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0GpioClxEvtDevicePrepareHardware: Failed to allocate resources for interrupt processing! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0GpiopBuildDeviceExtension: Failed to retrieve device name!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0GpiopEnableInterrupt: BIOS GPIO descriptor pin count is not 1! Gsiv = %10!#x!, PinCount = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0GpiopBuildDeviceExtension: Failed to allocate memory for device name string!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0%!FUNC! - WdfSpinLockCreate() failed with %10!s!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0%10!s! - GpiopInitializeDevicePowerWorker() failed with Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0%10!s!: Failed to allocate memory for GPIO banks. Size = %11!#x!!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0GpiopBuildDeviceExtension: WdfWaitLockCreate() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0%10!s!: Failed to intialize bank power data! Extn = %11!p!, Bank ID = 0x%12!x!!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0%10!s!: Failed to allocate debounce/noise timer work item! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0%10!s!: Failed to allocate memory for debounce timer context! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0%10!s!: Failed to allocate enhanced debounce timer! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0%10!s!: Failed to allocate memory for noise timer context! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GpiopEnableInterrupt: No ACPI event handler associated with ACPI event pin! Extn = %10!p!, PinNumber = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0%10!s!: Failed to allocate enhanced noise filter timer! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0%10!s!: Failed to resolve interrupt binding! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0%10!s! - WdfSpinLockCreate() failed for bank interrupt lock! Bank ID = 0x%11!x!, Status = %12!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0%10!s!: WdfInterruptCreate() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0%10!s!: WdfInterruptCreate() failed for passive interrupt! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0%10!s!: Failed to allocate memory for pin table! Size = %11!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0%10!s!: Failed to allocate memory for pin!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0%10!s!: Failed to query BIOS descriptor from the Resource Hub! ID = [0x%11!I64x!], Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0%10!s!: BIOS function config descriptor length is invalid! Extn = 0x%11!p!, Length = %12!d!, Reqd = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0%10!s!: BIOS function config descriptor pin count is zero! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0GpiopEnableInterrupt: No bank associated with pin number! Pin number is invalid! Gsiv = %10!#x!, PinNumber = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0%10!s!: BIOS GPIO descriptor length is invalid! Extn = 0x%11!p!, Length = %12!d!, Reqd = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0%10!s!: BIOS GPIO descriptor pin count is zero! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0%10!s!: No bank associated with specified pins! Pin number is invalid! PinNumber = %11!#x!, Bank ID = 0x%12!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0%10!s!: Failed to open resource hub target! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0%10!s!: Failed to open resource hub target! Status = %11!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0%10!s!: No interrupt resources described. Bindings skipped!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0%10!s!: Failed to allocate memory for mapping indexes!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0%10!s!: Client driver returned invalid binding information! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0%10!s!: Failed to query binding information from client! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GpiopEnableInterrupt: BIOS GPIO descriptor pin number is invalid, or out of memory! Gsiv = %10!#x!, PinNumber = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0%10!s!: Transition or residency for F1 is zero! Bank ID = 0x%11!x!, Latency = 0x%12!I64x!, Residency = 0x%13!I64x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0%!FUNC! - WdfIoQueueCreate() failed! Status = %10!#x! Bank ID = 0x%11!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0%10!s!: Client driver bank information version is not supported! Actual = %11!d!, Min = %12!d!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0%10!s!: Client driver bank information buffer size is not valid! Actual = %11!d!, Min required = %12!d!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0%10!s!: Client driver attributes version not supported! Actual = %11!d!, Min = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0%10!s!: Client driver information buffer size not valid! Actual = %11!d!, Min required = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0%10!s!: Client driver total pins or pins per bank information is incorrect! Total Pins = %11!#x!, PinsPerBank = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0%10!s!: Pins per bank > 0x40! PinsPerBank = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0%10!s!: Client driver passed non-zero value for reserved field!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0%10!s!: F-state power management is not supported for off-SoC GPIOs!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GpiopEnableInterrupt: Failed to query initial polarity for emulated active both interrupt using the Resource Hub! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0%10!s!: Client driver interrupt binding version not supported! Actual = %11!d!, Min = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0%10!s!: Client driver information buffer size not valid! Actual = %11!d!, Min required = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0%10!s!: Client driver bank information version is not supported! Actual = %11!d!, Min = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0%10!s!: Client driver bank information buffer size is not valid! Actual = %11!d!, Min required = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0%10!s!: Client version not supported! Version = %11!d!, Minimum supported = %12!d!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0%10!s!: Client packet size mismatch! Expected = %11!#x!, Actual = %12!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0%10!s!: Mandatory device init-related interface(s) not supplied! Packet = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0%10!s!: All interrupt-related interface not supplied! Packet = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0%10!s!: DisconnectIo interface not supplied! Packet = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0%10!s!: Either read or write interface must be supplied! Packet = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GpiopEnableInterrupt: Failed to allocate debounce resources! Gsiv = %10!#x!, PinNumber = %11!#x!, Timeout = %12!#x!, Status = %13!d! " //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0%10!s!: Registration packet does not meet the internal structure size! Packet = %11!p!, Actual = %12!#x!, Required = %13!#x!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0%10!s!: CreateIoContext interface is supplied but not the DeleteIoContext! Packet = %11!p!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0%10!s!: ActiveBoth is being emulated but reconfigure interrupt interface is supplied! Extension = %11!p!, Device = %12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0%10!s!: Force emergency worker flag = %11!d!!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0%10!s!: Check enabled interrupts flag = %11!d!!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0%10!s!: Debounce model override = %11!d!!" //   IFRLOG=GpioLogHandle LEVEL=Info FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GpiopEnableInterrupt: Attempting to connect GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Mode = %13!#x!, Polarity = %14!#x!, Debounce interval (ms) = %15!#x!, Noise filter interval (us) = 0x%16!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLongLongX -- 16
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GpiopEnableInterrupt: Pin already configured for output! Gsiv = %10!#x!, Pin = %11!#x!, PinInformation = 0x%12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0GpiopEnableInterrupt: Pin already configured for interrupt! Gsiv = %10!#x!, Pin = %11!#x!, PinInformation = 0x%12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0GpiopEnableInterrupt: Pin already configured for IO inexclusive mode or being opened for interrupt in exclusive mode! Gsiv = %10!#x!, Pin = %11!#x!, PinInformation = 0x%12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0GpiopEnableInterrupt: Pin already reserved or configured for function config! Gsiv = %10!#x!, Pin = %11!#x!, PinInformation = 0x%12!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0GpiopEnableInterrupt: Client driver failed enable interrupt request! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0GpiopEnableInterrupt: Successfully connected GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Mode = %13!#x!, Polarity = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0GpiopDisableInterrupt: Gsiv (%10!#x!) is invalid!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0GpiopDisableInterrupt: Attempting to disconnect GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, Bank ID = 0x%12!x!, RelativePinNumber = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0GpiopDisableInterrupt: Client driver failed disable interrupt request! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0GpiopDisableInterrupt: Successfully disconnected GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, Bank ID = 0x%12!x!, RelativePin = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!: Device not in its started state! Bailing out on mask request! Extn = 0x%11!p!, State = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0GpiopMaskInterrupt: Gsiv supplied is invalid! Extn = 0x%10!p!, Gsiv = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0GpiopMaskInterrupt: Attempting to mask GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, Bank ID = 0x%12!x!, RelativePin = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0GpiopMaskInterrupt: Pin not configured for interrupt! Mode = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0GpiopMaskInterrupt: Successfully masked GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Mask count = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0GpiopMaskInterrupt: Scheduled a deferred mask request! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0GpiopMaskInterrupt: Client driver failed mask interrupt request! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0GpiopMaskInterrupt: Successfully masked GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0GpiopUnmaskInterrupt: Invalid Gsiv! Extn = 0x%10!p!, Gsiv = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0GpiopUnmaskInterrupt: Attempting to unmask GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0GpiopUnmaskInterrupt: Pin not configured for interrupt!Mode = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0GpiopUnmaskInterrupt: Successfully unmasked GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, MaskCount = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0GpiopUnmaskInterrupt: Unmask request skipped due a parallel mask request! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Mask count = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0GpiopUnmaskInterrupt: Scheduled a deferred unmask request!Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0GpiopUnmaskInterrupt: Client driver failed unmask interrupt request! Gsiv = %10!#x!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0GpiopUnmaskInterrupt: Successfully unmasked GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0GpiopRequestInterrupt: Gsiv supplied is invalid! Extn = 0x%10!p!, Gsiv = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0GpiopRequestInterrupt: Attempting to request GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, Bank ID = 0x%12!x!, RelativePin = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0GpiopRequestInterrupt: Pin not configured for interrupt!Mode = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0GpiopRequestInterrupt: Successfully requested GPIO interrupt! Extn = 0x%10!p!, Gsiv = %11!#x!, PinNumber = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!: Masking pins for Bank = %11!p!, PinMask = 0x%12!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!: Masking pins. Bank = %11!p!, PinMask = 0x%12!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!: Failed masking pins. Bank = %11!p!, PinMask = 0x%12!I64x!, FailedMask = 0x%13!I64x!, Status = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!: Unmasking pins. Bank = %11!p!, Pin number = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!: Failed unmasking pin. Bank = %11!p!, Pin number = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!: Clearing status for pins. Bank = %11!p!, PinMask = 0x%12!I64x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!: Failed clearing status for pins. Bank = %11!p!, PinMask = 0x%12!I64x!, FailedClear = 0x%13!I64x!, Status = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!: Device not in its started state! Terminatingdeferred disable operation! Extn = %11!p!, State = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!: Reconfigured interrupt. Bank = %11!p!, Pin number = %12!#x!, New Mode = %13!#x!, New Polarity = %14!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!: Failed reconfiguring interrupt! Bank = %11!p!, Pin number = %12!#x!, New Mode = %13!#x!, New Polarity = %14!#x! Status = %15!#x!" //   IFRLOG=GpioBank->GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!: Scheduled a deferred reconfigure request!Extn = 0x%11!p!, PinNumber = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!: Client driver failed reconfigure interrupt!Extn = %11!p!, PinNumber = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!: Successfully reconfigured interrupt!Extn = %11!p!, PinNumber = %12!#x!, Status = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!: Failed to query BIOS descriptor from the Resource Hub! ID = [0x%11!I64x!], Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!: BIOS function config descriptor length is invalid! Extn = 0x%11!p!, Length = %12!d!, Reqd = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!: BIOS function config descriptor length is invalid! Extn = 0x%11!p!, Length = %12!d!, Reqd = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!: BIOS function config descriptor pin count s zero! Extn = 0x%11!p!, ID = [0x%12!I64x!]" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!: No bank associated with specified pins! Pin number is invalid!  Absolute pin = %11!#x!, Bank ID = 0x%12!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!: Function config pins span across banks which is not supported! Extn = 0x%11!p!, Bank ID = 0x%12!x!, Current Bank ID = 0x%13!x!, Absolute pin = %14!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!: Unable to allocate memory for pin table!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!: Unable to allocate memory for pin information table!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!: Attempting to connect pins for function config! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!: Pin information cannot be found!  Extn = 0x%11!p!, Absolute pin = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!: Successfully connected function config pins!, Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!: Connect mode not compatible with mode for pin! Absolute pin = %11!#x!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!: Client driver failed to connect pins! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!: Successfully connected function config pins! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!: Client driver failed to connect pins! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!: Pin cannot be configured for function config Absolute pin = %11!#x!,  Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!: Function config pin is being opened in non-exclusive mode or already configured for function config. Absolute pin = %11!#x!, Mode = %12!#x!, IsShared = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%10!s!: Pin cannot be configured for function config Absolute pin = %11!#x!,  Expected function config state = %12!#x! Actual function config state = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!s!: Attempting to disconnect function config pins! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%10!s!: Successfully disconnected function config pins! Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0GpiopConnectGpioPins: Invalid connect mode! Extn = 0x%10!p!, ID = [0x%11!I64x!], Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0GpiopConnectGpioPins: Failed to query BIOS descriptor from the Resource Hub! ID = [0x%10!I64x!], Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0GpiopConnectGpioPins: BIOS GPIO descriptor length is invalid! Extn = 0x%10!p!, Length = %11!d!, Reqd = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0GpiopConnectGpioPins: BIOS GPIO descriptor length is invalid! Extn = 0x%10!p!, Length = %11!d!, Reqd = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0GpiopConnectGpioPins: BIOS GPIO descriptor pin count is zero! Extn = 0x%10!p!, ID = [0x%11!I64x!], Mode = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0GpiopConnectGpioPins: No bank associated with specified pins! Pin number is invalid! Absolute pin = %10!#x!, Bank ID = 0x%11!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0GpiopConnectGpioPins: GPIO pins span across banks which is not supported! Extn = 0x%10!p!, Bank ID = 0x%11!x!, Current Bank ID = 0x%12!x!, Absolute pin = %13!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0GpiopConnectGpioPins: Unable to allocate memory for pin table!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0GpiopConnectGpioPins: Unable to allocate memory for pin information table!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0GpiopConnectGpioPins: Unable to allocate memory for connect pin table!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%10!s!: Attempting to connect GPIO pins for IO! Extn = 0x%11!p!, Mode = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!s!: Pin information cannot be found!  Extn = 0x%11!p!, Absolute pin = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0GpiopConnectGpioPins: Successfully connected GPIO pins! Extn = 0x%10!p!, Mode = %11!#x!, Deferred = %12!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+92df18b6-408f-3294-f1fe-8565d1fc8ee6 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0GpiopConnectGpioPins: Client driver failed to create context! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s! - Marked bank active! Extn = %11!p!, Bank ID = 0x%12!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s! - Marked bank idle! Extn = %11!p!, Bank ID = 0x%12!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s! - WdfStopIdle() called! Extn = %11!p!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s! - PoFxReportDevicePoweredOn() called! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s! - Received DevicePowerNotRequired notification...WdfDeviceResumeIdle() called! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!: WdfDeviceAssignS0IdleSettings() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!: Failed to allocate device power work item! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s! - %11!s! SaveBankHardwareContext() for Extn = %12!p!, Bank ID = 0x%13!x!, Critical = %14!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s! - %11!s! RestoreBankHardwareContext() for Extn = %12!p!, Bank ID = 0x%13!x!, Critical = %14!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s! - Transitioned bank into new FState! Extn = %11!p!, Bank ID = 0x%12!x! State = %13!d!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!: Failed to allocate memory for runtime power management registration buffer!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s! - PoFxRegisterDevice() failed with Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s! - Calling WdfStopIdle() to stop idle power mgmt...calling PoFxStartDevicePowerManagement()! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s! - Starting runtime power mgmt...calling PoFxStartDevicePowerManagement()! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a856747a-05b5-3e13-bb3d-28b8dd750599 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s! - Stopping runtime power mgmt...PoFxUnregisterDevice() called!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GpioEvtDevicePrepareHardware: Client failed initialization! Status = %10!#x!, Extension = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GpioClxEvtDevicePrepareHardware: Client failed controller attributes query! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GpioClxEvtDevicePrepareHardware: Failed to set Dx Idle power policy! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GpioClxEvtDevicePrepareHardware: Client failed to return  interrupt and IO information! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GpioEvtDeviceReleaseHardware: GpioClnInvokeUninitializeDevice() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0GpioClxEvtDeviceD0Entry: Client failed to start the device! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GpioClxEvtDeviceD0Exit: Client failed to stop the device! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s! - PoFxReportDevicePoweredOn() called! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_POWER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GpioClxEvtDeviceFileCreate: D0 had previously failed" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GpioClxEvtDeviceFileCreate: D0 entry failed! Status=%10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: Failed to map request to bank! Status = %10!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GpioClxEvtDeviceFileCreate: Invalid connect mode = %10!#x!!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: Failed to forward request to bank queue! Bank ID = 0x%10!x!, Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0GpioClxEvtFileClose: Failed to get file context!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0GpioClxEvtFileClose: Failed to disconnect function config pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0GpioClxEvtFileClose: Failed to disconnect pins! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Failed to get file context from request! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: IOCTL_GPIO_COMMIT_FUNCTION_CONFIG_PINS sent to a GPIO resource descriptor! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: IOCTL_GPIO_READ_PINS/IOCTL_GPIO_WRITE_PINS sent to a function config resource descriptor! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: Failed to forward request to bank queue! Bank ID = 0x%10!x!, Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0GpioClxEvtProcessDeviceIoControl: Failed to get file context from request! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: Failed to forward request to bank queue! Bank ID = 0x%10!x!, Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0GpiopProcessInterruptRequestIoctl: WdfRequestRetrieveInputBuffer() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemLong -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!: Gsiv (%11!#x!) is invalid!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!: Failed to map request to bank! Status = %11!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!: Failed to forward request to bank queue! Bank ID = 0x%11!x!, Status = %12!#x!." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0GpioClxEvtDeviceContextCleanup: Cleanup called!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_PNP
+{
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!: GPIO banks implicitly moved into F0 state!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_PNP
+{
+Arg, ItemString -- 10
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!: Failed to get file context from request! Request = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b90117f6-307c-3fa9-1f04-b2934ad38f33 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!: WdfRequestRetrieveInputBuffer() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INTERRUPT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e8372149-54ac-3550-69aa-d131b2172f11 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0GpioClxClassLibraryBindClient: Incorrect function count! Requested = %10!d!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+e8372149-54ac-3550-69aa-d131b2172f11 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0GpioClxClassLibraryBindClient: Unsupported minor version! Requested = %10!d!, Supported <= %11!d!" //   IFRLOG=GpioLogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!: Failed to get file context from request! Request = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!: WdfRequestRetrieveInputBuffer() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!: WdfRequestRetrieveOutputBuffer() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!: Failed to allocate memory for IOCTL-bank mapping!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!: Query IOCTL-bank mapping failed or the query returned invalid information!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemString -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!: Failed to get file context from request! Request = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_FUNCCONFIG
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0GpiopProcessReadPinsRequest: Failed to get file contextfrom request! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GpiopProcessReadPinsRequest: WdfRequestRetrieveOutputBuffer() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GpiopProcessWritePinsRequest: Failed to get file contextfrom request! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemPtr -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GpiopProcessWritePinsRequest: WdfRequestRetrieveInputBuffer() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IO
+{
+Arg, ItemLong -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GpiopProcessFastIoInterfaceRequest: Failed to get file context from request! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GpiopProcessFastIoInterfaceRequest: Fast I/O interface is returned only for on-SoC GPIO controllers! Request = %10!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+}
+
+eaf95469-058e-31d2-68c8-4b20613e56b5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0GpiopProcessFastIoInterfaceRequest: WdfRequestRetrieveOutputBuffer() failed! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to allocate work item to initialize ACPI eventing! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0_AEI method does not exist. ACPI eventing will not be enabled! Extn = 0x%10!p!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to evaluate _AEI method. ACPI eventing will not be enabled! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0_AEI method evaluation didn't return any buffer!Skipping enabling of ACPI eventing..." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Error parsing _AEI method output buffer! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0_AEI method evaluation didn't return any valid GPIO interrupt descriptor. Skipping enabling of ACPI eventing..." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error trying to build event handler list! ACPI eventing will not be enabled! Extn = 0x%10!p!, Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to validate descriptors in _AEI with namespace methods! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to register power setting callback for _AEI methods! Status = %10!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemLong -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!: Failed to allocate memory for eventing bitmap buffer!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!: WdfDpcCreate() failed! Status = %11!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!: Failed to enumerate ACPI namespace children! Extn = %11!p!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!: _EVT() is defined in namespace. Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!: _EVT() is NOT defined in namespace. Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!: Failed to enumerate ACPI namespace children! Extn = %11!p!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!: Failed to parse namespace children list! Extn = %11!p!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!: No namespace _Lxx/_Exx children present!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!: Failed to allocate buffer for combined edge/levelpin list! Extn = %11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!: Failed to parse namespace children list! Extn = %11!p!, Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!: Argument buffer size is not sufficient!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!: First argument is not a buffer argument!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_INIT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!: No valid descriptors returned by _AEI!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!: Failed to allocate memory for translation output buffer! " //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!: Found a non-GPIO interrupt descriptor describedunder _AEI method! Index = %11!d!, Type = %12!d!. Skipping." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!: Failed to %11!s! GPIO interrupt! for ACPI event! Vector = %12!#x!, Mode = %13!d!, Polarity = %14!d!, Action = %15!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!: Successfully %11!s! GPIO interrupt for ACPI event! Vector = %12!#x!, Mode = %13!d!, Polarity = %14!d!, Action = %15!x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!: Preparing for events again. Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!: Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!: Saw event worker complete. Extn = 0x%11!p!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!: Found a non-GPIO interrupt descriptor described under _AEI method! Index = %11!d!, Type = %12!d!. Skipping." //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!: EVENT -> Executing method %11!s! [Pin = %12!#x!]..." //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!: EVENT -> Method %11!s! does not exist! This is firmware bug! Status = %12!#x!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!: EVENT -> Method %11!s! evaluation failed! Status = %12!#x! " //   IFRLOG=GpioExtension->LogHandle LEVEL=Error FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f397d8c5-b7da-36a1-7146-797ab20f2633 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!: EVENT -> Method %11!s! evaluation succeeded!" //   IFRLOG=GpioExtension->LogHandle LEVEL=Info FLAGS=DBG_ACPIEVT
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+}
+

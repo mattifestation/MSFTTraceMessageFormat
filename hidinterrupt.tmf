@@ -1,0 +1,865 @@
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfRequestRetrieveOutputMemory failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfMemoryCopyFromBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfRequestRetrieveOutputMemory failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfMemoryCopyFromBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfRequestRetrieveOutputBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0IOCTL_HID_GET_STRING: Invalid String ID %10!u! requested" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0IOCTL_HID_GET_STRING: Insufficient buffer length. Expected %10!Iu!, Supplied %11!Iu!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3d4d3209-5dcd-3bdc-405e-bd77aae22eef hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IoControlCode %10!u! not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0VhfReadReportSubmit: %10!s!, Collection UP:%11!04X!_U:%12!04X!, Control UP:%13!04X!_U:%14!04X!, state %15!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0VhfReadReportSubmit failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0EvtVhfReadyForNextReadReport callback received" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0EvtVhfGetFeature(0x%10!p!) Complete %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0EvtVhfGetInputReport(0x%10!p!) Complete %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0EvtVhfGetInputReport(0x%10!p!) Complete %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] WdfDeviceCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[WDFDEVICE: 0x%10!p!] HIDINT_ParseDeviceSpecificData failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[WDFDEVICE: 0x%10!p!] WdfSpinLockCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueReadyNotify Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[WDFDEVICE: 0x%10!p!] EvtDevicePrepareHardware Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[WDFDEVICE: 0x%10!p!] No interrupt resources received" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[WDFDEVICE: 0x%10!p!] Failed to allocate InterruptDataArray" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0[WDFDEVICE: 0x%10!p!] Encountered resource descriptor type other than Interrupt %11!u!, %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[WDFDEVICE: 0x%10!p!] WdfInterruptCreate failed %11!s! for Interrupt number %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[WDFDEVICE: 0x%10!p!] %11!u! : Created WDFINTERRUPT 0x%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Skipping HidControl UP:%10!04X!_U:%11!04X! which has unrecognized Interrupt index %12!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ACPI Error: Interrupt index %10!u! referenced by a second HidControl UP:%11!04X!_U:%12!04X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[WDFDEVICE: 0x%10!p!] HIDINT_InferOneShotControls failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[WDFDEVICE: 0x%10!p!] EvtDevicePrepareHardware Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceReleaseHardware Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceReleaseHardware Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceSelfManagedIoInit Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[WDFDEVICE: 0x%10!p!] VhfStart failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceSelfManagedIoInit Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceSelfManagedIoCleanup Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceSelfManagedIoCleanup Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0[%10!u!] Interrupt %11!u! : Collection UP:%12!04X!_U:%13!04X!, Control UP:%14!04X!_U:%15!04X!, new state %16!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Interrupt %10!u! : PendingStateChangeQueue is full. Dropping pair of events from same Control" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfRequestRetrieveOutputBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WdfRequestForwardToIoQueue failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Incorrect Report Id %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0HID_XFER_PACKET->reportBufferLen is insufficientExpected %10!Iu!, Supplied %11!Iu!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Disabling Control UP:%10!04X!_U:%11!04X!, Interrupt %12!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Enabling Control UP:%10!04X!_U:%11!04X!, Interrupt %12!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Disabling Control UP:%10!04X!_U:%11!04X!, No corresponding interrupt" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Enabling Control UP:%10!04X!_U:%11!04X!, No corresponding interrupt" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0UserBuffer is small. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Irp->UserBuffer is NULL. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0IOCTL_HID_GET_FEATURE Complete %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0IOCTL_HID_GET_INPUT_REPORT Complete %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0UserBuffer is small. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Irp->UserBuffer is NULL. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0IOCTL_HID_SET_FEATURE Complete %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0[%10!u!] Read Report: WDFREQUEST %11!p!, Collection UP:%12!04X!_U:%13!04X!, Control UP:%14!04X!_U:%15!04X!, state %16!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0[WDFDEVICE: 0x%10!p!] ParseDeviceSpecificData (_DSD) Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ACPI_EvaluateMethod failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ACPI Error: _DSD object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0ACPI Error: _DSD object returned no arguments" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0[WDFDEVICE: 0x%10!p!] _DSD object buffer retrieved from ACPI" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ACPI Error: Argument type other than UUID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Skipping unrecognized Device Data Descriptor Package with UUID: %10!s!. Expected UUID: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemGuid -- 10
+Arg, ItemGuid -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ACPI Error: HID Button Device Data Descriptor data buffer must be of type Package" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0ACPI Error: HID Button Device Data Descriptor not found in _DSD" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0ACPI Error: HID Button Device Data Descriptor Data Buffer Package not found in _DSD" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0[WDFDEVICE: 0x%10!p!] ParseDeviceSpecificData (_DSD) Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ACPI Error: HID Button Info %10!u! must be of type PACKAGE" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0HIDINT_ParseHidButtonInfo failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0HIDINT_ProcessHidButtonInfo failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0ACPI_ParseArguments failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Device Info: VendorID 0x%10!04X!, ProductID 0x%11!04X!, VersionNumber 0x%12!04X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Failed to allocate hidCollection" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0ACPI_ParseArguments failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Collection Info: UP:%10!04X!_U:%11!04X!, ID %12!u!, ParentCollectionID %13!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0ACPI Error: Invalid ID 0 specified for HID Collection UP:%10!04X!_U:%11!04X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ACPI Error: Invalid ParentCollectionID %10!u! specified for HID Collection UP:%11!04X!_U:%12!04X!Nested HID Collections not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed to allocate hidControl" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0ACPI_ParseArguments failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Control Info: UP:%10!04X!_U:%11!04X!, Interrupt %12!u!, ParentCollectionID %13!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0ACPI Error: Non-existent ParentCollectionID %10!u! specified for Control UP:%11!04X!_U:%12!04X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0ACPI Error: Collection UP:%10!04X!_U:%11!04X! has no Controls" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0[WDFDEVICE: 0x%10!p!] WdfSpinLockCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0ACPI Error: No HID Collections or Controls specified" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0ACPI Error: Too many Hid Collections or Controls specifiedThis will make the HID ReportDescriptorLength exceed USHORT_MAX" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Failed to allocate buffer for HID Report Descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Internal error in generating HID Report Descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0ACPI_EvaluateMethod failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0ACPI Error: _DSD object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0ACPI Error: _DSD object returned no arguments" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0ACPI Error: More interrupts found on _CRS than received in EvtDevicePrepareHardware %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0[WDFDEVICE: 0x%10!p!] HIDINT_VhfInitialize Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0[WDFDEVICE: 0x%10!p!] Failed to allocate hidIntData->VhfReadReportBuffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0[WDFDEVICE: 0x%10!p!] VhfCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3ebb5a13-5455-3867-d270-ec737ad12d9a hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0[WDFDEVICE: 0x%10!p!] HIDINT_VhfInitialize Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unexpected Argument DataLength. Expected: %10!u!, Actual: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s! has too many elements (%11!u! expected)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!.%11!s! has an unexpected type %12!s!. Expected type:" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0    INTEGER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0    STRING" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0    BUFFER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!.%11!s! is malformed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+}
+
+53f4ab46-0324-3dd8-522e-2e8a7db36154 hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s! has too few elements, expected %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VHF: VhfCreate Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0VHF: Failed to allocate vhfContext" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0VHF: IoGetLowerDeviceObject failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VHF: Failed to allocate vhfCreateDeviceIoctlInput" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0VHF: Failed to allocate createDeviceIrp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0VHF: IOCTL_HID_VHF_CREATE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0VHF: Failed to allocate PullRequestReportBuffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0VHF: Failed to allocate ClientOperationContext" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0VHF: Failed to allocate Mdl for Notify Irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0VHF: VhfCreate Exit: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0VHF: VhfStart Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0VHF: VHF device already started: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0VHF: VhfStart Exit: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0VHF: VhfDelete called at %10!s!. Ignoring Wait parameter" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfDelete
+{
+Arg, ItemListByte(Low,APC,DPC) -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_SubmitReadReport
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0VHF: IOCTL_HID_VHF_READ_REPORT_COMPLETE sent %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=Vhfi_SubmitReadReport
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0VHF: IOCTL_HID_VHF_READ_REPORT_COMPLETE complete %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=Vhfi_SubmitReadReportComplete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0VHF: IOCTL_HID_VHF_DELETE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_Delete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0VHF: IOCTL_HID_VHF_DELETE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_DeleteComplete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7552f210-39bb-310a-28a4-916b35e2d8ce hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] DriverEntry Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+7552f210-39bb-310a-28a4-916b35e2d8ce hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfDriverCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7552f210-39bb-310a-28a4-916b35e2d8ce hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[DriverObject: 0x%10!p!] DriverEntry Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7552f210-39bb-310a-28a4-916b35e2d8ce hidinterrupt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] DriverUnload" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_PendNotifyToVhf
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_VhfNotifyComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_ClientRequestComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_VhfRequestComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+

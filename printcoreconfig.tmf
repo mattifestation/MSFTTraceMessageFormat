@@ -1,0 +1,1828 @@
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppXmlNode HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (ppXmlNode=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Result (pbstrName=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Result (pbstrNamespaceUri=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppXmlNodeValue HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Parameters (bstrName=%10!s!, bstrNamespaceUri=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (ppXmlNodeValue=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+21342b16-d0f9-3b4c-3f34-7c51864293af PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppXmlNode HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (ppXmlNode=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Result (ppFeature=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Result (ppFeature=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Result (ppPageImageableSize=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulJobCopiesAllDocumentsMinValue HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 Result (pulJobCopiesAllDocumentsMinValue=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulJobCopiesAllDocumentsMaxValue HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Result (pulJobCopiesAllDocumentsMaxValue=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOption HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 Result (ppOption=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOptionCollection HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 Result (ppOptionCollection=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppParameterDefinition HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 Result (ppParameterDefinition=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+234de7c8-e649-3859-6d00-9a1214146b23 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulImageableSizeWidth HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pulImageableSizeWidth=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulImageableSizeHeight HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Result (pulImageableSizeHeight=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulOriginWidth HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Result (pulOriginWidth=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulOriginHeight HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Result (pulOriginHeight=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulExtentWidth HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Result (pulExtentWidth=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulExtentHeight HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Result (pulExtentHeight=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+2bfaaac5-2415-3ac0-9b0d-1e7fa70154a2 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrDisplayName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOption HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (ppOption=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pOption HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pSelectionType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbShow HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3074cfd8-f9fb-3677-509a-cfb82757e4cb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulWidth HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pulWidth=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulHeight HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Result (pulHeight=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+53f863e5-125c-3993-584d-a04b55709929 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+5695b673-ae56-307f-ec8e-8d3a401313b0 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+5695b673-ae56-307f-ec8e-8d3a401313b0 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+5695b673-ae56-307f-ec8e-8d3a401313b0 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+5695b673-ae56-307f-ec8e-8d3a401313b0 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrDisplayName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pbstrDisplayName=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOption HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pSelectionType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Result (pSelectionType=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbShow HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Result (pbShow=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+71692f6a-3e63-3508-c996-cf75b7ba4c44 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrDisplayName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Result (pbstrDisplayName=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbIsRequired HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Result (pbIsRequired=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pDataType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Result (pDataType=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrUnitType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Result (pbstrUnitType=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pRangeMin HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Result (pRangeMin=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pRangeMax HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Result (pRangeMax=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+72c15c8c-b779-3e4b-d2c1-09a6c8874665 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pVar HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXP=VT_EMPTY != V_VT(pVar) HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXP=FAILED(::VariantClear(pVar)) HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (pVar=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pVar HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXP=VT_EMPTY == V_VT(pVar) HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Result (pVar=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+76b1fad4-2bed-3fb2-7930-560e4c4a7ceb PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppvObject HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Parameters (interface=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Result (ppvObject=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=piid2 HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Result (piid2=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemCLSID -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppCPC HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Result (ppCPC=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pUnkSink HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pdwCookie HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Parameters (pUnkSink=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (pdwCookie=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Parameters (dwCookie=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppEnum HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Result (ppEnum=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+78e9d4fb-bff8-3f99-ba81-801735beb12a PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrDisplayName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbIsSelected HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (pbIsSelected=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pConstrainedSetting HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7a165450-4bd5-3ef6-539f-7f21d419d62b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppXmlNode HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (ppXmlNode=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=E_FAIL
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Parameters (bstrFeatureName=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Result (ppFeature=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Parameters (bstrName=%10!s!, bstrNamespaceUri=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Result (ppFeature=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 Result (ppAsyncOperation=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 Result (ppAsyncOperation=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppPrintCapabilities HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 Result (ppPrintCapabilities=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulJobCopiesAllDocuments HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 Result (pulJobCopiesAllDocuments=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 Parameters (ulJobCopiesAllDocuments=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 Result (ulJobCopiesAllDocuments=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppParameterInitializer HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0 Parameters (bstrName=%10!s!, bstrNamespaceUri=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 Result (ppParameterInitializer=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulDpi HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 Result (pulDpi=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulX HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulY HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0 Parameters (ulDefault=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0 Result (pulX=%10!d!, pulY=%11!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pCapabilitiesFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppTicketFeature HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0 Result (ppTicketFeature=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+9cc8a37e-0ee7-391d-e359-f46f51eeb3df PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+ba10af75-6584-3b5a-6b03-ce0a72986a42 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+ba10af75-6584-3b5a-6b03-ce0a72986a42 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulPagesPerSheet HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+ba10af75-6584-3b5a-6b03-ce0a72986a42 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pulPagesPerSheet=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+ba10af75-6584-3b5a-6b03-ce0a72986a42 PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pulCount HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pulCount=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOption HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXP=((ULONG)m_cNodeMax <= ulIndex) HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Parameters (ulIndex=%10!u!)" //   LEVEL=PRINT_EXTENSION_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Result (ppOption=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=bstrNamespaceUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=ppOption HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Result (ppOption=0x%10!p!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+bcbe01de-6476-3d26-5554-1a979db2001e PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbstrDisplayName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Result (pbstrDisplayName=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemWString -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pbIsSelected HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Result (pbIsSelected=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Enter()" //   LEVEL=PRINT_EXTENSION_TRACE_API
+{
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API POINTER=pConstrainedSetting HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Result (pConstrainedSetting=%10!d!)" //   LEVEL=PRINT_EXTENSION_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemLong -- 10
+}
+
+c4191d02-8ad1-3a25-b412-0db1f547907b PrintExtension // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Exit (hr=%10!s!)" //   LEVEL=PRINT_EXTENSION_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+

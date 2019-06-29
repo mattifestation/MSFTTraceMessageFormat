@@ -1,0 +1,3425 @@
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Call to SetSecurity failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Call to CoCreateInstance failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Call to CoCreateInstance failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Call to IWbemDecoupledRegistrar::Register failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0SetSecurity: call to InitializeSecurityDescriptor failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0SetSecurity: call to AllocateAndInitializeSid(1) failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0SetSecurity: call to AllocateAndInitializeSid(2) failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SetSecurity: call to SetEntriesInAcl failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SetSecurity: call to SetSecurityDescriptorOwner failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0SetSecurity: call to SetSecurityDescriptorGroup failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SetSecurity: call to SetSecurityDescriptorDacl failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+107e6a6a-e51d-30ce-7c9c-044b82dacced core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SetSecurity: call to CoInitializeSecurity failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemHRESULT -- 10
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0CAutoDiscoveryClient::StartAutoDiscovery: Invalid input parameter. Cannot proceed without SMISProvConfig object." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0CAutoDiscoveryClient::StartAutoDiscovery: AutoDiscovery is disabled - Exiting AutoDiscovery" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CAutoDiscoveryClient::StartDiscovery: Invalid input parameter. Cannot proceed without StrgSvcLogic object." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CAutoDiscoveryClient::StartAutoDiscovery: Starting AutoDiscovery" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0CAutoDiscoveryClient::StartDiscovery: Invalid input parameter(s)" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid discovery level specified: %10!d!. Acceptable DiscoveryLevels for AutoDiscovery are: Top (0), Intermediate (1) and All (2). Defaulting to Top Level discovery" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0CAutoDiscoveryClient::StartAutoDiscovery: DiscoveryLevel for AutoDiscovery is set to: %10!d!" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0CAutoDiscoveryClient::StartDiscovery: Unexpected Error - Failed to GetPersistentHosts for AutoDiscovery" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0CAutoDiscoveryClient::StartAutoDiscovery: Disovery for SMI-S provider %10!s! started with discovery ID: %11!s!" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0CAutoDiscoveryClient::StartAutoDiscovery: Disovery for SMI-S provider %10!s! started with discovery ID: %11!s! failed with error code %12!d!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0CAutoDiscoveryClient::CheckDiscoveryJobStatus: Invalid input parameter(s)" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0CAutoDiscoveryClient::CheckDiscoveryJobStatus: Unexpected failure of check discovery for provider %10!s! with discovery ID %11!s!. Discovery job could not be located." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0CAutoDiscoveryClient::CheckDiscoveryJobStatus: Auto Discovery for provider %10!s! with job ID %11!s! completed successfully with error code %12!d! [%13!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0CAutoDiscoveryClient::CheckDiscoveryJobStatus: Auto Discovery for provider %10!s! with job ID %11!s! completed with status code %12!d! [%13!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+3d76a642-bcaf-3182-575b-ebf02dec8b36 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+52c2f58b-addc-35fb-8890-f4b11e76de90 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Attempted double-add of %10!s!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+52c2f58b-addc-35fb-8890-f4b11e76de90 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unsupported remove association request for %10!s!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+52c2f58b-addc-35fb-8890-f4b11e76de90 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unsupported replace association request for %10!s!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Received indication to [%10!s!] missing class name" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Received [%10!s!] indication to [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to parse the indication's URL: [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0hostId=[%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0server=[%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0LookupCredentials() failed: [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unexpected: call to SendIndicationRqt() failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unhandled indication type" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0HandleClientCertificateAuthenticationFailure(): [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to listen on [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+66453a7a-2ff1-34d8-f4b9-92db4b1d66e7 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Listening on [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WMIClientImpl::CreateInstanceEnumAsync class [%10!s!], impersonation level is not enough [%11!d!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WMIClientImpl::CreateInstanceEnumAsync class [%10!s!], impersonation failed [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+95037098-f682-3f38-4861-3059ae5848d6 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0NewQuery called with dwId [%10!d!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+a1452046-bf70-3305-882d-e4857d7f45b4 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Service initialized" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Service un-initialized" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Received unsupported event with type %10!d!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed Access is not granted" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Matching Discovery ID detected [%10!s!], but unusable." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0StartDiscovery: h [%10!s!], ht [%11!s!], us[%12!s!], pwd [%13!s!], d-id [%14!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemWString -- 14
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed Access is not granted" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Matching Discovery ID detected [%10!s!], but unusable." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Cache set does not exist for host [%10!s!]." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PartialDiscovery: h [%10!s!], ht [%11!s!], us[%12!s!], pwd [%13!s!], d-id [%14!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemWString -- 14
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ObjectId is empty" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Unable to convert provided reference to association reference" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unable to concretize MSFT_SMReplicationGroupToReplicaPeer" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Unable to concretize MSFT_SMJobToStorageGroup" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to parse discovery job object id: [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed call to AddProvider with error %10!u!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to impersonate client" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to cast request event" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Start-discovery complete for discovery-id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Event ignored since higher level discovery is outstanding for ID {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to Add provider to Provider access cache" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Discovery (partial) complete for discovery-id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to Add provider to Provider access cache" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Handling extended status for discovery-id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0New status %10!d! for discovery id {%11!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ServiceLogic::onSubscribeRspEvent(): success: [%10!s!] [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ServiceLogic::onSubscribeRspEvent(): failed: [%10!s!] [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 Subscription cancelled.  Removing credentials for [%10!s!] [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 failed: [%10!s!] [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Getting WbemService instances using SLP" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0State not found for discovery id {%10!s!}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Failed to cast action state pointer to StartDiscoveryState" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Failed to acquire existing cache set for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Failed: Unexpected: Invalid input parameter type." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed: Unexpected: Invalid input parameter. Empty object Id." //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Failed: Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Warning: Invalid username or password... Continuing search" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Detected provider [%10!s!] missing from access cache" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Failed to utilize Provider Access Cache" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed Access is not granted for host [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+b174d6fc-0a31-3846-7a52-314c6b5447ab core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Cache set does not exist for hostId[%10!s!]." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0URI [%10!s!] already has a security descriptor [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0URI [%10!s!] does not have a security descriptor, assigning one" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to set ACL on URI [%10!s!] [%11!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0URI ACL for [%10!s!] could not be found or is mismatched after creation [%11!d!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Could not find an SSL certificate for the IPv4 URI [%10!s!] [%11!d!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Could not find an SSL certificate for the IPv6 URI [%10!s!] [%11!d!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SSL certificates already in place for both IPv4 and IPv6 URLs [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Self-signed SSL certificate needed for [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Could not find a self signed certificate [%10!d!], will create one" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create self signed certificate [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Could not find the self-signed certificate after creation [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Found a self signed certificate with thumbprint [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0BindCertificate failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0BindCertificate failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Cleaning up certificates for URI reservation [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0UnbindCertificate returned error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0URI [%10!s!] has security descriptor [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+ce1174e1-cffb-3dc0-b910-f78d58b021bc core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to remove ACL from URI reservation [%10!s!] [%11!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d61af385-6de6-3c2f-af9f-6c152929b809 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Initializing CertificateHelper" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CryptAcquireContext failed with error code [%10!d!] retrying with CRYPT_NEWKEYSET" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CryptAcquireContext(CRYPT_NEWKEYSET) failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0CertificateHelper initialized" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Releasing RSA key" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0CryptDestroyKey failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Releasing crypto context" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CryptReleaseContext failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Encoding common name [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0CertStrToName(NULL) failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0CertStrToName failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0CryptEncodeObject(NULL) failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0CryptEncodeObject failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to create RSA 2048 bit key [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to encode subject [%10!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to generate RSA key [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to convert string to SDDL [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to set key security descriptor [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Opening local machine root certificate store" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0CertOpenStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Adding certificate to the store" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0CertAddCertificateContextToStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0CertCloseStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0GenerateSelfSignedCertificate failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0GenerateSelfSignedCertificate failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0CertFreeCertificateContext failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0CertOpenStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0CertFindCertificateInStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0CertGetCertificateContextProperty(CERT_HASH_PROP_ID, NULL) failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0CertGetCertificateContextProperty(CERT_HASH_PROP_ID, NULL) failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0CertFreeCertificateContext failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0CertCloseStore failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+d9bb3d91-c8b5-3f74-2836-2d2b126629e1 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+db467afa-0edb-3fb8-8d5a-f9577f42b907 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DllManager::init" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+db467afa-0edb-3fb8-8d5a-f9577f42b907 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0About to load DLL name [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+db467afa-0edb-3fb8-8d5a-f9577f42b907 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Loaded DLL [%10!s!]:[%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0HttpInitialize failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0HttpTerminate failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Setting ACL [%10!s!] on URL with prefix [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Http[%10!s!]ServiceConfiguration failed with error code [%11!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0HttpSetServiceConfiguration failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Binding certificate to [%10!s!] listener" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BindCertificateToAddress for [%10!s!] failed with error code [%11!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0No certficate found for URL [%10!s!], GetCertificateThumbprintForAddress returned [%11!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Removing certficate with thumbprint [%10!s!] for URL [%11!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0HttpDeleteServiceConfiguration failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0HttpQueryServiceConfiguration failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ListenerSetupHelper is not properly initialized" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0QueryServiceConfiguration failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Querying URL ACL for prefix [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0QueryServiceConfiguration failed with error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemLong -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0-> Entry to %!FUNC!" //   LEVEL=SMISTRACE_LVL_FUNCTRACE COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Attempting to remove certificate from IPv4 URL reservation [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+
+e7442fb2-5ebf-35cc-0372-61cbd591b630 core // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Attempting to remove certificate from IPv6 URL reservation [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_STORAGE_SVC
+{
+Arg, ItemWString -- 10
+}
+

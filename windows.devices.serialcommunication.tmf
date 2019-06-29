@@ -1,0 +1,744 @@
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Using static device selector for all COMPORT devices: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::GetDeviceSelector
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Error Received EventHandler ADDED +++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::add_ErrorReceived
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Pin Changed EventHandler Remove FAILED !!!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::remove_PinChanged
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Pin Changed EventHandler REMOVED ---" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::remove_PinChanged
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Error Received EventHandler Remove FAILED !!!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::remove_ErrorReceived
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Error Received EventHandler REMOVED ---" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::remove_ErrorReceived
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0CLOSE CALLED" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::Close
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Exit requested for threadpool worker %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::Close
+{
+Arg, ItemPtr -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Device:0x%10!p! Closed, cancelling I/O and closing handle" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::Close
+{
+Arg, ItemPtr -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Device:%10!p! Threadpool Closed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::Close
+{
+Arg, ItemPtr -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Using static device selector PortName: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::GetDeviceSelectorFromPortName
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Using GenerateDeviceSelectorString() - %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::GetDeviceSelectorFromPortName
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Using static device selector VendorId:%10!04x! ProductId:%11!04x! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::GetDeviceSelectorFromUsbVidPid
+{
+Arg, ItemShort -- 10
+Arg, ItemShort -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Using GenerateDeviceSelectorString() - VendorId:%10!04x! ProductId:%11!04x! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::GetDeviceSelectorFromUsbVidPid
+{
+Arg, ItemShort -- 10
+Arg, ItemShort -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device:%10!s! Access denied opening device %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceStatics::FromIdAsync::<lambda_4211d277f3f1bef5e92f7706bd543d50>::operator ()
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::SerialDeviceServer
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::SerialDeviceServer
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::~SerialDeviceServer
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::~SerialDeviceServer
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device:%10!s! Opening handle with threadId:%11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device handle:0x%10!p! opened successfully" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemPtr -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unable to create ThreadpoolIo: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0App quiesce callback invoked, closing device on app's behalf" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::OnSuspension
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceIoControl(%10!d!) failed with GetLastError() = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::SendDeviceIoctlSyncEx
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WaitForSingleObject() failed with GetLastError() = %10!d! - cancelling IO operation" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::SendDeviceIoctlSyncEx
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WaitForSingleObject() failed with WaitStatus = %10!d! and GetLastError() = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::SendDeviceIoctlSyncEx
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0get_BaudRate: BytesReturned = %10!d! mismatch with sizeof(BaudRateLocal) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_BaudRate
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0get_BaudRate returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_BaudRate
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0put_BaudRate returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_BaudRate
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0get_BreakSignalState returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_BreakSignalState
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0put_BreakSignalState returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_BreakSignalState
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0get_BytesReceived returning with %10!s! BytesReceived = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_BytesReceived
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0get_CarrierDetectState: BytesReturned = %10!d! mismatch with sizeof(ModemStatus) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_CarrierDetectState
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0get_CarrierDetectState returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_CarrierDetectState
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0get_ClearToSendState: BytesReturned = %10!d! mismatch with sizeof(ModemStatus) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_ClearToSendState
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0get_ClearToSendState returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_ClearToSendState
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0get_DataBits: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_DataBits
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0get_DataBits returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_DataBits
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0put_DataBits: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_DataBits
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0put_DataBits returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_DataBits
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0get_DataSetReadyState: BytesReturned = %10!d! mismatch with sizeof(ModemStatus) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_DataSetReadyState
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0get_DataSetReadyState returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_DataSetReadyState
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0get_IsDataTerminalReadyEnabled: BytesReturned = %10!d! mismatch with sizeof(DtsRtsState) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_IsDataTerminalReadyEnabled
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0get_IsDataTerminalReadyEnabled returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_IsDataTerminalReadyEnabled
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0put_IsDataTerminalReadyEnabled returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_IsDataTerminalReadyEnabled
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0get_Handshake returning with %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_Handshake
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0put_Handshake: BytesReturned = %10!d! mismatch with sizeof(HandFlow) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_Handshake
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0put_Handshake returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_Handshake
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0get_Parity: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_Parity
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0get_Parity - Unexpected LineControl.Parity %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_Parity
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0get_Parity returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_Parity
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0put_Parity: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_Parity
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0get_Parity - Unexpected input value %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_Parity
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0put_Parity returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_Parity
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0get_PortName returning with %10!s!, Port Name = %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_PortName
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0get_ReadTimeout: BytesReturned = %10!d! mismatch with sizeof(SerialTimeouts) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_ReadTimeout
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0get_ReadTimeout returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_ReadTimeout
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0put_ReadTimeout: BytesReturned = %10!d! mismatch with sizeof(SerialTimeouts) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_ReadTimeout
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0put_ReadTimeout returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_ReadTimeout
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0get_IsRequestToSendEnabled: BytesReturned = %10!d! mismatch with sizeof(DtsRtsState) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_IsRequestToSendEnabled
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0get_IsRequestToSendEnabled returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_IsRequestToSendEnabled
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0put_IsRequestToSendEnabled returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_IsRequestToSendEnabled
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0get_StopBits: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_StopBits
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0get_StopBits returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_StopBits
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0put_StopBits: BytesReturned = %10!d! mismatch with sizeof(LineControl) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_StopBits
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0put_StopBits - Unexpected input value = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_StopBits
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0put_StopBits returning with %10!s!, value =%11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_StopBits
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0get_WriteTimeout: BytesReturned = %10!d! mismatch with sizeof(SerialTimeouts) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_WriteTimeout
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0get_WriteTimeout returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_WriteTimeout
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0put_WriteTimeout: BytesReturned = %10!d! mismatch with sizeof(SerialTimeouts) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_WriteTimeout
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0put_WriteTimeout returning with %10!s!, value = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::put_WriteTimeout
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0get_InputStream HR = %10!s! value = %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_InputStream
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemPtr -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0get_OutputStream HR = %10!s! value = %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::get_OutputStream
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemPtr -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WriteAsyncHelper Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WriteAsyncHelper - Bytes Requested = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Write Lambda-1 ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper::<lambda_a460335f5fe7cbcf42053faa8637fe2b>::operator ()
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0WRITE LAMBDA-1 EXIT BOOL = %10!d! GLE = 0x%11!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper::<lambda_a460335f5fe7cbcf42053faa8637fe2b>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Write Lambda-2 ENTRY with HR = %10!s!, Bytes = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper::<lambda_3256c4606a07a0af8b4502960fffa4be>::operator ()
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Error writing to the device %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper::<lambda_3256c4606a07a0af8b4502960fffa4be>::operator ()
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Successfully wrote %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper::<lambda_3256c4606a07a0af8b4502960fffa4be>::operator ()
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0WriteAsyncHelper exiting with HR = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WriteAsyncHelper
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0ReadAsyncHelper called with count = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Read Lambda-1 ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper::<lambda_ef1d6031cbcaebcc2aa576dca74666f1>::operator ()
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Read lambda-1 EXIT with BOOL = %10!d! GLE = 0x%11!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper::<lambda_ef1d6031cbcaebcc2aa576dca74666f1>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Read lambda-2 ENTRY with HR = %10!s!, Bytes = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper::<lambda_8e29d570ff7d666333b32eb922f4b11d>::operator ()
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Error reading from the device %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper::<lambda_8e29d570ff7d666333b32eb922f4b11d>::operator ()
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Successfully read %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper::<lambda_8e29d570ff7d666333b32eb922f4b11d>::operator ()
+{
+Arg, ItemLong -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0ReadAsyncHelper exiting with HR = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::ReadAsyncHelper
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0FirePinChangedEvent ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::FirePinChangedEvent
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0FirePinChangedEvent EXIT with HRESULT = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::FirePinChangedEvent
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0FireErrorReceivedEvent ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::FireErrorReceivedEvent
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0FireErrorReceivedEvent EXIT with HRESULT = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::FireErrorReceivedEvent
+{
+Arg, ItemHRESULT -- 10
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0WaitMaskIrpHandler ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WaitMaskIrpHandler
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0WaitMaskIrpHandler: BytesReturned = %10!d! mismatch with sizeof(ReceivedWaitMask) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WaitMaskIrpHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0WaitMaskIrpHandler: BytesReturned = %10!d! mismatch with sizeof(SerialStatus) = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WaitMaskIrpHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0WaitMaskIrpHandler EXIT - ExitThread %10!d! HR %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::WaitMaskIrpHandler
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ADD PIN CHANGED ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::add_PinChanged
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Pin Changed EventHandler ADDED +++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::add_PinChanged
+{
+}
+
+4111ee69-ce35-3e23-0c9b-cb84cd908e5e W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0ADD ERROR RECEIVED ENTRY" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SERIAL FUNC=Windows::Devices::SerialCommunication::SerialDeviceServer::add_ErrorReceived
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::AccessCheck
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Matching registry key found for function type %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::AccessCheck
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Matching registry key found for function type %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::AccessCheck
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device:%10!s! Access %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::AccessCheck
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::AccessCheck
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckDeviceId
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device:%10!s! DeviceId check completed %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckDeviceId
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_CapabilityHandlerCheckError) -- 11
+Arg, ItemHRESULT -- 12
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckDeviceId
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckFunctionType
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device:%10!s! FunctionType check completed %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckFunctionType
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_CapabilityHandlerCheckError) -- 11
+Arg, ItemHRESULT -- 12
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckFunctionType
+{
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Normalizing deviceId failed:invalid format for ANY %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Normalizing deviceId failed:invalid format for VID/PID %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Normalizing deviceId failed:unsupported prefix %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Normalizing deviceId format:%10!s! VID:%11!04x! PID:%12!04x! Provider:%13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemEnum(Windows::Devices::SerialCommunication::SerialDeviceFormat) -- 10
+Arg, ItemShort -- 11
+Arg, ItemShort -- 12
+Arg, ItemWString -- 13
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Normalizing functionType failed:unsupported prefix %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Normalizing functionType format:%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemEnum(Windows::Devices::SerialCommunication::SerialFunctionFormat) -- 10
+}
+
+60f92592-8906-315b-3377-907ea5222af3 W.D.SerialCommunication // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Invalid registry value:%10!d! for functionType hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::SerialCommunication::SerialCapabilityHandler::CheckRegistryKeysForFunctionType
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+

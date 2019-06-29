@@ -1,0 +1,547 @@
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(ppClientInformation = %12!p!)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!INFO:PortablePlugin: IsDeviceWPD() - Found %11!d! WPD devices." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!INFO:PortablePlugin: IsDeviceWPD() - %11!d!: %12!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!INFO:PortablePlugin: IsDeviceWPD() - Empty friendly name" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!INFO:PortablePlugin: IsDeviceWPD() - Friendly Name: %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!INFO:PortablePlugin: IsDeviceWPD() - Match Found" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!INFO:PortablePlugin: OpenDevice() - Trying to open: %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!INFO:PortablePlugin: OpenDevice() - Open succeeded for device: %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!INFO:PortablePlugin: GetBaseStorObjID() - Storage Category Found" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!INFO:PortablePlugin: StreamCopy() - Read %11!d! bytes from the source stream...Wrote %12!d! bytes to the destination stream..." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!INFO:PortablePlugin: CreateTestFolder() - Created Test Folder with ObjectID:%11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!INFO:PortablePlugin: CopyTestFile() - Created Test Object with ObjectID:%11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!INFO:PortablePlugin: DeleteTestFolder() - The object '%11!s!' was deleted from the device." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=m_LastError.m_sErrorString
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='PortablePlugin: SetTarget() - Failed to get friendly name'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='PortablePlugin: SetTarget() - Failed to get device description'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='PortablePlugin: SetTarget() - Variant type of description is not as expected'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='PortablePlugin: SetTarget() - Failed to CoCreateInstance CLSID_PortableDeviceManager'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_WDTF_ACTION_DEVICE_NOT_CONFIGURED_PROPERLY_FOR_PLUGIN ERRMSG=L'No media in device to test I/O.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->GetValue(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!INFO:PortablePlugin: RunIO() - It's been at least 5 seconds" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!INFO:PortablePlugin: RunIO() - Creating test folder" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!INFO:PortablePlugin: RunIO() - Creating test folder - FAILED" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!INFO:PortablePlugin: RunIO() - Object ID of the newly created folder: '%11!s!'" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!INFO:PortablePlugin: RunIO() - Copying test file" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!INFO:PortablePlugin: RunIO() - Copying test - FAILED" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!INFO:PortablePlugin: RunIO() - Object ID of the newly created file: '%11!s!'" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!INFO:PortablePlugin: RunIO() - Deleting test folder" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!INFO:PortablePlugin: RunIO() - Deleting test folder - FAILED" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!INFO:PortablePlugin: RunIO() - Test folder deleted" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+a7c974a2-0b96-34a4-e8e0-18f3b9290b07 WDTF_Action_SimpleIO_WPD // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+

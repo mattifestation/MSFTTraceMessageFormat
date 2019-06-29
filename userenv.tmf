@@ -1,0 +1,1256 @@
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Invalid lpProfileInfo." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0lpProfileInfo->dwSize != sizeof(PROFILEINFO)" //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Invalid lpProfilesDirA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid lpcchSize." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid lpProfileDirA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid lpcchSize." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Invalid lpProfileDirA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Invalid lpcchSize." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Invalid lpProfileDirA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid lpcchSize." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Invalid lpDestA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Invalid lpSrcA." //   LEVEL=PublicError
+{
+}
+
+469c15f8-0d27-3cce-7722-ccbcab4a4d30 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Invalid lpSidString." //   LEVEL=PublicError
+{
+}
+
+6253657c-88c8-3f15-dc01-9646d0feab6e userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to get user ProfileList key name from SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6253657c-88c8-3f15-dc01-9646d0feab6e userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to open user ProfileList key. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6253657c-88c8-3f15-dc01-9646d0feab6e userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Failed to read "state" from registry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6253657c-88c8-3f15-dc01-9646d0feab6e userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to get user name and user domain. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6253657c-88c8-3f15-dc01-9646d0feab6e userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to enumerate forest domains. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to copy <%10!s!> to <%11!s!>. error %12!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Failed to acquire required privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Failed to allocate SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Failed to set owner on <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Failed to add ACE to ACL. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Failed to set DACL on <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Failed to get length of path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Failed to get length of prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Failed to copy prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Failed to concatenate path to prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Failed to get length of path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Failed to get length of UNC prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Failed to copy UNC prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0Failed to concatenate path to UNC prefix. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Failed to delete <%10!s!>. error %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0Failed to get length of path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to create source file timestamp string. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Failed to copy path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Failed to append "\" to path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Failed to append "*.*" to path. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Failed to take ownership of <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0Failed to copy "*.*". hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0Failed to find any files. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Failed to find any files. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0Failed to copy file name. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create destination file timestamp string. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0Found a reparse point <%10!s!>, will not recurse into it." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0Failed recursive delete for <%10!s!>. hr %11!#08x!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0Failed to get NT path for <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0Failed recursive delete on <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to get source file length. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0Failed to get security info on <%10!s!>. hr %11!#008x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0Failed to allocate memory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0Failed to get owner info on <%10!s!>. hr %11!#008x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0Failed to get owner's security descriptor. hr %10!#008x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0Failed to allocate admin SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0Failed to get user SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0Owner is admin group." //   LEVEL=Public
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0Owner is the right user" //   LEVEL=Public
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0Owner's SID is <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0Owner is someone else." //   LEVEL=Public
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0Failed to create thread. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0Failed to set thread token. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0There's no thread to wait for. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0Cannot create copy event. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to get length of source directory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to get length of destination directory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to get process token. error %10!d!." //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Exclusion list: <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to get length of exclusion list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to fully qualify exclusion list entries for source. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to fully qualify exclusion list entries for destination. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to create the destination directory. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to allocate memory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to walk subdirectories under source. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to walk subdirectories under source. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0FindDirectorySize: Error = %10!08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0FindDirectorySize: Error = %10!08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to get the free disk space at <%10!s!>. error %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Available: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Needed: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Src size: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Dest size: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Largest hive file: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Quota: %10!I64u!" //   LEVEL=Public
+{
+Arg, ItemULongLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Profile size over quota, quit copying." //   LEVEL=PublicError
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Not enough disk space on <%10!s!>" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed while copying files. error %10!d!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to find a hive. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Multi-threaded copy failed. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to set the write time on the directory <%10!s!>. error %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to open destination directory <%10!s!>. error %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Failed to append slash to source." //   LEVEL=PublicError
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Failed to append slash to destination." //   LEVEL=PublicError
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Failed to append '*.*' to source directory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Failed to allocate memory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0FindFirstFile failed for <%10!s!>. error %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed to get source directory length. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Failed to get file name length. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Failed to get destination directory length. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0File <%10!s!> exceeds MAX_PATH. Source: <%11!s!>, Destination: <%12!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Found a reparse point <%10!s!>, skip it!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to get length of exclusion list entry. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Skipping <%10!s!> due to exclusion list." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Failed to add system dir to list. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Adding <%10!s!> to the list of directories because system bit is on" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Failed to recurse into system directory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Skipping <%10!s!> since the encrypted attribute is set." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Detected Encrypted file <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Skipping <%10!s!> since the encrypted attribute is set." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to add dir to list. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to recurse into system directory. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Skipping <%10!s!> since the "system directories only" attribute is set." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Skipping <%10!s!> since the "system files only" attribute is set." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Detected unexpected encrypted file <%10!s!>." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Skipping <%10!s!> since the "ignore encrypted files" attribute is set." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Failed to add file to list. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Failed to get file time. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0GetFileAttributesEx on the destination failed. error %10!d!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Failed to delete <%10!s!>. error %11!d!." //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed to remove <%10!s!>. error %11!d!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Failed to calculate the size of expanded exclusion list." //   LEVEL=PublicError
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Failed to allocate memory." //   LEVEL=PublicError
+{
+}
+
+6f5fa63b-95d8-3f7f-21a0-2fba9a217cd2 userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Failed to expand exclusion list. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to open Tempory File Name: <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to remove READONLY attribute from %10!s!. Copy may fail" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to restore file attributes of %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to restore file attributes of %10!s!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Copy from %10!s! to %11!s! succeeded!" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to rename %10!s! to %11!s!, hr = %12!08X!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to copy %10!s! to %11!s!, hr = %12!08X!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to delete %10!s!, error = %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to set attributes for %10!s!, error = %11!d!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0_GetTempFileName failed for <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Cannot allocate memory to create a temporary file name." //   LEVEL=PublicError
+{
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Copy from <%10!s!> to <%11!s!> failed. hr %12!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+b0c69c49-f2a3-33fd-9578-0049ffce5868 proflib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to create the destination directory <%10!s!>. hr %11!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RpcStringBindingCompose failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RpcBindingFromStringBinding failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RpcBindingFree failed. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0RpcBindingSetAuthInfoEx failed. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to get user's SID. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to get RPC interface. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to authenticate RPC. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to acquire the necesary privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to acquire a client context. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Caught an exception while attempting to acquire a context. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Caught a exception while attempting to load the user's profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to load user's profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Received an invalid hToken." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Received a NULL lpProfileInfo." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0lpProfileInfo->dwSize != sizeof(PROFILEINFO)." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Invalid user name." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0NT4 style policy no longer supported." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0A path length exceeds MAX_PATH." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0lpProfileInfo->dwFlags = 0x%10!x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0lpProfileInfo->lpUserName = <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0lpProfileInfo->lpProfilePath = <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0lpProfileInfo->lpDefaultPath = <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0lpProfileInfo->lpServerName = <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0lpProfileInfo->lpPolicyPath = <%10!s!>" //   LEVEL=Public
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to open current user registry key. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to build SID string from user token. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to get RPC interface. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to authenticate RPC. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed to acquire the necesary privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to acquire a client context. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Caught an exception while attempting to acquire a context. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to impersonate user. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Caught a exception while attempting to unload the user's profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to unload user's profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Received an invalid hToken." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Received an invalid hProfile." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Received an invalid hProfile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Invalid pszSidString" //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Cannot delete special profile <%10!s!>." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to get pszProfilePath length. hr %10!#08x!" //   LEVEL=Public
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0szComputerName is not supported." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Failed to get RPC interface. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed to authenticate RPC. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Failed to acquire the necesary privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Failed to delete profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Caught a exception while attempting to delete the profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Invalid pszOldSid." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Invalid pszNewSid." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Cannot remap special profile <%10!s!> to <%11!s!>." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Failed to get RPC interface. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Failed to authenticate RPC. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Failed to acquire the necesary privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed to remap profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Caught a exception while attempting to remap the profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Invalid pszUserSid." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Cannot create special profile <%10!s!>." //   LEVEL=PublicError
+{
+Arg, ItemWString -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Invalid pszUserName." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Invalid pszProfilePath." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Invalid cchProfilePath." //   LEVEL=PublicError
+{
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Failed to get RPC interface. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Failed to authenticate RPC. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Failed to acquire the necesary privileges. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Failed to create the profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+
+d3b05055-024e-3eb4-d877-bfd190d89f9d userenv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Caught a exception while attempting to create the profile. hr %10!#08x!" //   LEVEL=PublicError
+{
+Arg, ItemLong -- 10
+}
+

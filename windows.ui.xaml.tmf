@@ -1,0 +1,54 @@
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1035 10 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=Common
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1038 11 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_Compositor
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1041 12 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_InputManager
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1044 13 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_InputManagerViewport
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1047 14 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_PALService
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1050 15 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_PALServiceViewportEventHandler
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1053 16 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_ScrollViewer
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1056 17 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=DManip_ScrollContentPresenter
+{
+szMsg, ItemString -- 10
+}
+
+527ad15b-09ab-357b-3962-f9f76d0af465 Windows_UI_XAML // SRC=xcpwin.cpp MJ= MN=
+#typev xcpwin_cpp1059 18 "%0%10!s!" //   LEVEL=ulWppLevel FLAGS=ResourceLoading
+{
+szMsg, ItemString -- 10
+}
+

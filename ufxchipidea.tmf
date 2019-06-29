@@ -1,0 +1,2796 @@
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Chipidea power has already been initialized." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to assign power framework settings. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to assign S0 idle settings. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to register for the test power interface. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to create power filter request object. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------(%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0called despite already being uninitialized." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0------, %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to get PState from device, with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to create WDFMEMORY object for power filter state. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE invoked with: DeviceState = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to format request as internal IOCTL with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to allocate timer for the request %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to send device state to Filter driver with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Filter driver didn't enable LPM" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to format request as internal IOCTL with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to allocate timer for the request %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to send EXIT_LPM request to Filter driver with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Filter driver failed to handle ExitLPM request with %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Calling function without first having registered with the power framework!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Failed to get p-state from current device state, %10!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0PoFxPowerControl failed! Status = %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0PoFxPowerControl completed synchronously" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PoFxPowerControl will be completed Asynchronously. WaitForTransition = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0P-state transition completed asynchronously" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Timed-out while waiting for Pep-State transition to complete" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to set P-state! Status = %10!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to initialize the chipidea controller: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Filter state failed to exit LPM (%10!s!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to assign S0 idle settings with %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to stop idle. Status = %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfDeviceWdmAssignPowerFrameworkSettings failed. Status = %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0WdfIoTargetCreate failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0WdfIoTargetOpen failed, Status =  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Failed to query power test interface." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0------ new PState = %10!d!, (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed to carry out the requested p-state transition. Current P-state for the device stack is %10!d!. Status = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+64d5dfa9-e9b4-39b0-6a5a-769e67269739 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Stopping idle" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to stop idle, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Resuming idle" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0No idle action" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0New USB STATE = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to stop or resume idle, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0New PORT: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to stop or resume idle, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Notify Charger Detection Failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to stop idle %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+6fbabb9e-5fb2-398c-d59b-1dd66f839dd8 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0+ChargerDetectionWait()" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0-ChargerDetectionWait() (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to read data to ULPI Reg 0X%10!X!. Error %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0NOT AN ERROR: Charger Detection stopped (probably due to DETACH). %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to write data to ULPI Reg 0x%10!X!. Error %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0NOT AN ERROR: Charger Detection stopped (probably due to DETACH).%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to set operation mode to non-driving. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to clear the DCDENB to ensure that DCDOUT is cleared by HW. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to set the DCDENB to start Data Contact detection. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ChargerDetectionWait failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to read the CHARGING_DETECTION_OUTPUT to check the DCDOUT bit to detect data connection. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to cleanup the CHARGING_DETECTION_CONTROL register. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to clear the CHRGSEL and VDATSRCAUTO bits. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to set the CDC_VDATSRCENB and CDC_VDATDETENB bits. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ChargerDetectionWait failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to read the CHARGING_DETECTION_OUTPUT to check the CHGDET bit to detect charging port. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to cleanup the CHARGING_DETECTION_CONTROL register. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to set the CDC_CHRGSEL and CDC_VDATSRCENB and CDC_VDATDETENB bits. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ChargerDetectionWait failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to read the CHARGING_DETECTION_OUTPUT to check the CHGDET bit to detect charging port. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to cleanup the CHARGING_DETECTION_CONTROL register. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Data Contact Detection failed. Bailing. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Primary Port Detection failed. Bailing. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Secondary Port Detection failed. Bailing. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Failed to set operation mode to normal. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Port Type Detected - %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to perform charger detection: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WaitLockCreate failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Charger detection is terminated" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to cleanup the CHARGING_DETECTION_CONTROL register. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WdfWorkItemCreate (ChargerDetectionWorkItem) failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+895dea50-6360-35f6-d002-a079d498321b ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid pContext! Expecting PEPQUEUEDATA." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to issue transfer. Direction = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemString -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: Failed to prime endpoint!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemString -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to retrieve a free transfer dTD - %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Transfer has already been cancelled." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Error executing dTD (0X%10!X!), Control = 0X%11!X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Transfer active on this endpoint (dTD#%10!ld! is still active)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0No dTDs pending to be handled for completion" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0EP= 0%10!X!, Queue = 0x%11!08X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Invalid transfer direction for this endpoint." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Invalid transfer direction for this endpoint." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Issue transfer failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Failed to initialize transaction using WDF request for endpoint %10!02X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Is a DMA transaction!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WdfDmaTransactionExecute failed:%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ActiveRequest is already NULL" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to unmark cancellable, Status = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Active request has already been completed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WdfRequestMarkCancelableEx failed with %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Cancel for EP%10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Unstalling the halted endpoint" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Transaction 0x%10!08X! is cancelled. Programmed %11!I64u! bytes - Transferred %12!I64u! bytes." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Could not complete transaction 0x%10!08X!. Status = %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Failed to allocate free dTD list header." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Failed to create the FreDtdListSpinLock. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Failed to allocate dTD wrapper %10!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Free dTD list has not yet been initialized." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Invalid ppDtdWrapper." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Free dTD list has not yet been initialized." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Invalid pDtdWrapper." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Transfer size is too large (0x%10!08X!). Maximum transfer size for a dTD is 0x%11!08X!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+8fbce342-34e8-3c00-40bb-bf82c9e736ba ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Attach interface not supported: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to create GetAttachAction work item: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create AbortGetAttachAction work item: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device detached before GetAttachAction call" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Error in evaluating GetAttachAction: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Port Detected" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Port Detected No CAD" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Performing legacy port detection" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Notify Charger Detection Failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Ignoring Attach" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Detecting proprietary charger" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0GetAttachActionAbortOperation returned an error" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+aa407060-63a3-310e-2244-d7c7ee674b00 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Active request = %10!08X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ActiveRequest: 0x%10!X!, Incoming Request: 0x%11!X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Postponing Request - 0X%10!X! : Should be a scenario of Interrupt WorkItem's Lazy completion of processed requests." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create data spinlock for endpoint %10!02X! (%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create transfer spinlock for endpoint %10!02X! (%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create DMA transaction for endpoint %10!02X! (%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to initialize transaction object for endpoint %10!02X! (%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error creating EP watchdog timer: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Invalid EndpointIndex" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Invalid EndpointDirection" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Invalid endpoint type: Control on EP %10!X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Invalid endpoint type: Isochronous on EP %10!X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to clear stall state on EP %10!d! Dir %11!d!. Status: %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0RX COMPLETION INTERRUPT ON EP%10!02X!!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0TX COMPLETION INTERRUPT ON EP%10!02X!!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Error while executing dTDs" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unstalling the halted endpoint(0X%10!X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Transfer for Request - 0X%10!X! is still active on the EP-0X%11!X!. Postponing handling of the EP Complete bit" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Transfer for Request - 0X%10!X! is not yet active on the EP-0X%11!X!. Ignoring the EP Complete bit." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Invalid EndpointIndex: %10!02X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DMA transaction %10!08X! has no context." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to allocate transaction context" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Device is not in D0 state, Watchdog failed to validatehealth for EP %10!X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Possible missed interrupt!! ProgrammedEndpoints = 0X%10!X!,RegEndptComplete = 0X%11!X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Extending watchdog for EP - 0X%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Logging recorders to File.." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+cb619fd3-d511-31b9-5cf2-55d0ba5dd67e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to complete operation within %10!d! attempts. Timing out." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0------ Addr: 0x%10!x!, Data: 0x%11!x! ----- (%12!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0++++++" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Call to ReadULPIReg to get the original value failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to complete operation within %10!d! attempts. Timing out." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------ Addr: 0x%10!x!, Mask: 0x%11!x!, DataToWrite: 0x%12!x! ----- (%13!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create dma enabler object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create common buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create common buffer for transfer descriptors" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to initialize free dTD list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0MmMapIoSpace for Chipidea Registers failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to initialize DMA" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to invoke _UBF! The device may incur a performance hit. Status = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to invoke _EY1 ACPI method. PHY may not behave correctly. Status = 0x%10!08X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ULPI register 0x81 has incorrect value: 0x%10!02X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to invoke _EY2 ACPI method. PHY may not behave correctly. Status = 0x%10!08X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ULPI register 0x82 has incorrect value: 0x%10!02X!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to send internal IOCTL synchronously." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to create input memory. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to create output memory. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to send synchronous ACPI evaluation method request. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Completed with invalid output buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+db914464-5dbd-3214-bd53-85a0ea8688bc ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to initialize power management for USBFn. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Controller not Ready. Initialization should have failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to set P-state! Status = %10!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Filter state failed to exit LPM (%10!s!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to notify the PEP of P-state transition. Status = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to uninitialize power management for USBFn. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to Initialize the device" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Controller data is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to register for ACPI notifications: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Error initializing charger detection context: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Error creating DPC spinlock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Error creating EPPrime spinlock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Invalid Device." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Invalid pEpDescriptor." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to disable endpoint 0X%10!X! for configuration." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to configure endpoint %10!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to enable endpoint 0X%10!X! for configuration." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to create endpoint" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0EP0 QUEUE = 0x%10!08X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0EP %10!02X! has stall state %11!01X!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Invalid test mode selector 0x%10!X!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Failed to create WDFDPC object for USB Electrical Test mode.%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Failed to enqueue the TestModeDPC. This should never happen. There should be only one instance of this object ever." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed to set the Filter state" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0------ %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Received an unsupported IOCTL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dbd68cdc-0952-3358-3db8-6d21d7c80602 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Received an unsupported IOCTL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to get ACPI port type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Incorrect return parameters for Get Port Type DSM function" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ACPI get port type DSM method returned undefined port type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Undefined bus speed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unknown device state" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to set ACPI device state: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to create ACPI eval input buffer: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to create preallocated memory object: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Evaluation of DSM method failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to send IOCTL_ACPI_EVAL_METHOD Request: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to create preallocated memory object: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0USBFN_DSM_ATTACH_AND_PORT_DETECTION_GUID not supported: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Incorrect return parameters for DSM function query IOCTL: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Bitmap of supported ACPI attach and port detection functions: %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Get Properties DSM method failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Invalid output buffer for get properties DSM method" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Implied ACPI detach" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ACPI attach notification" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ACPI detach notification" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unknown ACPI notify code received" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to register for ACPI notifications: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dc873e27-2884-3234-4301-d4ad1910adbf ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to retrieve command output buffer: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to get endpoint status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to set endpoint status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to update descriptor, status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dff26109-b35e-3c42-06db-bb37940374aa ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unknown interrupt resource!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error creating interrupt: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to create DPC notifications work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error creating notification spinlock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to create DPC notifications work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Error creating notification spinlock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Error creating look aside list for dpc notifications: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Controller data Invalid (NULL)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0No interrupt data found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Hardware is not ready -- Skipping DPC" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Test mode active. Skipping any further interrupt processing" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ENDPTCOMPLETE: %10!08X!, ENDPTSETUPSTAT: %11!08X!, OTGSC: %12!08X!, USBSTS: %13!08X!, PORTSC1: %14!08X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Got attach while attached!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Not connected to Host: Ignoring Unexpected / Stale USB events" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Missed Suspend-Resume Pair" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Suspend when Port is already suspended. (Possibly because of RS-bit manipulation)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Timer interrupt fired" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Got detach interrupt while detached!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!7I64d!, [0X%11!2X!] - %12!s!" //   PERF=DUMMY LEVEL=TRACE_LEVEL_PERF FLAGS=DPC
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_DPC_TRACE_EVENT) -- 12
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Work item timed out, Checking one final time" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Interrupt data Invalid (NULL)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Queue DPC for ISR Failed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0SETUP PACKET" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Duplicate setup packet handling aborted" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ATTACH" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DETACH" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0RESET BEGIN" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0RESET Completed while handling RESET begin" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Invalid Port speed detected in PORTSC register" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0RESET END - %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0SUSPEND" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0RESUME" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to retrieve dpc notification, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Invalid DPC Notification request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Invalid notification context" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Invalid UsbFn Bus Event found in the notification queue" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Invalid notification type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Received Ep Complete Notification is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Failed to create DPC notification memory from the lookaside list, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Interrupts are already enabled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Checking for the VBUS High / Attach.." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Faking VBUS High / Attach" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0WdfDeviceAllocAndQueryProperty failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Is device 0x%10!p! URS enumerated: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemPtr -- 10
+Arg, ItemListLong(false,true) -- 11
+}
+
+e2a58124-73ae-3b0a-64bd-934924db871e ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error creating device: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to create Dx lock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error creating IOCTL queue: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e831e158-994e-31cb-36dc-a1b309412d50 ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Valid proprietary charger interface found" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Not all proprietary charger methods implemented" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Proprietary charger not supported, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create proprietary charger detection work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create proprietary charger set property work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to create proprietary charger abort operation work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to create proprietary charger reset operation work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Enqueuing charger detection" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to create a work item" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0------ (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Proprietary Charger Operation -- attempting to decrement zero ref!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Performing proprietary charger detection" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Proprietary charger not detected, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to set proprietary charger property, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to abort proprietary charger operation, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0++++++" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to reset the proprietary charger, Status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DEBUG_SPEW
+{
+Arg, ItemLong -- 10
+}
+
+ece382da-ec75-3d7d-8685-19cb925b861f ufxchipidea // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DEBUG_SPEW
+{
+}
+

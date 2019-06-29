@@ -1,0 +1,160 @@
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!o->this(%11!p!):%!FUNC!(IMCompositeSimpleIo: Entering FinalConstruct())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG=L'Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!INFO:IMCompositeSimpleIo: Exiting FinalConstruct()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG=L'SimpleIO Action IMComposite SetTarget() - Invalid target provided'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=E_NOINTERFACE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o->this(%11!p!):%!FUNC!(IMCompositeSimpleIo: Entering Open Device())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG=L'Failed to find IM Composite Device.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!INFO:IMCompositeSimpleIo: Exiting OpenDevice()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o->this(%11!p!):%!FUNC!(IMCompositeSimpleIo: Entering Close Device())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!INFO:IMCompositeSimpleIo: Exiting Close Device()" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o->this(%11!p!):%!FUNC!(IMCompositeSimpleIo: Entering RunIO())" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+b64e4674-77a7-31c7-997e-2a253d76dae3 WDTF_Action_SimpleIO_IMComposite // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

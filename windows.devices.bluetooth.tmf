@@ -1,0 +1,78 @@
+6ecba5c0-6720-3368-86f8-976378e8ad41 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Bluetooth::BluetoothLEDevice::get_BluetoothDeviceId
+{
+}
+
+6ecba5c0-6720-3368-86f8-976378e8ad41 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Bluetooth::BluetoothLEDevice::get_BluetoothDeviceId
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+6ecba5c0-6720-3368-86f8-976378e8ad41 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=S_OK FUNC=Windows::Devices::Bluetooth::BluetoothLEDevice::get_BluetoothDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+6ecba5c0-6720-3368-86f8-976378e8ad41 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=LOG_CAUGHT_EXCEPTION() FUNC=Windows::Devices::Bluetooth::BluetoothLEDevice::get_BluetoothDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Bluetooth::BluetoothDeviceStatics::FromIdAsync
+{
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=operation HR=E_POINTER FUNC=Windows::Devices::Bluetooth::BluetoothDeviceStatics::FromIdAsync
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Parameters (deviceId=%10!s!)" //   LEVEL=PublicApi PARAM=1 FUNC=Windows::Devices::Bluetooth::BluetoothDeviceStatics::FromIdAsync
+{
+Arg, ItemWString -- 10
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi FAILURE=MSG HR=E_INVALIDARG FUNC=Windows::Devices::Bluetooth::BluetoothDeviceStatics::FromIdAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=hr FUNC=Windows::Devices::Bluetooth::BluetoothDeviceStatics::FromIdAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0 Enter()" //   LEVEL=PublicApi FUNC=Windows::Devices::Bluetooth::BluetoothDevice::get_BluetoothDeviceId
+{
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PublicApi POINTER=value HR=E_POINTER FUNC=Windows::Devices::Bluetooth::BluetoothDevice::get_BluetoothDeviceId
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=S_OK FUNC=Windows::Devices::Bluetooth::BluetoothDevice::get_BluetoothDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+9cdf6185-ebe7-3c35-111d-3847d8558150 W.D.Bluetooth // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0 Exit (hr=%10!s!)" //   LEVEL=PublicApi EXIT=1 HR=LOG_CAUGHT_EXCEPTION() FUNC=Windows::Devices::Bluetooth::BluetoothDevice::get_BluetoothDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+

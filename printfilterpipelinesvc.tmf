@@ -1,0 +1,1645 @@
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pvBuffer HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pcbWritten HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesToWrite=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (*pcbWritten=%10!u!l)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Parameters (dlibMove=%10!I64d!, dwOrigin=%11!d!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (*plibNewPosition=%10!I64d!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLongLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pcbAvailable HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbEndOfFile HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesRequested=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Result (*pcbAvailable=%10!u!l, *pbEndOfFile=%11!u!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesToWrite=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 Result (*pcbWritten=%10!u!l)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 Parameters (dlibMove=%10!I64d!, dwOrigin=%11!d!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 Result (*plibNewPosition=%10!I64d!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLongLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pcbAvailable HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbEndOfFile HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesRequested=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 Result (*pcbAvailable=%10!u!l, *pbEndOfFile=%11!u!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppStream HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Result (*ppStream=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+85a13b33-04fd-35e9-2e6f-d6daac81ab36 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Parameters (hrReason=%10!s!, pReason=0x%11!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemPtr -- 11
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXP=SUCCEEDED(hrReason) HR=E_FAIL
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Result (*ppVoid=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRetval
+{
+Arg, ItemPtr -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRetval
+{
+Arg, ItemHRESULT -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Result (*ppVoid=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRetval
+{
+Arg, ItemPtr -- 10
+}
+
+88326f59-fc92-3afc-a765-35497b85eecc build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRetval
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXP=(!m_pDocPrintTicket) HR=E_ELEMENT_NOT_FOUND
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0 Result (*ppPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0 Parameters (pPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbstrUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0 Result (*pbstrUri=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppPrintTicket HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXP=(!m_pFdsPrintTicket) HR=E_ELEMENT_NOT_FOUND
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0 Result (*ppPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0 Parameters (pPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbstrUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0 Result (*pbstrUri=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRes
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRes
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbstrUri HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (*pbstrUri=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRes
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppThumbnailReference HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXP=(!m_pThumbnail) HR=E_ELEMENT_NOT_FOUND
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0 Result (*ppThumbnailReference=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRes
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0 Parameters (pThumbnailReference=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=uriSentinelPage HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=uriPartToDiscard HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0 PreCondition (%10!s!, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXP=(!(m_uriSentinelPage && m_uriPartToDiscard)) HR=E_UNEXPECTED
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0 Result (*uriSentinelPage=%10!s!, *uriPartToDiscard=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pCompression HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Result (*pCompression=%10!u!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppIReachPart HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0 Result (*ppIReachPart=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=S_OK
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppIReachPart HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0 Result (*ppIReachPart=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=S_OK
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 204 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppNewObject HR=E_FAIL
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 207 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppWriteStream HR=E_FAIL
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 208 "%0 Parameters (wszUri=%10!s!, riid=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemCLSID -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 209 "%0 Result (*ppNewObject=0x%10!p!, *ppWriteStream=0x%11!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppStream HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 210 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 211 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 212 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIUnknown HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 213 "%0 Parameters (pIUnknown=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 214 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 215 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 216 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIReachPackage HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 217 "%0 Parameters (pIReachPackage=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 218 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 219 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Result (*ppStream=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 220 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedDocumentSequence HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 221 "%0 Parameters (pIFixedDocumentSequence=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 222 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 223 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 224 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedDocument HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 225 "%0 Parameters (pIFixedDocument=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 226 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 227 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 228 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedPage HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 229 "%0 Parameters (pIFixedPage=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 230 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 231 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 232 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 236 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 237 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 238 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 239 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 240 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 241 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 242 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIUnknown HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 243 "%0 Parameters (pIUnknown=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 244 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 245 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 246 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIReachPackage HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 247 "%0 Parameters (pIReachPackage=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 248 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 249 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=wszPartUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 250 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedDocumentSequence HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 251 "%0 Parameters (pIFixedDocumentSequence=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 252 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 253 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 254 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedDocument HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 255 "%0 Parameters (pIFixedDocument=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 256 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 257 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 258 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pIFixedPage HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 259 "%0 Parameters (pIFixedPage=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=*wszPartUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 260 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 262 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 264 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 265 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 266 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=wszUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 267 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppNewObject HR=E_FAIL
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 268 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppWriteStream HR=E_FAIL
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 269 "%0 Parameters (wszUri=%10!s!, riid=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemCLSID -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Parameters (wszPartUri=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 270 "%0 Result (*ppNewObject=0x%10!p!, *ppWriteStream=0x%11!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 271 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 273 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 274 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pContentType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 275 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pFontOptions HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 276 "%0 Result (*pContentType=%10!s!, *pFontOptions=%11!u!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 277 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 278 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 279 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppUnk HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 280 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=*pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 281 "%0 Parameters (pszContentType=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 282 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 283 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 284 "%0 Parameters (options=%10!u!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 285 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 290 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 291 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pContentType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 292 "%0 Result (*pContentType=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 293 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 294 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 295 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 296 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=*pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 297 "%0 Parameters (pszContentType=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 298 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 300 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 301 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pContentType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 302 "%0 Result (*pContentType=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 303 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 304 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 305 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 306 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=*pszContentType HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 307 "%0 Parameters (pszContentType=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 308 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 315 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 316 "%0 Result (*pbstrUri=%10!s!, *ppPart=0x%11!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 317 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Parameters (imageCompression=%10!u!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppPrintTicket HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 Result (*ppPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Parameters (pPrintTicket=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pUnk HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Parameters (pUnk=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=wszResourceUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=*wszResourceUri HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 Parameters (wszResourceUri=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pXpsPartIt HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 Result (*pXpsPartIt=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppStream HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0 Result (*ppStream=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+9045d86a-7919-34a2-fb84-ed97f39ae2f7 build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppPrintTicket HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Parameters (update=%10!u!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLong -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppv HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Parameters (riid=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemCLSID -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Result (*ppv=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=ppObject HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Parameters (pszPrinterName=%10!s!, riid=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemCLSID -- 11
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 Result (*ppObject=0x%10!p!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemPtr -- 10
+}
+
+c4763683-ebca-3a01-5a48-a37973c45dee manager // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+

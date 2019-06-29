@@ -1,0 +1,2206 @@
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!Request valid only for <= 2x devices. Ignoring due to compat" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!UCX does not support EvtControllerGetBandwidthInformation yet" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Level 0 BusInformation Requested for ucxusbdevice 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!Buffer Too Small, Actual %10!d!, Expected %11!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Level 1 BusInformation Requested for ucxusbdevice 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!Buffer Too Small, Actual %10!d!, Expected %11!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!Invalid Parameter" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!Invalid Param" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+}
+
+06fcfb83-f442-3767-b8a6-05336f44ddb2 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!Usbd_BusQueryBusTimeEx not supported for 1.1 devices" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+}
+
+0fc0b643-d8f1-3f45-d79b-03ffe6645f96 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0UcxEndpoint 0x%10!p!, being deleted" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+0fc0b643-d8f1-3f45-d79b-03ffe6645f96 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0UcxEndpoint 0x%10!p!, being deleted" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!WdfMemoryCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfRequestCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!WdfMemoryCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!InterfaceListEntry(0x%10!p!)->InterfaceDescriptor is NULL, USBDI_HANDLE_DATA 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!InterfaceListEntry(0x%10!p!)->Interface must be NULL, USBDI_HANDLE_DATA 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!Too Many Pipes(%10!d!), InterfaceListEntry(0x%11!p!), USBDI_HANDLE_DATA 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!NumberOfEndpointsToOffload(%10!d!) cannot be greated than the number of endpoints in the interface(%11!d!), InterfaceListEntry(0x%12!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!WdfMemoryCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SelectInterfaceWithEndpointOffload Xrb = 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!Too Many Pipes. Possibly detected Infinite loop" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!ifaceList(0x%10!p!)->Interface should be null, usbdiHandleData 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!Too Many Interfaces. Possibly detected Infinite loop" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!ifaceList(0x%10!p!)->Interface should be null, usbdiHandleData 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!WdfMemoryCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!Unexpected increase in number of pipes." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0SelectConfig Xrb = 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!InterfaceListEntry(0x%10!p!)->InterfaceDescriptor is NULL, USBDI_HANDLE_DATA 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!InterfaceListEntry(0x%10!p!)->Interface must be NULL, USBDI_HANDLE_DATA 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0!!Too Many Pipes(%10!d!), InterfaceListEntry(0x%11!p!), USBDI_HANDLE_DATA 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0!!WdfMemoryCreate failed, USBDI_HANDLE_DATA 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SelectInterface Xrb = 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+}
+
+1b060be8-307f-3618-8b9f-da3353bd2403 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0!Received URB_FUNCTION_CLOSE_STATIC_STREAMS in Dx, so completing Irp 0x%10!p! with %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1ea2d6fd-b033-3e75-9e3b-bc6abdc464bc UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!Unsupported Urb %10!d!, 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUrb
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+1ea2d6fd-b033-3e75-9e3b-bc6abdc464bc UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Bad wLength for GetStatus" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUrb
+{
+}
+
+4d48ccd9-8ca1-3b96-6f74-71f177cc4bc6 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!WdfWmiInstanceCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagWmi
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!User mode ioctl Ioctl %10!x! not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfPdoInitAllcoate Failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!WdfPdoInitAssignInstanceID for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfPdoInitAddHardwareID for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!WdfPdoInitAssignDeviceID for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!WdfDeviceInitAssignWdmIrpPreprocessCallback Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!WdfDeviceInitAssignWdmIrpPreprocessCallback Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!WdfDeviceInitAssignWdmIrpPreprocessCallback Failed For Query Interface %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!!WdfDeviceInitAssignWdmIrpPreprocessCallback Failed For Set Power %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!RtlUnicodeStringPrintf, index %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!WdfDeviceInitAssignName Failed, index %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!WdfDeviceInitAssignSDDLString Failed, index %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!WdfDeviceCreate for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!WdfIoQueueCreate for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!WdfDeviceCreateDeviceInterface failed WdfDevice 0x%10!p!, Status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!WdfFdoAddStaticChild for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!RHPdoQueryInterfaceAdd for RH child pdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Completing %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!WdfObjectAllocateContext Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0RootHub(0x%10!p!)'s UcxUsbDeviceContext 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!WdfIoQueueCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!WdfIoQueueAssignForwardProgressPolicy for Roothub Endpoint Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Adding Virtual default endpoint for Roothub 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Adding Virtual interrupt endpoint for Roothub 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0!!UcxEndpointCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0RootHub(0x%10!p!)'s Virtual Default Ep 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0RootHub(0x%10!p!)'s Virtual Interrupt Ep 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0!!WdfObjectCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0!!RootHub_AddUsbDeviceContext Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0!!RootHub_AddEndpoint (Default) Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0!!RootHub_AddEndpoint (Interrupt) Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0!!RootHub_StaticPdoSetup Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0!!WdfWorkItemCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0UcxRootHubCreate 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Port Change for UcxRootHubContext 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Controller_ResetReferenceAcquire failed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Controller_ResetReferenceAcquire failed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0!!Failing RH Intr Tx, 0x%10!p!, 0x%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Controller_ResetReferenceAcquire Failed %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Roothub Ctrl Tx: RootHubClearHubFeature, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Roothub Ctrl Tx: RootHubClearPortFeature, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Roothub Ctrl Tx: RootHubGetHubStatus, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Roothub Ctrl Tx: RootHubGetPortStatus, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Roothub Ctrl Tx: RootHubSetHubFeature, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Roothub Ctrl Tx: RootHubSetPortFeature, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Roothub Ctrl Tx: RootHubGetPortErrorCount, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Roothub Ctrl Tx: RootHubControlUrb, urb 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0!Unexpected Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s! Irp %11!p! Completing from Hcd" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s! Irp %11!p! Completed from Hcd" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0User-mode IOCTL %10!x! for IRP %11!p! From hub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s! Irp %11!p! From Hub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagRootHub
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Controller reset IOCTL %10!s! Controller %11!p! doesn't support" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Controller reset IOCTL %10!s! due to failed controller %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Unknown Irp 0x%10!p!, IoControlCode 0x%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_UCX_IOCTL) -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0!!WdfStringCreate Failed for RHPdo 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0!!WdfDeviceRetrieveDeviceInterfaceString for GUID_CLASS_USBHUB Failed. RhPdo 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0!!SleepstudyHelper_RegisterPdoWithParentPdo Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0!!Controller 0x%10!p! Reset is going on. Failing RootHub_Pdo_EvtDeviceEnableWakeAtBus" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Controller 0x%10!p! RootHub_Pdo_EvtDeviceEnableWakeAtBus" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagRootHub
+{
+Arg, ItemPtr -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0!!Invalid size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0!!Unsupported version Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0!!Unable to allocate location strings" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0!!WdfDeviceAddQueryInterface for Parent Hub Interface Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0!!WdfDeviceAddQueryInterface for Hub Controller Interface Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0!!WdfDeviceAddQueryInterface for 2.0 USBDI Interface Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0!!WdfDeviceAddQueryInterface for Parent Hub Interface Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0!!WdfDeviceAddQueryInterface for GUID_PNP_LOCATION_INTERFACE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0!!Insufficient size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0!!Unsupported version Expected 0x602, Actual %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0!!Null Device object, usbdInterfaceV1 0x%10!p!,, ucxUsbDevice 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0!!PoolTab must be non null, usbdInterfaceV1 0x%10!p!, ucxUsbDevice 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0!!WdfMemoryCreate failed, usbdInterfaceV1 0x%10!p!, ucxUsbDevice 0x%11!p!, %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0UsbVerifier failing Query Interface, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbdi
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Returning ExposedInterface Size %10!d!, Version %11!d!, Status %12!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0!USB_BUS_INTERFACE_USBDI Query Exchange: Fixing irpStack->Parameters.QueryInterface.Interface: Size from %10!d! to %11!d!, Version from %12!d! to %13!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0!!Insufficient size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0!!Insufficient size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0!!Insufficient size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0!!Insufficient size of Interface Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+5de72b11-1d33-3b30-6f56-33f7c110812b UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Returning ExposedInterface Size %10!d!, Version %11!d!, Status %12!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbdi
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!Controller pointer cannot be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0!!User mode ioctl Ioctl %10!x! not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0!!WdfMemoryCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0!!WdfCollectionAdd failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0EvtControllerSetTransportCharacteristicsChangeNotification %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0TransportCharacteristicsFlags 0x%10!x!, CurrentRountTripLatency %11!I64d!, MaxPotentialBandwidth %12!I64d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0EvtControllerSetTransportCharacteristicsChangeNotification %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0EvtControllerSetTransportCharacteristicsChangeNotification %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Config pointer cannot be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!Config structure size is %10!Iu!, expected %11!Iu!, %12!Iu! or %13!Iu!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!Config %10!p!: Both or none of GetDumpData/FreeDumpData should be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!Attributes structures has ParentObject set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!Could not add WDFDEVICE_UCX_CONTEXT to WDFDEVICE, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!Ucx_WdfObjectCreateWith2Attributes Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!Error setting ID strings %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0UcxController 0x%10!p!, UcxControllerContext 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!StateMachineEngine_Init Failed, ucxControllerContext 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!WdfIoQueueCreate for queueAddress0Ownership Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!WdfIoQueueAssignForwardProgressPolicy Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!WdfIoQueueCreate for queueUsbDeviceMgmt Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0!!WdfIoQueueAssignForwardProgressPolicy Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!WdfIoQueueCreate for queueTreePurge Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!WdfIoQueueAssignForwardProgressPolicy Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!WdfIoQueueCreate for queuePendUsbDeviceMgmtDuringControllerReset Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0!!WdfIoQueueCreate for QueueTransportCharacteristics Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!WdfIoQueueCreate for QueueTransportCharacteristics Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0!!Failed to create collection for transport change handles %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!Failed to create collection for transport change handles %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!WdfIoQueueCreate for queueUcxDefault Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0!!WdfIoQueueAssignForwardProgressPolicy Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0!!WdfDeviceCreateDeviceInterface for GUID_CLASS_USB_HOST_CONTROLLER Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0!!WdfStringCreate Failed for Controller 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0!!WdfDeviceRetrieveDeviceInterfaceString for GUID_CLASS_USB_HOST_CONTROLLER Failed. Fdo 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0!!UcxRootHubGetDeviceCapabilities Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0!!Wmi_Create Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0UcxControllerCreate 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0HCD already reported failed UcxController 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0HCD reported failed UcxController 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0!!UcxControllerSetIdStrings Failed - Strings already exist" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0!!UcxControllerSetIdStrings Failed - Controller must be MaUsb or Custom" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0!!Error validating manufacturer name string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0!!Error validating model name string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0!!Error validating model number string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0!!ID Strings should be non-null %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0!!Error duplicating Manufacturer ID string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0!!Error duplicating ModelName ID string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0!!Error duplicating ModelNumber ID string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s! WdfRequest 0x%11!p!, ucxControllerContext 0x%12!p!, UcxRootHubContext 0x%13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Controller_ResetReferenceAcquire failed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0!A IOCTL %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Granting Addr0 Ownership Hub 0x%10!p!, Device 0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0!!Unknown Ioctl Code %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Releasing Addr0 Ownership Hub 0x%10!p!, Device 0x%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Getting superspeed stream endpoint capability for Hub 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0HCD does not provide EvtControllerQueryUsbCapability" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0!!EvtControllerQueryUsbCapability failed for GUID_USB_CAPABILITY_STATIC_STREAMS, controller context(0x%10!p!), status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Querying ClearTtBufferOnAsyncTransferCancel capability, controller context 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0HCD does not provide EvtControllerQueryUsbCapability" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Controller supports ClearTtBufferOnAsyncTransferCancel capability, controller context 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Controller does not support ClearTtBufferOnAsyncTransferCancel capability, controller context 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0!!Incorrect Version %10!d! in GetCapability (0x%11!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0!!Incorrect Version %10!d! in GetCapability (0x%11!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0!!Null USBDHandle in GetCapability (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0!!Output buffer should not be NULL. GetCapability (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0!!Output buffer should be zero. GetCapability (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0!!Output buffer shoudl be null for GUID_USB_CAPABILITY_CHAINED_MDLS (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0UsbVerifier failing Chained Mdl Support, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0!!Output buffer shoudl be null for GUID_USB_CAPABILITY_SECURE_TRANSFERS (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0UsbVerifier failing Secure Transfer Support, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0!!Output buffer should be null for GUID_USB_CAPABILITY_SELECTIVE_SUSPEND (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0!!Output Buffer Size should be sizeof(ULONG) for GUID_USB_CAPABILITY_HIGH_BANDWIDTH_ISOCH (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0!!Output Buffer Size should be sizeof(USHORT) for GUID_USB_CAPABILITY_STATIC_STREAMS (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0UsbVerifier failing Static Stream Support, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbdi
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0!!Output Buffer Size should be sizeof(ULONG) for GUID_USB_CAPABILITY_ENDPOINT_OFFLOAD (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0UsbVerifier failing Offload Support, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbdi
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0!!Output Buffer should be NULL for GUID_USB_CAPABILITY_TIME_SYNC (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0!!Output Buffer Size should be ZERO for GUID_USB_CAPABILITY_TIME_SYNC (0x%10!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0UsbVerifier failing Time Sync Support, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbdi
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0!!Unsupported Capability (0x%10!p!), {%11!08x!-%12!04x!-%13!04x!-%14!02x!%15!02x!-%16!02x!-%17!02x!-%18!02x!-%19!02x!-%20!02x!-%21!02x!}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0HCD does not provide EvtControllerQueryUsbCapability" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0!!EvtControllerQueryUsbCapability failed for Capability (0x%10!p!), controller context(0x%11!p!), status %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Stream Support Granted (%10!d!), Capabiltiy 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0HCD did not provide EvtControllerGetDumpData" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0!!EvtControllerGetDumpData failed for controller context(0x%10!p!), status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0HCD did not provide EvtControllerFreeDumpData" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0!!PsCreateSystemThread Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0!!ObReferenceObjectByHandle Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0!!EvtControllerEnableForwardProgress failed for controller context(0x%10!p!), status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0!!UsbDevice_EnableForwardProgress Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0!!ExAllocatePoolWithTag failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0!!IoAllocateWorkItem failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0EvtControllerGetCurrentFrameNumber %10!d!, %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Faking EvtControllerGetCurrentFrameNumber while controller reset %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0!!WdfDeviceStopIdle failed, controller 0x%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemPtr -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0!!User mode ioctl Ioctl %10!x! not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagRootHub
+{
+Arg, ItemLong -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0EvtControllerGetTransportCharacteristics %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+61eb66df-4be6-3559-e7e2-30ac3c464de8 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0TransportCharacteristicsFlags 0x%10!x!, CurrentRountTripLatency %11!I64d!, MaxPotentialBandwidth %12!I64d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!EvtEndpointStreamsAdd Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!Failing StaticStreams_Create since HCD did an error while calling UcxStaticStreamsSetStreamInfo, SStream Context %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+Arg, ItemPtr -- 10
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!Failing StaticStreams_Create since HCD did not call UcxStaticStreamsSetStreamInfo enough number of times %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+Arg, ItemPtr -- 10
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!UcxStreamsSetStreamInfo can only be called from within EvtEndpointStreamsAdd" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!StreamInfo has invalid Size. Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!StreamId should be sequential starting at 1" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0!!StreamInfo->WdfQueue cannot be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!WdfObjectCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagStreams
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0UcxEndpoint 0x%10!p!, UcxStreams 0x%11!p!, UcxStreamsContext 0x%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagStreams
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6b7a8e7b-965b-38d2-bcad-02be48b249fa UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0UcxStreamsCreate 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagStreams
+{
+Arg, ItemLong -- 10
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!UsbUserIoctl length Expected %10!d!, Actual %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Faking EvtControllerGetCurrentFrameNumber during controller reset %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!WdfStringCreate failed, Str:Len-%10!d!,MaxLen-%11!d!,Buffer-0x%12!p!, Status %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfRequestRetrieveOutputBuffer Failed %10!s! (changing status to STATUS_BUFFER_TOO_SMALL)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!WdfRequestRetrieveOutputBuffer Failed %10!s! (changing status to STATUS_BUFFER_TOO_SMALL)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c9538a4a-8f28-3a5e-eeef-045e5cfbe3ab UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!header->RequestBufferLength(%10!d!) != OutputBufferLength(%11!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!Cannot create a device at depth %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Controller_ResetReferenceAcquire failed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!EvtControllerUsbDeviceAdd Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfObjectCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failing device create since parent 0x%10!p! is disconnected %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0UcxUsbDevice 0x%10!p!, UcxUsbDeviceContext 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0UcxUsbDeviceCreate 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!Remote wake from HCD, but no Request, Device Context 0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!!Remote wake from HCD, but no relevant Request, Device Context 0x%10!p!, Interface Waiting for Remote wake %11!d!, Interface that has got wake %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!Remote wake from HCD, but no Request for interface %10!d!, Device Context0x%11!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0For UcxUsbDeviceContext 0x%10!p!, Request 0x%11!p! could not be Unmarked Cancellable,Status %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Setting DeprogrammedDueToControllerReset for UcxDevice 0x%10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Completing Pending Operation for UcxUsbDevice 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Scheduling Pending Operation for UcxUsbDevice 0x%10!p!, with #endpoints %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Fwd to HCD Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Forwarding Endpoints Configure Request 0x%10!p! to QueuePendUsbDeviceMgmtDuringControllerReset" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Fwd to HCD Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Forwarding Usb device reset Request 0x%10!p! to QueuePendUsbDeviceMgmtDuringControllerReset" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Fwd to HCD Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Forwarding UsbDevice Disable Request 0x%10!p! to QueuePendUsbDeviceMgmtDuringControllerReset" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Completing Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Completing Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Completing Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Completing Irp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Completing Irp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Completing Irp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Pending Request 0x%10!p!, waiting for UsbDeviceForwardResetToHcd" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Fail EndpointsConfigure due to Controller Reset 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Fwd to HCD, Request 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Pending Request 0x%10!p!, waiting for UsbDeviceForwardEndpointsConfigureToHcd" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0!!Irp 0x%10!p! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Completing Irp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Pending Irp 0x%10!p!, waiting for UsbDeviceCompleteEndpointsConfigureToHub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0!!Irp 0x%10!p! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Pending Irp 0x%10!p!, waiting for UsbDeviceCompleteEnable" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0!!Irp 0x%10!p! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Pending Irp 0x%10!p!, waiting for UsbDeviceCompleteReset" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Pending Request 0x%10!p!, waiting for UsbDeviceForwardDisableToHcd" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Pending Request 0x%10!p!, waiting for UsbDeviceCompleteUsbDeviceStartToHub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Pending Request 0x%10!p!, waiting for UsbDeviceCompleteUsbDevicePurgeToHub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Pending Request 0x%10!p!, waiting for UsbDeviceCompleteUsbDeviceAbortToHub" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0!!RegisterCompositeDevice or UsbdFunctionHandles cant be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0!!RegisterCompositeDevice 0x%10!p! Size Expected %11!d!, Actual %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0!!RegisterCompositeDevice 0x%10!p! Version Expected 0x100, Actual 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0!!FunctionCount %10!d! value invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0!!Could not allocate memory for UCXFUNCTION_INFO" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0!!UcxFunctionInfoWdfMemory 0x%10!p! is not NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0!!UcxUsbDeviceContext->UcxFunctionInfoWdfMemory is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0!!Invalid Request, 0x%10!p!, Has a Null RemoteWakeNotification" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0!!UsbdFunctionHandle can only be specified for a Driver that registered itself as a Composite driver, Request 0x%10!p!, Device Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0!!UsbdFunctionHandle must be specified for a Driver that registered itself as a Composite driver, Request 0x%10!p!, Device Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0!!RemoteWakeNotification Request (0x%10!p!) exists, so new one is invalid (0x%11!p!), Device context 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0!!WdfRequestMarkCancelableEx failed Device Context 0x%10!p!, Request 0x%11!p!, Status %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0!!Cannot Open Streams due to Controller Reset 0x%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0!!An URB function %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s! WdfRequest 0x%11!p!, UcxController 0x%12!p!, UcxDevice 0x%13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0!!%10!s! failed fwd to DeviceMgmt, UcxController 0x%11!p!, UcxDevice 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0!A IOCTL %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Ignoring %10!s! due to controller reset, WdfRequest 0x%11!p!, UcxController 0x%12!p!, UcxDevice 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Clearing DeprogrammedDueToControllerReset for UcxDevice 0x%10!p!, Context 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Ignoring %10!s! since the device has been deprogrammed, WdfRequest 0x%11!p!, UcxController 0x%12!p!, UcxDevice 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s! WdfRequest 0x%11!p!, UcxController 0x%12!p!, UcxDevice 0x%13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagController
+{
+Arg, ItemEnum(_UCX_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0!!An URB function %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0!A IOCTL %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Complete Reset Request due to controller reset 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Completing UsbDevice Disable Request due to controller reset 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Completing HCD Endpoints Configuire Request due to controller reset, 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Completing CLOSE Static Streams due to controller reset, 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0!!An URB function %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0!A IOCTL %10!d! was unexpected in this function" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=FlagController
+{
+Arg, ItemLong -- 10
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0!!FPInfo %10!p!, too large ControlPipeMaxForwardProgressTransferSize %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0!!FPInfo %10!p!, Pipe %11!p! is already provisioned for forward progress" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0!!FPInfo %10!p! ->Pipes[%11!d!].MaxForwardProgressTransferSize %12!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0!!FPInfo %10!p!, Pipe %11!p! is already provisioned for forward progress" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0!!FPInfo %10!p!, Pipe %11!p! doesnt support Forward progress" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0!!FPInfo %10!p!, Pipe %11!p! couldnt be provisioned %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0!!FPInfo %10!p!, Pipe %11!p! doesnt support Forward progress" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e075a747-f178-38fe-3fc2-6c7081631f62 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0!!FPInfo %10!p!, Pipe %11!p! couldnt be provisioned %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!EvtUsbDeviceDefaultEndpointAdd Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!EvtUsbDeviceDefaultEndpointAdd forgot to set the Queue for EndpointContext %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!EvtUsbDeviceEndpointAdd Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagHubInterface
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!EvtUsbDeviceDefaultEndpointAdd forgot to set the Queue for EndpointContext %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!UcxEndpointSetWdfIoQueue can only be called once, EndpointContext %10!p!, Last Set Queue %11!p!, Queue Being Set %12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!WdfObjectCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0UcxControllerContext 0x%10!p!, UcxUsbDevice 0x%11!p!, UcxEndpoint 0x%12!p!, UcxEndpointContext 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0!!StateMachineEngine_Init Failed, ucxEndpointContext 0x%10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0UcxEndpointCreate 0x%10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagEndpoint
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!HCD called UcxEndpointNeedToCancelTransfers more than once, 0x%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0!!Called at irql higher than passive (%10!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemLong -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0!!Streams support not granted" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0!!Invalid Number Of Streams %10!d!, Maximum should be %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0UsbVerifier failing Open Static streams, Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagEndpoint
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!Streams are already enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!StaticStreamsCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!Called at irql higher than passive (%10!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemLong -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0!!No streams are enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!Pipe handle %10!p! is not an isoch endpoint" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemPtr -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Pending Irp 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUsbDevice
+{
+Arg, ItemPtr -- 10
+}
+
+e7fc8a34-cb81-3837-3439-8a32267e1d07 UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0!!StreamsEnable Failed by HCD %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagEndpoint
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0!!WdfDriverCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0!!WdfControlDeviceInitAllocate returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0!!RtlUnicodeStringPrintf Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0!!WdfDeviceInitAssignName Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0!!WdfDeviceCreate Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0!!WdfRegisterClassLibrary Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Allow64KLowOrFullSpeedControlTransfersFlag is set in registry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Allow64KLowOrFullSpeedControlTransfersFlag is cleared in registry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0!!Query for Allow64KLowOrFullSpeedControlTransfersFlag failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0!!SleepstudyHelper_Initialize Failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Driver Entry %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=FlagUcx
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfDriver Unloading 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUcx
+{
+Arg, ItemPtr -- 10
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0UcxClassInitialize" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0UcxClassDeinitialize" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0!!Client major version mismatch: UCX %10!u!, Client %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0!!Unsupported client minor version: UCX %10!u!, Client %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0!!Unexpected function count for client with minor version %10!u!. Expected: %11!u!, Got: %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0UcxClassBindClient" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0!!WdfClassBindInfo->ClassBind Info should not be NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0!!Could not allocate UcxGlobals" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0UcxClassUnbindClient" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=FlagUcx
+{
+}
+
+fe5204af-d2ee-370a-198c-6d82cff7145e UCX // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0!!%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FlagUcx
+{
+Arg, ItemString -- 10
+}
+

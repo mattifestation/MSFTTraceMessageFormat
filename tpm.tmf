@@ -1,0 +1,1966 @@
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransporttis.cpp(214) %!FUNC!:found interrupt resource." //   LEVEL=INFORMATION
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransporttis.cpp(309) %!FUNC!:Interrupt vector: 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransporttis.cpp(326) %!FUNC!:TPM_INT_ENABLE register: 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransporttis.cpp(520) %!FUNC!:Cancelled command before sending command." //   LEVEL=INFORMATION
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmtransporttis.cpp(547) %!FUNC!:Illegal bits set in %10!s! (0x%11!x!)" //   LEVEL=ERROR
+{
+Arg, ItemEnum(_TPM_REGISTER) -- 10
+Arg, ItemLong -- 11
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmtransporttis.cpp(590) %!FUNC!:First attempt to set CommandReady bit in Status register failed.  Retrying." //   LEVEL=WARNING
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmtransporttis.cpp(678) %!FUNC!:Tpm is expecting more data after the command has been submitted completely" //   LEVEL=ERROR
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmtransporttis.cpp(808) %!FUNC!:Illegal register value 0x%10!02x! in STATUS register" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmtransporttis.cpp(869) %!FUNC!:TPM did not send interrupt within maximum timeout (%10!d! ms)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmtransporttis.cpp(879) %!FUNC!:Interrupt received, checking status register." //   LEVEL=INFORMATION
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmtransporttis.cpp(959) %!FUNC!:Illegal response size %10!d! received from Tpm" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmtransporttis.cpp(1034) %!FUNC!:Tpm has more data to send after the response has been received completely" //   LEVEL=ERROR
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmtransporttis.cpp(1117) %!FUNC!:Cancelling TIS1.3 command" //   LEVEL=WARNING
+{
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmtransporttis.cpp(1236) %!FUNC!:Waiting for pattern 0x%10!x! to show up in register %11!s! timed out after %12!d! ms; Identifier = %13!d!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_TPM_REGISTER) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+097e0669-ec35-3ce1-1151-b410d7654659 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmtransporttis.cpp(1345) %!FUNC!:Tpm command was canceled at user's request" //   LEVEL=WARNING
+{
+}
+
+1f96af0a-84fb-32f5-88e5-9e6f31a2f821 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtask.cpp(188) %!FUNC!:Tpm Driver Task Worker: Issue Provisioning event" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmek_srk.cpp(148) %!FUNC!:Persistent SRK already present; SRK creation not needed." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmek_srk.cpp(178) %!FUNC!:TPM OwnerAuth is set but is not available; skipping SRK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmek_srk.cpp(194) %!FUNC!:Error reading TPM OwnerAuth; skipping SRK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmek_srk.cpp(227) %!FUNC!:TPM driver SRK creation succeeded." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmek_srk.cpp(240) %!FUNC!:TPM driver SRK creation thread cancelled." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmek_srk.cpp(324) %!FUNC!:Persistent EK already present; EK creation not needed." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmek_srk.cpp(354) %!FUNC!:TPM EndorsementAuth is set but is not available; skipping EK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmek_srk.cpp(370) %!FUNC!:Error reading TPM EndorsementAuth; skipping EK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmek_srk.cpp(394) %!FUNC!:TPM OwnerAuth is set but is not available; skipping EK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmek_srk.cpp(410) %!FUNC!:Error reading TPM OwnerAuth; skipping EK creation." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmek_srk.cpp(543) %!FUNC!:Store EK public key to the registry." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmek_srk.cpp(548) %!FUNC!:TPM driver EK creation succeeded." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmek_srk.cpp(562) %!FUNC!:TPM driver EK creation thread cancelled." //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmek_srk.cpp(670) %!FUNC!:EK public key registry entry deletion succeeded" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmek_srk.cpp(675) %!FUNC!:EK public key registry entry not found" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpmek_srk.cpp(679) %!FUNC!:EK public key registry entry deletion failed: NTSTATUS %10!s!" //   LEVEL=INFORMATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpmek_srk.cpp(691) %!FUNC!:EK registry certificate store deletion succeeded" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpmek_srk.cpp(696) %!FUNC!:EK registry certificate store not found" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpmek_srk.cpp(700) %!FUNC!:EK registry certificate store deletion failed: NTSTATUS %10!s!" //   LEVEL=INFORMATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! tpmek_srk.cpp(764) %!FUNC!:UpdateRegistryEkValues: Store EK to registry succeeded" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! tpmek_srk.cpp(768) %!FUNC!:UpdateRegistryEkValues: Store EK to registry failed: NTSTATUS %10!s!" //   LEVEL=INFORMATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 %!LEVEL! tpmek_srk.cpp(1460) %!FUNC!:TPM driver SRK/EK creation sub-thread: Invalid context size." //   LEVEL=ERROR
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 %!LEVEL! tpmek_srk.cpp(1476) %!FUNC!:TPM driver SRK/EK creation sub-thread: SRK creation failed: NTSTATUS %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 %!LEVEL! tpmek_srk.cpp(1488) %!FUNC!:TPM driver SRK/EK creation sub-thread: EK creation failed: NTSTATUS %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 %!LEVEL! tpmek_srk.cpp(1510) %!FUNC!:WARNING: TPM driver SRK/EK creation sub-thread FAILED: NTSTATUS %10!s!" //   LEVEL=WARNING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 %!LEVEL! tpmek_srk.cpp(1579) %!FUNC!:TPM driver SRK/EK creation thread: Invalid context size." //   LEVEL=ERROR
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 %!LEVEL! tpmek_srk.cpp(1593) %!FUNC!:Starting TPM 2.0 TPM driver SRK/EK creation sub-thread" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 %!LEVEL! tpmek_srk.cpp(1599) %!FUNC!:TPM driver SRK/EK creation thread: Sub-thread creation failed" //   LEVEL=ERROR
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 %!LEVEL! tpmek_srk.cpp(1617) %!FUNC!:TPM driver SRK/EK creation thread: Sub-thread context allocation failed" //   LEVEL=ERROR
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 %!LEVEL! tpmek_srk.cpp(1630) %!FUNC!:WARNING: Starting TPM 2.0 TPM driver SRK/EK creation sub-thread FAILED: NTSTATUS %10!s!" //   LEVEL=WARNING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 %!LEVEL! tpmek_srk.cpp(1652) %!FUNC!:TPM 2.0 TPM driver SRK/EK creation: Canceling sub-thread" //   LEVEL=INFORMATION
+{
+}
+
+27239d1b-4d56-36e1-202f-1862f1d608bb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 %!LEVEL! tpmek_srk.cpp(1661) %!FUNC!:TPM 2.0 TPM driver SRK/EK creation: Thread completed" //   LEVEL=INFORMATION
+{
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmrsrc.cpp(328) %!FUNC!:Virtual %10!s! handle 0x%11!x! translated to physical %12!s! handle 0x%13!x!" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 12
+Arg, ItemLong -- 13
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmrsrc.cpp(382) %!FUNC!:Virtual %10!s! handle 0x%11!x! translated to physical %12!s! handle 0x%13!x!" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 12
+Arg, ItemLong -- 13
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmrsrc.cpp(543) %!FUNC!:Pre-processing Tpm command failed with %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmrsrc.cpp(760) %!FUNC!:Physical %10!s! handle 0x%11!x! translated to virtual handle 0x%12!x!" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmrsrc.cpp(835) %!FUNC!:Post-processing Tpm response failed with %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmrsrc.cpp(1245) %!FUNC!:Unloading resource handle 0x%10!x! failed with %11!s!" //   LEVEL=WARNING
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmrsrc.cpp(1283) %!FUNC!:%10!d! Tpm resources reclaimed" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmrsrc.cpp(1295) %!FUNC!:Idling %10!d! milliseconds to allow TPM to garbage-collect." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmrsrc.cpp(1310) %!FUNC!:Trimming Tpm resources failed with %10!s!" //   LEVEL=INFORMATION
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmrsrc.cpp(1465) %!FUNC!:Synchronizing Tpm resources completed with %10!s!; %11!d! %12!s! resources flushed" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 12
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmrsrc.cpp(1498) %!FUNC!:No room to load a %10!s! resource; Trimming Tpm resources" //   LEVEL=WARNING
+{
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmrsrc.cpp(1711) %!FUNC!:Handle 'TPM_CONTEXT_GAP' error" //   LEVEL=INFORMATION
+{
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmrsrc.cpp(1798) %!FUNC!:'TPM_CONTEXT_GAP' handling: Load context 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmrsrc.cpp(1845) %!FUNC!:'TPM_CONTEXT_GAP' handling: Re-saved context 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmrsrc.cpp(1855) %!FUNC!:'TPM_CONTEXT_GAP' handling: Flush context 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpmrsrc.cpp(2165) %!FUNC!:Locally executed 'TPM_GetCapability'(TPM_CAP_KEY_HANDLE) command" //   LEVEL=INFORMATION
+{
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpmrsrc.cpp(2266) %!FUNC!:Local 'GetCapability' was not successful: Revert to TPM execution" //   LEVEL=INFORMATION
+{
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpmrsrc.cpp(2391) %!FUNC!:Local 'GetCapability'(Keys): Key handle %10!2d!: 0x%11!08x! (Physical handle: 0x%12!08x!, Resource type %13!s!)" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemEnum(_TPM_RESOURCE_TYPE) -- 13
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpmrsrc.cpp(2402) %!FUNC!:Local 'GetCapability'(Keys): %10!d! key handles found" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! tpmrsrc.cpp(2425) %!FUNC!:Local 'GetCapability'(Keys): STATUS_BUFFER_OVERFLOW" //   LEVEL=INFORMATION
+{
+}
+
+2eb9936c-6c76-3352-7aa5-dac048c9c85a drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! tpmrsrc.cpp(2453) %!FUNC!:Local 'GetCapability'(Keys): SUCCESS!!!" //   LEVEL=INFORMATION
+{
+}
+
+48116449-312d-3b43-029f-fe8e99423ac2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmrqst.cpp(633) %!FUNC!:Parsing user Tpm command failed with %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+48116449-312d-3b43-029f-fe8e99423ac2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmrqst.cpp(693) %!FUNC!:Parsing Tpm response failed with %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+590944d7-56d2-3c5b-b782-ae74851b28bf drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransportacpi.cpp(223) %!FUNC!:Could not get physical device object." //   LEVEL=ERROR
+{
+}
+
+590944d7-56d2-3c5b-b782-ae74851b28bf drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransportacpi.cpp(247) %!FUNC!:ACPI _DSM method failed (0x%10!x!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransportspb.cpp(417) %!FUNC!:SPITISGetBurstCount in SubmitCommand return 0." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransportspb.cpp(490) %!FUNC!:TPM is busy." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransportspb.cpp(670) %!FUNC!:Couldn't get requested locality." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransportspb.cpp(735) %!FUNC!:Failed to release locality." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmtransportspb.cpp(794) %!FUNC!:Failed to read burst count within timeout." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmtransportspb.cpp(872) %!FUNC!:TPM failed to get ready in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmtransportspb.cpp(1081) %!FUNC!:TPM Status register did not change in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmtransportspb.cpp(1170) %!FUNC!:TPM did not wake up in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmtransportspb.cpp(1238) %!FUNC!:TPM is busy." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmtransportspb.cpp(1408) %!FUNC!:SPITISGetBurstCount in SubmitCommand return 0." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmtransportspb.cpp(1476) %!FUNC!:TPM is busy." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmtransportspb.cpp(1657) %!FUNC!:Failed to obtain locality in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmtransportspb.cpp(1720) %!FUNC!:Failed to release locality in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmtransportspb.cpp(1775) %!FUNC!:Failed to read burst count in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmtransportspb.cpp(1828) %!FUNC!:Write buffer too big." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpmtransportspb.cpp(2121) %!FUNC!:TPM status register did not change in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpmtransportspb.cpp(2210) %!FUNC!:TPM failed to get ready in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpmtransportspb.cpp(2401) %!FUNC!:TPM status register does not indicate ready in time." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpmtransportspb.cpp(2477) %!FUNC!:TPM is busy." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! tpmtransportspb.cpp(3097) %!FUNC!:Canceled command before sending command." //   LEVEL=INFORMATION
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! tpmtransportspb.cpp(3104) %!FUNC!:No internal reference to SPB device set." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 %!LEVEL! tpmtransportspb.cpp(3111) %!FUNC!:TPM command could not be submitted." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 %!LEVEL! tpmtransportspb.cpp(3195) %!FUNC!:No internal reference to SPB device set." //   LEVEL=ERROR
+{
+}
+
+5ec20a4b-0176-3fad-e064-8f2ccf5afcbb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 %!LEVEL! tpmtransportspb.cpp(3205) %!FUNC!:TPM Command timed out." //   LEVEL=ERROR
+{
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! dsm.cpp(291) %!FUNC!:PPI function IRP %10!s!" //   LEVEL=PPIHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! dsm.cpp(349) %!FUNC!:PPI function IRP response %10!s!" //   LEVEL=PPIHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! dsm.cpp(370) %!FUNC!:PPI function IRP returned 0x%10!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! dsm.cpp(652) %!FUNC!:Routing PPI function %10!s! to TPM transport" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! dsm.cpp(663) %!FUNC!:PPI function %10!s! response %11!s!" //   LEVEL=PPIHEXDUMP
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! dsm.cpp(778) %!FUNC!:Emulating PPI function %10!s! (argument %11!s!, optional argument 0x%12!08x!, flags 0x%13!08x!)" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemEnum(_TPM_PPI_OP) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! dsm.cpp(796) %!FUNC!:Emulated PPI function %10!s! response %11!s!" //   LEVEL=PPIHEXDUMP
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! dsm.cpp(812) %!FUNC!:Executing PPI function %10!s! (argument %11!s!, optional argument 0x%12!08x!, flags 0x%13!08x!)" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemEnum(_TPM_PPI_OP) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! dsm.cpp(831) %!FUNC!:Executed PPI function %10!s! response %11!s!" //   LEVEL=PPIHEXDUMP
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+6d7a0078-3c75-3ef1-0a3f-a4aa3d002c48 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! dsm.cpp(841) %!FUNC!:PPI function %10!s! returned 0x%11!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemEnum(_TPM_PHYSICAL_PRESENCE_COMMANDS) -- 10
+Arg, ItemLong -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! sched20.cpp(478) %!FUNC!:Blocking cmd (0x%10!x!) on context %11!p! as not on allow-list for %12!s!." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! sched20.cpp(519) %!FUNC!:Blocking cmd (0x%10!x!) on context %11!p! as user-level process may not issue ReadPublic on EK if the Endorsement Auth is set." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! sched20.cpp(542) %!FUNC!:Blocking cmd (0x%10!x!) on context %11!p! due to SW anti hammer." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! sched20.cpp(568) %!FUNC!:Blocking cmd (0x%10!x!) on context %11!p! due to queue length limits." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! sched20.cpp(1293) %!FUNC!:Errors during TPM preparation. TPM functionality might be limited." //   LEVEL=ERROR
+{
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! sched20.cpp(1331) %!FUNC!:Errors during TPM preparation. TPM functionality might be limited." //   LEVEL=ERROR
+{
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! sched20.cpp(1563) %!FUNC!:Couldn't perform PCR5 fixup: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! sched20.cpp(1576) %!FUNC!:TpmFreshOsBoot failed: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! sched20.cpp(1587) %!FUNC!:TpmResumeFromHibernation failed: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! sched20.cpp(1717) %!FUNC!:Couldn't save loaded TPM resources on shutdown: 0x%10!08x!. Expect lost resources after restart." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! sched20.cpp(1742) %!FUNC!:Couldn't shut down the TPM: 0x%10!08x!. Expect lost state after restart." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! sched20.cpp(1795) %!FUNC!:Blocking cmd (0x%10!x!) on context %11!p! due to SW anti hammer." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! sched20.cpp(1821) %!FUNC!:Resetting DA lockout due to successful TPM2_CC_DictionaryAttackLockReset." //   LEVEL=INFORMATION
+{
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! sched20.cpp(1840) %!FUNC!:Cmd on context %10!p! failed authorization. Response-code: 0x%11!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! sched20.cpp(1852) %!FUNC!:Tpm lockout count has increased" //   LEVEL=ERROR
+{
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! sched20.cpp(1857) %!FUNC!:Tpm is locked out" //   LEVEL=ERROR
+{
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! sched20.cpp(1880) %!FUNC!:TPM submit failed: status=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+70f2e71a-fa86-3785-7b9c-969344829f0d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! sched20.cpp(2270) %!FUNC!:TPM flush key handle failed: status=%10!#x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransportcr.cpp(131) %!FUNC!:TPM signals unexpected value in the Misc field of the Control Area. Misc:0x%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransportcr.cpp(180) %!FUNC!:TPM failed to perform Command Ready handshake. Status:0x%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransportcr.cpp(252) %!FUNC!:TPM signals unexpected value in the Status field of the Control Area: 0x%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransportcr.cpp(324) %!FUNC!:TPM failed to perform Response Read handshake. Status:0x%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmtransportcr.cpp(439) %!FUNC!:TPM failed fast handshake protocol." //   LEVEL=ERROR
+{
+}
+
+9703f58e-26c4-310d-bc3e-36aeb1c5bd45 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmtransportcr.cpp(523) %!FUNC!:TPM failed slow handshake protocol." //   LEVEL=ERROR
+{
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmsched.cpp(1145) %!FUNC!:Executing user Tpm command %10!s!(%11!s!) at PRI=%12!d! (base PRI=%13!d!) %14!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemEnum(_TPM_ORDINAL) -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemHEXDump -- 14
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmsched.cpp(1307) %!FUNC!:Tpm lockout count has increased" //   LEVEL=ERROR
+{
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmsched.cpp(1312) %!FUNC!:Tpm is locked out" //   LEVEL=ERROR
+{
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmsched.cpp(1317) %!FUNC!:Actual Tpm response received %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemEnum(_TPM_STATUS) -- 10
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmsched.cpp(1324) %!FUNC!:Retrying user Tpm command for low resources" //   LEVEL=INFORMATION
+{
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmsched.cpp(1369) %!FUNC!:Execution of user Tpm command failed with %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9f1a5dff-6410-376a-51da-25d5ceea3d9d drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmsched.cpp(1375) %!FUNC!:Returning user Tpm response %10!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpm-stack.cpp(513) %!FUNC!:Cancelling context %10!p!" //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpm-stack.cpp(632) %!FUNC!:TPM submit failed: status=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpm-stack.cpp(762) %!FUNC!:TPM internal submit failed: status=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpm-stack.cpp(780) %!FUNC!:Couldn't execute emulated PPI at TPM." //   LEVEL=ERROR
+{
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpm-stack.cpp(1478) %!FUNC!:TPM internal submit of GetRandom() failed: %10!s!" //   LEVEL=WARNING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpm-stack.cpp(1548) %!FUNC!:TPM internal GetRandom failed." //   LEVEL=WARNING
+{
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpm-stack.cpp(1555) %!FUNC!:TPM internal GetRandom returned invalid sizes: reply size=%10!d!, rndSize=%11!d!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpm-stack.cpp(1563) %!FUNC!:TPM internal GetRandom returned 0 bytes of randomness." //   LEVEL=WARNING
+{
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpm-stack.cpp(1573) %!FUNC!:EntropyProvideData(%10!d! bytes) failed: %11!s!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpm-stack.cpp(1621) %!FUNC!:TPM internal command submission failed: status=0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8a2b31d-9d09-35f2-5bdb-4e192fb7a7fb drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpm-stack.cpp(1649) %!FUNC!:TPM internal command execution failed." //   LEVEL=ERROR
+{
+}
+
+ba562300-3639-3b8f-fe73-3eccb08d25e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransportcrwithtree.cpp(133) %!FUNC!:Connected to TrEE TPM secure service. InterfaceVersion: (%10!d!), ServiceMajorVersion: (%11!d!), ServiceMinorVersion: (%12!d!)." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ba562300-3639-3b8f-fe73-3eccb08d25e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransportcrwithtree.cpp(243) %!FUNC!:Unexpected response received from TrEE driver. InterfaceVersion: (%10!d!), BytesWritten: (%11!I64d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+ba562300-3639-3b8f-fe73-3eccb08d25e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransportcrwithtree.cpp(253) %!FUNC!:TrEE driver failed to process the ping request. Status: 0x(%10!0x!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ba562300-3639-3b8f-fe73-3eccb08d25e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransportcrwithtree.cpp(331) %!FUNC!:Unexpected response received from TrEE driver. InterfaceVersion: (%10!d!), BytesWritten: (%11!I64d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpm20-commands.cpp(141) %!FUNC!:TPM20_CC_ContextLoad: RC=0x%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpm20-commands.cpp(151) %!FUNC!:Unexpected response to TPM20_CC_ContextLoad. ST=0x%10!x!, size=0x%11!x!, RC=0x%12!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpm20-commands.cpp(210) %!FUNC!:Context-saving TPM handle 0x%10!08x!" //   LEVEL=VERBOSE
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpm20-commands.cpp(236) %!FUNC!:Context-save of TPM resource 0x%10!08x! failed." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpm20-commands.cpp(363) %!FUNC!:Couldn't obtain size-capabilities from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpm20-commands.cpp(378) %!FUNC!:TPM reply size (%10!d!) didn't match expected reply (%11!d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpm20-commands.cpp(430) %!FUNC!:TPM GetCap(CAP_PROPERTIES) didn't include all the properties expected." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpm20-commands.cpp(514) %!FUNC!:Couldn't obtain size-capabilities from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpm20-commands.cpp(524) %!FUNC!:TPM reply permanent flag property count (%10!d!) didn't match expected count (%11!d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpm20-commands.cpp(638) %!FUNC!:Couldn't obtain command-attribute capabilities from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpm20-commands.cpp(654) %!FUNC!:TPM reply size (%10!d!) didn't match expected reply (%11!d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpm20-commands.cpp(741) %!FUNC!:Shutting down TPM (%10!s!, %11!d!)" //   LEVEL=INFORMATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpm20-commands.cpp(768) %!FUNC!:TPM Shutdown(SU_STATE) failed." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpm20-commands.cpp(812) %!FUNC!:Sending Startup command to TPM (%10!s!, %11!d!)" //   LEVEL=INFORMATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpm20-commands.cpp(838) %!FUNC!:TPM Startup(%10!s!) failed." //   LEVEL=ERROR
+{
+Arg, ItemString -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpm20-commands.cpp(922) %!FUNC!:Couldn't obtain handles-capabilities from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpm20-commands.cpp(1040) %!FUNC!:Couldn't read PCR from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpm20-commands.cpp(1049) %!FUNC!:PCR-Read: Expected 1 digest, got %10!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpm20-commands.cpp(1058) %!FUNC!:PCR-Read: Expected digest of length %10!d!, got %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! tpm20-commands.cpp(1068) %!FUNC!:PCR-Read: Expected digest of length %10!d!, got %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! tpm20-commands.cpp(1174) %!FUNC!:TPM LOAD Key submit failed: status=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 %!LEVEL! tpm20-commands.cpp(1187) %!FUNC!:Loading Key failed: TPM ResponseCode=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 %!LEVEL! tpm20-commands.cpp(1302) %!FUNC!:TPM quote submit failed: status=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 %!LEVEL! tpm20-commands.cpp(1312) %!FUNC!:Quoting with AIK failed: TPM ResponseCode=%10!x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 %!LEVEL! tpm20-commands.cpp(1334) %!FUNC!:Quoting with AIK returned bogus reply. Response size missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 %!LEVEL! tpm20-commands.cpp(1344) %!FUNC!:Quoting with AIK returned bogus reply. Quote response missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 %!LEVEL! tpm20-commands.cpp(1351) %!FUNC!:Quote response buffer too small. Have %10!d!, need %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 %!LEVEL! tpm20-commands.cpp(1366) %!FUNC!:Quoting with AIK returned bogus reply. Signature scheme missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 %!LEVEL! tpm20-commands.cpp(1372) %!FUNC!:Quoting with AIK returned non-PKCS1v1_5 signature. Wrong key." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 %!LEVEL! tpm20-commands.cpp(1380) %!FUNC!:Quoting with AIK returned bogus reply. Signature hash alg missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 %!LEVEL! tpm20-commands.cpp(1386) %!FUNC!:Quoting with AIK returned non-SHA1 signature. Wrong key." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 %!LEVEL! tpm20-commands.cpp(1394) %!FUNC!:Quoting with AIK returned bogus reply. Signature size missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 %!LEVEL! tpm20-commands.cpp(1404) %!FUNC!:Quoting with AIK returned bogus reply. Signature missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 %!LEVEL! tpm20-commands.cpp(1411) %!FUNC!:Signature response buffer too small. Have %10!d!, need %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 %!LEVEL! tpm20-commands.cpp(1502) %!FUNC!:TPM ReadPublic submit failed: status = 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 %!LEVEL! tpm20-commands.cpp(1516) %!FUNC!:Reading public area failed: TPM ResponseCode = 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 %!LEVEL! tpm20-commands.cpp(1528) %!FUNC!:Reading public area returned bogus reply.  Response header missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 %!LEVEL! tpm20-commands.cpp(1539) %!FUNC!:Reading public area returned bogus reply.  Public area response size missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 %!LEVEL! tpm20-commands.cpp(1549) %!FUNC!:Reading public area returned bogus reply.  Public area response missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 %!LEVEL! tpm20-commands.cpp(1556) %!FUNC!:Public area response buffer too small.  Have %10!d!, need %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 %!LEVEL! tpm20-commands.cpp(1571) %!FUNC!:Reading object name returned bogus reply.  Object name response size missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 %!LEVEL! tpm20-commands.cpp(1581) %!FUNC!:Reading object name returned bogus reply.  Object name response missing." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 %!LEVEL! tpm20-commands.cpp(1588) %!FUNC!:Object name response buffer too small.  Have %10!d!, need %11!d!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 %!LEVEL! tpm20-commands.cpp(1673) %!FUNC!:Issue ReadPublic(TPMW8_PERSISTENT_SRK_HANDLE) via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 %!LEVEL! tpm20-commands.cpp(1709) %!FUNC!:Persistent SRK handle already present, but not valid SRK." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 %!LEVEL! tpm20-commands.cpp(1804) %!FUNC!:Issue ReadPublic(TPMW8_PERSISTENT_EK_HANDLE) via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 %!LEVEL! tpm20-commands.cpp(1824) %!FUNC!:Persistent EK handle already present, but not valid EK." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0 %!LEVEL! tpm20-commands.cpp(1904) %!FUNC!:Issue GetCapability(TPM_PT_PERMANENT) via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0 %!LEVEL! tpm20-commands.cpp(2161) %!FUNC!:Issue CreatePrimary for SRK via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 %!LEVEL! tpm20-commands.cpp(2302) %!FUNC!:Issue CreatePrimary for EK via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 %!LEVEL! tpm20-commands.cpp(2409) %!FUNC!:Issue EvictControl via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0 %!LEVEL! tpm20-commands.cpp(2483) %!FUNC!:Issue NV_ReadPublic via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0 %!LEVEL! tpm20-commands.cpp(2542) %!FUNC!:NV object data size: %10!d!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0 %!LEVEL! tpm20-commands.cpp(2678) %!FUNC!:Issue NV_Read via internal command." //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0 %!LEVEL! tpm20-commands.cpp(2729) %!FUNC!:NV_read returned too much data; Requested: %10!d!  Returned: %11!d!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0 %!LEVEL! tpm20-commands.cpp(2736) %!FUNC!:NV_read: Invalid response buffer" //   LEVEL=INFORMATION
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0 %!LEVEL! tpm20-commands.cpp(2743) %!FUNC!:NV_read: Returned data size: %10!d!" //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0 %!LEVEL! tpm20-commands.cpp(2839) %!FUNC!:Flushing TPM handle 0x%10!08x!" //   LEVEL=VERBOSE
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0 %!LEVEL! tpm20-commands.cpp(2895) %!FUNC!:Flushing tpm-resource 0x%10!08x! from TPM failed." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0 %!LEVEL! tpm20-commands.cpp(3066) %!FUNC!:Couldn't obtain TPM specific capabilities from TPM." //   LEVEL=ERROR
+{
+}
+
+c902958e-8b27-3eb3-e93c-1de07d240dd8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 %!LEVEL! tpm20-commands.cpp(3081) %!FUNC!:TPM reply size (%10!d!) didn't match expected reply (%11!d!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! rm20-resourcemgr.cpp(102) %!FUNC!:Couldn't initialize resource manager: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! rm20-resourcemgr.cpp(263) %!FUNC!:Couldn't initialize resource manager sizes: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! rm20-resourcemgr.cpp(275) %!FUNC!:Couldn't retrieve basic TPM information: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! rm20-resourcemgr.cpp(284) %!FUNC!:TPM capabilities: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemHEXDump -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! rm20-resourcemgr.cpp(290) %!FUNC!:Couldn't retrieve test results information: %10!s!" //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! rm20-resourcemgr.cpp(299) %!FUNC!:TPM test results (ReturnCode=0x%10!x!), Data: %11!s!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHEXDump -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! rm20-resourcemgr.cpp(342) %!FUNC!:Out of memory for context creation." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! rm20-resourcemgr.cpp(349) %!FUNC!:Out of memory for context creation." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! rm20-resourcemgr.cpp(358) %!FUNC!:Created new context %10!p!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! rm20-resourcemgr.cpp(406) %!FUNC!:Deleting context %10!p!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! rm20-resourcemgr.cpp(447) %!FUNC!:Couldn't flush TPM handle 0x%10!08x!, virt-handle 0x%11!08x!: 0x%12!08x!. BAD." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! rm20-resourcemgr.cpp(578) %!FUNC!:Invalid reply from TPM: %10!d! bytes." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! rm20-resourcemgr.cpp(1031) %!FUNC!:Couldn't enumerate loaded handles: %10!s!.Expect further TPM errors." //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! rm20-resourcemgr.cpp(1060) %!FUNC!:Found & flushed loaded TPM handle 0x%10!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! rm20-resourcemgr.cpp(1065) %!FUNC!:Couldn't flush present handle 0x%10!08x!: %11!s!. Expect further TPM errors." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! rm20-resourcemgr.cpp(1093) %!FUNC!:Couldn't enumerate active sessions: %10!s!. Expect further TPM errors." //   LEVEL=ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! rm20-resourcemgr.cpp(1111) %!FUNC!:Found & flushed active TPM session 0x%10!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! rm20-resourcemgr.cpp(1117) %!FUNC!:Couldn't flush present session 0x%10!08x!: %11!s!. Expect further TPM errors." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! rm20-resourcemgr.cpp(1268) %!FUNC!:Context %10!p!: new resource phys 0x%11!08x!-> virt 0x%12!08x!" //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! rm20-resourcemgr.cpp(1330) %!FUNC!:Context %10!p!: Virt obj-handle 0x%11!08x! not valid." //   LEVEL=WARNING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! rm20-resourcemgr.cpp(1377) %!FUNC!:Context %10!p!: translate handle-nr %11!d! from 0x%12!08x! to 0x%13!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 %!LEVEL! rm20-resourcemgr.cpp(1464) %!FUNC!:Invalid command: More than %10!d! sessions." //   LEVEL=WARNING
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 %!LEVEL! rm20-resourcemgr.cpp(1478) %!FUNC!:Context %10!p!: Virt sess-handle 0x%11!08x! not valid." //   LEVEL=WARNING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 %!LEVEL! rm20-resourcemgr.cpp(1625) %!FUNC!:Unexpected resource type (0x%10!x!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 %!LEVEL! rm20-resourcemgr.cpp(1743) %!FUNC!:Could not load virtual resource 0x%10!08x!: %11!s!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 %!LEVEL! rm20-resourcemgr.cpp(1799) %!FUNC!:Couldn't find a resource to flush from the TPM (not flushing %10!d! handles)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 %!LEVEL! rm20-resourcemgr.cpp(1860) %!FUNC!:Couldn't allocate BLOB(%10!d! bytes) for context-saving handle 0x%11!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 %!LEVEL! rm20-resourcemgr.cpp(1882) %!FUNC!:Could not context-save phys handle 0x%10!08x! (virt 0x%11!08x!): %12!s!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 %!LEVEL! rm20-resourcemgr.cpp(1901) %!FUNC!:Could not flush phys handle 0x%10!08x! (virt 0x%11!08x!): %12!s!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 %!LEVEL! rm20-resourcemgr.cpp(1982) %!FUNC!:Failed to context load session." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 %!LEVEL! rm20-resourcemgr.cpp(2062) %!FUNC!:Cannot read object handle from response." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 %!LEVEL! rm20-resourcemgr.cpp(2077) %!FUNC!:TPM returned same session handle twice." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 %!LEVEL! rm20-resourcemgr.cpp(2187) %!FUNC!:Could not read output handle from response." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 %!LEVEL! rm20-resourcemgr.cpp(2198) %!FUNC!:TPM uses object handle unknown to resource manager." //   LEVEL=ERROR
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 %!LEVEL! rm20-resourcemgr.cpp(2210) %!FUNC!:Context %10!p!: translate output handle from 0x%11!08x! to virt 0x%12!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 %!LEVEL! rm20-resourcemgr.cpp(2996) %!FUNC!:Removing RM resource not present in the TPM" //   LEVEL=INFORMATION
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 %!LEVEL! rm20-resourcemgr.cpp(3125) %!FUNC!:Context %10!p!: deleted virt resource 0x%11!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 %!LEVEL! rm20-resourcemgr.cpp(3161) %!FUNC!:Context %10!p!: deleted virt resource 0x%11!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 %!LEVEL! rm20-resourcemgr.cpp(3285) %!FUNC!:Sending TPM command %10!s!: %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 %!LEVEL! rm20-resourcemgr.cpp(3288) %!FUNC!:Retrieved cached response for %10!s!: %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 %!LEVEL! rm20-resourcemgr.cpp(3369) %!FUNC!:Response for persistent handle 0x%10!08x! is not cached." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 %!LEVEL! rm20-resourcemgr.cpp(3376) %!FUNC!:Cached response for persistent handle 0x%10!08x! got evicted." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0 %!LEVEL! rm20-resourcemgr.cpp(3390) %!FUNC!:Clearing all cached responses due to TPM2_Clear" //   LEVEL=INFORMATION
+{
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 %!LEVEL! rm20-resourcemgr.cpp(3416) %!FUNC!:No room for response for persistent handle 0x%10!08x!." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d1fd158f-04b1-3a63-80bf-f57ae2f80ae2 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 %!LEVEL! rm20-resourcemgr.cpp(3433) %!FUNC!:memory allocation failed." //   LEVEL=INFORMATION
+{
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransport.cpp(696) %!FUNC!:No TPM 2.0 found and TPM 1.2 support is disabled." //   LEVEL=INFORMATION
+{
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransport.cpp(705) %!FUNC!:Simulator Start Method no longer supported." //   LEVEL=ERROR
+{
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransport.cpp(789) %!FUNC!:TPM 2.0 with SPB transport found but support is disabled." //   LEVEL=INFORMATION
+{
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransport.cpp(806) %!FUNC!:TPM ACPI table contains unknown StartMethod/Flags combination (current: %10!#x!/%11!#x!)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmtransport.cpp(820) %!FUNC!:Selected TpmVersion %10!x!, TpmHwInterface %11!x!." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmtransport.cpp(1352) %!FUNC!:Sending TPM command %10!s!: %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmtransport.cpp(1422) %!FUNC!:Received TPM response for %10!s!: %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmtransport.cpp(1436) %!FUNC!:TPM returned too-small of a reply (%10!d! bytes)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmtransport.cpp(1458) %!FUNC!:TPM indicated busy (%10!d!th iteration, RC=%11!#x!), sleeping %12!d! ms & retry." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmtransport.cpp(1747) %!FUNC!:Picked command timeout of %10!d! ms." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmtransport.cpp(1749) %!FUNC!:Picked Create command timeout of %10!d! ms." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+d8ce6c69-90fa-32a8-3dd4-1d672e7102dd drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmtransport.cpp(1751) %!FUNC!:Picked Cancel timeout of %10!d! ms." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmdrv.cpp(882) %!FUNC!:Starting TPM 2.0 early SRK/EK creation thread" //   LEVEL=INFORMATION
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmdrv.cpp(909) %!FUNC!:WARNING: SRK/EK thread was unexpectedly already created. Aborting." //   LEVEL=WARNING
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmdrv.cpp(925) %!FUNC!:WARNING: Thread context allocation failed" //   LEVEL=WARNING
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmdrv.cpp(947) %!FUNC!:WARNING: Starting TPM 2.0 early SRK/EK creation thread FAILED: NTSTATUS %10!s!" //   LEVEL=WARNING
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmdrv.cpp(2982) %!FUNC!:Failed to allocate TpmTaskTrigger object" //   LEVEL=ERROR
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmdrv.cpp(2985) %!FUNC!:Successfully created WDFDEVICE %10!p!." //   LEVEL=VERBOSE
+{
+Arg, ItemPtr -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmdrv.cpp(3025) %!FUNC!:Called on WDFDEVICE %10!p!." //   LEVEL=VERBOSE
+{
+Arg, ItemPtr -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmdrv.cpp(3109) %!FUNC!:called without device." //   LEVEL=ERROR
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmdrv.cpp(3115) %!FUNC!:called without stack associated with device." //   LEVEL=ERROR
+{
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmdrv.cpp(3935) %!FUNC!:TpmRegCreateKey: Setting key permissions %10!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmdrv.cpp(3947) %!FUNC!:TpmRegCreateKey: 'ObReferenceObjectByHandle': Status 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmdrv.cpp(3956) %!FUNC!:TpmRegCreateKey: 'ObGetObjectSecurity': Status 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmdrv.cpp(3960) %!FUNC!:Key inherited security descriptor %10!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmdrv.cpp(3980) %!FUNC!:TpmRegCreateKey: 'SeAssignSecurity': Status 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpmdrv.cpp(3989) %!FUNC!:TpmRegCreateKey: 'RtlSetControlSecurityDescriptor': Status 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpmdrv.cpp(3993) %!FUNC!:Key security descriptor to set %10!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemHEXDump -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpmdrv.cpp(4003) %!FUNC!:TpmRegCreateKey: 'ZwSetSecurityObject': Status 0x%10!08x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e74f8cee-608f-399e-6c2a-b6a98f268123 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpmdrv.cpp(4007) %!FUNC!:TpmRegCreateKey: Key permissions successfully set" //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmtransportmembase.cpp(318) %!FUNC!:TpmTransportMemBase::TpmEvtDevicePrepareHardware: found interrupt resource." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmtransportmembase.cpp(464) %!FUNC!:TpmEvtInterruptIsr called." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmtransportmembase.cpp(518) %!FUNC!:TpmEvtInterruptDpc called." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmtransportmembase.cpp(596) %!FUNC!:Control Area is missing." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmtransportmembase.cpp(613) %!FUNC!:Start field is not 0." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmtransportmembase.cpp(622) %!FUNC!:TPM signals Error in Control Area." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmtransportmembase.cpp(639) %!FUNC!:Command buffer too big for TPM." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 %!LEVEL! tpmtransportmembase.cpp(654) %!FUNC!:Canceled command before sending command." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 %!LEVEL! tpmtransportmembase.cpp(815) %!FUNC!:Vendor-specific driver didn't run TPM to completion." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 %!LEVEL! tpmtransportmembase.cpp(836) %!FUNC!:TPM Command timed out." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 %!LEVEL! tpmtransportmembase.cpp(878) %!FUNC!:TPM did not send interrupt within maximum timeout (%10!d! ms)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 %!LEVEL! tpmtransportmembase.cpp(905) %!FUNC!:TPM signals Error in Control Area." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 %!LEVEL! tpmtransportmembase.cpp(928) %!FUNC!:TPM claims to have sent more data (%10!d! bytes) than response area size (%11!d! bytes)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 %!LEVEL! tpmtransportmembase.cpp(948) %!FUNC!:TPM response size (%10!d!) bigger buffer size (%11!d!). Capping response." //   LEVEL=INFORMATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 %!LEVEL! tpmtransportmembase.cpp(956) %!FUNC!:TPM sent less than the header in the reply (%10!d! bytes)." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 %!LEVEL! tpmtransportmembase.cpp(1132) %!FUNC!:ControlArea field in TPM2 ACPI table is NULL." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 %!LEVEL! tpmtransportmembase.cpp(1146) %!FUNC!:Could not map control area." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 %!LEVEL! tpmtransportmembase.cpp(1165) %!FUNC!:Address for command or response buffer in ControlArea is NULL." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 %!LEVEL! tpmtransportmembase.cpp(1179) %!FUNC!:Could not map command buffer." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 %!LEVEL! tpmtransportmembase.cpp(1197) %!FUNC!:Could not map response buffer." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 %!LEVEL! tpmtransportmembase.cpp(1451) %!FUNC!:TREE Vendor device notification with Transport set to NULL" //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 %!LEVEL! tpmtransportmembase.cpp(1462) %!FUNC!:TREE Vendor device notification with wrong GUID (%10!s!)" //   LEVEL=ERROR
+{
+Arg, ItemGuid -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 %!LEVEL! tpmtransportmembase.cpp(1480) %!FUNC!:TREE Vendor device notification that is not an arrival or removal." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 %!LEVEL! tpmtransportmembase.cpp(1517) %!FUNC!:TREE Vendor device showed up." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 %!LEVEL! tpmtransportmembase.cpp(1526) %!FUNC!:Multiple TREE Vendor device notifications. Ignoring this notification." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 %!LEVEL! tpmtransportmembase.cpp(1577) %!FUNC!:result = %10!s!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 %!LEVEL! tpmtransportmembase.cpp(1630) %!FUNC!:TrEE vendor removal not supported on this device." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 %!LEVEL! tpmtransportmembase.cpp(1636) %!FUNC!:TREE Vendor device vanishing." //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 %!LEVEL! tpmtransportmembase.cpp(1645) %!FUNC!:Multiple TREE Vendor device notifications. Ignoring this notification." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 %!LEVEL! tpmtransportmembase.cpp(1696) %!FUNC!:result = %10!s!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 %!LEVEL! tpmtransportmembase.cpp(1800) %!FUNC!:WdfIoTargetQueryForInterface() failed: %10!#x!" //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 %!LEVEL! tpmtransportmembase.cpp(1857) %!FUNC!:TREE Vendor Device relations setup successfully" //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 %!LEVEL! tpmtransportmembase.cpp(1860) %!FUNC!:result = %10!s!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 %!LEVEL! tpmtransportmembase.cpp(1924) %!FUNC!:No power target set. Check TREE Vendor Driver." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 %!LEVEL! tpmtransportmembase.cpp(1973) %!FUNC!:TREE Vendor Device relations removal successfully" //   LEVEL=INFORMATION
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 %!LEVEL! tpmtransportmembase.cpp(1976) %!FUNC!:result = %10!s!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0 %!LEVEL! tpmtransportmembase.cpp(2069) %!FUNC!:Remote target is not a PnP device. Check TREE Vendor Driver." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0 %!LEVEL! tpmtransportmembase.cpp(2099) %!FUNC!:result = %10!s!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0 %!LEVEL! tpmtransportmembase.cpp(2188) %!FUNC!:Out of memory allocation power relations blob." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 %!LEVEL! tpmtransportmembase.cpp(2213) %!FUNC!:result = %10!s!, wiContext=%11!p!" //   LEVEL=VERBOSE
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 %!LEVEL! tpmtransportmembase.cpp(2325) %!FUNC!:Multiple commands scheduled at the same time." //   LEVEL=ERROR
+{
+}
+
+f7ce8d07-1754-370f-115e-9179cd97f8e7 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 %!LEVEL! tpmtransportmembase.cpp(2394) %!FUNC!:TPM is taking too long. Extended timeouts exhausted." //   LEVEL=ERROR
+{
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 %!LEVEL! tpmcore.cpp(509) %!FUNC!:Executing internal Tpm command %10!s! %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 %!LEVEL! tpmcore.cpp(545) %!FUNC!:Execution of internal Tpm command %10!s! failed with %11!s!" //   LEVEL=ERROR
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 %!LEVEL! tpmcore.cpp(552) %!FUNC!:Received Tpm response for internal Tpm command %10!s! %11!s!" //   LEVEL=TPMCMDHEXDUMP
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemHEXDump -- 11
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 %!LEVEL! tpmcore.cpp(573) %!FUNC!:Execution of internal Tpm command %10!s! failed with %11!s!" //   LEVEL=WARNING
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemEnum(_TPM_STATUS) -- 11
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 %!LEVEL! tpmcore.cpp(596) %!FUNC!:Execution of internal Tpm command %10!s! failed with %11!s!" //   LEVEL=ERROR
+{
+Arg, ItemEnum(_TPM_ORDINAL) -- 10
+Arg, ItemEnum(_TPM_STATUS) -- 11
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 %!LEVEL! tpmcore.cpp(1245) %!FUNC!:Failed to read TPM permanent flags. Status: %10!#x!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f9a1195a-0f0c-3095-7621-0c7e47fbe0b8 drv // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 %!LEVEL! tpmcore.cpp(1281) %!FUNC!:Failed to read TPM volatile flags. Status: %10!#x!." //   LEVEL=ERROR
+{
+Arg, ItemLong -- 10
+}
+

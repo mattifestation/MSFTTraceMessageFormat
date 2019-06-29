@@ -1,0 +1,3828 @@
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp108 13 "%0 <ERR> %!FUNC!: Failed to get the device Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp113 14 "%0 <ERR> %!FUNC!: Failed to get the device name for Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+strDeviceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp176 15 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp180 16 "%0 <ERR> %!FUNC!: Failed to pair device with Id [%10!s!] and friendly name [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+_spszDeviceName.Get(), ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp184 17 "%0 <ERR> %!FUNC!: Failed to perform access check on device with Id [%10!s!] and friendly name [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+_spszDeviceName.Get(), ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp188 18 "%0 <ERR> %!FUNC!: Failed connect to paired device with Id [%10!s!] and friendly name [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+_spszDeviceName.Get(), ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp202 19 "%0 <ENTER> %!FUNC!: EnterPairing device with Id = [%10!s!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp205 20 "%0 <ERR> %!FUNC!: Failed to begin pairing operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp221 21 "%0 <INFO> %!FUNC!: Device is already paired." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp232 22 "%0 <ERR> %!FUNC!: Failed to wait for pairing to complete. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp235 23 "%0 <INFO> %!FUNC!: Pairing succeeded for device [%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp242 24 "%0 <ERR> %!FUNC!: Failed to call associate on device association broker for Aep id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp255 25 "%0 <INFO> %!FUNC!: Device [%10!s!] does not need to be paired." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp262 26 "%0 <ERR> %!FUNC!: Pairing operation failed. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp265 27 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp277 28 "%0 <ENTER> %!FUNC!: EnterPerforming access check on AEP device with Id [%10!s!] and friendly name [%11!s!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+_spszDeviceName.Get(), ItemWString -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp280 29 "%0 <ERR> %!FUNC!: Failed to begin access check operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp286 30 "%0 <ERR> %!FUNC!: Failed to initialize Aep Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp294 31 "%0 <ERR> %!FUNC!: Access check failed for AEP device with Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp297 32 "%0 <INFO> %!FUNC!: Access check succeeded for device [%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp307 33 "%0 <INFO> %!FUNC!: Device [%10!s!] does not need to be access checked." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp315 34 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp321 35 "%0 <ENTER> %!FUNC!: EnterConnecting to device with AEP Id [%10!s!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp325 36 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp331 37 "%0 <ENTER> %!FUNC!: EnterDisconnecting from device with AEP Id [%10!s!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp335 38 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp345 39 "%0 <INFO> %!FUNC!: Device was explicitly connected by this helper.  Disconnecting..." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp350 40 "%0 <INFO> %!FUNC!: Device was not explicitly connected by this helper.  Skipping disconnect." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp381 41 "%0 <ERR> %!FUNC!: Unable to %10!s! device - AccessCheck has failed. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+(operation == DeviceOperation::Connect) ? L'connect to' : L'disconnect from', ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp387 42 "%0 <ERR> %!FUNC!: Failed to begin [%10!s!] operation. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+(operation == DeviceOperation::Connect) ? L'connect' : L'disconnect', ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp392 43 "%0 <ERR> %!FUNC!: Failed to determine if protocol [%10!d!] requires a connection. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp398 44 "%0 <ERR> %!FUNC!: Failed to find device interface for this device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp435 45 "%0 <ERR> %!FUNC!: Failed to create the devices flow connection manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp443 46 "%0 <ERR> %!FUNC!: Failed to get current status of device with interface Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrState
+{
+_strDeviceInterfaceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp456 47 "%0 <INFO> %!FUNC!: Starting connection for device with Instance Id [%10!s!], Interface Id [%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 10
+_strDeviceInterfaceId.GetRawBuffer(nullptr), ItemWString -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp458 48 "%0 <ERR> %!FUNC!: Failed to start device connection for device with interface Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_strDeviceInterfaceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp462 49 "%0 <INFO> %!FUNC!: Miracast already connected with state [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+static_cast<DWORD>(deviceConnectionState), ItemLong -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp475 50 "%0 <INFO> %!FUNC!: Stopping connection for device with Instance Id [%10!s!], Interface Id [%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 10
+_strDeviceInterfaceId.GetRawBuffer(nullptr), ItemWString -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp477 51 "%0 <ERR> %!FUNC!: Failed to start device connection for device with interface Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_strDeviceInterfaceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp481 52 "%0 <INFO> %!FUNC!: Miracast already disconnected with state [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+static_cast<DWORD>(deviceConnectionState), ItemLong -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp498 53 "%0 <ERR> %!FUNC!: Failed to wait for operation to complete. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp501 54 "%0 <INFO> %!FUNC!: [%10!s!] succeeded for device [%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+(operation == DeviceOperation::Connect) ? L'Connect' : L'Disconnect', ItemWString -- 10
+_spszAepDeviceId.Get(), ItemWString -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp520 55 "%0 <INFO> %!FUNC!: Protocol [%10!d!] does not require a connection." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_protocol, ItemLong -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp528 56 "%0 <ERR> %!FUNC!: [%10!s!] operation failed. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+(operation == DeviceOperation::Connect) ? L'Connect' : L'Disconnect', ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp542 57 "%0 <ERR> %!FUNC!: Failed to get DeviceInstance selector for protocol [%10!d!] and AEP device Id [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol, ItemLong -- 10
+_spszAepDeviceId.Get(), ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp546 58 "%0 <ERR> %!FUNC!: Failed to get DevNode for AEP device with Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp563 59 "%0 <ERR> %!FUNC!: Failed to get DeviceInterface selector for protocol [%10!d!] and DeviceInstance Id [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol, ItemLong -- 10
+strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp567 60 "%0 <ERR> %!FUNC!: Failed to get DeviceInterface for DeviceInstance with Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp588 61 "%0 <ERR> %!FUNC!: Failed to set timeout on device enumerator. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp614 62 "%0 <ERR> %!FUNC!: Failed to set options on device enumerator. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp621 63 "%0 <INFO> %!FUNC!: Attempting to find Aep Id for device instance Id [%10!s!]..." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp625 64 "%0 <ERR> %!FUNC!: Failed to get AEP for device Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_strDeviceInstanceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp630 65 "%0 <ERR> %!FUNC!: Failed to property [%10!s!] from device. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+PROPERTY_DEVICE_AEP_ID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp657 66 "%0 <ERR> %!FUNC!: Failed to set timeout on device enumerator. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp667 67 "%0 <ERR> %!FUNC!: Failed to set options on device enumerator. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp671 68 "%0 <ERR> %!FUNC!: Failed to get device for AEP Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_spszAepDeviceId.Get(), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp70 10 "%0 <ERR> %!FUNC!: Failed to determine if calling process is an app container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp736 69 "%0 <INFO> %!FUNC!: Casting device association complete. Result = [%10!d!], hr = [0x%11!X!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+fAssociationSucceeded, ItemLong -- 10
+hrError, ItemLong -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp74 11 "%0 <ERR> %!FUNC!: Failed to get the calling process Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp759 70 "%0 <ERR> %!FUNC!: Failed to get device connection state. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp764 71 "%0 <INFO> %!FUNC!: Device connection state change: [%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+static_cast<int>(state), ItemLong -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp827 72 "%0 <ERR> %!FUNC!: Failed to create app initiated casting device connection regkey security descriptor. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp837 73 "%0 <ERR> %!FUNC!: Failed to create app initiated casting device connection regkey. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp840 74 "%0 <INFO> %!FUNC!: Set App Initiated Casting Device Connection regkey." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp849 75 "%0 <INFO> %!FUNC!: Removed app initiated casting device connection regkey with hr=%10!s!." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp864 76 "%0 <ERR> %!FUNC!: Failed to open process or thread token. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp878 77 "%0 <ERR> %!FUNC!: Failed to get thread/process token information. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp883 78 "%0 <ERR> %!FUNC!: Failed to convert user SID to string. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp891 79 "%0 <ERR> %!FUNC!: Failed to create string security descriptor for SDDL %10!s!. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+spszSD.Get(), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+26c0163e-640e-38b9-ed4a-527250f05439 PlayToManager // SRC=DeviceAssociationAndAccessManager.cpp MJ= MN=
+#typev DeviceAssociationAndAccessManager_cpp91 12 "%0 <ERR> %!FUNC!: Invalid device type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+deviceKind, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp108 17 "%0 <ERR> %!FUNC!: Failed to get a reference to the casting device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp112 18 "%0 <ERR> %!FUNC!: Failed to deregister for casting device state changed event. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp116 19 "%0 <ERR> %!FUNC!: Failed to deregister for casting device error occurred event. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp131 20 "%0 <ERR> %!FUNC!: Failed to get a reference to the casting device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp136 21 "%0 <ERR> %!FUNC!: Failed to get the casting device Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp168 22 "%0 <ERR> %!FUNC!: Connection error message is empty. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp180 23 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp193 24 "%0 <ERR> %!FUNC!: Failed to create CPlayToDeviceConnectionEventHandlerAdapter object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp205 25 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp211 26 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp217 27 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp243 28 "%0 <ERR> %!FUNC!: Failed to get state from ICastingConnectionStateChangedEventArgs. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp272 29 "%0 <INFO> %!FUNC!: Casting connection state change [%10!s!].  Invoking PlayToDeviceConnectionPrivEventHandler for PlayTo state [%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(castingState), ItemWString -- 10
+_state, ItemLong -- 11
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp284 30 "%0 <ERR> %!FUNC!: Failed to get message from ICastingConnectionErrorOccurredEventArgs. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp297 31 "%0 <INFO> %!FUNC!: Casting connection error [%10!s!].  Invoking PlayToDeviceConnectionPrivEventHandler." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_strErrorMessage.GetRawBuffer(nullptr), ItemWString -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp36 10 "%0 <ERR> %!FUNC!: Failed to get PlayTo device connection event handler. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp42 11 "%0 <INFO> %!FUNC!: Invoking IPlayToDeviceConnectionPrivEventHandler::OnConnectionStateChange callback." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp44 12 "%0 <ERR> %!FUNC!: Failed to invoke IPlayToDeviceConnectionPrivEventHandler::OnConnectionStateChange callback. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp48 13 "%0 <INFO> %!FUNC!: Invoking IPlayToDeviceConnectionPrivEventHandler::OnError callback." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp50 14 "%0 <ERR> %!FUNC!: Failed to invoke IPlayToDeviceConnectionPrivEventHandler::OnError callback. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp88 15 "%0 <ERR> %!FUNC!: Failed to register for state changed events with the casting device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+2b0cba15-005d-3ab0-3471-9ffd4dcb7466 PlayToManager // SRC=CastingPlayToConnectionAdapter.cpp MJ= MN=
+#typev CastingPlayToConnectionAdapter_cpp92 16 "%0 <ERR> %!FUNC!: Failed to register for error events with the casting device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp136 12 "%0 <ERR> %!FUNC!: Failed to determine if AEP container supports bluetooth protocol. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp165 13 "%0 <ERR> %!FUNC!: Failed to get device container Id for Aep Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(aepId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp183 14 "%0 <ERR> %!FUNC!: Failed to create string filter expression for DeviceInstance Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp187 15 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp231 16 "%0 <ERR> %!FUNC!: Failed to create device enumeration helper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp249 17 "%0 <ERR> %!FUNC!: Failed to create string filter expression for Aep Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp254 18 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp259 19 "%0 <ERR> %!FUNC!: Failed to find device for aep Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(hstrAepId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp263 20 "%0 <ERR> %!FUNC!: Failed to get device container Id property from device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp289 21 "%0 <ERR> %!FUNC!: Failed to create guid filter expression for Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp303 22 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp320 23 "%0 <ERR> %!FUNC!: Failed to create device enumeration helper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp342 24 "%0 <ERR> %!FUNC!: Failed to find bluetooth device for container Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp346 25 "%0 <ERR> %!FUNC!: Failed to get Aep Id property from bluetooth device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp65 10 "%0 <ERR> %!FUNC!: Failed to generate string device selector from bluetooth filter expression. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+472de3df-7d9e-320c-4f5a-020dd6432b84 PlayToManager // SRC=BluetoothCastingEngineFactory.cpp MJ= MN=
+#typev BluetoothCastingEngineFactory_cpp97 11 "%0 <ERR> %!FUNC!: Failed to generate bluetooth AEP protocol selector. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp312 10 "%0 <ERR> %!FUNC!: Failed to create the casting engine factory [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp316 11 "%0 <ERR> %!FUNC!: Failed to generate the device selector for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol.protocolType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp336 12 "%0 <ERR> %!FUNC!: Failed to generate device selector for protocol [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp420 13 "%0 <ERR> %!FUNC!: Failed to get properties from casting source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp425 14 "%0 <ERR> %!FUNC!: Failed to get supported casting types from casting source properties. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp430 15 "%0 <ERR> %!FUNC!: Failed to get casting protocols for casting source: [CastingType=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulCastingTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp434 16 "%0 <ERR> %!FUNC!: Unable to find protocols for casting type [%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulCastingTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp439 17 "%0 <ERR> %!FUNC!: Failed to convert named property store to property set. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp443 18 "%0 <ERR> %!FUNC!: Failed to generate device selector for protocols with casting type: [%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulCastingTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp459 19 "%0 <ERR> %!FUNC!: Failed to get casting protocols for casting type: [%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp463 20 "%0 <ERR> %!FUNC!: Unable to find protocols for casting type [%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp474 21 "%0 <ERR> %!FUNC!: Failed to generate device selector for protocols with casting type: [%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp524 22 "%0 <ERR> %!FUNC!: Failed to get protocol properties for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp535 23 "%0 <ERR> %!FUNC!: Failed to create the casting engine query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp550 24 "%0 <ERR> %!FUNC!: Failed to generate the device selector for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp564 25 "%0 <ERR> %!FUNC!: Failed to generate the device selector for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp579 26 "%0 <ERR> %!FUNC!: Failed to determine if the protocol [%10!d!] requires a connection. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp597 27 "%0 <ERR> %!FUNC!: Failed to get query provider for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp601 28 "%0 <ERR> %!FUNC!: Failed to get Aep Id for device with protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp611 29 "%0 <ERR> %!FUNC!: Failed to get casting protocols. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp618 30 "%0 <ERR> %!FUNC!: Failed to get query provider for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].protocolType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+512496f5-a11b-3f2d-1275-73265111d825 PlayToManager // SRC=DeviceSelector.cpp MJ= MN=
+#typev DeviceSelector_cpp633 31 "%0 <ERR> %!FUNC!: Failed to get AepId from query provider for protocol type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].protocolType, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+54e51a83-1532-3e50-e1b5-dd53370c4935 PlayToManager // SRC=CastingDevicePickerStatusProvider.cpp MJ= MN=
+#typev CastingDevicePickerStatusProvider_cpp34 10 "%0 <ERR> %!FUNC!: Failed to get casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+54e51a83-1532-3e50-e1b5-dd53370c4935 PlayToManager // SRC=CastingDevicePickerStatusProvider.cpp MJ= MN=
+#typev CastingDevicePickerStatusProvider_cpp46 11 "%0 <ERR> %!FUNC!: Failed to get casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+55324793-fe4d-3135-f90d-17b2247a333c PlayToManager // SRC=PlayToManagerServer.cpp MJ= MN=
+#typev PlayToManagerServer_cpp96 10 "%0 <ERR> %!FUNC!: Failed to create the async operation for RequestPlayToSourceAsync. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=PLAYTO_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp138 13 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp163 14 "%0 <ERR> %!FUNC!: Failed to create casting source wrapper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp174 15 "%0 <INFO> %!FUNC!: Finished _StartCasting on connection with hr=%10!s!, errorstatus=%11!s!" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hrOperation, ItemHRESULT -- 10
+CastingErrorToString(errorStatus), ItemWString -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp184 16 "%0 <ERR> %!FUNC!: Failed to create async casting operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp193 17 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp199 18 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp217 19 "%0 <ERR> %!FUNC!: Failed to get current connection state. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp240 20 "%0 <INFO> %!FUNC!: Starting disconnect async operation..." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp242 21 "%0 <INFO> %!FUNC!: Ending disconnect async operation with hr=0x%10!08X!." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hrDisconnect, ItemLong -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp246 22 "%0 <INFO> %!FUNC!: Skipping disconnect - state is already set to [%10!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp251 23 "%0 <INFO> %!FUNC!: Skipping disconnect - no session attached to connection." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp273 24 "%0 <INFO> %!FUNC!: Ignore Disconnect flag is set - cancelling DisconnectAsync operation." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp277 25 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp293 26 "%0 <ERR> %!FUNC!: Failed to unregister for state change events with the Session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrRemove
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp300 27 "%0 <ERR> %!FUNC!: Failed to unregister for error events with the Session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrRemove
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp309 28 "%0 <ERR> %!FUNC!: Failed to register for state change events with the Session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp313 29 "%0 <ERR> %!FUNC!: Failed to register for error events with the Session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp334 30 "%0 <ERR> %!FUNC!: Failed to get casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp341 31 "%0 <ERR> %!FUNC!: Failed to stop all device updates from the casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp348 32 "%0 <ERR> %!FUNC!: Failed to disconnect all existing connections from casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp357 33 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp373 34 "%0 <ERR> %!FUNC!: Unable to determine protocol for casting source and device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp382 35 "%0 <ERR> %!FUNC!: Failed to get session for protocol [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp386 36 "%0 <ERR> %!FUNC!: Failed to set the CastingSource on the CastingSession. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp391 37 "%0 <ERR> %!FUNC!: Failed to set the session for this connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp411 38 "%0 <INFO> %!FUNC!: Starting connection with the casting session." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp413 39 "%0 <ERR> %!FUNC!: Failed to connect the session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp416 40 "%0 <INFO> %!FUNC!: Successfully connected with the casting session." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp463 41 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp466 42 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp474 43 "%0 <ERR> %!FUNC!: Failed to get state from casting session state changed event args. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp477 44 "%0 <INFO> %!FUNC!: Received new state changed event from the casting session [state=%10!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp479 45 "%0 <ERR> %!FUNC!: Failed to set new connection state [state=%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+CastingStateToString(state), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp488 46 "%0 <ERR> %!FUNC!: Failed to get error status from casting session error occurred event args. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp491 47 "%0 <INFO> %!FUNC!: Received new error occurred event from the casting session [error=%10!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(errorStatus), ItemWString -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp493 48 "%0 <ERR> %!FUNC!: Failed to set new connection error status [error=%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+CastingErrorToString(errorStatus), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp505 49 "%0 <INFO> %!FUNC!: Connection state has changed from [%10!s!] to [%11!s!]. Invoking the StateChanged event." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(_state), ItemWString -- 10
+CastingStateToString(newState), ItemWString -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp526 50 "%0 <INFO> %!FUNC!: Connection error status has changed from [%10!s!] to [%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(_errorStatus), ItemWString -- 10
+CastingErrorToString(newErrorStatus), ItemWString -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp545 51 "%0 <ERR> %!FUNC!: Failed to get error message for the provided error [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+CastingErrorToString(newErrorStatus), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp550 52 "%0 <ERR> %!FUNC!: Failed to create the casting connection error occurred event args object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp553 53 "%0 <INFO> %!FUNC!: Invoking the casting connection error event [error=%10!s!, message=%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(newErrorStatus), ItemWString -- 10
+spszMessage.Get(), ItemWString -- 11
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp76 10 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp85 11 "%0 <ERR> %!FUNC!: Failed to start casting new source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+684de614-16c2-3e2f-6496-de0237954b58 PlayToManager // SRC=CastingDeviceConnection.cpp MJ= MN=
+#typev CastingDeviceConnection_cpp88 12 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp26 10 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp37 11 "%0 <ERR> %!FUNC!: The Casting API is not supported on this platform. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp42 12 "%0 <ERR> %!FUNC!: Failed to get casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp47 13 "%0 <ERR> %!FUNC!: Failed to create CreateCastingDeviceAsync operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp57 14 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp63 15 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp74 16 "%0 <ERR> %!FUNC!: The Casting API is not supported on this platform. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp79 17 "%0 <ERR> %!FUNC!: Failed to get casting manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp84 18 "%0 <ERR> %!FUNC!: Failed to create CreateCastingDeviceFromDeviceInformationAsync operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6a27ac13-f552-361e-e667-5bd4f8e044e5 PlayToManager // SRC=CastingDeviceFactory.cpp MJ= MN=
+#typev CastingDeviceFactory_cpp94 19 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp217 10 "%0 <ERR> %!FUNC!: Failed to get casting protocols. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp224 11 "%0 <ERR> %!FUNC!: Failed to create the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp232 12 "%0 <ERR> %!FUNC!: Failed to get protocol from the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp237 13 "%0 <ERR> %!FUNC!: Failed to get casting types from the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp252 14 "%0 <ERR> %!FUNC!: Failed to find supported device protocol from query providers. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+6f4fb41f-78e0-33d0-2c14-5720c6b428d2 PlayToManager // SRC=DeviceProperties.cpp MJ= MN=
+#typev DeviceProperties_cpp271 15 "%0 <INFO> %!FUNC!: DeviceInformation object %10!s! required property [%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+(spValue ? L'contains empty' : L'does not contain'), ItemWString -- 10
+g_rgpszRequiredCastingAEPContainerProperties[i], ItemWString -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp156 12 "%0 <ERR> %!FUNC!: Failed to register for state and error events. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=_hrResult
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp160 13 "%0 <ERR> %!FUNC!: Run operation failed. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=_hrResult
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp165 14 "%0 <ERR> %!FUNC!: Failed to set the complete event [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp171 15 "%0 <INFO> %!FUNC!: Cancelling operation [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp179 16 "%0 <ERR> %!FUNC!: Failed to set the cancel event [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp185 17 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp195 18 "%0 <ERR> %!FUNC!: Failed to wait for operation complete event [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp202 19 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp240 20 "%0 <ENTER> %!FUNC!: EnterStarting CastingController OnStateChanged event handler with new state [%10!d!] [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+newState, ItemLong -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp243 21 "%0 <EXIT> %!FUNC!: ExitEnding CastingController OnStateChanged event handler - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp249 22 "%0 <ENTER> %!FUNC!: EnterStarting CastingController OnError event handler for status [%10!d!] and message [%11!s!] [debugid=%12!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+errorStatus, ItemLong -- 10
+(errorMessage == nullptr) ? L'NULL' : errorMessage, ItemWString -- 11
+reinterpret_cast<UINT>(this), ItemLong -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp252 23 "%0 <EXIT> %!FUNC!: ExitEnding CastingController ErrorOccurred event handler - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp264 24 "%0 <ERR> %!FUNC!: Failed to get CastingSourceInfo from CastingSource. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp269 25 "%0 <ERR> %!FUNC!: Failed to get CastingController from CastingSourceInfo. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp275 26 "%0 <ERR> %!FUNC!: Failed to register for casting events with the CastingController. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp296 27 "%0 <ERR> %!FUNC!: Failed to unadvise for casting events with the CastingController. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrUnadvise
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp314 28 "%0 <INFO> %!FUNC!: State change: [old state=%10!s!] [new state=%11!s!] [debugid=%12!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(_state), ItemWString -- 10
+CastingStateToString(state), ItemWString -- 11
+reinterpret_cast<UINT>(this), ItemLong -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp325 29 "%0 <ERR> %!FUNC!: Failed to create the casting connection state changed event args object. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp328 30 "%0 <INFO> %!FUNC!: Invoking the casting connection state changed event [state=%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp344 31 "%0 <INFO> %!FUNC!: Error status change: [old error status=%10!s!] [new error status=%11!s!]. [debugid=%12!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(_errorStatus), ItemWString -- 10
+CastingErrorToString(errorStatus), ItemWString -- 11
+reinterpret_cast<UINT>(this), ItemLong -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp360 32 "%0 <ERR> %!FUNC!: Failed to create the casting connection error occurred event args object. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp363 33 "%0 <INFO> %!FUNC!: Invoking the casting connection error occurred event [error=%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(errorStatus), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp372 34 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp376 35 "%0 <ERR> %!FUNC!: Failed to Pair/AccessCheck/Connect the device with the Device Association and Access Helper. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp380 36 "%0 <ERR> %!FUNC!: Failed to get DeviceInstanceId [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp383 37 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp389 38 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp397 39 "%0 <ERR> %!FUNC!: Failed to disconnect device. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp404 40 "%0 <ERR> %!FUNC!: Failed to begin waiting for Disconnected state. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp420 41 "%0 <ERR> %!FUNC!: Failed to disconnect casting controller. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp427 42 "%0 <ERR> %!FUNC!: Failed to disconnect device. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp433 43 "%0 <ERR> %!FUNC!: Failed to wait for Disconnected state. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp442 44 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp472 45 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp476 46 "%0 <ERR> %!FUNC!: Failed to set state for new connection. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp48 10 "%0 <ERR> %!FUNC!: Failed to initialize the cancel event. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp486 47 "%0 <ERR> %!FUNC!: Failed to stop device updates before pairing/connecting. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp493 48 "%0 <ERR> %!FUNC!: Failed to Pair/AccessCheck/Connect device and prompt for access. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp501 49 "%0 <ERR> %!FUNC!: Failed to create the casting engine for protocol [%10!s!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol.szProtocolName, ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp509 50 "%0 <ERR> %!FUNC!: Failed to begin waiting for connection/rendering state. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp518 51 "%0 <ERR> %!FUNC!: Failed to get CastingSourceInfo from CastingSource. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp523 52 "%0 <ERR> %!FUNC!: Failed to get CastingController from CastingSourceInfo. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp528 53 "%0 <ERR> %!FUNC!: Failed to initialize the casting controller. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp53 11 "%0 <ERR> %!FUNC!: Failed to initialize the complete event. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp532 54 "%0 <ERR> %!FUNC!: Failed to connect the casting controller. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp536 55 "%0 <INFO> %!FUNC!: Successfully requested a new connection from the CastingController.  Waiting for connection or rendering state... [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp538 56 "%0 <ERR> %!FUNC!: Failed to end waiting for connection state. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp544 57 "%0 <INFO> %!FUNC!: Failed connection operation - disconnecting... [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp579 58 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp592 59 "%0 <INFO> %!FUNC!: Casting session attempting to connect.  Current state: [%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(currentState), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp607 60 "%0 <ERR> %!FUNC!: Unable to start new casting session - failed to disconnect existing session. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp624 61 "%0 <ERR> %!FUNC!: Failed to change current casting state to Connecting. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp629 62 "%0 <ERR> %!FUNC!: Failed to reset error state to Succeeded. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp649 63 "%0 <ERR> %!FUNC!: Failed to create the casting engine factory [%10!s!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol.szActivatableCLSID, ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp653 64 "%0 <ERR> %!FUNC!: Failed to create the casting engine from the factory for protocol type [%10!d!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_protocol.protocolType, ItemLong -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp677 65 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp682 66 "%0 <ERR> %!FUNC!: Failed to set state for disconnection. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp706 67 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp721 68 "%0 <INFO> %!FUNC!: Casting session attempting to disconnect.  Current state: [%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(currentState), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp752 69 "%0 <ERR> %!FUNC!: Failed to change current casting state to Disconnecting. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp760 70 "%0 <ERR> %!FUNC!: Failed to reset error state to succeeded. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp784 71 "%0 <ENTER> %!FUNC!: Enter [debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp801 72 "%0 <ERR> %!FUNC!: Failed to get CastingSourceInfo from CastingSource. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrDisconnect
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp806 73 "%0 <ERR> %!FUNC!: Failed to get CastingController from CastingSourceInfo. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrDisconnect
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp810 74 "%0 <ERR> %!FUNC!: Failed to disconnect casting controller. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrDisconnect
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp817 75 "%0 <ERR> %!FUNC!: Failed to close device connection. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=_hrResult
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+70252080-c108-3129-7053-e2d83a1f3470 PlayToManager // SRC=CastingSessionOperation.cpp MJ= MN=
+#typev CastingSessionOperation_cpp821 76 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp101 11 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp139 12 "%0 <ERR> %!FUNC!: Failed to generate DLNA AEP protocol selector. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp178 13 "%0 <ERR> %!FUNC!: Failed to determine if AEP container supports UPnP protocol. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp182 14 "%0 <ERR> %!FUNC!: Failed to determine if AEP container supports Multimedia DMR category. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp232 15 "%0 <ERR> %!FUNC!: Failed to create string filter expression for Aep Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp236 16 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp252 17 "%0 <ERR> %!FUNC!: Failed to create string filter expression for DeviceInstance Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp256 18 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+998f5ed6-977c-3b08-4a39-9a794778136e PlayToManager // SRC=DLNACastingEngineFactory.cpp MJ= MN=
+#typev DLNACastingEngineFactory_cpp93 10 "%0 <ERR> %!FUNC!: Failed to create DLNA device selector filter. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a2b1e8e3-2783-3a9d-dfb5-ecc4da4dd90b PlayToManager // SRC=CastingDeviceCache.cpp MJ= MN=
+#typev CastingDeviceCache_cpp155 10 "%0 <INFO> %!FUNC!: CastingDevice does not exist in cache - adding it." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+a2b1e8e3-2783-3a9d-dfb5-ecc4da4dd90b PlayToManager // SRC=CastingDeviceCache.cpp MJ= MN=
+#typev CastingDeviceCache_cpp163 11 "%0 <ERR> %!FUNC!: Failed to add casting device to cache. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp101 15 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp107 16 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp117 17 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp123 18 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp132 19 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp27 10 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp39 11 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp48 12 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp75 13 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a36427d7-e6fb-3d18-f026-a71042d2c7e3 PlayToManager // SRC=PlayToManagerFactory.cpp MJ= MN=
+#typev PlayToManagerFactory_cpp84 14 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=PLAYTO_MANAGER
+{
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp119 16 "%0 <ERR> %!FUNC!: Failed to find Aep Container for Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(aepContainerId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp123 17 "%0 <ERR> %!FUNC!: Failed to get icon for Aep Container with Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(aepContainerId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp133 18 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp245 19 "%0 <ERR> %!FUNC!: Failed to get protocol Id for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp263 20 "%0 <ERR> %!FUNC!: Failed to create device enumeration helper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp280 21 "%0 <ERR> %!FUNC!: Failed to get Id from Aep container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp288 22 "%0 <ERR> %!FUNC!: Failed to get single object Aep Id for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp308 23 "%0 <INFO> %!FUNC!: Stopping device container query on device with Id=[%10!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+strId.GetRawBuffer(nullptr), ItemWString -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp312 24 "%0 <ERR> %!FUNC!: Failed to stop device container query on device with Id=[%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+strId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp352 25 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp359 26 "%0 <ERR> %!FUNC!: Failed to update AEP device with device update. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp362 27 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp370 28 "%0 <ERR> %!FUNC!: Failed to get thumbnail operation for device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp375 29 "%0 <ERR> %!FUNC!: Failed to get thumbnail for device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp390 30 "%0 <ERR> %!FUNC!: Failed to update supported properties. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp420 31 "%0 <ERR> %!FUNC!: Failed to wait for AEP Container query to complete. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp432 32 "%0 <ERR> %!FUNC!: Failed to update supported properties after waiting for query. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp446 33 "%0 <ERR> %!FUNC!: Failed to get casting properties from Aep Container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp449 34 "%0 <INFO> %!FUNC!: Updating supported casting protocols and types.  Old value [%10!d!, %11!d!].  New value [%12!d!, %13!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_castingProtocols, ItemLong -- 10
+_castingTypes, ItemLong -- 11
+protocols, ItemLong -- 12
+types, ItemLong -- 13
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp49 10 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp57 11 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp63 12 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp76 13 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp82 14 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+a951a484-8945-3609-9e79-b2b2fe8ae123 PlayToManager // SRC=CastingDeviceContainer.cpp MJ= MN=
+#typev CastingDeviceContainer_cpp93 15 "%0 <ERR> %!FUNC!: Failed to get a list of casting protocols. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ab6d2357-2b2e-3040-5f10-ebf44a43237d PlayToManager // SRC=CastingEngineFactoryBase.cpp MJ= MN=
+#typev CastingEngineFactoryBase_cpp39 10 "%0 <ERR> %!FUNC!: Failed to create media renderer creation operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ab6d2357-2b2e-3040-5f10-ebf44a43237d PlayToManager // SRC=CastingEngineFactoryBase.cpp MJ= MN=
+#typev CastingEngineFactoryBase_cpp44 11 "%0 <ERR> %!FUNC!: Failed to create Media Renderer for device instance Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(hstrDeviceInstanceId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp109 10 "%0 <ERR> %!FUNC!: Failed to initialize casting device container with device Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp120 11 "%0 <ERR> %!FUNC!: Failed to initialize casting device container with device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp131 12 "%0 <ERR> %!FUNC!: Failed to get id from casting device container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp142 13 "%0 <ERR> %!FUNC!: Failed to get friendly name from casting device container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp153 14 "%0 <ERR> %!FUNC!: Failed to get icon from casting device container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp167 15 "%0 <ERR> %!FUNC!: Failed to get supported protocols from casting device container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp247 16 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp256 17 "%0 <ERR> %!FUNC!: Failed to create new casting connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp264 18 "%0 <ERR> %!FUNC!: Failed to register for state change notifications on new connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp268 19 "%0 <ERR> %!FUNC!: Failed to register for error occurred notifications on new connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp273 20 "%0 <ERR> %!FUNC!: Failed to create Casting Connection Info object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp300 21 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp306 22 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp319 23 "%0 <ERR> %!FUNC!: Failed to get supported casting types from casting device container. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp327 24 "%0 <ERR> %!FUNC!: Failed to create async GetSupportedCastingPlaybackTypes operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp334 25 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp342 26 "%0 <ERR> %!FUNC!: Failed to get state from casting connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp347 27 "%0 <ERR> %!FUNC!: Failed to create the casting connection state changed event args object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp350 28 "%0 <INFO> %!FUNC!: Invoking the Casting Device's state changed event [state=%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(newState), ItemWString -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp361 29 "%0 <ERR> %!FUNC!: Failed to get error status from connection error occurred event args. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp364 30 "%0 <INFO> %!FUNC!: Invoking the Casting Device's error occurred event [error=%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(errorStatus), ItemWString -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp381 31 "%0 <ERR> %!FUNC!: Failed to get connection from connection info. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp394 32 "%0 <ERR> %!FUNC!: Failed to start async disconnect. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp398 33 "%0 <ERR> %!FUNC!: Failed to disconnect connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp410 34 "%0 <ERR> %!FUNC!: Failed to cancel casting device container update query. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp422 35 "%0 <ERR> %!FUNC!: Failed to get Aep Id for casting protocol [%10!d!] from casting device container. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp426 36 "%0 <ERR> %!FUNC!: Failed to get friendly name of device [%10!s!] from casting device container. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(*aepId).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp438 37 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp448 38 "%0 <INFO> %!FUNC!: Found existing session for protocol [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+protocol, ItemLong -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp455 39 "%0 <ERR> %!FUNC!: Failed to get properties for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp460 40 "%0 <ERR> %!FUNC!: Failed to get properties for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp470 41 "%0 <INFO> %!FUNC!: Found existing session for protocol [%10!d!].  Discarding new session." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+protocol, ItemLong -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp485 42 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp495 43 "%0 <ERR> %!FUNC!: Failed to determine if casting device container supports protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp506 44 "%0 <ERR> %!FUNC!: Failed to find supported protocol. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp513 45 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp519 46 "%0 <ERR> %!FUNC!: The Casting API is not supported on this platform. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp523 47 "%0 <ERR> %!FUNC!: Failed to generate casting device selector for type [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+type, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp527 48 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp533 49 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp544 50 "%0 <ERR> %!FUNC!: The Casting API is not supported on this platform. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp561 51 "%0 <ERR> %!FUNC!: Failed to generate device selector from casting source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp565 52 "%0 <ERR> %!FUNC!: Failed to set the async result. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp580 53 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp586 54 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp602 55 "%0 <ERR> %!FUNC!: Failed to create FromAepContainerIdAsync operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp607 56 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp613 57 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp624 58 "%0 <ERR> %!FUNC!: The Casting API is not supported on this platform. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp642 59 "%0 <ERR> %!FUNC!: Failed to create FromIdAsync operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp647 60 "%0 <ERR> %!FUNC!: Failed to create the CastingDevice object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp652 61 "%0 <ERR> %!FUNC!: Failed to get supported casting types operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp657 62 "%0 <ERR> %!FUNC!: Failed to get supported casting types. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp680 63 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ac2c328f-5ae5-383b-faca-780274c2efa8 PlayToManager // SRC=CastingDevice.cpp MJ= MN=
+#typev CastingDevice_cpp696 64 "%0 <INFO> %!FUNC!: Found existing session for protocol [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+protocol, ItemLong -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp142 10 "%0 <ERR> %!FUNC!: Failed to get monitor device Id for miracast device Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_strMiracastDeviceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp158 11 "%0 <ERR> %!FUNC!: Failed to find monitors for miracast device Id [%10!s!], monitor Id [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_strMiracastDeviceId.GetRawBuffer(nullptr), ItemWString -- 10
+searchContext.pszMonitorDeviceId, ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp161 12 "%0 <INFO> %!FUNC!: Successfully found monitor [%10!d!] for miracast device id [%11!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT32>(searchContext.hMonitor), ItemLong -- 10
+_strMiracastDeviceId.GetRawBuffer(nullptr), ItemWString -- 11
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp525 13 "%0 <INFO> %!FUNC!: Successfully found monitor Id [%10!s!] for miracast device id [%11!s!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+strMiracastMonitorId.GetRawBuffer(nullptr), ItemWString -- 10
+StringReference(hstrMiracastDeviceId).GetRawBuffer(nullptr), ItemWString -- 11
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp542 14 "%0 <INFO> %!FUNC!: Failed to get monitor. Current hr: %10!s!. Try to wait for monitor to arrive" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp558 15 "%0 <INFO> %!FUNC!: Failed to get monitor waited for %10!d! iterations. Bail out" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+dwRetryCount, ItemLong -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp580 16 "%0 <INFO> %!FUNC!: WARNING: RtlUnsubscribeWnfNotificationWaitForCompletion failed with: %10!s!" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hrUnsubscribe, ItemHRESULT -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp602 17 "%0 <ERR> %!FUNC!: Failed to query for display config info. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp613 18 "%0 <ERR> %!FUNC!: Failed to get display device base type info for device with Id [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgPathInfo[i].targetInfo.id, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp622 19 "%0 <ERR> %!FUNC!: Failed to get display device name info for device with Id [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgPathInfo[i].targetInfo.id, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp639 20 "%0 <ERR> %!FUNC!: Failed to find a display device with a miracast connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp663 21 "%0 <ERR> %!FUNC!: Failed to get display config buffer sizes. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+b95b77c7-173a-3e37-9a33-6dd520b06b46 PlayToManager // SRC=MiracastDeviceHelper.cpp MJ= MN=
+#typev MiracastDeviceHelper_cpp693 22 "%0 <ERR> %!FUNC!: Failed to query for display config info. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp101 16 "%0 <ERR> %!FUNC!: Failed to get create device for Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+StringReference(spDeviceId->Get()).GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp116 17 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp122 18 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp155 19 "%0 <ERR> %!FUNC!: Failed to create CastingDevice from DeviceInformation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp173 20 "%0 <INFO> %!FUNC!: Provided DeviceInformation object does not contain all the required properties.  We will have to requery the network for them." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp175 21 "%0 <ERR> %!FUNC!: Failed to create CastingDevice async operation for device with Id Id [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+strDeviceId.GetRawBuffer(nullptr), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp180 22 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp186 23 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp199 24 "%0 <ERR> %!FUNC!: Failed to disconnect all connections for device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp202 25 "%0 <EXIT> %!FUNC!: Exit" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp208 26 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp218 27 "%0 <ERR> %!FUNC!: Failed to stop the casting device update query. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp221 28 "%0 <EXIT> %!FUNC!: Exit" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp233 29 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp238 30 "%0 <ERR> %!FUNC!: Failed to get container ID for CastingDevice. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp251 31 "%0 <INFO> %!FUNC!: Creating a new CastingDevice object." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp262 32 "%0 <ERR> %!FUNC!: Failed to create new CastingDevice. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp274 33 "%0 <ERR> %!FUNC!: Failed to find device in cache. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp278 34 "%0 <ERR> %!FUNC!: Failed to add device to cache. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp289 35 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp295 36 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp303 37 "%0 <ERR> %!FUNC!: Failed to register for StateChange events on CastingDevice. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp308 38 "%0 <ERR> %!FUNC!: Failed to register for Error events on CastingDevice. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp316 39 "%0 <ERR> %!FUNC!: Failed to remove registration for StateChange events on CastingDevice after failing to add device to cache. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrRemove
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp323 40 "%0 <ERR> %!FUNC!: Failed to remove registration for StateChange events on CastingDevice after failing to register for Error events. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrRemove
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp328 41 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp335 42 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp337 43 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp345 44 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp349 45 "%0 <ERR> %!FUNC!: Failed to get state from CastingConnectionStateChangedEventArgs. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp357 46 "%0 <INFO> %!FUNC!: Starting new Device Picker Status Update thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp367 47 "%0 <ERR> %!FUNC!: Failed to fire device status change event. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp370 48 "%0 <INFO> %!FUNC!: Ending Device Picker Status Update thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp382 49 "%0 <ERR> %!FUNC!: Failed to find casting device cache item for device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp388 50 "%0 <ERR> %!FUNC!: Failed to create NowPlayingSession for device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp393 51 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp402 52 "%0 <ERR> %!FUNC!: Failed to get the error status from the CastingConnectionErrorOccurredEventArgs. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp408 53 "%0 <INFO> %!FUNC!: Starting new Device Picker Status Error Update thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp414 54 "%0 <ERR> %!FUNC!: Failed to get status message and options from connection error [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+error, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp418 55 "%0 <ERR> %!FUNC!: Failed to fire device status change event. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp421 56 "%0 <INFO> %!FUNC!: Ending Device Picker Status Error Update thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp446 57 "%0 <ERR> %!FUNC!: Failed to get the PlayToAdapter from the cached casting device info. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp451 58 "%0 <ERR> %!FUNC!: Failed to determine if the PlayToAdapter is registered for device connection events. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp460 59 "%0 <ERR> %!FUNC!: Failed to get target device ID from PlayToAdapter. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp465 60 "%0 <ERR> %!FUNC!: Failed to retrieve current window for app. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp47 10 "%0 <ERR> %!FUNC!: Failed to create MediaManagerFactory. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp470 61 "%0 <ERR> %!FUNC!: Failed to get IMediaPlaybackDataSource from current app window. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp475 62 "%0 <ERR> %!FUNC!: Failed to get INowPlayingSessionManagerBroker on NowPlayingSessionManager class object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp486 63 "%0 <ERR> %!FUNC!: Failed add casting session to now playing session manager. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp489 64 "%0 <INFO> %!FUNC!: Added new NowPlayingSession for device [%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+spszDeviceId.Get(), ItemWString -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp508 65 "%0 <ERR> %!FUNC!: Failed to get ICoreApplication activation factory. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp517 66 "%0 <ERR> %!FUNC!: Failed to get application Main View. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp52 11 "%0 <ERR> %!FUNC!: Failed to register for app closing event with MediaManagerFactory. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp522 67 "%0 <ERR> %!FUNC!: Failed to get application Core Window. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp537 68 "%0 <ERR> %!FUNC!: Failed to get application core window handle. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp552 69 "%0 <ERR> %!FUNC!: Failed to get ISystemMediaTransportControlsPriv. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp557 70 "%0 <ERR> %!FUNC!: Failed to get SMTC status. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp567 71 "%0 <ERR> %!FUNC!: SMTC is not in active state [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+smtcStatus, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp576 72 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp585 73 "%0 <ERR> %!FUNC!: Failed to get cache item from cache. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp590 74 "%0 <ERR> %!FUNC!: Failed to get casting device from cache item. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp608 75 "%0 <ERR> %!FUNC!: Failed to get connections from CastingDevice. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp61 12 "%0 <ERR> %!FUNC!: Failed to create the immersive shell. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrImmersiveShellBroker
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp620 76 "%0 <ERR> %!FUNC!: Failed to get connection from device at index [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+j, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp625 77 "%0 <ERR> %!FUNC!: Failed to get connection state from connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp66 13 "%0 <ERR> %!FUNC!: Failed to get the immersive device picker broker. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrImmersiveShellBroker
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp673 78 "%0 <ERR> %!FUNC!: Failed to create the casting connection state changed event args object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp688 79 "%0 <ERR> %!FUNC!: Failed to update the device picker status from the current the casting device connection. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp695 80 "%0 <EXIT> %!FUNC!: Exit" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp70 14 "%0 <ERR> %!FUNC!: Failed to get the immersive popup broker from the immersive device picker broker. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrImmersiveShellBroker
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp716 81 "%0 <ERR> %!FUNC!: Failed to get the casting device from the cached device info. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrAdd
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp721 82 "%0 <ERR> %!FUNC!: Failed to get the casting device Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrAdd
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp740 83 "%0 <ERR> %!FUNC!: Failed to get the device ID from the casting device. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp82 15 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp853 84 "%0 <INFO> %!FUNC!: Creating the per-app CastingManager singleton." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+ba09a75b-970c-380a-90e2-c78e059f3c97 PlayToManager // SRC=CastingManager.cpp MJ= MN=
+#typev CastingManager_cpp855 85 "%0 <ERR> %!FUNC!: Failed to create the per-app CastingManager singleton. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp128 14 "%0 <ERR> %!FUNC!: Cannot set CastingSource - session is already shutdown. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp132 15 "%0 <ERR> %!FUNC!: Failed to register for state change and error events with the casting source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp208 16 "%0 <INFO> %!FUNC!: Received state [%10!s!] from CastingController." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp215 17 "%0 <INFO> %!FUNC!: Received error [%10!s!] from CastingController." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(error), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp226 18 "%0 <ERR> %!FUNC!: Failed to get new state from the event args. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp229 19 "%0 <INFO> %!FUNC!: Received state [%10!s!] from CastingController." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp231 20 "%0 <ERR> %!FUNC!: Failed to update the CastingSession's state with state [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+CastingStateToString(state), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp244 21 "%0 <ERR> %!FUNC!: Failed to get error status from the event args. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp247 22 "%0 <INFO> %!FUNC!: Received error [%10!s!] from CastingController." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(error), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp249 23 "%0 <ERR> %!FUNC!: Failed to update the CastingSession's error status with error [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+CastingErrorToString(error), ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp257 24 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp260 25 "%0 <ERR> %!FUNC!: Cannot connect - session is already shutdown. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp272 26 "%0 <ERR> %!FUNC!: Failed to create CastingSession Connect operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp278 27 "%0 <ERR> %!FUNC!: Failed to add Connect operation to operations queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp281 28 "%0 <INFO> %!FUNC!: Added Connect operation to queue. Waiting for completion." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp285 29 "%0 <ERR> %!FUNC!: Failed to wait for Connect operation to complete. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp289 30 "%0 <ERR> %!FUNC!: Connect operation failed. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp298 31 "%0 <ERR> %!FUNC!: Unable to connect CastingSession - CastingSource not set. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp302 32 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp308 33 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp310 34 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp317 35 "%0 <ERR> %!FUNC!: Cannot disconnect - session is already shutdown. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp326 36 "%0 <ERR> %!FUNC!: Failed to create CastingSession Disconnect operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp332 37 "%0 <ERR> %!FUNC!: Failed to add Disconnect operation to operations queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp335 38 "%0 <INFO> %!FUNC!: Added Disconnect operation to queue. Waiting for completion." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp339 39 "%0 <ERR> %!FUNC!: Failed to wait for Disconnect operation to complete. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp343 40 "%0 <ERR> %!FUNC!: Disconnect operation failed. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp352 41 "%0 <INFO> %!FUNC!: Cannot disconnect - CastingSource is not set." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp361 42 "%0 <ENTER> %!FUNC!: Enter" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp37 10 "%0 <ERR> %!FUNC!: Failed to shutdown the session. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrShutdown
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp384 43 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s!" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp401 44 "%0 <ERR> %!FUNC!: Failed to get CastingSourceInfo from CastingSource. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp406 45 "%0 <ERR> %!FUNC!: Failed to get CastingController from CastingSource. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp413 46 "%0 <ERR> %!FUNC!: Failed to register for casting events with the CastingController. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp428 47 "%0 <ERR> %!FUNC!: Failed to get CastingSourceInfo from CastingSource. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp433 48 "%0 <ERR> %!FUNC!: Failed to get CastingController from CastingSource. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp440 49 "%0 <ERR> %!FUNC!: Failed to unadvise for casting events with the CastingController. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrUnadvise
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp491 50 "%0 <INFO> %!FUNC!: State change: [old state=%10!s!] [new state=%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(_state), ItemWString -- 10
+CastingStateToString(state), ItemWString -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp503 51 "%0 <INFO> %!FUNC!: Received disconnected event from previously connected state. Explicitly disconnecting connection." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp508 52 "%0 <ERR> %!FUNC!: Failed to create CastingSession CloseDeviceConnection operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp514 53 "%0 <ERR> %!FUNC!: Failed to add CloseDeviceConnection operation to operations queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp522 54 "%0 <ERR> %!FUNC!: Failed to create the casting connection state changed event args object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp525 55 "%0 <INFO> %!FUNC!: Invoking the casting connection state changed event [state=%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingStateToString(state), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp541 56 "%0 <INFO> %!FUNC!: Error status change: [old error status=%10!s!] [new error status=%11!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(_errorStatus), ItemWString -- 10
+CastingErrorToString(errorStatus), ItemWString -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp554 57 "%0 <ERR> %!FUNC!: Failed to create the casting connection error occurred event args object. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp557 58 "%0 <INFO> %!FUNC!: Invoking the casting connection error occurred event [error=%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+CastingErrorToString(errorStatus), ItemWString -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp56 11 "%0 <ERR> %!FUNC!: Failed to find device Aep ID for protocol type [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp571 59 "%0 <ERR> %!FUNC!: Failed to get new operation type. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp578 60 "%0 <ERR> %!FUNC!: Failed to get current operation type. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp65 12 "%0 <ERR> %!FUNC!: Failed to create the Device Association and Access Helper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp688 61 "%0 <ERR> %!FUNC!: Failed to determine operation queue state. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp692 62 "%0 <INFO> %!FUNC!: Cancelling current operation of type [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+currentOperationType, ItemLong -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp694 63 "%0 <ERR> %!FUNC!: Failed to cancel current operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp699 64 "%0 <INFO> %!FUNC!: Adding new operation to session operations queue of type [%10!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+newOperationType, ItemLong -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp701 65 "%0 <ERR> %!FUNC!: Failed to add new operation to operations queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp71 13 "%0 <ERR> %!FUNC!: Failed to set DisconnectOnRelease options in the Device Association and Access Helper. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp713 66 "%0 <ERR> %!FUNC!: Failed to add operation to operations queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp721 67 "%0 <INFO> %!FUNC!: Starting new session operations thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp739 68 "%0 <ERR> %!FUNC!: Failed to remove session operation from queue. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrRemove
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp749 69 "%0 <ERR> %!FUNC!: Failed to execute operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrOperation
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp758 70 "%0 <INFO> %!FUNC!: Ending session operations thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp760 71 "%0 <ERR> %!FUNC!: Failed to create operations thread. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp763 72 "%0 <INFO> %!FUNC!: Successfully started new session operations thread." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp769 73 "%0 <INFO> %!FUNC!: Added operation to operations queue.  Operations thread already running." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp782 74 "%0 <ERR> %!FUNC!: Failed to get current session state. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp786 75 "%0 <ERR> %!FUNC!: Failed to set operation state. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp791 76 "%0 <ERR> %!FUNC!: Failed to register for state change events with the session operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp796 77 "%0 <ERR> %!FUNC!: Failed to register for error events with the session operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+bf5f056b-8e4d-3166-2573-54c3ff10e49f PlayToManager // SRC=CastingSession.cpp MJ= MN=
+#typev CastingSession_cpp800 78 "%0 <ERR> %!FUNC!: Failed to execute operation. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp105 19 "%0 <INFO> %!FUNC!: Protocol is not supported for query provider [%10!s!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+castingProtocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp141 20 "%0 <ERR> %!FUNC!: Failed to open casting types regkey. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp146 21 "%0 <ERR> %!FUNC!: Failed to query casting types count. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp158 22 "%0 <ERR> %!FUNC!: Failed to enumerate subkey [%10!d!] for casting type regkey. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+i, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp163 23 "%0 <ERR> %!FUNC!: Failed to get casting type value for casting type [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp168 24 "%0 <ERR> %!FUNC!: Failed to open casting type subkey [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp185 25 "%0 <ERR> %!FUNC!: Failed to get casting protocol properties for casting type [%10!s!], protocol [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrProtocol
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+szProtocolName, ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp191 26 "%0 <ERR> %!FUNC!: Failed to get protocol order for casting type [%10!s!], protocols [%11!s!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrProtocol
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+szProtocolName, ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp196 27 "%0 <ERR> %!FUNC!: Failed to add casting protocol properties to array for casting type [%10!s!], protocol [%11!s!]. hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrProtocol
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+szProtocolName, ItemWString -- 11
+HR, ItemHRESULT -- 12
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp205 28 "%0 <ERR> %!FUNC!: Failed to find at least one protocol for casting type [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+pCastingTypeProperties->szCastingTypeName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp236 29 "%0 <ERR> %!FUNC!: Failed to read in casting protocol properties. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp240 30 "%0 <ERR> %!FUNC!: Failed to read in casting type properties. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp363 31 "%0 <ERR> %!FUNC!: Failed to get a list of all casting protocols. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp375 32 "%0 <ERR> %!FUNC!: Failed to create the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp380 33 "%0 <ERR> %!FUNC!: Failed to get protocol id from the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+rgCastingProtocolProperties[i].szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp409 34 "%0 <ERR> %!FUNC!: Failed to find protocol properties for protocol [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocol, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp414 35 "%0 <ERR> %!FUNC!: Failed to create the protocol query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp418 36 "%0 <ERR> %!FUNC!: Failed to get protocol query from the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+protocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp451 37 "%0 <ERR> %!FUNC!: Failed to get properties from casting source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp456 38 "%0 <ERR> %!FUNC!: Failed to get CastingTypes property from casting source. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp461 39 "%0 <ERR> %!FUNC!: Failed to get protocol list for casting types [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulSupportedTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp476 40 "%0 <INFO> %!FUNC!: CastingSource has preferred URI set" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp499 41 "%0 <INFO> %!FUNC!: Found supported protocol [%10!s!] for casting source [%11!d!]." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+rgCastingProtocolProperties[i].szProtocolName, ItemWString -- 10
+rgCastingProtocolProperties[i].protocolType, ItemLong -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp508 42 "%0 <ERR> %!FUNC!: Unable to find supported protocol for casting casting types [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulSupportedTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp51 10 "%0 <ERR> %!FUNC!: Failed to open protocol regkey. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp521 43 "%0 <ERR> %!FUNC!: CastingSource content is protected and protocol is not set to DLNA with PreferredSourceURI.  Failing casting operation. [fPreferredSourceURISet=%10!d!][protocol=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+fPreferredSourceURISet, ItemLong -- 10
+pCastingProtocol->protocolType, ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp527 44 "%0 <ERR> %!FUNC!: Casting type [%10!d!] has no protocols!. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+ulSupportedTypes, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp56 11 "%0 <ERR> %!FUNC!: Failed to query protocol count. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp65 12 "%0 <ERR> %!FUNC!: Failed to enumerate subkey [%10!d!] for protocol regkey. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+i, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp70 13 "%0 <ERR> %!FUNC!: Failed to get protocol CLSID for protocol [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp75 14 "%0 <ERR> %!FUNC!: Failed to get protocol type for protocol [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp80 15 "%0 <ERR> %!FUNC!: Failed to get supported casting types for protocol [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp85 16 "%0 <ERR> %!FUNC!: Failed to get protocol Query Provider for protocol [%10!s!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szProtocolName, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp91 17 "%0 <ERR> %!FUNC!: Failed to create the query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c1a0f332-08e6-37ec-2e0c-d4bb83d03e6a PlayToManager // SRC=CastingProtocol.cpp MJ= MN=
+#typev CastingProtocol_cpp96 18 "%0 <ERR> %!FUNC!: Failed to determine if protocol is supported for query provider [%10!s!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+castingProtocolProperties.szQueryProviderActivatableCLSID, ItemWString -- 10
+HR, ItemHRESULT -- 11
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp103 12 "%0 <ERR> %!FUNC!: Failed to generate miracast AEP protocol selector. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp132 13 "%0 <ERR> %!FUNC!: Failed to obtain display supoprted topology list hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp138 14 "%0 <ERR> %!FUNC!: Failed to get free memory on the system hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp171 15 "%0 <ERR> %!FUNC!: Failed to determine if AEP container supports WiFiDirect protocol. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hrProperties
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp207 16 "%0 <ERR> %!FUNC!: Failed to create string filter expression for Id. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp221 17 "%0 <ERR> %!FUNC!: Failed to generate string device selector from devprop filter expression array. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp60 10 "%0 <ERR> %!FUNC!: Failed to generate string device selector from miracast filter expression. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+c422d78b-c857-32a5-6bcf-ff8eb5122e2f PlayToManager // SRC=MiracastCastingEngineFactory.cpp MJ= MN=
+#typev MiracastCastingEngineFactory_cpp64 11 "%0 <INFO> %!FUNC!: Miracast not supported on this machine.  Returning empty device selector." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp100 16 "%0 <INFO> %!FUNC!: DEVICEENUMWAITER: Enum stop notification received. Triggering wait event." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp252 17 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to create the device ID query. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp257 18 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to append protocols to Aep container query. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp261 19 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to execute AepContainerForAepContainerId query. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp276 20 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to get single object device Id. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp287 21 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to execute query [%10!s!], type [%11!d!]. [debugid=%12!d!] hr=%13!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+StringReference(query).GetRawBuffer(nullptr), ItemWString -- 10
+_resultType, ItemLong -- 11
+reinterpret_cast<UINT>(this), ItemLong -- 12
+HR, ItemHRESULT -- 13
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp313 22 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add waiter for wait options [%10!d!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+dwWaitOptions, ItemLong -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp317 23 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to wait with wait options [%10!d!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+dwWaitOptions, ItemLong -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp362 24 "%0 <INFO> %!FUNC!: DEVICEENUM: Watcher status [%10!d!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+status, ItemLong -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp433 25 "%0 <ENTER> %!FUNC!: Enter[debugid=%10!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp442 26 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to create and register device watcher for the query [%10!s!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+pszQuery, ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp445 27 "%0 <INFO> %!FUNC!: DEVICEENUM: Starting device watcher ID query [%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+pszQuery, ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp447 28 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to start device watcher for the ID query. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp468 29 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add waiter. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp472 30 "%0 <INFO> %!FUNC!: DEVICEENUM: Device watcher query finished waiting with hr=%10!s!. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp490 31 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to find device. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp499 32 "%0 <EXIT> %!FUNC!: Exit - hr: %10!s! [debugid=%11!d!]" //   LEVEL=LV_ENTEREXIT FLAG=CASTING_MANAGER
+{
+hr, ItemHRESULT -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp547 33 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to stop watcher query. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp555 34 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add stop waiter. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp559 35 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to wait for watcher to stop. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp58 10 "%0 <ERR> %!FUNC!: DEVICEENUMWAITER: Failed to wait with waitoptions [%10!d!]. hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+_waitOptions, ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp622 36 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to unregister for device added events from the device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp628 37 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to unregister for device removed events from the device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp634 38 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to unregister for device updated events from the device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp64 11 "%0 <INFO> %!FUNC!: DEVICEENUMWAITER: Device Added. Waiting with options [%10!d!] protocol [%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_waitOptions, ItemLong -- 10
+_waitForProtocol, ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp640 39 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to unregister for device enum completed events from the device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp646 40 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to unregister for device stopped events from the device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp68 12 "%0 <INFO> %!FUNC!: DEVICEENUMWAITER: Found a device. Triggering wait event." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp684 41 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to create device watcher for query [%10!s!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+pszQuery, ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp696 42 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add Added event to device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp705 43 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add Removed event to device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp714 44 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add Updated event to device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp723 45 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add Enumeration Completed event to device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp732 46 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add Stopped event to device watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp752 47 "%0 <INFO> %!FUNC!: DEVICEENUM: Found new device. [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp758 48 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to add device to results array. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp76 13 "%0 <ERR> %!FUNC!: DEVICEENUMWAITER: Failed to get device supported protocols. hr=%10!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+HR, ItemHRESULT -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp779 49 "%0 <INFO> %!FUNC!: DEVICEENUM: Received device update event. [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp785 50 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to get Id from Device update. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp79 14 "%0 <INFO> %!FUNC!: DEVICEENUMWAITER: Found protocol [%10!d!]. Triggering wait event." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+_waitForProtocol, ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp799 51 "%0 <INFO> %!FUNC!: DEVICEENUM: Updating device in results list with Id [%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+strUpdateId.GetRawBuffer(nullptr), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp801 52 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to update device in results list with Id [%10!s!]. [debugid=%11!d!] hr=%12!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+strUpdateId.GetRawBuffer(nullptr), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+HR, ItemHRESULT -- 12
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp822 53 "%0 <INFO> %!FUNC!: DEVICEENUM: Firing device update event for device with Id [%10!s!]. [debugid=%11!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+strUpdateId.GetRawBuffer(nullptr), ItemWString -- 10
+reinterpret_cast<UINT>(this), ItemLong -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp833 54 "%0 <INFO> %!FUNC!: DEVICEENUM: received device enumeration completed event. [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp845 55 "%0 <ERR> %!FUNC!: DEVICEENUM: Failed to stop watcher. [debugid=%10!d!] hr=%11!s!" //   LEVEL=LV_ERROR FLAG=CASTING_MANAGER HR=hr
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+HR, ItemHRESULT -- 11
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp852 56 "%0 <INFO> %!FUNC!: DEVICEENUM: device watcher query stop event received. [debugid=%10!d!]" //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+reinterpret_cast<UINT>(this), ItemLong -- 10
+}
+
+d4a6f123-7962-373c-0482-aab9cbeb9237 PlayToManager // SRC=DeviceEnumerator.cpp MJ= MN=
+#typev DeviceEnumerator_cpp90 15 "%0 <INFO> %!FUNC!: DEVICEENUMWAITER: Enum complete notification received. Triggering wait event." //   LEVEL=LV_INFORMATION FLAG=CASTING_MANAGER
+{
+}
+

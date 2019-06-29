@@ -1,0 +1,65 @@
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp192 10 "%0Entering VaultBind" //   LEVEL=DBG_CLIENT_TRACE
+{
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp209 11 "%0Failed to create binding handle: 0x%10!08x!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+RpcStatus, ItemLong -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp220 12 "%0RpcBindingBind: 0x%10!08x!" //   LEVEL=DBG_CLIENT_TRACE
+{
+RpcStatus, ItemLong -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp244 13 "%0RpcBindingBind: 0x%10!08x!" //   LEVEL=DBG_CLIENT_TRACE
+{
+RpcStatus, ItemLong -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp264 14 "%0VaultBind: Failed to bind: 0x%10!08x!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+RpcStatus, ItemLong -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp271 15 "%0Exiting VaultBind (0x%10!08x!)" //   LEVEL=DBG_CLIENT_TRACE
+{
+RpcStatus, ItemLong -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp331 16 "%0Failed to open SCM: %10!s!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+dwError, ItemWINERROR -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp343 17 "%0Failed to open service: %10!s!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+dwError, ItemWINERROR -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp362 18 "%0Failed to start service: %10!s!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+dwError, ItemWINERROR -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp376 19 "%0Failed to query service: %10!s!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+dwError, ItemWINERROR -- 10
+}
+
+68156f8c-54a5-37f1-b54b-1c1d5a56e9a7 vaultcli // SRC=RpcClient.cpp MJ= MN=
+#typev RpcClient_cpp397 20 "%0Service is in stopped state: %10!s!" //   LEVEL=DBG_CLIENT_CRITICAL
+{
+dwError, ItemWINERROR -- 10
+}
+

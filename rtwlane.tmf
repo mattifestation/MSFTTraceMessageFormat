@@ -1,0 +1,630 @@
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0 [ERROR]Internal parsing error (tlv %10!s! was here and now it's not) 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0 [ERROR]Failed to parse nested tlv %10!s! 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0 [TRACE]Cleanup for field %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0 [ERROR]Output wrong size (%10!u!), expected offset (%11!u!) + size (%12!u!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=NDIS_STATUS_SUCCESS
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0 [TRACE]Converting old field %10!s! to new %11!u!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0 [ERROR]Output wrong size (%10!Iu!), expected optional bit-offset (%11!u!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0 [ERROR]Failed to convert %10!s!. Error = 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0 [ERROR]Missing Context parameter!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0 [ERROR]Unsupported PeerVersion (0x%10!08X!) should be at least 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0 [TRACE]Parsing %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0 [TRACE]Parsing %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0 [ERROR]Structure for %10!s! not the right size: %11!Iu!, expected %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0 [ERROR]Structure for %10!s! not the right size: %11!Iu!, expected %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0 [ERROR]BitOffset %10!u! greater than aggregate size %11!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0 [TRACE]%10!s! is present" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0 [TRACE]Generate %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0 [ERROR]Buffer for %10!s! too small for header 0x%11!X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0 [ERROR]TLV %10!s! too many elements (0x%11!x! * 0x%12!x!), status=0x%13!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0 [ERROR]TLV %10!s! collection size too big (0x%11!x!), status=0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0 [ERROR]Zero elements passed in for LIST<%10!s!>." //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0 [TRACE]Zero elements passed in for LIST<%10!s!> (allowed)." //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0 [TRACE]Generating in all field(s) at once (%10!u! bytes)" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0 [TRACE]Generating in field %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::FIELD_NAME) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0 [TRACE]Recurse on aggregate container %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0 [ERROR]TLV %10!s! collection size too big (0x%11!x!), status=0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0 [ERROR]TLV %10!s! too big for header 0x%11!x!, status=0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0 [ERROR]First pass computed wrong size! %10!s! need 0x%11!08X!, provided 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0 [TRACE]Generate %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0 [ERROR]Zero elements passed in for multi-%10!s!." //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0 [ERROR]Too many elements (%10!u!) * bytes (%11!u!) 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0 [ERROR]Too many elements (%10!u!) * bytes (%11!u!) 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0 [ERROR]TLV too big for nested field %10!s![%11!u!] 0x%12!x!, status=0x%13!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0 [ERROR]TLV too big for nested field %10!s! 0x%11!x!, status=0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0 [TRACE]Converting old field %10!s! from new %11!u!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0 [ERROR]Bad TLV metadata offset (0x%10!X!) + size (0x%11!X!) should be <= cbInput (0x%12!X!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0 [ERROR]Failed to reconstruct %10!s!, 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0 [TRACE]Reconstructed %10!s! is optional and not present, skipping" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0 [ERROR]Failed field %10!s! status=0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0 [ERROR]TLV too big for nested field %10!s! 0x%11!x! + 0x%12!x!, status=0x%13!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0 [TRACE]Generate %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0 [ERROR]Missing Context parameter!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0 [ERROR]Unsupported PeerVersion (0x%10!08X!) should be at least 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0 [ERROR]Failed to compute length of TLV for Message %10!s! status = 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0 [ERROR]TLV length 0x%10!x! + Reserve length 0x%11!x! too large (0x%12!08X!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0 [ERROR]Failed to generate TLV for Message %10!s! status = 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 [ERROR]Missing Context parameter!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0 [ERROR]Unsupported PeerVersion (0x%10!08X!) should be at least 0x%11!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0 [ERROR]Parsing empty message with non-empty (%10!u!) buffer" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0 [TRACE]Parsing %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0 [ERROR]Zero elements in %10!s! (must have at least 1)." //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0 [TRACE]Parsed 0 element LIST (allowed)" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0 [ERROR]Buffer for %10!s! not the right size: %11!u!, expected a multiple of %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0 [ERROR]Structure for %10!s! not the right size: %11!Iu!, expected %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0 [TRACE]Collection of %10!u! elements" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0 [TRACE]Failed to allocate structure array for %10!s! status 0x%11!08X!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 [ERROR]Buffer for %10!s! not the right size: %11!u!, expected %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 [ERROR]Structure for %10!s! not the right size: %11!Iu!, expected %12!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0 [TRACE]Parsing out all field(s) at once (%10!u! bytes)" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0 [TRACE]Parsing out field %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::FIELD_NAME) -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0<-- %!FUNC!: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE EXP=status
+{
+Arg, ItemLong -- 10
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0--> %!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0 [TRACE]Parsing %10!s!::%11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0 [TRACE]Parsing %10!s!::%11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0 [ERROR]Output wrong size (%10!Iu!), expected offset (%11!u!) + size (%12!u!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0 [ERROR]Error finding %10!s! within %11!s!: 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0 [ERROR]Error finding %10!s! within %11!s!: 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0 [ERROR]Required field %10!s! missing from %11!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0 [ERROR]Required field %10!s! missing from %11!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0 [ERROR]Output wrong size (%10!Iu!), expected optional bit-offset (%11!u!)" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0 [ERROR]Failed to allocate multi-array for %10!s!::%11!s! status 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::MESSAGE_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0 [ERROR]Failed to allocate multi-array for %10!s!::%11!s! status 0x%12!08X!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 11
+Arg, ItemLong -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0 [ERROR]Single instance field %10!s! appears %11!u! times in %12!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 12
+}
+
+45ea53bc-0069-d7af-39a8-04c127b696ea WdiLib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0 [ERROR]Single instance field %10!s! appears %11!u! times in %12!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(WDI_TLV::ENUMS::TLV_ID) -- 12
+}
+

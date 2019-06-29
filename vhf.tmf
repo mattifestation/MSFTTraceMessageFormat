@@ -1,0 +1,613 @@
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] WdfDeviceCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtDeviceCleanupCallback
+{
+Arg, ItemPtr -- 10
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0HID Client linked to V1 VHF lib" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=FDO_CreateVhfDevice
+{
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HID Client linked to older version of VHF lib" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=FDO_CreateVhfDevice
+{
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_CreateVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveOutputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_CreateVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfRequest 0x%10!p!: PDO_CreateDevice failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_CreateVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_DeleteVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfRequest 0x%10!p!: WdfPdoMarkMissing(WDFDEVICE 0x%11!p!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_DeleteVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfRequest 0x%10!p!: Child WdfDevice 0x%11!p! does not exist %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=FDO_DeleteVhfDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0EvtIoDeviceControl %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtIoDeviceControl
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0IoControlCode %10!u! not supported. Passing it down." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtIoDeviceControl
+{
+Arg, ItemLong -- 10
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[WDFDEVICE: 0x%10!p!] WdfRequestSend failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_EvtIoDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0EvtIoDeviceControl %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtIoDeviceControl
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0EvtIoInCallerContext %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtIoInCallerContext
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s! requires PASSIVE_LEVEL, called at %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=FDO_EvtIoInCallerContext
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemListByte(Low,APC,DPC) -- 11
+}
+
+0638a7c8-2f0d-3e52-89e0-5c4d828fc5c4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0EvtIoInCallerContext %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=FDO_EvtIoInCallerContext
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate(HidPullRequestQueue) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_Initialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueReadyNotify Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_Initialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveOutputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessNotifyRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfRequest 0x%10!p!: ReportBufferLength %11!u! is less than expected %12!u!. %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessNotifyRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfIoQueueRetrieveNextRequest failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessNotifyRequest
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[WDFREQUEST: 0x%10!p!] WdfRequestMarkCancelableEx returned %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PullRequestLoop_ProcessNotifyRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0_IOCTL_HID_VHF_PULL_REQUEST_NOTIFY request 0x%10!p! cancelled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PullRequestLoop_EvtNotifyRequestCancel
+{
+Arg, ItemPtr -- 10
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WDFREQUEST 0x%10!p!: VHF Client does not support %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_HID_IOCTL) -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0UserBuffer is small. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessHidClientRequest
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WDFREQUEST 0x%10!p!: UserBuffer is small. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WDFREQUEST 0x%10!p!: Irp->UserBuffer is NULL. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WDFREQUEST 0x%10!p!: WdfRequestForwardToIoQueue(HidPullRequestQueue) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfIoQueueRetrieveNextRequest failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_CompleteNotifyRequestLocked
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+1a8cba91-5dd0-3d83-19f0-20c46197cd34 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfRequestRequeue failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PullRequestLoop_CompleteNotifyRequestLocked
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7ecac214-8596-3140-9fa9-36192a3e3dec vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] DriverEntry Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+}
+
+7ecac214-8596-3140-9fa9-36192a3e3dec vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfDriverCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7ecac214-8596-3140-9fa9-36192a3e3dec vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[DriverObject: 0x%10!p!] DriverEntry Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7ecac214-8596-3140-9fa9-36192a3e3dec vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] DriverUnload" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverUnload
+{
+Arg, ItemPtr -- 10
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[WDFDEVICE: 0x%10!p!] Failed to allocate PreallocatedReadReportBuffer buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadReportLoop_Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate(HidReadReportQueue) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadReportLoop_Initialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueReadyNotify Failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadReportLoop_Initialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WDFREQUEST 0x%10!p!: WdfRequestRetrieveOutputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadReportLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WDFREQUEST 0x%10!p!: WdfRequestForwardToIoQueue(HidReadReportQueue) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=ReadReportLoop_ProcessHidClientRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[WDFREQUEST 0x%10!p!] WdfRequestMarkCancelableEx returned %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadReportLoop_ProcessNotifyRequest
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Dropping older input report" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=ReadReportLoop_ProcessCompletion
+{
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0_IOCTL_HID_READ_REPORT complete STATUS_SUCCESS" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadReportLoop_CompleteLocked
+{
+}
+
+92fba51c-86c4-31d4-116a-ba52bb547c64 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0_IOCTL_HID_VHF_READ_REPORT_NOTIFY complete STATUS_SUCCESS" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=ReadReportLoop_CompleteLocked
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfPdoInitAllocate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfPdoInitAddHardwareID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RtlUnicodeStringInit failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfPdoInitAssignDeviceID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device ID [%10!s!] assigned." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemWString -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfPdoInitAddHardwareID failed for hardware ID [%10!s!] with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Hardware ID [%10!s!] added." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemWString -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to allocate hardwareId buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0RtlUnicodeStringInit failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfPdoInitAddHardwareID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Hardware ID [%10!s!] added." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemWString -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0The client-provided VendorID is 0. So the VendorID/ProductID Hardware ID is not added." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=General FUNC=PDO_CreateDevice
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfPdoInitAssignDeviceID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0HID source supplied duplicate instancId" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to allocate instanceId buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0RtlUnicodeStringInit failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0PDO_GenerateInstanceId failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfPdoInitAssignInstanceID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0RtlStringFromGUID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfPdoInitAssignContainerID failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfDeviceCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to allocate ReportDescriptor buffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[WDFDEVICE: 0x%10!p!] HidP_GetCollectionDescription failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate(DefaultQueue) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[WDFDEVICE: 0x%10!p!] ReadReportLoop_Initialize failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[WDFDEVICE: 0x%10!p!] PullRequestLoop_Initialize failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfFdoAddStaticChild failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Reported new HID device. Parent WDFDEVICE 0x%10!p!, Child WDFDEVICE 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_CreateDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback(PDO) Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtDeviceCleanupCallback
+{
+Arg, ItemPtr -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback(PDO) Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtDeviceCleanupCallback
+{
+Arg, ItemPtr -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceDestroyCallback(PDO) Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtDeviceDestroyCallback
+{
+Arg, ItemPtr -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceDestroyCallback(PDO) Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtDeviceDestroyCallback
+{
+Arg, ItemPtr -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceSurpriseRemoval" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtDeviceSurpriseRemoval
+{
+Arg, ItemPtr -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0IOCTL_HID_GET_STRING: Invalid String ID %10!u! requested" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GetString
+{
+Arg, ItemLong -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0IOCTL_HID_GET_STRING: Insufficient buffer length. Expected %10!Iu!, Supplied %11!Iu!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GetString
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveOutputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GetDeviceAttributes
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveOutputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GetHidDescriptor
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WdfRequestRetrieveOutputBuffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GetReportDescriptor
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0EvtIoInternalDeviceControl %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtQueueInternalDeviceControl
+{
+Arg, ItemEnum(_HID_IOCTL) -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WDFREQUEST 0x%10!p!: IoControlCode %11!u! not supported" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_EvtQueueInternalDeviceControl
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0EvtIoInternalDeviceControl %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=PDO_EvtQueueInternalDeviceControl
+{
+Arg, ItemEnum(_HID_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_ReadReportNotify
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_ReadReportComplete
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_PullRequestNotify
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0WdfRequest 0x%10!p!: WdfRequestRetrieveInputBuffer failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_PullRequestComplete
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0RtlGenerateClass5Guid failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GenerateInstanceId
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0RtlStringFromGUID failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GenerateInstanceId
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ExUuidCreate failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GenerateInstanceId
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c62b6b91-e22f-3abd-3498-911882593cc4 vhf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0RtlStringFromGUID failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=PDO_GenerateInstanceId
+{
+Arg, ItemNTSTATUS -- 10
+}
+

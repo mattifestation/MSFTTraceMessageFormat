@@ -1,0 +1,1225 @@
+02fd6232-80c4-34ac-0ab5-8a7cbe808b44 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0CapImg Driver" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+02fd6232-80c4-34ac-0ab5-8a7cbe808b44 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDriverCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+02fd6232-80c4-34ac-0ab5-8a7cbe808b44 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfDeviceCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+02fd6232-80c4-34ac-0ab5-8a7cbe808b44 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device initialization failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Settings::ReadSettings failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Platform::Initialize failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Processor::Initialize failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Reader::Initialize failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HidMini::Initialize failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Target::Register failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Platform::BuildDeviceAttributes failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0======== Device Attributes ========" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0             VID: 0x%10!x! (%11!d!)" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0             PID: 0x%10!x! (%11!d!)" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0         Version: 0x%10!x! (%11!d!)" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0         Product: %10!s!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0    Manufacturer: %10!s!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0          Serial: %10!s!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0===================================" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Platform::BuildDeviceProperties failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0========= Device Properties =========" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0     Sensor row count: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0     Sensor col count: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0       Himetric width: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0      Himetric height: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0========================================" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Platform::BuildPlatformFeatures failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0======== Platform Features ========" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0             Read size: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0        Bytes per read: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0  Total possible bytes: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0===================================" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Processor::Register failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Reader::Register failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Filter::CreateChildDevice failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Reader::StartReading failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Processor::ProcessData failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0HidMini::GeneratePassthroughInputReport failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0HidMini::EvtIoInternalDeviceControl failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Platform::SetInputMode failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+04ff8fa5-16d7-37be-34ee-2eb3c81cda47 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0WdfIoQueueCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfRequestCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Reader::_PrepareForReading failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Reader::_ResizeFrameData failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Reader::_ReadFromDevice failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Attempting to read before the previous read was completeError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfRequestReuse failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfIoTargetFormatRequestForRead failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfRequestSend failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Stopping reads from CapImg device." //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Read request failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Reader::_OnDeviceRead failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Received a read-completion at an unexpected timeError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Reader::_ProcessInputReport failed (will still try to re-read)Error=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Reader::_ReadFromDevice failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Reader::_ResizeFrameData failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e8e5869-4bd4-3349-6c68-10f82bcf7434 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Platform::UpdateFrameDataForReport failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+12aa4300-5b2c-3ba5-a423-42ca189f34bb CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Feature report buffer too small (expected %10!d!, got %11!d!)Error=%12!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+12aa4300-5b2c-3ba5-a423-42ca189f34bb CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Processor found too many contacts (expected max %10!d!, got %11!d!)Error=%12!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+12aa4300-5b2c-3ba5-a423-42ca189f34bb CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfIoQueueRetrieveNextRequest failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+12aa4300-5b2c-3ba5-a423-42ca189f34bb CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfRequestRetrieveOutputBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27c2dbec-6033-3188-e29b-50bec2e63e1e CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+27c2dbec-6033-3188-e29b-50bec2e63e1e CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfMemoryCopyFromBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0IoRegisterPlugPlayNotification failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Target::_TryOpenIoTarget failed (no read access)Error=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Platform::IsOurTarget failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Target::_TryOpenIoTarget failed (read access)Error=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfIoTargetCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3b0c51ba-20ae-32a7-f786-0c8cd1b3e751 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfIoTargetOpen failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0CapImg::RegisterDevice failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0CapImg::RegisterProcessorCallback failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0CapImg::GetProcessorConfiguration failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0CapImg::SetProcessorConfiguration failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0CapImage::Processor::ProcessFrame failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0CapImage::Processor::GetContactInfo failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5e39b490-f634-344f-f860-f7a27f5d481c CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0CapImage::Processor::GetFrameContext failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0QueryProperty failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfPdoInitAllocate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfPdoInitAssignDeviceID failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0RtlUnicodeStringPrintf failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfPdoInitAssignInstanceID failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfPdoInitAddHardwareID failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfDeviceCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+6aeaf4c0-0b8f-30d3-e1c9-719986b08d73 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfFdoAddStaticChild failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RtlUnicodeStringPrintf failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RtlUnicodeStringPrintf failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDriverOpenParametersRegistryKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GetVidPidKeyName failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PARAMETERS\%10!s! key not found - checking default key" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GetDefaultKeyName failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PARAMETERS\%10!s! key not found - using default settings" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfDriverOpenParametersRegistryKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0GetVidPidKeyName failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Device parameter %10!s! not overridden in registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device parameter %10!s! not overridden in registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfDriverOpenParametersRegistryKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0GetVidPidKeyName failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device parameter %10!s! not overridden in registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device parameter %10!s! not overridden in registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device parameter %10!s! has unexpected type (requested: %11!d!, actual: %12!d!)" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Read device parameter %10!s! from the registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfDriverOpenParametersRegistryKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Device parameter %10!s! not overridden in registry" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemWString -- 10
+}
+
+755c860c-7956-3cce-66d4-fdb23894d290 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WdfRegistryOpenKey failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+77e4c5b6-ce7f-3dd5-6c21-fdc56167b4c8 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to query test-signing state (0x%10!x!)" //   LEVEL=CapImg_Warning FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+7f4b6569-be63-3a9b-134c-61ca54cace01 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Feature report buffer too small (expected %10!d!, got %11!d!)Error=%12!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+7f4b6569-be63-3a9b-134c-61ca54cace01 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Utils::SendOutputIoctlSynchronously failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7f4b6569-be63-3a9b-134c-61ca54cace01 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfIoQueueRetrieveNextRequest failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+7f4b6569-be63-3a9b-134c-61ca54cace01 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestRetrieveOutputBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IOCTL buffer too small for HID_XFER_PACKETError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Irp->UserBuffer isn't presentError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Report buffer is length-0Error=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Utils::SendOutputIoctlSynchronously failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Utils::SendOutputIoctlSynchronously failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Utils::SendOutputIoctlSynchronously failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0HidP_GetCaps failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0HidP_GetValueCaps failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0HidP_GetValueCaps failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0HidP_GetValueCaps failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0HidP_GetValueCaps failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0======== Capabilities ========" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0    InputReportByteLength: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0     NumberInputValueCaps: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0    NumberInputButtonCaps: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0  FeatureReportByteLength: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0   NumberFeatureValueCaps: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0  NumberFeatureButtonCaps: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0>>>" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0     UsagePage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0         Usage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0          Link: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0 LinkUsagePage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0     LinkUsage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0      ReportID: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0    LogicalMin: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0    LogicalMax: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0       BitSize: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0   ReportCount: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0======== Feature Values ========" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0>>>" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0     UsagePage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0         Usage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0          Link: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0 LinkUsagePage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0     LinkUsage: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0      ReportID: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0    LogicalMin: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0    LogicalMax: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0       BitSize: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+abb27024-a4e5-3617-38db-f6eccff6727d CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0   ReportCount: %10!d!" //   LEVEL=CapImg_Information FLAGS=Generic
+{
+Arg, ItemLong -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0HidP_SetUsageValue failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfIoTargetSendIoctlSynchronously for CapImg mode SET FEATURE failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfObjectCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Utils::GetPreparsedData failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CapImage::Protocol::HID::BuildDevice failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Platform::SetInputMode failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Utils::SendOutputIoctlSynchronously failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfMemoryCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0CapImage::Protocol::HID::ExtractDeviceParametersFromReport failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0CapImage::Protocol::ConfigurationInitializeFromDeviceParameters failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device doesn't support chunking, but its read buffer isn't large enough for the required size (%10!d! required, %11!d! size)Error=%12!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0HidUtils::GetDeviceString failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0HidUtils::GetDeviceString failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0HidUtils::GetDeviceString failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Unexpected buffer sizeError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b5722049-2596-374b-9e7f-901f8870b52f CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0CapImage::Protocol::HID::UpdateFrameDataForReport failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0HidMini::_GetDeviceDescriptor failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HidMini::_GetReportDescriptor failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0HidMini::_GetDeviceAttributes failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0HidMini::_GetString failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0HidMini::_ReadReport failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0HidMini::_GetFeature failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfRequestRetrieveOutputMemory failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Descriptor::MakeReportDescriptor failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfMemoryCopyFromBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfRequestRetrieveOutputMemory failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfMemoryCopyFromBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfRequestRetrieveOutputBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0RtlStringCbLengthW failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WdfRequestRetrieveOutputMemory failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WdfMemoryCopyFromBuffer failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WdfIoQueueCreate failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WdfRequestForwardToIoQueue failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0HidUtils::ExtractTransferPacket failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0TouchHid::GetFeature failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Passthrough::GetFeature failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Dropping touch input reports - haven't completed HIDCLASS initializationError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0TouchHid::GenerateInputReports failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Dropping passthrough input reports - haven't completed HIDCLASS initializationError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+dc8a069a-e4fb-3b39-3fc6-35708b91fe31 CapImg // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Passthrough::GenerateInputReports failedError=%10!s!" //   LEVEL=CapImg_Error FLAGS=Generic STATUS=status
+{
+Arg, ItemNTSTATUS -- 10
+}
+

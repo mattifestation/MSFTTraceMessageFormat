@@ -1,0 +1,3685 @@
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PIPE%10!d!: (%11!08x!) Request failed with status %12!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PIPE%10!d!: (%11!08x!) Sending a zero length packet to terminate the transfer" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PIPE%10!d!: (%11!08x!) WdfRequestRetrieveOutputMemory failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PIPE%10!d!: (%11!08x!) WdfUsbTargetPipeFormatRequestForWrite failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PIPE%10!d!: (%11!08x!) Writing %12!d! bytes to the device" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PIPE%10!d!: (%11!08x!) WdfRequestAllocateTimer failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PIPE%10!d!: (%11!08x!) WdfRequestSend failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PIPE%10!d!: (%11!08x!) Write request for %12!d! bytes has completed" //   LEVEL=LEVEL_INFO FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Write Pipe Input Buffer Length is insufficient to contain the PipeID of the pipe to write to %10!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid interface index for write %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0The specified pipe (%10!d!) isn't a valid bulk or interrupt out pipe" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PIPE%10!d!: (%11!08x!) The write has been added to the write queue" //   LEVEL=LEVEL_INFO FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfRequestForwardToIoQueue failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfRequestRetrieveInputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PIPE%10!d!: (%11!08x!) The write is being handled" //   LEVEL=LEVEL_INFO FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfRequestRetrieveOutputMemory failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfUsbTargetPipeFormatRequestForWrite failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfRequestAllocateTimer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0PIPE%10!d!: (%11!08x!) Writing %12!d! bytes to the device" //   LEVEL=LEVEL_INFO FLAGS=TraceWritePipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfRequestSend failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Exit: WinUSB_EvtWriteIoStop" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+4ce4270e-6c26-3d4c-aeda-855e0ca8bcc7 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Exit: WinUSB_EvtWriteIoResume" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to select the default configuration, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Resetting Default settings for WDF device (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to get reset defaults, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Preparing hardware for WDF device (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unable to create a USB IO Target %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Created UsbDevice (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get Device Descriptor, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get Configuration Descriptor, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to select the default configuration, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Unable to set device interface properties, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Resetting Default settings for WDFDevice (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Unable to get reset defaults, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unable to retrieve device information, failing Start %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0UpperFilters present. So marking all the interfaces restriced" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Handling Device Cleanup (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfDeviceStopIdle failed %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Resetting WdfUsbPipe (%10!p!) on D0Entry" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfUsbTargetPipeResetSynchronously failed %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Starting Read Io Target for WdfUsbPipe (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to start iotarget for WdfUsbPipe %10!p! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Purging Read Io Target for WdfUsbPipe (%10!p!) to cancel pending IO" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Stopping Read Io Target for WdfUsbPipe (%10!p!) to cancel pending IO" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemPtr -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to set interface property VID %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to set interface property PID %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed to set interface property class %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to set interface property subclass %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Failed to set interface property protocol %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to allocate memory %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Failed to set interface property GUID %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WdfStringCreate failed  %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfDeviceRetrieveDeviceInterfaceString failed  %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0IoSetDeviceInterfacePropertyData failed  %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+909e62a6-5fa5-3a3e-8775-e832ef007b2b winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0IoGetDeviceProperty failed  %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Interface index(%10!d!) is >= interface count (%11!d!) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Invalid Pipe Specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Invalid Pipe Specified for GetPipePolicy - pipe is not int or bulk out. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Invalid GetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Invalid GetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Invalid Pipe Specified for GetPipePolicy - pipe is not int or bulk in. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Invalid Pipe Specified for GetPipePolicy - pipe is not int or bulk in. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Invalid Pipe Specified for GetPipePolicy - pipe is not int or bulk in. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Invalid GetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Invalid GetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0Failed to retrieve output buffer specified for GetPipePolicy. PipeId(%10!d!)%11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Unsupported Pipe Policy specified (%10!d!) %11!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0Control transfer RequestId(%10!d!) completed with error %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0Insufficient input buffer for Control transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Control transfer data length (%10!d!) exceeds the max control transfer size (%11!d!)%12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0Invalid interface index (%10!d!) for Control transfer %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0IOCTL_WINUSB_GET_DESCRIPTOR" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0Control Endpoint is not configured %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0Control recipient is interface. Overwriting wIndex's low byte %10!d! with InterfaceNumber %11!d! (via WINUSB_INTERFACE_HANDLE)" //   LEVEL=LEVEL_INFO FLAGS=TraceControl
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0Control recipient is endpoint address 0x%10!02x!, which is invalid since it does not exist in any selected interface %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0Failed to retrieve output memory for control transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0Failed to format request for control transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0Failed to allocate timer for control transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0PIPE0: (%10!08x!) Submitting Control Request to endpoint 0" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceControl
+{
+Arg, ItemLong -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0Failed to send the control transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0Control transfer not allowed: setup packet bmRequestType 0x%10!02x! bRequest 0x%11!02x! (wValue 0x%12!04x!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceControl
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0IOCTL_WINUSB_SET_CURRENT_ALT_INTERFACE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0WdfRequestRetrieveInputBuffer failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0InterfaceIndex exceeds InterfaceCount! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0ResetPipe on the control endpoint is not allowed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0Pipe index x%10!x! is invalid for Interface index x%11!x!! Status: %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0pipe->WdfUsbPipe's (%10!p!)ioTarget is stopped!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0WdfUsbTargetPipeAbortSynchronously failed for WDF pipe(%10!p!) Status: %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0WdfUsbTargetPipeResetSynchronously failed for WDF pipe(%10!p!) Status: %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0WdfIoTargetStart failed for WDF pipe(%10!p!) Status: %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0pipe->WdfUsbPipe's (%10!p!)ioTarget is re-started!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Can't select alternate settings while a device control queue has IO in progress! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0WdfRequestRetrieveInputBuffer failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0InterfaceIndex exceeds InterfaceCount! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0AbortPipe is not allowed on control ep. Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0Invalid pipe for pipe index (%10!d!)! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0pipe->WdfUsbPipe is NULL! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0WdfRequestRetrieveInputBuffer failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Select alternate settings failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0InterfaceIndex exceeds InterfaceCount! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0Invalid Pipe Specified for FlushPipe - pipe is not int or bulk in. PipeId(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0WdfRequestForwardToIoQueue failed to fwd request. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0Reset Port is not being allowed because the registry key is not set and the caller is not a user mode driver %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0Stopping USB device's (x%10!p!) iotargets!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0WdfUsbTargetDeviceResetPortSynchronously failed to reset USBDevice (%10!p!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0Successfully reset USBDevice (%10!p!)" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0Failed to restart USBDevice (%10!p!) iotarget! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IOCTL_WINUSB_GET_CURRENT_ALT_INTERFACE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0Restarted USBDevice (%10!p!) iotarget!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0Cycle Port can only be enabled through the device inf. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0WdfUsbTargetDeviceCyclePortSynchronously failed to reset USBDevice (%10!p!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0Failed to restart USBDevice (%10!p!) iotarget! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0Restarted USBDevice (%10!p!) iotarget!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0Caller is not power policy owner! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0IOCTL_WINUSB_SET_PIPE_POLICY" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0WdfRequestRetrieveInputBuffer failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0Invalid SetPowerPolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0Existing power policy same as passed in power policy." //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0Invalid SetPowerPolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0WdfDeviceAssignS0IdleSettings failed.  SuspendDelay reverts to (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0Invalid power policy type (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0Caller is not power policy owner! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0WdfRequestRetrieveInputBuffer failed! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0IOCTL_WINUSB_GET_PIPE_POLICY" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0Insufficient output buffer for GetPowerPolicy %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0Insufficient output buffer for GetPowerPolicy %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0Invalid power policy type (%10!d!) for GetPowerPolicy %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0WinUSB_SetInterface failed in GetPowerPolicy %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0WdfDeviceStopIdle failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0WdfDeviceAssignS0IdleSettings failed in GetPowerPolicy.  Revert SuspendDelay to %10!d! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IOCTL_WINUSB_READ_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0WdfRequestRetrieveInputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0Invalid value type (%10!d!) passed in for WINUSB_QueryDeviceInformation. %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 204 "%0Enter: WinUSB_ExchangeVersion" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0WdfRequestRetrieveInputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 207 "%0Exit: WinUSB_ExchangeVersion (%10!s!)" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 208 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 209 "%0IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0IOCTL_WINUSB_WRITE_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 210 "%0%!FUNC!: WdfRequestSend failed with status - %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 211 "%0WinUsb is the power policy owner, but it has received IOCTL_INTERNAL_USB_SUBMIT_IDLE_NOTIFICATION from another driver %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 212 "%0Error retrieving the output buffer for IOCTL_INTERNAL_WINUSB_GET_POWER_POLICY_SETTING. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 213 "%0The output buffer length for IOCTL_INTERNAL_WINUSB_GET_POWER_POLICY_SETTING is not what we expected. Expected length: %10!d! bytes. Actual length: %11!I64d! bytes." //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 214 "%0Unsupported IOCTL (%10!d!) %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 215 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 216 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 217 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 218 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 219 "%0Can't stop default device control queue while IO is in progress %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0IOCTL_WINUSB_CONTROL_TRANSFER" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 220 "%0Can't stop secondary device control queue while IO is in progress %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 221 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0IOCTL_WINUSB_RESET_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to fwd IOCTL_WINUSB_RESET_PIPE! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0IOCTL_WINUSB_ABORT_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to fwd IOCTL_WINUSB_ABORT_PIPE! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0IOCTL_WINUSB_FLUSH_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0IOCTL_WINUSB_RESET_PORT" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to fwd IOCTL_WINUSB_RESET_PORT! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0IOCTL_WINUSB_CYCLE_PORT" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to fwd IOCTL_WINUSB_CYCLE_PORT! Status: %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0IOCTL_WINUSB_SET_POWER_POLICY" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0IOCTL_WINUSB_GET_POWER_POLICY" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0IOCTL_WINUSB_RESET_DEFAULTS" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Can't reset default settings while a device control queue has IO in progress! %10!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Can't reset defaults while raw IO is in progress" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Can't reset defaults while isoch IO is in progress" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Can't reset defaults while IO is in progress pipe x%10!p! queue %11!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0IOCTL_WINUSB_QUERY_DEVICE_INFORMATION" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0IOCTL_WINUSB_VERSION_EXCHANGE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0IOCTL_WINUSB_GET_CURRENT_FRAME_NUMBER" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0IOCTL_WINUSB_START_TRACKING_FOR_TIME_SYNC" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0IOCTL_WINUSB_GET_CURRENT_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0IOCTL_WINUSB_STOP_TRACKING_FOR_TIME_SYNC" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to forward request to isoch buffer queue %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0IOCTL_WINUSB_WRITE_ISOCH_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0IOCTL_WINUSB_READ_ISOCH_PIPE" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Unsupported IOCTL x%10!x! %11!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Unsupported IOCTL in SerialDeviceControl- x%10!x! %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Completing request 0x%10!p! from WinUSB_SerialDeviceControl" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceIoctl
+{
+Arg, ItemPtr -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Insufficient Input Buffer Length for GetDescriptor (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfRequestRetrieveOutputBuffer failed in GetDescriptor. Desc type (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfRequestRetrieveOutputBuffer failed in GetDescriptor. Desc type (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Unable to allocate urb %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0WdfRequestRetrieveOutputBuffer failed in GetDescriptor. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0WdfRequestAllocateTimer failed in GetDescriptor. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0WdfUsbTargetDeviceSendUrbSynchronously failed in GetDescriptor. %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Insufficient Input Buffer Length for Interface Index (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0InterfaceIndex is >= interface count %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0InterfaceIndex is invalid %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Can't select alternate settings while raw IO is in progress" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Can't select alternate settings while isoch IO is in progress" //   LEVEL=LEVEL_WARN FLAGS=TraceIoctl
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Can't select alternate settings while IO is in progress %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Insufficient Input Buffer Length for Interface Index (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Interface index is >= interface count (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Insufficient Output Buffer Length for Alternate Setting Index (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Insufficient Input Buffer Length for SetPipePolicy (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Interface index is >= interface count (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Invalid Pipe Specified for SetPipePolicy (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Invalid SetPipePolicy PipeType(%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Invalid SetPipePolicy ValueLength(%10!I64d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Unsupported Pipe Policy specified (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+9ca0f0f0-93fd-367d-a213-87d1c5a8098e winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Insufficient Input Buffer Length for GetPipePolicy (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Completing request %10!p! due to failure to allocate child isoch requests %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Marked parent request %10!p! as cancelable, status = %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0WdfRequestMarkCancelableEx returned unexpected status %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Unable to allocate isoch request buffer context for request %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0WdfUsbTargetDeviceCreateIsochUrb failed %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Failed to send isoch request %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PIPE%10!d!: Failed to allocate isoch queue %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Intialized parent request %10!p!, context %11!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0No child transfer due to parent cancellation %10!p!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Unable to find child transfer for isoch request %10!p!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Submitting child isoch request %10!p! failed %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Completing parent request %10!p! due to cancellation of child request %11!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0Completing parent isoch request %10!p! due to error in submitting child request %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Completion of parent isoch request %10!p! pending due to error in submitting child request %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PIPE%10!d!: Failed to register notification callback for isoch queue %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Sending Isoch WDFREQUEST: %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Failed to send isoch request to device %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0WdfUsbTargetPipeFormatRequestForUrb failed %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0IOCTL_WINUSB_MAP_ISOCH_WRITE_BUFFER" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0IOCTL_WINUSB_MAP_ISOCH_READ_BUFFER" //   LEVEL=LEVEL_INFO FLAGS=TraceIoctl
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unexpected IOCTL!!! - %10!x!" //   LEVEL=LEVEL_ERROR FLAGS=TraceIoctl
+{
+Arg, ItemLong -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Freeing isoch pipe %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Cancelling isoch buffer request for user-mode buffer %10!p!, context %11!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Insufficient Input Buffer Length for RegisterIsochBuffer (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Invalid interface index (%10!d!) for RegisterIsochBuffer (%11!d!) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Pipe ID (%10!d!) is not for isochronous endpoint %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Unable to retrieve MDL for user-mode buffer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to allocate isoch buffer context for request %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Marked isoch buffer request (context %10!p!) as cancelable %11!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to mark buffer mapping request as cancelable %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Isoch request overruns end of isoch buffer %10!p!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Unable to find a matching isoch buffer for user-mode address" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Exit: %!FUNC!, %10!p!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Unable to find isoch buffer context for request %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unable to allocate MDL for isoch buffer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Mapped isoch user-mode buffer %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Unmapping isoch buffer (context %10!p!) for user-mode buffer %11!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Completing isoch buffer request (context %10!p!) as canceled" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to create isoch child request for parent request %10!p! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WdfUsbTargetDeviceCreateIsochUrb failed %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Cancelling child isoch requests for parent %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Cancelling child isoch request %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Parent isoch request cancelled %10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Isoch Request %10!p! Complete,  Irp Status=%11!x! Urb Status=%12!x!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Isoch packet error = %10!x!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Purging Isoch queue due to device removal" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Isoch Request %10!p! Complete,  Irp Status=%11!x! Urb Status=%12!x!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Isoch packet error = %10!x!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Unmarked parent transfer %10!p! as canceleble %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Completing parent transfer %10!p!, status = %11!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Purging Isoch queue due to device removal" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Insufficient Input Buffer Length for isoch transfer (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Zero length isoch transfer request" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Invalid interface index for isoch transfer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Zero length maximum bytes per interval" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Pipe is not an isoch pipe %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Pipe is not OUT pipe %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Pipe is not In pipe %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Isoch read buffer length %10!d! is not a multiple of the endpoints max bytes per interval %11!d!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Number of packets too large %10!d!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Insufficient Output Buffer Length for isoch read transfer (Expected at least %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Incorrect number of isoch packet descriptors for isoch read transfer" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Failed to forward request to isoch queue %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Restarting isoch queue after purge" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Unable to keep up with client isoch transfers!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Previously validated input buffer has insufficient length for isoch transfer (Expected %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Number of packets too large %10!d!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Previously validated output buffer length for isoch read transfer is invalid (Expected at least %10!d! bytes, received %11!I64d! bytes) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Failed to retrieve current frame number %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Starting frame number is in the past, current frame number %10!d!, starting frame number %11!d!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Request %10!p!, startAsap %11!s!, ContinueStream %12!s!, Current frame number %13!d!, starting frame number %14!d!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemListLong(false,true) -- 11
+Arg, ItemListLong(false,true) -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+b73f5e0d-7778-329f-685c-87b463641417 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Unable to allocate isoch request buffer context for request %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DriverObject 0x%10!p!" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+Arg, ItemPtr -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WinUSB_DeterminePowerPolicyOwnership failed! (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to create main device handle! (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to create the Interface GUID collection (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WinUSB_GetRegParams failed! (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Default PowerPolicy: WinUSB is the power policy owner." //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfDeviceAssignSxWakeSettings failed! (%10!s!)" //   LEVEL=LEVEL_WARN FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfDeviceAssignS0IdleSettings failed! (%10!s!)" //   LEVEL=LEVEL_WARN FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Default PowerPolicy: Device idle has been disabled! (%10!s!)" //   LEVEL=LEVEL_WARN FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Default PowerPolicy: EnableIdle = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Default PowerPolicy: SystemWakeEnabled = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Default PowerPolicy: SuspendDelay = %10!d! ms" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemLong -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Default PowerPolicy: DeviceIdleEnabled = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Default PowerPolicy: UserSetDeviceIdleEnabled = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Default PowerPolicy: DefaultDeviceIdleState = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Default PowerPolicy: IdleConfigured = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Default PowerPolicy: WinUSB is NOT the power policy owner." //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Default PipePolicy: ShortPacketTerminate = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Default PipePolicy: AutoClearStall = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Default PipePolicy: PipeTransferTimeout = %10!d!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemLong -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Default PipePolicy: IgnoreShortPackets = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Default PipePolicy: AllowPartialReads = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Default PipePolicy: AutoFlush = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Default PipePolicy: RawIo = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Default PipePolicy: ResetOnResume = %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Malformed GUID string in the registry (%10!s!)" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Ignoring reserved sample interface guid" //   LEVEL=LEVEL_WARN FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WinRT GUID must not be specified in %10!s! (%11!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Failed to create the device interface (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to create the winrt device interface (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Failed to create the default device queue (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed to create the serial device control queue (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to create the abort queue (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Failed to create isoch buffer queue %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Create failed due to inability to start default io target %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceCreateClose
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Create succeeded" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceCreateClose
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Client has failed to stop time tracking" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfDeviceGetIoTarget failed. Time Tracking Handle %10!p! will be leaked" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemPtr -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0WdfIoTargetSendIoctlSynchronously failed with %10!s!. Time Tracking Handle %11!p! will be leaked" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Purging pipe: x%10!p! pipe queue: x%11!p!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Purging pipe: x%10!p! pipe raw io queue: x%11!p!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Purging pipe: x%10!p! pipe isoch io queue: x%11!p!" //   LEVEL=LEVEL_INFO FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0WdfIoTargetStart failed for UsbDevice (%10!p!) Status: %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TracePnP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Failed to open device registry key %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed to registry string %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Failed to add registry string to interface guid collection %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0ResetPortEnabled is set to FALSE" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0CyclePortEnabled is set to FALSE" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0SystemWakeEnabled is set to FALSE" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0DeviceIdleEnabled is set to FALSE" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0D3ColdSupported is set to TRUE" //   LEVEL=LEVEL_INFO FLAGS=TraceDriver
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Failed to open device registry key %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Failed to open device registry key %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Failed to write SQM WinUsb Isoch Used value to registry %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceDriver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e013abed-409e-3cb9-1636-8e3c49a5ef72 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PIPE%10!d!: (%11!08x!) Request failed with status %12!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PIPE%10!d!: (%11!08x!) Read request for %12!d! bytes has completed with %13!d! bytes" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PIPE%10!d!: (%11!08x!) WdfRequestRetrieveOutputMemory failed with status %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PIPE%10!d!: (%11!08x!) Device and driver are out of synch due to inability to copy data to output buffer!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PIPE%10!d!: (%11!08x!) Device sent more data than was requested" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PIPE%10!d!: (%11!08x!) Saving extra %12!d! bytes to be returned in the next read" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PIPE%10!d!: (%11!08x!) Request failed with status %12!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PIPE%10!d!: (%11!08x!) Transfer was terminated by a short packet" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PIPE%10!d!: (%11!08x!) WdfRequestRetrieveOutputMemory failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PIPE%10!d!: (%11!08x!) WdfUsbTargetPipeFormatRequestForRead failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PIPE%10!d!: (%11!08x!) WdfRequestAllocateTimer failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PIPE%10!d!: (%11!08x!) Resending read for %12!d! more bytes" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PIPE%10!d!: (%11!08x!) WdfRequestSend failed %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0PIPE%10!d!: (%11!08x!) Read request for %12!d! bytes has completed with %13!d! bytes" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfRequestRetrieveInputBuffer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Invalid interface index (%10!d!) for read pipe (%11!d!) %12!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0The specified pipe (%10!d!) isn't a valid bulk or interrupt in pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PIPE%10!d!: (%11!08x!) The read has been added to the raw io queue" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PIPE%10!d!: (%11!08x!) The read could not be forwarded to the raw io queue" //   LEVEL=LEVEL_ERROR FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0PIPE%10!d!: (%11!08x!) The read has been added to the read queue" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfRequestForwardToIoQueue failed for read pipe (%10!d!) %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfRequestRetrieveInputBuffer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PIPE%10!d!: (%11!08x!) The read is being handled" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0The transfer length must not exceed 0x%10!x! bytes %11!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0The transfer length must be a multiple of MaxPacket %10!s!" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WdfRequestRetrieveOutputMemory failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WdfUsbTargetPipeFormatRequestForRead failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WdfRequestAllocateTimer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0PIPE%10!d!: (%11!08x!) Reading %12!d! bytes from the device" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Reallocating SubRequest" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfRequestRetrieveInputBuffer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0PIPE%10!d!: (%11!08x!) The read for %12!I64d! bytes is being handled" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0PIPE%10!d!: Data received from device has been flushed" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0PIPE%10!d!: (%11!08x!) AllowPartialReads is TRUE, so this read of 0 bytes will be completed without requesting data from the device" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0PIPE%10!d!: (%11!08x!) There is valid data left over from a previous read, so this read of 0 bytes will be completed without requesting data from the device" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfRequestRetrieveOutputMemory failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0WdfMemoryCopyFromBuffer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0PIPE%10!d!: (%11!08x!) %12!d! bytes from a previous read have been copied to this read, this completes this read" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0PIPE%10!d!: (%11!08x!) %12!d! bytes from a previous read have been copied to this read" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0WdfUsbTargetPipeFormatRequestForRead failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WdfRequestAllocateTimer failed for Request (%10!d!) for read pipe %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0PIPE%10!d!: (%11!08x!) Reading %12!d! bytes from the device" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f44f288a-5d4f-37b3-9c1a-2c50bf7fc63f winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to allocate device descriptor buffer (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to retrieve config descriptor size (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to allocate config descriptor buffer (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to retrieve config descriptor (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfUsbTargetDeviceSelectConfig failed (%10!s!)" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0USBDevice %10!p! has zero interfaces. It is expected for Billboard devices" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate interfaces buffer for UsbDevice %10!p! %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PIPE%10!d!: has already been freed" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Exit: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to allocate control pipe buffer %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0PIPE%10!d!: Failed to allocate pipe buffer %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0PIPE%10!d!: Failed to allocate remainder packet data buffer %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PIPE%10!d!: Failed to allocate read pipe IOQueue %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PIPE%10!d!: Failed to create pipe read request %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PIPE%10!d!: Failed to allocate write pipe IOQueue %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0PIPE%10!d!: Failed to allocate pipe error work item %11!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Failed to select interface (%10!s!)" //   LEVEL=LEVEL_WARN FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WinUSB_InitControlPipe failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WinUSB_InitPipe failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0PIPE%10!d!: Attempting to reset the WdfUsbpipe %11!p!" //   LEVEL=LEVEL_WARN FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0PIPE%10!d!: Failed to reset WdfUsbPipe %11!p!, attempting to reset the UsbDevice %12!p!" //   LEVEL=LEVEL_WARN FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0PIPE%10!d!: Failed to reset WdfUsbPipe %11!p! and Failed to reset the UsbDevice %12!p!" //   LEVEL=LEVEL_WARN FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0PIPE%10!d!: (%11!08x!) Read request for %12!d! bytes has completed with %13!d! bytes" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0PIPE%10!d!: (%11!08x!) Read request for %12!d! bytes has completed with %13!d! bytes" //   LEVEL=LEVEL_INFO FLAGS=TraceReadPipe
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Enter: %!FUNC!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Exit: %!FUNC! - %10!s!" //   LEVEL=LEVEL_VERBOSE FLAGS=TraceEntryExit
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Current frame number is %10!d!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemLong -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0TimeTrackingHandle is not NULL" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0WdfRequestRetrieveOutputBuffer returned %10!I64d! bytes, Expected was %11!I64d! bytes" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0WdfRequestRetrieveInputBuffer returned %10!I64d! bytes, Expected was %11!I64d! bytes" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0WdfDeviceGetIoTarget returned NULL" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0IOCTL_USB_START_TRACKING_FOR_TIME_SYNC succeeded" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0IOCTL_USB_START_TRACKING_FOR_TIME_SYNC failed! %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0WdfRequestRetrieveOutputBuffer returned %10!I64d! bytes, Expected was %11!I64d! bytes" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0WdfRequestRetrieveInputBuffer returned %10!I64d! bytes, Expected was %11!I64d! bytes" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0WdfDeviceGetIoTarget returned NULL" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC succeeded" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0IOCTL_USB_GET_FRAME_NUMBER_AND_QPC_FOR_TIME_SYNC failed! %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WdfRequestRetrieveOutputBuffer failed! %10!s!" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WdfRequestRetrieveInputBuffer returned %10!I64d! bytes, Expected was %11!I64d! bytes" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0WdfDeviceGetIoTarget returned NULL" //   LEVEL=LEVEL_ERROR FLAGS=TraceParameter
+{
+}
+
+f5d88be9-f709-36fd-ee74-1c742c7041f2 winusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC failed! %10!s!" //   LEVEL=LEVEL_INFO FLAGS=TraceParameter
+{
+Arg, ItemNTSTATUS -- 10
+}
+

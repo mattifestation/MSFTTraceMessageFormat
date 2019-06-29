@@ -1,0 +1,1179 @@
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'Error getting device status'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'EDT filter is not installed on target device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=EdtPrequalifyDevice(pbSuccess, FALSE)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'Failed to open the EDT device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(nLastError) ERRMSG=L'EDT device opened , but request failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='EDTRequest.pEdtRequest'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'Error determining if device is started'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0%10!s!o->this(%11!p!):%!FUNC!(psOpName = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='Getting status failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'DevicePresenceCheckWithWait'), &sDrc)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG=sDrc
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'EnableDevice())'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG=L'DisableDevice())'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pMainTarget
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Type=Device'), &pbIsDeviceType)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='PNP::SetTarget() Invalid target provided'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'DeviceID'), &m_DeviceID)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValueString(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::SetTarget() Could not instantiate PNP support.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pParent2->GetValueString(CComBSTR(L'DeviceID'), &m_RescanDeviceID)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='Could not Initialize PNP support for parent device.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::SetTarget() error determining if EDT is supported for the target device.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::SetTarget() Could not instantiate EDT support.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbSuccess
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=EdtPrequalifyDevice(pbSuccess, FALSE)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='EDTRequest.pEdtRequest'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=InternalEnable(&bSuccess)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=InternalDisable(&bSuccess)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='PNP.RescanDevice'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='PNP.Rescan.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'Class=Display'), &bIsDisplayDevice)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->get_WDTF(&pWDTF)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pWDTF->get_DeviceDepot(&pDeviceDepot)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pDeviceDepot->Query(L'IsPhantom=False AND Class=Display AND ProblemCode=43', &pBangedOutDisplayDevices)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pBangedOutDisplayDevices->get_Count(&lCount)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pBangedOutDisplayDevices->get_Item(i, &pBangedOutDisplayDevice)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pBangedOutDisplayDevice->GetValueString(CComBSTR(L'DeviceID'), &DeviceID)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::RestartDevice() - Could not instantiate PNP support needed for removing the banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pBangedOutDisplayDevice->GetRelations(CComBSTR(L'parent/'), CComBSTR(L'IsPhantom=False'), &pParentDevices)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pParentDevices->get_Item(0, &pParentOfBangedOutDisplayDevice)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pParentOfBangedOutDisplayDevice->GetValueString(CComBSTR(L'DeviceID'), &ParentDeviceID)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::RestartDevice() - Could not instantiate PNP support needed for rescanning the parent of the banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::RestartDevice() - Could not remove banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CWDTFPNPImpl::RestartDevice() - Failed to remove banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='CWDTFPNPImpl::RestartDevice() - Could not rescan the parent of the banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CWDTFPNPImpl::RestartDevice() - Failed to rescan the parent of the banged out display device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='PNP.RemoveDevice()'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%10!s!o->this(%11!p!):%!FUNC!(pbSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_SETUPAPI(GetLastError()) ERRMSG='PNP.DIFRemoveDevice()'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%10!s!o->this(%11!p!):%!FUNC!(pbRebootRequired = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+6134d8d7-fe7b-3b7a-a63a-465eafc2c7f4 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbRebootRequired
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=CreateParentsOnlyItemsActions(&pParentActions)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o->this(%11!p!):%!FUNC!(pIoSuccess = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+9a385e57-0d38-3dd3-c5af-5490fe869648 WDTFPnpAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+

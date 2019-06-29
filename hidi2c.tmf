@@ -1,0 +1,821 @@
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Interrupt processing deferred until first Read request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERRUPT
+{
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0SpbWritelessRead failed offset:0x%10!x! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Detected a device-initiated reset. Completing Device Reset Notification request:0x%10!p! with %11!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Invalid input report returned for Reset command status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid input report returned Length:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error retrieving request:0x%10!p! from ReportQueue status:%11!s!" //   LEVEL=(status == STATUS_NO_MORE_ENTRIES) ? TRACE_LEVEL_INFORMATION : TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestRetrieveOutputMemory failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfMemoryCopyFromBuffer failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfRequestForwardToIoQueue failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3784bc63-a9d3-35fc-ba00-67fcf49b435f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Read request completed for Interrupt:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemPtr -- 10
+}
+
+3a63dc51-1cfc-3a8f-2651-4bdb62cf57ec hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfRequestForwardToIoQueue failed forwarding idle notification Request:0x%10!p! to IdleQueue:0x%11!p! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a63dc51-1cfc-3a8f-2651-4bdb62cf57ec hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Forwarded idle notification Request:0x%10!p! to IdleQueue:0x%11!p! status:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3a63dc51-1cfc-3a8f-2651-4bdb62cf57ec hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfIoQueueRetrieveNextRequest failed to find idle notification request in IdleQueue:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+3a63dc51-1cfc-3a8f-2651-4bdb62cf57ec hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Completed idle notification Request:0x%10!p! from IdleQueue:0x%11!p! status:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfDriverCreate failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Created WDF driver object:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDeviceCreate failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfSpinLockCreate failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfIoQueueCreate failed  creating IoctlQueue status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfIoQueueCreate failed creating ReportQueue status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfIoQueueCreate failed creating CompletionQueue status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfIoQueueCreate failed creating IdleQueue status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+537e1269-8d7e-3c54-e2e8-ca0c06b7576d hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Created device:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device:0x%10!p! is resuming from D%11!d! state" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HidReset failed resetting device status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INTERRUPT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device:0x%10!p! is going to D%11!d! state" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0RtlFindMessage failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Abnormally large fallback string size." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0RtlUnalignedStringCbLengthW failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed allocating memory." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0RtlStringCbPrintfW failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0RtlUnalignedStringCbLengthW failed (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8204c5f5-b481-3648-2d1b-9ac349af4675 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to set problem description (%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0I2C resource found with connection id: 0x%10!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLongLongX -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Interrupt resource found at index: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed finding required resources status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfIoTargetCreate failed creating SPB target status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ResourceHub failed to create device path (%10!s!) status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfIoTargetOpen failed to open SPB target:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestCreate failed creating SPB request status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfWaitLockCreate failed creating interrupt lock status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfInterruptCreate failed creating interrupt status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfSpinLockCreate failed creating inprogress spinlock status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfObjectDelete closed and deleted SpbIoTarget" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_SPB
+{
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0SpbWrite failed parameters Data:%10!p! Length:%11!u! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfMemoryCreate failed allocating memory buffer for SpbWritestatus:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfIoTargetSendWriteSynchronously failed sending SpbWrite with timeoutbytes:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfIoTargetSendWriteSynchronously returned with 0x%10!u! bytes expected:0x%11!u! bytes status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SpbWritelessRead failed parameters Data:%10!p! Length:%11!u! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfMemoryAssignBuffer failed assigning input report buffer status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed sending SPB Read bytes:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0SpbRead failed parameters Data:%10!p! Length:%11!u! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0SpbSequence failed sending a sequence status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0SpbSequence returned with 0x%10!u! bytes expected:0x%11!u! bytes status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SpbWriteWrite failed parameters DataFirst:%10!p! DataLengthFirst:%11!u! DataSecond:%12!p! DataLengthSecond:%13!u! status:%14!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0SpbSequence failed sending a sequence status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0SpbSequence returned with 0x%10!u! bytes expected:0x%11!u! bytes status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0SpbWriteRead failed parameters DataFirst:%10!p! DataLengthFirst:%11!u! DataSecond:%12!p! DataLengthSecond:%13!u! status:%14!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0SpbSequence failed sending a sequence status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0SpbSequence returned with 0x%10!u! bytes expected:0x%11!u! bytes status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WdfMemoryCreatePreallocated failed creating memory for sequencestatus:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d994a173-b607-3369-b239-15f5d151f9b5 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed sending SPB Sequence IOCTL bytes:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_SPB
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Check for DSM support returned %10!c! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemChar -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Check for DSM support returned %10!c! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemChar -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed allocating memory for ACPI Input buffer status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed executing DSM method IOCTL status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Incorrect parameters returned for DSM method status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0HID Descriptor offset:0x%10!x! retrieved from ACPI" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemLong -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed allocating memory for ACPI input buffer status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed sending DSM function query IOCTL status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Incorrect return parameters for DSM function query IOCTLstatus:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e5ad9e38-a875-3780-5eb4-4bc7f709b269 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Found supported DSM function:%10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ACPI
+{
+Arg, ItemLong -- 10
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Received %10!s!, Queue:0x%11!p!, Request:0x%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0We have an active %10!s! request:0x%11!p! from queue:0x%12!p! already. Fail the new one:0x%13!p! with %14!s!." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemNTSTATUS -- 14
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Pending the new %10!s! request:0x%11!p! from queue:0x%12!p!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0The new %10!s! request:0x%11!p! from queue:0x%12!p! is already cancelled. Completing it with %13!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Acknowledged stop on idle Request:0x%10!p! on Queue:0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device Reset Notification request:0x%10!p! on Queue:0x%11!p! is no longer cancelable. Leave it as it is." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Completing the Device Reset Notification request:0x%10!p! on Queue:0x%11!p! with %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Acknowledging stop on Device Reset Notification request:0x%10!p! on Queue:0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f1f54f5e-0871-3680-99e6-d8f7b69ad67f hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Completing Device Reset Notification request:0x%10!p! with %11!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfMemoryCreatePreallocated failed creating input report Memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfSpinLockCreate failed creating input report list spinlock status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0_HidPower failed setting PowerStateOn status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0_HidPower failed setting PowerStateSleep status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfRequestRetrieveOutputBuffer failed for HID descriptor request status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device descriptor retrieved" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfRequestRetrieveOutputMemory failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfMemoryCopyFromBuffer failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Report descriptor retrieved from offset:0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfRequestRetrieveOutputBuffer failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Invalid string parameter requested status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Insufficient output buffer length for string actual length:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Error forwarding Read Report IOCTL to ReportQueuestatus:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0First Read Report received, interrupt processing Active" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Input Buffer is of insufficient length status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Irp->UserBuffer is NULL status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0HID_XFER_PACKET buffer has insufficient length:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0HID report length:%10!u! exceeds maximum output report length:%11!u! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SpbWrite failed Address 0x%10!x! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Output Buffer is of insufficient length status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Irp->UserBuffer is NULL status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0HID_XFER_PACKET is of insufficient length status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Invalid report type specified status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0SpbWriteRead failed Address 1:0x%10!x! Address 2:0x%11!x! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0SpbWriteRead returned zero length report" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Request Buffer too small for Report failed status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Input Buffer is of insufficient length status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Irp->UserBuffer is NULL status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0HID_XFER_PACKET buffer has insufficient length:%10!u! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Invalid report type specified status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed allocating memory status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0SpbWriteWrite failed Address 1:0x%10!x! Address 2:0x%11!x! status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Idle Notification request %10!p! has no idle callback info status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfWorkItemCreate failed creating idle work item status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Failed to read the HID descriptor status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0HID descriptor retrieved from offset:0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0HID descriptor failed validation status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Reset command sent to device at offset:0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+f205b966-d84b-356d-77ed-d9b653f9c063 hidi2c // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Power command (opcode:0x%10!x!) sent to device at offset:0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+

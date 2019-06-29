@@ -1,0 +1,43 @@
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0StartDoc() failed, jobID=%10!d!." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0EndDoc() failed." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AbortDoc() failed." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0StartPage() failed." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0EndPage() failed." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GdiplusStartup returned status=%10!u!" //   LEVEL=XPSRDR_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+cf213c66-55f1-33d2-76cd-2cd894ac672a XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Graphics::Graphics(HDC) returned nullptr." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+}
+
+f11aad65-c879-3fa1-9811-22d856d4a875 XpsRender // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PTCloseProvider() failed: hr=%10!s!." //   LEVEL=XPSRDR_TRACE_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+

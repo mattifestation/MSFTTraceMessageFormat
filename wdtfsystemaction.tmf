@@ -1,0 +1,2767 @@
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CWDTFLOG::FinalConstruct()  Failed to init log'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='CTsSystemReboot::ReadContextFromFile()  Failed to read context file'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->InternalGetInterfaceVer1(L'Console', CComVariant(), CComVariant(), &pAction)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='QueryInterface for IConsole failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTime = %12!d! sec, SleepState = %13!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=ConnectedStandby(m_nWakeTimeInSeconds * 1000)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=m_pConsoleAction->SleepEx(m_nWakeTimeInSeconds, nSleepState, m_bCritical)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o->this(%11!p!):%!FUNC!(nWakeTimeInSeconds = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o->this(%11!p!):%!FUNC!(pnWakeTimeInSeconds = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!o->this(%11!p!):%!FUNC!(RebootRestartWithContext)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Need to run under administrator to reboot system'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CTsSystemReboot: Failed to reboot.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o->this(%11!p!):%!FUNC!(IsRestartedWithContext)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o->this(%11!p!):%!FUNC!(Tag = "%12!s!", ppsContextData = %13!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=Tag
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=ppsContextData
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_OUTOFMEMORY
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Invalid context'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o->this(%11!p!):%!FUNC!(Tag = "%12!s!", psContextData = "%13!s!")" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=Tag
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to save context data.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o->this(%11!p!):%!FUNC!(Tag = "%12!s!", pResult = %13!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemPtr -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=Tag
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pResult
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o->this(%11!p!):%!FUNC!(pnRestartCount = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o->this(%11!p!):%!FUNC!(bCritical = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o->this(%11!p!):%!FUNC!(pbritical = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbritical
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED) ERRMSG='This system does not support Connected Standby.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG=strErrMsg
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!INFO:Machine exited Connected Standby as a result of power button press. Approx time taken(hh:mm:ss): %11!d!:%12!d!:%13!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED) ERRMSG='This system does not support Connected Standby.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED) ERRMSG='This system does not support Connected Standby.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='GetVersionEx() call failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerTracingStartByFile() cannot be used below Windows 8'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='GetVersionEx() call failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerTracingStart() cannot be used below Windows 8'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='GetVersionEx() call failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerTracingEnd() cannot be used below Windows 8'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='GetVersionEx() call failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerAnalyzeTraceByFile() cannot be used below Windows 8'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='GetVersionEx() call failed'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerAnalyzeTraceByFile() cannot be used below Windows 8'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+417d4727-a5fe-3e89-ca49-9fc149f1ee14 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to read Global Power Policy using ReadGlobalPwrPolicy(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Unable to get the active power scheme id using GetActivePwrScheme(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Unable to set the active power scheme id using SetActivePwrScheme(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%10!s!o->this(%11!p!):%!FUNC!(pVal = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0%10!s!o->this(%11!p!):%!FUNC!(pFlags = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0%10!s!API:CRegKey::Open(HKEY_LOCAL_MACHINE, %11!s!)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRes) ERRMSG='CRegKey::Open(POPSIMULATE_KEY) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0%10!s!API:CRegKey::QueryDWORDValue(%11!s!, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0%10!s!INFO:Reading value data failed." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0%10!s!INFO:CRegKey::QueryDWORDValue(...) succeeded - *pFlags = 0x%11!X!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0%10!s!o->this(%11!p!):%!FUNC!(dwFlags = 0x%12!X!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0%10!s!API:CRegKey::Open(HKEY_LOCAL_MACHINE, %11!s!)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRes) ERRMSG='CRegKey::Open(POPSIMULATE_KEY) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='PowerGetActiveScheme(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0%10!s!API:CRegKey::SetDWORDValue(%11!s!, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRes) ERRMSG='Setting new value data using CRegKey::SetDWORDValue(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0%10!s!o->this(%11!p!):%!FUNC!(dwFlag = 0x%12!X!, bSetFlag = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemListLong(false,true) -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=SetSimulateFlags(dwFlags)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=SetSimulateFlag(RESET_ON_HIBER, bNewVal == VARIANT_TRUE)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=SetDozeAfterAutoWake(120)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=SetDozeAfterAutoWake(0)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0%10!s!o->this(%11!p!):%!FUNC!(MsgReason = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0%10!s!o->this(%11!p!):%!FUNC!(MsgReason = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='Error setting doze after auto wake power setting'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::S1=True OR PowerStates::S2=True OR PowerStates::S3=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::S1=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::S2=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!API:CallNtPowerInformation(SystemPowerCapabilities, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::S3=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::Hibernate=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0%10!s!o->this(%11!p!):%!FUNC!(pbIsSupported = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pbIsSupported
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->Eval(CComBSTR(L'PowerStates::HybridSleep=True'), &bIsSupported)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(SystemPowerCapabilities,...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTime = %12!d! min, SleepState = %13!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTime = %12!d! sec, SleepState = %13!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG='Specified WakeTime is negative. A non-negative value is expected.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG='Specified WakeTime is greater than Maximum WakeTime defined by WDTF Console Action object (a Fortnight = 1209600 seconds)'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG='Invalid sleep state passed as a parameter.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG='Unsupported sleep state passed as a parameter.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0%10!s!o->this(%11!p!):%!FUNC!(pSleepState = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pSleepState
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0%10!s!INFO:returning *pSleepState = %11!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0%10!s!o->this(%11!p!):%!FUNC!(pSleepState = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pSleepState
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0%10!s!INFO:returning *pSleepState = %11!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0%10!s!o->this(%11!p!):%!FUNC!(pVal = 0x%12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0%10!s!INFO:RTC wake is supported." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0%10!s!INFO:RTC wake is not supported." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_FALSE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(ERROR_INVALID_DATA) ERRMSG='Sleep State wasn't specified. You should call SetSleepStateInfo(Ex)() first.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0%10!s!INFO:Making sure that hibernation is enabled." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0%10!s!API:CallNtPowerInformation(SystemReserveHiberFile, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(SystemReserveHiberFile, ...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0%10!s!INFO:Hibernation is enabled." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 204 "%0%10!s!INFO:Reading current power policy settings." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0%10!s!API:CallNtPowerInformation(AdministratorPowerPolicy, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='Retrieving policy using CallNtPowerInformation(AdministratorPowerPolicy, ...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 207 "%0%10!s!INFO:Retrieving policy using CallNtPowerInformation(AdministratorPowerPolicy, ...) succeeded." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 208 "%0%10!s!INFO:Trying to set new power policies: MinSleep=%11!d!, MaxSleep=%12!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 209 "%0%10!s!API:CallNtPowerInformation(AdministratorPowerPolicy, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 210 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='Setting policy using CallNtPowerInformation(AdministratorPowerPolicy, ...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 211 "%0%10!s!INFO:Setting policy using CallNtPowerInformation(AdministratorPowerPolicy, ...) succeeded." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 212 "%0%10!s!INFO:Sending machine to sleep." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 213 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 214 "%0%10!s!INFO:Machine woke up." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 215 "%0%10!s!INFO:Restoring old admin power policy." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 216 "%0%10!s!API:CallNtPowerInformation(AdministratorPowerPolicy, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 217 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(AdministratorPowerPolicy, ...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 218 "%0%10!s!INFO:Old admin power policy settings restored." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 219 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 220 "%0%10!s!o->this(%11!p!):%!FUNC!(SleepState = %12!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 221 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 222 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTime = %12!d! sec, SleepState = %13!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 223 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 224 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 225 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Autowake is not supported for this sleep state.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 226 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 227 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTime = %12!d! sec, SleepState = %13!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 228 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 229 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Invalid target provided to Action\Console.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 230 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Autowake is not supported for this sleep state.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 231 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 232 "%0%10!s!o->this(%11!p!):%!FUNC!(SleepState = %12!d!, pVal = 0x%13!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 233 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 234 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_INVALIDARG ERRMSG='Invalid sleep state passed as a parameter.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 235 "%0%10!s!API:CallNtPowerInformation(SystemPowerCapabilities, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 236 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(SystemPowerCapabilities,...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 237 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 238 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_FALSE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 239 "%0%10!s!o->this(%11!p!):%!FUNC!(SleepState = %12!s!, pNextSleepState = 0x%13!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 12
+Arg, ItemPtr -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 240 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pNextSleepState
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 241 "%0%10!s!INFO:Reading system power capabilities." //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 242 "%0%10!s!API:CallNtPowerInformation(SystemPowerCapabilities, ...)" //   TRACEAPILEVEL=APICall COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 243 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='CallNtPowerInformation(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 244 "%0%10!s!INFO:returning *pNextSleepState = %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemEnum(_SYSTEM_POWER_STATE) -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 245 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 246 "%0%10!s!o->this(%11!p!):%!FUNC!(MsgReason = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 247 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 248 "%0%10!s!o->this(%11!p!):%!FUNC!(MsgReason = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 249 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=DebugBreak(MsgReason)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 250 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_FALSE
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 251 "%0%10!s!o->this(%11!p!):%!FUNC!(Msg = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 252 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 253 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 254 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 256 "%0%10!s!o->this(%11!p!):%!FUNC!(hWakeupTimer = 0x%12!p!, mSec = %13!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTFNoisy
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 257 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to set Wakeup timer using SetWaitableTimerEx(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 258 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to set Wakeup timer using SetWaitableTimer(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 259 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTFNoisy HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 260 "%0%10!s!o->this(%11!p!):%!FUNC!(bHibernate = %12!s!, bCritical = %13!s!, m_bDisableWakeEvents = %14!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+Arg, ItemListLong(false,true) -- 13
+Arg, ItemListLong(false,true) -- 14
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 261 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='The computer doesn't support hibernation.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 262 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='The computer doesn't support sleep states.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 263 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(nLe) ERRMSG='Unable to syspend the system using SetSuspendState(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 264 "%0%10!s!INFO:Machine woke up as a result of QuickSleep timers. Approx time taken(hh:mm:ss): %11!d!:%12!d!:%13!d!" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 265 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 266 "%0%10!s!o->this(%11!p!):%!FUNC!(bReboot = %12!s!, TimeOutInSeconds = %13!ld!, bForce = %14!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+Arg, ItemLong -- 13
+Arg, ItemListLong(false,true) -- 14
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 267 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to open process token using OpenProcessToken(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 268 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to get the LUID for the shutdown privilege using LookupPrivilegeValue(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 269 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to adjust the required shutdown privilege using AdjustTokenPrivileges(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 270 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to initiate restart on the specified computer using InitiateSystemShutdownEx(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 271 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to initiate shutdown on the specified computer using InitiateSystemShutdownEx(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 272 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 273 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 274 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='CreateWaitableTimer(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 275 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 276 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 277 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='PowerCreateRequest failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 278 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 279 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 280 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 281 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 282 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 283 "%0%10!s!o->this(%11!p!):%!FUNC!(dwSeconds = %12!d!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 284 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 285 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 286 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_NOTIMPL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o->this(%11!p!):%!FUNC!(TimeOutInSeconds = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o->this(%11!p!):%!FUNC!(TimeOutInSeconds = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o->this(%11!p!):%!FUNC!(TimeOutInSeconds = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o->this(%11!p!):%!FUNC!(TimeOutInSeconds = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to open process token using OpenProcessToken(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to get the LUID for the shutdown privilege using LookupPrivilegeValue(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to adjust the required shutdown privilege using AdjustTokenPrivileges(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to abort the system shutdown in progress using AbortSystemShutdown(NULL).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o->this(%11!p!):%!FUNC!(WakeTimeInSec = %12!ld!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!INFO:EvenWakeupTime[0] = 1 sec" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!s!INFO:EvenWakeupTime[0] = %11!ld! sec" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!s!INFO:EvenWakeupTime[%11!d!] = %12!s! sec" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemDouble -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!s!INFO:OddWakeupTime[%11!d!] = %12!s! sec" //   TRACEINFOLEVEL=Info COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemDouble -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!s!o->this(%11!p!):%!FUNC!(pVal = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRetVal) ERRMSG='Failed to open required registry key using CRegKey.Open(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!s!WARN:Failed to query value from registry CRegKey.QueryStringValue(SCREEN_SAVER_IS_SECURE)." //   TRACEWARNLEVEL=Warning COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=hr
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRetVal) ERRMSG='Failed to open required registry key using CRegKey.Open(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(lRetVal) ERRMSG='Failed to set required registry key using CRegKey.SetStringValue(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%10!s!o->this(%11!p!):%!FUNC!(pVal = %12!p!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='PowerReadACValueIndex(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%10!s!o<-this(%11!p!):%!FUNC!(): E_POINTER %12!s!=NULL, bailing out!" //   E_POINTER_LEVEL=COMEntryExit COMPNAME=WDTF PTR=pVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to read Global Power Policy using ReadGlobalPwrPolicy(...).'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%10!s!o->this(%11!p!):%!FUNC!(bNewVal = %12!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='PowerWriteACValueIndex(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='PowerWriteDCValueIndex(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_NT(status) ERRMSG='PowerSetActiveScheme(...) failed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+ed404173-d379-3f3a-b648-065a64384bf9 WDTFSystemAction // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportErrorAndLog=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='User doesn't have permission to write power scheme.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+

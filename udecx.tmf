@@ -1,0 +1,597 @@
+094454d2-8edc-305a-faf6-f986e75cf313 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to allocate new context for WDF object %10!p!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+094454d2-8edc-305a-faf6-f986e75cf313 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to allocate %10!d! bytes of %11!s! %12!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_POOL_TYPE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to allocate UDECXUSBENDPOINT_INIT" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Client provided NULL EvtEndpointReset to UdeUsbEndpointCreate %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfObjectCreate failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfObjectAddCustomType failed for UDEENDPOINT %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfObjectAllocateContext failed for UDECXUSBDEVICE %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unable to add UDECXUSBENDPOINT to collection %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to forward request to simple endpoint queue %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3512f777-bf0a-3223-b652-8545037a31df src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Can't forward request to queue.  Queue may be purged/aborted.  Cancelling request." //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0UcxInitializeDeviceInit Failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ACPI returned %10!s!, assuming custom bus type" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Got ACPI IDs successfully" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0UcxControllerCreate Failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Successfully created UCXCONTROLLER %10!p!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Successfully created UCXROOTHUB %10!p!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Not supported: GUID_USB_CAPABILITY_STATIC_STREAMS" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Not supported: GUID_USB_CAPABILITY_CLEAR_TT_BUFFER_ON_ASYNC_TRANSFER_CANCEL" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0USB capability not supported, passing through to client: {%10!08X!-%11!04X!-%12!04X!-%13!02X!%14!02X!%15!02X!%16!02X!%17!02X!%18!02X!%19!02X!%20!02X!}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0IOCTL_ACPI_GET_DEVICE_INFORMATION failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IOCTL_ACPI_GET_DEVICE_INFORMATION for output buffer size succeeded.  Treating as failure" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate %10!u! bytes" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+}
+
+3dccd5e1-812d-3949-592e-393c4df4af00 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0IOCTL_ACPI_GET_DEVICE_INFORMATION failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] Driver entry" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] WdfDriverCreate failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[DriverObject: 0x%10!p!] WdfControlDeviceInitAllocate failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] RtlUnicodeStringPrintf for control device name failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[DriverObject: 0x%10!p!] WdfDeviceInitAssignName failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[DriverObject: 0x%10!p!] WdfDeviceCreate for control device failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[DriverObject: 0x%10!p!] Created control device: %11!s!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[DriverObject: 0x%10!p!] WdfRegisterClassLibrary failed - %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[DriverObject: 0x%10!p!] Driver unloading" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ClassLibraryInitialize" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ClassLibraryDeInitialize" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ClassLibraryBindClient" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfClassBindInfo->ClassBind Info should not be NULL" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[DriverObject: 0x%10!p!] Incorrect major version. Client is expecting %11!u!, class extension is %12!u!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0[DriverObject: 0x%10!p!] Incorrect minor version. Client is expecting %11!u!, class extension is %12!u!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[DriverObject: 0x%10!p!] Incorrect function count. Client is expecting %11!u!, but class extension expects %12!u!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[DriverObject: 0x%10!p!] Could not allocate memory for client globals" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+a972c062-2af5-35de-072f-2007ab46f835 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ClassLibraryUnbindClient" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Invalid port number %10!d! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Invalid port number %10!d! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0UcxRootHubCreate Failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfSpinLockCreate failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to allocate 2.0 port contexts %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to allocate 3.0 port contexts %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid EvtRootHubGetPortStatus request %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Invalid EvtRootHubGetPortStatus request %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Could not find an open port to connect the device to. Remove unneeded devices or increase ports provided to UdeInitializeDeviceInit %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PortNumber %10!d! not disconnected %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Connected UDECXUSBDEVICE %10!p! to port %11!d!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PortNumber %10!d! not disconnected %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Caller attempted to disconnect device %10!p! which is not connected %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b6fe37c0-ca8d-3ed2-a381-1ec4ee64bfb5 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0No device found on port %10!d! (state %11!s!) %12!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(_PORT_STATE) -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+c2b3943b-4243-3995-05d5-3ecac9464229 src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Request %10!p! is not a control transfer %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to allocate UDECXUSBDEVICE_INIT" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Required state changed callbacks for dynamic endpoints not set %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Endpoint type not set %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfObjectCreate failed for UDECXUSBDEVICE %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfObjectAddCustomType failed for UDECXUSBDEVICE %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfObjectAllocateContext failed for UDECXUSBDEVICE %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfCollectionCreate failed for UdeUsbEndpointCollection %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Cannot create string descriptor longer than 255 bytes (string needs %10!d!) %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed allocating temporary string descriptor length %10!d! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0NULL UDECXUSBDEVICE_INIT %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Invalid Descriptor of length %10!x! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed allocating saved descriptor length %10!d! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed allocating descriptor length %10!d! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Could not retrieve transfer buffer %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Returning saved descriptor (saved length %10!d!) for control request 0x%11!02x! 0x%12!02x! wValue: 0x%13!04x! wIndex: 0x%14!04x! wLength: 0x%15!04x!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Faking success for control request 0x%10!02x! 0x%11!02x! wValue: 0x%12!04x! wIndex: 0x%13!04x! wLength: 0x%14!04x!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfCollectionGetItem failed due to concurrent access %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Client did not provide a default control endpoint %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Control endpoint WdfRequestForwardToIoQueue(ClientIoQueue) failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Usb20PortNumber and Usb30PortNumber both set %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Usb 2.0 PortNumber %10!d! invalid %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Usb 2.0 PortNumber %10!d! invalid %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0UcxUsbDeviceCreate Failed %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfIoQueueCreate failed for control intercept queue %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Associating new UCXUSBDEVICE with UDECXUSBDEVICE" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0No need to configure device with simple endpoints" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Unable to allocate WDFMEMORY for configure params and sub-arrays %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0No need to configure device with simple endpoints" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0No need to deconfigure device with simple endpoints" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Destroying UCXUSBDEVICE object" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Destroying UDECXUSBDEVICE object" //   LEVEL=TL_INFO FLAGS=Driver
+{
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfCollectionGetItem failed due to concurrent access %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0UCX requested creation of endpoint address 0x%10!02x!, but client never created corresponding UDECXUSBENDPOINT! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Could not create the simple endpoint queue %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Got UCX Endpoint Add for UDECXUSBENDPOINT %10!p!" //   LEVEL=TL_INFO FLAGS=Driver
+{
+Arg, ItemPtr -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to allocate UDECXUSBENDPOINT_INIT %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Invalid EndpointDescriptor %10!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Failed EvtUsbDeviceEndpointAdd of endpoint at address 0x%10!02x! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0UCX requested creation of endpoint address 0x%10!02x!, but client never created or failed to create corresponding UDECXUSBENDPOINT! %11!s!" //   LEVEL=TL_ERROR FLAGS=Driver
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f665c3dd-3b22-3b75-c398-0ef68f59fffc src // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Streams not supported in this driver" //   LEVEL=TL_WARNING FLAGS=Driver
+{
+}
+

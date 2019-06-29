@@ -1,0 +1,53 @@
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx141 10 "%0%10!s!" //   LEVEL=ERRORS
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx144 11 "%0%10!s!" //   LEVEL=WARNING
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx147 12 "%0%10!s!" //   LEVEL=INFO
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx150 13 "%0%10!s!" //   LEVEL=VERBOSE
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx153 14 "%0%10!s!" //   LEVEL=CHATTY
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx156 15 "%0%10!s!" //   LEVEL=GARRULOUS
+{
+message, ItemWString -- 10
+}
+
+32e0e521-d6d3-3004-52d6-8e95f5d7bc37 OLECOM // SRC=comtraceworker.cxx MJ= MN=
+#typev comtraceworker_cxx159 16 "%0%10!s!" //   LEVEL=LOQUACIOUS
+{
+message, ItemWString -- 10
+}
+
+c2d40dc1-c9a3-3f58-7147-139ebe02b2b6 OLECOM // SRC=comtrace.cxx MJ= MN=
+#typev comtrace_cxx140 10 "%0(%10!s!):(%11!s!):(%12!d!) hr: 0x%13!08x! %14!s! %15!s!" //   LEVEL=ERRORS
+{
+failure.pszFile, ItemString -- 10
+failure.pszFunction, ItemString -- 11
+failure.uLineNumber, ItemLong -- 12
+failure.hr, ItemLong -- 13
+failure.pszCode, ItemString -- 14
+failure.pszMessage, ItemWString -- 15
+}
+

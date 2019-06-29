@@ -1,0 +1,3817 @@
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1007 79 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!, %13!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setProxy
+{
+this, ItemPtr -- 10
+proxySetting, ItemLong -- 11
+varProxyServer.vt, ItemLong -- 12
+varBypassList.vt, ItemLong -- 13
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1024 80 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::setProxy
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx103 13 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::XMLHttp
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1031 81 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setProxy
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1040 82 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setProxyCredentials
+{
+this, ItemPtr -- 10
+bstrUserName, ItemWString -- 11
+bstrPassword, ItemWString -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1056 83 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::setProxyCredentials
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1063 84 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setProxyCredentials
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1079 85 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, 0x%13!08x!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::getCookie
+{
+this, ItemPtr -- 10
+pwszUrl, ItemWString -- 11
+pwszName, ItemWString -- 12
+dwFlags, ItemLong -- 13
+pcCookies, ItemPtr -- 14
+ppCookies, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx110 14 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::~XMLHttp
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1164 86 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::getCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1176 87 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!s!, %13!s!, %14!s!, %15!s!, %16!x!, %17!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setCookie
+{
+this, ItemPtr -- 10
+pCookie, ItemPtr -- 11
+pCookie ? pCookie->pwszUrl : NULL, ItemWString -- 12
+pCookie ? pCookie->pwszName : NULL, ItemWString -- 13
+pCookie ? pCookie->pwszValue : NULL, ItemWString -- 14
+pCookie ? pCookie->pwszP3PPolicy : NULL, ItemWString -- 15
+pCookie ? pCookie->dwFlags : 0, ItemLong -- 16
+pdwCookieState, ItemPtr -- 17
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1222 88 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1231 89 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setProperty
+{
+this, ItemPtr -- 10
+eProperty, ItemLong -- 11
+varValue.vt, ItemLong -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1242 90 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setProperty
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1251 91 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setCustomStream
+{
+this, ItemPtr -- 10
+pSequentialStream, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1261 92 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setCustomStream
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx127 15 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: CoDecrementMTAUsage(%10!p!)" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::~XMLHttp
+{
+_MtaCookie, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1270 93 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setStatusCallback
+{
+this, ItemPtr -- 10
+pXhr, ItemPtr -- 11
+pStatusCallback, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1281 94 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setStatusCallback
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1293 95 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setProxyCredentials
+{
+this, ItemPtr -- 10
+pcwszProxyUserName, ItemWString -- 11
+pcwszProxyPassword, ItemWString -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1304 96 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setProxyCredentials
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1313 97 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setClientCert
+{
+this, ItemPtr -- 10
+cbClientCertHash, ItemLong -- 11
+pbClientCertHash, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1327 98 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setClientCert
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1341 99 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::ApplySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1363 100 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::ApplySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1377 101 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::QuerySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1397 102 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::QuerySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1406 103 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::CompleteDelivery
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx141 16 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::~XMLHttp
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1417 104 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::CompleteDelivery
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1426 105 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::Flush
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1437 106 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::Flush
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1453 107 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=_GetWindowHelper
+{
+phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1463 108 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: GetActiveWindow() returned HWND = %10!p!" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=_GetWindowHelper
+{
+*phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1473 109 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: GetForegroundWindow() returned HWND = %10!p!" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=_GetWindowHelper
+{
+*phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1482 110 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: No luck so far getting HWND, will sleep for %10!d! and try again." //   CATEGORY=CAT_HTTP LEVEL=LEVEL_WARNING FUNC=_GetWindowHelper
+{
+dwWait, ItemLong -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1489 111 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Returning HWND = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=_GetWindowHelper
+{
+*phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1495 112 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=_GetWindowHelper
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1512 113 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_window
+{
+this, ItemPtr -- 10
+&guidReason, ItemGuid -- 11
+phwnd, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1527 114 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Got site = %10!p!, will try to get the HWND from it" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::get_window
+{
+pSite, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1537 115 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Got IOleWindow = %10!p! via IOleClientSite" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::get_window
+{
+pOleWindow, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1548 116 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Got IOleWindow = %10!p! via STopLevelBrowser" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::get_window
+{
+pOleWindow, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1558 117 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Got HWND = %10!p! via IOleWindow" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::get_window
+{
+*phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx156 17 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!s!, %11!s!, %12!s!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::CreateInstance
+{
+fMta, ItemListLong(FALSE,TRUE) -- 10
+fDisableLegacyFeatures, ItemListLong(FALSE,TRUE) -- 11
+fServer, ItemListLong(FALSE,TRUE) -- 12
+ppXmlHttp, ItemPtr -- 13
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1572 118 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: No luck so far getting HWND, will try the old fashioned way" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_INFO FUNC=XMLHttp::get_window
+{
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1578 119 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Returning HWND = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_window
+{
+*phwnd, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1589 120 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_window
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1599 121 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::createXMLDocument
+{
+this, ItemPtr -- 10
+ppXMLDoc, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1623 122 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::createXMLDocument
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1634 123 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::createXMLDocument
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1647 124 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::_setErrorInfo
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1697 125 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::_setErrorInfo
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1702 126 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::_setErrorInfo
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1828 127 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: that=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::_invoke
+{
+pTarget, ItemPtr -- 10
+dispid, ItemLong -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1922 128 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::_invoke
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1947 129 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!s!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=CreateFreeThreadedXMLHTTP
+{
+&riid, ItemGuid -- 10
+ppv, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1960 130 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=CreateFreeThreadedXMLHTTP
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx197 18 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::CreateInstance
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx1986 131 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::Initialize
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2038 132 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::Initialize
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2050 133 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_CreateInstance
+{
+ppvObject, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx206 19 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: new XHR object at %10!p! {%11!s!, %12!s!, %13!p!, %14!p!}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2067 134 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2184 135 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::QueryInterface
+{
+this, ItemPtr -- 10
+&riid, ItemGuid -- 11
+ppvObject, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2236 136 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::QueryInterface
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2262 137 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!"%ws"!, %13!p!, %14!s!, %15!s!, %16!s!, %17!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_Open
+{
+this, ItemPtr -- 10
+pwszMethod, ItemWString -- 11
+pwszUrl, ItemWString -- 12
+pStatusCallback, ItemPtr -- 13
+pwszUserName, ItemWString -- 14
+pwszPassword, ItemWString -- 15
+pwszProxyUserName, ItemWString -- 16
+pwszProxyPassword, ItemWString -- 17
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2323 138 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_Open
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2338 139 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!I64u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_Send
+{
+this, ItemPtr -- 10
+pBody, ItemPtr -- 11
+cbBody, ItemULongLong -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx235 20 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2365 140 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_Send
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2375 141 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_Abort
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2384 142 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_Abort
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2398 143 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!s!, %13!s!, %14!s!, %15!s!, %16!x!, %17!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_SetCookie
+{
+this, ItemPtr -- 10
+pCookie, ItemPtr -- 11
+pCookie ? pCookie->pwszUrl : NULL, ItemWString -- 12
+pCookie ? pCookie->pwszName : NULL, ItemWString -- 13
+pCookie ? pCookie->pwszValue : NULL, ItemWString -- 14
+pCookie ? pCookie->pwszP3PPolicy : NULL, ItemWString -- 15
+pCookie ? pCookie->dwFlags : 0, ItemLong -- 16
+pdwCookieState, ItemPtr -- 17
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2419 144 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_SetCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2431 145 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_SetCustomResponseStream
+{
+this, ItemPtr -- 10
+pSequentialStream, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2441 146 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_SetCustomResponseStream
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2454 147 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!I64u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_SetProperty
+{
+this, ItemPtr -- 10
+eProperty, ItemLong -- 11
+ullValue, ItemULongLong -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx246 21 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::QueryInterface
+{
+this, ItemPtr -- 10
+&riid, ItemGuid -- 11
+ppv, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2535 148 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_SetProperty
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2550 149 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_SetRequestHeader
+{
+this, ItemPtr -- 10
+pwszHeader, ItemWString -- 11
+pwszValue, ItemWString -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2575 150 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_SetRequestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2591 151 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetAllResponseHeaders
+{
+this, ItemPtr -- 10
+ppwszHeaders, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2618 152 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetAllResponseHeaders
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2634 153 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, 0x%13!08x!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetCookie
+{
+this, ItemPtr -- 10
+pwszUrl, ItemWString -- 11
+pwszName, ItemWString -- 12
+dwFlags, ItemLong -- 13
+pcCookies, ItemPtr -- 14
+ppCookies, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2648 154 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2666 155 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetResponseHeader
+{
+this, ItemPtr -- 10
+pwszHeader, ItemWString -- 11
+ppwszValue, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2698 156 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetResponseHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2715 157 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, not impl" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetIids
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2727 158 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetIids
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2738 159 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, not impl" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetRuntimeClassName
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2749 160 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetRuntimeClassName
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2760 161 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, not impl" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_GetTrustLevel
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2772 162 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_GetTrustLevel
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2791 163 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_ApplySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2810 164 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_ApplySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2825 165 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_QuerySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2843 166 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_QuerySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2856 167 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_CompleteDelivery
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2865 168 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_CompleteDelivery
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2874 169 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_Flush
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2883 170 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_Flush
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2894 171 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::CreateInstance
+{
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2903 172 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2920 173 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!, %13!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::_SetClientCert
+{
+this, ItemPtr -- 10
+cbClientCertHash, ItemLong -- 11
+pbClientCertHash, ItemPtr -- 12
+pwszPin, ItemWString -- 13
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2933 174 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::_SetClientCert
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2954 175 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::Open
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2964 176 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::Open
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2976 177 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::Send
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2986 178 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::Send
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx2995 179 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::Abort
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3005 180 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::Abort
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3017 181 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::SetCookie
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3027 182 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::SetCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3038 183 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::SetCustomResponseStream
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3048 184 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::SetCustomResponseStream
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3060 185 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::SetProperty
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3070 186 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::SetProperty
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3082 187 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::SetRequestHeader
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3092 188 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::SetRequestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx310 22 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::QueryInterface
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3103 189 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetAllResponseHeaders
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3113 190 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetAllResponseHeaders
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3128 191 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetCookie
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3138 192 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetCookie
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3150 193 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetResponseHeader
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3160 194 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetResponseHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3176 195 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetIids
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3186 196 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetIids
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3197 197 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetRuntimeClassName
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3207 198 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetRuntimeClassName
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3218 199 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::GetTrustLevel
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3228 200 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::GetTrustLevel
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx324 23 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::QueryService
+{
+this, ItemPtr -- 10
+&guidService, ItemGuid -- 11
+&riid, ItemGuid -- 12
+ppv, ItemPtr -- 13
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3247 201 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::ApplySetting
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3257 202 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::ApplySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3272 203 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::QuerySetting
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3282 204 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::QuerySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3295 205 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::CompleteDelivery
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3305 206 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::CompleteDelivery
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3314 207 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::Flush
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3324 208 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::Flush
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3341 209 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, fail fast wrapper" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp2::SetClientCertificate
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx3351 210 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp2::SetClientCertificate
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx358 24 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::QueryService
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx384 25 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!"%ws"!, %13!d!, %14!x!, %15!d!, %16!s!, %17!d!, %18!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::open
+{
+this, ItemPtr -- 10
+bstrVerb, ItemWString -- 11
+bstrUrl, ItemWString -- 12
+varAsync.vt, ItemLong -- 13
+varAsync.boolVal, ItemLong -- 14
+varUser.vt, ItemLong -- 15
+(varUser.vt == VT_BSTR) ? varUser.bstrVal : NULL, ItemWString -- 16
+varPassword.vt, ItemLong -- 17
+(varPassword.vt == VT_BSTR) ? varPassword.bstrVal : NULL, ItemWString -- 18
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx406 26 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::open
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx413 27 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::open
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx420 28 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::AbortEx
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx441 29 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::AbortEx
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx448 30 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::AbortEx
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx487 31 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setRequestHeader
+{
+this, ItemPtr -- 10
+header, ItemWString -- 11
+bstrValue, ItemWString -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx503 32 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::setRequestHeader
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx510 33 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setRequestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx520 34 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::getResponseHeader
+{
+this, ItemPtr -- 10
+header, ItemWString -- 11
+pbstrValue, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx536 35 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::getResponseHeader
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx543 36 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::getResponseHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx553 37 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::getAllResponseHeaders
+{
+this, ItemPtr -- 10
+pbstrValue, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx568 38 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::getAllResponseHeaders
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx575 39 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::getAllResponseHeaders
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx585 40 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::send
+{
+this, ItemPtr -- 10
+varBody.vt, ItemLong -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx60 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!s!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=CreateXMLHTTPHelper
+{
+fServer, ItemListLong(FALSE,TRUE) -- 10
+&riid, ItemGuid -- 11
+ppv, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx600 41 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::send
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx607 42 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::send
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx617 43 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseXML
+{
+this, ItemPtr -- 10
+ppBody, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx632 44 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseXML
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx639 45 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_responseXML
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx649 46 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseBody
+{
+this, ItemPtr -- 10
+pvarVal, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx664 47 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseBody
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx671 48 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_responseBody
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx680 49 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseText
+{
+this, ItemPtr -- 10
+pbstrVal, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx695 50 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseText
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx702 51 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_responseText
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx712 52 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseStream
+{
+this, ItemPtr -- 10
+pvarVal, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx727 53 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_responseStream
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx734 54 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_responseStream
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx74 11 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=CreateXMLHTTPHelper
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx744 55 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_status
+{
+this, ItemPtr -- 10
+plStatus, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx759 56 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_status
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx766 57 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_status
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx776 58 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_statusText
+{
+this, ItemPtr -- 10
+pbstrVal, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx791 59 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_statusText
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx798 60 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_statusText
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx808 61 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::get_readyState
+{
+this, ItemPtr -- 10
+plState, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx823 62 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::get_readyState
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx830 63 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::get_readyState
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx840 64 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::put_onreadystatechange
+{
+this, ItemPtr -- 10
+pReadyStateSink, ItemPtr -- 11
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx855 65 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::put_onreadystatechange
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx862 66 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::put_onreadystatechange
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx872 67 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!, %13!d!, %14!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setTimeouts
+{
+this, ItemPtr -- 10
+resolve, ItemLong -- 11
+connect, ItemLong -- 12
+send, ItemLong -- 13
+receive, ItemLong -- 14
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx890 68 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::setTimeouts
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx897 69 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setTimeouts
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx907 70 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::waitForResponse
+{
+this, ItemPtr -- 10
+timeoutInSecs.vt, ItemLong -- 11
+timeoutInSecs.lVal, ItemLong -- 12
+isSuccessful, ItemPtr -- 13
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx924 71 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::waitForResponse
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx931 72 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::waitForResponse
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx941 73 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::getOption
+{
+this, ItemPtr -- 10
+option, ItemLong -- 11
+value, ItemPtr -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx957 74 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::getOption
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx96 12 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::XMLHttp
+{
+this, ItemPtr -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx964 75 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::getOption
+{
+HR, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx974 76 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_HTTP FUNC=XMLHttp::setOption
+{
+this, ItemPtr -- 10
+option, ItemLong -- 11
+value.vt, ItemLong -- 12
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx990 77 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=XMLHttp::setOption
+{
+hr, ItemHRESULT -- 10
+}
+
+082a1106-f465-3099-157b-d8eae1decc09 lib // SRC=xmlhttp.cxx MJ= MN=
+#typev xmlhttp_cxx997 78 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_HTTP HR=hr FUNC=XMLHttp::setOption
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx103 17 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Read
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbRead, ItemPtr -- 13
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx19 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::NewDeleteOnRead
+{
+ppNewStream, ItemPtr -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx192 18 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: %10!d! bytes read" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Read
+{
+cbAsked - cb, ItemLong -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx196 19 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::Read
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx207 20 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Write
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbWritten, ItemPtr -- 13
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx273 21 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_STREAM FUNC=CachingStream::Write
+{
+hr, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx286 22 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: %10!d! bytes read" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Write
+{
+cbWritten, ItemLong -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx292 23 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::Write
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx302 24 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!I64d!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Seek
+{
+this, ItemPtr -- 10
+dlibMove.QuadPart, ItemLongLong -- 11
+dwOrigin, ItemLong -- 12
+plibNewPosition, ItemPtr -- 13
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx32 11 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: new caching delete on read stream at %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::NewDeleteOnRead
+{
+*ppNewStream, ItemPtr -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx325 25 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::Seek
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx341 26 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!I64u!, %13!p!, %14!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::CopyTo
+{
+this, ItemPtr -- 10
+pStream, ItemPtr -- 11
+cb.QuadPart, ItemULongLong -- 12
+pcbRead, ItemPtr -- 13
+pcbWritten, ItemPtr -- 14
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx387 27 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::CopyTo
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx39 12 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::NewDeleteOnRead
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx397 28 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::Stat
+{
+this, ItemPtr -- 10
+pstatstg, ItemPtr -- 11
+grfStatFlag, ItemLong -- 12
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx406 29 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::Stat
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx417 30 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toSafeArray
+{
+this, ItemPtr -- 10
+pVar, ItemPtr -- 11
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx448 31 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::toSafeArray
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx458 32 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toBSTR
+{
+this, ItemPtr -- 10
+pbstr, ItemPtr -- 11
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx472 33 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: stream = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toBSTR
+{
+*pbstr, ItemWString -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx477 34 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::toBSTR
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx491 35 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toHSTRING
+{
+this, ItemPtr -- 10
+phstr, ItemPtr -- 11
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx502 36 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::toHSTRING
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx510 37 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::toHSTRING
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx519 38 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toString
+{
+this, ItemPtr -- 10
+ppwsz, ItemPtr -- 11
+pcch ? *pcch : 0, ItemLong -- 12
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx54 13 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::CachingStream
+{
+this, ItemPtr -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx546 39 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: stream = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::toString
+{
+*ppwsz, ItemWString -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx551 40 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::toString
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx563 41 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::write_toBuffer
+{
+this, ItemPtr -- 10
+pbyte, ItemPtr -- 11
+cb, ItemLong -- 12
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx582 42 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::write_toBuffer
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx593 43 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::reserve
+{
+this, ItemPtr -- 10
+cb, ItemLong -- 11
+ppReserved, ItemPtr -- 12
+pcbReserved, ItemPtr -- 13
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx60 14 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::CachingStream
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx628 44 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_STREAM FUNC=CachingStream::reserve
+{
+hr, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx637 45 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: reserved %10!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::reserve
+{
+*pcbReserved, ItemLong -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx642 46 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::reserve
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx660 47 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStreamForExternal::NewFromStream
+{
+pStream, ItemPtr -- 10
+ppNewStream, ItemPtr -- 11
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx68 15 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStream::~CachingStream
+{
+this, ItemPtr -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx688 48 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: stream copy= %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CachingStreamForExternal::NewFromStream
+{
+*ppNewStream, ItemPtr -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx697 49 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStreamForExternal::NewFromStream
+{
+HR, ItemHRESULT -- 10
+}
+
+60b5ef82-1c8f-34a9-e7c7-a73e9947bc45 util // SRC=cachingstream.cxx MJ= MN=
+#typev cachingstream_cxx91 16 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CachingStream::~CachingStream
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx111 17 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Write
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbWritten, ItemPtr -- 13
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx130 18 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::Write
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx144 19 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!I64d!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Seek
+{
+this, ItemPtr -- 10
+dlibMove.QuadPart, ItemLongLong -- 11
+dwOrigin, ItemLong -- 12
+plibNewPosition, ItemPtr -- 13
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx173 20 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: New possition %10!I64u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Seek
+{
+plibNewPosition ? plibNewPosition->QuadPart : 0ull, ItemULongLong -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx178 21 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::Seek
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx192 22 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Stat
+{
+this, ItemPtr -- 10
+pstatstg, ItemPtr -- 11
+grfStatFlag, ItemLong -- 12
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx213 23 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Size is %10!I64u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Stat
+{
+pstatstg->cbSize.QuadPart, ItemULongLong -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx218 24 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::Stat
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx22 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::URLMONUploadStream
+{
+this, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx233 25 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!I64d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Initialize
+{
+this, ItemPtr -- 10
+pStream, ItemPtr -- 11
+cbSize, ItemLongLong -- 12
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx257 26 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::Initialize
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx272 27 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!, %11!I64d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::CreateInstance
+{
+pStream, ItemPtr -- 10
+cbSize, ItemLongLong -- 11
+ppStream, ItemPtr -- 12
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx288 28 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: stream = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::CreateInstance
+{
+*ppStream, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx299 29 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx309 30 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::CallbackStream
+{
+this, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx31 11 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::URLMONUploadStream
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx316 31 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::CallbackStream
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx324 32 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::~CallbackStream
+{
+this, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx331 33 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::~CallbackStream
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx342 34 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::Initialize
+{
+this, ItemPtr -- 10
+pStream, ItemPtr -- 11
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx359 35 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::Initialize
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx375 36 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::CreateInstance
+{
+pStreamInternal, ItemPtr -- 10
+ppStreamExternal, ItemPtr -- 11
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx39 12 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::~URLMONUploadStream
+{
+this, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx399 37 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: stream = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::CreateInstance
+{
+*ppStreamExternal, ItemPtr -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx404 38 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx437 39 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::Read
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbRead, ItemPtr -- 13
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx46 13 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::~URLMONUploadStream
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx465 40 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: %10!d! bytes read" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::Read
+{
+cbActual, ItemLong -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx472 41 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::Read
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx485 42 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=CallbackStream::Write
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbWritten, ItemPtr -- 13
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx499 43 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=CallbackStream::Write
+{
+HR, ItemHRESULT -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx59 14 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Read
+{
+this, ItemPtr -- 10
+pv, ItemPtr -- 11
+cb, ItemLong -- 12
+pcbRead, ItemPtr -- 13
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx92 15 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: %10!d! bytes read" //   LEVEL=LEVEL_INFO CATEGORY=CAT_STREAM FUNC=URLMONUploadStream::Read
+{
+cbRead, ItemLong -- 10
+}
+
+6af52219-8d7a-3934-19b8-d40104c50773 util // SRC=xmlhttpstream.cxx MJ= MN=
+#typev xmlhttpstream_cxx97 16 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_STREAM HR=hr FUNC=URLMONUploadStream::Read
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1046 39 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallUrlMonStart
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1060 40 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: context=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::s_MtaWorkItemCallUrlMonStart
+{
+Context, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx107 11 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::URLMONRequest
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1101 41 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::s_MtaWorkItemCallUrlMonStart
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1110 42 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_MtaAsyncCallUrlMonStart
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx114 12 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::~URLMONRequest
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1141 43 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Queueing STA prepare with context=%10!p!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::_MtaAsyncCallUrlMonStart
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1157 44 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_MtaAsyncCallUrlMonStart
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1165 45 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::sendContinue
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1197 46 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::sendContinue
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1288 47 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: pUri=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=_PrepareSecurityManager
+{
+pUri, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1314 48 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=_PrepareSecurityManager
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1327 49 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: dwCookie=%10!d!, pUri=%11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=_StaPrepareUrlMon
+{
+dwCookie, ItemLong -- 10
+pUri, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1351 50 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=_StaPrepareUrlMon
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1364 51 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: context=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=s_StaPrepareUrlMon
+{
+Context, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1398 52 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=s_StaPrepareUrlMon
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1409 53 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_StaAsyncCallUrlMonStart
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1442 54 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Queueing STA prepare with context=%10!p!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::_StaAsyncCallUrlMonStart
+{
+pStaPrepareContext, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1463 55 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_StaAsyncCallUrlMonStart
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1474 56 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::send
+{
+this, ItemPtr -- 10
+varBody.vt, ItemLong -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx150 13 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::~URLMONRequest
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1560 57 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::send
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx157 14 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::init
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1571 58 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_property
+{
+this, ItemPtr -- 10
+eProperty, ItemLong -- 11
+varValue.vt, ItemLong -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1611 59 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: DisableUI = %10!s!, ProxyPrompt = %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fDisableUI, ItemListLong(FALSE,TRUE) -- 10
+_fProxyPrompt, ItemListLong(FALSE,TRUE) -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1644 60 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Auth options: DisableUI = %10!s!, ProxyPrompt = %11!s!, XHR_PROP_NO_AUTH = %12!d!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fDisableUI, ItemListLong(FALSE,TRUE) -- 10
+_fProxyPrompt, ItemListLong(FALSE,TRUE) -- 11
+_dwAuth, ItemLong -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1655 61 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Timeout = %10!d!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_dwTimeout, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1664 62 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: DisableRequiredHeaders = %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fDisableRequiredHeaders, ItemListLong(FALSE,TRUE) -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1673 63 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Enable Redirect Status Code = %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fEnableRedirectStatusCode, ItemListLong(FALSE,TRUE) -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1682 64 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: NoCache= %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fNoCache, ItemListLong(FALSE,TRUE) -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx169 15 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::init
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1691 65 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: ExtendedError = %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_fExtendedError, ItemListLong(FALSE,TRUE) -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1700 66 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Query string will be encoded in UTF8" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1710 67 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: IgnoreCertMask = 0x%10!x!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_dwIgnoreCertMask, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1720 68 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: OnDataThreshold = 0x%10!I64u!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_property
+{
+_ullOnDataThreshold, ItemULongLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1739 69 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Saving max connections = %10!d!, will be applied on request start." //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::set_property
+{
+dwValue, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1755 70 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_property
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1764 71 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_customStream
+{
+this, ItemPtr -- 10
+pSequentialStream, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1792 72 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_customStream
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1804 73 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_EDPClaim
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1820 74 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: SrpGetEnterpriseId returned = %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::set_EDPClaim
+{
+NtStatus, ItemNTSTATUS -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1835 75 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: EDP Claim=%10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::set_EDPClaim
+{
+(const WCHAR*)pClaim->Buffer, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1857 76 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_EDPClaim
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1869 77 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, MaxConns=%11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_MaxConnections
+{
+this, ItemPtr -- 10
+_dwMaxConns, ItemLong -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1876 78 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Connection limit not set, exiting." //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_MaxConnections
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1889 79 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Failed to set max connections per 1.0 server to: %10!d!, with: %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_ERROR FUNC=URLMONRequest::set_MaxConnections
+{
+_dwMaxConns, ItemLong -- 10
+dwError, ItemWINERROR -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1899 80 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Failed to set max connections per server to: %10!d!, with: %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_ERROR FUNC=URLMONRequest::set_MaxConnections
+{
+_dwMaxConns, ItemLong -- 10
+dwError, ItemWINERROR -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1918 81 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Failed to set max connections per proxy to: %10!d!, with: %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_ERROR FUNC=URLMONRequest::set_MaxConnections
+{
+dwProxyConns, ItemLong -- 10
+dwError, ItemWINERROR -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1928 82 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_MaxConnections
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1939 83 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_requestHeader
+{
+this, ItemPtr -- 10
+bstrHeader, ItemWString -- 11
+bstrValue, ItemWString -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1959 84 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Ignored potentially dangerous header = %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::set_requestHeader
+{
+bstrHeader, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1983 85 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_requestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx1994 86 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!s!, %14!d!, %15!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_requestHeader
+{
+this, ItemPtr -- 10
+pwszHeader, ItemWString -- 11
+cchHeader, ItemLong -- 12
+pwszValue, ItemWString -- 13
+cchValue, ItemLong -- 14
+fReplace, ItemListLong(FALSE,TRUE) -- 15
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2039 87 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_requestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2048 88 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::put_onreadystatechange
+{
+this, ItemPtr -- 10
+pReadyStateSink, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2063 89 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::put_onreadystatechange
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2072 90 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_statusCallback
+{
+this, ItemPtr -- 10
+pXhr, ItemPtr -- 11
+pStatusCallback, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2109 91 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_statusCallback
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2118 92 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetXHRObject
+{
+this, ItemPtr -- 10
+ppXhr, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2132 93 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: XHR object at = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetXHRObject
+{
+*ppXhr, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2139 94 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetXHRObject
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2148 95 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::ClearXHRObject
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2159 96 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::ClearXHRObject
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2172 97 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::ApplySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2214 98 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: DisableUI = %10!s!, ProxyPrompt = %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::ApplySetting
+{
+_fDisableUI, ItemListLong(FALSE,TRUE) -- 10
+_fProxyPrompt, ItemListLong(FALSE,TRUE) -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2226 99 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::ApplySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2235 100 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_FreeTransportSettings
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2248 101 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_FreeTransportSettings
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2256 102 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_AbortBadPushRequest
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2285 103 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_AbortBadPushRequest
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2295 104 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ApplySettingToProtocol
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2335 105 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ApplySettingToProtocol
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2355 106 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!d!, %13!p!, %14!p!, %15!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::QuerySetting
+{
+this, ItemPtr -- 10
+pSettingId ? &pSettingId->Guid : &GUID_NULL, ItemGuid -- 11
+cbIn, ItemLong -- 12
+pbValueIn, ItemPtr -- 13
+pcbOut, ItemPtr -- 14
+ppbValueOut, ItemPtr -- 15
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2440 107 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting result %10!d! bytes at %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::QuerySetting
+{
+*pcbOut, ItemLong -- 10
+*ppbValueOut, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2469 108 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::QuerySetting
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2482 109 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::CompleteDelivery
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2542 110 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::CompleteDelivery
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2555 111 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::Flush
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2617 112 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::Flush
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx262 16 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnRedirect
+{
+this, ItemPtr -- 10
+pwszRedirectUrl, ItemWString -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2626 113 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_clientProxyCredentials
+{
+this, ItemPtr -- 10
+pcwszProxyUserName, ItemWString -- 11
+pcwszProxyPassword, ItemWString -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2650 114 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_clientProxyCredentials
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2664 115 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::set_clientCert
+{
+this, ItemPtr -- 10
+cbClientCertHash, ItemLong -- 11
+pbClientCertHash, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2716 116 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::set_clientCert
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2725 117 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_status
+{
+this, ItemPtr -- 10
+plStatus, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2748 118 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: status = %10!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_status
+{
+*plStatus, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2757 119 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_status
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2768 120 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_statusText
+{
+this, ItemPtr -- 10
+pbstrStatus, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2792 121 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: status = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_statusText
+{
+*pbstrStatus, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2799 122 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_statusText
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2810 123 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseHeader
+{
+this, ItemPtr -- 10
+bstrHeader, ItemWString -- 11
+pbstrValue, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2842 124 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: header = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseHeader
+{
+*pbstrValue, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2849 125 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2859 126 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_allResponseHeaders
+{
+this, ItemPtr -- 10
+pbstrHeaders, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2888 127 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: all headers = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_allResponseHeaders
+{
+*pbstrHeaders, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2895 128 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_allResponseHeaders
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2905 129 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseText
+{
+this, ItemPtr -- 10
+pbstrBody, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2938 130 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: body = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseText
+{
+*pbstrBody, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2947 131 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseText
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx2958 132 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseStreamVARIANT
+{
+this, ItemPtr -- 10
+pvarBody, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3004 133 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: response stream = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseStreamVARIANT
+{
+pvarBody->punkVal, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3013 134 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseStreamVARIANT
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3023 135 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseStream
+{
+this, ItemPtr -- 10
+ppStream, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3043 136 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: response stream = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseStream
+{
+*ppStream, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3050 137 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseStream
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3060 138 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseBody
+{
+this, ItemPtr -- 10
+pvarBody, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx310 17 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnRedirect
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3108 139 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseBody
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3117 140 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::get_responseXML
+{
+this, ItemPtr -- 10
+ppBody, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3139 141 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::get_responseXML
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3156 142 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!x!, %13!d!, %14!p!, %15!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::Switch
+{
+this, ItemPtr -- 10
+pPROTOCOLDATA, ItemPtr -- 11
+pPROTOCOLDATA ? pPROTOCOLDATA->grfFlags : 0, ItemLong -- 12
+pPROTOCOLDATA ? pPROTOCOLDATA->dwState: 0, ItemLong -- 13
+pPROTOCOLDATA ? pPROTOCOLDATA->pData : NULL, ItemPtr -- 14
+pPROTOCOLDATA ? pPROTOCOLDATA->cbData: 0, ItemLong -- 15
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3191 143 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::Switch
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3205 144 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ReportProgress
+{
+this, ItemPtr -- 10
+ulStatusCode, ItemLong -- 11
+pwszStatusText, ItemWString -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3244 145 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Will ignore the body of the proxy non-200 response to CONNECT" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_ReportProgress
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx325 18 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnHeadersAvailable
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3252 146 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Unexpected redirect status: %10!d!, %11!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_ERROR FUNC=URLMONRequest::_ReportProgress
+{
+dwHTTPStatusCode, ItemLong -- 10
+hr, ItemHRESULT -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3304 147 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ReportProgress
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3316 148 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::ReportProgress
+{
+this, ItemPtr -- 10
+ulStatusCode, ItemLong -- 11
+pwszStatusText, ItemWString -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3346 149 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::ReportProgress
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3357 150 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ProcessPendingCallbacks
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3371 151 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Skipping all pending data callbacks, due to failed result: %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_ProcessPendingCallbacks
+{
+_PendingResultCallback.hrResult, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3379 152 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Delivering pending data callback" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::_ProcessPendingCallbacks
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3400 153 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Delivering pending result callback" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::_ProcessPendingCallbacks
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3413 154 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ProcessPendingCallbacks
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3422 155 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!x!, %12!d!, %13!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CheckConcurrentDataCallback
+{
+this, ItemPtr -- 10
+grfBSCF, ItemLong -- 11
+ulProgress, ItemLong -- 12
+ulProgressMax, ItemLong -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3440 156 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Pending data callback" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_CheckConcurrentDataCallback
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3446 157 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CheckConcurrentDataCallback
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3455 158 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CheckConcurrentResultCallback
+{
+this, ItemPtr -- 10
+hrResult, ItemHRESULT -- 11
+dwError, ItemWINERROR -- 12
+pcwszResult, ItemWString -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3473 159 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Pending result callback" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_CheckConcurrentResultCallback
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3494 160 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CheckConcurrentResultCallback
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3505 161 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!x!, %12!d!, %13!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::ReportData
+{
+this, ItemPtr -- 10
+grfBSCF, ItemLong -- 11
+ulProgress, ItemLong -- 12
+ulProgressMax, ItemLong -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3561 162 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ReportData
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3657 163 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Ignoring the body of the proxy non-200 response to CONNECT" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_ReportData
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3712 164 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ReportData
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3723 165 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ReportResult
+{
+this, ItemPtr -- 10
+hrResult, ItemHRESULT -- 11
+dwError, ItemWINERROR -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3795 166 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ReportResult
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3806 167 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::ReportResult
+{
+this, ItemPtr -- 10
+hrResult, ItemHRESULT -- 11
+dwError, ItemWINERROR -- 12
+pcwszResult, ItemWString -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx382 19 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnHeadersAvailable
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3853 168 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::ReportResult
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3869 169 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!x!, %14!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::BeginningTransaction
+{
+this, ItemPtr -- 10
+pwszURL, ItemWString -- 11
+pwszHeaders, ItemWString -- 12
+dwReserved, ItemLong -- 13
+ppwszAdditionalHeaders, ItemPtr -- 14
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3889 170 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: additional headers = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::BeginningTransaction
+{
+*ppwszAdditionalHeaders, ItemWString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3894 171 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::BeginningTransaction
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3906 172 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!, %13!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_OnResponse
+{
+this, ItemPtr -- 10
+dwResponseCode, ItemLong -- 11
+pwszResponseHeaders, ItemWString -- 12
+pwszRequestHeaders, ItemWString -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx396 20 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnDataAvailable
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3982 173 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_URLMON FUNC=URLMONRequest::_OnResponse
+{
+hr, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx3990 174 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_OnResponse
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4001 175 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!, %13!s!, %14!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::OnResponse
+{
+this, ItemPtr -- 10
+dwResponseCode, ItemLong -- 11
+pwszResponseHeaders, ItemWString -- 12
+pwszRequestHeaders, ItemWString -- 13
+ppwszAdditionalRequestHeaders, ItemPtr -- 14
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4046 176 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::OnResponse
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4072 177 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetSerializedClientCertContext
+{
+this, ItemPtr -- 10
+ppbClientCert, ItemPtr -- 11
+pcbClientCert, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4099 178 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: pbClientCert = %10!p!, cbClientCert = %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetSerializedClientCertContext
+{
+*ppbClientCert, ItemPtr -- 10
+*pcbClientCert, ItemLong -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4111 179 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetSerializedClientCertContext
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4125 180 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_OnClientCert
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4142 181 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: INTERNET_OPTION_CLIENT_CERT_ISSUER_LIST failed with %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::_OnClientCert
+{
+GetLastError(), ItemWINERROR -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4171 182 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_OnClientCert
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4186 183 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ConvertIssuerListToStringArray
+{
+this, ItemPtr -- 10
+pIssuerList, ItemPtr -- 11
+pcIssuerList, ItemPtr -- 12
+prgpwszIssuerList, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4227 184 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ConvertIssuerListToStringArray
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4237 185 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_FreeIssuerListStringArray
+{
+this, ItemPtr -- 10
+cIssuerList, ItemLong -- 11
+rgpwszIssuerList, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4255 186 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_FreeIssuerListStringArray
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4267 187 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!x!, %13!p!, %14!p!, %15!x!, %16!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetBindInfoEx
+{
+this, ItemPtr -- 10
+grfBINDF, ItemPtr -- 11
+*grfBINDF, ItemLong -- 12
+pbindinfo, ItemPtr -- 13
+grfBINDF2, ItemPtr -- 14
+*grfBINDF2, ItemLong -- 15
+pdwReserved, ItemPtr -- 16
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4286 188 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF2_KEEP_CALLBACK_MODULE_LOADED" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfoEx
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4300 189 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF2_DISABLE_HTTP_REDIRECT_XSECURITYID" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::GetBindInfoEx
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4309 190 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF2_ALLOW_PROXY_CRED_PROMPT" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfoEx
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4318 191 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF2_DISABLE_SERVER_AUTH" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfoEx
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4326 192 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF2_HTTP_SECURITY" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfoEx
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4338 193 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: grfBINDF = %10!x!, grfBINDF2 = %11!x!, dwOptions = %12!x!, dwOptionsFlags = %13!x!, grfBindInfoF = %14!x!, dwBindVerb = %15!d!, tymed = %16!x!, pstm = %17!p!, cbstgmedData = %18!u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetBindInfoEx
+{
+*grfBINDF, ItemLong -- 10
+*grfBINDF2, ItemLong -- 11
+pbindinfo->dwOptions, ItemLong -- 12
+pbindinfo->dwOptionsFlags, ItemLong -- 13
+pbindinfo->grfBindInfoF, ItemLong -- 14
+pbindinfo->dwBindVerb, ItemLong -- 15
+pbindinfo->stgmedData.tymed, ItemLong -- 16
+pbindinfo->stgmedData.pstm, ItemPtr -- 17
+pbindinfo->cbstgmedData, ItemLong -- 18
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4350 194 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetBindInfoEx
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4367 195 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!x!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetBindInfo
+{
+this, ItemPtr -- 10
+grfBINDF, ItemPtr -- 11
+*grfBINDF, ItemLong -- 12
+pbindinfo, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4387 196 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF_FROMURLMON" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4394 197 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF_ALLOW_STATUS_NO_CONTENT" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4399 198 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDINFO_OPTIONS_ALLOWCONNECTDATA" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4404 199 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDINFO_OPTIONS_ENABLE_UTF8" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4416 200 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting the bindinfo code page to %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::GetBindInfo
+{
+_fQueryStringInUtf8 ? 'UTF8': 'ACP', ItemString -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4422 201 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF_NO_UI | BINDF_SILENTOPERATION" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4430 202 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting INTERNET_FLAG_NO_AUTH" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4443 203 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting INTERNET_FLAG_NO_CACHE_WRITE" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4462 204 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Setting BINDF_NOWRITECACHE on POST" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_WARNING FUNC=URLMONRequest::GetBindInfo
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx447 21 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnDataAvailable
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4493 205 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Seek failed with %10!s!" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_ERROR FUNC=URLMONRequest::GetBindInfo
+{
+hrT, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4537 206 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: grfBINDF = %10!x!, dwOptions = %11!x!, dwOptionsFlags = %12!x!, grfBindInfoF = %13!x!, dwBindVerb = %14!d!, tymed = %15!x!, pstm = %16!p!, cbstgmedData = %17!u!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetBindInfo
+{
+*grfBINDF, ItemLong -- 10
+pbindinfo->dwOptions, ItemLong -- 11
+pbindinfo->dwOptionsFlags, ItemLong -- 12
+pbindinfo->grfBindInfoF, ItemLong -- 13
+pbindinfo->dwBindVerb, ItemLong -- 14
+pbindinfo->stgmedData.tymed, ItemLong -- 15
+pbindinfo->stgmedData.pstm, ItemPtr -- 16
+pbindinfo->cbstgmedData, ItemLong -- 17
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4551 207 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetBindInfo
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4564 208 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!, %13!d!, %14!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetBindString
+{
+this, ItemPtr -- 10
+ulStringType, ItemLong -- 11
+ppwzStr, ItemPtr -- 12
+cEl, ItemLong -- 13
+pcElFetched, ItemPtr -- 14
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx460 22 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnResponseReceived
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4661 209 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetBindString
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4675 210 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::Authenticate
+{
+this, ItemPtr -- 10
+phwnd, ItemPtr -- 11
+ppwszUsername, ItemPtr -- 12
+ppwszPassword, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4693 211 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::Authenticate
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4713 212 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!, %13!p!, %14!p!, %15!x!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::AuthenticateEx
+{
+this, ItemPtr -- 10
+phwnd, ItemPtr -- 11
+ppwszUsername, ItemPtr -- 12
+ppwszPassword, ItemPtr -- 13
+pAuthinfo, ItemPtr -- 14
+pAuthinfo ? pAuthinfo->dwFlags : 0, ItemLong -- 15
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4757 213 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Returning HWND = -1 due to flags: 0x%10!08x!, disable ui: %11!s!, prompt for proxy: %12!s!" //   CATEGORY=CAT_HTTP LEVEL=LEVEL_WARNING FUNC=URLMONRequest::AuthenticateEx
+{
+pAuthinfo->dwFlags, ItemLong -- 10
+_fDisableUI, ItemListLong(FALSE,TRUE) -- 11
+_fProxyPrompt, ItemListLong(FALSE,TRUE) -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4771 214 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: username = %10!s!, password = %11!s!, hwnd = %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::AuthenticateEx
+{
+pwszUserName, ItemWString -- 10
+pwszPassword, ItemWString -- 11
+hwnd, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4802 215 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::AuthenticateEx
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4816 216 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::OnSecurityProblem
+{
+this, ItemPtr -- 10
+dwProblem, ItemWINERROR -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4844 217 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Ignoring ERROR_INTERNET_SEC_CERT_REV_FAILED" //   CATEGORY=CAT_URLMON LEVEL=LEVEL_INFO FUNC=URLMONRequest::OnSecurityProblem
+{
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4866 218 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::OnSecurityProblem
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4883 219 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_OnServerCert
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4934 220 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_OnServerCert
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx4949 221 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_ConvertCertChainToXhrCertArray
+{
+this, ItemPtr -- 10
+pCertChain, ItemPtr -- 11
+pcXhrCert, ItemPtr -- 12
+prgXhrCert, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5003 222 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_ConvertCertChainToXhrCertArray
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5012 223 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_FreeXhrCertArray
+{
+this, ItemPtr -- 10
+cXhrCert, ItemLong -- 11
+rgXhrCert, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5026 224 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_FreeXhrCertArray
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5036 225 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetRequestTimeouts
+{
+this, ItemPtr -- 10
+pdwConnectTimeout, ItemPtr -- 11
+pdwSendTimeout, ItemPtr -- 12
+pdwReceiveTimeout, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5053 226 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: %10!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetRequestTimeouts
+{
+_dwTimeout, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5060 227 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetRequestTimeouts
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5072 228 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetIgnoreCertMask
+{
+this, ItemPtr -- 10
+pdwIgnoreCertMask, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx508 23 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnResponseReceived
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5083 229 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: 0x%10!x!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::GetIgnoreCertMask
+{
+_dwIgnoreCertMask, ItemLong -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5090 230 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::GetIgnoreCertMask
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx51 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::URLMONRequest
+{
+this, ItemPtr -- 10
+fMta, ItemListLong(FALSE,TRUE) -- 11
+fDisableLegacyFeatures, ItemListLong(FALSE,TRUE) -- 12
+pRequestSite, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5115 231 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::crackURL
+{
+this, ItemPtr -- 10
+pwszUrl, ItemWString -- 11
+ppwszCrackedUrl, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx522 24 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnError
+{
+this, ItemPtr -- 10
+hrError, ItemHRESULT -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5261 232 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::crackURL
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5274 233 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::createUrl
+{
+this, ItemPtr -- 10
+ppwszURL, ItemPtr -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5338 234 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::createUrl
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5349 235 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::URLMONRequestSink::QueryInterface
+{
+this, ItemPtr -- 10
+&riid, ItemGuid -- 11
+ppv, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5431 236 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::URLMONRequestSink::QueryInterface
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5443 237 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::URLMONRequestSink::QueryService
+{
+this, ItemPtr -- 10
+&guidService, ItemGuid -- 11
+&riid, ItemGuid -- 12
+ppvObject, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx5464 238 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::URLMONRequestSink::QueryService
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx566 25 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnError
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx578 26 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, 0x%11!x!, %12!d!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnServerCert
+{
+this, ItemPtr -- 10
+dwCertErrors, ItemLong -- 11
+cServerCertChain, ItemLong -- 12
+rgServerCertChain, ItemPtr -- 13
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx617 27 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnServerCert
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx629 28 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallOnClientCert
+{
+this, ItemPtr -- 10
+cIssuerList, ItemLong -- 11
+rgpwszIssuerList, ItemPtr -- 12
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx667 29 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_CallOnClientCert
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx704 30 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_Abort
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx756 31 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::_Abort
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx773 32 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::AbortEx
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx785 33 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::AbortEx
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx792 34 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::recycle
+{
+this, ItemPtr -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx874 35 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::recycle
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx881 36 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!"%ws"!, %13!d!, %14!x!, %15!d!, %16!s!, %17!d!, %18!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::open
+{
+this, ItemPtr -- 10
+bstrMethod, ItemWString -- 11
+bstrUrl, ItemWString -- 12
+varAsync.vt, ItemLong -- 13
+varAsync.boolVal, ItemLong -- 14
+varUserid.vt, ItemLong -- 15
+(varUserid.vt == VT_BSTR) ? varUserid.bstrVal : NULL, ItemWString -- 16
+varPassword.vt, ItemLong -- 17
+(varPassword.vt == VT_BSTR) ? varPassword.bstrVal : NULL, ItemWString -- 18
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx916 37 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLMON HR=hr FUNC=URLMONRequest::open
+{
+HR, ItemHRESULT -- 10
+}
+
+8c78acac-421b-31c4-673d-6c57119e9efc lib_ext // SRC=urlmonrequest.cxx MJ= MN=
+#typev urlmonrequest_cxx951 38 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLMON FUNC=URLMONRequest::_CallUrlMonStart
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1049 63 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: ignoring custom host %10!s!:" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::check_requestHeader
+{
+bstrValue, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx105 17 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::abort
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1060 64 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: ignoring custom transfer encoding %10!s!:" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::check_requestHeader
+{
+bstrValue, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1083 65 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: ignoring custom content length %10!s!:" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::check_requestHeader
+{
+bstrValue, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1094 66 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: header type = %10!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::check_requestHeader
+{
+*pht, ItemLong -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1103 67 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: ignoring custom referer %10!s!:" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::check_requestHeader
+{
+bstrValue, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx112 18 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::recycle
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1126 68 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: skipping header with embedded new line %10!s!:" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::check_requestHeader
+{
+bstrValue, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1166 69 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: cleaned header = %10!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::check_requestHeader
+{
+pwszCleanHeader, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1200 70 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::check_requestHeader
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1209 71 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::prepareXMLParser
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1231 72 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_URLREQ FUNC=URLRequest::prepareXMLParser
+{
+hr, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1240 73 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::prepareXMLParser
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1250 74 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::setState
+{
+this, ItemPtr -- 10
+eState, ItemLong -- 11
+fForceCallback, ItemListLong(FALSE,TRUE) -- 12
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1292 75 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::setState
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1301 76 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!s!, %11!p!, %12!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::canonicalizeBestFitChars
+{
+pwsz, ItemWString -- 10
+ppwszResult, ItemPtr -- 11
+*pcch, ItemLong -- 12
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1331 77 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: cannonicalized = %10!"%ws"!, len = %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::canonicalizeBestFitChars
+{
+*ppwszResult, ItemWString -- 10
+*pcch, ItemLong -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx1351 78 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::canonicalizeBestFitChars
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx158 19 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::recycle
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx168 20 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!"%ws"!, %13!d!, %14!x!, %15!d!, %16!s!, %17!d!, %18!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::open
+{
+this, ItemPtr -- 10
+bstrMethod, ItemWString -- 11
+bstrUrl, ItemWString -- 12
+varAsync.vt, ItemLong -- 13
+varAsync.boolVal, ItemLong -- 14
+varUserid.vt, ItemLong -- 15
+(varUserid.vt == VT_BSTR) ? varUserid.bstrVal : NULL, ItemWString -- 16
+varPassword.vt, ItemLong -- 17
+(varPassword.vt == VT_BSTR) ? varPassword.bstrVal : NULL, ItemWString -- 18
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx210 21 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::open
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx228 22 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::send
+{
+this, ItemPtr -- 10
+varBody.vt, ItemLong -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx258 23 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::send
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx267 24 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::put_onreadystatechange
+{
+this, ItemPtr -- 10
+pReadyStateSink, ItemPtr -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx28 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::URLRequest
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx285 25 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::put_onreadystatechange
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx294 26 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_statusCallback
+{
+this, ItemPtr -- 10
+pXhr, ItemPtr -- 11
+pStatusCallback, ItemPtr -- 12
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx307 27 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_statusCallback
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx318 28 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::get_responseXML
+{
+this, ItemPtr -- 10
+ppBody, ItemPtr -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx349 29 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: XML response = %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::get_responseXML
+{
+*ppBody, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx356 30 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::get_responseXML
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx365 31 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::get_readyState
+{
+this, ItemPtr -- 10
+plState, ItemPtr -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx384 32 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: state = %10!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::get_readyState
+{
+*plState, ItemLong -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx390 33 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::get_readyState
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx40 11 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::URLRequest
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx402 34 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!, %13!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::OnResponseStart
+{
+this, ItemPtr -- 10
+Status, ItemLong -- 11
+pwszContentType, ItemWString -- 12
+cchContentType, ItemLong -- 13
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx431 35 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::OnResponseStart
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx440 36 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!d!, %13!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::OnResponseDataAvailable
+{
+this, ItemPtr -- 10
+pbData, ItemPtr -- 11
+cbData, ItemLong -- 12
+fLast, ItemListLong(FALSE,TRUE) -- 13
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx47 12 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::~URLRequest
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx470 37 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::OnResponseDataAvailable
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx479 38 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::OnResponseFinished
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx502 39 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Eating the disgorged" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_HTTP FUNC=URLRequest::OnResponseFinished
+{
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx524 40 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::OnResponseFinished
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx537 41 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_method
+{
+this, ItemPtr -- 10
+pwszMethod, ItemWString -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx54 13 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::~URLRequest
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx596 42 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_method
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx608 43 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_url
+{
+this, ItemPtr -- 10
+pwszURL, ItemWString -- 11
+fZoneRelaxed, ItemListLong(FALSE,TRUE) -- 12
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx61 14 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, (unused)%11!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::AbortEx
+{
+this, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx668 44 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_url
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx677 45 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!, %12!s!, %13!d!, %14!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_usernamePassword
+{
+this, ItemPtr -- 10
+varUserid.vt, ItemLong -- 11
+(varUserid.vt == VT_BSTR) ? varUserid.bstrVal : NULL, ItemWString -- 12
+varPassword.vt, ItemLong -- 13
+(varPassword.vt == VT_BSTR) ? varPassword.bstrVal : NULL, ItemWString -- 14
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx702 46 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: have user name & password = %10!s!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_usernamePassword
+{
+_fUseridAndPassword, ItemListLong(FALSE,TRUE) -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx709 47 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_usernamePassword
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx719 48 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_requiredRequestHeaders
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx730 49 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Auto setting of the required headers was disabled by the caller" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_WARNING FUNC=URLRequest::set_requiredRequestHeaders
+{
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx744 50 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: referer: %10!s!" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_INFO FUNC=URLRequest::set_requiredRequestHeaders
+{
+pwszReferer, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx761 51 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: accept-language: %10!s!" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_INFO FUNC=URLRequest::set_requiredRequestHeaders
+{
+pwszLanguage, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx772 52 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_requiredRequestHeaders
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx795 53 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::set_requestBody
+{
+this, ItemPtr -- 10
+pvarBody->vt, ItemLong -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx823 54 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: content-type: %10!s!" //   CATEGORY=CAT_URLREQ LEVEL=LEVEL_INFO FUNC=URLRequest::set_requestBody
+{
+pwszContentType, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx845 55 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::set_requestBody
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx86 15 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::AbortEx
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx860 56 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!p!, %12!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::decode_responseText
+{
+this, ItemPtr -- 10
+pStm, ItemPtr -- 11
+pbstrBody, ItemPtr -- 12
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx907 57 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: body = %10!"%ws"!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::decode_responseText
+{
+*pbstrBody, ItemWString -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx916 58 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: Caught the disgorged: %10!s!" //   LEVEL=LEVEL_ERROR CATEGORY=CAT_URLREQ FUNC=URLRequest::decode_responseText
+{
+hr, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx933 59 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::decode_responseText
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx942 60 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!d!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::setRequestHeaderSucceeded
+{
+this, ItemPtr -- 10
+ht, ItemLong -- 11
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx963 61 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_URLREQ HR=hr FUNC=URLRequest::setRequestHeaderSucceeded
+{
+HR, ItemHRESULT -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx98 16 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::abort
+{
+this, ItemPtr -- 10
+}
+
+c7619feb-4f6b-3abd-06a1-d76a9a2372bb lib_ext // SRC=urlrequest.cxx MJ= MN=
+#typev urlrequest_cxx986 62 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: this=%10!p!, %11!s!, %12!s!, %13!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_URLREQ FUNC=URLRequest::check_requestHeader
+{
+this, ItemPtr -- 10
+bstrHeader, ItemWString -- 11
+bstrValue, ItemWString -- 12
+pht, ItemPtr -- 13
+}
+
+f2386e46-969a-3cb9-a5cf-6c881660a483 util // SRC=critsec.cxx MJ= MN=
+#typev critsec_cxx74 10 "[%9!x!]%8!x!.%3!x! %4!s! Entering %!FUNC!: %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_UTIL FUNC=CCritSec::CreateInstance
+{
+ppCritSec, ItemPtr -- 10
+}
+
+f2386e46-969a-3cb9-a5cf-6c881660a483 util // SRC=critsec.cxx MJ= MN=
+#typev critsec_cxx86 11 "[%9!x!]%8!x!.%3!x! %4!s! %!FUNC!: new ref cs at %10!p!" //   LEVEL=LEVEL_INFO CATEGORY=CAT_UTIL FUNC=CCritSec::CreateInstance
+{
+*ppCritSec, ItemPtr -- 10
+}
+
+f2386e46-969a-3cb9-a5cf-6c881660a483 util // SRC=critsec.cxx MJ= MN=
+#typev critsec_cxx93 12 "[%9!x!]%8!x!.%3!x! %4!s! Leaving %!FUNC!: with %10!s!" //   CATEGORY=CAT_UTIL HR=hr FUNC=CCritSec::CreateInstance
+{
+HR, ItemHRESULT -- 10
+}
+

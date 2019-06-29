@@ -1,0 +1,147 @@
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VHF: VhfCreate Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0VHF: Failed to allocate vhfContext" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0VHF: IoGetLowerDeviceObject failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VHF: Failed to allocate vhfCreateDeviceIoctlInput" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0VHF: Failed to allocate createDeviceIrp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0VHF: IOCTL_HID_VHF_CREATE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0VHF: Failed to allocate PullRequestReportBuffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0VHF: Failed to allocate ClientOperationContext" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0VHF: Failed to allocate Mdl for Notify Irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfCreate
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0VHF: VhfCreate Exit: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfCreate
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0VHF: VhfStart Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0VHF: VHF device already started: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0VHF: VhfStart Exit: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=VhfStart
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0VHF: VhfDelete called at %10!s!. Ignoring Wait parameter" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=VhfDelete
+{
+Arg, ItemListByte(Low,APC,DPC) -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0VHF: IoAllocateIrp failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_SubmitReadReport
+{
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0VHF: IOCTL_HID_VHF_READ_REPORT_COMPLETE sent %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=Vhfi_SubmitReadReport
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0VHF: IOCTL_HID_VHF_READ_REPORT_COMPLETE complete %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=Vhfi_SubmitReadReportComplete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0VHF: IOCTL_HID_VHF_DELETE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_Delete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55e3dcba-13ae-380f-501d-5c133f7fd401 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0VHF: IOCTL_HID_VHF_DELETE_DEVICE failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Vhfi_DeleteComplete
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_PendNotifyToVhf
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_VhfNotifyComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_ClientRequestComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+89ddfcb6-a679-3bd4-2aa3-14fab9469a26 vhfkm // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0VHF: %10!s! failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=Pump_VhfRequestComplete
+{
+Arg, ItemEnum(_VHF_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+

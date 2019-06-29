@@ -1,0 +1,664 @@
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Current app state:%10!s! suspension state:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+Arg, ItemEnum(_PSM_CURRENT_APP_STATE) -- 10
+Arg, ItemString -- 11
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Foreground app: Allowing device open to proceed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Suspended app but device does not allow any background access: Failing device open" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Suspended app and Device allows all background tasks: Allowing device open to proceed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::RuntimeClassInitialize
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::AppStateChangeCallback
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Suspended app and device background task is %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=AppStateProvider::AppStateChangeCallback
+{
+Arg, ItemString -- 10
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Suspended app and no device background task: closing device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::AppStateChangeCallback
+{
+}
+
+47818809-8657-37cb-6161-d3ca77b20e11 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_COMMON FUNC=AppStateProvider::AppStateChangeCallback
+{
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Invalid data bufferSize:%10!d! trying to copy feature report buffer hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidFeatureReportServer::put_Data
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device:0x%10!p! Get feature operation completed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetFeatureOperation::ThreadpoolCompletionCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device:0x%10!p! Get feature operation failed to acquire library reference %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetFeatureOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device:0x%10!p! Get feature operation failed submit threadpool worker %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetFeatureOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device:0x%10!p! Get feature operation starting threadpool I/O to submit IOCTL" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetFeatureOperation::OnStartWorker
+{
+Arg, ItemPtr -- 10
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device:0x%10!p! Get feature operation failed synchronously invoking completion %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetFeatureOperation::OnStartWorker
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device:0x%10!p! Set feature operation completed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::SetFeatureOperation::ThreadpoolCompletionCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device:0x%10!p! Set feature operation failed to acquire library reference %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::SetFeatureOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device:0x%10!p! Set feature operation failed submit threadpool worker %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::SetFeatureOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device:0x%10!p! Set feature operation starting threadpool I/O to submit IOCTL" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::SetFeatureOperation::OnStartWorker
+{
+Arg, ItemPtr -- 10
+}
+
+4812b906-e3fb-3ccd-d7f5-7a047e4acedd W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device:0x%10!p! Set feature operation failed synchronously invoking completion %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::SetFeatureOperation::OnStartWorker
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7cb65f2c-573d-34e2-f86d-1f8ccfe3ce91 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device:0x%10!p! Read input operation failed synchronously invoking completion %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::ReadInputOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7cb65f2c-573d-34e2-f86d-1f8ccfe3ce91 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device:0x%10!p! Get input operation failed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetInputOperation::ThreadpoolCompletionCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+7cb65f2c-573d-34e2-f86d-1f8ccfe3ce91 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device:0x%10!p! Get input operation failed synchronously invoking completion %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::GetInputOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Device:%10!s! Access denied opening device %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceStatics::FromIdAsync::<lambda_d29b4ee0f0627ec3db554c05430a798c>::operator ()
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Using static device selector UsagePage:%10!04x! UsageId:%11!04x! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceStatics::GetDeviceSelector
+{
+Arg, ItemShort -- 10
+Arg, ItemShort -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Using static device selector UsagePage:%10!04x! UsageId:%11!04x! VID:%12!04x! PID:%13!04x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceStatics::GetDeviceSelectorVidPid
+{
+Arg, ItemShort -- 10
+Arg, ItemShort -- 11
+Arg, ItemShort -- 12
+Arg, ItemShort -- 13
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::HidDeviceServer
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::~HidDeviceServer
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::~HidDeviceServer
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid access mode specified hr:%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Device:%10!s! Opening handle with FileAccessMode:%11!s! threadId:%12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(Windows::Storage::FileAccessMode) -- 11
+Arg, ItemLong -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device handle:0x%10!p! opened successfully" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::RuntimeClassInitialize
+{
+Arg, ItemPtr -- 10
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device handle:0x%10!p! Failed to get Preparsed Data %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::InitializeDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device handle:0x%10!p! Failed to create threadpool for device IO operations %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::InitializeDevice
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Device handle:0x%10!p! Initialized successfully" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::InitializeDevice
+{
+Arg, ItemPtr -- 10
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Device:0x%10!p! Registering for app state change notifications %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::RegisterNotifications
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0App quiesce callback invoked, closing device on apps behalf" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::OnSuspension
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Unexpected NULL device object pointer in event callback, refCount zero ?" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::OnEvent
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Device:0x%10!p! Input report event received status:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::InvokeListeners
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Device:0x%10!p! Invoking event listeners and queueing new read %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::InvokeListeners
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Device:0x%10!p! Error setting input report ring buffer size hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StartReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Device:0x%10!p! Starting read pump on first listener %11!s!->%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StartReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device:0x%10!p! Failed to create threadpool work for starting read pump hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StartReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Device:0x%10!p! Read pump START triggered in state %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StartReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Device:0x%10!p! Read pump START triggered in unexpected state %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StartReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Device:0x%10!p! Read pump stopped %11!s!->%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::QueueAsyncReadOperation
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Device:0x%10!p! Read pump restarted due to new listener %11!s!->%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::QueueAsyncReadOperation
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Device:0x%10!p! Failed initializing read input operation hr:%11!s!, stopping read pump %12!s!->%13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::QueueAsyncReadOperation
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 12
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 13
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Device:0x%10!p! Stopping read pump on last listener %11!s!->%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StopReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Device:0x%10!p! Failed to create threadpool work for stopping read pump hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StopReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Device:0x%10!p! Read pump STOP triggered in state %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StopReadPump
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::ReadStatus) -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Device:0x%10!p! Cancelled in-flight async read operations %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::StopReadPumpWorker
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Device:0x%10!p! Closed, cancelling I/O and closing handle" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::Close
+{
+Arg, ItemPtr -- 10
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Device:0x%10!p! Creating output report for reportId:%11!d! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::CreateOutputReportById
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Device:0x%10!p! Creating feature report for reportId:%11!d! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::CreateFeatureReportById
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Device:0x%10!p! Getting input report for reportId:%11!d! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetInputReportByIdAsync
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Device:0x%10!p! Getting feature report for reportId:%11!d! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetFeatureReportByIdAsync
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Device:0x%10!p! Sending feature report %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::SendFeatureReportAsync
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Device:0x%10!p! Sending output report %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::SendOutputReportAsync
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Device:0x%10!p! Registering input report handler token:%11!I64d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::add_InputReportReceived
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLong -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Device:0x%10!p! Unregistering input report handler token:%11!I64d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::remove_InputReportReceived
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLong -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetBooleanControlDescriptions
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Device:0x%10!p! Found %11!d! boolean controls hr:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetBooleanControlDescriptions
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetBooleanControlDescriptions
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetNumericControlDescriptions
+{
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Device:0x%10!p! Found numeric control at index:%11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetNumericControlDescriptions
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Device:0x%10!p! Found %11!d! numeric controls hr:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetNumericControlDescriptions
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+830fc5ea-9338-33d6-1002-034c6d6e6a5c W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidDeviceServer::GetNumericControlDescriptions
+{
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0hidTelephony capability check failed. Could not check if call process is app conatiner %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+Arg, ItemHRESULT -- 10
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Access to Telephony disallowed, requestor is not an AppContainer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0hidTelephony capability for the calling process - capabilityPresent = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+Arg, ItemLong -- 10
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0hidTelephony capability check failed. Could not impersonate calling process %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+Arg, ItemHRESULT -- 10
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0hidTelephony capability check failed.  Could not obtain calling process handle %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+Arg, ItemHRESULT -- 10
+}
+
+8612fb6f-fd99-351f-07f0-bbb26e9c833f W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::Blocklist::IsUsageAllowed
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::AccessCheck
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device:%10!s! Access to device denied, usage disallowed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::AccessCheck
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device:%10!s! Access %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::AccessCheck
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::AccessCheck
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckDeviceId
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Device:%10!s! DeviceId check completed %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckDeviceId
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_CapabilityHandlerCheckError) -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckDeviceId
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[%!FUNC!] --> Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckFunctionType
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Device:%10!s! FunctionType check completed %11!s! %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckFunctionType
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(_CapabilityHandlerCheckError) -- 11
+Arg, ItemHRESULT -- 12
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[%!FUNC!] <-- Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckFunctionType
+{
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Normalizing deviceId failed:invalid format for ANY %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Normalizing deviceId failed:invalid format for VID/PID %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Normalizing deviceId failed:invalid prefix %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Normalizing deviceId format:%10!s! VID:%11!04x! PID:%12!04x! Provider:%13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeDeviceId
+{
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::HidDeviceFormat) -- 10
+Arg, ItemShort -- 11
+Arg, ItemShort -- 12
+Arg, ItemWString -- 13
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Normalizing functionType failed:invalid format for usage %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Normalizing functionType failed:invalid prefix %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Normalizing functionType format:%10!s! UsagePage:%11!04x! UsageId:%12!04x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemEnum(Windows::Devices::HumanInterfaceDevice::HidFunctionFormat) -- 10
+Arg, ItemShort -- 11
+Arg, ItemShort -- 12
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Normalizing functionType failed:usage disallowed %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Normalizing functionType failed:missing deviceId %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Normalizing functionType failed:invalid deviceId %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::NormalizeFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Invalid registry value:%10!d! for functionType hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckRegistryKeysForFunctionType
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Querying registry value for functionType failed hr:%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckRegistryKeysForFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+a598a989-c234-3503-e731-2c2ca0de4076 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Invalid registry value:%10!d! for functionType hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=Windows::Devices::HumanInterfaceDevice::HidCapabilityHandler::CheckRegistryKeysForFunctionType
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4d117ab-61d8-3952-0e71-8084acafd7b5 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Invalid data bufferSize:%10!d! trying to copy feature report buffer hr:%11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::HidOutputReportServer::put_Data
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4d117ab-61d8-3952-0e71-8084acafd7b5 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device:0x%10!p! Write output operation failed %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::WriteOutputOperation::ThreadpoolCompletionCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4d117ab-61d8-3952-0e71-8084acafd7b5 W.D.HumanInterfaceDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device:0x%10!p! Write output operation failed synchronously invoking completion %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID FUNC=Windows::Devices::HumanInterfaceDevice::WriteOutputOperation::OnStart
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+

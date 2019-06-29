@@ -1,0 +1,478 @@
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0No matching device found! Device handle = %10!p!, Method name = %11!#x!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Method name not found! Device = %10!s!, Name = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Input parameter count mismatch! Device = %10!s!, Name = %11!#x! PEP input count = %12!#x!, ACPI input count = %13!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Output parameter count mismatch! Device = %10!s!, Name = %11!#x! PEP input count = %12!#x!, ACPI input count = %13!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to create new method eval request object! Device = %10!s!, Name = %11!#x!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create new method eval request object! Device = %10!s!, Method = %11!#x!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PEP supplied output buffer size smaller than already supplied size! Device = %10!s!, Method = %11!#x!, PEP output size = %12!#Ix!, Supplied output size = %13!#Ix!, Request = %14!p!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate output buffer! Device = %10!s!, Method = %11!#x!, Required output size = %12!#Ix!, Request = %13!p!, Status = %14!#x!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to create new notify request! PoFx device = %10!p!, Notify code = %11!#x!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to find ACPI device....Notify() failed!PoFx Handle = %10!p!, Notify code = %11!#x!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+05b9cd73-c05a-35db-9b01-673c11702cb5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Device not in proper state to accept notifications....Notify() failed!PoFx Handle = %10!p!, Notify code = %11!#x!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error copying ACPI import interface!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ACPI import interface successfully copied!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ACPI import interface successfully copied!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfWaitLockCreate() failed with status = %10!#x!! Failed to create ACPI device list lock. " //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+Arg, ItemLong -- 10
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to allocate memory for workitems! Status = %10!#x!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+Arg, ItemLong -- 10
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfWorkItemCreate() failed! Failed to workitems! Status = %10!#x!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+Arg, ItemLong -- 10
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0NtPowerInformation() failed with status = %10!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_INIT
+{
+Arg, ItemLong -- 10
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfObjectCreate() failed! Failed to create requestobject! Device = %10!s!, Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+807366fc-54dc-3867-c99f-652e906ece05 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfSpinLockCreate() failed! Device = %10!s!, Request = %11!p!, Status = %12!#x!." //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+9812e2e6-168f-310b-9782-0bbb2fb9af55 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0EVALUATE_CONTROL_METHOD: %10!s! - %11!s!() - Status = %12!s! (%13!#x!)." //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+9812e2e6-168f-310b-9782-0bbb2fb9af55 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0EVALUATE_CONTROL_METHOD: %10!s! - %11!s!() - Status = %12!s! (%13!#x!)." //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+a5694540-c772-325f-cbe0-6eeae5c6d435 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemString -- 10
+}
+
+a5694540-c772-325f-cbe0-6eeae5c6d435 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0NULL parameter supplied!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_PEP
+{
+}
+
+a5694540-c772-325f-cbe0-6eeae5c6d435 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Incorrect IRQL level! Expected = %10!d!, Current = %11!d!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a5694540-c772-325f-cbe0-6eeae5c6d435 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Status != STATUS_SUCCESS! Status = %10!#x!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemLong -- 10
+}
+
+a5694540-c772-325f-cbe0-6eeae5c6d435 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0BOOLEAN value not as expected! Actual = %10!d!, Expected = %11!d!" //   LEVEL=TRACE_ERROR IFRLOG=LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+bacd9972-3a13-3ef0-8c10-512eb54188ab lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to allocate buffer for object reflection! Device = %10!s!, Size = %11!d!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_ACPI
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+bacd9972-3a13-3ef0-8c10-512eb54188ab lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ACPI REFLECT: Device = %10!s!, Name = %11!#x!, Type = %12!#x!, Status = %13!#x!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_ACPI
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to create discover/delete request object! Parameters = %10!p!, Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to convert ANSI to UNICODE string! Device = %10!s!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Device is already registered with the PEP! Device = %10!s!" //   LEVEL=TRACE_INFO IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfObjectCreate() failed! Failed to create new ACPI device object! Device = %10!s!, Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfSpinLockCreate() failed! Device = %10!s!, Status = %11!#x!." //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0New device created successfully! Device = %10!s!, Handle = %11!p!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device deleted successfully! Device = %10!s!, Handle = %11!p!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to create new request object! Device = %10!s!, Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0New %10!s! device request created successfully! Device = %11!s!, Status = %12!#x!!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to create new discover/delete request! Params = %10!p! Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to create new ACPI device! Device = %10!s! Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to create new ACPI device! Device Handle = %10!p!, Status = %11!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=PlExtLogHandle FLAGS=DBG_PLEXT_REQUEST
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to determine the size of the buffer! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0No valid descriptors returned by PEP! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+d6a71c84-db30-3a0c-518b-c84dfcd5a33e lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to allocate memory for translation output buffer! Device = %10!p!, Request = %11!p!, Size = %12!#x!, Status = %13!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_DEVICE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ACPI_PREPARE_DEVICE: Device = %10!s!, Accepted = %11!d!." //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ACPI_REGISTER_DEVICE: Device = %10!s!, FxHandle = %11!p!, PEPHANDLE = %12!p!." //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ACPI_UNREGISTER_DEVICE: Device = %10!s!, FxHandle = %11!p!, PEPHANDLE = %12!p!." //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ACPI_ABANDON_DEVICE: Device = %10!s!." //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to allocate memory for ENUMERATE_DEVICE_NAMESPACE buffer! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0EDN request failed! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0EDN returned STATUS_PENDING! Failing request!Device = %10!p!, Request = %11!p!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0EDN object count mismatch! Device = %10!p!, Request = %11!p!, Count = %12!#x!, Prev count = %13!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0EDN object type invalid! Device = %10!p!, Request = %11!p!, Name = %12!#x!, Type = %13!#x!, Index = %14!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ACPI_ENUMERATE_DEVICE_NAMESPACE: Device = %10!s!, Count = %11!d!" //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to allocate memory for ENUMERATE_DEVICE_NAMESPACE buffer! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ACPI_QUERY_OBJECT_INFORMATION: Device = %10!s!, Method = %11!#x!, Input Arg Count = %12!d!, Output Arg Count = %13!d!" //   LEVEL=TRACE_INFO IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ACPI_QUERY_OBJECT_INFORMATION: FAILED! Device = %10!s!, Method = %11!#x!, Index = %12!d!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to allocate memory for QUERY_DEVICE_CONTROL_RESOURCES buffer! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PEP failed QUERY_DEVICE_CONTROL_RESOURCES request! Device = %10!p!, Request = %11!p!, Status = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PEP completed QUERY_DEVICE_CONTROL_RESOURCES request with STATUS_PENDING - not supported! Device = %10!p!, Request = %11!p!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0QUERY_DEVICE_CONTROL_RESOURCES resource buffer size invalid! Device = %10!p!, Request = %11!p!, Input size = %12!#Ix!, Output size = %13!#Ix!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0QUERY_DEVICE_CONTROL_RESOURCES resource buffer length not same as ACPI_METHOD_ARGUMENT->DataLength! Device = %10!p!, Request = %11!p!, Input size = %12!#Ix!, Output size = %13!#Ix!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0QUERY_DEVICE_CONTROL_RESOURCES resource buffer data type not ACPI_METHOD_ARGUMENT_BUFFER! Device = %10!p!, Request = %11!p!, Data Type = %12!#x!!" //   LEVEL=TRACE_ERROR IFRLOG=Device->LogHandle FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+fcbd598e-b6ee-3b02-8016-14a8257cebe5 lib // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0QUERY_DEVICE_CONTROL_RESOURCES: Device = %10!s!, Size = %11!#Ix!" //   IFRLOG=Device->LogHandle LEVEL=TRACE_INFO FLAGS=DBG_PLEXT_PEP
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+

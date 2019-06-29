@@ -1,0 +1,921 @@
+249472b0-58cf-35cc-4d64-f353f85eed9b mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] DriverEntry Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+}
+
+249472b0-58cf-35cc-4d64-f353f85eed9b mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfDriverCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+249472b0-58cf-35cc-4d64-f353f85eed9b mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[DriverObject: 0x%10!p!] DriverEntry Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=DriverEntry
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+249472b0-58cf-35cc-4d64-f353f85eed9b mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] DriverUnload" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_DRIVER_DriverUnload
+{
+Arg, ItemPtr -- 10
+}
+
+249472b0-58cf-35cc-4d64-f353f85eed9b mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0***ASSERTION FAILURE*** File: %10!s! Line: %11!d! - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_FreAssertMsg
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0OpenIoChannel - %10!04X! %11!p! Status %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_OpenIoChannel
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Freeing resources for - MA-USB Handle %10!d! IoChannelInformation %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_FreeIoChannelResources
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Closing dynamic socket for IoChannelInformation %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_FreeIoChannelResources
+{
+Arg, ItemPtr -- 10
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid parameter for CloseIoChannel() - IoChannelHandle %10!04X! is unknown" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IO_CHANNEL_CloseIoChannel
+{
+Arg, ItemLong -- 10
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Channel IO Channel for MA-USB handle: %10!04X! IO channel handle %11!p! completed with %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_CloseIoChannel
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Could not find channel for handle %10!04X! of type %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_GetIoChannelHandleForMaUsbHandleLocked
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+9bd50ad9-3399-368e-a4a3-47974b0a75b8 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Channel assigned for - MA-USB Handle: %10!d! Channel handle: ioChannelInformation %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IO_CHANNEL_AssignIoChannelHandleForMaUsb
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0IP_SOCKETS_CompleteNotificationWorkerRoutine - Informing host PAL of event: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CompleteNotificationWorkerRoutine
+{
+Arg, ItemLong -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ExAllocatePoolWithTag(notificationResponse) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_QueueNotificationResponse
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Disconnect event - FDO context - %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_WskDisconnectEvent
+{
+Arg, ItemPtr -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0IP_SOCKETS_QueueNotificationResponse(MaUsbTransportNotificationForTransportDisconnection) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_WskDisconnectEvent
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ExAllocatePoolWithTag(CircularReadBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_IntitializeSocketContext
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ExAllocatePoolWithTag(CurrentReadBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_IntitializeSocketContext
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ExAllocatePoolWithTag(ReadRequestIrp) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_IntitializeSocketContext
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ExAllocatePoolWithTag(CurrentReadMdl) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_IntitializeSocketContext
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to initialize QoS context with %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_IntitializeSocketContext
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0An active connection is already ongoing. Declining new request on this port" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_WskAcceptEvent
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IP_SOCKETS_QueueNotificationResponse(NotificationForConnection) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_WskAcceptEvent
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Accept event - Port %10!d! FDO context - %11!p!, socket context %12!p!, %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_WskAcceptEvent
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WskSocket(WSK_FLAG_LISTEN_SOCKET) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WskSocket(WSK_FLAG_LISTEN_SOCKET) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WskControlSocket(IPV6_V6ONLY) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WskControlSocket(IPV6_V6ONLY) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WskControlSocket(TCP_NODELAY) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WskControlSocket(TCP_NODELAY) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WskControlSocket(SIO_TCP_SET_ACK_FREQUENCY) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WskControlSocket(SIO_TCP_SET_ACK_FREQUENCY) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SetSocketQosMarkingContext() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WskControlSocket(SIO_KEEPALIVE_VALS) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WskControlSocket(SIO_KEEPALIVE_VALS) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WskControlSocket(SO_RCVBUF) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WskControlSocket(SO_RCVBUF) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WskBind() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WskBind() failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WskGetLocalAddress() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WskGetLocalAddress() failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0MAUSB socket context = %10!p!, status = %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_OpenSocket
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WskSocket(WSK_FLAG_DATAGRAM_SOCKET) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WskSocket(WSK_FLAG_DATAGRAM_SOCKET) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WskControlSocket(IPV6_V6ONLY) failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WskControlSocket(IPV6_V6ONLY) failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0SetSocketQosMarkingContext() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WskBind() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WskBind() failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WskGetLocalAddress() failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WskGetLocalAddress() failed with IRP status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0MAUSB UDP socket context = %10!p!, status = %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocket
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Failed to init management/control socket context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Failed to init interrupt socket context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Failed to init bulk socket context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WskCaptureProviderNPI failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0WskControlClient(WSK_SET_STATIC_EVENT_CALLBACKS) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0FDO context = %10!p!, status = %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_SetupTcpPorts
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed to init context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocketForChannel
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0WskCaptureProviderNPI failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenSocketForChannel
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Failed to init context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocketForSynch
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0WskCaptureProviderNPI failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocketForSynch
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed to init context %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocketForFdo
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0WskCaptureProviderNPI failed with status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_OpenUdpSocketForFdo
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0IoAllocateIrp(CloseSocket) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_CloseSocketAtPassiveLevel
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0IoAllocateIrp(CloseSocket) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_CloseSocketAtPassiveLevel
+{
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Closing Accepted Socket on port %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CloseOpenedSocket
+{
+Arg, ItemLong -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Closing socket on port %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CloseOpenedSocket
+{
+Arg, ItemLong -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WskDeregister succeeded for FDO context %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CloseOpenedSocket
+{
+Arg, ItemPtr -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Socket is already closed for fdoContext %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CloseOpenedSockets
+{
+Arg, ItemPtr -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Closing opened sockets - fdoContext %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_SOCKETS_CloseOpenedSockets
+{
+Arg, ItemPtr -- 10
+}
+
+ae97e512-50dd-3554-a707-2dce51631287 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0[WDFDEVICE: 0x%10!p!] WdfWorkItemCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_CloseSocket
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c5949627-9a01-3051-40d2-78b9b209d309 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0InputBufferLength is zero" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IOCTL_ReportCapabilities
+{
+}
+
+c5949627-9a01-3051-40d2-78b9b209d309 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0OutputBufferLength is invalid %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IOCTL_ReportCapabilities
+{
+Arg, ItemLong -- 10
+}
+
+c5949627-9a01-3051-40d2-78b9b209d309 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0InputBufferLength %10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IOCTL_OpenIpSession
+{
+Arg, ItemLong -- 10
+}
+
+c5949627-9a01-3051-40d2-78b9b209d309 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0OutputBufferLength %10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IOCTL_OpenIpSession
+{
+Arg, ItemLong -- 10
+}
+
+c5949627-9a01-3051-40d2-78b9b209d309 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0IP_SOCKETS_SetupTcpPorts failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IOCTL_OpenIpSession
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Send IRP 0x%10!p! completed with status = %11!s! information = %12!Id!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_WskSendIrpCompletionRoutine
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemPtr -- 12
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IP_SOCKETS_QueueNotificationResponse(MaUsbTransportNotificationForTransportDisconnection) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_WskSendIrpCompletionRoutine
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Invalid InputBufferLength %10!d! in Send Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid sendDataParameters->NumberOfBytes %10!d! in Send Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Invalid InputBufferLength %10!d! in Send Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid IoChannelHandle in Send Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid IO Channel Handle being used from the host PAL Presented = %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ExAllocatePoolWithTag(dataBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0IoAllocateMdl(dataBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0IoAllocateIrp(dataBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ExAllocatePoolWithTag(ioSendInfo) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Send Data request received when the session has disconnected" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0IP_IO_SendData - WDFREQUEST %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WskSend failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WskSendTo failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendData
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Invalid InputBufferLength %10!d! in Send Data With Mdl request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Invalid sendDataWithMdlParameters->NumberOfBytes %10!d! in Send Data With Mdl request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Invalid IoChannelHandle in Send Data With Mdl request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Invalid IO Channel Handle being used from the host PAL Presented = %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0IoAllocateIrp(dataBuffer) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to allocate context for send request - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Send Data request received when the session has disconnected" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0IP_IO_SendDataWithMdl - WDFREQUEST %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WskSend failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WskSendTo failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_SendDataWithMdl
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Invalid InputBufferLength %10!d! in Read Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ProcessReadDataRequest
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Invalid OutputBufferLength %10!d! in Read Data request" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ProcessReadDataRequest
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Invalid IO Channel Handle being used from the host PAL, Presented = %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ProcessReadDataRequest
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Zero length packet size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ValidateReceivedPackets
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0RemainingSize is not ZERO for buffer %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ValidateReceivedPackets
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Completing %10!Iu! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0MANAGEMENT PACKET" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Length         %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0SubType        %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceHandle   0x%10!04x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DialogToken    %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0StatusCode     0x%10!08x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Retry          %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0DATA PACKET" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Length             %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0SubType            %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0EndpointHandle     0x%10!04x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0StatusCode         0x%10!08x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0RequestId          %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0SequenceNumber     %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Retry              %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PrintMaUsbPacketToLog
+{
+Arg, ItemLong -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Posting read request WDFREQUEST %10!p! to channel %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PostReadRequestToIoChannel
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Read request is being posted on a channel that is uninitialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_PostReadRequestToIoChannel
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0ExAllocatePoolWithTag(readRequestInfo) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_PostReadRequestToIoChannel
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Add %10!p! to PendingReadRequests of %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_PostReadRequestToIoChannel
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Reporting network bytes to MA-USB Handle %10!04X! Channel Handle %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Received bytes on a channel that is being closed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ExAllocatePoolWithTag(readBufferInfo) failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Adding buffer (%10!p!) to pending list" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0BytesRemaining = %10!Iu!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0After IP_IO_CompleteReadRequest - %10!s! %11!Iu!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Leaving IP_IO_CompleteReadRequest with status = %10!s! bytesRemaining = %11!Iu!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ReportReceivedBytesToIoChannel
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Attempting to complete %10!Id! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_CompleteReadRequest
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0IP_SOCKETS_QueueNotificationResponse(MaUsbTransportNotificationForControllerReset) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_GetIoChannelForMaUsbPackets
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Circular buffer has insufficient space left for incoming packet Size = %10!Iu! Packet size = %11!Iu! Current = %12!Iu!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_AddReceivedBytesToCircularBuffer
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Adding %10!Iu! bytes to circular buffer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_AddReceivedBytesToCircularBuffer
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0completing %10!Iu! bytes from circular buffer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_CheckCircularBufferForFullMausbPackets
+{
+Arg, ItemPtr -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Discarding packet(s) received for invalid I/O channel" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_CheckCircularBufferForFullMausbPackets
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Packets received for an invalid I/O channel" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_ProcessReceivedBytes
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Received %10!Iu! bytes for interrupt socket %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_WskReadIrpCompletionRoutine
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Received %10!Iu! bytes for management/control socket %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_WskReadIrpCompletionRoutine
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Received %10!Iu! bytes for bulk socket %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_IO_WskReadIrpCompletionRoutine
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0IP_SOCKETS_QueueNotificationResponse(MaUsbTransportNotificationForTransportDisconnection) failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_WskReadIrpCompletionRoutine
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Zero length data indication, dropping packet" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_SOCKETS_WskReceiveFromEvent
+{
+}
+
+c830420b-7406-3d20-c228-2840aed9f459 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WskReceive failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_IO_PostReadRequestOnSocketAcceptEvent
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[DriverObject: 0x%10!p!] WdfDeviceCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[WDFDEVICE: 0x%10!p!] WdfIoQueueCreate failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[DriverObject: 0x%10!p!] EvtDeviceAdd Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_FDO_EvtDeviceAdd
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[WDFDEVICE: 0x%10!p!] EvtDeviceCleanupCallback" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General FUNC=IP_FDO_EvtDeviceCleanupCallback
+{
+Arg, ItemPtr -- 10
+}
+
+e84b827f-3f02-3156-ee53-13a03b88b7f2 mausbip // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unexpected IOCTL received" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General FUNC=IP_FDO_EvtIoInternalDeviceControl
+{
+}
+

@@ -1,0 +1,585 @@
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=packageWriter HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (*packageWriter=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=packageWriter HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Result (*packageWriter=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Result (*packageWriter=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=xpsFactory HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (*xpsFactory=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=documentType HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Result (*documentType=%10!u!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=S_OK
+{
+Arg, ItemLong -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=packageWriter HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Result (*packageWriter3D=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Result (*packageWriter3D=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+07fd5a04-5adc-3fe3-cd9d-776ab7c49144 XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+1d6680ec-98f8-3fca-1095-d0ac048789fa XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hRetVal
+{
+Arg, ItemHRESULT -- 10
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=jobStatus HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (jobStatus: jobID=%10!u!, currentDocument=%11!d!, currentPage=%12!d!, currentPageTotal=%13!d!, jobCompletion=%14!u!, jobStatus=%15!s!.)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=S_OK
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemHRESULT -- 15
+}
+
+2c34d95d-7578-3295-68a9-9ac13e17d38f XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=S_OK
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pvBuffer HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pcbWritten HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesToWrite=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (*pcbWritten=%10!u!l)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Parameters (dlibMove=%10!I64d!, dwOrigin=%11!d!)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (*plibNewPosition=%10!I64d!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLongLong -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Enter()" //   LEVEL=PIPEFILTER_TRACE_API
+{
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pcbAvailable HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=PIPEFILTER_TRACE_API POINTER=pbEndOfFile HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Parameters (pvBuffer=0x%10!p!, cbBytesRequested=%11!u!l)" //   LEVEL=PIPEFILTER_TRACE_API PARAM=1
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Result (*pcbAvailable=%10!u!l, *pbEndOfFile=%11!u!)" //   LEVEL=PIPEFILTER_TRACE_API RESULT=1 HR=hRet
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+481a808a-43b8-3986-c355-33550879583e build // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Exit (hr=%10!s!)" //   LEVEL=PIPEFILTER_TRACE_API EXIT=1 HR=hRet
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=texturePartName HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=textureData HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=printTicketPartName HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=printTicketData HR=E_INVALIDARG
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4a5a8276-460a-3791-ebda-b5b642ac7f8c XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+b320b51e-f9aa-387e-649d-15fb76ef815a XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=printerName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=documentStream HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0 Parameters (printerName=%10!s!, jobName=%11!s!, outputFileName=%12!s!)" //   LEVEL=XPSPRINT_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Result (*xpsPrintJob=0x%10!p!, *documentStream=0x%11!p!, *printTicketStream=0x%12!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Result (*xpsPrintJob=0x%10!p!, *documentStream=0x%11!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Result (*documentStream=0x%10!p!, *printTicketStream=0x%11!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Result (*documentStream=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 Enter()" //   LEVEL=XPSPRINT_TRACE_API
+{
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=printerName HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=XPSPRINT_TRACE_API POINTER=xpsOMPackageTarget HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Parameters (printerName=%10!s!, jobName=%11!s!, outputFileName=%12!s!)" //   LEVEL=XPSPRINT_TRACE_API PARAM=1
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Result (*xpsPrintJob=0x%10!p!, *xpsOMPackageTarget=0x%11!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Result (*xpsOMPackageTarget=0x%10!p!)" //   LEVEL=XPSPRINT_TRACE_API RESULT=1 HR=hr
+{
+Arg, ItemPtr -- 10
+}
+
+e4a4fd10-a639-3005-9e80-40c3a5b8f5cd XPSPRINT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit (hr=%10!s!)" //   LEVEL=XPSPRINT_TRACE_API EXIT=1 HR=hr
+{
+Arg, ItemHRESULT -- 10
+}
+

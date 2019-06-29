@@ -1,0 +1,413 @@
+3549e57f-24c6-3fc0-5846-ccaee64878c2 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Created device object %10!p! (handle %11!p!) with %12!x!" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+3549e57f-24c6-3fc0-5846-ccaee64878c2 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Deleted device object %10!p! (handle %11!p!)" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3549e57f-24c6-3fc0-5846-ccaee64878c2 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Event \KernelObjects\Cluster.Service.Running.Event still exists. Trying to open existing event" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+3549e57f-24c6-3fc0-5846-ccaee64878c2 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to create \KernelObjects\Cluster.Service.Running.Event. %10!s!" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3549e57f-24c6-3fc0-5846-ccaee64878c2 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[ProcessNotifyRoutine] : Cluster service PID %10!p! is terminating. Setting event" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to allocate memory while creating a tunnel record. Error = %10!x!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[NetftDispatchAddRoute] Route already exists" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[NetftDispatchAddRoute] : AdpCreateAdapter returned status %10!x!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[NetftDispatchQueryRouteCount] : Getting route count for CallingContext." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[NetftDispatchQueryRouteCount] : Getting route count for AllContexts." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[NetftDispatchQueryRoutingInformation] : CallingContext." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0[NetftDispatchQueryRoutingInformation] : AllContexts." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[RegisterClusterService] : Cluster service is already registered. Cluster service PID %10!p!. Current process PID %11!p!. %12!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[RegisterClusterService] : Cluster service PID is %10!p!. Resetting event" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0[NetftSweepRdbWorkerRoutine] : Routes associated with context %10!p! will be deleted when the wait completes" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[NetftSweepRdbWorkerRoutine] : Route cleanup timer fired" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[NetftSweepRdbWorkerRoutine] : Route cleanup event signaled" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0[ClusterServicePreTerminate] : Cluster service PID is %10!p! is about to go down." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[ClusterServicePreTerminate]: Deleting routes associated with calling context." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[ClusterServicePreTerminate]: Couldn't schedule route cleanup. Deleting routes." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[WerCaptureLiveKernelDumpAddSecondaryData] : Adding resource type to secondary data %10!s! %11!s!; Status %12!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemGuid -- 10
+Arg, ItemWString -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[WerCaptureLiveKernelDumpAddSecondaryData] : Secondary data %10!s!; Size 0x%11!x!; Status %12!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemGuid -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[WerCaptureLiveKernelDump] : Start Live Dump. Type %10!s!; Code 0x%11!x!; Parameters (0x%12!p!, 0x%13!p!, 0x%14!p!, 0x%15!p!); AddUserPages %16!c!; Secondary data %17!s!; Size 0x%18!x!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+Arg, ItemChar -- 16
+Arg, ItemGuid -- 17
+Arg, ItemLong -- 18
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0[WerCaptureLiveKernelDump] : Live dump collection is disabled. Current policy %10!I64x!. STATUS_ACCESS_DENIED" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLongLongX -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[WerCaptureLiveKernelDump] : Live dump collection is throttled. STATUS_ACCESS_DENIED" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[WerCaptureLiveKernelDump] : Completed Live Dump. Type %10!s!; Status %11!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[WerCaptureLiveKernelDump] Threshold time is not met. Threshold value %10!x!, Threshold time %11!I64x!, Current time %12!I64x!, Remaining %13!I64x! 100ns" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[NetftDispatchSetLiveDumpPolicy] : Live dump policy %10!I64x!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemLongLongX -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[NetftDispatchSetOperationalVersion] : Operational Version = %10!d!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemLong -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0[NetftDispatchBlockUnblockRoutes] : LocalAddress = %10!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemSockAddr -- 10
+}
+
+5bd632aa-97ea-3cc4-a522-6876a42a4c3a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0[NetftDispatchBlockUnblockRoutes] : RemoteAddress = %10!s!" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemSockAddr -- 10
+}
+
+5cde6f9d-8d9b-3e5b-4c03-40f98a5f5105 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0-----------------------------+ LOG BEGIN +-----------------------------" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+5cde6f9d-8d9b-3e5b-4c03-40f98a5f5105 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Driver %10!p! is loading, registry path %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+5cde6f9d-8d9b-3e5b-4c03-40f98a5f5105 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Driver %10!p! failed to register with ETW (status %11!x!)." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_WARNING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5cde6f9d-8d9b-3e5b-4c03-40f98a5f5105 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Driver %10!p! failed initialization with %11!x!" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+7318f525-6a3c-35f3-4dce-ea89550c6e6a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Interface %10!s! was inserted into the system." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemWString -- 10
+}
+
+7318f525-6a3c-35f3-4dce-ea89550c6e6a nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Interface %10!s! was removed from the system." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemWString -- 10
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0The client process (ID 0x%10!p!) was terminated. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Orphaned watchdog for the client process (ID 0x%10!p!). Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0[NetFtCreateLivedumpForWatchdog] : Start Live Dump. Type %10!s!; Code 0x%11!x!; Parameters (0x%12!p!, 0x%13!p!, 0x%14!p!, 0x%15!p!), Flags 0x%16!x!;" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+Arg, ItemLong -- 16
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0[NetFtCreateLivedumpForWatchdog] : Completed Live Dump. Type %10!s!; Status %11!s!" //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0The client process (ID 0x%10!p!) was terminated. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Client process (ID 0x%10!p!) is signaled. Deleting orphaned watchdog. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Watchdog timer timeout for the client process (ID 0x%10!p!). Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Watchdog timer timed out for the client process (ID 0x%10!p!). Client process will be terminated. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Watchdog timer timed out for the client process (ID 0x%10!p!). Will create a livedump, terminate process. Machine will bugcheck if process terminations does not complete in time. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Watchdog timer timed out for the client process (ID 0x%10!p!). The system will be halted. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Watchdog timer timed out for the client process (ID 0x%10!p!). Looking for kd to allow debugging. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+8fc1ddd7-eff7-36c2-386c-371a3dc0fd46 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Watchdog timer timed out for the client process (ID 0x%10!p!). The system will be halted. Watchdog source %11!s!." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemListShort(Default=0,RhsCleanup=1,RhsResourceDeadlockBugcheckNow=2,RhsExceptionFromResource=3,RhsUnhandledException=4,RhsResourceDeadlock=5,RhsResourceTypeDeadlock=6,ClussvcUnhandledException=7,ClussvcBugcheckMessageRecieved=8,ClussvcWatchdogBugcheck=9,ClussvcIsAlive=10) -- 11
+}
+
+b0c8c7b9-1ddb-3315-128a-82f041d3a770 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Route cleanup scheduled while handling IRP_MJ_CLEANUP" //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+b0c8c7b9-1ddb-3315-128a-82f041d3a770 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Device %10!p! is processing Irp %11!p! (%12!s!)." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(IOCTL_NETFT_ADD_ROUTE,IOCTL_NETFT_REMOVE_ROUTE,IOCTL_NETFT_UPDATE_ROUTE,IOCTL_NETFT_QUERY_ROUTE,IOCTL_NETFT_SET_EVENT_MASK,IOCTL_NETFT_GET_NEXT_EVENT,IOCTL_NETFT_QUERY_ROUTE_COUNT,IOCTL_NETFT_QUERY_ROUTING_INFORMATION,IOCTL_NETFT_SET_WATCHDOG_TIMER,IOCTL_NETFT_KEEP_ALIVE,IOCTL_NETFT_INSERT_IP_ADDRESS,IOCTL_NETFT_REMOVE_IP_ADDRESS,IOCTL_NETFT_PROCESS_HALT_NOTIFICATION,IOCTL_NETFT_INSERT_NETBT_INTERFACE,IOCTL_NETFT_REMOVE_NETBT_INTERFACE,IOCTL_NETFT_SET_ROUTE_HISTORY_LENGTH,IOCTL_NETFT_QUERY_ROUTE_HISTORY,IOCTL_NETFT_GET_ROUTE_STATE,IOCTL_NETFT_GET_ROUTE_WEIGHTS,IOCTL_NETFT_REGISTER_CLUSTER_SERVICE,IOCTL_NETFT_WER_CAPTURE_LIVE_KERNEL_DUMP,IOCTL_NETFT_SET_MULTIPLE_PORTS,IOCTL_NETFT_CLUSTER_SERVICE_PRETERMINATE,IOCTL_NETFT_SET_LIVE_DUMP_POLICY,IOCTL_NETFT_SET_OPERATIONAL_VERSION,IOCTL_NETFT_BLOCK_UNBLOCK_ROUTE) -- 12
+}
+
+b0c8c7b9-1ddb-3315-128a-82f041d3a770 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Device %10!p! is processing Irp %11!p! (%12!s!)." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_VERBOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListByte(IRP_MJ_CREATE,IRP_MJ_CREATE_NAMED_PIPE,IRP_MJ_CLOSE,IRP_MJ_READ,IRP_MJ_WRITE,IRP_MJ_QUERY_INFORMATION,IRP_MJ_SET_INFORMATION,IRP_MJ_QUERY_EA,IRP_MJ_SET_EA,IRP_MJ_FLUSH_BUFFERS,IRP_MJ_QUERY_VOLUME_INFORMATION,IRP_MJ_SET_VOLUME_INFORMATION,IRP_MJ_DIRECTORY_CONTROL,IRP_MJ_FILE_SYSTEM_CONTROL,IRP_MJ_DEVICE_CONTROL,IRP_MJ_INTERNAL_DEVICE_CONTROL,IRP_MJ_SHUTDOWN,IRP_MJ_LOCK_CONTROL,IRP_MJ_CLEANUP,IRP_MJ_CREATE_MAILSLOT,IRP_MJ_QUERY_SECURITY,IRP_MJ_SET_SECURITY,IRP_MJ_POWER,IRP_MJ_SYSTEM_CONTROL,IRP_MJ_DEVICE_CHANGE,IRP_MJ_QUERY_QUOTA,IRP_MJ_SET_QUOTA,IRP_MJ_PNP) -- 12
+}
+
+b0c8c7b9-1ddb-3315-128a-82f041d3a770 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device %10!p! failed the Irp %11!p! (%12!s!) with %13!x!." //   COMPID=NETFT_IOCTL LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListByte(IRP_MJ_CREATE,IRP_MJ_CREATE_NAMED_PIPE,IRP_MJ_CLOSE,IRP_MJ_READ,IRP_MJ_WRITE,IRP_MJ_QUERY_INFORMATION,IRP_MJ_SET_INFORMATION,IRP_MJ_QUERY_EA,IRP_MJ_SET_EA,IRP_MJ_FLUSH_BUFFERS,IRP_MJ_QUERY_VOLUME_INFORMATION,IRP_MJ_SET_VOLUME_INFORMATION,IRP_MJ_DIRECTORY_CONTROL,IRP_MJ_FILE_SYSTEM_CONTROL,IRP_MJ_DEVICE_CONTROL,IRP_MJ_INTERNAL_DEVICE_CONTROL,IRP_MJ_SHUTDOWN,IRP_MJ_LOCK_CONTROL,IRP_MJ_CLEANUP,IRP_MJ_CREATE_MAILSLOT,IRP_MJ_QUERY_SECURITY,IRP_MJ_SET_SECURITY,IRP_MJ_POWER,IRP_MJ_SYSTEM_CONTROL,IRP_MJ_DEVICE_CHANGE,IRP_MJ_QUERY_QUOTA,IRP_MJ_SET_QUOTA,IRP_MJ_PNP) -- 12
+Arg, ItemLong -- 13
+}
+
+b651a654-89eb-3849-6f49-31ae570e4a28 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Starvation threshold reached. Wait for event delivery terminated." //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_WARNING
+{
+}
+
+b651a654-89eb-3849-6f49-31ae570e4a28 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Pending event IRP %10!p! is being cancelled." //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+dc827d0f-25a6-3850-75c1-943b4173f790 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to allocate entry for %10!x! event" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+dc827d0f-25a6-3850-75c1-943b4173f790 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Invalid event type specified (%10!x! event)." //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Initializing NDIS miniport %10!p!" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Initialized NDIS miniport %10!p!. (miniport adapter: %11!p!)" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Initialize NDIS miniport %10!p! failed with %11!x!" //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Miniport adapter %10!p! halted." //   COMPID=NETFT_PNP LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0NDIS attempted to cancel send operation" //   COMPID=NETFT_SEND LEVEL=TRACE_LEVEL_WARNING
+{
+}
+
+dcf5cab1-a1a2-3386-9781-4ae338269c07 nt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Driver %10!p! unloaded." //   COMPID=NETFT_INIT LEVEL=TRACE_LEVEL_INFORMATION
+{
+Arg, ItemPtr -- 10
+}
+

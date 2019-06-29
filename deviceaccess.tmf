@@ -1,0 +1,3151 @@
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceAccessConsent::CallConsentProviders called" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceAccessConsent::CallConsentProviders: RegOpenKeyEx of %10!s! failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceAccessConsent::CallConsentProviders: GetKeyArrayFromRegistry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceAccessConsent::CallConsentProviders: No consent providers registered. Returning S_OK. Treat as S_OK (Access Granted)" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceAccessConsent::CallConsentProviders: No registered consent provider was able to handle the request. Treat as S_OK (Access Granted)" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceAccessConsent::CallConsentProviders: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceAccessConsent::ConsentCheck called with Id = %10!s!, Type = %11!s!, PackageSid = %12!s!, UserSid = %13!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentType) -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceAccessConsent::ConsentCheck: App is exempt from user consent" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceAccessConsent::ConsentCheck: IsCurrentUserDsma failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceAccessConsent::ConsentCheck: App is MUA = %10!s!, Require consent from all users for MUA = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+Arg, ItemListLong(false,true) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceAccessConsent::ConsentCheck: UMgrEnumerateSessionUsers failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceAccessConsent::ConsentCheck: UMgrEnumerateSessionUsers returned %10!u! users" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceAccessConsent::ConsentCheck: UMgrQueryUserToken failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceAccessConsent::ConsentCheck: ConsentCheckForUser failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceAccessConsent::ConsentCheck: User %10!s! consent is %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceAccessConsent::ConsentCheck: GetDerivedUserSID failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeviceAccessConsent::ConsentCheck: UMgrQueryUserContextFromSid failed, hr = %10!s!. Continuing without the userContextToken" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeviceAccessConsent::ConsentCheck: ConsentCheckForUser failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0DeviceAccessConsent::ConsentCheck: User %10!s! consent is %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceAccessConsent::ConsentCheck: Need to prompt user %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceAccessConsent::ConsentCheck: Entering consent prompt queue" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceAccessConsent::ConsentCheck: Had to wait for another outstanding consent prompt. Calling CheckConsentForUser again in case something changed." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0DeviceAccessConsent::ConsentCheck: ConsentCheckForUser failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0DeviceAccessConsent::ConsentCheck: User %10!s! consent is %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0DeviceAccessConsent::ConsentCheck: Calling consent providers with User = %10!s!, PackageSid = %11!s!, Id = %12!s!, PID:TID = %13!u!:%14!u!, background = %15!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemListLong(false,true) -- 15
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceAccessConsent::ConsentCheck: CallConsentProviders failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceAccessConsent::ConsentCheck: Persisting prompt response of %10!s! for..." //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentValue) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0DeviceAccessConsent::ConsentCheck: OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0... %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceAccessConsent::ConsentCheck: UpdateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0... %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0DeviceAccessConsent::ConsentCheck: UpdateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceAccessConsent::ConsentCheck: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceAccessConsent::ConsentCheckForUser called with UserSid = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceAccessConsent::ConsentCheckForUser: Check consent store requested" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceAccessConsent::ConsentCheckForUser: OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0DeviceAccessConsent::ConsentCheckForUser: MigrateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DeviceAccessConsent::ConsentCheckForUser: GetConsent didn't find an entry, creating one" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0DeviceAccessConsent::ConsentCheckForUser: CreateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceAccessConsent::ConsentCheckForUser: GetConsent failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceAccessConsent::ConsentCheckForUser: GetConsent failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceAccessConsent::ConsentCheckForUser: Consent value is %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentValue) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceAccessConsent::ConsentCheckForUser: MakeStringCopy of consent name failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0DeviceAccessConsent::ConsentCheckForUser: Consent Prompt UI disabled. Treat as ConsentValueAllow auto response." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceAccessConsent::ConsentCheckForUser: Auto prompt response of %10!s! specified" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentValue) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DeviceAccessConsent::ConsentCheckForUser: Persisting auto prompt response of %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentValue) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceAccessConsent::ConsentCheckForUser: UpdateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0DeviceAccessConsent::ConsentCheckForUser returning with hr = %10!s!, ConsentValue = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0DeviceAccessConsent::GetConsent: Called with PackageSid %10!s!, UserSid = %11!s!, ConsentId = %12!s!, EffectiveConsent = %13!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemListLong(false,true) -- 13
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0DeviceAccessConsent::GetConsent: CConsentStore::OpenStore for per-app store failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0DeviceAccessConsent::GetConsent: CConsentStore::GetConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0DeviceAccessConsent::GetConsent: GetPolicyForConsentTypeAndId failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0DeviceAccessConsent::GetConsent: Consent policy for this consent is %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentPolicy) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0DeviceAccessConsent::GetConsent: Consent value being changed from %10!s! to %11!s! due to policy (consent store is NOT being updated)" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(DeviceAccessConsentValue) -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0DeviceAccessConsent::GetConsent: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0DeviceAccessConsent::GetConsentList: Called with PackageSid %10!s!, UserSid = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0DeviceAccessConsent::GetConsentList: GetPolicyForConsentTypeAndId failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0DeviceAccessConsent::GetConsentList: Consent %10!s! value being changed from %11!s! to %12!s! due to policy (consent store is NOT being updated)" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentValue) -- 11
+Arg, ItemEnum(DeviceAccessConsentValue) -- 12
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0DeviceAccessConsent::GetConsentList: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0DeviceAccessConsent::ConsentResponse called with %10!s! for %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemEnum(ConsentProviderResponse) -- 10
+Arg, ItemWString -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0DeviceAccessConsent::ConsentResponse: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0DeviceAccessConsent::CallConsentProvider called with provider guid %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0DeviceAccessConsent::CallConsentProvider: CoCreateInstance for %10!s! failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0DeviceAccessConsent::CallConsentProvider: RequestConsentResponse failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0CConsentCallout::CallConsentProvider: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0DeviceAccessConsent::GetUserFromContextToken: GetActivationFactory of '%10!s!' failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0DeviceAccessConsent::GetUserFromContextToken: IUserManagerStatics QI for ISignInStateManager failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0DeviceAccessConsent::GetUserFromContextToken: GetUserForContext failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0DeviceAccessConsent::IsChildAccount called" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0DeviceAccessConsent::IsChildAccount: ActivateInstance of 'Windows.ApplicationModel.Privacy.Internal.DeviceAccessBrokerExtension' failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0DeviceAccessConsent::IsChildAccount: GetUserFromContextToken failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0DeviceAccessConsent::IsChildAccount: CanShowConsentUIForUser failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0CConsentCallout::IsChildAccount: returning with %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0DeviceAccessConsent::IsExemptFromConsent: IsAppExplicitlyExempt returned that app is exempt from consent" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0DeviceAccessConsent::IsExemptFromConsent: MatchAppByCapability cloudExperienceHost succeeded. Exempt from user consent." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DeviceAccessConsent::IsExemptFromConsent: MatchAppByCapability shellExperience failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0DeviceAccessConsent::IsExemptFromConsent: App is running on Xbox and has 'shellExperience' capability. Exempt from user consent." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0DeviceAccessConsent::IsExemptFromConsent: IsEraOrSraXboxApp failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0DeviceAccessConsent::IsExemptFromConsent: App is ERA or SRA. Exempt from user consent." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0DeviceAccessConsent::IsExemptFromConsent: IsXboxUwaGame failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0DeviceAccessConsent::GetApplicableExemptions: App is UWA Game on Xbox. Exempt from user consent." //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DeviceAccessConsent::NotifyUserConsentBlocked called" //   LEVEL=WPP_INFO
+{
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0DeviceAccessConsent::NotifyUserConsentBlocked: ActivateInstance of 'Windows.ApplicationModel.Privacy.Internal.DeviceAccessBrokerExtension' failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0DeviceAccessConsent::NotifyUserConsentBlocked: GetUserFromContextToken failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0DeviceAccessConsent::NotifyUserConsentBlocked: ShowConsentBlockedUiForUser failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0DeviceAccessConsent::NotifyUserConsentBlocked: BlockOnCompletion failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3e94b821-63d3-3939-8b34-31ba18ea415a DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0CConsentCallout::NotifyUserConsentBlocked: returning with %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+4ee17e01-c53b-3d60-08b8-d06c1cde405b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceBackground: Adding completion handler." //   LEVEL=WPP_INFO
+{
+}
+
+4ee17e01-c53b-3d60-08b8-d06c1cde405b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceBackground: Retrieving completion handler." //   LEVEL=WPP_INFO
+{
+}
+
+4ee17e01-c53b-3d60-08b8-d06c1cde405b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceBackground: Calling cancel on async." //   LEVEL=WPP_INFO
+{
+}
+
+4ee17e01-c53b-3d60-08b8-d06c1cde405b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceBackground: Status %10!s! and result %11!d! retrieving results." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemLong -- 11
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceBackground: Cannot trigger a task while another task is outanding for PID %10!d!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceBackground: Creating background client: %10!s! %11!s! %12!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceBackground: Beginning background task for client %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceBackground: Ending background task for client %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceBackground: Task was active, cancelling." //   LEVEL=WPP_INFO
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceBackground: Task was active, ending." //   LEVEL=WPP_INFO
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceBackground: Task was previously cancelled." //   LEVEL=WPP_INFO
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceBackground: Invalid newState for end call: %10!d!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceBackground: Client %10!s! missing capability for background." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceBackground: DeviceUse background capability not present." //   LEVEL=WPP_ERROR
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceBackground: Interface %10!s! does not support background use." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceBackground: Device %10!s! not present." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceBackground: Failed access check for sync with 0x%10!s!. (%11!s! - %12!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemEnum(DeviceBackgroundAccessDenyReason) -- 11
+Arg, ItemEnum(DeviceTriggerResult) -- 12
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceBackground: DeviceServicing background capability not present." //   LEVEL=WPP_ERROR
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceBackground: Insufficient battery for firmware update." //   LEVEL=WPP_ERROR
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceBackground: Failed access check for sync with %10!s!. (%11!s! - %12!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemEnum(DeviceBackgroundAccessDenyReason) -- 11
+Arg, ItemEnum(DeviceTriggerResult) -- 12
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeviceBackground: Max number of allowed tasks reached: %10!d!. (%11!s! - %12!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemEnum(DeviceBackgroundAccessDenyReason) -- 11
+Arg, ItemEnum(DeviceTriggerResult) -- 12
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeviceBackground: Requesting async work for client: %10!s!, path %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0DeviceBackground: Policy check failed with result %10!d!." //   LEVEL=WPP_WARNING
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceBackground: Failed to set condition for task: %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceBackground: Successfully requested work for client %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceBackground: Failed requesting work for client %10!s!, hr %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Checking for active background task for PID %10!d!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Found active background task for PID %10!d!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0DeviceBackground: Found background client info for package %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceBackground: Found background client info for package %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceBackground: Retrieving background client for host PID %10!d!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0DeviceBackground: No background client found for PID %10!d!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceBackground: Process %10!d! has keepalive count %11!d! at tick %12!I64x!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongX -- 12
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceBackground: Starting policy thread at tick count %10!I64x!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceBackground: Host process for %10!s! is gone, active task being removed." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceBackground: Failed active check for process for %10!s! with %11!s!, task being removed." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0DeviceBackground: Task for process %10!s! has exceeded time limit, cancelling." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Activity check failed but process being debugged." //   LEVEL=WPP_WARNING
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Activity check failed.  Cancelling task." //   LEVEL=WPP_WARNING
+{
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceBackground: Policy thread failed with error %10!d! (GLE %11!d!)." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceBackground: Create Device Trigger entered (type %10!d!)." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceBackground: Event for %10!s! already exists, retrieving." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceBackground: Create Device Trigger failed with %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0DeviceBackground: Requesting Device Operation (type %10!d!)" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+52107158-597c-3fa5-c589-79a62b6f5a36 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceBackground: Requesting Device Operation failed with %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0OpenDeviceFromInterfacePath: Opening handle for instance path %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0OpenDeviceFromInterfacePath: Client is appcontainer.  Calling into broker." //   LEVEL=WPP_INFO
+{
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0OpenDeviceFromInterfacePath: Broker call failed with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0OpenDeviceFromInterfacePath: Client is not appcontainer.  Calling CreateFile directly." //   LEVEL=WPP_INFO
+{
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0OpenDeviceFromInterfacePath: Call finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0OpenRelativePathOnDevice: Calling with handle %10!d!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0OpenRelativePathOnDevice: Finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0OpenFilePathOnDevice: Calling with path %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0OpenFilePathOnDevice: Client is not appcontainer.  Calling CreateFile directly." //   LEVEL=WPP_INFO
+{
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0OpenFilePath: Finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0BrokeredOpenCommPort: Opening Comm Port %10!u!, desired access ox%11!x!, flags and attributes 0x%12!x!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0BrokeredOpenCommPort: Client is NOT appcontainer" //   LEVEL=WPP_INFO
+{
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0BrokeredOpenCommPort: Client is appcontainer.  Calling into broker." //   LEVEL=WPP_INFO
+{
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0BrokeredOpenCommPort: Broker call failed with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0BrokeredOpenCommPort: Call finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+56969fef-80fe-3337-59c8-b1ec72bd0bca DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0BrokeredOpenCommPort: failed, setting last error to %10!d!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6fd73229-c2da-3655-2567-1c6254c4aa70 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0IDeviceIoControl: Sending synchronous IOCTL with control code %10!x!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+6fd73229-c2da-3655-2567-1c6254c4aa70 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IDeviceIoControl: Received status %10!s! for synchronous IOCTL." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+6fd73229-c2da-3655-2567-1c6254c4aa70 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0IDeviceIoControl: Sending asynchronous IOCTL with control code %10!x!." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+6fd73229-c2da-3655-2567-1c6254c4aa70 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0IDeviceIoControl: Received status %10!s! for asynchronous IOCTL." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceBroker: Opening handle for instance path %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0DeviceInterfaceAccessCheck: Found package "%10!s!" in privileged list; not a match." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0DeviceBroker::CheckUnrestrictedCapabilityAccess: Matching unrestricted capability found: %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceBroker: Failed opening handle for instance path %10!s! with hr %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceBroker: Failed access check with hr %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceBroker: Successfully brokered handle." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceBroker: Exiting OpenDeviceFromInterfacePath with hr %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceBroker: Opening handle for comm port %10!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceBroker: Failed opening handle for commm port %10!s! with hr %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceBroker: Successfully brokered handle for %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceBroker: Exiting OpenCommPortWithCallingThread with hr %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceBroker: Successfully brokered file handle." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceBroker: Exiting OpenFilePathOnDevice with hr %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceBroker::AepAccessCheck: Called" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceBroker::AepAccessCheck: Detected running on Xbox. This API is hard blocked on Xbox currently" //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceBroker::AepAccessCheck: Invalid Object Type %10!d!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceBroker::AepAccessCheck: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceBroker::AepAccessCheck GetPropertiesFromAepService Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeviceBroker::AepAccessCheck: CheckTokenForCapability Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeviceBroker::AepAccessCheck GetCapabilityHandlerForClass Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0DeviceInterfaceAccessCheck: Registry key for app %10!s! not found, passing null." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceInterfaceAccessCheck: Failed opening registry key for app with hr %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceBroker::AepAccessCheck: CapabilityHandler AccessCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceBroker::AepAccessCheck: Caller is AppContainer. Treating input as untrusted." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0DeviceBroker::AepAccessCheck: initialValue != ConsentValuePrompt. Failing since we can't trust other inputs from AppContainer." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0DeviceBroker::AepAccessCheck: Aep Friendly Name not provided (or wasn't trusted). Retrieve name of AEP." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0DeviceBroker::AepAccessCheck GetAepFriendlyName Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceBroker::AepAccessCheck: Checking App token for %10!s! capability" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceBroker::AepAccessCheck: CheckTokenForCapabilityReportFailures Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0DeviceBroker::AepAccessCheck: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DeviceBroker::AepAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: Called" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: Checking App token for %10!s! capability" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: CheckTokenForCapability Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceBroker::LooselyCoupledDeviceAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceBroker::BroadcastAccessCheck: Called" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0DeviceBroker::BroadcastAccessCheck: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DeviceBroker::BroadcastAccessCheck: Checking App token for the broadcast capability" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0DeviceBroker::BroadcastAccessCheck: CheckTokenForCapability Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceBroker::BroadcastAccessCheck: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceBroker::BroadcastAccessCheck: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceBroker::SoftwareCapabilityAccessCheck: Called with GUID = %10!s!, PID = %11!u!, TID = %12!u!, SID = %13!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceBroker::SoftwareCapabilityAccessCheck: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0DeviceBroker::SoftwareCapabilityAccessCheck: Caller is AppContainer. Can't use the passed package SID, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceBroker::SoftwareCapabilityAccessCheck: Caller is AppContainer. Treating input as untrusted." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DeviceBroker::SoftwareCapabilityAccessCheck: Checking App token for %10!s! capability" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceBroker::SoftwareCapabilityAccessCheck: CheckTokenForCapability Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0DeviceBroker::SoftwareCapabilityAccessCheck: CheckClassForProperty failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0DeviceBroker::SoftwareCapabilityAccessCheck: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0DeviceBroker::SoftwareCapabilityAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0DeviceBroker: Create called with invalid path %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0DeviceBroker: Create called with invalid flags %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck:  Entering for class GUID %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: CheckUnrestrictedCapabilityAccess failed, hr = %10!s!" //   LEVEL=WPP_WARNING
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: App has unrestricted access from a capability" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Current client is not AppContainer, return success." //   LEVEL=WPP_WARNING
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: App has LowLevelDevices capability." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Enabling servicing mode for privileged app." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Must be in the foreground to perform this operation." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Policy handler detects that the app is in the foreground." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Must be in the foreground to perform this operation." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Cannot check requestor privilege because no device interface was provided" //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: App has LowLevelDevices capability." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: Opening restricted interface; checking for AppID match." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck bridging current request with Location" //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck Failed SensorCore database append, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0DeviceBroker::InternalDeviceInterfaceAccessCheck Failed SensorCore passthrough, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0DeviceAccessConsent::InternalDeviceInterfaceAccessCheck: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0DeviceInterfaceAccessCheck: Failed getting container info for path %10!s! with hr %11!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0DeviceInterfaceAccessCheck: Failed to copy ModelId %10!s! for path %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0DeviceInterfaceAccessCheck: Failed to copy AepId %10!s! for path %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0DeviceInterfaceAccessCheck: Failed to copy Name %10!s! for path %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0DeviceInterfaceAccessCheck: Got container info: ModelId %10!s!, AepId %11!s!, Name %12!s!, %13!s! system container." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Cannot use an interface of this class for custom device access." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DeviceInterfaceAccessCheck: The interface being accessed must have restricted property set.  Failing call with hr %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Capability handler registered, treating as per-model." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0No interface path provided for per-model brokering." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Non-native class has a capability handler registered." //   LEVEL=WPP_ERROR
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0DeviceInterfaceAccessCheck: Registry key for app %10!s! not found, passing null." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0DeviceInterfaceAccessCheck: Failed opening registry key for app with hr %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DeviceInterfaceAccessCheck: Failed calling capability handler with hr %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0DeviceInterfaceAccessCheck: Capability handler blocked access to device %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0DeviceInterfaceAccessCheck: Failed getting restricted property for device interface path %10!s! with hr %11!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0DeviceInterfaceAccessCheck: No model ID or AEP ID present for device interface path %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0DeviceInterfaceAccessCheck: Checking for package "%10!s!" in privileged list for path %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0DeviceInterfaceAccessCheck: Container for path %10!s! is %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0DeviceInterfaceAccessCheck: Found privileged app list." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0DeviceInterfaceAccessCheck: All apps marked allowed." //   LEVEL=WPP_INFO
+{
+}
+
+922058d5-3c52-3804-7f1d-daffb191d5ae DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0DeviceInterfaceAccessCheck: Found package match." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceAssociationCallbackPrivate::RuntimeClassInitialize CoCreateInstance CLSID_OSTaskCompletion failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0DeviceAssociationBrokerPrivate::WriteCeremonyData: DafStartWriteCeremonyData failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0DeviceAssociationBrokerPrivate::WriteCeremonyData: CoWaitForMultipleHandles failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0DeviceAssociationBrokerPrivate::WriteCeremonyData: DafStartWriteCeremonyData async operation failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0DeviceAssociationBrokerPrivate::ConfirmOnlyAssociationComplete: Called with bAcceptPairing = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0DeviceAssociationBrokerPrivate::ConfirmOnlyAssociationComplete: Calling DafStartFinalize" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0DeviceAssociationBrokerPrivate::ConfirmOnlyAssociationComplete: DafStartFinalize failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0DeviceAssociationBrokerPrivate::ConfirmOnlyAssociationComplete: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0DeviceAssociationBrokerPrivate::DisplayPinAssociationComplete: Called with bAcceptPairing = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0DeviceAssociationBrokerPrivate::DisplayPinAssociationComplete: Calling DafStartFinalize" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0DeviceAssociationBrokerPrivate::DisplayPinAssociationComplete: DafStartFinalize failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceAssociationCallbackPrivate::RuntimeClassInitialize IOSTaskCompletion::BeginTask failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0DeviceAssociationBrokerPrivate::DisplayPinAssociationComplete: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: Called with bAcceptPairing = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: Failed to copy PIN, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: WriteCeremonyData failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: Calling DafStartFinalize" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: DafStartFinalize failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0DeviceAssociationBrokerPrivate::ProvidePinAssociationComplete: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0DeviceAssociationBrokerPrivate::ConfirmPinMatchAssociationComplete: Called with bAcceptPairing = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0DeviceAssociationBrokerPrivate::ConfirmPinMatchAssociationComplete: Calling DafStartFinalize" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0DeviceAssociationBrokerPrivate::ConfirmPinMatchAssociationComplete: DafStartFinalize failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceAssociationCallbackPrivate::OnAssociationCompleted: Called with bAssociationSucceeded = %10!s! for AEP %11!s!, hr = %12!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0DeviceAssociationBrokerPrivate::ConfirmPinMatchAssociationComplete: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: Called with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: No ceremonies were returned by the provider." //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: Calling DafSelectCeremony with ceremony = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemGuid -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: DafSelectCeremony failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: HandleCeremony failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0DeviceAssociationBrokerPrivate::EnumCeremoniesCompleteCallback: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0DeviceAssociationBrokerPrivate::CeremonyReadCallback: Called with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0DeviceAssociationBrokerPrivate::CeremonyWriteCallback: Called with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0DeviceAssociationBrokerPrivate::AssociateFinalizeCompleteCallback: Called with Associated = %10!s!, hr = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceAssociationBroker::OnAssociationCompleted: Pre-rolling consent for AEP to ConsentValueAllow" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0DeviceAssociationBrokerPrivate::AssociateFinalizeCompleteCallback: DafStartDeviceStatusNotification failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0DeviceAssociationBrokerPrivate::AssociateFinalizeCompleteCallback: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0DeviceAssociationBrokerPrivate::AssociateDeviceStatusCallback: Called with Status = %10!u!, hr = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0DeviceAssociationBrokerPrivate::AssociateDeviceStatusCallback: Calling AssociateInternalCleanup" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0DeviceAssociationBrokerPrivate::AssociateInternalCleanup: DafCloseAssociationContext failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0DeviceAssociationBrokerPrivate::DisassociationCompleteCallback: Called with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceAssociationCallbackPrivate::OnAssociationCompleted CConsentStore::OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceAssociationCallbackPrivate::OnAssociationCompleted UpdateConsentForPackage failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceAssociationCallbackPrivate::OnReceivedDeviceStatus: Called with deviceStatus = %10!u!, for AEP %11!s!, hr = %12!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceAssociationCallbackPrivate::~DeviceAssociationCallbackPrivate IOSTaskCompletion::EndTask failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceAssociationBrokerPrivate::Associate: Called with AepId = %10!s!, PID/TID = %11!u!/%12!u!. pClientHandler = %13!p!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceAssociationBrokerPrivate::Associate: IsAepAssociated failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceAssociationBrokerPrivate::Associate: AEP associated state is '%10!s!'" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceAssociationBrokerPrivate::Associate: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceAssociationBrokerPrivate::Associate: Caller is AppContainer. Treating input as untrusted." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceAssociationBrokerPrivate::Associate: Aep Friendly Name not provided (or wasn't trusted). Retrieve name by querying AEP." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceAssociationBrokerPrivate::Associate: DafGetAepFriendlyName Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceAssociationBrokerPrivate::Associate: PackageSid = %10!s!, AepFriendlyName = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeviceAssociationBrokerPrivate::Associate: MakeAndInitialize<DeviceAssociationCallbackPrivate> Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeviceAssociationBrokerPrivate::Associate: DevicePicker isn't open, or SID_DevicePickerBroker isn't available on the SKU; Falling back to next pairing option." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0DeviceAssociationBrokerPrivate::Associate: AssociateUsingDevicePicker Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceAssociationBrokerPrivate::Associate: DeviceDiscoveryAndPairingBroker isn't available on this SKU; Falling back to next pairing option." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceAssociationBrokerPrivate::Associate: AssociateUsingShell Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceAssociationBrokerPrivate::Associate: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0DeviceAssociationBrokerPrivate::Associate: GetApplicationUserModelIdFromToken failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0DeviceAssociationBrokerPrivate::Associate: GetApplicationUserModelIdFromToken failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0DeviceAssociationBrokerPrivate::Associate: GetCeremoniesFromHandlersSupported Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceAssociationBrokerPrivate::Associate: GetCeremoniesFromHandlersSupported Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceAssociationBrokerPrivate::Associate: AssociateInternal Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0DeviceAssociationBrokerPrivate::Associate Exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DeviceAssociationBrokerPrivate::Disassociate: Called with AepId = %10!s!, PID/TID = %11!u!/%12!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceAssociationBrokerPrivate::Disassociate: Disassociation already in progress" //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0DeviceAssociationBrokerPrivate::Disassociate: IsAepAssociated failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0DeviceAssociationBrokerPrivate::Disassociate: AEP associated state is '%10!s!'" //   LEVEL=WPP_INFO
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceAssociationBrokerPrivate::Disassociate: GetCallerAndClientInfo Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceAssociationBrokerPrivate::Disassociate: Caller is AppContainer. Treating input as untrusted." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceAssociationBrokerPrivate::Disassociate: Aep Friendly Name not provided (or wasn't trusted). Retrieve name by querying AEP." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceAssociationBrokerPrivate::Disassociate: GetAepFriendlyName Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0DeviceAssociationBrokerPrivate::Disassociate: PackageSid = %10!s!, AepFriendlyName = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DeviceAssociationBrokerPrivate::Disassociate: ConsentCheck Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0DeviceAssociationBrokerPrivate::Disassociate: DafCreateAssociationContext failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceAssociationBrokerPrivate::Disassociate: DafStartRemoveAssociation failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceAssociationBrokerPrivate::Disassociate: DafCloseAssociationContext failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceAssociationBrokerPrivate::Disassociate Exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker: Called" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker CoCreateInstance for ImmersiveShellBroker failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker GetBroker for SID_DevicePickerBroker failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker CoCreateInstance for ShellServiceHostBrokerProvider failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker GetBroker for SID_DevicePickerBroker failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker Device Picker association failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0DeviceAssociationBrokerPrivate::AssociateUsingDevicePicker: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: Called" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell ActivateInstance for IDeviceDiscoveryAndPairingBroker failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell CoAllowSetForegroundWindow failed with hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell failed to QI for IDeviceDiscoveryAndPairingBroker, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: Calling StartPairingForDeviceAsync" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: StartPairingForDeviceAsync failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: Called with an OOB blob. Calling StartPairingWithDevicePairingDataAsync." //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: DafGetProtocolIdFromAepId failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: StartPairingWithDevicePairingDataAsync failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0DeviceAssociationBrokerPrivate::AssociateUsingShell: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0DeviceAssociationBrokerPrivate::AssociateInternal: Called" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0DeviceAssociationBrokerPrivate::AssociateInternal: Association already in progress" //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0DeviceAssociationBrokerPrivate::AssociateInternal: Calling DafCreateAssociationContext" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0DeviceAssociationBrokerPrivate::AssociateInternal: DafCreateAssociationContext failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0DeviceAssociationBrokerPrivate::AssociateInternal: Called with an OOB blob. Calling DafCreateAssociationContextFromOobBlob" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0DeviceAssociationBrokerPrivate::AssociateInternal: DafGetProtocolIdFromAepId failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0DeviceAssociationBrokerPrivate::AssociateInternal: DafCreateAssociationContextFromOobBlob failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0DeviceAssociationBrokerPrivate::AssociateInternal: Calling DafStartEnumCeremonies" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0DeviceAssociationBrokerPrivate::AssociateInternal: DafStartEnumCeremonies failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0DeviceAssociationBrokerPrivate::AssociateInternal: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Called" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Calling client's ConfirmOnlyAssociationRequested method" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Client's ConfirmOnlyAssociationRequested failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Calling DafStartFinalize" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0DeviceAssociationBrokerPrivate::HandleCeremony: DafStartFinalize failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0DeviceAssociationBrokerPrivate::HandleCeremony: A ceremony that requires a client handler was selected, but we don't have a client handler." //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DeviceAssociationBrokerPrivate::HandleCeremony: ReadCeremonyData failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Ceremony data read doesn't match expected size" //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Calling client's DisplayPinAssociationRequested method" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Client's DisplayPinAssociationRequested failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Calling client's ProvidePinAssociationRequested method" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Client's ProvidePinAssociationRequested failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DeviceAssociationBrokerPrivate::HandleCeremony: ReadCeremonyData failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Ceremony data read doesn't match expected size" //   LEVEL=WPP_ERROR
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Calling client's ConfirmPinMatchAssociationRequested method" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0DeviceAssociationBrokerPrivate::HandleCeremony: Client's ConfirmPinMatchAssociationRequested failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0DeviceAssociationBrokerPrivate::ReadCeremonyData: Called" //   LEVEL=WPP_INFO
+{
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0DeviceAssociationBrokerPrivate::ReadCeremonyData: DafStartReadCeremonyData failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0DeviceAssociationBrokerPrivate::ReadCeremonyData: CoWaitForMultipleHandles failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0DeviceAssociationBrokerPrivate::ReadCeremonyData: DafStartReadCeremonyData async operation failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+aab98f10-880c-33bc-f515-e33b57246d68 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0DeviceAssociationBrokerPrivate::WriteCeremonyData: Called" //   LEVEL=WPP_INFO
+{
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceAssociationBroker::AssociateWithSettings: IDeviceAssociationSettings::GetSettings failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceAssociationBroker::Disassociate called with AepId = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceAssociationBroker::Disassociate: Activating broker and calling IDeviceAssociationBrokerPrivate::Disassociate" //   LEVEL=WPP_INFO
+{
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceAssociationBroker::Disassociate: Failed to activate broker, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceAssociationBroker::Disassociate: IDeviceAssociationBroker::Disassociate failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceAssociationBroker::Disassociate: Call finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceAssociationBroker::Associate: Called with AepId = %10!s!, PID/TID = %11!u!/%12!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceAssociationBroker::Associate: Activating broker and calling IDeviceAssociationBrokerPrivate::Associate" //   LEVEL=WPP_INFO
+{
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceAssociationBroker::Associate: Failed to activate broker, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceAssociationBroker::Associate: CoAllowSetForegroundWindow Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceAssociationBroker::Associate: IDeviceAssociationBrokerPrivate::Associate failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ac642142-0e76-3df7-84e6-0089f4410796 DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceAssociationBroker::Associate: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceAccessPolicyManager::RetrieveConsentList Called with PackageSid %10!s!, UserSid = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0DeviceAccessPolicyManager: RevokeClassAccess called with class %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0CDeviceAccessPolicy: Revocation provider returned HR %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0CDeviceAccessPolicy: Access change provider returned HR %10!s! for revoke call for package %11!s! and class %12!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0CDeviceAccessPolicy: Access change provider returned HR %10!s! for grant call for package %11!s! and class %12!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0DeviceAccessPolicyManager: Failed to revoke path %10!s! for package %11!s! with hr = %12!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0CDeviceAccessPolicy: Revoke of bridged interface path failed HR %10!s! for revoke call for interface %11!s! and package %12!s!. Continuing." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0DeviceAccessPolicyManager: RevokeHandlesForInterfacePath called with path %10!s! for package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0DeviceInterfacePathAccessCheck: Entering with path %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0DeviceInterfacePathAccessCheck: Failed with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0DeviceInterfacePathAccessCheck: Succeeded for path %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceAccessPolicyManager::RetrieveConsentList exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0DeviceInterfaceClassAccessCheck: Entering with class GUID %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0DeviceInterfaceClassAccessCheck: Failed with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0DeviceInterfaceClassAccessCheck: Succeeded for class GUID %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0SetTargetDeviceInterfaceClass: Entering with class %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0SetTargetDeviceInterfaceClass: Finished with hr = %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0CDeviceAccessPolicyCheck::AepAccessCheck: Called with AepId = %10!s!, FriendlyName = %11!s!, initialValue = %12!s!, ReqCapability = %13!s!, PID = %14!u!, TID = %15!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemEnum(DeviceAccessConsentValue) -- 12
+Arg, ItemWString -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0CDeviceAccessPolicyCheck::AepAccessCheck: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0CDeviceAccessPolicyCheck::AepAccessCheck: IDeviceAccessPolicyCheckPrivate::AepAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0CDeviceAccessPolicyCheck::AepAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0CDeviceAccessPolicyCheck::LooselyCoupledDeviceAccessCheck: ReqCapability = %10!s!, PID = %11!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceAccessPolicyManager::RetrieveConsent Called for" //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0CDeviceAccessPolicyCheck::LooselyCoupledDeviceAccessCheck: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0CDeviceAccessPolicyCheck::LooselyCoupledDeviceAccessCheck: IDeviceAccessPolicyCheckPrivate::LooselyCoupledDeviceAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0CDeviceAccessPolicyCheck::LooselyCoupledDeviceAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0CDeviceAccessPolicyCheck::BroadcastAccessCheck: PID = %10!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0CDeviceAccessPolicyCheck::BroadcastAccessCheck: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0CDeviceAccessPolicyCheck::BroadcastAccessCheck: IDeviceAccessPolicyCheckPrivate::BroadcastAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0CDeviceAccessPolicyCheck::BroadcastAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0SoftwareCapabilityAccessCheck: Called with GUID = %10!s!, PID = %11!u!, TID = %12!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0SoftwareCapabilityAccessCheck: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0SoftwareCapabilityAccessCheck: IDeviceAccessPolicyCheckPrivate::SoftwareCapabilityAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceAccessPolicyManager::RetrieveConsent exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0SoftwareCapabilityAccessCheck: SoftwareCapabilityAccessCheckByIndirection failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0SoftwareCapabilityAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0SoftwareCapabilityAccessCheckWithPackageSid: Called with GUID = %10!s!, SID = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0SoftwareCapabilityAccessCheckWithPackageSid: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0SoftwareCapabilityAccessCheckWithPackageSid: IDeviceAccessPolicyCheckPrivate::SoftwareCapabilityAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0SoftwareCapabilityAccessCheckWithPackageSid: SoftwareCapabilityAccessCheckWithPackageSidByIndirection failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0SoftwareCapabilityAccessCheckWithPackageSid: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0SoftwareCapabilityAccessCheck: Called with GUID = %10!s!, PID = %11!u!, TID = %12!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0SoftwareCapabilityAccessCheck: ActivateBrokerInstance Failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0SoftwareCapabilityAccessCheck: IDeviceAccessPolicyCheckPrivate::SoftwareCapabilityAccessCheck failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceAccessPolicyManager::RetrieveConsentPolicy Called with PackageSid = %10!s!, UserSid = %11!s!, ConsentType = %12!s!, ConsentId = %13!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemEnum(DeviceAccessConsentType) -- 12
+Arg, ItemWString -- 13
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0SoftwareCapabilityAccessCheck: Call finished with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0DeviceBroker: Failed activating broker with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0DeviceInterfaceAccessCheck: Failed activating broker with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0SoftwareCapabilityAccessCheckByIndirection: Failed RpcRevertToSelf with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0SoftwareCapabilityAccessCheckByIndirection: Failed I_RpcBindingInqLocalClientPID with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0SoftwareCapabilityAccessCheckByIndirection: Invalid dwAppProcessId argument with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0SoftwareCapabilityAccessCheckByIndirection: Failed LoadLibraryExW with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0SoftwareCapabilityAccessCheckByIndirection: Failed GetProcAddress with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0SoftwareCapabilityAccessCheckWithPackageSidByIndirection: Failed LoadLibraryExW with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0SoftwareCapabilityAccessCheckWithPackageSidByIndirection: Failed GetProcAddress with hr = %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceAccessPolicyManager::RetrieveConsentPolicy exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0DeviceAccessPolicyManager: Cannot call from lowbox process." //   LEVEL=WPP_ERROR
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0DeviceAccessPolicyManager: Cannot call from Wow64 process." //   LEVEL=WPP_ERROR
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0DevicePolicy: No background policy handler registered - %10!s!" //   LEVEL=WPP_WARNING
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0DevicePolicy: Found %10!d! registered background policy handlers" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceAccessPolicyManager::IsAnyConsentPolicySet UserSid = %10!s!, ConsentType = %11!s!, ConsentId = %12!s!, OnlyCheckAppPolicy = %13!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemEnum(DeviceAccessConsentType) -- 11
+Arg, ItemWString -- 12
+Arg, ItemListLong(false,true) -- 13
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceAccessPolicyManager::IsAnyConsentPolicySet exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DeviceAccessPolicyManager::AddConsent CConsentStore::OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceAccessPolicyManager::AddConsent CConsentStore::GetConsentEntry returned %10!s!. Won't add entry" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceAccessPolicyManager::AddConsent CConsentStore::CreateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceAccessPolicyManager::AddConsent exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Called with PackageSid %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: GetSessionActiveUserSID failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: GetCurrentUserSID failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Zero classes declared, so deleting the consent store" //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::DeleteStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: IsDsmaSid failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Calling user is DSMA, need to remove package entries for all users that have it" //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: DeletePackageForAllUsers failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: IsDsmaSid failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Declaring %10!u! classes" //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: %10!s! missing curly braces, adding them" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Failed to add curly braces to guid, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Failed to copy guid to fixed guid array, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Failed to copy guid to fixed guid array, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Processing %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Entry already exists. Continue to next one." //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::GetConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Entry doesn't exist. Create it." //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CheckClassForProperty failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CheckClassForProperty failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CheckClassForProperty failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Registering the package for loosely coupled device access." //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Creating loosely coupled entry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CheckClassForProperty failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::CreateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: Removing any non-declared InterfaceClass entries" //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::GetAllConsentEntries failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: %10!s! no longer declared. Deleting it." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid: CConsentStore::DeleteConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0DeviceAccessPolicyManager::DeclareInterfaceClassesForPackageSid exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceAccessPolicyManager::DeclareBackgroundCapabilities Called with PackageSid %10!s!, CapabilityMask = %11!u!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DeviceAccessPolicyManager::DeclareBackgroundCapabilities exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceAccessPolicyManager: RetrieveProcessHandlesUsingInterfaceClass called with GUID %10!s! with package Sid %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0CDeviceAccessPolicy: Found process with PID %10!d! with class %11!s! declared." //   LEVEL=WPP_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0DeviceAccessPolicyManager::UpdateGlobalConsent Called with Consent Id %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0DeviceAccessPolicyManager::UpdateGlobalConsent CConsentStore::OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: CConsentStore::GetConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: UpdateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: Calling GrantClassAccess for GUID %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: GrantClassAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: Calling RevokeClassAccess for GUID %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: RevokeClassAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: Calling GrantOrRevokeModelAccess with Model %10!s! and Revoke = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemListLong(false,true) -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0DeviceAccessPolicyManager::UpdateGlobalConsent: GrantOrRevokeModelAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0DeviceAccessPolicyManager::UpdateGlobalConsent exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0DeviceAccessPolicyManager::UpdateConsentForPackage Called with PackageSid %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0DeviceAccessPolicyManager::UpdateConsentForPackage CConsentStore::OpenStore failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: CConsentStore::GetConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: UpdateConsentEntry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling GrantClassAccess for GUID %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: GrantClassAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling RevokeClassAccess for GUID %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: RevokeClassAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling GrantOrRevokeModelAccess with Grant for model %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: GrantOrRevokeModelAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling GrantOrRevokeModelAccess with Revoke for model %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: GrantOrRevokeModelAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling GrantOrRevokeAepAccess with Grant for AepId %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: GrantOrRevokeAepAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: Calling GrantOrRevokeAepAccess with Revoke for AepId %10!s! and package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0DeviceAccessPolicyManager::UpdateConsentForPackage: GrantOrRevokeAepAccess failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0DeviceAccessPolicyManager::UpdateConsentForPackage exiting with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: Called" //   LEVEL=WPP_INFO
+{
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: RegOpenKeyEx of %10!s! failed, hr = %11!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: GetKeyArrayFromRegistry failed, hr = %10!s!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: Calling CConsentStore::DeleteStore for PackageSid = %10!s!, UserSid = %11!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: CConsentStore::DeleteStore failed, hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0CDeviceAccessPolicyManager::DeletePackageForAllUsers: returning with hr = %10!s!" //   LEVEL=WPP_INFO
+{
+Arg, ItemHRESULT -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0CDeviceAccessPolicy: Revoking based on supplied class %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0CDeviceAccessPolicy: Revoking path %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0CDeviceAccessPolicy: Failed revocation for path %10!s! with error %11!x!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0CDeviceAccessPolicy: Revoking based on supplied path %10!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0CDeviceAccessPolicy: Failed revocation for path %10!s! with error %11!x!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d79f01c7-0861-343c-ebee-5284fff6527e DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0DeviceAccessPolicyManager: RevokeHandlesForClass called with GUID %10!s! for package %11!s!." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+ec701bbb-b642-36b6-bec3-0da183a3781b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceAccessEvents: Failed creating state name: %10!s!." //   LEVEL=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ec701bbb-b642-36b6-bec3-0da183a3781b DeviceAccess // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceAccessEventsServer: Failed publishing state data: 0x%10!x!" //   LEVEL=WPP_ERROR
+{
+Arg, ItemLong -- 10
+}
+

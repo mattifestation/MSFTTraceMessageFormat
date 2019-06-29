@@ -1,0 +1,1177 @@
+0204cb3c-48dd-3789-dd5e-0da818797cf7 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0CoCreateInstance(IDeviceAccessPolicyCheck) failed, HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=IsDeviceBackgroundTaskActiveHelper
+{
+Arg, ItemHRESULT -- 10
+}
+
+0204cb3c-48dd-3789-dd5e-0da818797cf7 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IsDeviceBackgroundTaskActive failed, HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=IsDeviceBackgroundTaskActiveHelper
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unregistering for Pnp notifications" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::~UsbDeviceServer
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unregistered for app state notifications" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::~UsbDeviceServer
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Closing I/O handles for the app so others don't wait indefinitely on opened handles" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::~UsbDeviceServer
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Canceling outstanding I/O" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::Close
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Closing handle to the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::Close
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unable to create the DeviceBroker: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Opening device using the device broker" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Access denied opening device; returning NULL. Possible causes: (1) App manifest USB declaration issue or (2) User denied access to device or (3) Device already in use by an app or desktop application or (4) WinUSB restricted the interface" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to open the device: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to create ThreadpoolIo: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Opening handle to the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Unable to open a handle to the device: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Getting device descriptor from the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Unable to get device descriptor from the device: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Did not receive the full device descriptor: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WinUsb_QueryDeviceInformation failed: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Getting only the configuration descriptor from the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Unable to get configuration descriptor from the device: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Did not receive the full configuration descriptor: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Getting the full configuration descriptor (some of which are interface, endpoint, and custom descriptors)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to get the rest of the descriptors: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::FromId
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Registering of Pnp notifications so we can close device when device is removed and permit safe removal" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to register for Pnp notifications: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Registering of app state change notifications so we can close device when the app suspends (unless opened by device background task)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Unable to register for app state change notifications: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+Arg, ItemHRESULT -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0App state = %10!s!, app currently suspended in this process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+Arg, ItemEnum(_PSM_CURRENT_APP_STATE) -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0App state = %10!s!, app not currently suspended in this process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+Arg, ItemEnum(_PSM_CURRENT_APP_STATE) -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0App is running in foreground, open is OK" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Background task active, open is OK" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitWatchersAndCheckSuspensionRules
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Received notification that device is being removed, so closing device handle" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::PnpNotification
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0App is suspending with a device background task running" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::AppStateNotification
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0App is suspending and device background task is not running, so closing the device handle to free up the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::AppStateNotification
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Unable to find UsbInterface object; creating a new one for interface number 0x%10!X!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::GetUsbInterfaceServer
+{
+Arg, ItemLong -- 10
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDeviceFactory::FromIdAsync
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Spawning async operation to open device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceFactory::FromIdAsync
+{
+}
+
+0afbbcf6-a8ce-3dd9-d3d5-42acf3247edd WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDeviceFactory::FromIdAsync
+{
+}
+
+20716494-f901-318f-1bc0-eaf22e80a5eb WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbSetupPacketFactory::CreateWithEightByteBuffer
+{
+}
+
+20716494-f901-318f-1bc0-eaf22e80a5eb WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Provided buffer is not exactly 8 bytes, it is %10!d! bytes long" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbSetupPacketFactory::CreateWithEightByteBuffer
+{
+Arg, ItemLong -- 10
+}
+
+20716494-f901-318f-1bc0-eaf22e80a5eb WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbSetupPacketFactory::CreateWithEightByteBuffer
+{
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Spawning async operation to do read (EP # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkInPipeServer::ReadAsync
+{
+Arg, ItemLong -- 10
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error reading from the device for EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkInPipeServer::ReadAsync::<lambda_892c61d929401ad0980a9a8844581d94>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Successfully read %10!d! bytes (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkInPipeServer::ReadAsync::<lambda_892c61d929401ad0980a9a8844581d94>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to spawn async operation to do read on EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkInPipeServer::ReadAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Spawning async operation to do write (EP # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkOutPipeServer::WriteAsync
+{
+Arg, ItemLong -- 10
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error writing to the device on EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkOutPipeServer::WriteAsync::<lambda_bf8d581c06f5d9920cd9e139c809a9e4>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Successfully wrote %10!d! bytes (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkOutPipeServer::WriteAsync::<lambda_bf8d581c06f5d9920cd9e139c809a9e4>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to spawn async operation to do write on EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkOutPipeServer::WriteAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Error writing to the device on EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptOutPipeServer::WriteAsync::<lambda_6ea7b28ad9ca156f261348f7d36e5612>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Successfully wrote %10!d! bytes (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptOutPipeServer::WriteAsync::<lambda_6ea7b28ad9ca156f261348f7d36e5612>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+24111b83-1a5f-3844-a5f4-25ce38163288 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to spawn async operation to do write on EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptOutPipeServer::WriteAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%00x%10!02X! is a blocked usb class" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=BlockedClassCheck
+{
+Arg, ItemLong -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Registry key doesn't exist for function: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=AccessCheckForFunction
+{
+Arg, ItemWString -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Registry key doesn't exist for device: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=AccessCheckForFunction
+{
+Arg, ItemWString -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Registery value did not grant access to device: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=AccessCheckForFunction
+{
+Arg, ItemWString -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Registry value does not exist for device: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=AccessCheckForFunction
+{
+Arg, ItemWString -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Registry value %10!d! did not grant access to device: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=AccessCheckForFunction
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to get property (id: %10!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CAPABILITY FUNC=DevGetObjectPropertiesWrapper
+{
+Arg, ItemLong -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Getting UsbInterfaceProperties" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=GetUsbInterfaceProperties
+{
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Checking access permissions to the device: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=CapabilityHandler::AccessCheck
+{
+Arg, ItemWString -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Device is a Device Firmware Update (DFU) class device, the app must be privileged to open it" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=CapabilityHandler::AccessCheck
+{
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0AccessCheck returned with %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=CapabilityHandler::AccessCheck
+{
+Arg, ItemHRESULT -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Checking function type returned with %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=CapabilityHandler::CheckFunctionType
+{
+Arg, ItemHRESULT -- 10
+}
+
+310786cf-bba8-366b-5f7e-f41fe4175cb0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Checking device id returned with %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CAPABILITY FUNC=CapabilityHandler::CheckDeviceId
+{
+Arg, ItemHRESULT -- 10
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Parsing and creating endpoint descriptors (Interface # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Endpoint address 0x%10!x! has no SuperSpeed endpoint companion descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Creating BulkIn endpoint (Interface # %10!d!, EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Creating InterruptIn endpoint (Interface # %10!d!, EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Creating BulkOut endpoint (Interface # %10!d!, EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Creating InterruptOut endpoint (Interface # %10!d!, EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceSettingServer::RuntimeClassInitialize
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Adding interface settings and creating pipes for interface setting 0" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::FinishInit
+{
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Creating pipes for BulkIn endpoints (Interface # %10!d!, setting %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SetupPipes
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Creating pipes for InterruptIn endpoints (Interface # %10!d!, setting %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SetupPipes
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Creating pipes for BulkOut endpoints (Interface # %10!d!, setting %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SetupPipes
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Creating pipes for InterruptOut endpoints (Interface # %10!d!, setting %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SetupPipes
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Spawning async operation to select interface setting %10!d! (Interface # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SelectSettingAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WinUsb_SetCurrentAlternateSetting failed for setting %10!d! (Interface # %11!d!): HR(%12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SelectSettingAsync::<lambda_a693d7ce86438b1b39320005e5c48615>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Successfuly set interface setting %10!d! (Interface # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SelectSettingAsync::<lambda_a693d7ce86438b1b39320005e5c48615>::operator ()
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+3573b05f-748e-39ea-8c27-3dcbec1e9107 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Unable to set interface setting %10!d! (Interface # %11!d!): HR(%12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceServer::SelectSettingAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3f535d56-b2a2-3535-f865-46c7e7bae4c9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to get ActivationFactory for Windows::Foundation::PropertyValue: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceClassSpecifierServer::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+4016512a-870a-3fa3-c70f-78eeea3dbaca WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to create wrapper for WinRT delegate: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UTILITY FUNC=GitDelegate2<struct Windows::Foundation::IAsyncActionCompletedHandler,struct Windows::Foundation::IAsyncAction *,enum ABI::Windows::Foundation::AsyncStatus>::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+4016512a-870a-3fa3-c70f-78eeea3dbaca WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to create wrapper for WinRT delegate: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UTILITY FUNC=GitDelegate2<struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *> *,enum ABI::Windows::Foundation::AsyncStatus>::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+4016512a-870a-3fa3-c70f-78eeea3dbaca WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to create wrapper for WinRT delegate: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UTILITY FUNC=GitDelegate2<struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Windows::Foundation::IAsyncOperation<unsigned int> *,enum ABI::Windows::Foundation::AsyncStatus>::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+4016512a-870a-3fa3-c70f-78eeea3dbaca WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to create wrapper for WinRT delegate: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UTILITY FUNC=GitDelegate2<struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int> *,enum ABI::Windows::Foundation::AsyncStatus>::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+4016512a-870a-3fa3-c70f-78eeea3dbaca WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to create wrapper for WinRT delegate: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_UTILITY FUNC=GitDelegate2<struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int> *,enum ABI::Windows::Foundation::AsyncStatus>::Create
+{
+Arg, ItemHRESULT -- 10
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::add_DataReceived
+{
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0First listener. Entering %10!s! and queuing start I/O (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::add_DataReceived
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Listener add while stopping. Pipe will resume after stop (EP # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::add_DataReceived
+{
+Arg, ItemLong -- 10
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unexpected state %10!s! with 0 listeners (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::add_DataReceived
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::add_DataReceived
+{
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::remove_DataReceived
+{
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0No more listeners. Entering %10!s! and queuing cancel.  (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::remove_DataReceived
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::remove_DataReceived
+{
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Automatically entering %10!s! due to handle closing (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Completed stopping I/O upon allocation error, entering %10!s! (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0I/O is now stopped, entering %10!s! (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Completed stopping I/O. Entering %10!s! due to new listener (EP # %11!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to create Interrupt IN request, entering %10!s! (EP # %11!d!) HR(%12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to create Interrupt IN request, entering %10!s! (EP # %11!d!) HR(%12!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::SendIrpsAndProcessCompletions
+{
+Arg, ItemEnum(Windows::Devices::Usb::InterruptInPingPongState) -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+9db5dbe8-7c76-3ef3-9fdf-8a47e7df3fda WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Unable to do read from device for EP # %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInPipeServer::CompleteIrp
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Creating UsbDescriptors for all descriptors in the configuraiton descriptor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to get configuration descriptor: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+Arg, ItemHRESULT -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0There is no interface descriptor: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+Arg, ItemHRESULT -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Creating all UsbInterfaces" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Getting WinUSB handles to each USB interface" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WinUsb_QueryInterfaceSettings failed for interface index %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WinUsb_GetAssociatedInterface failed for interface index %10!d!: HR(%11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Finished intializing UsbInterfaces" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::InitDescriptorsAndInterfaces
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Transfer blocked because it is attempting to set the address or configuration of the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::IsBlockedControlTransfer
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Transfer blocked because it is attempting to change the remote wake property of the device" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::IsBlockedControlTransfer
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Transfer blocked because it is attempting to set the alternate setting of an interface" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::IsBlockedControlTransfer
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Transfer blocked because it is attempting to change the function suspend state of a function" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::IsBlockedControlTransfer
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Setup Packet does not have a request type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::GetControlTransferValues
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Writing DefaultInterface=0x%10!X! to low byte of wIndex for control transfer targeting DefaultInterface" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::GetControlTransferValues
+{
+Arg, ItemLong -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to get interface number 0x%10!X! for control tranfer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::GetControlTransferValues
+{
+Arg, ItemLong -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Transfer is blocked because it is of a type that is not allowed for an app" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Buffer provided is null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Buffer length is not big enough (%10!d! bytes) to be read for wLength (%11!d! bytes)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Spawning async operation to do the ControlOutTransfer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0An error occured while sending a ControlOutTransfer: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync::<lambda_b10867be9d79e47086171be0a8eb3ef2>::operator ()
+{
+Arg, ItemHRESULT -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Successfuly transferred %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync::<lambda_b10867be9d79e47086171be0a8eb3ef2>::operator ()
+{
+Arg, ItemLong -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Unable to do ControlTransferOut: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlOutTransferAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Buffer provided is null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Buffer capacity is not big enough (%10!d! bytes) to hold requested wLength(%11!d! bytes)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Spawning async operation to do the ControlInTransfer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync
+{
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0An error occured while sending a ControlInTransfer: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync::<lambda_2171888489a784ea9c74479eaaff8a0c>::operator ()
+{
+Arg, ItemHRESULT -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Successfuly transferred %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync::<lambda_2171888489a784ea9c74479eaaff8a0c>::operator ()
+{
+Arg, ItemLong -- 10
+}
+
+a148603f-95b9-3891-0cb8-6cd9aaae7aa0 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Unable to do ControlTransferIn: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDeviceServer::SendControlInTransferAsync
+{
+Arg, ItemHRESULT -- 10
+}
+
+ab9037b1-2ee8-3607-4c8b-f958e5fcadd1 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0No open pipe is associated with this BulkInEndpoint (Endpoint # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkInEndpointDescriptorServer::get_Pipe
+{
+Arg, ItemLong -- 10
+}
+
+ab9037b1-2ee8-3607-4c8b-f958e5fcadd1 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0No open pipe is associated with this BulkOutEndpoint (Endpoint # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbBulkOutEndpointDescriptorServer::get_Pipe
+{
+Arg, ItemLong -- 10
+}
+
+ab9037b1-2ee8-3607-4c8b-f958e5fcadd1 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0No open pipe is associated with this InterruptInEndpoint (Endpoint # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptInEndpointDescriptorServer::get_Pipe
+{
+Arg, ItemLong -- 10
+}
+
+ab9037b1-2ee8-3607-4c8b-f958e5fcadd1 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0No open pipe is associated with this InterruptOutEndpoint (Endpoint # %10!d!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterruptOutEndpointDescriptorServer::get_Pipe
+{
+Arg, ItemLong -- 10
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Cannot write descriptor into provided buffer because the buffer is too small" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDescriptorServer::ReadDescriptorBuffer
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Copying descriptor to provided buffer" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDescriptorServer::ReadDescriptorBuffer
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0 Enter" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to add descriptor to descriptor vector: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptor
+{
+Arg, ItemHRESULT -- 10
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0 Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptors
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Found descriptor whose bLength goes past the end of the buffer, which may contain more than 1 descriptor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptors
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::AddDescriptors
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::FindDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Found matching descriptor with length (%10!u!) and descriptor type (%11!u!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::FindDescriptor
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbDescriptorSetServer::FindDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbConfigurationDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Descriptor to parse is null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbConfigurationDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Descriptor being parsed is not a configuration descriptor, it is %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbConfigurationDescriptorFactory::Parse
+{
+Arg, ItemEnum(Windows::Devices::Usb::DescriptorObjectType) -- 10
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbConfigurationDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterfaceDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Descriptor to parse is null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Descriptor being parsed is not an interface descriptor, it is %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbInterfaceDescriptorFactory::Parse
+{
+Arg, ItemEnum(Windows::Devices::Usb::DescriptorObjectType) -- 10
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbInterfaceDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Descriptor is not a BulkInEndpointDescriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorServer::get_AsBulkInEndpointDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Descriptor is not an InterruptInEndpointDescriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorServer::get_AsInterruptInEndpointDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Descriptor is not a BulkOutEndpointDescriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorServer::get_AsBulkOutEndpointDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Descriptor is not a InterruptOutEndpointDescriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorServer::get_AsInterruptOutEndpointDescriptor
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbEndpointDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Descriptor to parse is null" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Endpoint descriptor length smaller than USB_ENDPOINT_DESCRIPTOR struct" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Descriptor being parsed is not an endpoint descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB FUNC=Windows::Devices::Usb::UsbEndpointDescriptorFactory::Parse
+{
+}
+
+c3394694-9ece-3f7d-94e7-528e86ef9285 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_FUNCTION FUNC=Windows::Devices::Usb::UsbEndpointDescriptorFactory::Parse
+{
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to perform I/O: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=ThreadpoolIoHelper::DoIo
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Calling method to perform I/O" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IO FUNC=ThreadpoolIoHelper::DoIo
+{
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to perform I/O: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=ThreadpoolIoHelper::DoIo
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Canceling any inflight I/O" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IO FUNC=ThreadpoolIoHelper::DoCancel
+{
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not create threadpool IO helper: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::RuntimeClassInitialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad AsyncCompletedHandlerInterface*: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::put_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::get_Completed
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForIBuffer
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const ClearStallAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<class Microsoft::WRL::Details::Nil,struct Windows::Foundation::IAsyncAction,struct Windows::Foundation::IAsyncActionCompletedHandler,struct Microsoft::WRL::AsyncCausalityOptions<&unsigned short const * const SelectSettingAsyncOperationName,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperation<struct Windows::Storage::Streams::IBuffer *>,struct Windows::Foundation::IAsyncOperationCompletedHandler<struct Windows::Storage::Streams::IBuffer *>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<struct Windows::Storage::Streams::IBuffer *,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<struct Windows::Storage::Streams::IBuffer,struct Windows::Foundation::IAsyncOperationWithProgress<unsigned int,unsigned int>,struct Windows::Foundation::IAsyncOperationWithProgressCompletedHandler<unsigned int,unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+
+eaeb89eb-2a92-35ca-2004-3f984b9f06e9 WinRTUsbDevice // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unable to get the results of async operation: HR(%10!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IO FUNC=IoOperation<unsigned int,struct Windows::Foundation::IAsyncOperation<unsigned int>,struct Windows::Foundation::IAsyncOperationCompletedHandler<unsigned int>,struct Microsoft::WRL::AsyncOptions<-1,0,&struct _GUID const GUID_CAUSALITY_WINDOWS_PLATFORM_ID,2> >::GetResultsForBytesTransferred
+{
+Arg, ItemHRESULT -- 10
+}
+

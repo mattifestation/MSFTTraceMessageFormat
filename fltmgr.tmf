@@ -1,0 +1,939 @@
+2f68ee66-e65b-3e0c-8291-ad769f1cd835 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SetupNotify already called for volume (%10!p!) "%11!s!"" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Timed out waiting for listener." //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Port is disconncted: abandoning listener" //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Thread is Terminating." //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Timed out waiting for listener." //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Port is disconncted: abandoning listener" //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Thread is Terminating." //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Found waiter IRP (%10!p!), dequeued it" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Found waiter, but could not map user's buffer, IRP=%10!p!" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Queueing replyWaiter (%10!p!)" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Wait for reply status %10!x!" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Found waiter %10!p!, dequeued it" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Setting reply event" //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0No waiter for reply, messageId: 0x%10!X!" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Allocated %10!p!, enqueueing it (async)" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Dequeued waiter %10!p!" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0FltMgr!FltpInitializeMessagingSupport: Error creating server port object type, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0FltMgr!FltpInitializeMessagingSupport: Error creating connection port object type, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0FltMgr!FltpInitializeMessagingSupport: Error creating msg device object, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0FltMgr!FltpInitializeMessagingSupport: Error creating symbolic link to msg device object, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Setting MessageWaiter event" //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Setting MessageWaiter semaphore" //   LEVEL=GFL_TRACE_MESSAGE
+{
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Cancelling MessageWaiter %10!p!" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+43d7db68-13c1-3e39-f4c0-a88aaf5d509d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Removed MessageWaiter %10!p! from queue" //   LEVEL=GFL_TRACE_MESSAGE
+{
+Arg, ItemPtr -- 10
+}
+
+46566365-5b3f-300f-d36c-51764f569d48 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Error %10!x! initializing verifier for filter: %11!s!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPWString -- 11
+}
+
+46566365-5b3f-300f-d36c-51764f569d48 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Filter "%10!s!" registered at altitude %11!s!" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemPWString -- 10
+Arg, ItemPWString -- 11
+}
+
+46566365-5b3f-300f-d36c-51764f569d48 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Filter "%10!s!" unregistering" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemPWString -- 10
+}
+
+507c1f9a-f85c-376d-c083-7b825ebbe5c9 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Instance Setup Aborted for Filter (%10!p!) "%11!s!", instance (%12!p!) on volume (%13!p!) "%14!s!"" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPWString -- 14
+}
+
+507c1f9a-f85c-376d-c083-7b825ebbe5c9 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Filter (%10!p!) "%11!s!" attached instance (%12!p!) to volume (%13!p!) "%14!s!"" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPWString -- 14
+}
+
+507c1f9a-f85c-376d-c083-7b825ebbe5c9 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0New instance for filter (%10!p!) "%11!s!" at altitude %12!s! for volume %13!p! "%14!s!"" //   LEVEL=GFL_TRACE_INSTANCE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPWString -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPWString -- 14
+}
+
+507c1f9a-f85c-376d-c083-7b825ebbe5c9 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Instance %10!p! for filter (%11!p!) "%12!s!" already exists at altitude %13!s!" //   LEVEL=GFL_TRACE_INSTANCE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemPWString -- 13
+}
+
+507c1f9a-f85c-376d-c083-7b825ebbe5c9 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Filter (%10!p!) "%11!s!" detached instance (%12!p!) from volume (%13!p!) "%14!s!" NotifyFlags=%15!x!" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPWString -- 14
+Arg, ItemLong -- 15
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FltpQueueThrottledWorkItem:    Work=%10!p! QueType=%11!d! Count=%12!d! Limit=%13!d!, QUEUED" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0FltpQueueThrottledWorkItem:    Work=%10!p! QType=%11!d! Count=%12!d! Limit=%13!d!, THROTTLED" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0FltpDequeueThrottledWorkItem:  Work=%10!p! QType=%11!d! Count=%12!d! Limit=%13!d!, UnTHROTTLED" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FltpDequeueThrottledWorkItem:  Work=%10!p! QType=%11!d! Count=%12!d! Limit=%13!d!, UnQUEUED" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0FltpProcessGenericWorkItem:    Work=%10!p! QType=%11!d! FltObj=%12!p! Routine=%13!p! Context=%14!p! IoPriority=%15!d!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FltpProcessDeferredIoWorkItem: Work=%10!p! QType=%11!d! Instnc=%12!p! Routine=%13!p! Context=%14!p! IoPriority=%15!d!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0FltFreeFltWorkItem:        Work=%10!p! QType=%11!d! FltObj=%12!p! Routine=%13!p! Context=%14!p!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0FltFreeDeferredIoWorkItem:     Work=%10!p! QType=%11!d! Instnc=%12!p! Routine=%13!p! Context=%14!p!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0FltQueueGenericWorkItem:       Work=%10!p! QType=%11!d! FltObj=%12!p! Routine=%13!p! Context=%14!p! IoPriority=%15!d!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+}
+
+53b84f71-342c-3caa-8141-93de27a3eb02 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0FltQueueDeferredIoWorkItem:    Work=%10!p! QType=%11!d! Instnc=%12!p! Routine=%13!p! Context=%14!p! IoPriority=%15!d!" //   LEVEL=GFL_TRACE_WORK
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemLong -- 15
+}
+
+54147dd0-0aa0-3f54-8e43-57b805af0f91 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Buffer Swap Detected:      oldB=%10!p! oldMdl=%11!p! newB=%12!p! newMdl=%13!p!" //   LEVEL=GFL_TRACE_BUFFER_SWAPPED
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+54147dd0-0aa0-3f54-8e43-57b805af0f91 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Pending operation:         %10!x!, Irpctrl=%11!p!, callbackNode=%12!p! (%13!s!)" //   LEVEL=GFL_TRACE_PENDING_IRPS
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemString -- 13
+}
+
+55f142a7-a3ea-3487-7751-a80fc61d4cad mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Realloc:    (%10!p!) oldSz=%11!05x! newSz=%12!05x! name: %13!s! " //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemPWString -- 13
+}
+
+55f142a7-a3ea-3487-7751-a80fc61d4cad mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0expanded    "%10!s!" to "%11!s!"" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPWString -- 10
+Arg, ItemPWString -- 11
+}
+
+55f142a7-a3ea-3487-7751-a80fc61d4cad mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0FltpExpandFilePathWorker: Opening name: %10!s! " //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPWString -- 10
+}
+
+55f142a7-a3ea-3487-7751-a80fc61d4cad mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FltpGetNormalizedFileName: Expanding path for fo: %10!p!" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPtr -- 10
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Temporary: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Deleting Node: (%10!p!) Fl=%11!03x!, Use=%12!d! "%13!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemPWString -- 13
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Freeing Node: (%10!p!) "%11!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FltpCreateFileNameInformation: Getting NORMALIZED name for fo: %10!p!" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPtr -- 10
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0FltpCreateFileNameInformation: Getting OPENED name for fo: %10!p!" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPtr -- 10
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FltpCreateFileNameInformation: Getting SHORT name for fo: %10!p!" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPtr -- 10
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Found: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Inserted: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Replaced: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Duplicate: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Temporary: (%10!p!) FO=%11!p!, Fl=%12!03x!, Use=%13!d! "%14!s!"" //   LEVEL=GFL_TRACE_FILE_NAME_CACHING
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPWString -- 14
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0FltReferenceFileNameInformation: %10!p! cnt=%11!d!" //   LEVEL=GFL_TRACE_RELEASE_FILE_NAME
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0FltReleaseFileNameInformation: releasing fni %10!p!" //   LEVEL=GFL_TRACE_RELEASE_FILE_NAME
+{
+Arg, ItemPtr -- 10
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 *FREEING FNI*" //   LEVEL=GFL_TRACE_RELEASE_FILE_NAME
+{
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0" //   LEVEL=GFL_TRACE_RELEASE_FILE_NAME
+{
+}
+
+5ee89fca-7deb-37eb-80c8-e2f6b01f78fc mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0expanded    "%10!s!" to "%11!s!"" //   LEVEL=GFL_TRACE_FILE_NAMES
+{
+Arg, ItemPWString -- 10
+Arg, ItemPWString -- 11
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Attemping Fastio (no lower minifilters) from FltReadFile: Buffer=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Attemping Fastio from FltReadFile: Buffer=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Fastio attempt from FltReadFile failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attemping Fastio (no lower minifilters) from FltWriteFile: Buffer=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Attemping Fastio from FltWriteFile: Buffer=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Fastio attempt from FltWriteFile failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0(No lower minifilters)" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0(Lower minifilter(s) exist)" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Attemping Fastio from FltFastIoMdlRead: MDLChain=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Fastio attempt from FltReadFile failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Attemping Fastio from FltFastIoMdlReadComplete: MDLChain=%10!p!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Fastio attempt from FltFastIoMdlReadComplete failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Attemping Fastio from FltFastIoPrepareMdlWrite: MDLChain=%10!p!, offset=%11!I64x!, length=%12!x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Fastio attempt from FltFastIoPrepareMdlWrite failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Attemping Fastio from FltFastIoMdlWriteComplete: MDLChain=%10!p!, offset=%11!I64x!" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+}
+
+7a571c63-b491-365c-f75e-d69d85cc5d72 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Fastio attempt from FltFastIoMdlWriteComplete failed" //   LEVEL=GFL_TRACE_FLTIO_FAST_IO
+{
+}
+
+7baa659d-04ac-33d3-aa48-009088529df2 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Resumed Pending operation: %10!x!, Irpctrl=%11!p!, callbackNode=%12!p! (%13!s!)" //   LEVEL=GFL_TRACE_PENDING_IRPS
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemString -- 13
+}
+
+a68d2765-733d-33cc-cec7-cd56ff960ddb mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FltpGetIoTargetFromFileObject: wrong type of device object passed in: devobj %10!p!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DriverEntry: Error EtwRegister, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DriverEntry: Error creating device, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0DriverEntry: Error creating symbolic link for control device, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DriverEntry: Failed query for perf trace routines, status=%10!x!" //   LEVEL=GFL_TRACE_WARNING
+{
+Arg, ItemLong -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DriverEntry: Error Initializing Messaging Support, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!   DO=%11!p! Vol=%12!p! "%13!s!" (%14!s!)" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPWString -- 13
+Arg, ItemString -- 14
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Posting Irp %10!p! major=%11!d!" //   LEVEL=GFL_TRACE_IRP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Posting Irp %10!p!" //   LEVEL=GFL_TRACE_IRP
+{
+Arg, ItemPtr -- 10
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Calling InstanceSetup on CreateIrp" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Mount volume failure for   DO=%10!p! Vol=%11!p! "%12!s!", status=%13!08x!            AttachedToDO=%14!p! FsCDO=%15!p!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemLong -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceObject %10!p!,  Loading File System, Detaching from %11!s!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Detaching from recognizer  DO=%10!p! Vol=%11!p! "%12!s!", status=%13!08x!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemLong -- 13
+}
+
+a8161028-6bb6-3781-6397-3d3c136dc770 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Calling InstanceSetup on FastIoQueryOpen" //   LEVEL=GFL_TRACE_SETUP_TEARDOWN_NOTIFIES
+{
+}
+
+ad0a512b-3ee3-381b-9f0f-b469b3aa178d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Posting --- Irp:%10!p! MajorFunction:%11!d!" //   LEVEL=GFL_TRACE_POST_OPERATION_PROCESSING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ad0a512b-3ee3-381b-9f0f-b469b3aa178d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Could not post -- Irp:%10!p! MajorFunction:%11!d!" //   LEVEL=GFL_TRACE_POST_OPERATION_PROCESSING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ad0a512b-3ee3-381b-9f0f-b469b3aa178d mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Processing inline -- Irp:%10!p! MajorFunction: %11!d!" //   LEVEL=GFL_TRACE_POST_OPERATION_PROCESSING
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FltpAttachFrame: Error registering FS change notification, status=%10!x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0FltpAttachFrame: Error 0x%10!X! attaching to device %11!s!" //   LEVEL=GFL_TRACE_WARNING
+{
+Arg, ItemLong -- 10
+Arg, ItemPWString -- 11
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0FltpAttachFrame: Error 0x%10!X! attaching to device %11!s!" //   LEVEL=GFL_TRACE_WARNING
+{
+Arg, ItemLong -- 10
+Arg, ItemPWString -- 11
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Created Frame %10!d! with altitude range %11!s!-%12!s!" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPWString -- 12
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0FltpStartManualDeviceAttachChecks: Failed allocating timer" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0FltpStartManualDeviceAttachChecks: Starting timer" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0FltpManualDeviceAttachWorker: Delaying: fl=%10!Ix!, dl=%11!d! (%12!d!)" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0FltpManualDeviceAttachWorker: Checking: fl=%10!Ix!, dl=%11!d! (%12!d!)" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Altidue range for Frame %10!d! changed from %11!s!-%12!s! to %13!s!-%14!s!" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemLong -- 10
+Arg, ItemPWString -- 11
+Arg, ItemPWString -- 12
+Arg, ItemPWString -- 13
+Arg, ItemPWString -- 14
+}
+
+b6cefeb3-9f94-3f54-c2d0-e390b3fa213a mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0The "%10!s!" legacy filter is using the "%11!s!" load order group" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemPWString -- 10
+Arg, ItemWString -- 11
+}
+
+d14fb541-a7d7-31ee-0d56-6ac6e3209c3f mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0FltpGetVolumeFromDeviceObject: wrong type of device object passed in: devobj %10!p!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0passing through FAST_IO_CHECK_IF_POSSIBLE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0passing through FAST_IO_READ" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0passing through FAST_IO_WRITE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0passing through FAST_IO_QUERY_BASIC_INFO" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0passing through FAST_IO_QUERY_STANDARD_INFO" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0passing through FAST_IO_QUERY_NETWORK_OPEN_INFO" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0passing through FAST_IO_LOCK" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0passing through FAST_IO_UNLOCK_SINGLE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0passing through FAST_IO_UNLOCK_ALL" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0passing through FAST_IO_UNLOCK_ALL_BY_KEY" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0passing through FAST_IO_DEVICE_CONTROL" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0passing through FAST_IO_QUERY_OPEN" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0passing through FAST_IO_MDL_READ" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0passing through FAST_IO_MDL_READ_COMPLETE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0passing through FAST_IO_PREPARE_MDL_WRITE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+e11b6d77-79d5-3ef3-1580-662322524777 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0passing through FAST_IO_MDL_WRITE_COMPLETE" //   LEVEL=GFL_TRACE_FAST_IO
+{
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Already attached to FS  :   DO=%10!p! Vol=%11!p! "%12!s!" (%13!s!)" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemString -- 13
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0FltpCreateControlDeviceObject: Error creating control device object, status=%10!08x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0FltpCreateVolumeDeviceObject: Error creating volume device object, status=%10!08x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0FltpCreateVolumeDeviceObject: Error initializing Volume structure, status=%10!08x!" //   LEVEL=GFL_TRACE_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Attaching to file system   DO=%10!p! Vol=%11!p! "%12!s!" (%13!s!)" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemString -- 13
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Attaching to volume        DO=%10!p! Vol=%11!p! "%12!s!" (%13!s!)          AttachedToDO=%14!p!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemString -- 13
+Arg, ItemPtr -- 14
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Detaching from filesystem  DO=%10!p! Vol=%11!p! "%12!s!" (%13!s!) Notify=%14!x!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemString -- 13
+Arg, ItemLong -- 14
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Detaching from volume      DO=%10!p! Vol=%11!p! "%12!s!" (%13!s!) Notify=%14!x! AttachedToDO=%15!p!" //   LEVEL=GFL_TRACE_ATTACH_DETACH
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPWString -- 12
+Arg, ItemString -- 13
+Arg, ItemLong -- 14
+Arg, ItemPtr -- 15
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Name caching ENABLED on "%10!s!"" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemPWString -- 10
+}
+
+f0d913ed-cf1d-378f-dfaa-d57c1f5497d4 mp // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Name caching DISABLED on "%10!s!"" //   LEVEL=GFL_TRACE_INFO
+{
+Arg, ItemPWString -- 10
+}
+

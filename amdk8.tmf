@@ -1,0 +1,3108 @@
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_LPI object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcpiEval_LPI() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ValidateProcessorLpiStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Firmware Error: Processor %10!s! has no _LPI states" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Firmware Error: Processor %10!s! has no _LPI state which enables parent state %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Firmware Error: Processor container %10!s! has no _LPI state which enables parent state %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+1b0c07a9-1688-32cf-7dc4-d2bf174e43d5 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Firmware Error: Processor container %10!s! has no child processors or processor containers" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Firmware Error: Control = 0x%10!x! / Status = 0x%11!x! address type mismatch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Firmware Error: Unsupported Control address space 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Firmware Error: _PSS failed validation (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Firmware Error: Validate_PCT_PTC(PCT) Failed! on Proc 0x%10!x! rc=0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Firmware Error: _PSS failed processor-specific validation on Proc 0x%10!x! rc=0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Firmware Error: XPSS failed validation (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Firmware Error: _PCT does not use valid MSR addressess (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Firmware Error: _TSS state %10!u! on proc %11!u! has higher power or pwercent than state %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Firmware Error: _TSS state 0 on proc %10!u! is not 100 percent" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Validate_PCT_PTC(PTC) Failed! on Proc 0x%10!x! rc=0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!u!: Firmware Error: _CSD entry %11!u! NumberOfEntries = %12!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!u!: Firmware Error: _CSD entry %11!u! CoordinationType 0x%12!x! NOT supported." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!u!: Firmware Error: _CSD entry %11!u! MemberCount = %12!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!u!: Firmware Error: _CSD entry %11!u! MemberCount = %12!u! must be > 0!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!u!: Firmware Error: _CSD entry %11!u! Index = %12!u! must be < _CST entry count %13!u!!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Firmware Error: _CST state %10!u! on proc %11!u! is incorrectly ordered compared to state %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Firmware Error: C2 State invalid (PM1a Control Block missing)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Firmware Error: C3 State invalid (PM1a Control Block, PM1a Event Block, or PM2 Control Block missing)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Firmware Error: CState Type 0 is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!u!: Firmware Error: %11!s! count = %12!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!u!: Firmware Error: %11!s![0].NumberOfEntries = %12!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!u!: Firmware Error: %11!s![0].CoordinationType = 0x%12!x! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!u!: Firmware Error: %11!s![0].MemberCount = %12!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!u!: Firmware Error: %11!s![0].MemberCount = %12!u! must be > 0!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Firmware Error: _PCT control register is not a valid MSR address (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Firmware Error: _PCT control register has a 0 MSR address (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Firmware Error: _PCT status register is not a valid MSR address (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Firmware Error: generic address must be of type FFH (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Firmware Error: generic address must have a bit width of 64 (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Firmware Error: generic address must have a bit offset of 0 (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Firmware Error: generic address must have an access size of 64 bits (Proc 0x%10!x!, Status 0x%11!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Firmware Error: %10!s! state 0 on proc %11!u! is 0 MHz" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Firmware Error: %10!s! state %11!u! on proc %12!u! is INVALID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Firmware Error: \_SB.PCCH Shared memory region Signature invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Firmware Error: \_SB.PCCH Shared memory region Header length too short!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Firmware Error: \_SB.PCCH Shared memory region Version out of supported range!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Firmware Error: \_SB.PCCH Shared memory region MinimumUnthrottledFrequency greater than NominalFrequency!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Firmware Error: \_SB.PCCH Shared memory region MinimumFrequency greater than MinimumUnthrottledFrequency!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0ValidatePccEntry: No PCC header!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Firmware Error: PCCP Input buffer offset invalid on proc %10!d!!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Firmware Error: PCCP Output buffer offset invalid on proc %10!d!!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!u!: Firmware Error: _CPC NumberOfEntries = %11!u! is invalid!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!u!: Firmware Error: _CPC DesiredPerformance is not supplied, but AutonomousSelectionEnable is not Integer 1!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Firmware Error: _CPC.%10!s!: Register may not be absent." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Firmware Error: _CPC.%10!s!: Invalid IO register definition." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Firmware Error: _CPC.%10!s!: MSRs must have an access size of 64 bits." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Firmware Error: _CPC.%10!s!: MSRs has 0 address." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Firmware Error: _CPC.%10!s!: Must specify a register type." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Firmware Error: _CPC.%10!s!: Unsupported register type." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Firmware Error: CPU %10!d! and CPU %11!d! perf capabilities mismatch: %12!016I64x! vs %13!016I64x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLongLongX -- 13
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Firmware Error: CPU %10!d! and CPU %11!d! %12!s! state count mismatch: %13!d! vs %14!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Firmware Error: CPU %10!d! and CPU %11!d! %12!s![%13!d!] frequency mismatch: %14!d! vs %15!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Firmware Error: CPU %10!d! and CPU %11!d! _TSS state count mismatch: %12!d! vs %13!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Firmware Error: CPU %10!d! and CPU %11!d! _TSS[%12!d!] percentage mismatch: %13!d! vs %14!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Firmware Error: CPU %10!d! and CPU %11!d! %12!s! control register mismatch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Firmware Error: CPU %10!d! and CPU %11!d! %12!s! status register mismatch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Firmware Error: CPU %10!d! and CPU %11!d! _CPC %12!s! register mismatch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0PEP Error: CPU %10!d! and CPU %11!d! %12!s! mismatch" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0PEP Error: CPU %10!d! and CPU %11!d! have different perf state counts" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0PEP Error: CPU %10!d! and CPU %11!d! perf state %12!d! do not match" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0PEP Error: PlatformState[%10!d!].InitiatingState does not exist." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0PEP Error: PlatformState[%10!d!].InitiatingState is not interruptible." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0PEP Error: PlatformState[%10!d!].dependency[%11!d!].ExpectedState does not exist." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0PEP Error: PlatformState[%10!d!].dependency[%11!d!] has a hard dependency which is not supported on this platform." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0PEP Error: PlatformState[%10!d!].InitiatingState does not exist on all processors." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0PEP Error: PlatformState[%10!d!].InitiatingState is not interruptible on all processors." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!] has no options." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0CoordinatedState[%10!d!].Dependency[%11!d!] does not contain an initiating or dependent state." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0CoordinatedState[%10!d!].Dependency[%11!d!] depends on processors already listed in an earlier dependency." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!].Option[%12!d!].ExpectedState does not exist." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!].Option[%12!d!] has a hard dependency which is not supported on this platform." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!].Option[%12!d!].ExpectedState is not a lower indexed state." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!].Option[%12!d!] depends on different processors than a lower indexed dependency." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0PEP Error: CoordinatedState[%10!d!].Dependency[%11!d!].Option[%12!d!] has a hard dependency which is not supported on this platform." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0PEP Error: CoordinatedState[%10!d!] has no initiating state." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Firmware Error: Arch Context Lost Flags not supported on this platform." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Firmware Error: LPI IO State invalid (PM1a Control Block missing)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Firmware Error: Processor LPI state entry trigger must be a generic address register descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Firmware Error: Unsupported LPI state entry trigger address space ID (0x%10!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+43c87aad-c204-398c-a111-f18064ed4edf pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Firmware Error: LPI state %10!s! is enabled by processor state %11!s!.%12!s!, which is not a valid state type for enabling parent states." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0NtPowerInformation(ProcessorStateHandler) Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PPM interface version mismatch (kernel=%10!d!, driver=%11!d!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfWaitLockCreate() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfWaitLockCreate() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfSpinLockCreate() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0InitDevExts() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to register ETW provider (0x%10!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0RegisterSystemSleepStateNotifyHandler() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CollectAcpiBiosInfo() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Hypervisor state: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PPMCapabilities:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PPMRegFlags:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PPM Features Enabled:" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfWaitLockCreate() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to get processor object from ACPI" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0GetProcessorIndex() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0IoSetDevicePropertyData() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfDeviceAllocAndQueryPropertyEx(DEVPKEY_Device_BiosDeviceName) Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0IoAllocateWorkItem() Failed!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Firmware Error: _OSC failure bit set." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Firmware Error: _OSC Urecognized UUID %10!x!-%11!x!-%12!x!-%13!x!%14!x!-%15!x!%16!x!%17!x!%18!x!%19!x!%20!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemLong -- 16
+Arg, ItemLong -- 17
+Arg, ItemLong -- 18
+Arg, ItemLong -- 19
+Arg, ItemLong -- 20
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Firmware Error: _OSC Unrecognized Revision 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0_OSC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0AcpiEval_OSC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Processor features present: %10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0InitPep() Failed, disabling PEP interfaces. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0InitAcpiLpiStates() Failed, disabling LPI states. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0QueryPepCapabilites() Failed, disabling PEP interfaces. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0InitAcpiCStates() Failed, disabling C-states. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0InitPepIdleStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0InitPepPerfStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0InitAcpiCpc() Failed, disabling CPPC. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0InitAcpiLegacyPcc() Failed, disabling PCCv1. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0InitAcpiPerfStates() Failed, disapbling P-states. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0InitAcpiTStates() Failed, disabling T-states. rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DrvInterface.DeviceStart() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0AcquireAcpiInterfaces() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0RegisterIdleStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0_PPC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0AcpiEval_PPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0_TPC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0AcpiEval_TPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Acpi 1.0:" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0  C1         = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0  C2         = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0  C3         = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0  IO TStates = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0  MP TStates = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Acpi 2.0+:" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0  C1             = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0  C2             = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0  C3             = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0  MWAIT C-States = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0  LPI states IO  = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0  LPI states MW  = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0  LPI states PSCI= %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0  LPI states     = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0  TStates IO     = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0  TStates FFH    = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0  PStates IO     = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0  PStates FFH    = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0  PStates XPSS   = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0  Legacy PCC     = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0  CPC            = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0  CPC Interrupt  = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0  HW Feedback    = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0PEP:" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0  Mini-PEP Idle  = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0  Micro-PEP Idle = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0  C-State Idle   = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0  LPI Idle       = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0  Park pref      = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0  Perf states    = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0  Notifications  = %10!s!abled" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0" //   LEVEL=DbgLevel FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Processor Performance States (0x%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemPtr -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0  Type:                 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0  Processor Count:      0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0  MaxFrequency:         %10!u! mhz" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Kernel Idle States (0x%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemPtr -- 10
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0  Index	InterruptsEnabled	Interruptible	CacheCoherent	ContextRetained" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0  ------	-----------------	-------------	-------------	---------------" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0  %10!6u!:	%11!17u!	%12!13u!	%13!13u!	%14!15u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+63d09603-623d-343d-dcc8-ee3b082f6172 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+6a999113-7bfe-36ef-1b48-6751835e3c60 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfSpinLockCreate() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+75735a37-d26d-3262-60b0-b0039ed2ea36 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PCCH subspace not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+75735a37-d26d-3262-60b0-b0039ed2ea36 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcquirePccInterface() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+75735a37-d26d-3262-60b0-b0039ed2ea36 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PCCP object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+75735a37-d26d-3262-60b0-b0039ed2ea36 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AcpiEval_PCCP() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+75735a37-d26d-3262-60b0-b0039ed2ea36 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PccDoorbellInitiateCallback() New Cap(%10!d!%%) on processor %11!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_CST object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcpiEval_CST() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ValidateAcpiCStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Firmware error: Found Unsupported FFH %10!s! State" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Firmware error: Found Unsupported FFH %10!s! State type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Firmware error: Found Unsupported IO %10!s! State type" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+8474da2f-7cee-3ef5-b100-a604c511d315 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Firmware error: Found Unsupported %10!s! State" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RegisterHvPepIdleStatesV2() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RegisterHvCStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PpmDispatchTable.RegisterIdleStatesHv Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PpmDispatchTable.RegisterPerfStatesHv Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PpmDispatchTable.RegisterPerfStatesHv Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Firmware Error: Duplicate processor defined! AcpiId = 0x%10!x! ApicId = 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unable to find Processor (AcpiId = 0x%10!x! ApicId = 0x%11!x!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PpmDispatchTable.RegisterPerfStatesCountersHv Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+93c8768e-5141-3de8-ba4a-3bd139efa878 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PpmDispatchTable.RegisterPerfStatesCountersHv Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RegisterKernelPepIdleStatesV2() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RegisterKernelPepIdleStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RegisterKernelLpiStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0RegisterKernelCStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PpmDispatchTable.RegisterIdleStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0RegisterKernelIdleDomains Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PpmDispatchTable.RegisterPlatformStates failed! 0x%10!08x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0IoAllocateWorkItem() Failed!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ExAllocatePoolWithTag() Failed! Not enough memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ExAllocatePoolWithTag() Failed! Not enough memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PEP_NOTIFY_PPM_QUERY_PLATFORM_STATE not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PpmDispatchTable.RegisterPlatformStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PpmDispatchTable.RegisterCoordinatedStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0AcpiGetCoordinatedLpiStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PpmDispatchTable.RegisterCoordinatedStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PpmDispatchTable.RegisterCoordinatedStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ExAllocatePoolWithTag() Failed! Not enough memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ExAllocatePoolWithTag() Failed! Not enough memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0PpmDispatchTable.RegisterPlatformStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0PpmDispatchTable.RegisterIdleDomains Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to get Max Frequency of processor for TStates" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0PpmDispatchTable.RegisterPerfStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to get the processor frequency." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Unable to get Max Frequency of the processor." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Firmware Error: Hardware performance levels do not match on all processors in the domain." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Firmware Error: Highest Performance < Nominal Performance." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Firmware Error: Lowest Nonlinear Performance < Lowest Performance." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Guaranteed Performance is > Nominal Performance, capping to Nominal Performance." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Guaranteed Performance is < Lowest Performance, raising to Lowest Performance" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Unable to get Max Frequency of the processor." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PepNotifyPerfConstraints() Failed with status 0x%10!08x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0PpmDispatchTable.RegisterPerfStates Failed rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Firmware Error: Duplicate processor defined! AcpiId = 0x%10!x! ApicId = 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+9b44eef0-35d8-3a63-7827-2ee6baf97227 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Unable to find Processor (ApicId = 0x%10!x!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0No PEP perf states supported." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0No PEP feedback counters supported." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0IoAllocateWorkItem() Failed!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0NotifyQueryFeedbackCounters() Failed with status 0x%10!08x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PEP Error: Feedback counter %10!d! has nominal rate 0." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PEP Error: Feedback counter %10!d! has unrecognized type %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PEP Error: Feedback counter %10!d! has is unrecognized counter %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PEP Error: Feedback counter %10!d! needs the OS to discount idle time but is not affinitized." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PEP Error: Feedback counter %10!d! has reserved bits set." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PEP Error: No frequency feedback counter found." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PepNotifyQueryPerfCapabilities() Failed with status 0x%10!08x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PEP Error: Performance levels are not correctly ordered." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PepNotifyQueryDiscretePerfStates() Failed with status 0x%10!08x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PEP Error: Perf state %10!d! performance is not within the advertised performance capabilites of the processor." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PEP Error: Perf state %10!d! performance is not less than state %11!d! performance." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PEP Error: Perf state %10!d! matches nominal performance, but not nominal rate for the frequency feedback counter." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0PEP Error: No perf state matches the processor's highest performance level." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PEP Error: No perf state matches the processor's lowest performance level." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0PEP Error: No perf state matches the processor's lowest nonlinear performance level." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0PEP Error: No perf state matches the processor's nominal performance level." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0InitPepProcessorDomain() Failed with status 0x%10!08x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0PEP Error: PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PEP Error: PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PEP Error: unsupported domain coordination type %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PEP Error: PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0PEP Error: PEP_NOTIFY_PPM_PERF_CONSTRAINTS not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0PEP Error: PEP_NOTIFY_PPM_FEEDBACK_READ not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0PEP Error: PEP_NOTIFY_PPM_PERF_SET not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0PEP Error: PEP_NOTIFY_PPM_PERF_SET_STATE failed. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0PEP Perf constraint change notification on processor %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0PepUpdatePerformanceConstraint: Performance controls are not enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Guaranteed Performance is > Nominal Performance, capping to Nominal Performance." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+}
+
+b70b4e49-8b28-328a-a1f9-660b11147ff3 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Guaranteed Performance is < Lowest Performance, raising to Lowest Performance" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0PepNotifyReportCStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PepNotifyQueryProcessorIdleStatesV2() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PepNotifyQueryProcessorIdleStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2 not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PEP Error: IdleStates[%10!d!].CStateType is zero." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PEP Error: IdleStates[%10!d!].CStateType is nonzero." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PEP Error: IdleStates[%10!d!].Interruptible is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PEP Error: IdleStates[%10!d!].CacheCoherent is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PEP Error: IdleStates[%10!d!].ThreadContextRetained is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PEP Error: IdleStates[%10!d!].WakesSpuriously is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0PEP Error: IdleStates[%10!d!].Latency is unspecified." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PEP Error: IdleStates[%10!d!] wakes spuriously and is not interruptible." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0PEP Error: IdleStates[%10!d!].Latency is unspecified but IdleStates[%11!d!].Latency. is not." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0PEP Error: IdleStates[%10!d!].Latency is less than IdleStates[%11!d!].Latency." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0PEP Error: IdleStates[%10!d!].Latency is specified but IdleStates[%11!d!].Latency. is not." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0PEP Error: IdleStates[%10!d!].BreakEvenDuration is less than IdleStates[%11!d!].BreakEvenDuration." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0PEP Error: No interruptible idle state found." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PEP Error: PEP_NOTIFY_PPM_QUERY_IDLE_STATES not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0PEP Error: MaximumCoordinatedProcessors exceeds maximum processor count." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0PEP Error: IdleStates[%10!d!].CStateType is zero." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0PEP Error: IdleStates[%10!d!].CStateType is nonzero." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0PEP Error: IdleStates[%10!d!].Interruptible is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PEP Error: IdleStates[%10!d!].CacheCoherent is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0PEP Error: IdleStates[%10!d!].ThreadContextRetained is FALSE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0PEP Error: No interruptible idle state found." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+b760b6f0-545f-3d05-f6b3-0f6b447f552a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0PEP_NOTIFY_PPM_CST_STATES not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_CPC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcpiEval_CPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ValidateAcpiCPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0RegisterSubspaceForGenAddr() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0StartPccCommand() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ExecutePccCommand() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0IoAllocateWorkItem() Failed!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!: Acpi 5.0 _CPC is NOT enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!: Guaranteed Performance is > Nominal Performance, capping to Nominal Performance." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!: Guaranteed Performance is < Lowest Performance, raising to Lowest Performance" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!: Acpi 5.0 _CPC is NOT enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Firmware error: %10!s!: _CPC highest performance is static." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+c8cab7b7-f863-3b07-b60e-92ada3815e6e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!: Highest Performance is < Nominal Performance, raising to Nominal Performance" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+cb5f71ea-4826-39e3-35a0-27a099a63a22 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfDeviceAssignMofResourceName() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+cb5f71ea-4826-39e3-35a0-27a099a63a22 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfWmiInstanceCreate() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+cb5f71ea-4826-39e3-35a0-27a099a63a22 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfWmiInstanceCreate() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+cb5f71ea-4826-39e3-35a0-27a099a63a22 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ProcessorWmiStatusId(): PTStatesRuntimeState == NULL" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_PCT object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcpiEval_PCT_PTC(_PCT) Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0XPSS object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0AcpiEval_XPSS() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0_PSS object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0AcpiEval_PSS() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ValidateXPssPStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ValidateAcpi2PStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ValidateAcpiTStates() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0_PTC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0AcpiEval_PCT_PTC(_PTC) Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0_TSS object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0AcpiEval_TSS() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0SetPerfStateIO() Failed! Expected 0x%10!x!, Received 0x%11!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+cc33d03f-4fb4-3256-5c66-fe7b2535eb4d pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0SetPerfStateFFH() Failed! Expected 0x%10!I64x!, Received 0x%11!I64x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLongLongX -- 11
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0_CSD object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AcpiEval_CSD() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ValidateAcpiIdleDomain() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0_PSD object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0AcpiEval_PSD() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ValidateAcpi_PSD() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0_TSD object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0AcpiEval_TSD() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ValidateAcpi_TSD() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+cc52f8a0-dbbf-3193-fc6e-b4b3e7a25b90 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Platform error: Mix of PEP-based perf domains and non-PEP perf domains." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0RegisterPepDevice() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0PepQueryVetoList() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0PEP indicated support for PEP-based idle states, but                        LPI is in use. Disabling PEP idle states." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0PEP does not support PEP-based idle states" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0PEP does not support performance states" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0PoFxRegisterDevice() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0PEP_NOTIFY_PPM_QUERY_CAPABILITIES not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0PEP_NOTIFY_PPM_PARK_SELECTION(_V2) not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0PEP_NOTIFY_PPM_PARK_MASK not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE not supported. (rc=0x%10!08x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to apply low power scenario settings. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f0f4d234-9a6d-3062-c7ea-2842c750060e pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0HalQuerySystemInformation() Failed! Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Firmware Error: _CST object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0_TSS:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0State: #%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0  Frequency Percent   %10!u!%%" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0  Power               %10!u! mW" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0  Transition Latency  %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0  Control value       0x%10!x! (%11!08s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0  Status value        0x%10!x! (%11!08s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Firmware Error: _CST object returned no entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0%10!s!:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Found %10!u! domain entries" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0State: #%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0  NumberOfEntries   0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0  Revision          0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0  Domain Number     0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0  CoordinationType  0x%10!x! (%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0  MemberCount       0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Firmware Error: _CST object's first entry is not an INTEGER." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0_CST:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Found %10!u! C-states" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0State: #%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0  State Type:        C%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0  Latency:           %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0  Power Consumption: %10!u! mW" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0  Address:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Firmware Error: _CST contains more than Count CState packages." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0_CSD:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0Found %10!u! states" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0State: #%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0  NumberOfEntries   0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0  Revision          0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0  Domain Number     0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0  CoordinationType  0x%10!x! (%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0  MemberCount       0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Firmware Error: _CST[%10!u!] must be type PACKAGE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0  Index             0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0_CPC:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0NumberOfEntries:  %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0Revision:         %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0%10!s!:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0%10!s!Static Value:   0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0%10!s!None" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Firmware Error: _CST[%10!d!] state is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0%10!s!AddressSpaceID: 0x%11!x! (%12!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemString -- 12
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0%10!s!BitWidth:       0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0%10!s!BitOffset:      0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0%10!s!Subspace:       0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0%10!s!AccessSize:     0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0%10!s!Address:        0x%11!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+Arg, ItemLongLongX -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0%10!s!._LPI:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0Found %10!u! LPI states" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0Revision: %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0LevelId:  0x%10!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0State: #%10!u! (%11!s!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0  Minimum residency: %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0  Wakeup Latency:    %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0  Flags:             %10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0  Arch Flags:        %10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0  Residency Counter: %10!u! Hz" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0  Enabled Parent:    %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0  Entry Method:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0  Residency Counter:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0  Usage Counter:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Firmware Error: %10!.4s! object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Firmware Error: %10!s! is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Firmware Error: %10!.4s! object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Firmware Error: %10!.4s! object returned 0 entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Firmware Error: %10!s![%11!d!] domain is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0AcpiEvaluateMethod(_PSS) returned NULL buffer." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Firmware Error: _PSS object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Firmware Error: _PSS object returned 0 entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Firmware Error: %10!.4s![%11!u!] must be type PACKAGE" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Firmware Error: _PSS[%10!d!] state is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0AcpiEvaluateMethod(XPSS) returned NULL buffer." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Firmware Error: XPSS object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Firmware Error: XPSS object returned 0 entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Firmware Error: XPSS[%10!u!] must be type PACKAGE" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Firmware Error: XPSS[%10!d!] state is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Firmware Error: _PPC object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Firmware Error: _PPC object returned %10!u! entries, 1 expected" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Firmware Error: _PPC object returned incorrect type, INTEGER expected." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Firmware Error: _TSS object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Firmware Error: _TSS object returned no entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Firmware Error: _TSS[%10!d!] state is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Firmware Error: _TPC object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Firmware Error: _TPC object returned %10!u! entries, 1 expected" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Firmware Error: _TPC object returned incorrect type, INTEGER expected" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Firmware Error: _CSD object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Firmware Error: _CSD object returned 0 entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Firmware Error: _CSD[%10!d!] domain is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Firmware Error: PCCP object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Firmware Error: PCCP is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Firmware Error: _CPC object returned NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Firmware Error: _CPC is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Firmware Error: _CPC version 0 does not exist." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Firmware Error: _CPC is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Firmware Error: %10!s!._LPI object returned no entries" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Firmware Error: %10!s!._LPI.Revision is not an INTEGER." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Firmware Error: %10!s!._LPI object contains too few entries." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Firmware Error: %10!s!._LPI.LevelId is not an INTEGER or BUFFER." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Firmware Error: %10!s!._LPI.LevelId BUFFER contains >64 bits." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Firmware Error: %10!s!._LPI object contains too few entries." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Firmware Error: %10!s!._LPI.Count is not an INTEGER." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Firmware Error: %10!s!._LPI contains more than Count LPI state packages." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Firmware Error: %10!s!._LPI[%11!u!] must be type PACKAGE." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Firmware Error: %10!s!._LPI[%11!d!] state is not well formed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Firmware Error: %10!s!._LPI contains fewer than Count LPI states." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Firmware Error: %10!s!._LPI contains no LPI states." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemWString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0  AcpiParseCore: %10!s! has too many elements (%11!d! expected)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0  AcpiParseCore: %10!s!.%11!s! has an unexpected type %12!s!.  Acceptable types:" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+Arg, ItemString -- 12
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0    INTEGER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0    STRING" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0    BUFFER" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0  AcpiParseCore: %10!s!.%11!s! is malformed." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0  AcpiParseCore: %10!s! has too few elements, expected %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0    AcpiParseULong64: Element must be <=64 bit buffer." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0    AcpiParseRegister: element must be type Generic Register Descriptor." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0    AcpiParseRegister: Invalid Generic Register Descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0    AcpiParseRegisterOrQword: element must be type Generic Register Descriptor or QWORD buffer." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0    ParseRegisterOrQwordEnd: Invalid Generic Register Descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0IoAllocateWorkItem() Failed!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0AcpiNotifyCallback() Notify(0x%10!x!) on processor %11!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Unrecognized Notify code (0x%10!x!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0AcpiOSCNotifyWorker() ACPI BIOS Notify(0x08) is NOT supported!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Notify 0x80: Acpi 2.0 PStates are NOT enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Notify 0x82: Acpi 3.0 TStates are not enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Notify 0x81: Acpi 2.0 CStates are NOT enabled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=VALIDATION
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0GetAcpiTable(FADT) Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0_PSS:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0State: #%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0  Core Frequency      %10!u! mhz" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0  Power               %10!u! mW" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0  Transition Latency  %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0  Bus Master Latency  %10!u! us" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLong -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0  Control Value       0x%10!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0  Status Value        0x%10!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0  Control Mask        0x%10!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0  Status Mask         0x%10!I64x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemLongLongX -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%10!s! Control:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%10!s! Status:" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+Arg, ItemString -- 10
+}
+
+f3dde4da-55a4-31de-83bb-5897e5f40075 pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORMINFO
+{
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfDriverCreate() Failed! Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ProcLibGlobalInit() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfDeviceCreate() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ProcLibDeviceCreate() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfDeviceAddQueryInterface() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfDeviceCreateDeviceInterface() Failed! 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0_PPC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0AcpiEval_PPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0_TPC object not found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORMINFO
+{
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0AcpiEval_TPC() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ProcLibDeviceStart() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+
+f3df084c-ddf0-3afb-b9a1-a78b81d3ca2a pc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0RegisterWmi() Failed! rc=0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=RUNTIME
+{
+Arg, ItemLong -- 10
+}
+

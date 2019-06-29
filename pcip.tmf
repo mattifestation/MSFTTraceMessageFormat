@@ -1,0 +1,471 @@
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Rd %10!p!: %11!02x!  (real value was %12!02x!)" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Rd %10!p!: %11!02x!" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Wr %10!p!: %11!02x! => %12!02x! (value from driver was %13!02x!) - will commit" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Wr %10!p!: %11!02x! (value from driver was %12!02x!) - will commit" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Wr %10!p!: %11!02x! => xx (value from driver was %12!02x!) - thrown away" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a4694950-8acf-325a-1ec3-85dfd24f5652 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Wr %10!p!: xx (value from driver was %11!02x!) - thrown away" //   LEVEL=traceLevel FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ac3f9f75-e4bd-3f66-76ac-5d30e6217183 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Adding Mitigation:  Address: 0x%10!I64x!, Space: %11!p!, BaseAdress: 0x%12!p!, Offset: 0x%13!I64x!, String: %14!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLongLongX -- 13
+Arg, ItemWString -- 14
+}
+
+ac3f9f75-e4bd-3f66-76ac-5d30e6217183 mitigationlanguage // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Mitigation starting at 0x%10!I64x! has been hit 0x%11!x! times. 0x%12!x! total bytes, 0x%13!x! were blocked from HW access." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemLongLongX -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to read conventional capabilities ptr" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to read conventional capabilities header at offset %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to read express capabilities at offset %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Trying to mitigate a device with Express Cap version 1 with endpoint type %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Unrecognized PCIe Capability version: %10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Trying to mitigate a device with Express Cap version 2 with endpoint type %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to read Express Caps for a device that isn't a PCI_CLASS_DISPLAY_CTLR device.  This device isn't supported by direct device assignment." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to read extended capabilities header at offset %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to read ACS capabilities at offset %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to read vendor ID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to read vendor specific cap struct" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to read Virtual Channel cap struct" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0mitigation registry value was of type %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0InitializeMitigationMaps returning %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0This routine only handles reads that a processor can natively generate." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Can't read before the beginning of the BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Can't read beyond the end of the BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Can't read from a non-existant BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to map MMIO Space in read." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0This routine only handles writes that a processor can natively generate." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Can't write before the beginning of the BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Can't write beyond the end of the BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Can't write to a non-existant BAR." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b4292a34-da45-3c3d-3052-20b091bcfebb sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to map MMIO Space in read." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Error attempting to read config space from a invalid VF Index:0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemLong -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error attempting to read config space from a invalid device:%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error attempting to write config space from a invalid VF Index:0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemLong -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error attempting to write config space from a invalid device:%10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_MITIGATIONS
+{
+Arg, ItemPtr -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Call WdfDeviceStopIdle" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WdfDeviceStopIdle failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0SetPowerPolicy fail: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Calling WdfDeviceResumeIdle" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Lower-layer drivers failed to reset device. Moving on anyhow. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b621193e-a0de-362c-37b6-bb5a1386d5af sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Brining the device to D0 failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INTERFACE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to get PDO" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfDeviceCreate fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfWaitLockCreate fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfWaitLockCreate fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to create default queue: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to create notification queue: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to create pnp state lock: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SetPowerPolicy fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfFdoQueryForInterface[BUS_INTERFACE_STANDARD] fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WdfFdoQueryForInterface[RESET_PCI_DEVICE_INTERFACE] fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfFdoQueryForInterface[PCI_SECURITY_INTERFACE] fail: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0InitDeviceInformation fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ExposeInterface fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ProcessMmioResource fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0SetAccessControlServices fail: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfDeviceAddQueryInterface failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfDeviceAddQueryInterface failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Creating GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE interface failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Creating GUID_DEVINTERFACE_DIRECTLY_ASSIGNABLE_DEVICE interface failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceSetPowerPolicyS0IdlePolicy failed %10!s!,                    device will be functional, but never enter D3 on idle." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceSetPowerPolicyS0IdlePolicy failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfDeviceAssignSxWakeSettings failed %10!s!,                    It is likely caused by Buggy BIOS DeviceWake=D0" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfDeviceAssignSxWakeSettings failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0GetMemoryBarsFromResource fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0unexpected resource type: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfFdoQueryForInterface[PNP_LOCATION_INTERFACE] fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0GetLocationString fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ParseLocationString fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0IoGetDeviceProperty[DevicePropertyBusNumber] fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0GetFunctionAndDeviceNumber fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0IOCTL on queue %10!p! - IoControlCode %11!x! Request %12!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WdfRequestForwardToIoQueue failed status=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Unknown IOCTL: IoControlCode %10!x! Request %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WdfRequestRetrieveInputBuffer[IOCTL_SRIOV_EVENT_COMPLETE] failed status=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f784f832-7e9b-38da-c3a1-08b506ee4faf sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WdfRequestRetrieveOutputBuffer[SRIOV_NOTIFICATION] fail: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+

@@ -1,0 +1,1199 @@
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1029 20 "%0Got an error status from async object" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1039 21 "%0Failed to allocate async object" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1077 22 "%0callbackUri parameter is NULL" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1097 23 "%0Failed to create callback Uri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1107 24 "%0Failed to get uriFactory: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp1115 25 "%0Failed to create callbackUri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp586 10 "%0OnClose called on CWebAuthOperation" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp601 11 "%0OnCancel called on CWebAuthOperation" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp859 12 "%0input options: %10!#x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+options, ItemLong -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp866 13 "%0requestUri parameter is NULL" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp877 14 "%0ppAsyncInfo parameter is NULL" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp890 15 "%0Failed to get absolute request Uri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp899 16 "%0Failed to get scheme name for request URI: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp909 17 "%0Scheme is not HTTPS!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp933 18 "%0WinHttpCrackUrl failed to crack %10!s!: last error %11!#x!, %12!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+lpcwszUri, ItemWString -- 10
+GetLastError(), ItemLong -- 11
+hr, ItemHRESULT -- 12
+}
+
+0faf48ed-693e-38d6-409e-94d43d29c3a8 AuthBroker // SRC=WebAuthBrokerImpl.cpp MJ= MN=
+#typev WebAuthBrokerImpl_cpp996 19 "%0Failed to verify callback Uri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp110 14 "%0LaunchUIThreadProc INIT_SINGLETHREADED failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_HOST
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp143 15 "%0LaunchUI failed. Invalid URL." //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_HOST
+{
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp151 16 "%0LaunchUI SHStrDup failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_HOST
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp166 17 "%0LaunchUI CreateThread failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_HOST
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp61 10 "%0ShellExecuteEx succeeded!!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp67 11 "%0ShellExecuteEx failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp73 12 "%0CLauncherServices failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+22464985-7d1b-3537-5c81-b8c4c1b22e92 AuthBroker // SRC=LaunchUI.cpp MJ= MN=
+#typev LaunchUI_cpp99 13 "%0LaunchUIThreadProc retry: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_HOST
+{
+hr, ItemHRESULT -- 10
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp1218 11 "%0CFormCreds %10!p!: set _Threads[%11!d!] = %12!p!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+this, ItemPtr -- 10
+dwIndex, ItemLong -- 11
+hThreadHandle, ItemPtr -- 12
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp1238 12 "%0CFormCreds %10!p!: set _Threads[%11!d!] = %12!p!, was %13!p! (terminated)" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+this, ItemPtr -- 10
+dwIndex, ItemLong -- 11
+hThreadHandle, ItemPtr -- 12
+_Threads[dwIndex], ItemPtr -- 13
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp1250 13 "%0CFormCreds %10!p!: _Threads is full unexpectedly, unable to add %11!p! " //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+this, ItemPtr -- 10
+hThreadHandle, ItemPtr -- 11
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp1494 14 "%0CFormCreds %10!p!: _Threads[%11!d!] %12!p! is still busy at quantum = %13!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+this, ItemPtr -- 10
+dwIndex, ItemLong -- 11
+_Threads[dwIndex], ItemPtr -- 12
+nQuantum, ItemLong -- 13
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp1526 15 "%0CFormCreds %10!p!: _Threads[%11!d!] %12!p! does not finish in time" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+this, ItemPtr -- 10
+dwIndex, ItemLong -- 11
+_Threads[dwIndex], ItemPtr -- 12
+}
+
+5c199e08-4085-34fd-980b-fe7da0007c66 AuthBroker // SRC=FormCreds.cpp MJ= MN=
+#typev FormCreds_cpp968 10 "%0AuthBroker CFormCreds::FConsentNeeded hr : 0x%10!x!, fShowConsent = 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+*pfShowConsent, ItemLong -- 11
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp115 10 "%0NOUI: enabling timeout" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp125 11 "%0AuthHost process has exited" //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp146 12 "%0Client process has exited" //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp152 13 "%0Message pump timed out or WM_QUIT receieved." //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp171 14 "%0Failed to get broker flags: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp179 15 "%0Failed to get SSO AppContainer: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp201 16 "%0Exited the message pump loop" //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp305 17 "%0_SqmWebAuthActivation get domain failed: %10!s! for: <%11!s!>" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+startUrl, ItemWString -- 11
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp335 18 "%0SqmWebAuthActivation:: domain: %10!s! moniker: %11!s!: flags: 0x%12!x! " //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_BROKER
+{
+sqmDomain.m_str, ItemWString -- 10
+sqmMoniker, ItemWString -- 11
+sqmFlags, ItemLong -- 12
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp381 19 "%0Failed to allocate memory" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp392 20 "%0Failed to get starting URL string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp400 21 "%0Failed to get terminating URL string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp409 22 "%0Failed to get broker flags: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp422 23 "%0Failed to initialize host context: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp430 24 "%0Failed to get broker flags: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp438 25 "%0Failed to get client token: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp457 26 "%0Failed to duplicate client token: %10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp475 27 "%0Failed to get Auth Cookies: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp481 28 "%0Setting %10!d! Auth Cookies" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+cookieCount, ItemLong -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp491 29 "%0Failed to get client process ID: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp508 30 "%0Failed to OpenProcess(ClientProcess): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp537 31 "%0Failed Create applicationName: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp543 32 "%0Full AuthHost.exe path: <%10!s!>" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+applicationName, ItemWString -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp560 33 "%0Failed to activate AuthHost process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp569 34 "%0Failed to query IAuthHost interface: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp578 35 "%0Failed to set AuthHost: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp586 36 "%0Failed to QI: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp596 37 "%0Failed to CreateWndMgmt" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp604 38 "%0CreateWndMgmt is not present" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp612 39 "%0Failed to allocate memory" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp620 40 "%0Failed to get dialog title" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp629 41 "%0Failed to get dialog title" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp638 42 "%0Failed to get dialog title" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp651 43 "%0Failed to initialize windowing: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp667 44 "%0RegisterWindowServiceForAccountsControl failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp676 45 "%0Failed to show UI: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp685 46 "%0Failed to GetWindowFactory: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp694 47 "%0Failed to initialize AuthHost process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp703 48 "%0Failed to navigate AuthHost process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp720 49 "%0Failed to process messages in dialog: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp744 50 "%0Failed to get completion results: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp753 51 "%0Unable to set response data: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp759 52 "%0Unable to set response data: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp765 53 "%0Unable to set response data: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp771 54 "%0Unable to set response data: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp787 55 "%0Unable to free wndMgmt: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrTemp, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp807 56 "%0Unable to report response data to client: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrTemp, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp815 57 "%0Failed to release AuthHost process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp830 58 "%0AuthBroker task finished." //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp884 60 "%0Failed DirectUI::InitProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrInitProcess, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp891 61 "%0Failed DirectUI::InitProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrInitProcess, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp903 62 "%0Failed DirectUI::InitThread: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrInitThread, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp910 63 "%0Failed DirectUI::InitThread: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrInitThread, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp982 64 "%0Failed CoInitializeEx: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hrCoInit, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp990 65 "%0Failed to get parent window?!: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+7e2a0e76-6023-39c0-9122-6578338e3440 AuthBroker // SRC=AppContainer.cpp MJ= MN=
+#typev AppContainer_cpp998 66 "%0Failed to determine if current process can launch UI?!: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1001 30 "%0Failed GetTokenInformation(TokenIsAppContainer): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1013 31 "%0Not activated from an AppContainer" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1112 32 "%0Failed to get AppContainerStringInfo: not an appContainer client" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1129 33 "%0Failed Get TokenAppContainerSid: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1185 34 "%0Failed AppContainerLookup(%10!d!): %11!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+infoType, ItemLong -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1260 35 "%0Failed to get client sid: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1272 36 "%0Failed to match SSO host: <%10!s!> clientSid: <%11!s!>" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+host, ItemWString -- 10
+clientSid, ItemWString -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1357 37 "%0Failed to get client sid: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1380 38 "%0Failed to create SSO URL: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1385 39 "%0Created SSO URL: <%10!s!>" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_BROKER
+{
+ssoUrl, ItemWString -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1428 40 "%0Failed to create SSO callback URI: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1442 41 "%0Failed to get absolute callback Uri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1468 42 "%0EnableTestSsoPrefix not enabled in registry" //   LEVEL=TRACE_LEVEL_WARNING COMPNAME=COMP_BROKER
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1503 43 "%0Failed to get Host: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1510 44 "%0Failed to verify SSO Host and is not a MDM exception: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1524 45 "%0Failed to verify SSO Host: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1539 46 "%0Failed: NoUI requires SSO" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1548 47 "%0Failed: HttpPost requires SSO" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1557 48 "%0Failed: CorporateNetwork requires SSO" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1568 49 "%0Failed to initialize callback Uri: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1663 50 "%0_AcquireAppContainerSlot:: NamedMutex: %10!s! already exists" //   LEVEL=TRACE_LEVEL_INFORMATION COMPNAME=COMP_ACTIVATION
+{
+mutexName, ItemWString -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1678 51 "%0_AcquireAppContainerSlot:: CreateMutex: %10!s! failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+mutexName, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1689 52 "%0_AcquireAppContainerSlot:: create mutex name failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1736 53 "%0 Failed - ConnvertSidToStringSid Error :  %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1758 54 "%0IsAppContainerCacheAccessible: InvalidFileHandle  %10!#x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+dwErrorCode, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1778 55 "%0 Failed to get SecurityDescriptor : %10!#x! " //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+dwErrorCode, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1819 56 "%0Unable to get Initialize Authz ResourceManager  " //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1827 57 "%0Unable to get AppData SecurityDescriptor " //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1839 58 "%0Unable to convert AppContainer SID into ClientContext " //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1860 59 "%0Failed to call AuthzAccessCheck : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1873 60 "%0Failed to release AuthzResourceManager : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+HRESULT_FROM_WIN32(GetLastError()), ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1909 61 "%0Failed to open HKCU\%10!s!: %11!#x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+APPCONTAINER_PROFILE_STORAGE_PATH, ItemWString -- 10
+dwErrorCode, ItemLong -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1928 62 "%0Failed to open HKCU\%10!s!\%11!s!: %12!#x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+APPCONTAINER_PROFILE_STORAGE_PATH, ItemWString -- 10
+lpwszMoniker, ItemWString -- 11
+dwErrorCode, ItemLong -- 12
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp1987 63 "%0Exceeded maximum number of concurrent AppContainers" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2049 64 "%0 AppContainerDeriveSidFromMoniker Failed  : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2061 65 "%0 IsAppContainerCacheAccessible Failed  : %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2071 66 "%0 AppContainer does not have required permissions . Deleting AppContainerProfile \%10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+moniker, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2076 67 "%0 Failed to delete AppContainerProfile \%10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+moniker, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2095 68 "%0Creating App Container Profile \%10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+moniker, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2103 69 "%0Failed CreateAppContainerProfile: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2229 70 "%0Failed OpenProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2290 71 "%0Failed CreateProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2392 72 "%0Failed CreateEvent: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2424 73 "%0AuthHost process exited before registering" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2465 74 "%0Failed OpenThreadToken: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2481 75 "%0Failed OpenProcessToken: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2493 76 "%0Failed ImpersonateLoggedOnUser: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2547 77 "%0Failed RevertAuthHostProcessImpersonation: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2594 78 "%0Failed InitializeAuthHostCapabilitySidAndAttributes: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2612 79 "%0Failed CreateAuthHostAppContainer: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2645 80 "%0Failed Create applicationName: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2653 81 "%0Full AuthHost path: <%10!s!>" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+applicationName, ItemWString -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2664 82 "%0Failed IsWow64Process: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2673 83 "%0Executing in Wow64Process" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2681 84 "%0Failed Wow64DisableWow64FsRedirection: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2700 85 "%0Failed CreateAuthHostProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2712 86 "%0Failed Wow64RevertWow64FsRedirection: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2749 87 "%0ExecuteSsoAuthHostCommand GetExitCodeProcess failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2759 88 "%0ExecuteSsoAuthHostCommand AuthHost.exe failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2770 89 "%0ExecuteSsoAuthHostCommand timed out" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2839 90 "%0Failed Create commandLineArg: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2850 91 "%0Failed PurgeAuthHostSsoCache: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2861 92 "%0Failed PurgeAuthHostSsoCache(Corporate Network): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp2958 93 "%0TlsAlloc(ClientContext) returned: %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+_clientContextTlsIndex, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3083 94 "%0TlsFree(ClientContext) index: %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+_clientContextTlsIndex, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3106 95 "%0FreeAuthBrokerClientContext(%10!p!) before refCount: %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+clientContext->refCount, ItemLong -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3138 96 "%0AddRefAuthBrokerClientContext(%10!p!) after refCount: %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+clientContext->refCount, ItemLong -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3171 97 "%0EnableTestSystemUI" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3182 98 "%0Failed to retrieve calling thread window, %10!s! - ignored" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3210 99 "%0Client AppContainer is missing corporate network capability, allowed through per test hook" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3218 100 "%0Client AppContainer is missing corporate network capability" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3235 101 "%0Client AppContainer is missing network capability" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3250 102 "%0GetAndVerifyAuthBrokerClientContext failed: %10!s! brokerFlags: 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+brokerFlags, ItemLong -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3259 103 "%0GetAndVerifyAuthBrokerClientContext succeeded! context: %10!p! brokerFlags: 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+newContext, ItemPtr -- 10
+brokerFlags, ItemLong -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3297 104 "%0AuthBrokerCreateClientContext InitOnceExecuteOnce failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3319 105 "%0AuthBrokerCreateClientContext failed: %10!s! flags: 0x%11!x! parentWindow: %12!p! dialogTitle: %13!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+flags, ItemLong -- 11
+parentWindow, ItemPtr -- 12
+dialogTitle, ItemWString -- 13
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3330 106 "%0AuthBrokerCreateClientContext succeeded! context: %10!p! flags: 0x%11!x! parentWindow: %12!p! dialogTitle: %13!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+*clientContext, ItemPtr -- 10
+flags, ItemLong -- 11
+parentWindow, ItemPtr -- 12
+dialogTitle, ItemWString -- 13
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3350 107 "%0AuthBrokerFreeClientContext(%10!p!) succeeded" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3382 108 "%0AuthBrokerSetThreadClientContext(%10!p!) previousContext: %11!p! wasn't cleared" //   LEVEL=TRACE_LEVEL_WARNING COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+previousContext, ItemPtr -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3406 109 "%0AuthBrokerSetThreadClientContext(%10!p!) failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3415 110 "%0AuthBrokerSetThreadClientContext(%10!p!) succeeded" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+clientContext, ItemPtr -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3464 111 "%0AuthBrokerClearThreadClientContext(%10!p!) failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+clearContext, ItemPtr -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp3473 112 "%0AuthBrokerClearThreadClientContext(%10!p!) succeeded" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+clearContext, ItemPtr -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp456 10 "%0Client AppContainer is missing private network capability needed for DevelopmentMode" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp469 11 "%0Failed to get ClientAppContainerPackageFullNameInfo: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp482 12 "%0Failed AppXGetDevelopmentMode(%10!s!): %11!s!" //   LEVEL=TRACE_LEVEL_WARNING COMPNAME=COMP_ACTIVATION
+{
+packageFullName, ItemWString -- 10
+hr, ItemHRESULT -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp506 13 "%0DevelopmentMode explicitly disabled by AuthHost registry setting" //   LEVEL=TRACE_LEVEL_WARNING COMPNAME=COMP_ACTIVATION
+{
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp513 14 "%0IsDevelopmentMode: %10!d! for packageFullName: %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+isDevelopmentMode, ItemLong -- 10
+packageFullName, ItemWString -- 11
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp586 15 "%0Failed InitializeAuthHostCapabilitySidAndAttributes: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp604 16 "%0Failed CreateAuthHostAppContainer: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp649 17 "%0Failed Create commandLineArg: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp688 18 "%0WaitFor SSO Mutex failed with wait status: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+waitStatus, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp701 19 "%0CreateMutex(SSO) failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp721 20 "%0Failed CreateAuthHostProcess(using clientProcess as parent): %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp740 21 "%0Failed CreateAuthHostProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp753 22 "%0Failed ImpersonateAuthHostProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp767 23 "%0Failed WaitForAuthHostProcessToRegister: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp826 24 "%0Failed CoCreateInstanceEx: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp895 25 "%0Failed TerminateProcess: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp947 26 "%0Failed I_RpcBindingInqLocalClientPID: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp957 27 "%0Caller thread ID: %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE COMPNAME=COMP_ACTIVATION
+{
+*clientThreadId, ItemLong -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp969 28 "%0Failed CoImpersonateClient: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+84203d09-8c57-3c45-7813-e37a60b2a756 AuthBroker // SRC=BrokerActivate.cpp MJ= MN=
+#typev BrokerActivate_cpp985 29 "%0Failed OpenThreadToken: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_ACTIVATION
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp101 16 "%0hWnd is NULL: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp109 17 "%0punk is NULL: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp121 18 "%0CoreRegisterWindowService failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp129 19 "%0Accounts Control Windows service already registered: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp146 20 "%0CoreUnregisterWindowService failed: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp32 10 "%0OpenThread failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp41 11 "%0GetProcessIdOfThread failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp49 12 "%0CoreQueryApplicationService failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp58 13 "%0GetWindowFromThreadId failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp70 14 "%0Failed to get spCoreWinInterop: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+
+88569878-7373-36db-88b0-60ea3df7284e AuthBroker // SRC=hwndhelper.cpp MJ= MN=
+#typev hwndhelper_cpp79 15 "%0Failed to get window handle: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR COMPNAME=COMP_BROKER
+{
+hr, ItemHRESULT -- 10
+}
+

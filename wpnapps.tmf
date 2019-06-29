@@ -1,0 +1,2610 @@
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp384 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp390 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp394 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp397 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp498 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp504 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp508 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp511 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp688 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp692 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp698 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp701 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp76 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+068360a2-336a-3389-69c8-51fdcbdcac1b developer // SRC=Channel.cpp MJ= MN=
+#typev Channel_cpp80 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp182 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp274 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp278 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp284 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp287 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp290 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp293 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp296 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=ChannelTrigger
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp299 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp358 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp365 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp369 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp414 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp418 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp422 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp425 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp428 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp431 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp434 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=ChannelTrigger
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp437 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp440 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp66 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+12a614e9-dfa5-32d7-90df-b957c2c9d845 developer // SRC=PushNotificationTrigger.cpp MJ= MN=
+#typev PushNotificationTrigger_cpp69 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+145994c7-3462-3174-42ac-1b3d2c7d52bd developer // SRC=ConnectionStatusChangedEventArgs.cpp MJ= MN=
+#typev ConnectionStatusChangedEventArgs_cpp88 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp108 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp122 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp136 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp199 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp205 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp208 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp211 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp220 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Id
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp228 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Tag
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp275 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp278 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp289 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp293 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp297 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp441 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp502 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp505 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp508 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp551 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp557 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp561 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp615 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp663 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp669 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp673 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp727 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp784 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp788 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=T
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp791 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1855484b-a93d-30df-4519-7201edb6efe5 developer // SRC=ScheduledTile.cpp MJ= MN=
+#typev ScheduledTile_cpp794 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+1b376733-b6e5-3e0a-ed81-c9437713e107 developer // SRC=ToastArgs.cpp MJ= MN=
+#typev ToastArgs_cpp200 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Arguments
+{
+EXP, ItemLong -- 10
+}
+
+1b376733-b6e5-3e0a-ed81-c9437713e107 developer // SRC=ToastArgs.cpp MJ= MN=
+#typev ToastArgs_cpp206 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1031 46 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1149 47 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1152 48 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1157 49 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1161 50 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1164 51 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1209 52 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1218 53 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1227 54 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1259 55 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1264 56 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1270 57 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1274 58 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=groupbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1282 59 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1319 60 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1326 61 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1330 62 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1336 63 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1339 64 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=groupbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1347 65 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1389 66 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1396 67 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1403 68 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1407 69 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1413 70 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1416 71 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=groupbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1419 72 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=tagbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1427 73 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1464 74 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1469 75 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1475 76 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1482 77 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1486 78 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=groupbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1489 79 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=tagbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1497 80 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1526 81 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1532 82 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1536 83 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=tagbstr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1542 84 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1548 85 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1562 86 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1591 87 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1596 88 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1599 89 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1606 90 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1640 91 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1644 92 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1650 93 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1653 94 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1659 95 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1665 96 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1698 97 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1703 98 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1706 99 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1745 100 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1749 101 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1755 102 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1758 103 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1765 104 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1768 105 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1925 106 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1929 107 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=T
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp1935 109 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp253 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Args
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp256 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp302 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp306 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp342 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Args
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp345 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp513 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp521 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp578 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp584 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp587 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp593 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempDeveloperId
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp597 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp603 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempNotificationTag
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp607 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp612 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempNotificationGroup
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp616 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp619 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp622 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp629 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp635 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp639 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp642 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp650 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp678 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp685 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp745 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp752 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp755 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp799 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp802 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp805 41 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp813 42 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp829 43 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp832 44 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+244a9925-ac80-354e-5e8e-b75e7fdf3e6f developer // SRC=Toast.cpp MJ= MN=
+#typev Toast_cpp836 45 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp21 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Payload
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp22 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=String
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp32 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp39 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Multibyte
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp48 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp66 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=String
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp67 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Payload
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp68 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=PayloadSize
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp74 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp80 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+30bf2054-184f-38a7-29e4-4da06315c79f common // SRC=wpnstr.cpp MJ= MN=
+#typev wpnstr_cpp84 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=*Payload
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp108 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp114 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp151 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp154 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp167 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp206 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp209 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp212 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp223 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp385 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp463 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp467 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=B
+{
+EXP, ItemLong -- 10
+}
+
+40204e65-8e25-3bd1-7d34-7df11c054e51 developer // SRC=Badge.cpp MJ= MN=
+#typev Badge_cpp473 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+498d932e-51ba-3847-b93a-c217d1e6b919 developer // SRC=ReceivingArgs.cpp MJ= MN=
+#typev ReceivingArgs_cpp200 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+498d932e-51ba-3847-b93a-c217d1e6b919 developer // SRC=ReceivingArgs.cpp MJ= MN=
+#typev ReceivingArgs_cpp248 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+498d932e-51ba-3847-b93a-c217d1e6b919 developer // SRC=ReceivingArgs.cpp MJ= MN=
+#typev ReceivingArgs_cpp296 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+498d932e-51ba-3847-b93a-c217d1e6b919 developer // SRC=ReceivingArgs.cpp MJ= MN=
+#typev ReceivingArgs_cpp344 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+50c2de46-8749-3f28-722f-d4df37f3f33b developer // SRC=dllmain.cpp MJ= MN=
+#typev dllmain_cpp265 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Module
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1002 47 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1013 48 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1020 49 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1024 50 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1081 51 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1085 52 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=T
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1088 53 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1091 54 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1138 55 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1142 56 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=T
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1151 57 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp1154 58 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp120 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp134 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp162 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp166 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp233 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_AppId
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp239 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp242 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp245 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_NotificationData
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp249 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Id
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp254 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Tag
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp259 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Group
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp315 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp321 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp324 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp327 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp378 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp384 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp388 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp442 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp491 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp497 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp501 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp555 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp604 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp610 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp614 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp668 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp798 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp832 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp836 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=tempRemoteId
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp945 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp948 41 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp951 42 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp990 43 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Content
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp994 44 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp996 45 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_Content
+{
+EXP, ItemLong -- 10
+}
+
+62764fe1-a9c8-37ad-4112-d53ac8e2c148 developer // SRC=ScheduledToast.cpp MJ= MN=
+#typev ScheduledToast_cpp999 46 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp106 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp113 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp116 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp151 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp204 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp256 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp263 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp266 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp275 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp279 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp282 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp285 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp293 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp340 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp347 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp350 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp363 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp367 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp51 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp54 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp65 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+8d668152-e92e-30d1-0167-5a3e80c28abd developer // SRC=PeriodicUpdateHelper.cpp MJ= MN=
+#typev PeriodicUpdateHelper_cpp68 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp1027 50 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp106 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp1105 51 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp1109 52 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=T
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp1115 54 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp112 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp277 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp285 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp326 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp330 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp335 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp338 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp345 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled->Id
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp349 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp356 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled->Tag
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp360 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp367 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp375 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp424 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp430 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp433 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp474 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp477 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp480 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp487 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Scheduled
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp504 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp507 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp511 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp557 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp560 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp573 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp611 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp614 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp617 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp628 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp650 41 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp655 42 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=UriStrings
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp658 43 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp669 44 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp699 45 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp702 46 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp705 47 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=UriStrings
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp708 48 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+9b5aa1b3-c0bd-383c-772f-58dd4d251f68 developer // SRC=Tile.cpp MJ= MN=
+#typev Tile_cpp719 49 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp121 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Result
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp124 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Buffer
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp133 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Result
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp189 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Result
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp192 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Buffer
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp203 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Result
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp265 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp284 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp292 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TokenILBuffer
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp301 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TokenILRetrieved
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp462 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp465 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Copy
+{
+EXP, ItemLong -- 10
+}
+
+a7f6035b-bf2b-3b17-725a-182bb6bb2c65 common // SRC=wpnlib.cpp MJ= MN=
+#typev wpnlib_cpp468 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1010 58 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1016 59 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1032 60 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1035 61 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp126 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp136 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Name
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1404 63 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1427 64 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1452 65 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1469 66 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1472 67 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp1497 68 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp160 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp169 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp175 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=NameBuffer
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp179 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp182 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Name
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp239 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp248 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp254 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=FamilyName
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp261 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp267 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp270 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp319 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp322 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Temp
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp422 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp425 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp486 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp489 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp534 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp575 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp586 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Result
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp625 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=ContentString
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp632 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp638 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp641 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp644 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp723 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=String
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp726 41 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp729 42 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp732 43 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp795 44 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp799 45 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp855 46 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Len
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp859 47 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp877 48 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp885 49 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp888 50 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp891 51 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp933 53 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=PackageFullName
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp934 54 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=AppUserModelId
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp949 55 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+b8fe49ad-6fe8-35ec-e598-8902e6415f29 developer // SRC=util.cpp MJ= MN=
+#typev util_cpp952 56 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp103 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp136 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp142 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp182 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp185 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp198 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp237 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp245 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp285 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp288 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp291 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp302 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp375 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp379 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp383 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp386 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp389 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp392 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempUpdater
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp451 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp455 30 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp461 31 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp464 32 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp467 33 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp470 34 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempUpdater
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp529 35 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp533 36 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp539 37 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp542 38 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp545 39 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp548 40 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=TempUpdater
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp601 41 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp672 42 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp676 43 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=Obj
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp679 44 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp682 45 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fb51609a-f365-3afe-2619-d7200f64ca1e developer // SRC=TileFlyout.cpp MJ= MN=
+#typev TileFlyout_cpp99 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp100 10 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_appId
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp103 11 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=m_pkgName
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp107 12 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp112 13 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp116 14 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp121 15 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp127 16 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp142 17 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp474 18 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp481 19 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp530 20 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp574 21 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp581 22 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp630 23 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp673 24 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp733 25 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp736 26 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp739 27 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp906 28 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+
+fcae0c3e-35b6-3258-a57e-5b5c838ec787 developer // SRC=BaseNotification.cpp MJ= MN=
+#typev BaseNotification_cpp954 29 "%0WPN: - hr = 0x%10!08X!" //   FLAGS=Debug EXP=hr
+{
+EXP, ItemLong -- 10
+}
+

@@ -1,0 +1,32 @@
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceInterfaceAccessCheck: Checking for package "%10!s!" in privileged list for system" //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SmbiosInformation: Found privileged app list for system container." //   LEVEL=WPP_INFO
+{
+}
+
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0SmbiosInformation: All apps marked allowed." //   LEVEL=WPP_INFO
+{
+}
+
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0SmbiosInformation: Found package match." //   LEVEL=WPP_INFO
+{
+}
+
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0SmbiosInformation: Found package "%10!s!" in privileged list; not a match." //   LEVEL=WPP_INFO
+{
+Arg, ItemWString -- 10
+}
+
+bb3c7c4c-dd2c-3581-e9ed-51ebeb165da5 SmbiosInformation // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Package is not in privileged list for system container." //   LEVEL=WPP_ERROR
+{
+}
+

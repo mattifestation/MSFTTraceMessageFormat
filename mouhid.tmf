@@ -1,0 +1,257 @@
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Returning with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0DeviceObject 0x%10!p! Returning with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceObject 0x%10!p! Returning with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceObject 0x%10!p! Vscroll Usage/Page Override was specified, but not both: Page=0x%11!x!, Usage=0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceObject 0x%10!p! Hscroll Usage/Page Override was specified, but not both: Page=0x%11!x!, Usage=0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceObject 0x%10!p! Returning with %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceObject 0x%10!p! Irp 0x%11!p!, Received PnP irp %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 12
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0PNP: Device already started." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Power completion for IRP_MN_SET_POWER D%12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceObject 0x%10!p! On resume ResolutionMultiplierState is %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_RESOLUTION_MULTIPLIER_STATE) -- 11
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Setting resolution multiplier on D0 power transition status:%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Unexpected state %10!s! on D0 power transition" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemEnum(_RESOLUTION_MULTIPLIER_STATE) -- 10
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DeviceObject 0x%10!p! Irp 0x%11!p! IRP_MN_SET_POWER for %12!s!%13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceObject 0x%10!p! Previous ResolutionMultiplierState was %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_RESOLUTION_MULTIPLIER_STATE) -- 11
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceObject 0x%10!p! MouHid_Power set scaling factors: Wheel = %11!d!, HScroll = %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0e390a9b-c2ef-370b-a1e2-f5617778e28b mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Power minor %10!s! not known" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemListByte(WaitWake,PowerSequence,SetPower,QueryPower) -- 10
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceObject 0x%10!p! HidP_SetUsageValue failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceObject 0x%10!p! MouHid_CallHidClass failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceObject 0x%10!p! SetResolutionFeatureForUsage failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0DeviceObject 0x%10!p! ResolutionMultipliers set: V = %11!d!, H = %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceObject:0x%10!p! Irp 0x%11!p! Error opening FileObject 0x%12!p! status:%13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceObject:0x%10!p! Irp 0x%11!p! Error enable before connect status:%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Enabling read for mouse,fileObject:0x%12!p!, accessMode:0x%13!x! shareMode:0x%14!x! enableCount:%15!ld!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Setting resolution multiplier on create status:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+1f0dacfd-7925-3e55-9137-795aa063ab97 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Disabling read for mouse , fileObject:0x%12!p! enableCount:%13!ld!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+63ac6cd3-ea1e-34f9-5604-455df868a7d9 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DeviceObject 0x%10!p! Irp 0x%11!p!, EnableCount:%12!ld! breaking out of read loop" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+63ac6cd3-ea1e-34f9-5604-455df868a7d9 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0DeviceObject 0x%10!p! - Invoking read from completion routine" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+63ac6cd3-ea1e-34f9-5604-455df868a7d9 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DeviceObject 0x%10!p! - Synchronizing Read/Create/Close EnableCount:%11!u!l status:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+63ac6cd3-ea1e-34f9-5604-455df868a7d9 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0DeviceObject 0x%10!p! Looping read since it completed synchronously" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+63ac6cd3-ea1e-34f9-5604-455df868a7d9 mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0DeviceObject 0x%10!p! ReadIrp 0x%11!p! failed with status:%12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+98d16717-e156-3f52-c711-cbf61f8e2c7a mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DeviceObject 0x%10!p!, Irp 0x%11!p!, Received %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_MOU_IOCTL) -- 12
+}
+
+98d16717-e156-3f52-c711-cbf61f8e2c7a mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Multiple connects, returning %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+98d16717-e156-3f52-c711-cbf61f8e2c7a mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Invalid connect parameter size, returning %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+98d16717-e156-3f52-c711-cbf61f8e2c7a mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Insufficient buffer when processing %10!s! returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemEnum(_MOU_IOCTL) -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+98d16717-e156-3f52-c711-cbf61f8e2c7a mouhid // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Error: unknown IOCTL: 0x%10!x!, returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+

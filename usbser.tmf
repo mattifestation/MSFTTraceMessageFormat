@@ -1,0 +1,2076 @@
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Request = %10!p! Length = %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_WRITE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfRequestRetrieveInputMemory failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WRITE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfUsbTargetPipeFormatRequestForWrite failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WRITE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfRequestSend failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WRITE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Write failed Status: %10!s! UsbdStatus: 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WRITE
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Write completed bytesWritten: %10!d! Status: %11!s! UsbdStatus: 0x%12!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_WRITE
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLong -- 12
+}
+
+0a4b990b-c195-3e16-37fa-5132eb025bc1 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Read Irp %10!p!, Length 0x%11!I64x! CharsInReadBuff 0x%12!I64x! returnWithWhatsPresent 0x%13!1x! os2ssreturn 0x%14!1x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLongLongX -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Complete Read Irp: %10!p! %11!s! 0x%12!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLongLongX -- 12
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Dispatch Prerprocessed Read Irp: %10!p! to framework" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Queue %10!p! Request %11!p!, Length 0x%12!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLongLongX -- 12
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfRequestRetrieveOutputBuffer returned %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Data available in buffer to complete Read Request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Read Total Timeout: %10!I64d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLongLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Read Interval Timeout: %10!I64d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLongLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Read Request pending for data" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Zero length read occured on the Continuous Reader Read pipe" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Bulk Read completed. Data Read %10!d! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Start is in progress, deferring stop" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Failed to stop asynchronously" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Completing CurrentReadRequest request (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Cancelling CurrentReadRequest (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Entry Request (%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Entry DeviceExtension(%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit DeviceExtension(%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Entry DeviceExtension(%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Read total timeout occurred" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Read Request has been completed" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Read Request has been Cancelled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Data read : %10!d! bytes. Reset byte counter and LastReadTime" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Data read : %10!d! bytes. Interval Timer expired" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Data read : %10!d! bytes. Interval Timer not yet expired" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0First byte hasn't been read till now. Resubmit the interval timer" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Exit(%10!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Entry DeviceExtension %10!p! Request %11!p! StatusToUse %12!s! RefType %13!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+Arg, ItemLong -- 13
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Creating the USB Read Circular buffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Failed to copy USB Read Circular buffer to the new buffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0CharsInReadBuff (%10!08X!) bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0CharsInReadBuff (%10!08X!) bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemLong -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Reader is being stopped, deferring the start" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Starting USB Continuous Reader for Read Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3a226185-64a2-3730-fd64-481d625e2d60 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0WdfDeviceStopIdle failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0UsbSerSetPowerPolicy Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Failed to stop the reader" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Selective Suspend Policy: SUSPEND_ONLY_WHEN_NO_OPENHANDLES" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfDriverCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Selective Suspend Policy: SUSPEND_WHEN_IDLE" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Selective Suspend Policy: DO_NOT_SUSPEND" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Invalid Selective Suspend Policy. Using DO_NOT_SUSPEND" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0WdfDeviceAssignS0IdleSettings failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0WdfDeviceAssignS0IdleSettings failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfWaitLockCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0WdfDeviceAllocAndQueryPropertyEx failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0WdfDeviceAssignProperty failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Usbser FDO already created for this device..Skipping creating the FDO again" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0No more deviceInstance Slot is free" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Create Device with name %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemWString -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Assigning a device name failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfDeviceInitAssignSDDLString failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0UsbSerCreateDevice - WdfDeviceCreate failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to create the registry key UsbSerFDOCreated" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0UsbSerSetPowerPolicy Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WdfDeviceRetrieveDeviceName failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Creating SpinLock ControlLock failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 WdfDeviceConfigureRequestDispatching failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 WdfIoQueueCreate for Write failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 WdfDeviceConfigureRequestDispatching failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0UsbSerCreateReadTimers failed %10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0UsbSerWmiRegistration failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfIoTargetSendInternalIoctlSynchronously failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WdfUsbTargetDeviceCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Device has zero configurations" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0UsbSerConfigureDevice Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0UsbserConfigureUSBContinuousReaders Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Unable to allocate urb %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Get Configuration Descriptor status %10!s! (%11!p!) Length (%12!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Memory allocation failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Memory allocation failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Memory allocation failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0USBD_ParseConfigurationDescriptorEx > Couldn't get the Interface Descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfUsbTargetDeviceSelectConfig Status %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0---------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0NumberOfPipes (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Length            (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Alt Setting       (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Interface Number  (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Class (%10!08X!)  SubClass (%11!08X!)  Protocol (%12!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0WdfUsbInterfaceGetNumConfiguredPipes returned zero pipeCount" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0---------" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0PipeType            (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0EndpointAddress     (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0MaxPacketSize       (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Interval            (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Handle              (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0MaximumTransferSize (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0USBD_CreateConfigurationRequestEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Failure in getting required pipes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Data Out (%10!p!)  Data In (%11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Device does not support notifications." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Notification (%10!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Device doesn't have the Communications Interface" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Exit with %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Unexpected condition. Reader was being stopped, failing %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Starting USB Continuous Reader for Read Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Starting USB Continuous Reader for Notification Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Exit with %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Failed to stop the reader" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0External Naming Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Exit with %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Don't allow creating a directory %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0WdfDeviceStopIdle failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_CREATE_CLOSE
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Reader is being stopped. Deferring the start" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Starting USB Continuous Reader for Read Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Starting USB Continuous Reader for Notification Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0UsbSerSetPowerPolicy Failed - Status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+3bff688f-aba0-3c5f-7275-97a6acac3c52 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfWmiInstanceCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Exit Status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0UsbSerWmiRegisterInstance failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0UsbSerReadSymLinkName failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_WMI
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+68e301be-dca6-3e33-3dc7-781ee6c63d41 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Exit status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WdfTimerCreate(ReadRequestTotalTimer) failed  [%10!#08x!]" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfTimerCreate(ReadRequestIntervalTimer) failed  [%10!#08x!]" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Getting PortName/Identifier failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfDeviceCreateDeviceInterface failed with %10!s! for port %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPWString -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WdfDeviceRetrieveDeviceInterfaceString failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0IoSetDeviceInterfacePropertyData failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0IoSetDeviceInterfacePropertyData failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0DosName is %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemWString -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Couldn't create the symbolic link for port %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPWString -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0IoSetDeviceInterfacePropertyData failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Couldn't delete value entry %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemWString -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Complete Request: %10!p! %11!s! 0x%12!I64x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+Arg, ItemLongLongX -- 12
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfUsbTargetDeviceSendControlTransferSynchronously failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Exit with %10!s! BytesTransferred %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfRequestMarkCancelableEx for Request %10!p! returned %11!s! " //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Entry %10!p! %11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Request %10!p! already cancelled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Queue 0x%10!p!, Request 0x%11!p! ActionFlags %12!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfIoTargetStart failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Stop in progress, requesting start" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Exit: Operation completed ? %10!d! status %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Start in progress, not stopping" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Exit: Operation Completed ? %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemLong -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WdfWorkItemCreate failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Start in progress, not stopping" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Exit: Operation Completed ? %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemLong -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfIoTargetStart failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Exit with no action (no notifications) %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Exit with no action (no notifications)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!s! %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_WRITE
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_WRITE
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP_POWER
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0RxBufferSize override from registry is %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+Arg, ItemLong -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0 WdfUsbTargetPipeConfigContinuousReader failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Creating the USB Read Circular buffer failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0 WdfUsbTargetPipeConfigContinuousReader failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Device does not support notifications" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP_POWER
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Exit with status %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WdfIoTargetStart failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+bdbbaa6b-239e-33df-b5ea-aeba682299ad usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_READ
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0Sending Cmd : USB_COMM_SET_LINE_CODING CmdType : USBSER_CLASS_COMMAND IsRead ? %10!1d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0Entry DeviceExtension %10!p! NumBytesTransferred %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0CDC Serial State (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Modem Status (%10!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0No pending mask request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Completing Pending mask request with Mask (0X%10!x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Ioctl %10!s! Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WdfRequestRetrieveOutputBuffer failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_IOCTL
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Ioctl %10!s! Request 0x%11!p! OutputBufferLength %12!d! InputBufferLength %13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfDeviceAssignSxWakeSettings failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Remote Wake successfully enabled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0WdfDeviceAssignSxWakeSettings failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP_POWER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Remote Wake successfully disabled" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP_POWER
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Unknown Ioctl %10!s! Pass-through result %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Serial Timeouts" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ReadIntervalTimeout: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ReadTotalTimeoutConstant: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ReadTotalTimeoutMultiplier: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WriteTotalTimeoutConstant: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WriteTotalTimeoutMultiplier: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Serial Timeouts" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ReadIntervalTimeout: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ReadTotalTimeoutConstant: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ReadTotalTimeoutMultiplier: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WriteTotalTimeoutConstant: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WriteTotalTimeoutMultiplier: %10!d! msec" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Sending Cmd : USB_COMM_SET_CONTROL_LINE_STATE CmdType: USBSER_CLASS_COMMAND IsRead ? %10!1d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Sending Cmd : USB_COMM_SEND_BREAK CmdType: USBSER_CLASS_COMMAND IsRead ? %10!1d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Completing Mask request immediately with Mask (0X%10!x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0WdfRequestForwardToIoQueue failed for mask request (0x%10!p!) %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Reader is being stopped. Deferring the start until it is complete" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_READ
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Starting USB Continuous Reader for Read Pipe Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_READ
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Sending Cmd : USB_COMM_GET_LINE_CODING CmdType: USBSER_CLASS_COMMAND IsRead ? %10!1d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Baud (%10!08X!)  StopBits (%11!08X!)  DataBits (%12!08X!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_IOCTL
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e6fef0de-933a-3e87-a6e4-c0e8acd338c2 usbser_wdf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Exit %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_ENTRY_EXIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+

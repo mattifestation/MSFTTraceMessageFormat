@@ -1,0 +1,3770 @@
+216b488e-8194-39da-7196-efbbb10c1cda POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayStoredBitmapServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+216b488e-8194-39da-7196-efbbb10c1cda POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Bitmap number %10!u! released" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+216b488e-8194-39da-7196-efbbb10c1cda POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayStoredBitmapServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+216b488e-8194-39da-7196-efbbb10c1cda POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Created a new bitmap with number %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+216b488e-8194-39da-7196-efbbb10c1cda POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Already released bitmap %10!u! for this object. Skipping to avoid releasing another bitmap that claimed this number." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayWindowServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayWindowServer object %10!p! for window %11!u! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayWindowServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to initialize a LineDisplayWindow object after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0LineDisplay.CreateLineDisplayWindow(default: %10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Window %10!u! reported size {w:%11!u!, h:%12!u!}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0LineDisplay.GetSizeInCharacters(window %10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0LineDisplay.GetInterCharacterWait(window %10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0LineDisplayWindowServer (%10!p!) RuntimeClassInitialize completed with %11!s! and window %12!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+Arg, ItemLong -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to get the marquee format for window %10!u! (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to get the repeat wait interval for window %10!u! (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to get the scroll wait interval for window %10!u! (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to get the marquee type for window %10!u! (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0LineDisplay.GetCursorType(window %10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Setting AutoUpdateEnabled to true for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LineDisplay.GetPosition(window %10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DestroyWindow(%10!p!) for window %11!u! failed with %12!s!. The object was not closed, and the window count was not decremented." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ClaimedLineDisplayServer object %10!p! for window %11!u! closed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Creating LineDisplayMarqueeServer for window %10!u! failed with %11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Attempt to set a InterCharacterWaitInterval property after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0SetInterCharacterWaitInterval for window %10!u! failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Attempt to set InterCharacterWait while not supported, %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Invalid text attribute %10!u! provided (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Attempt to write text to window %10!u! in Marquee On mode. Current marquee type: %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DisplayText failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0TryDisplayTextAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0MoveOnCopy<HString>.Set failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Invalid text attribute %10!u! provided (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Attempt to write text to window %10!u! in Marquee On mode. Current marquee type: %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DisplayTextAt failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0TryDisplayTextAtPositionAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0MoveOnCopy<HString>.Set failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Invalid scroll direction provided (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Attempt to scroll text when window %10!u! is not in Immediate Mode. Current marquee type: %11!u!; InterCharacterWait: %12!I64d! (%13!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemHRESULT -- 13
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ScrollText failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0TryScrollTextAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Attempt to write text to window %10!u! in Marquee On mode. Current marquee type: %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ClearText failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0TryClearTextAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Attempt to refresh window %10!u! in Marquee On mode. Current marquee type: %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0RefreshWindow failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0TryRefreshAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Attempt to read the character at the cursor when the device does not support ReadCharacterAtCursor (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Attempt to access window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0ReadCharacterAtCursor failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ReadCharacterAtCursorAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Attempt to display a bitmap when the device does not support displaying bitmaps (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Cannot display a bitmap using a null bitmap object (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Attempt to display a bitmap when the device does not support displaying bitmaps (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Invalid horizontalAlignment value %10!u! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Invalid verticalAlignment value %10!u! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Cannot display the bitmap because the width could not be validated (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0The provided widthInPixels value %10!u! is larger the max supported bitmap size of %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0The widthInPixels value cannot be negative. Received %10!u!. (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Attempt to display a bitmap on window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Failed to create an agile reference to the provided StorageFile (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Querying bitmapRef for the IStorageFile interface failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Failed to get the path of the provided StorageFile at %10!p! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0DisplayStorageFileBitmap failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0TryDisplayStorageFileBitmapAtCursorWithAlignmentAndWidthAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Attempt to display a bitmap when the device does not support displaying bitmaps (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Cannot display the bitmap at a negative offset {x:%10!d!, y:%11!d!}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Cannot display the bitmap because the width could not be validated (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0The provided widthInPixels value %10!u! is larger the max supported bitmap size of %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0The widthInPixels value cannot be negative. Received %10!u!. (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Attempt to display a bitmap on window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed to create an agile reference to the provided StorageFile (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Querying bitmapRef for the IStorageFile interface failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DisplayStorageFileBitmap failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0TryDisplayStorageFileBitmapAtPointWithWidthAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+3dcf399b-4625-3821-d265-570a453e3a21 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0GetPosition failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayEventRouter object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0RegisterLineDisplay called for event router %10!p! and line display %11!p!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0RegisterLineDisplay completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0UnregisterLineDisplay called for event router %10!p!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0RegisterClaimedLineDisplay called for event router %10!p! and claimed line display %11!p!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0RegisterClaimedLineDisplay completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0UnregisterClaimedLineDisplay called for event router %10!p!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0LineDisplayEventRouter::ProcessEvent called with event data at %10!p!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Forwarding line display event to the claimed line display" //   LEVEL=POSRT_TRACE
+{
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Event processed, but there is no claimed line display registered with event router %10!p!. Dropping event." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Forwarding line display event to the unclaimed line display" //   LEVEL=POSRT_TRACE
+{
+}
+
+3f5a45a7-2cdb-3a99-91b0-1e4e91a5b715 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Event processed, but there is no unclaimed line display registered with event router %10!p!. Dropping event." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+404c80f4-4b6c-3b20-f434-120dbc648201 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayStatusUpdatedEventArgsServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+404c80f4-4b6c-3b20-f434-120dbc648201 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Invalid PosStatusUpdatedEventData object provided. Length %10!u!, expected %11!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+404c80f4-4b6c-3b20-f434-120dbc648201 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0An invalid power status %10!u! was provided" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayCursorServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayCursorServer object %10!p! for window %11!u! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayCursorServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to initialize a LineDisplayCursor object after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Attempt to initialize a LineDisplayCursor object with a null LineDisplayWindow (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Attempt to get the parent window for cursor %10!p! using a null LineDisplayWindow (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Invalid cursor type %10!u! provided (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0The device does not support displaying a cursor (%10!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to verify that the Block cursor type is supported. Cursor type for window %10!u! is unchanged. (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to verify that the HalfBlock cursor type is supported. Cursor type for window %10!u! is unchanged. (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to verify that the Other cursor type is supported. Cursor type for window %10!u! is unchanged. (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to verify that the Reverse cursor type is supported. Cursor type for window %10!u! is unchanged. (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to verify that the Underline cursor type is supported. Cursor type for window %10!u! is unchanged. (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Invalid cursor type %10!u! specified. Cannot set the cursor type for window %11!u! (%12!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Requested cursor type %10!u! is not supported by the device (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Attempt to get the IsFixed value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Attempt to get the IsBlinkSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Attempt to get the IsBlockSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Attempt to get the IsHalfBlockSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Attempt to get the IsUnderlineSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Attempt to get the IsReverseSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Attempt to get the IsOtherSupported value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Attempt to get the attributes for cursor %10!p! using a null pointer (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Creating a LineDisplayCursorAttributesServer for cursor %10!p! failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Failed to return the LineDisplayCursorAttributes for cursor %10!p! with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Attempt to access cursor for window %10!u! after Close() (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0LineDisplay.SetPosition(window %10!u!, x %11!s!, y %12!s!) failed with %13!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemDouble -- 11
+Arg, ItemDouble -- 12
+Arg, ItemHRESULT -- 13
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0LineDisplay.SetAutoUpdateEnabled(window %10!u!, value %11!s!) failed with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0LineDisplay.SetCursorType(window %10!u!, value %11!x!) failed with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4695c654-ab76-3b0c-c9da-45d655ebaa19 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0TryUpdateAttributesAsync failed during a device operation. Completing the operation successfully and returning nullptr." //   LEVEL=POSRT_TRACE
+{
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ClaimedLineDisplayServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ClaimedLineDisplayServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ClaimedLineDisplay (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Provider.Claim failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GetMaxBitmapSizeInPixels failed with %10!s!, unable to initialize this LineDisplay object instance" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0GetSupportedCharacterSets failed with %10!s!, unable to initialize this LineDisplay object instance" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GetSupportedScreenSizesInCharacters failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ClaimedLineDisplay (%10!p!) RuntimeClassInitialize completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GetBrightness failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GetBlinkRate failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0GetCharacterSet failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0GetIsCharacterSetMappingEnabled failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0GetScreenSizeInCharacters failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to get the default window's size (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0MakeAndInitialize<LineDisplayWindowServer> for default window failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0GetGlyphSize failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0GetSupportedGlyphCodes failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Incrementing the window count for ClaimedLineDisplay %10!p! from %11!u! to %12!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Decrementing the window count for ClaimedLineDisplay %10!p! from %11!u! to %12!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Attempted to decrement the window count for ClaimedLineDisplay %10!p! from %11!u! to %12!u!. Ignoring." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Closing ClaimedLineDisplay (%10!p!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Provider.Unclaim failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Attempt to get the DefaultWindow after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0defaultWindow.CopyTo failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Attempt to retain the device after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Provider.SendDeviceCommand(PosDeviceControlType::RetainDevice) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ClaimedLineDisplay (%10!p!) RetainDevice completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ClaimedLineDisplay (%10!p!) releaseDeviceRequestedEvent.Add completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ClaimedLineDisplay (%10!p!) releaseDeviceRequestedEvent.Remove completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ClaimedLineDisplay (%10!p!): PosEventType::ReleaseDeviceRequested received" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ClaimedLineDisplay (%10!p!): releaseDeviceRequestedEvent.InvokeAll completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ClaimedLineDisplay (%10!p!): PosEventType::StatusUpdated received" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ClaimedLineDisplay (%10!p!): statusUpdatedEvent.InvokeAll completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failed to create a LineDisplayStatusUpdatedEventArgs object (%10!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0IsPowerNotifyEnabled is false, so dropping StatusUpdated event" //   LEVEL=POSRT_TRACE
+{
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ClaimedLineDisplay (%10!p!): unkown POS event type %11!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Attempt to get device statistics after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Attempt to get device statistics when the device does not support statistics (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Failed to create an agile reference to the provided statistics categories (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Querying categories for the IIterable interface failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0RetrieveStatisticsInternalString returned nullptr (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0RetrieveStatisticsInternalString failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Attempt to check health after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Attempt to check health after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0SendDeviceCommand(CheckHealth) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Not enough memory to read device health report (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0SendDeviceCommand(CheckHealth) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WindowsCreateString failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0The reported and actual lengths of the check health string are different %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Attempt to check power status after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Attempted to get CustomGlyphs when the device does not support custom glyphs (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Failed to create a CustomGlyphs object (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed to create a LineDisplayAttributes object (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Attempt to access line display attributes after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0LineDisplay.SetBlinkRate(%10!I64d!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLongLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Retrieving the actual blink rate failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0LineDisplay.SetBrightness(%10!d!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0LineDisplay.SetCharacterSet(%10!d!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0LineDisplay.SetCurrentWindow(%10!u!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0LineDisplay.SetScreenSizeInCharacters(%10!s!, %11!s!) failed with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemDouble -- 10
+Arg, ItemDouble -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0LineDisplay.SetIsCharacterSetMappingEnabled(%10!d!) failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0TryUpdateAttributesAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Attempt to set descriptor after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Attempt to set a descriptor that is out of range (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0An invalid descriptor state was provided (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0TrySetDescriptorAsync(%10!u!, %11!u!) failed with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0TrySetDescriptorAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_ERROR
+{
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Attempt to clear descriptors after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0TryClearDescriptorsAsync failed during a device operation with %10!s!. Completing the operation successfully and returning false." //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Attempt to create a window {w:%10!u!, h:%11!u!}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Attempt to create a window {w:%10!u!, h:%11!u!}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Attempt to create a window when the maximum number of windows has already been created (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Attempt to create a window after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Failed to create a new LineDisplayWindow with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0TryCreateWindowAsync failed during a device operation. Completing the operation successfully and returning nullptr." //   LEVEL=POSRT_TRACE
+{
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Invalid horizontalAlignment value %10!u! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Invalid verticalAlignment value %10!u! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0The provided widthInPixels value %10!u! is larger the max supported bitmap size of %11!u! (%12!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Attempt to store a bitmap when the device does not support displaying bitmaps (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Attempt to store a bitmap after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Failed to create an agile reference to the provided StorageFile (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Querying bitmapRef for the IStorageFile interface failed (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0StorageItem->get_Path failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Received a non-file-backed StorageFile. Returning %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+4e36882a-0201-39d0-2763-cfbb9efc3cad POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0TryStoreStorageFileBitmapWithAlignmentAndWidthAsync failed during a device operation. Completing the operation successfully and returning nullptr." //   LEVEL=POSRT_TRACE
+{
+}
+
+89e73784-b46c-3f79-423e-ea489bf47803 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DLL_PROCESS_ATTACH" //   LEVEL=POSRT_TRACE
+{
+}
+
+89e73784-b46c-3f79-423e-ea489bf47803 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DLL_PROCESS_DETACH (%10!u!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayMarqueeServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayMarqueeServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayMarqueeServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to initialize a LineDisplayWindow object after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Attempt to change the marquee format on the default window which does not support marquee (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid marquee format provided (%10!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Attempt to change the repeat wait interval on the default window which does not support marquee (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Attempt to change the marquee scroll wait interval on the default window which does not support marquee (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Attempt to change marquee properties on the default window which does not support marquee (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Invalid marquee scroll direction provided (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Attempt to marquee scroll vertically in window %10!u! when the device does not support vertical marquee (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Attempt to marquee scroll vertically in window %10!u! when the window is not taller than the viewport (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Attempt to marquee scroll horizontally in window %10!u! when the device does not support horizontal marquee (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Attempt to marquee scroll horizontally in window %10!u! when the window is not wider than the viewport (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Attempt to change the marquee after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Updating the marquee format for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Updating the repeat wait interval for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Updating the marquee scroll wait interval for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0SetMarqueeType(MarqueeTypeNone) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0SetMarqueeType(MarqueeTypeUp) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SetMarqueeType(MarqueeTypeDown) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0SetMarqueeType(MarqueeTypeLeft) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0SetMarqueeType(MarqueeTypeRight) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0TryStartScrollingAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Attempt to change marquee properties on the default window which does not support marquee (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Attempt to change the marquee after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SetMarqueeType(MarqueeTypeNone) for window %10!u! failed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+94cc9853-2f74-3165-5446-1861ec1660c6 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0TryStartScrollingAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplay base object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0Provider.GetFixedLengthPropertyValue(LineDisplayScreenMode) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0The reported screen mode is out of range of the supportedScreenSizes (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Failed to find the screen mode in the supportedScreenSizes list (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0The provided screen size {w:%10!u!, h:%11!u!}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0Provider.SetFixedLengthPropertyValue(LineDisplayScreenMode) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0Failed to get the updated max bitmap size (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0Attempt to read LineDisplayMaxBitmapSizeInPixels after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0Provider.GetFixedLengthPropertyValue(LineDisplayMaxBitmapSizeInPixels) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0GetSupportedCharacterSets called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0Attempt to get the character set list after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplay base object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0Provider.GetPropertyValue(LineDisplayCharacterSetList) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0Failed to create an AgileVector to store the supported character sets (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0Failed to append the character set to the AgileVector (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0Skipping invalid character set %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0GetSupportedCharacterSets completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0CreateLineDisplayWindow called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0Attempt to create a window after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0Requested viewport: {y:%10!u!, x:%11!u!, h:%12!u!, w:%13!u!}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0New window %10!u! successfully created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0GetPropertyValue(PosPropertyId::LineDisplayCurrentWindow) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplay base (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayCreateWindow) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0Creating an object to represent the default window. Skipping device command." //   LEVEL=POSRT_ERROR
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0CreateLineDisplayWindow completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0DisplayText(%10!s!, %11!u!) called for window %12!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0DisplayText called with a null or empty string (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0Attempt to display text after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayWindowDisplayText(%10!u! bytes)) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0DisplayText(%10!s!, %11!u!) called for window %12!u! completed with %13!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemHRESULT -- 13
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0LineDisplay base (%10!p!) successfully opened" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0DisplayTextAt(%10!s!, %11!u!, at %12!u!x%13!u!) called for window %14!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0DisplayTextAt called with a null or empty string (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0Attempt to display text after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayWindowDisplayTextAt(%10!u! bytes)) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0DisplayTextAt(%10!s!, %11!u!, at %12!u!x%13!u!) for window %14!u! completed with  %15!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemHRESULT -- 15
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0DisplayStorageFileBitmap(%10!s!, %11!u!, %12!u!, %13!u!) called for window %14!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0DisplayStorageFileBitmap called with a null or empty file name (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0Attempt to display bitmap after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Provider.GetPropertyValue(LineDisplayCapabilities) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayWindowDisplayBitmap) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0DisplayStorageFileBitmap(%10!s!, %11!u!, %12!u!, %13!u!) for window %14!u! completed with %15!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemHRESULT -- 15
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0ReadCharacterAtCursor called for window %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0Attempt to read the character at the cursor after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayReadCharacterAtCursor) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0ReadCharacterAtCursor for window %10!u! completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0ScrollText(%10!u!, %11!u! units) called for window %12!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ProviderFactory.CreateInstance returned %10!s! and a null provider pointer" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0ScrollText called with a 0 number of units, nothing to scroll" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0Attempt to scroll text after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayWindowScrollText(%10!u! bytes)) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0ScrollText(%10!u!, %11!u! units) for window %12!u! completed with %13!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemHRESULT -- 13
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0ClearText called for window %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0Attempt to clear text after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayWindowClearText) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0ClearText for window %10!u! completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ProviderFactory.CreateInstance failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0RefreshText called for window %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0Attempt to refresh window after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayRefreshWindow) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0RefreshWindow for window %10!u! completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0DestroyWindow called for window %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0Attempt to destroy window after parent LineDisplay Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0Failed setting window %10!u! as current with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0SendDeviceCommand(PosDeviceControlType::LineDisplaydestroyWindow) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0DestroyWindow for window %10!u! completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0SetDescriptor called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0Attempt to set a descriptor attribute after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0Requested descriptor update: {descriptor:%10!u!, attribute:%11!u!}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0SendDeviceCommand(PosDeviceControlType::LineDisplaySetDescriptor) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0SetDescriptor completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 175 "%0ClearDescriptors called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0Attempt to clear descriptors after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 177 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayClearDescriptors) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 178 "%0ClearDescriptors completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 179 "%0StoreStorageFileBitmap(%10!s!, %11!u!, %12!u!, %13!u!) called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GetDeviceId failed with %10!s!, unable to initialize this LineDisplay object instance" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 180 "%0StoreStorageFileBitmap called with a null or empty file name (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 181 "%0Attempt to store bitmap after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 182 "%0Attempted to claim a bitmap number that exceeds LINE_DISPLAY_MAX_BITMAP_NUMBER (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 183 "%0SendDeviceCommand(PosDeviceControlType::LineDisplaySetBitmap) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 184 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 185 "%0Initializing the LineDisplayStoredBitmap completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 186 "%0StoreStorageFileBitmap(%10!s!, %11!u!, %12!u!, %13!u!) completed with %14!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemHRESULT -- 14
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 187 "%0Attempt to read LineDisplayDeviceBrightness after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 188 "%0Provider.GetFixedLengthPropertyValue(LineDisplayDeviceBrightness) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 189 "%0Attempt to change the Brightness property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0LineDisplay base (%10!p!) RuntimeClassInitialize completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 190 "%0DeviceBrightness successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 191 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayDeviceBrightness) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 192 "%0Attempt to read LineDisplayBlinkRate after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 193 "%0Provider.GetFixedLengthPropertyValue(LineDisplayBlinkRate) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 194 "%0Attempt to change the BlinkRate property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 195 "%0BlinkRate successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 196 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayBlinkRate) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 197 "%0Attempt to read LineDisplayCharacterSet after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 198 "%0Provider.GetFixedLengthPropertyValue(LineDisplayCharacterSet) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 199 "%0Attempt to change the CharacterSet property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0LineDisplay base (%10!p!) Close completed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 200 "%0CharacterSet successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 201 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayCharacterSet) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 202 "%0Attempt to read LineDisplayMapCharacterSet after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 203 "%0Provider.GetBooleanPropertyValue(LineDisplayMapCharacterSet) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 204 "%0Attempt to change the MapCharacterSet property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 205 "%0MapCharacterSet successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 206 "%0SetBooleanPropertyValue(PosPropertyId::LineDisplayMapCharacterSet) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 207 "%0Attempt to read the glyph size after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 208 "%0Provider.GetFixedLengthPropertyValue(LineDisplayGlyphSizeInPixels) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 209 "%0GetSupportedGlyphCodes called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Attempt to enable after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 210 "%0Attempt to get supported glyph codes after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 211 "%0Provider.GetPropertyValue(LineDisplayCustomGlyphList) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 212 "%0Failed to create an AgileVector to store the glyph codes(%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 213 "%0Adding glyphs for range %10!x!..%11!x!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 214 "%0Failed to add supported glyph code %10!x! to the list (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 215 "%0Adding single glyph %10!x!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 216 "%0Failed to add supported glyph code %10!x! to the list (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 217 "%0GetSupportedGlyphCodes completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 218 "%0DefineGlyph(%10!u!) called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 219 "%0Attempt to define a glyph after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Provider.Enable failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 220 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 221 "%0SendDeviceCommand(PosDeviceControlType::LineDisplayDefineGlyph(%10!u! bytes)) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 222 "%0Failed to allocate %10!u! bytes, out of memory" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 223 "%0DefineGlyph(%10!u!) completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 224 "%0Attempt to read the marquee format after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 225 "%0Failed setting window %10!u! as current, cannot read the MarqueeFormat property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 226 "%0Provider.GetFixedLengthPropertyValue(LineDisplayMarqueeFormat) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 227 "%0Attempt to set the marquee format after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 228 "%0Failed setting window %10!u! as current, cannot set the MarqueeFormat property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 229 "%0MarqueeFormat successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Provider.get_IsEnabled failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 230 "%0Provider.SetFixedLengthPropertyValue(LineDisplayMarqueeFormat) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 231 "%0Attempt to read the marquee type after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 232 "%0Failed setting window %10!u! as current, cannot read the MarqueeType property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 233 "%0Provider.GetFixedLengthPropertyValue(LineDisplayMarqueeType) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 234 "%0Attempt to set the marquee type after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 235 "%0Failed setting window %10!u! as current, cannot set the MarqueeType property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 236 "%0MarqueeType successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 237 "%0Provider.SetFixedLengthPropertyValue(LineDisplayMarqueeType) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 238 "%0Attempt to read the marquee repeat wait interval after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 239 "%0Failed setting window %10!u! as current, cannot read the MarqueeRepeatWait property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0LineDisplay.Enable: %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 240 "%0Provider.GetFixedLengthPropertyValue(LineDisplayMarqueeRepeatWait) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 241 "%0Attempt to set the repeat wait interval after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 242 "%0Failed setting window %10!u! as current, cannot set the MarqueeRepeatWait property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 243 "%0MarqueeRepeatWait successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 244 "%0Provider.SetFixedLengthPropertyValue(LineDisplayMarqueeRepeatWait) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 245 "%0Attempt to read the marquee scroll wait interval after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 246 "%0Failed setting window %10!u! as current, cannot read the MarqueeUnitWait property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 247 "%0Provider.GetFixedLengthPropertyValue(LineDisplayMarqueeUnitWait) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 248 "%0Attempt to set the scroll wait interval after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 249 "%0Failed setting window %10!u! as current, cannot set the MarqueeUnitWait property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Attempt to disable after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 250 "%0MarqueeUnitWait successfully set to %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 251 "%0Provider.SetFixedLengthPropertyValue(LineDisplayMarqueeUnitWait) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Provider.Disable failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Provider.get_IsEnabled failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0LineDisplay.Disable: %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Attempt to read DeviceId after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Provider.get_DeviceId failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Attempt to read Capabilities after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0MakeAndInitialize<LineDisplayCapabilitiesServer> failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0capabilitiesObject.CopyTo failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Attempt to read PhysicalDeviceName after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Provider.GetPropertyValue(LineDisplayPhysicalDeviceName) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Attempt to read PhysicalDeviceDescription after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Provider.GetPropertyValue(LineDisplayPhysicalDeviceName) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Attempt to read DeviceControlDescription after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Provider.GetPropertyValue(DeviceControlDescription) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Attempt to read DeviceControlVersion after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0GetDeviceControlVersion: %10!u! converted to %11!s! with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Provider.GetPropertyValue(DeviceControlVersion) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Attempt to read DeviceServiceVersion after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0GetDeviceServiceVersion: %10!u! converted to %11!s! with %12!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0WindowsCreateString(%10!s!) failed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Provider.GetPropertyValue(DeviceServiceVersion) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Attempting to set window %10!u! as current" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Attempt to set a window as current after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Window %10!u! successfully set as current" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayCurrentWindow) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Setting window %10!u! as current completed with %11!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Attempt to read PowerState when the device does not support power reporting (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Attempt to read PowerState after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Received an unknown power state %10!u! from the device (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Provider.GetFixedLengthPropertyValue(PowerState) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Attempt to read Window.SizeInCharacters after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed setting window %10!u! as current, cannot read the SizeInCharacters property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Provider.GetPropertyValue(LineDisplayWindowSizeInCharacters) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Attempt to read Window.InterCharacterWait after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Failed setting window %10!u! as current, cannot read the InterCharacterWaitInterval property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Provider.GetPropertyValue(LineDisplayWindowInterCharacterWaitInterval) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Attempt to change the InterCharacterWaitInterval property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Failed setting window %10!u! as current, cannot set the InterCharacterWaitInterval property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Window %10!u!, InterCharacterWait successfully set to %11!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayWindowInterCharacterWaitInterval) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Attempt to read CursorType after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Failed setting window %10!u! as current, cannot read the CursorType property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Provider.GetPropertyValue(LineDisplayCursorType) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Attempt to change the LineDisplayCursorType property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed setting window %10!u! as current, cannot set the LineDisplayCursorType property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Window %10!u!, LineDisplayCursorType successfully set to %11!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayCursorType) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Attempt to change the LineDisplayAutoUpdateEnabled property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed setting window %10!u! as current, cannot set the LineDisplayAutoUpdateEnabled property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Window %10!u!, LineDisplayAutoUpdateEnabled property successfully set to %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0SetBooleanPropertyValue(PosPropertyId::LineDisplayAutoUpdateEnabled) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Attempt to read LineDisplayCursorPosition after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Failed setting window %10!u! as current, cannot read the LineDisplayCursorPosition property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Provider.GetFixedLengthPropertyValue(LineDisplayCursorPosition) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Attempt to change the LineDisplayCursorPosition property after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed setting window %10!u! as current, cannot set the LineDisplayCursorPosition property (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Window %10!u!, LineDisplayCursorPosition successfully set to {w:%11!u!, w:%12!u!}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0SetFixedLengthPropertyValue(PosPropertyId::LineDisplayCursorPosition) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0GetSupportedScreenSizesInCharacters called" //   LEVEL=POSRT_TRACE
+{
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Attempt to get supported screen sizes after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0Provider.GetPropertyValue(LineDisplayScreenModeList) failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Failed to create an AgileVector to store the screen modes (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0Failed to append screen mode to the AgileVector (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Invalid screen mode {w:%10!d!, h:%11!d!}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0GetSupportedScreenSizesInCharacters completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+b03372e7-0b76-3c64-cdbb-fb12699466f0 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0Attempt to read ScreenSizeInCharacters after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplay.GetDeviceSelector called" //   LEVEL=POSRT_TRACE
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplay.GetDeviceSelector failed, invalid argument (nullptr)" //   LEVEL=POSRT_ERROR
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplay.GetDeviceSelector completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0LineDisplay.GetDeviceSelectorWithConnectionTypes called" //   LEVEL=POSRT_TRACE
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0LineDisplay.GetDeviceSelectorWithConnectionTypes failed, invalid argument (nullptr)" //   LEVEL=POSRT_ERROR
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0LineDisplay.GetDeviceSelectorWithConnectionTypes completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0LineDisplay.FromIdAsync called" //   LEVEL=POSRT_TRACE
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0LineDisplay.FromIdAsync failed, invalid argument" //   LEVEL=POSRT_ERROR
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0MakeAndInitialize<OperationType> failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GetUIThreadId failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0LineDisplay.FromIdAsync completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0LineDisplay.GetDefaultAsync completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ClaimedLineDisplay.FromIdAsync called" //   LEVEL=POSRT_TRACE
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ClaimedLineDisplay.FromIdAsync failed, invalid argument" //   LEVEL=POSRT_ERROR
+{
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0MakeAndInitialize<OperationType> failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0GetUIThreadId failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+caef8e29-4be3-3963-0369-570741b170f2 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ClaimedLineDisplay.FromIdAsync completed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayCustomGlyphsServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayCustomGlyphsServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayCustomGlyphsServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to initialize a LineDisplayCustomGlyphs object after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to get an IVectorView representing the supported glyph codes (%10!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Attempt to redefine a glyph after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Querying the glyphData buffer for the IBufferByteAccess interface failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Getting the length of the input buffer failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0DefineGlyph failed with %10!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemHRESULT -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Successfully defined glyph %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+d0a78cc0-e17b-3a49-3142-0787372d0899 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0TryRedefineAsync failed during a device operation. Completing the operation successfully and returning false." //   LEVEL=POSRT_TRACE
+{
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayCursorAttributesServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayCursorAttributesServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayCursorAttributesServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to get the BlinkEnabled value for cursor %10!p! using a null pointer (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Could not verify whether cursor %10!p! is fixed, so cannot change the cursor type (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Attempt to enable blink for cursor %10!p! when blink is not supported (CapCursorType does not have the DISP_CCT_BLINK flag set) (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Attempt to change the cursor type for cursor %10!p! when the cursor is fixed (CapCursorType specifies a DISP_CCT_FIXED) (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Attempt to get the CursorType value for cursor %10!p! using a null pointer (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Attempt to change the cursor type for cursor %10!p! when the cursor is fixed (CapCursorType specifies a DISP_CCT_FIXED) (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Set the cursor type for cursor %10!p! to %11!u!. The update has not been applied to the device yet." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Attempt to get the AutoUpdateEnabled value for cursor %10!p! using a null pointer (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Set auto update for cursor %10!p! to %11!s!. The update has not been applied to the device yet." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemString -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Attempt to get the Position value for cursor %10!p! using a null pointer (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Could not get the cursor %10!p!'s parent window (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Could not get window %10!u!'s SizeInCharacters to validate the new cursor position (%11!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0New horizontal position %10!s! for cursor %11!p! is less than 0 (%12!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemDouble -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0New horizontal position %10!s! for cursor %11!p! is larger than the width of the window (%12!s!) (%13!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemDouble -- 10
+Arg, ItemPtr -- 11
+Arg, ItemDouble -- 12
+Arg, ItemHRESULT -- 13
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0New vertical position %10!s! for cursor %11!p! is less than 0 (%12!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemDouble -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0New vertical cursor position %10!s! for cursor %11!p! is larger than the height of the window (%12!s!) (%13!s!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemDouble -- 10
+Arg, ItemPtr -- 11
+Arg, ItemDouble -- 12
+Arg, ItemHRESULT -- 13
+}
+
+d81de8b7-8f31-3b6c-0ccb-3161033b6c88 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Set position for cursor %10!p! to {x %11!s!, y %12!s!}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayAttributesServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayAttributesServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayAttributesServer (%10!p!) RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Attempt to initialize a LineDisplayAttributes object after LineDisplay.Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Attempt to get the IsPowerNotifyEnabled value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Cannot modify IsPowerNotifyEnabled because power reporting is not suported (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Attempt to get the Brightness value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Attempt to set a Brightness value outside the valid range of 0-%10!d! (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Attempted to change brightness to %10!d! when the device does not support changing brightness (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Attempt to get the BlinkRate value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Cannot set the blink rate to a negative value. Received %10!I64d!. (%11!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLongLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Attempted to change the blink rate when the device does not support changing the blink rate (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Cannot set the screen size to a negative value. Received {w:%10!s!, h:%11!s!}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0The requested screen size {w:%10!s!, h:%11!s!}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Attempted to change the screen size when the device does not support changing the screen size (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Attempt to get the CharacterSet value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0The provided character set value is invalid. See the Chapter 22 of the UnifiedPOS spec for valid ranges. (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Attempt to get the IsCharacterSetMappingEnabled value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Attempted to enable character set mapping when the device does not support character set mapping (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Attempt to get the CurrentWindow value using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+dd5faa52-8d70-3f6a-362e-08f31f1dfbc5 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Cannot set the current window using a null pointer (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplay object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplay object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplay (%10!p!) RuntimeClassInitialize(%11!p!, %12!s!, %13!s!) called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0LineDisplay (%10!p!) RuntimeClassInitialize completed with %11!s!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Closing LineDisplay (%10!p!)" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0LineDisplay.ClaimAsync called" //   LEVEL=POSRT_ERROR
+{
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Attempt to claim after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Attempt to claim after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0MakeAndInitialize<ClaimedLineDisplayServer> failed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0LineDisplay.ClaimAsync completed with %10!s!" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+faf54527-9215-3f4a-cb5d-b2269e63969a POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Attempt to check power status after Close() (%10!s!)" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LineDisplayCapabilitiesServer object %10!p! created" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LineDisplayCapabilitiesServer object %10!p! destroyed" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0LineDisplayCapabilitiesServer (%10!p!): RuntimeClassInitialize called" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Invalid PowerReportingType value %10!u!, reverted to UnknownPowerReportingType" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Invalid CanReverse value %10!u!, reverted to None" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Invalid CanBlink value %10!u!, reverted to None" //   LEVEL=POSRT_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0isStatisticsReportingSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0isStatisticsUpdatingSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0powerReportingType: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0canChangeScreenSize: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0canDisplayBitmaps: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0canReadCharacterAtCursor: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0canMapCharacterSets: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0canDisplayCustomGlyphs: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0canReverse: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0canBlink: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0canChangeBlinkRate: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0isBrightnessSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0capCursorType: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0isHorizontalMarqueeSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0isVerticalMarqueeSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0isInterCharacterWaitSupported: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0supportedDescriptors: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0supportedWindows: %10!u!" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0LineDisplayCapabilitiesServer (%10!p!): RuntimeClassInitialize succeeded" //   LEVEL=POSRT_TRACE
+{
+Arg, ItemPtr -- 10
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Warning: The line display device reported TRUE for CapBitmap, but the Windows.Devices.PointOfService API is reporting FALSE because bitmap display is only partially supported or issues may occur during usage." //   LEVEL=POSRT_TRACE
+{
+}
+
+ff72e60b-0c27-337c-5bea-6d8cb5e3c140 POSRT // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Warning: The line display device reported %10!d! for DeviceDescriptors, but the Windows.Devices.PointOfService API is reporting 0 because descriptors are only partially supported or issues may occur during usage." //   LEVEL=POSRT_TRACE
+{
+Arg, ItemLong -- 10
+}
+

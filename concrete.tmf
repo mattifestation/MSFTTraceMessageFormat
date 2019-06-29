@@ -1,0 +1,555 @@
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0LogonUser user [%10!s!], tmpdomain [%11!s!], failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0LogonUser invalid token value" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ImpersonateLoggedOnUser user [%10!s!], tmpdomain [%11!s!], failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Malformed namespace %10!s!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0There is an error in the server format" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0DnsQueryConfig, failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Impersonatelogonforlocalhost host [%10!s!], user [%11!s!], auth [%12!s!], failed" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Connect to host [%10!s!], user [%11!s!], auth [%12!s!], failed [%13!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemHRESULT -- 13
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0CoSetProxyBlanket host [%10!s!], user [%11!s!], auth [%12!s!], failed [%13!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemHRESULT -- 13
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to enumerate class [%10!s!], error [%11!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0class [%10!s!], set-blanket failed [%11!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Associators Query failed [%10!s!], qs [%11!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Associators, set-blanket failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemHRESULT -- 10
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Associators query failed [%10!s!], qs [%11!s!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Associators, set-blanket failed [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemHRESULT -- 10
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Not connected" //   LEVEL=SMISTRACE_LVL_VERBOSE COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Unknown class" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Class has no such method" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+1caa78ba-890c-306f-e055-e741a9189596 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to create input params object" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+2fd14fde-191c-3fe9-4bcc-9d627f30dce7 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0AddUrl succeeded on attempt %10!d! of %11!d!" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2fd14fde-191c-3fe9-4bcc-9d627f30dce7 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0AddUrl retry %10!d! of %11!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2fd14fde-191c-3fe9-4bcc-9d627f30dce7 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0AddUrl still failed after %10!d! retries, exiting listener thread" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Enabling PULL operations with size [%10!s!]" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Disabling PULL operations" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0CIMXMLClientImpl::getInstance: http response contains no data; instance [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0GetInstance: simple response error [%10!s!]" //   LEVEL=SMISTRACE_LVL_VERBOSE COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0GetClass: HTTP response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0GetClass: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GetClass: http response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0GetClass: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0GetSuperClass: HTTP response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0GetSuperClass: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0CreateInstance: HTTP response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0CreateInstance: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ModifyInstance: HTTP response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ModifyInstance: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ModifyInstance(): retrying operation to workaround OpenPegasus error condition" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ModifyInstance failed: %10!u!: %11!s!" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DeleteInstance: HTTP response contains no data; instance [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DeleteInstance: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0HTTP response contains no data; [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!: simple response with error[%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0HTTP response contains no data; headers [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Simple response with error[%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0HTTP response contains no data; headers [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0OpenPullOperation failed for  %10!s!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ClosePullInstances failed for  %10!s!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0PullInstance failed EARLY for  %10!s!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0EnumerateInstances: HTTP response contains no data; classname [%10!s!], headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0EnumerateInstances: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Associators: HTTP response contains no data; instance [%10!s!], assoc Class [%11!s!], result class [%12!s!], headers [%13!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Associators: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0References: HTTP response contains no data; instance [%10!s!], result Class [%11!s!], headers [%12!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0References: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Invoke: HTTP response contains no data; instance [%10!s!], method [%11!s!], headers [%12!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Invoke: simple response with error [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+31e080ac-8e86-3420-2670-a2e9792aa98b concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Post: HTTP response contains no data; instance [%10!s!], http headers [%11!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+929efeaa-fc97-3e98-522d-460893f377a1 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to create filter for %10!s!:%11!s!, may already exist." //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Client not connected to server" //   LEVEL=SMISTRACE_LVL_VERBOSE COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Open failed - error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to set timeouts, using default values" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Connect to %10!s!:%11!d! failed - error code [%12!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Post failed, not connected" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Post failed - error code %10!d!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Server requested client SSL Certificate" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Opened certificate store, looking for storage service certificate" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Found a storage service certificate in the store, attempting to resend" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Storage Service client certificate set, retrying original request" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Client needs server certificate from SMI-S Provider" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Error using storage service certificate (%10!d!)" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to set storage service certificate, retrying without a cert(%10!d!)" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Storage Service certificate is not available or invalid, try again without in case the request was optional" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to get a response from HTTP request" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0SSL Failure {%10!x!:%11!s!}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to call %10!s!(). Win error code is [%11!X!], internal error code is [%12!d!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Attempting to get provider's certificate" //   LEVEL=SMISTRACE_LVL_INFO COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to get certificate blob. Detail error code is [%10!X!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+b695637e-2d70-348d-2bbb-aa08c5f7bd74 concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed - error code [%10!d!]" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+efe23ea6-5501-3813-fdea-6a2992c1c50a concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ClientAssocCache::_cacheAssocs - failed to enumerate assoc instances, class [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+efe23ea6-5501-3813-fdea-6a2992c1c50a concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ClientAssocCache::_cacheAssocs - failed to find 2 references in assoc instances, class [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+efe23ea6-5501-3813-fdea-6a2992c1c50a concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ClientAssocCache::_cacheClass - failed to enumerate class instances, class [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+efe23ea6-5501-3813-fdea-6a2992c1c50a concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ClientAssocCache::_cacheClass - failed to enumerate assoc instances, class [%10!s!]" //   LEVEL=SMISTRACE_LVL_WARN COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemWString -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0HttpInitialize failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0HttpCreateHttpHandle failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0HttpTerminate failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0HttpAddUrl failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0HttpReceiveEntityBody failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HttpSendHttpResponse failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+
+f843dd86-32ed-3ed4-41a0-5f4c48f2d1ff concrete // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0HttpSendHttpResponse failed with error %10!u!" //   LEVEL=SMISTRACE_LVL_ERROR COMPNAME=SMIS FLAGS=SM_CONCRETE
+{
+Arg, ItemLong -- 10
+}
+

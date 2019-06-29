@@ -1,0 +1,660 @@
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Irp 0x%10!p! failed with status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Irp 0x%10!p! failed with status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Returning STATUS_INVALID_DEVICE_REQUEST because pipeInfo is 0. (device likely has no interrupt IN pipe)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Device is still present (PortStatus = 0x%10!x!)." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0AbortPendingRequests succeeded. Now resetting port." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0HumResetParentPort failed with status:%10!s! Device Object:0x%11!p! marked failed" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR_ASSERT: ResetParentPort failed with unhandled status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ResetParentPort succeeded (%10!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0HumAbortPendingRequests failed %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ResetInterruptPipe returned %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Device is no longer connected. PortStatus = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0HumGetPortStatus failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Completing IRP:0x%10!p! following portResetAttempted = %11!s!, portResetSuccessful = %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemListByte(FALSE,TRUE) -- 11
+Arg, ItemListByte(FALSE,TRUE) -- 12
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Read irp:0x%10!p! cancelled with status:%11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Read irp:0x%10!p! failed with status:%11!s! - scheduling RESET" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Read irp:0x%10!p! failed with status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Received request for genre descriptor" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Sending OS feature descriptor request" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Genre descriptor request successful" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_HID
+{
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Genre descriptor request unsuccessful, UrbHeader.Status value 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemLong -- 10
+}
+
+11950093-b4c3-3704-2c3a-b2538581b953 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Call to HumCallUSB returned failing status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_HID
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+53aa6b43-d482-32cb-e153-da7efdb6be71 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to acquire removelock:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+53aa6b43-d482-32cb-e153-da7efdb6be71 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Received internal IOCTL %10!s! on DeviceObject:0x%11!p! Irp:0x%12!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemEnum(_HID_IOCTL) -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! invoked for DriverObject:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0HidRegisterMinidriver returned with status:%10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Received IRP_MJ_CREATE IRP:0x%10!p! for DeviceObject:0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Received IRP_MJ_CLOSE IRP:0x%10!p! for DeviceObject:0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Received invalid IRP:0x%10!p! for DeviceObject:0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+afbc628a-6295-303a-7b18-8afc92eba977 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Unloading DriverObject:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0IoAcquireRemoveLock failed with status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0IoSetCompletionRoutineEx failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0HumInitDevice failed during start IRP DeviceObject:0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed start IRP for DeviceObject:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed PnP IRP for DeviceObject:0x%10!p! status:%11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HumPowerCompletion invoked at high IRQL, so queuing workitem to send the setIdle command" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to allocate the setIdle Workitem" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Received start after stop (oldDeviceState:%10!u!), re-incremented pendingRequestCount" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0URB_FUNCTION_ABORT_PIPE failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+d22491df-cdbd-30c3-83a0-2e589806a36e hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0No such device status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0HumCallUSB entry: DeviceObject:%10!p!, DeviceExtension:%11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0Insufficient resources while allocating Irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0IoSetCompletionRoutineEx failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0IoCallDriver returned with status:%10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0URB timed out after 5 seconds" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0KeWaitForSingleObject returned with status:%10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0HumCallUSB returning status: %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Copying device descriptor to DeviceExtension" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to find a HID Descriptor" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0USBD_ParseConfigurationDescriptorEx() failed" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Device = 0x%10!p!:" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0  Device->bLength              = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0  Device->bDescriptorType      = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0  Device->bDeviceClass         = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0  Device->bDeviceSubClass      = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0  Device->bDeviceProtocol      = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0  Device->idVendor             = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0  Device->idProduct            = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0  Device->bcdDevice            = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0HumGetDescriptorRequest failed with status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Config descriptor buffer (1) length %10!d! is not large enough" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0HW_COMPLIANCE: ConfigDesc->wTotalLength is zero" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Config descriptor buffer (2) length %10!d! is not large enough" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Config = 0x%10!p!:" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0  Config->bLength              = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0  Config->bDescriptorType      = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0  Config->wTotalLength         = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0  Config->bNumInterfaces       = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0  Config->bConfigurationValue  = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0  Config->iConfiguration       = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0  Config->bmAttributes         = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0  Config->MaxPower             = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0HW_COMPLIANCE: Invalid Config->bLength" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0HumGetDescriptorRequest failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0HumGetDescriptorRequest (base) failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Invalid buffer length:%10!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0HW_COMPLIANCE: Interface->bLength:%10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Invalid buffer length:%10!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0HW_COMPLIANCE: Descriptor->bLength:%10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0Invalid buffer length:%10!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0HW_COMPLIANCE: HID descriptor length:%10!d! is invalid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Invalid buffer length:%10!d! (not large enough)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0HW_COMPLIANCE: EndPoint descriptor length:%10!d! is invalid (not equal to bLength)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0HW_COMPLIANCE: Next interface descriptor reached before getting all the endpoint descriptors" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0HW_COMPLIANCE: Got invalid descriptor with bLength: %10!d! before getting all endpoint descriptors" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Invalid buffer length:%10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Invalid buffer length:%10!d!  (not large enough)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0HW_COMPLIANCE: Unknown descriptor in HID interface" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Guessing descriptor of length:%10!d! is actually HID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Invalid buffer length:%10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0HidDescriptor = 0x%10!p!:" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0  HidDescriptor->bLength          = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0  HidDescriptor->bDescriptorType  = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0  HidDescriptor->bcdHID           = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0  HidDescriptor->bCountryCode     = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0  HidDescriptor->bNumDescriptors  = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0  HidDescriptor->bReportType      = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0  HidDescriptor->wReportLength    = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemLong -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0HW_COMPLIANCE: Failed to find a valid HID descriptor in interface" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0HW_COMPLIANCE: Failed to find all of the endpoints in interface" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0USBD Interface:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0HumCallUSB failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0USBD_CreateConfigurationRequestEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0HW_COMPLIANCE: Bad interface descriptor" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed to allocate DeviceExtension->Interface status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0DeviceObject:0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0Descriptor:0x%10!p!, length:%11!x!, status:%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0HumCallUSB returned SUCCESS status %10!s!, but URB status 0x%11!x! fails USBD_SUCCESS test." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemLong -- 11
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0HumCallUSB failed with status:%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Descriptor buffer allocation failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f7e3565c-ec04-374e-89e4-1de957dc9fd1 hidusb // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0URB allocation failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_USB
+{
+Arg, ItemNTSTATUS -- 10
+}
+

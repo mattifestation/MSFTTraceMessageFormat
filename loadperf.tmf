@@ -1,0 +1,695 @@
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to read counter names. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to read counter descriptions. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to read counter names. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to read counter descriptions. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Bad Counter Index string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Bad Counter Index %10!u!. Counter Items %11!u!. Last Id %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Bad Counter Index string %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Bad Counter Index %10!u!. Counter Items %11!u!. Last Id %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to get driver name from command line. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to add Counter Name '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to add Counter Help '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to delete file '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to remove directory '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Failed to delete file '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to remove directory '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to open Perflib key. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to set busy key. STatus 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to query global Last Help value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to query global Last Counter value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to query Last Counter value for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to query First Counter value for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to query Last Help value for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to query First Help value for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to set global Last Help value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to set global Last Counter value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+3ea1fbda-0080-3887-2bc2-57b16bf07b66 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Failed to unload counter names. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Something went wrong in finding perf key for service '%10!s!' Status : 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Failed to open Perflib key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to open Base Index key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to open global Last Counter key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to open global Last Help key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Failed to open Services key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Caught exception trying to dump name table. LangId '%10!s!' Last Element %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed to open Perflib key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to update global Last Counter value to %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to update global Last Help value to %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed restoring some or all keys for service '%10!s!' from file '%11!s!'. Removing all keys." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to open Performance key for service '%10!s!' Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Failed to open Services key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+5a6aca47-50d1-32eb-0b4f-30621d595212 loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to open Perflib key" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to open Perflib key Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to read global Last Help key Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to read global Last Counter key Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to read size of counter name strings Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to read size of counter help strings Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Failed to read counter name strings Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Failed to read counter help strings Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Invalid Index %10!u! for '%11!s!'. Last Counter is %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Invalid Index %10!u! for '%11!s!'. Last Counter is %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Caller did not pass in Context information, continuing silently" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Bailing out. Timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Bailing out. Callback finished with 0 bytes transferred." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Callback stream switched" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Resource language file not found '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Error building name table for '%10!s!' '%11!s!' Status 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to open include file '%10!s!' for '%11!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Failed to find include file for '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Failed to load include file for '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Corrupt index %10!u!. First Counter is %11!u!. First Help is %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Failed to find string for index %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Failed to find string for index %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Object list is not used" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Key not found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Unable to parse ID string '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Last Help %10!u! != Last Name %11!u! + 1" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Default UI language not found '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0SubLangId 0x%10!x! not found" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0Bad Id string '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Corrupt id %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Bad Help Index %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Corrupt id %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Key not found for language '%10!s!'. Continuing anyway" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0Unable to add language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Corrupt include file for language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Failed to read Counter Name strings for language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Failed to read Counter Help strings for language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Unable to update Counter Name strings for language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Unable to update Counter Help strings for language '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0Failed to open Performance key '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Failed to open Perflib key. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Failed to retrieve global Last Counter value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0Failed to retrieve global Last Help value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Failed to retrieve global Base Index value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Counter provider '%10!s!' seems to be already installed. Skipping" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Failed to set the busy indicator on Perflib key. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0First Help %10!u! != First Counter %11!u! + 1" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Index overlap with base counters. Base Index %10!u!. First Counter %11!u!. First Help %12!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Exception caught trying to add '%10!s!'" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0No string corresponding to index %10!u! for LangId %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=Misc
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Failed to update global Last Counter. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Failed to update global Last Help. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to update Last Counter for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0Failed to update Last Help for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Failed to update First Counter for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0Failed to update First Help for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0Failed to update Object List for service '%10!s!'. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0Failed to delete 'Updating' key on Perflib. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0Failed to load localized Display Name for service %10!s!. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0Failed to load non-localized Display Name for service %10!s!. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0Failed to set ini path for service %10!s!. Status 0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0Faild to build language tables for '%10!s!' '%11!s!. Status 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0Faild to load include file for '%10!s!' '%11!s!. Status 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Failed to update registry for '%10!s!' '%11!s!'. Status 0x%12!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0Bad Index. This Counter %10!s!. New Last Entry %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0Bad Index. This Counter %10!s!. New Last Entry %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0Failed to query Base Index. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0Failed to add Counter Name string. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0Failed to add Counter Help string. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0Failed to write 'Library Validation Code' value. Status 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemLong -- 10
+}
+
+e5638533-7cc3-3fae-035b-ee872a5e561b loadperf // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0Failed to set service '%10!s!' as trusted." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=Misc
+{
+Arg, ItemWString -- 10
+}
+

@@ -1,0 +1,23 @@
+3ddcbf9f-77b0-3010-ee01-5d831b8826f2 CryptoWinRT // SRC=WinRT.cpp MJ= MN=
+#typev WinRT_cpp110 11 "%0DllMain: Unloaded( CryptoWinRT ) %10!p! from %11!s!" //   LEVEL=DEB_REF_COUNTING
+{
+hInstDLL, ItemPtr -- 10
+g_wsModuleName, ItemWString -- 11
+}
+
+3ddcbf9f-77b0-3010-ee01-5d831b8826f2 CryptoWinRT // SRC=WinRT.cpp MJ= MN=
+#typev WinRT_cpp93 10 "%0DllMain: Loaded( CryptoWinRT ) %10!p! in %11!s!" //   LEVEL=DEB_REF_COUNTING
+{
+hInstDLL, ItemPtr -- 10
+g_wsModuleName, ItemWString -- 11
+}
+
+4dabb42f-3b87-3342-bd55-bd0befd27bff ncryptcom // SRC=trace.c MJ= MN=
+#typev trace_c16 10 "%0ERROR: (%10!s!=0x%11!08x!) %12!s!:%13!d!" //   LEVEL=DEB_ERROR
+{
+szError, ItemString -- 10
+dwCode, ItemLong -- 11
+szFile, ItemString -- 12
+dwLine, ItemLong -- 13
+}
+

@@ -1,0 +1,1059 @@
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Failed to load imports for dbghelp.dll, stack tracking will not work, error: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::Configure
+{
+Arg, ItemHRESULT -- 10
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Failed to initialize symbols, stack tracking will not work, error: %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::InnerLoadSymbols
+{
+Arg, ItemHRESULT -- 10
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0GetModuleInformation failed for %10!s!, error %11!s!, stack tracking may not work reliably" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::LoadModule
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to convert module name to ASCII string, WideCharToMultiByte failed for %10!s!, error %11!s!, stack tracking may not work reliably" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::LoadModule
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Moduel %10!s! already loaded" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::LoadModule
+{
+Arg, ItemWString -- 10
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Unable to load symbols for module %10!s!, error %11!s!, stack tracking may not work reliably" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::LoadModule
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0GetModuleInformation failed for module %10!p!, error %11!s!, unable to unload module symbols" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::UnloadModule
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0a289ece-a051-344d-6587-cfceb9a7db3d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SymUnloadModule64 failed for module %10!p!, error %11!s!, unable to unload module symbols" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatformStackTracker::UnloadModule
+{
+Arg, ItemPtr -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to get allocate memory for connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to get initialize connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get allocate memory for communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get initialize communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Connection Port %10!s! already exist" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_CONNECTION FUNC=WdfLpc::Listen
+{
+Arg, ItemWString -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: message 0x%10!p! too small 0x%11!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: repy message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected at least 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0invalid reply status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Error %10!s! adding dump to report." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_ERROR_REPORTING FUNC=CWerReport::AddDump
+{
+Arg, ItemHRESULT -- 10
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Error %10!s! submitting report." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_ERROR_REPORTING FUNC=CWerReport::SubmitEx
+{
+Arg, ItemHRESULT -- 10
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Result of submitting incident report is %10!d!." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_ERROR_REPORTING FUNC=CWerReport::SubmitEx
+{
+Arg, ItemLong -- 10
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Create dump file %10!s! failed with error %11!d!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CWerReport::GenerateOrAttachDump
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Failed to create dump file %10!s! due to thread timeout. Attempting to generate internal dump" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CWerReport::GenerateOrAttachDump
+{
+Arg, ItemWString -- 10
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Error %10!s! generating dump for report." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_ERROR_REPORTING FUNC=CWerReport::GenerateInternalDump
+{
+Arg, ItemHRESULT -- 10
+}
+
+287afce5-7a2a-3db6-a515-be58ca5dc8d4 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Create dump file %10!s! failed with error %11!d!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CWerReport::CreateLastChanceUnhandledExceptionReport
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Unable to create LocalSytem SID - %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Unable to create Owner SID - %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Unable to allocate default DACL buffer, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Unable to allocate initialize DACL, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Unable to add SYSTEM ACE to DACL, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Unable to add OWNER ACE to DACL, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Unable to add service SID ACE to DACL, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Unable to set TokenDefaultDacl due to space issues, don't adjust DACL, status %10!d!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: Unable to set TokenDefaultDacl, status %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+Arg, ItemLong -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: Successfully adjusted token default DACL to include Host SID" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_MGR FUNC=AdjustTokenDefaultDacl
+{
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0unable to get username buffer" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0unable to get username. err = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+Arg, ItemWINERROR -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0username: %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+Arg, ItemWString -- 10
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0unable to get userSid buffer" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0unable to get domainName buffer" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+}
+
+41bfb7ce-ba9c-34d8-2e4e-939a8f4bfa47 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0unable to get userSid. err = %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_SECURITY FUNC=CPlatformSecurity::AllocateMySid
+{
+Arg, ItemWINERROR -- 10
+}
+
+4f7ca99b-1932-3b1f-39c2-9344ca4cc1b2 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: unable to get service sid size %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4f7ca99b-1932-3b1f-39c2-9344ca4cc1b2 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate allocate sid buffer of %10!u! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemLong -- 10
+}
+
+4f7ca99b-1932-3b1f-39c2-9344ca4cc1b2 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to get service sid size %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to obtain NoUmEx setting %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=WudfIsKdIgnoringUmExceptions
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Waiting %10!d! seconds for debugger to attach." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+Arg, ItemLong -- 10
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0User-mode debugger found - breaking in." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0No user-mode debugger found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Breaking into kernel debugger." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+55967839-9e65-3366-0b0e-b32111a9bd70 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0No kernel-mode debugger found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Failed to instantiate PlatformSecurity" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::InitializeInstance
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Registry value %10!s! was expected to be a REG_DWORD." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_CONFIG FUNC=CPlatform::s_ReadRegistryDword
+{
+Arg, ItemWString -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error reading registry value %10!s!.  er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_CONFIG FUNC=CPlatform::s_ReadRegistryDword
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Create hardware id file %10!s! failed with error %11!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Failed calculate length of hwid string %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemHRESULT -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Failed to write hwid string to file %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemWINERROR -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Failed to generate a simulated minidump. HRESULT = %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::SimulateUnhandledException
+{
+Arg, ItemHRESULT -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WUDF Unhandled Exception %10!#x! @ %11!p!. %12!d! parameters, Exception Record: 0x%13!p!, Context Record: 0x%14!p!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Parameter %10!d!: %11!p!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Process execution has re-entered %!FUNC! without first completing it. This is likely due to a second exception being raised within this exception handler. Submitting a minimal WER report." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to submit a WER report, %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+Arg, ItemHRESULT -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0NoUMEx setting detected will not break into kernel debugger" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DriverStopBreakpoint
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WUDF Host Problem %10!s! (pid %11!#x!) detected by %12!s! - exit code is %13!d!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::ReportHostProblem
+{
+Arg, ItemEnum(WudfOperationType) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(WdfComponentType) -- 12
+Arg, ItemLong -- 13
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: No hardware ID specified" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: Failed to get length of hardware ID: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+Arg, ItemHRESULT -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Failed to allocate new WDF_HWID_LIST_ENTRY" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: Failed to allocate to string for hardware ID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: Failed to copy hardware ID string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+Arg, ItemHRESULT -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Canonicalization: File name is an invalid length. (too long or not null terminated - unsafe to print" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Canonicalization: File name is too short." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Canonicalization: Path %10!s! ends with trailing . or space." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Canonicalization: Path %10!s! does not start with [a-z]:\." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Canonicalization: Found invalid character %10!hd! at position %11!Iu! in path %12!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemShort -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Canonicalization: Error converting path %10!s! to full path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Canonicalization: Error allocating %10!Iu! characters for path." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemPtr -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Canonicalization: Error converting path %10!s! to full path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Canonicalization: Error converting path %10!s! to long path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Canonicalization: Error allocating %10!Iu! characters for long path." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemPtr -- 10
+}
+
+5b80ac28-f46a-37d3-37e9-ed6e4aaaf940 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Canonicalization: Error converting path %10!s! to long path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Error opening configuration registry key %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s! has invalid value %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s! = %11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=PLATFORM_TRACE_CONFIG FUNC=CTraceSession::ConfigureSessionFromRegistry
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+63a6826b-8de4-3759-37c3-650edc5aac6d WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Caller requested private logger but set no default GUIDs" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_TRACING FUNC=CTraceSession::Start
+{
+}
+
+7d194206-2126-35cb-8764-af1cda072fab LpcCoreClient // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0unable to connect to %10!s!. %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPCDRVR_TRACE_DEVICE FUNC=WdfLpcCorePortInterface::Connect
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e52e062-6271-30ed-b7e5-ff79e85d9e80 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0lpcport got a message!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::RetrieveMessage
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: required CommPortList is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to create server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Invalid connection message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to create comm lpc port object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: unable to accept connection. er = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get allocate memory for alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unable to allocate alpc reply message 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: message id not set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: unable to send reply message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: invalid alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: unable to reserve alpc resource %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Unable to allocate reply callback lock" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0unable to allocate data buffer %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: lpc message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0attribute size must be at least as large as the header size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: Integer overflow while rounding up message attribute size. Pre-roundup size: %10!I64d! bytes, Post-roundup size: %11!I64d! bytes." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!: unable to allocate 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcMessagePreCtor
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!: unable to allocate section size 0x%10!x!, %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!: unable to allocate section view, %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: 0x%10!p! requires reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: 0x%10!p! cannot have reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: 0x%10!p! lpc message cannot have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: 0x%10!p! lpc message must have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: reply message smaller than expected" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Minidump flags set to %10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::InitializeDriverStopType
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Watson report can be paused: %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::InitializeDriverStopType
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error %10!s! trying to open root registry key %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::InitializeDriverStopType
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Failed to expand UMDF log directory name: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_InitializeInstance
+{
+Arg, ItemWINERROR -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to allocate %10!u! bytes for directory path string" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_InitializeInstance
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to expand UMDF log directory name: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_InitializeInstance
+{
+Arg, ItemWINERROR -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Unexpected error expanding UMDF log directory name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_InitializeInstance
+{
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Failed to convert uuid to string RPC_STATUS: 0x%10!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_Initialize
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: Failed concatenate hardware id list file name %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::_Initialize
+{
+Arg, ItemHRESULT -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Unexpected error code when getting device property %10!d! size - %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=CPlatform::GetDeviceRegistryPropertyString
+{
+Arg, ItemLong -- 10
+Arg, ItemWINERROR -- 11
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Unexpected datatype for device property %10!d! - %11!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=CPlatform::GetDeviceRegistryPropertyString
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Integer overflow for property %10!d!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=CPlatform::GetDeviceRegistryPropertyString
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error allocating buffer for property %10!d!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=CPlatform::GetDeviceRegistryPropertyString
+{
+Arg, ItemLong -- 10
+}
+
+a9ca99e7-e472-3d87-abec-6065414b6015 WUDFPlatform // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Error retrieving device property %10!d! - %11!s!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=MGR_TRACE_DEVNODE FUNC=CPlatform::GetDeviceRegistryPropertyString
+{
+Arg, ItemLong -- 10
+Arg, ItemWINERROR -- 11
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: server port name is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: message notification callback object is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to allocate buffer for ALPC_FLG_MSG_CONTEXT_ATTR" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0lpc handle 0x%10!p! received msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0lpc handle %10!p! received reply msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0lpc handle %10!p! received LPC_CANCELED msg" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0lpc handle %10!p! received LPC_PORT_CLOSED msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0lpc handle %10!p! received LPC_CONNECTION_REPLY msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LPC Message type 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemLong -- 10
+}
+
+c9d5510d-958a-3920-47ae-e4fcfce02e7e lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: %10!s! port directory created" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_LPC FUNC=WdfLpcInterface::WdfCreateHostProcessLpcObjectDirectory
+{
+Arg, ItemWString -- 10
+}
+
+c9d5510d-958a-3920-47ae-e4fcfce02e7e lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to create lpc object directory %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpcInterface::WdfCreateHostProcessLpcObjectDirectory
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to allocate fastreply port message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0unable to get allocate memory for fast reply attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to connect to server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: unable to send message because number of pending messages exceeds 0x%10!x!. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::Send
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0LPC ReceiveMessage 0x%10!p! sender pid 0x%11!p! does not match expected pid 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: LpcMsg (%10!p!,%11!p!) was cancelled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: LPC Message %10!p! not found on list - assuming it has already been cancelled or completed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: m_PendingMessages has lpcmsg 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: lpcMsg has been cancelled 0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: unable to cancel WudfLpcMessage 0x%10!p!. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: number of alpc messages cancelled %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemLong -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0send reply message (id=0x%10!x!) failed %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcCommPort::FastReply
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+

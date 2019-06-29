@@ -1,0 +1,1608 @@
+035879e7-8f36-36e9-6c09-0cceee7035fb WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: unable to get service sid size %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+035879e7-8f36-36e9-6c09-0cceee7035fb WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to allocate allocate sid buffer of %10!u! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemLong -- 10
+}
+
+035879e7-8f36-36e9-6c09-0cceee7035fb WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to get service sid size %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=MGR_TRACE_MGR FUNC=CPlatformSecurity::AllocateServiceSid
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to get allocate memory for connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to get initialize connection port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get allocate memory for communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get initialize communication port list" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::WdfLpc
+{
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0Connection Port %10!s! already exist" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_CONNECTION FUNC=WdfLpc::Listen
+{
+Arg, ItemWString -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: message 0x%10!p! too small 0x%11!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC!: message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: invalid message id 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: repy message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected at least 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0invalid reply status %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too small 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0acf9e4a-bd57-39d9-50df-c5260fdf4120 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC!: reply message 0x%10!p! id 0x%11!x! too large 0x%12!x!.  expected 0x%13!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::ValidateReplyMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WudfLdr: BuildDriverRegistryPath: StringCchLengthW failed, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0WudfLdr: WudfRegisterClassLibrary: failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0WudfLdr: WudfRegisterClassLibrary: invalid service path %10!s!: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0WudfLdr: WudfRegisterClassLibrary: enter %10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPtr -- 10
+Arg, ItemPWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0WudfLdr: WudfRegisterClassLibrary: FindModuleAndReference %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0WudfLdr: WudfRegisterClassLibrary: ModuleInfo %10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPtr -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0WudfLdr: WudfRegisterClassLibrary: ClassLibraryInitialize %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterClassLibrary
+{
+Arg, ItemPWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%!FUNC!: WdfLdrDiagnosticsValueByNameAsULONG: RegOpenKeyEx %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WdfLdrDiagnosticsValueByNameAsULONG
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%!FUNC!: WdfLdrDiagnosticsValueByNameAsULONG: RegQueryValueEx %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WdfLdrDiagnosticsValueByNameAsULONG
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0WudfLdr: BuildDriverRegistryPath: out of resources, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WudfLdr: BuildDriverRegistryPath: StringCchPrintfW failed, hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_BuildDriverRegistryPath
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Obtaining module image path length failed, potentially module name is too long. hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Moudle image path is blank. Returning hr: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Malformed module image path %10!s!, returning hr: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Malformed module image path %10!s!, returning hr: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWudfModuleInfo::_GetModuleNameFromImagePath
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Invalid registry configuration: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::GetStringFromRegistry
+{
+Arg, ItemLong -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to allocate memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::GetStringFromRegistry
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Obtaining length of string %10!s! failed, possibly due to name being too long or not being null terminated, max allowable length: %11!d!, %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Failed to allocate buffer for string %10!s!, returning %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Failed to copy module name %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CopyString
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate CWudfModuleInfo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Configuration error: Failed to allocate path str for WUDF framework WUDFx.dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Configuration error: Failed to allocate path str for WUDF framework .dll, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Unable to build the driver's (%10!s!) registry path, hr=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Configuration error: Failed to read %10!s! value for driver %11!s!, err=%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWINERROR -- 12
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Configuration error: CLSID not a REG_SZ type for %10!s!, Win32 err=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Configuration error: Invalid CLSID %10!s! for %11!s!, hr=%12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Unable to open driver Service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Configuration error: Failed to allocate path str for companion , %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Unable to build the driver's (%10!s!) registry path, hr=%11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Configuration error: Failed to allocate name str for driver %10!s!, %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::CreateAndInitialize
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Configuration error: Failed to allocate path str for WUDF framework WUDFx.dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Configuration error: Failed to allocate path str for WUDF framework .dll, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Unable to open service root key : %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Unable to open driver Service key %10!s! : %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Configuration error: Failed to read %10!s! value for driver %11!s!, err %12!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::_GetImagePathFromServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WudfLdr: CWudfModuleInfo: LibraryDecommission failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleInfo::Release
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!:Failed to load driver binary %10!s!. hr = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadFrameworkAndDriver
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0DRIVER_OBJECT_UM allocation failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CreateAndInitializeDriverObject
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0CreateThreadpoolCleanupGroup failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CreateAndInitializeDriverObject
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0Error canonicalizing driver path %10!s!: %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0Error - driver path %10!s! is not located under required driver root %11!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0Loading module %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0Load module %10!s! failed - error %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0Error %10!s! - Could not get DllGetClassObject, or FxDriverEntryUm function, or FxFrameworkEntryUm from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DRIVER_OBJECT_UM allocation failed, hr=%10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0Error %10!s! - FxDriverEntryUm failed on %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0Error %10!s! - Could not get umdf version from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Error %10!s! - Could not get class factory interface from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Error %10!s! - Could not create requested interface from %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: Your driver is not compatible with this framework.  To fix: recompile using the latest framework headers." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC!:Failed to load driver binary %10!s! with clsid %11!s!. hr = %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemWString -- 10
+Arg, ItemGuid -- 11
+Arg, ItemHRESULT -- 12
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0HResult %10!s! - Unable to bind to %11!s! v%12!d!.%13!d!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Error %10!s! - FxFrameworkEntryUm failed on %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::LoadComponentAndCreateInstance
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC!: Error loading dbghelp.dll - %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemHRESULT -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0Error %10!s! - %!FUNC!: CreateFile failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Error %10!s! - %!FUNC!: GetFileSizeEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0Error %10!s! - %!FUNC!: CreateFileMapping failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Error %10!s! - %!FUNC!: MapViewOfFile failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Error %10!s! - %!FUNC!: ImageDirectoryEntryToDataEx failed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWINERROR -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC!: IMAGE_DEBUG_DIRECTORY.Type is not IMAGE_DEBUG_TYPE_CODEVIEW" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC!: %10!s! has an invalid file size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+Arg, ItemWString -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC!: CV Signature is not RSDS" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC!: out of memory" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::SetModulePdbInfo
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0WudfLdr: GetFrameworkServiceName: invalid bind info: component name is missing, failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0WudfLdr: GetFrameworkServiceName: invalid bind info: component name is invalid (%10!s!), failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0WudfLdr: GetFrameworkServiceName: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0WudfLdr: GetFrameworkServiceName: StringCchCopy: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0WudfLdr: GetFrameworkServiceName: StringCchPrintfW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetFrameworkServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0WudfLdr: WdfVersionBind: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WudfLdr: WudfVersionBind: GetFrameworkServiceName failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0WudfLdr: WudfVersionBind: _LinkToLibrary failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0WudfLdr: WudfVersionBind: LibraryRegisterClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBind
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0WudfLdr: WudfVersionUnbind: LibraryUnregisterClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::DereferenceVersion
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WudfLdr: WudfVersionUnbind: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionUnbind
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0WudfLdr: WudfRegisterLibrary: failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0WudfLdr: WudfRegisterLibrary: enter %10!p!, %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0WudfLdr: WudfRegisterLibrary: LibraryCommission %10!s! failed status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=WudfRegisterLibrary
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0WudfLdr: GetClassServiceName: invalid bind info: component name is missing, failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0WudfLdr: GetClassServiceName: StringCchLengthW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0WudfLdr: GetClassServiceName: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0WudfLdr: GetClassServiceName: StringCchPrintfW: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=GetClassServiceName
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0WudfLdr: WudfVersionBindClass: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0WudfLdr: WudfVersionBindClass: GetClassModuleName failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0WudfLdr: WudfVersionBindClass: status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0WudfLdr: WudfRegisterClassLibrary: Failed to get Image path for service name %10!s! status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0WudfLdr: WudfVersionBindClass: client's framework %10!s! (v%11!d!.%12!d!) and wdf extension's framework %13!s! (v%14!d!.%15!d!) are different,status: %16!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+Arg, ItemNTSTATUS -- 16
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0WudfLdr: WudfVersionBindClass: _LinkClientToClass failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0WudfLdr: WudfVersionBindClass: ClassLibraryBindClient failed status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionBindClass
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+0ae3fdbe-bca6-39fe-4c46-7a00a23d0ad6 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0WudfLdr: WudfVersionUnbindClass: enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfModuleTable::WudfVersionUnbindClass
+{
+}
+
+2845569e-916e-3934-316c-53c14fcae4d5 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Host process waiting for %10!s! debugger to connect, Timeout:%11!d! secs" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_INIT FUNC=WdfHostProcDbgBreakOnStart
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2845569e-916e-3934-316c-53c14fcae4d5 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0NOT waiting for debugger connection at host process start" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=MGR_TRACE_PROCESS FUNC=WdfHostProcDbgBreakOnStart
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Failed to instantiate PlatformSecurity" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=CPlatform::InitializeInstance
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Registry value %10!s! was expected to be a REG_DWORD." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_CONFIG FUNC=CPlatform::s_ReadRegistryDword
+{
+Arg, ItemWString -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error reading registry value %10!s!.  er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_CONFIG FUNC=CPlatform::s_ReadRegistryDword
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: Create hardware id file %10!s! failed with error %11!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Failed calculate length of hwid string %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemHRESULT -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Failed to write hwid string to file %10!s!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DumpHardwareIDList
+{
+Arg, ItemWINERROR -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WUDF Unhandled Exception %10!#x! @ %11!p!. %12!d! parameters, Exception Record: 0x%13!p!, Context Record: 0x%14!p!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Parameter %10!d!: %11!p!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Process execution has re-entered %!FUNC! without first completing it. This is likely due to a second exception being raised within this exception handler. Submitting a minimal WER report." //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::UnhandledExceptionFilter
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0NoUMEx setting detected will not break into kernel debugger" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::DriverStopBreakpoint
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0WUDF Host Problem %10!s! (pid %11!#x!) detected by %12!s! - exit code is %13!d!" //   LEVEL=TRACE_LEVEL_CRITICAL FLAGS=PLATFORM_TRACE_DRIVERSTOP FUNC=CPlatform::ReportHostProblem
+{
+Arg, ItemEnum(WudfOperationType) -- 10
+Arg, ItemLong -- 11
+Arg, ItemEnum(WdfComponentType) -- 12
+Arg, ItemLong -- 13
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: No hardware ID specified" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC!: Failed to get length of hardware ID: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+Arg, ItemHRESULT -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: Failed to allocate new WDF_HWID_LIST_ENTRY" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: Failed to allocate to string for hardware ID" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: Failed to copy hardware ID string: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::SetCrashReportHardwareId
+{
+Arg, ItemHRESULT -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Canonicalization: File name is an invalid length. (too long or not null terminated - unsafe to print" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Canonicalization: File name is too short." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Canonicalization: Path %10!s! ends with trailing . or space." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Canonicalization: Path %10!s! does not start with [a-z]:\." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Canonicalization: Found invalid character %10!hd! at position %11!Iu! in path %12!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemShort -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0Canonicalization: Error converting path %10!s! to full path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Canonicalization: Error allocating %10!Iu! characters for path." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemPtr -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0Canonicalization: Error converting path %10!s! to full path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Canonicalization: Error converting path %10!s! to long path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Canonicalization: Error allocating %10!Iu! characters for long path." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemPtr -- 10
+}
+
+29863cd4-97ee-3aed-2fb7-9a2b97903463 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Canonicalization: Error converting path %10!s! to long path - %11!d!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CPlatform::CanonicalizePath
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+3dd1be7c-dd77-3f0b-d471-b747f7e13dce WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: SetThreadpoolThreadMinimum failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::SetMinimumThreadCount
+{
+Arg, ItemHRESULT -- 10
+}
+
+4f6ffc40-372c-3667-1db9-38a0f75db20a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Table (0x%10!p!) does not contain the item :0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfCompanion>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+4f6ffc40-372c-3667-1db9-38a0f75db20a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Table (0x%10!p!) does not contain the item :0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfModuleInfo>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+4f6ffc40-372c-3667-1db9-38a0f75db20a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Table (0x%10!p!) is empty:0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfCompanion>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+4f6ffc40-372c-3667-1db9-38a0f75db20a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Table (0x%10!p!) is empty:0x%11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_LOADER FUNC=CWudfTable<class CWudfModuleInfo>::Remove
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+776a6ae7-3745-3d8d-2eed-11b0984e1c6a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Create m_ThreadsStoppingEvent failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+Arg, ItemWINERROR -- 10
+}
+
+776a6ae7-3745-3d8d-2eed-11b0984e1c6a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Out of memory, not able to allcoate array for thread handles" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+}
+
+776a6ae7-3745-3d8d-2eed-11b0984e1c6a WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!:failed to create waiter worker thread, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CWaiterThreads::WaitOnHandle
+{
+Arg, ItemWINERROR -- 10
+}
+
+7d194206-2126-35cb-8764-af1cda072fab LpcCoreClient // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0unable to connect to %10!s!. %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPCDRVR_TRACE_DEVICE FUNC=WdfLpcCorePortInterface::Connect
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+7e52e062-6271-30ed-b7e5-ff79e85d9e80 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0lpcport got a message!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_LPC FUNC=WdfLpc::RetrieveMessage
+{
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Not able to allocate CLpcNotification object %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateInstance
+{
+Arg, ItemHRESULT -- 10
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Fail to get LPC object for %10!s! messages, NTSTATUS:0x%11!x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateLpcAndThreads
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:Unable to listen on %10!s! port %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::LpcListenAndWaitOnHandle
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Could not create event. %10!s!=, %11!s!=" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateProcesExitEvent
+{
+Arg, ItemWINERROR -- 10
+Arg, ItemHRESULT -- 11
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! GetSystemSid(%10!s!) failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::GetSystemSid
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Failed to allocate WaiterThreads" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateWaiterThreads
+{
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: Host process receives message: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+Arg, ItemLong -- 10
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: pnp message: WudfMsg_ExitProcess" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: pnp message: WudfMsg_UNKNOWN" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Leaving %!FUNC!..." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CommonMessage
+{
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!: Event wait failed: Win32 err: %10!d!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Run
+{
+Arg, ItemLong -- 10
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: Main thread exiting. Win32 status:0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CLpcNotification::Run
+{
+Arg, ItemLong -- 10
+}
+
+809e4f0a-3b07-312a-a3a3-37e01f333464 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Failed to allocate Threadpool" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::CreateThreadpool
+{
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Failed to allocate memory for companion, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Failed to allocate memory for WudfDriverAndFxInfo, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!:Failed to copy companion ImagePath, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!:Failed to copy companion service name, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::Initialize
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!:Failed to load companion %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::LoadDrivers
+{
+Arg, ItemHRESULT -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!:AddDevice failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::LoadDrivers
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!:Memory allocation failure. Cannot allocate companion object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::CreateAndInitializeCompanion
+{
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!:Failed to initialize companion object." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::CreateAndInitializeCompanion
+{
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!:Memory allocation failure. Cannot allocate WUDF NotificationEvent." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::CreateAndInitializeCompanion
+{
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!:Failed to create secure device, %10!s!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::CreateDevice
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC!:Failed to update secure device state pre-prepare hardware %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::DispatchPrepareHardware
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!:Failed to update secure device state post-release hardware %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCompanion::DispatchReleaseHardware
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+941fa8c4-a420-3aaa-a51b-931fa9f8888b WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: Failed retrieving the module information object to store the IFR. Minidump will not contain IFR logs" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=FX_TRACE_GENERAL FUNC=CWudfCompanion::AllocateIfrMemory
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: required CommPortList is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: unable to create server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::WdfLpcConnPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Invalid connection message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC!: unable to create comm lpc port object" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+}
+
+9b83c450-a2b9-3dad-f21d-fcbbaa197500 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC!: unable to accept connection. er = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcConnPort::ProcessMessage_Connect
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to get allocate memory for alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC!: unable to allocate alpc reply message 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::WudfLpcReplyMessage
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC!: message id not set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC!: unable to send reply message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcReplyMessage::Reply
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC!: invalid alpc attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: unable to reserve alpc resource %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Unable to allocate reply callback lock" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0unable to allocate data buffer %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcpMessage
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: lpc message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: integer overflows" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC!: lpc reply message body too long.  0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0attribute size must be at least as large as the header size" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC!: Integer overflow while rounding up message attribute size. Pre-roundup size: %10!I64d! bytes, Post-roundup size: %11!I64d! bytes." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC!: RtlSizeTAdd(%10!I64u!, %11!I64u!) failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%!FUNC!: unable to allocate 0x%10!x! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::operator new
+{
+Arg, ItemLong -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::WudfLpcMessagePreCtor
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC!: unable to allocate section size 0x%10!x!, %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC!: unable to allocate section view, %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::ResetDataBuffer
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC!: 0x%10!p! requires reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC!: 0x%10!p! cannot have reply callback" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC!: 0x%10!p! lpc message cannot have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::Send
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC!: 0x%10!p! lpc message must have timeout" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemPtr -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC!: unable to send message %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+a6a4c396-a96a-3f8f-871c-b0444b4ce1df lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC!: reply message smaller than expected" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WudfLpcMessage::SendWait
+{
+}
+
+c037449d-7cc8-3c37-b228-13d734cd5768 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Host process receives message: 0x%10!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+}
+
+c037449d-7cc8-3c37-b228-13d734cd5768 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Companion serviceName length (%10!u!l) validation failed - error %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+c037449d-7cc8-3c37-b228-13d734cd5768 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: Failing Add Companion - error %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_PNP FUNC=CLpcNotification::Message
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c037449d-7cc8-3c37-b228-13d734cd5768 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Leaving %!FUNC!..." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CLpcNotification::Message
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: server port name is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC!: message notification callback object is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC!: unable to allocate buffer for ALPC_FLG_MSG_CONTEXT_ATTR" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::WdfLpcPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0lpc handle 0x%10!p! received msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0lpc handle %10!p! received reply msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0lpc handle %10!p! received LPC_CANCELED msg" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0lpc handle %10!p! received LPC_PORT_CLOSED msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0lpc handle %10!p! received LPC_CONNECTION_REPLY msg" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+c468fdfe-4345-3f28-eb97-147d01a77713 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LPC Message type 0x%10!x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcPort::ProcessMessage
+{
+Arg, ItemLong -- 10
+}
+
+c9d5510d-958a-3920-47ae-e4fcfce02e7e lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: %10!s! port directory created" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_LPC FUNC=WdfLpcInterface::WdfCreateHostProcessLpcObjectDirectory
+{
+Arg, ItemWString -- 10
+}
+
+c9d5510d-958a-3920-47ae-e4fcfce02e7e lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: unable to create lpc object directory %10!s! %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_LPC FUNC=WdfLpcInterface::WdfCreateHostProcessLpcObjectDirectory
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+da6d7eb3-045c-38c8-2e47-f8fb36d29bd2 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Thread pool creation failed, error %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::Initialize
+{
+Arg, ItemLong -- 10
+}
+
+da6d7eb3-045c-38c8-2e47-f8fb36d29bd2 WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Thread pool wait object creation failed, error %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=HOSTPROC_TRACE_GENERAL FUNC=CThreadpool::WaitOnHandle
+{
+Arg, ItemLong -- 10
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to obtain NoUmEx setting %10!s!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=PLATFORM_TRACE_INIT FUNC=WudfIsKdIgnoringUmExceptions
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Waiting %10!d! seconds for debugger to attach." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+Arg, ItemLong -- 10
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0User-mode debugger found - breaking in." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0No user-mode debugger found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Breaking into kernel debugger." //   LEVEL=TRACE_LEVEL_WARNING FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+e4cc4cca-8e4f-39a6-16ec-722958d709e0 WudfPlatformIUM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0No kernel-mode debugger found." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=PLATFORM_TRACE_INIT FUNC=WudfWaitForDebugger
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0unable to allocate fastreply port message" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0unable to get ALPC_FLG_MSG_CONTEXT_ATTR size.  status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0unable to get allocate memory for fast reply attributes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0unable to initialize ALPC_FLG_MSG_CONTEXT_ATTR buffer. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: unable to connect to server port %10!s!. er = %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::WdfLpcCommPort
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC!: unable to send message because number of pending messages exceeds 0x%10!x!. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::Send
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0LPC ReceiveMessage 0x%10!p! sender pid 0x%11!p! does not match expected pid 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC!: LpcMsg (%10!p!,%11!p!) was cancelled" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC!: LPC Message %10!p! not found on list - assuming it has already been cancelled or completed" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=LPC_TRACE_COMMUNICATION FUNC=WdfLpcCommPort::ProcessMessage
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC!: m_PendingMessages has lpcmsg 0x%10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC!: lpcMsg has been cancelled 0x%10!p!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_API FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC!: unable to cancel WudfLpcMessage 0x%10!p!. %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC!: number of alpc messages cancelled %10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=LPC_TRACE_MSG FUNC=WdfLpcCommPort::WudfSearchTimeoutMessagesWithLockHeld
+{
+Arg, ItemLong -- 10
+}
+
+eba735e3-7ceb-3bc2-b320-ce144ab669a4 lpc // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0send reply message (id=0x%10!x!) failed %11!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=LPC_TRACE_PORT FUNC=WdfLpcCommPort::FastReply
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC!: Exit: argc:%10!d!, %11!s! %12!s! %13!s! %14!s! %15!s! %16!s! %17!s! %18!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=CWudfCmdLineParams::CWudfCmdLineParams
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemWString -- 13
+Arg, ItemWString -- 14
+Arg, ItemWString -- 15
+Arg, ItemWString -- 16
+Arg, ItemWString -- 17
+Arg, ItemWString -- 18
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC!: Entering host process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=wmain
+{
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error converting Lifetime ID %10!s! to guid: %11!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemWString -- 10
+Arg, ItemWINERROR -- 11
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC!: Failed to get windows directory name: %10!s!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemWINERROR -- 10
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Failed to get LPC interface %10!s!" //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+Arg, ItemHRESULT -- 10
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC!: Cannot allocate space to hold driver root - %10!d!." //   LEVEL=TRACE_LEVEL_FATAL FLAGS=HOSTPROC_TRACE_GENERAL FUNC=WudfMain
+{
+Arg, ItemLong -- 10
+}
+
+f79d0c6d-dbf7-3c52-dc83-ab1cca5ac39c WUDFCompanionHost // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC!: Leaving host process" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=HOSTPROC_TRACE_INIT FUNC=WudfMain
+{
+}
+

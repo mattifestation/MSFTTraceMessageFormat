@@ -1,0 +1,604 @@
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp125 11 "%0%!FUNC! exiting, error=%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+dwRetCode, ItemLong -- 10
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp131 12 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp156 13 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp170 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp184 15 "%0%!FUNC! Invoking callback for USSD event" //   LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp224 16 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp263 17 "%0%!FUNC! exiting, error=%10!u!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+dwRetCode, ItemLong -- 10
+}
+
+1b60507d-ce7a-3845-4534-e2c1778df3ae ussdapi // SRC=wwanwrapper.cpp MJ= MN=
+#typev wwanwrapper_cpp31 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+1dab8f11-51e0-3b56-5bae-a0a137b30846 lib // SRC=SmsEncoderDecoder.cpp MJ= MN=
+#typev SmsEncoderDecoder_cpp1053 14 "%0GetUserTextDataPduEncoded - RefId = %10!X!" //   LEVEL=TRACE_INFORMATION
+{
+bConcatId, ItemLong -- 10
+}
+
+1dab8f11-51e0-3b56-5bae-a0a137b30846 lib // SRC=SmsEncoderDecoder.cpp MJ= MN=
+#typev SmsEncoderDecoder_cpp52 10 "%0GetRandomNumber - rand_s error %10!d!" //   LEVEL=TRACE_INFORMATION
+{
+err, ItemLong -- 10
+}
+
+1dab8f11-51e0-3b56-5bae-a0a137b30846 lib // SRC=SmsEncoderDecoder.cpp MJ= MN=
+#typev SmsEncoderDecoder_cpp833 13 "%0GetUserTextDataUnicode - RefId = %10!X!" //   LEVEL=TRACE_INFORMATION
+{
+bConcatId, ItemLong -- 10
+}
+
+2ad3bdc0-7bfb-319c-76e3-8433fe9414b1 ussdapi // SRC=UssdMessageFactory.cpp MJ= MN=
+#typev UssdMessageFactory_cpp10 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+2ad3bdc0-7bfb-319c-76e3-8433fe9414b1 ussdapi // SRC=UssdMessageFactory.cpp MJ= MN=
+#typev UssdMessageFactory_cpp41 11 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp102 16 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp116 17 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp123 18 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp170 19 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp177 20 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp231 21 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp33 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp43 11 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp50 12 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp54 13 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp62 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+4adcaf81-df68-36ad-d85e-027da7e99f46 ussdapi // SRC=UssdMessage.cpp MJ= MN=
+#typev UssdMessage_cpp94 15 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp114 15 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp18 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp69 11 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp76 12 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp91 13 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+590f1931-d5c1-3776-44e4-14eafa4c33ed ussdapi // SRC=UssdReply.cpp MJ= MN=
+#typev UssdReply_cpp98 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp104 11 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp121 12 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp141 13 "%0%!FUNC! DeviceAccessPolicyCheck CoCreateInstance failed, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+hr, ItemHRESULT -- 10
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp153 14 "%0%!FUNC! DeviceAccessPolicyCheck CallingFromPartialTrust failed, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+hr, ItemHRESULT -- 10
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp162 15 "%0%!FUNC! DeviceAccessPolicyCheck DeviceInterfacePathAccessCheck failed, hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+hr, ItemHRESULT -- 10
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp167 16 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+7193f2c6-61e6-38d3-b930-325b0c4979e9 MBAELib // SRC=NetworkAccountBindingAccessCheck.cpp MJ= MN=
+#typev NetworkAccountBindingAccessCheck_cpp19 10 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+72f5c913-3c8e-3e1a-79d9-6193a688d2b2 MBAELib // SRC=GetNetworkAccountIdBoundToInterfaceId.cpp MJ= MN=
+#typev GetNetworkAccountIdBoundToInterfaceId_cpp30 10 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+72f5c913-3c8e-3e1a-79d9-6193a688d2b2 MBAELib // SRC=GetNetworkAccountIdBoundToInterfaceId.cpp MJ= MN=
+#typev GetNetworkAccountIdBoundToInterfaceId_cpp38 11 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+72f5c913-3c8e-3e1a-79d9-6193a688d2b2 MBAELib // SRC=GetNetworkAccountIdBoundToInterfaceId.cpp MJ= MN=
+#typev GetNetworkAccountIdBoundToInterfaceId_cpp44 12 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+72f5c913-3c8e-3e1a-79d9-6193a688d2b2 MBAELib // SRC=GetNetworkAccountIdBoundToInterfaceId.cpp MJ= MN=
+#typev GetNetworkAccountIdBoundToInterfaceId_cpp50 13 "%0%!FUNC! MbnInterfaceId = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+pszIMbnInterfaceId, ItemWString -- 10
+}
+
+72f5c913-3c8e-3e1a-79d9-6193a688d2b2 MBAELib // SRC=GetNetworkAccountIdBoundToInterfaceId.cpp MJ= MN=
+#typev GetNetworkAccountIdBoundToInterfaceId_cpp78 14 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp103 15 "%0%!FUNC!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp35 10 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp43 11 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp49 12 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp55 13 "%0%!FUNC! NetworkAccountId = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+pszNetworkAccountId, ItemWString -- 10
+}
+
+89d22e46-b61d-3d35-350d-16f49b877b3b MBAELib // SRC=GetNetworkAccountBindingDeviceInterfacePath.cpp MJ= MN=
+#typev GetNetworkAccountBindingDeviceInterfacePath_cpp84 14 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+9b7ecb77-160d-32d2-32ae-dec0346756aa MBAELib // SRC=MbaeAccountBindingCommon.cpp MJ= MN=
+#typev MbaeAccountBindingCommon_cpp125 16 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+9b7ecb77-160d-32d2-32ae-dec0346756aa MBAELib // SRC=MbaeAccountBindingCommon.cpp MJ= MN=
+#typev MbaeAccountBindingCommon_cpp141 17 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+9b7ecb77-160d-32d2-32ae-dec0346756aa MBAELib // SRC=MbaeAccountBindingCommon.cpp MJ= MN=
+#typev MbaeAccountBindingCommon_cpp162 18 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+9b7ecb77-160d-32d2-32ae-dec0346756aa MBAELib // SRC=MbaeAccountBindingCommon.cpp MJ= MN=
+#typev MbaeAccountBindingCommon_cpp183 19 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+b783a1bc-0a15-3469-4141-06496cb5b76e MBAELib // SRC=GetNetworkInterfaceIdBoundToAccountId.cpp MJ= MN=
+#typev GetNetworkInterfaceIdBoundToAccountId_cpp30 10 "%0%!FUNC! ---->" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+b783a1bc-0a15-3469-4141-06496cb5b76e MBAELib // SRC=GetNetworkInterfaceIdBoundToAccountId.cpp MJ= MN=
+#typev GetNetworkInterfaceIdBoundToAccountId_cpp38 11 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+b783a1bc-0a15-3469-4141-06496cb5b76e MBAELib // SRC=GetNetworkInterfaceIdBoundToAccountId.cpp MJ= MN=
+#typev GetNetworkInterfaceIdBoundToAccountId_cpp44 12 "%0%!FUNC! <---- Invalid parameters" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+b783a1bc-0a15-3469-4141-06496cb5b76e MBAELib // SRC=GetNetworkInterfaceIdBoundToAccountId.cpp MJ= MN=
+#typev GetNetworkInterfaceIdBoundToAccountId_cpp50 13 "%0%!FUNC! NetworkAccountId = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+pszNetworkAccountId, ItemWString -- 10
+}
+
+b783a1bc-0a15-3469-4141-06496cb5b76e MBAELib // SRC=GetNetworkInterfaceIdBoundToAccountId.cpp MJ= MN=
+#typev GetNetworkInterfaceIdBoundToAccountId_cpp78 14 "%0%!FUNC! <---- hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp20 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp24 11 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp30 12 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp47 13 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp70 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c3c512df-93ad-329b-ac2c-ebec0711056b ussdapi // SRC=UssdSendMessageAndGetReplyOperation.cpp MJ= MN=
+#typev UssdSendMessageAndGetReplyOperation_cpp92 15 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp169 15 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp175 16 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp226 17 "%0%!FUNC! exiting, dwResult=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+dwResult, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp231 18 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp238 19 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp243 20 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp246 21 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp251 22 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp278 23 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+S_OK, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp284 24 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp300 25 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp305 26 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp322 27 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp336 28 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp39 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp400 29 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp426 30 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp433 31 "%0WaitForSingleObject failed: %10!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+GetLastError(), ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp462 32 "%0%!FUNC! exiting" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp467 33 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp473 34 "%0%!FUNC! exiting, dwResult=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+dwResult, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp51 11 "%0CreateEvent failed: %10!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+GetLastError(), ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp61 12 "%0CreateThread failed: %10!u!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+GetLastError(), ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp75 13 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+c83777a1-93c4-3c39-b58b-e0cb0d442171 ussdapi // SRC=UssdSession.cpp MJ= MN=
+#typev UssdSession_cpp83 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp105 13 "%0%!FUNC! Failed to open process token. Error = %10!d!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+error, ItemLong -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp112 14 "%0%!FUNC!: Returned hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp146 16 "%0%!FUNC! Failed to check if the process is running in an app container. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+status, ItemNTSTATUS -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp162 17 "%0%!FUNC! CapabilityCheck failed. Status = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+status, ItemNTSTATUS -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp172 18 "%0%!FUNC! Non-appcontainer process allowed access" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp178 19 "%0%!FUNC! Unable to retrieve effective token. hr = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+hr, ItemHRESULT -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp186 20 "%0%!FUNC! returned hr = %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemHRESULT -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp51 10 "%0%!FUNC! Failed to check app container" //   LEVEL=TRACE_LEVEL_ERROR
+{
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp54 11 "%0%!FUNC! Appcontainer = %10!d!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+*isAppContainer, ItemLong -- 10
+}
+
+ebb267c7-1bfb-3f9e-179b-740a0d26982d SMSApi // SRC=CapabilityCheck.cpp MJ= MN=
+#typev CapabilityCheck_cpp90 12 "%0%!FUNC! Failed to open thread token. Error = %10!d!" //   LEVEL=TRACE_LEVEL_ERROR
+{
+error, ItemLong -- 10
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp119 15 "%0%!FUNC! NetworkAccountId: %10!s!, InterfaceId: %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+pszNetworkAccountId, ItemWString -- 10
+szNetworkInterfaceId, ItemWString -- 11
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp13 10 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp146 16 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp154 17 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp213 18 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp22 11 "%0%!FUNC! Called by another process" //   LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp232 19 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp264 20 "%0%!FUNC! exiting, hr=0x%10!08x!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp40 12 "%0%!FUNC! Called in-proc" //   LEVEL=TRACE_LEVEL_INFORMATION
+{
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp77 13 "%0%!FUNC! exiting, hr=0x%10!08x!, fCallerIsAppContainer=%11!d!" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+hr, ItemLong -- 10
+(int)fCallerIsAppContainer, ItemLong -- 11
+}
+
+f01d1481-db7a-3c42-3a7d-7899c6b13b59 ussdapi // SRC=UssdSessionFactory.cpp MJ= MN=
+#typev UssdSessionFactory_cpp86 14 "%0%!FUNC! entering" //   LEVEL=TRACE_LEVEL_VERBOSE
+{
+}
+

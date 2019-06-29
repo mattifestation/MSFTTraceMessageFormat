@@ -1,0 +1,1267 @@
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::UsbCApiConsumer
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::UsbCApiConsumer
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::~UsbCApiConsumer
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::~UsbCApiConsumer
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::Initialize
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[Consumer: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::Initialize
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::Deinitialize
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::Deinitialize
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderArrival
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[Consumer: 0x%10!p!] Provider arrived 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderArrival
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderArrival
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderRemoval
+{
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[Consumer: 0x%10!p!] Provider removed 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderRemoval
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+0164e25b-0b5b-3fc1-daf7-5fa7664d34ec UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_CONSUMER FUNC=UsbCApi::UsbCApiConsumer::ProviderRemoval
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::PnpDevice
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::PnpDevice
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::~PnpDevice
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::~PnpDevice
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::Initialize
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[PnpDevice: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::Initialize
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::Deinitialize
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::Deinitialize
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::CloseHandle
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::CloseHandle
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::ReopenHandle
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[PnpDevice: 0x%10!p!] Device handle already open" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::ReopenHandle
+{
+Arg, ItemPtr -- 10
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[PnpDevice: 0x%10!p!] CreateFile for %11!s! failed - %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::ReopenHandle
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemHRESULT -- 12
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::ReopenHandle
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::RegisterNotifications
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0[PnpDevice: 0x%10!p!] Already registered for notifications" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::RegisterNotifications
+{
+Arg, ItemPtr -- 10
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0[PnpDevice: 0x%10!p!] Handle not opened" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::RegisterNotifications
+{
+Arg, ItemPtr -- 10
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[PnpDevice: 0x%10!p!] CM_Register_Notification failed - 0x%11!08x!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::RegisterNotifications
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::RegisterNotifications
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0[PnpDevice: 0x%10!p!] Device query remove (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[PnpDevice: 0x%10!p!] Device query remove failed (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[PnpDevice: 0x%10!p!] Device remove pending (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0[PnpDevice: 0x%10!p!] Device remove complete (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[PnpDevice: 0x%10!p!] Device action 0x%11!x! (%12!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeviceHandleNotificationCallback
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeregisterNotifications
+{
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[PnpDevice: 0x%10!p!] CM_Unregister_Notification failed - 0x%11!08x!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeregisterNotifications
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+59f999f0-c156-324c-5e11-a8c98523459f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PNPDEVICE FUNC=UsbCApi::PnpDevice::DeregisterNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderBroker
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::FreeProviders
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::FreeProviders
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderBroker
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::~ProviderBroker
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::~ProviderBroker
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[ProviderBroker: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::Deinitialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::Deinitialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::RegisterProviderInterfaceNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[ProviderBroker: 0x%10!p!] DevCreateObjectQuery failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::RegisterProviderInterfaceNotifications
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::RegisterProviderInterfaceNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::DeregisterProviderInterfaceNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::DeregisterProviderInterfaceNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderDevQueryCallback
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[ProviderBroker: 0x%10!p!] Interface removal (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderDevQueryCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderDevQueryCallback
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderInterfaceArrival
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[ProviderBroker: 0x%10!p!] Interface arrival (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderInterfaceArrival
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderInterfaceArrival
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareProviderForRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareProviderForRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoPrepareProviderForRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoPrepareProviderForRemoval
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::QueueProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::QueueProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::ProviderEntry
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::ProviderEntry
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::~ProviderEntry
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::~ProviderEntry
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Deinitialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0[ProviderEntry: 0x%10!p!] Provider entry deinitialized" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Deinitialize
+{
+Arg, ItemPtr -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Deinitialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0[ProviderEntry: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0[ProviderEntry: 0x%10!p!] Provider entry initialized" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::RegisterDeviceHandleNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderEntry::RegisterDeviceHandleNotifications
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProcessProviderPnPActionList
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProcessProviderPnPActionList
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::ProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::ProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::~ProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::~ProviderPnPAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::ProviderPnPAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::AddProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::AddProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::~AddProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::~AddProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0[ProviderEntry: 0x%10!p!] Processing interface arrival (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::ProcessAction
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::AddProviderAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::PrepareRemoveProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::PrepareRemoveProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::~PrepareRemoveProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::~PrepareRemoveProviderAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0[ProviderEntry: 0x%10!p!] Preparing for provider removal (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::ProcessAction
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::PrepareRemoveProviderAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::CompleteProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::CompleteProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::~CompleteProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::~CompleteProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0[ProviderEntry: 0x%10!p!] Preparing for provider removal (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::ProcessAction
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::CompleteProviderRemoveAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::UndoProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::UndoProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::~UndoProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::~UndoProviderRemoveAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::Initialize
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0[ProviderEntry: 0x%10!p!] Undo provider removal (%11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::ProcessAction
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::UndoProviderRemoveAction::ProcessAction
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0DevGetObjects failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+Arg, ItemHRESULT -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0Allocating ProviderList with provider count %10!u! failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+Arg, ItemLong -- 10
+Arg, ItemHRESULT -- 11
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0Provider Initialize failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+Arg, ItemHRESULT -- 10
+}
+
+68a8f698-95dc-3505-4158-a20b794dd19f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0[Provider: 0x%10!p!] Provider added" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDERBROKER FUNC=UsbCApi::ProviderBroker::GetProviders
+{
+Arg, ItemPtr -- 10
+}
+
+6b32bdbe-e398-3205-71ee-cfd1be7297cc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0DLL loaded" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=DllMain
+{
+}
+
+6b32bdbe-e398-3205-71ee-cfd1be7297cc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0DLL unloaded" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=DllMain
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_RegisterConsumer
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0[Consumer: 0x%10!p!] Consumer registered" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_RegisterConsumer
+{
+Arg, ItemPtr -- 10
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_RegisterConsumer
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_DeregisterConsumer
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0[Consumer: 0x%10!p!] Consumer deregistered" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_DeregisterConsumer
+{
+Arg, ItemPtr -- 10
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_DeregisterConsumer
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetProviderInformation
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0[Provider: 0x%10!p!] Getting provider information" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetProviderInformation
+{
+Arg, ItemPtr -- 10
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetProviderInformation
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorProperties
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0[Provider: 0x%10!p!] Getting connector properties (%11!u!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorProperties
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorProperties
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_IsEqualChangeStamps
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_IsEqualChangeStamps
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorState
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0[Provider: 0x%10!p!] Getting connector state (%11!u!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorState
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetConnectorState
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetProviders
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_GetProviders
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_FreeProviders
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_FreeProviders
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorDataRole
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[Provider: 0x%10!p!] Setting connector data role to %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorDataRole
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_UCM_DATA_ROLE) -- 11
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorDataRole
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorPowerRole
+{
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0[Provider: 0x%10!p!] Setting connector power role to %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorPowerRole
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_UCM_POWER_ROLE) -- 11
+}
+
+a2324ca5-9e5e-3b5a-eeec-42d5071db028 UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_USBCAPI FUNC=UsbCApi_SetConnectorPowerRole
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::SingleInstanceAsyncWorker
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::SingleInstanceAsyncWorker
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::~SingleInstanceAsyncWorker
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::~SingleInstanceAsyncWorker
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Initialize
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[SingleInstanceAsyncWOrker: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[SingleInstanceAsyncWorker: 0x%10!p!] CreateThreadpoolWork failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Initialize
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Initialize
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Deinitialize
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Deinitialize
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Run
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0[SingleInstanceAsyncWorker: 0x%10!p!] Launching async worker" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Run
+{
+Arg, ItemPtr -- 10
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::Run
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::WaitForCompletion
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::WaitForCompletion
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::WorkCallback
+{
+}
+
+be8fd87f-e9ef-3c02-49bf-88770b2d2fbc UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ASYNCWORKER FUNC=UsbCApi::SingleInstanceAsyncWorker::WorkCallback
+{
+}
+
+d08dc57f-6a84-3e03-2ada-b52466bbc28d UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MISCUTILS FUNC=UsbCApi::AllocateAndCopyString
+{
+}
+
+d08dc57f-6a84-3e03-2ada-b52466bbc28d UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0StringCchLength for interface symbolic link failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_MISCUTILS FUNC=UsbCApi::AllocateAndCopyString
+{
+Arg, ItemHRESULT -- 10
+}
+
+d08dc57f-6a84-3e03-2ada-b52466bbc28d UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Failed to allocate %10!Iu! bytes for interface symbolic link" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_MISCUTILS FUNC=UsbCApi::AllocateAndCopyString
+{
+Arg, ItemPtr -- 10
+}
+
+d08dc57f-6a84-3e03-2ada-b52466bbc28d UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0StringCchCopy for interface symbolic link failed - %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_MISCUTILS FUNC=UsbCApi::AllocateAndCopyString
+{
+Arg, ItemHRESULT -- 10
+}
+
+d08dc57f-6a84-3e03-2ada-b52466bbc28d UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_MISCUTILS FUNC=UsbCApi::AllocateAndCopyString
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::UsbCApiProvider
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::UsbCApiProvider
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::~UsbCApiProvider
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::~UsbCApiProvider
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Initialize
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0[Provider: 0x%10!p!] Already initialized" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0[Provider: 0x%10!p!] Provider initialized" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Initialize
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Initialize
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Deinitialize
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0[Provider: 0x%10!p!] Provider deinitialized" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Deinitialize
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::Deinitialize
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetInformation
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0[Provider: 0x%10!p!] DeviceIoControl for IOCTL_UCM_GET_INFORMATION failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetInformation
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0[Provider: 0x%10!p!] IOCTL_UCM_GET_INFORMATION returned %11!u! bytes, expected %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetInformation
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetInformation
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0[Provider: 0x%10!p!] DeviceIoControl for IOCTL_UCM_GET_CONNECTOR_PROPERTIES failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0[Provider: 0x%10!p!] IOCTL_UCM_GET_CONNECTOR_PROPERTIES returned %11!u! bytes, expected %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorProperties
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorState
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0[Provider: 0x%10!p!] DeviceIoControl for IOCTL_UCM_GET_CONNECTOR_STATE failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorState
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0[Provider: 0x%10!p!] IOCTL_UCM_GET_CONNECTOR_STATE returned %11!u! bytes, expected %12!Iu! bytes" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorState
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::GetConnectorState
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0[Provider: 0x%10!p!] Connector change callback already registered" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0[Provider: 0x%10!p!] Failed to allocate %11!Iu! bytes for connector array" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0[Provider: 0x%10!p!] RtlSubscribeWnfStateChangeNotification failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0[Provider: 0x%10!p!] Registered for connector notifications" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::RegisterConnectorChangeCallback
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::DeregisterConnectorChangeCallback
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0[Provider: 0x%10!p!] Failed to unsubscribe connector index %11!u! - %12!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::DeregisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0[Provider: 0x%10!p!] Deregistered connector notifications" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::DeregisterConnectorChangeCallback
+{
+Arg, ItemPtr -- 10
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::DeregisterConnectorChangeCallback
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::ConnectorChangeNotification
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0[Provider: 0x%10!p!] Connector (%11!u!) change notification" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::ConnectorChangeNotification
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::ConnectorChangeNotification
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorDataRole
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0[Provider: 0x%10!p!] DeviceIoControl for IOCTL_UCM_SET_CONNECTOR_DATA_ROLE failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorDataRole
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorDataRole
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorPowerRole
+{
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0[Provider: 0x%10!p!] DeviceIoControl for IOCTL_UCM_SET_CONNECTOR_POWER_ROLE failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorPowerRole
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+e85e1683-fd9d-3b35-b532-573630d3061f UcbCApi // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_PROVIDER FUNC=UsbCApi::UsbCApiProvider::SetConnectorPowerRole
+{
+}
+

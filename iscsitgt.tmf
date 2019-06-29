@@ -1,0 +1,6488 @@
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to create worker thread [%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Failed to initialize session: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Failed to delete session 0x%10!p!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: %10!s!: Failed to allocate memory for OVERLAPPED_ENTRY[]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: %10!s!: Failed to allocate memory for PIOCP_PACKET[]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %10!s!: GetQueuedCompletionStatus failed (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %10!s!: Failed to allocate memory for IOCP_PACKET" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WARN: %10!s!: AcceptEx failed (0x%11!x!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WARN: %10!s!: IOCP failed, key=0x%11!p!, overlapped=0x%12!p!, error=0x%13!x!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: Number of address space exceeded in CSessionManager::CreateServerSocket" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: Failed to create server socket on %10!s! Error=%11!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemSockAddr -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: Failed to pre-create listening socket Error=%10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: Failed to bind to %10!s! Error=%11!u!%" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemSockAddr -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: Failed to listen to %10!s! Error=%11!u!%" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemSockAddr -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: Failed to create IO completion port: %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: Failed to AcceptEx on %10!s! Error=%11!u!%" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemSockAddr -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ERROR: Failed to create server socket: %10!s!:%11!u!. Error: %12!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: Failed to open target server resource: %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ERROR: Failed to get target server resource group: %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WARN: group for %10!s! not found" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemSockAddr -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: %10!s!: Invalid socket index (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WARN: %!FUNC! GetAcceptExSockaddrs failed." //   LEVEL=TRACELVL_WARN
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WARN: %!FUNC! AcceptEx Status=0x%10!x!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ERROR: %10!s!: failed to get socket options (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0ERROR: %10!s!: failed to create socket (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0WARN: %10!s!: AcceptEx failed %11!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ERROR: Failed to insert connection into sessionless set [Connection=0x%10!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ERROR: Failed to open target server resource: %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ERROR: Failed to get resource group: %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0ERROR: Failed to add to m_ListeningGroups: out of memory." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ERROR: Failed to create ListeningStoppedEvent: %10!u!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: failed to queue target server resesource. Out of memory." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0WARN: Wait for ListeningStoppedEvent failed: %10!u!." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0ERROR: DoSessionReinstatement: Cannot reinstate session that is not in the failed state." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0ERROR: First PDU not Login Request!" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ERROR: Failed to parse login request PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+0688396b-793a-78c4-a46a-4154d597f1d7iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0ERROR: Failed to find initiator name in login request PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+06937227-fe82-f640-776b-b418eee68873iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to memory-mapped file (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+06937227-fe82-f640-776b-b418eee68873iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Failed to map view of file (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+123f6b3a-db1f-4898-8869-c8a33babb90aiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to get snapshot properties [Error=%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+123f6b3a-db1f-4898-8869-c8a33babb90aiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Inconsistent Vss Snapshot status %10!08x! for %11!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+}
+
+24c7b920-2255-3acf-e0e0-92605c79face iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to allocate FileIoContext with Pdu buffer." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: %10!s!: DevicePath %11!s! hr = %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0ERROR: Volume %10!s! has a dependency on volume/path %11!s!. hr = %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0ERROR: GetStickyShadowStoragePath() szShadowDeviceFolder %10!s! is invalid." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0ERROR: GetStickyShadowStoragePath() StringCchCopy() failed [hr=0x%10!08x!, line=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0ERROR: GetStickyShadowStoragePath() szDevicePath %10!s! is invalid." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0ERROR: GetStickyShadowStoragePath() StringCchCopy() failed [hr=0x%10!08x!, line=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0ERROR: GetStickyShadowStoragePath() CreateFile() failed [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0ERROR: GetStickyShadowStoragePath() DeviceIoControl() failed [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0ERROR: GetStickyShadowStoragePath() StringFromGUID2() failed [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0ERROR: GetStickyShadowStoragePath() StringCchPrintf() failed [hr=0x%10!08x!, line=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Unable to initialize WTDisk for first time use [hr=%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0ERROR: GetStickyShadowStoragePath() StringCchPrintf() failed [hr=0x%10!08x!, line=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0ERROR: %10!s! %11!d!  -> E_INVALIDARG" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0ERROR: %10!s! %11!d!  -> E_INVALIDARG" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: %10!s! %11!d! -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: VHD is disabled, failing snapshot mount request" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0CWTDisk::DVMountSnapshot() : ERROR: Out of Memory; unable to allocate DeviceInfo structure" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0CWTDisk::DVMountSnapshot() : ERROR: GetDiskDeviceNumberFromPath( %10!s! ) hr = %11!08x!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0CWTDisk::DVMountSnapshot() : ERROR: DeviceIoControl for IOCTL_MINIPORT_PROCESS_SERVICE_IRP failed." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: Failed to mount snapshot via Data View [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s! %11!d! Opening %12!s! Error %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s! %11!d! GetExtentAlloc %12!s! Error %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %10!s! %11!d! GetExtents %12!s! Error %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: %10!s! %11!d! Dismount Error %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %10!s! %11!d! Opening %12!s! Error %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: %10!s! %11!d! Dismount Error %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR: %10!s! %11!d! Offline Error %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: WTDisk is disabled, failing dismount request" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ERROR: %10!s!: Device object has not been created" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: %10!s!: Failed to get VHD type (0x%11!08x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0ERROR: %10!s!: Attempting to dismount differencing VHD denied" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ERROR: Failed to DeviceIoControl(DEVICE_MOUNT_STATUS) err: %10!d!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ERROR: Failed to set disk removal parameters (%10!d!) by %11!s! (%12!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ERROR: Failed to dismount WTD %10!d! from Data View [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0ERROR: %10!s!: Failed to get VHD type [Error=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ERROR: %10!s!: Denying snapshot creation request for differencing VHD" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ERROR: %10!s! %11!d!  -> E_INVALIDARG" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0ERROR: %10!s! %11!d!  -> E_OUTOFMEMORY" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0ERROR: %10!s! %11!d!  -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ERROR: %10!s! %11!d!  -> E_INVALIDARG" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ERROR: %10!s! %11!d!  -> ERROR_INVALID_HANDLE" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0ERROR: %10!s! %11!d!  -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0ERROR: %10!s! %11!d!  -> %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ERROR: %10!s! %11!d!  -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR: %10!s! %11!d!  -> E_INVALIDARG" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0ERROR: %10!s! %11!d!  -> Discovered an invalid disk %12!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0CWTDisk::Save() : exit." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0ERROR: %!FUNC! 4898 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ERROR: Failed to enumerate WTD %10!d! Data View mountpoints [hr=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: Failed to return enumerated Data View mountpoints [WTD=%10!d!,hr=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0ERROR: m_pDevice is NULL, WTD = %10!d!, hr = 0x%11!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0LunStatus Lun %10!d! PercentageComplete %11!d!, CompletionError 0n%12!d! EStatus %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0ERROR: %10!s!: device type not supported (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0ERROR: %10!s!: Shadow VHD type must not be differencing (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2547fa29-cd4d-7f1b-5aee-28fd6651b4d2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0ERROR: %10!s! %11!d! --> SetLastError(%12!d!) " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0ERROR: %!FUNC! 6055 failed to alloc memory for DUID (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0ERROR: %!FUNC! 6088 failed to get DUID (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0ERROR: %!FUNC! 6210 failed to get class dev (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0ERROR: %!FUNC! 6247 failed to enum dev info (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0ERROR: %!FUNC! 6274 failed to query dev interface detail size (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0ERROR: %!FUNC! 6289 failed to alloc memory for dev interface detail (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0ERROR: %!FUNC! 6312 failed to query dev interface detail (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0ERROR: %!FUNC! 6332 failed to copy adapter path (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0WARN: %!FUNC! 6514 sibling dependency not found" //   LEVEL=TRACELVL_WARN
+{
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%!FUNC! 6709 ERROR: IsIPTargetResourceDependency failed! Error code=%10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0INFO: %10!s! %11!d! GetClassDevs failed %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: %10!s! %11!d! failed CRRET %12!d! getting pnp id for index %13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: %10!s! %11!d! error %12!d! getting SPDRP_FRIENDLYNAME for %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %10!s! %11!d! CR error %12!d! getting device interface for %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %10!s! %11!d! Error %12!d! create file(%13!s!) for %14!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+Arg, ItemWString -- 14
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: %10!s! %11!d! Error %12!d! getting disk number for %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: %10!s! %11!d! Error %12!d! getting disk geometry for %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s! %11!d! Error creating safearray %12!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemWString -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s! %11!d! Error accessing safearray 0x%12!x! for %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemWString -- 13
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %10!s! %11!d!  -> hr = %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: %10!s! %11!d!  -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: %10!s! %11!d!  -> %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: EnumLocalPortal: Failed to enumerate IP address resources (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: EnumLocalPortal: Failed to enumerate IPv6 address resources (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ERROR: %10!s! %11!d!  -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR: %!FUNC! 2897: Failed to get disk index for volume: %10!s!, with error code: 0x%11!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: %!FUNC! 3026: Failed to check if this volume: %10!s! on dynamic disk or not, with error code: 0x%11!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ERROR: %!FUNC! 3132 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WARN: Failed to enumerate all IP addresses. IP group mapping is incomplete: %10!u!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0ERROR: Failed to open cluster registry key (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0LoadPortalsClustered: Failed to enumerate portal registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0LoadPortalsNonClustered: Failed to enumerate portal registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ERROR: SavePortal: Failed to open cluster registry key (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ERROR: DeletePortal: Failed to delete portal %10!s! from the registry [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ERROR: %!FUNC! 4550 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ERROR: %!FUNC! 4602 mapNotificationRefBySession %10!u! not found" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0ERROR: %!FUNC! 4798 failed to get class dev (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0ERROR: %!FUNC! 4839 failed to enum dev info (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ERROR: %!FUNC! 4858 failed to get pnp id for device #%10!u! (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0ERROR: %!FUNC! 4879 failed to get pnp instance id for device #%10!u! (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR: %!FUNC! 4905 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ERROR: %!FUNC! 5024 failed to open '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: %!FUNC! 5043 failed to get disk number for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0ERROR: %!FUNC! 5061 failed to get disk DUID for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0ERROR: %!FUNC! 5088 failed to get disk adapter path for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0ERROR: %!FUNC! 5121 failed to get physical sector size for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0ERROR: %!FUNC! 5149 failed to get access alignment mask for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0ERROR: %!FUNC! 5173 failed to get SCSI address for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0ERROR: %!FUNC! 5273 LocalAlloc failed (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0WARN: %!FUNC! 5351 disk '%10!s!' already exists - replaced" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0ERROR: %!FUNC! 5392 DUID of disk '%10!s!' already exists (%11!s!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ERROR: %!FUNC! 5407 failed to add disk '%10!s!' to maps" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WARN: %!FUNC! 5439 failed to add disk '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0WARN: %!FUNC! 5504 inconsistency between DiskInfoByPnpPath and PnpPathByWtd for path '%10!s!'" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0ERROR: %!FUNC! 5590 LocalAlloc failed (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0ERROR: %!FUNC! 5672 failed to get disk device number (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0ERROR: %!FUNC! 5731 failed to get device descriptor (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0ERROR: %!FUNC! 5790 failed to get storage access alignment property (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0ERROR: %!FUNC! 5849 failed to get storage adapter property (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0ERROR: %!FUNC! 5907 failed to get SCSI address (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0ERROR: %!FUNC! 5973 failed to set disk attributes (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+2ff147b1-2c78-5a76-730b-ebd6ce008c08iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0ERROR: %!FUNC! 6036 failed to get DUID size (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: MD5Open:BCryptOpenAlgorithmProvider() failed [NTSTATUS=0x%10!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: MD5Digest:BCryptGetProperty() failed [NTSTATUS=0x%10!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: MD5Digest:Failed to allocate memory for hash buffer [dwError=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: MD5Digest:BCryptCreateHash() failed [NTSTATUS=0x%10!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: MD5Digest:BCryptHashData() failed [NTSTATUS=0x%10!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: MD5Close:BCryptGetProperty() failed [NTSTATUS=0x%10!08x!, HashSize=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+51b7fefe-e838-a93d-a728-6277a1fcf99eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: MD5Close:BCryptFinishHash() failed [NTSTATUS=0x%10!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5229ff20-8abf-47ea-8aef-37332eaf7c83iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: ExecCmd: Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5229ff20-8abf-47ea-8aef-37332eaf7c83iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: OpenDeviceInstance: Invalid device instance (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5229ff20-8abf-47ea-8aef-37332eaf7c83iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: CloseDeviceInstance: Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5229ff20-8abf-47ea-8aef-37332eaf7c83iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: AssociateSession: Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5229ff20-8abf-47ea-8aef-37332eaf7c83iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: IO failed handling SCSI command 0x%10!02x! [LUN=%11!I64d!,WTD=%12!d!,Error=%13!u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: %10!s! %11!d! Discover unsupported disk %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: Dismount all - failed to set disk removal parameters (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %10!s! %11!d! -> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %10!s! %11!d! --> E_OUTOFMEMORY" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: %10!s! %11!d! --> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s! %11!d! --> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s! %11!d! --> 0x%12!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: Failed to enumerate WTDisks [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: %10!s!: RAM disk not supported in cluster" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WARN: SetVssShadowStorageInfo for %10!s! to %11!I64u!MB failed [0x%12!x!]" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLong -- 12
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: CreateShadowWTDiskNonPersistent: The specified WTD %10!d! already exists." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: CreateShadowWTDiskNonPersistent: Failed to create new shadow WTDisk for device %10!s! [hr=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ERROR: Failed to enumerate WTDisks on volume %10!s! [hr=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WARN: Failed to remove dependency on cluster disk: %10!08x!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WARN: Failed to check dependency: %10!08x!. Assume new dependency." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+5559e833-c0a7-511f-1410-4229d1611efbiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WARN: Failed to check dependency: %10!08x!. Assume dependency still exists." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to initialize perf counters (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Failed to create Buffer Manager (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: BuildInitialState Failed with %10!d!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: Failed to start Work-Item to resync online cluster resources (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: Failed to start cluster events notification thread (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: Failed to start monitor cluster state transition thread (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: Failed to register for storage device notifications (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: Failed to register for disk device notifications (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: WaitForClusterServiceToStart: The cluster service is not running." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: %10!s!: Failed to open %11!s! [Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: Failed to read %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: Failed to read %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: Failed to save %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: Failed to save %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s!: Out of Memory" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: Failed to build cluster initial state (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: Failed to start cluster events notification thread (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: Failed to open target server resource: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: CLUSCTL_RESOURCE_GET_RO_PRIVATE_PROPERTIES failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: Failed to allocate memory for private properties." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: CLUSCTL_RESOURCE_GET_RO_PRIVATE_PROPERTIES failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ERROR: ResUtilFindSzProperty(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR: ResUtilFindDwordProperty(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: ResUtilFindDwordProperty(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: CryptAcquireContext(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ERROR: CryptGetUserKey() failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ERROR: Failed to allocate memory for resource group context." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0WARN: %10!s!: VendorSpecificId not found." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WARN: %10!s!: Security key not found." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+}
+
+6b02eb33-f091-d134-c368-87efaf16c1bdiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0ERROR: ResyncClusterResources: Faield to reconcile Host resource %10!s! Online state." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: %!FUNC! 213 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: Failed to enumerate hosts [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: %!FUNC! 991 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: NewHostNonPersistent: Failed to create new host '%10!s!' [hr=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: %10!s!:%11!d!: Failed to allocate HostArray (0x%12!x!.)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s!:%11!d!: Failed to create new host enumerator interface (0x%12!x!.)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s!:%11!d!: Failed to initialize new host enumerator (0x%12!x!.)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %10!s!:%11!d!: QueryInterface() (0x%12!x!.)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: %10!s!:%11!d!: Failed to enumerate offline and online hosts (0x%12!x!.)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: Failed to open Hosts registry key (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: Failed to create thread #%10!u! for OfflineTargetThread - [%11!u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+80e060ad-e27e-c470-ee09-f0cc4a6aa35eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: Failed to open target server resource to delete target %10!s!: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+924761c2-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: GetDiskFreeSpace(%10!s!) failed: %11!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: szSendTargetsResourceGroupScope is too long" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Failed to allocate WSABUFs." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: Failed to create IO completion port: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: CreateConnection failed to queue initial read requests [Socket=0x%10!08Ix!,Connection=0x%11!p!, Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: Invalid state transition [Connection=0x%10!p!,CurrState=%11!d!,NextState=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: Failed to issue first initial read on socket 0x%10!08x! [Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: Failed to issue subsequent initial read on socket 0x%10!08x! [Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: Failed to send Response PDU to initiator (%10!d!), close the connection [Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: Could not allocate receive context buffer" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: Could not allocate PDU buffer" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: Failed to issue read on socket 0x%10!08x! (%11!d!), close the connection [Connection=0x%12!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: ExtractAndExecutePdu failed. bDisconnect = %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: Failed to allocate PDU_BUFFER." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: ExtractAndExecutePdu failed (multi-buffer). bDisconnect = %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: Closing connection [Session=0x%10!p!,Connection=0x%11!p!,Op=%12!d!,Error=0x%13!x!,BytesXferred=%14!d!,Socket=%15!I64d!,Shutdown=%16!I64u!,Ignore=%17!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLongLong -- 15
+Arg, ItemULongLong -- 16
+Arg, ItemLong -- 17
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: NotifyRecvBufferCompletion failed. [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: Closing connection on error [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+a2c91efc-b140-5909-4d1c-d3bccc7e0bc5iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: FileIoCtx allocation for Reject Login failed." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to resolve iSNS server %10!s!:%11!d! [Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Failed to open connection to iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Unable to register target %10!s! with iSNS server [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: Failed to open connection to iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: Unable to deregister target from iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: Failed to open connection to iSNS server for refresh [Errpr=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: UpdateRegistration: Successfully resolved iSNS server %10!s!:%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: UpdateRegistration: Failed to resolve iSNS server %10!s!:%11!d! [Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: Re-registration of network entity to iSNS server %10!s! failed [Error=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: Failed to open connection to iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: Failed to ping iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: Failed to open connection to iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: Unable to deregister network entity from iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: Failed to open connection to iSNS server [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: Failed to registered Network Entity with server %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: iSNS server is sending us an iSCSI Name that is longer than the spec!" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ace91b4d-a1c7-9777-e5b3-ff5d5789bfc1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: Invalid address specified in CSns::AppendAttributeAddress" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+b1968dd1-3f81-397a-59e3-1e3dce64e9b5 iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WARN: %10!s! %11!d! failed to create thread for SPN registration (%12!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: %10!s!: failed to load instance name string (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: %10!s!: failed to load parent instance name string (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: %10!s!: failed to init perf counter provider (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: %10!s!: failed to create global perf counters (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: %10!s!: failed to alloc mem for perf counter instance %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: %10!s!: failed to create multi-instance counter set instance %11!d! (%12!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: %10!s!: failed to bind perf counter Throughput (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: %10!s!: failed to bind perf counter RequestRate (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: %10!s!: failed to bind perf counter Latency (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: %10!s!: failed to bind perf counter LatencyBase (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: %10!s!: failed to bind perf counter #BytesRead (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %10!s!: failed to bind perf counter #BytesWritten (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %10!s!: failed to bind perf counter #BytesReadWrittenBase (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerRead (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerReadBase (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerWrite (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerWriteBase (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerTransfer (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: %10!s!: failed to bind perf counter #BytesPerTransferBase (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: %10!s!: failed to create global counter set instance (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: %10!s!: failed to bind perf counter #Sessions (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %10!s!: failed to bind perf counter #FailedLogins (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: %10!s!: failed to bind perf counter #SessionErrors (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: %10!s!: failed to bind perf counter #PendingRequests (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+b2aecb38-945a-f78a-4813-b495a2131b64iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: %10!s!: failed to format perf counter instance (%11!d!) name (0x%12!08x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: %!FUNC! 84 invalid device instance %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0SCSI: %!FUNC! 165 TMF %10!u! pass-through failed [LUN=%11!I64u!,WTD=%12!d!,Error=%13!u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: %!FUNC! 278 error 0x%10!x! allocating buffer for SCSI command 0x%11!02x! [BufferLen=%12!I64u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: %!FUNC! 384 error %10!u! handling SCSI command 0x%11!02x! [LUN=%12!I64u!,WTD=%13!d!] %14!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemHEXDump -- 14
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: PassThroughDevice Write: LUN=%10!I64d!,ByteOffSet=%11!I64d!,SizeBytes=%12!I64d!,ErrorCode=%13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLong -- 13
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: PassThroughDevice Read: LUN=%10!I64d!,ByteOffSet=%11!I64d!,SizeBytes=%12!I64d!,ErrorCode=%13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLong -- 13
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %!FUNC! 567 failed to alloc device descriptor for disk '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %!FUNC! 576 failed to open disk '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: %!FUNC! 601 unsupported device '%10!s!' (dev=%11!u!, bus=%12!u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: %!FUNC! 762 failed to open disk '%10!s!' (0x%11!x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %!FUNC! 787 failed to open disk '%10!s!' (0x%11!x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WARN: %!FUNC! 801 failed to take ownership for disk '%10!s!' (0x%11!x!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %!FUNC! 822 failed to open adapter '%10!s!' (0x%11!x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WARN: %!FUNC! 964 failed to release ownership for disk '%10!s!' (0x%11!x!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: %!FUNC! 998 Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ERROR: %!FUNC! 1047 failed to dup disk handle (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ERROR: %!FUNC! 1179 failed to dup disk handle (0x%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: %!FUNC! 1210 invalid device instance %10!u!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WARN: %!FUNC! 1270 device not yet initialized" //   LEVEL=TRACELVL_WARN
+{
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ERROR: %!FUNC! 1295 failed to open '%10!s!' for '%11!s!' (0x%12!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0ERROR: %!FUNC! 1315 failed to get DUID for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+c45d9a9d-dc5a-4634-b0a1-28833dc9e840iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ERROR: %!FUNC! 1494 failed to get disk size for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0ERROR: HandleScsiCmdWriteCommandRequest: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!,Session=0x%12!p!,ITT=0x%13!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0ERROR: Received Data Out PDU without pending Write PDU [Session=0x%10!p!,ITT=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0ERROR: HandleTaskManagement: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0ERROR: HandleNopOut: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0ERROR: Initiator requested full feature phase in first Login PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0ERROR: Initiator is specifying AuthMethod more than once [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0ERROR: Initiator is specifying CHAP_A more than once [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0ERROR: Initiator is specifying CHAP_A without specifying CHAP in AuthMethod [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0ERROR: Failed to open the default security provider [Session=0x%10!p!,Connection=0x%11!p!,Hr=%12!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0ERROR: Failed to generate random CHAP Challenge [Session=0x%10!p!,Connection=0x%11!p!,Hr=%12!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0ERROR: Failed to convert binary to string" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0ERROR: Initiator is specifying CHAP_A when the target is not configured for CHAP authentication [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0ERROR: Initiator is specifying CHAP_N more than once [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0ERROR: Initiator is specifying CHAP_N without CHAP_A in previous packet or specifying CHAP_N and CHAP_A in the same packet in [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0ERROR: Initiator is specifying CHAP_N without CHAP_R in the same packet in [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0ERROR: Initiator is specifying CHAP_N value bigger than 255 bytesin [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0ERROR: Initiator is specifying CHAP_N when the target is not configured for CHAP authentication [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0ERROR: Initiator is specifying CHAP_R without CHAP_N yetin [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0ERROR: Initiator is specifying CHAP_R when the target is not configured for CHAP authentication [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0ERROR: Initiator is specifying CHAP_I without CHAP_R yetin [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0ERROR: Initiator is specifying CHAP_I without CHAP_C in the same packet in [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0ERROR: Initiator specified invalid CHAP_I %10!s! [Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0ERROR: Initiator is specifying CHAP_I when the target is not configured for reverse CHAP authentication [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0ERROR: Initiator is specifying CHAP_C without CHAP_I yetin [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0ERROR: Initiator sent a challenge that is the same as the one sent to it. [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0ERROR: Failed to convert binary to string" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0ERROR: Initiator is specifying CHAP_C when the target is not configured for CHAP authentication [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0WARN: Unknown parameter %10!s!=%11!s! found in LoginOperational phase [Session=0x%12!p!,Connection=0x%13!p!]" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0ERROR: Initiator %10!s! requested a normal session but failed to specify a TargetName in the first Login PDU [Session=0x%11!p!,Connection=0x%12!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0ERROR: %!FUNC!: GetNameInfoW failed (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0ERROR: Failed to get next pending write" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0ERROR: %10!s!: Buffer too small for Login response. (%11!I64u! < %12!I64u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0ERROR: Failed to allocate response PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: Invalid PDU request 0x%10!02x! [Session=0x%11!p!,Connection=0x%12!p!,ConnectionState=%13!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 161 "%0ERROR: Failed to allocate FILE_IO_CONTEXT for R2T Pdu." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 164 "%0ERROR: The command require more WSABuffer resource than we can handle [MaxExpDataXferLength=%10!d!, DataXferLength=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 165 "%0ERROR: The command requires more R2T context than we can handle [dwNumR2TsNeeded=%10!d!, TransferLength=%11!d!, MaxBurstLength=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 166 "%0ERROR: Unable to validate PDU.  The data segment length exceeds the expected data transfer length." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 167 "%0ERROR: Invalid CDB operation code (0x%10!02x!) in a write PDU.[Session=0x%11!p!." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 168 "%0ERROR: Unable to validate PDU.  Data Out PDU is for nonexisting unsolicted command [Session=0x%10!p!,ITT=0x%11!08x!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0ERROR: Unable to validate PDU.  No original command found for Data Out PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: Invalid PDU request 0x%10!02x! [Session=0x%11!p!,Connection=0x%12!p!,ConnectionState=%13!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 170 "%0ERROR: Received Data Out PDU for command ITT=0x%10!08x!, but next unsolicited ITT=0x%11!08x! [Session=0x%12!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 171 "%0ERROR: Received Data Out PDU for command ITT=0x%10!08x!, with DataSegmentLength == 0 [Session=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 172 "%0ERROR: Received Data Out PDU for command ITT=0x%10!08x!, with BufferOffset=0x%11!08x!, but expected BufferOffset=0x%12!08x! [Session=0x%13!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 173 "%0ERROR: Unable to validate PDU.  The sum of the buffer offset and data segment length exceeds the expected data transfer length." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 174 "%0ERROR:We have got continuous bad PDU for this connection. Drop this [connection=0x%10!p!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 176 "%0WARN: %!FUNC!: insuffcient buffer for MAC address - %10!u! bytes required" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: Invalid PDU request 0x%10!02x! [Session=0x%11!p!,Connection=0x%12!p!,ConnectionState=%13!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WARN: Ignoring PDU request 0x%10!02x! due to connection state [Session=0x%11!p!,Connection=0x%12!p!,ConnectionState=%13!s!]" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemWString -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: %!FUNC! 2057 SCSI command 0x%10!02x! failed [LUN=%11!I64u!,WTD=%12!d!,Status=%13!u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: %!FUNC! 2076 SCSI command 0x%10!02x! failed [LUN=%11!I64u!,WTD=%12!d!,Status=%13!u!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0ERROR: %10!s!: Failed to process login pdu resumption (Connection=0x%11!p!, Error=0x%12!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: SetNumPendingReadsAndParseAvailBuffers failed. [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0ERROR: Closing connection on error [Session=0x%10!p!,Connection=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ERROR: Change error %10!u! to BUSY and SCSI status %11!u! to SCSISTAT_BUSY [ITT=0x%12!08x!,LUN=%13!I64d!,WTD=%14!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLong -- 13
+Arg, ItemLong -- 14
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ERROR: Sense Data [ITT=0x%10!08x!,LUN=%11!I64d!,WTD=%12!d!,SenseKey=%13!d!,ASC=%14!d!,ASCQ=%15!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+Arg, ItemLong -- 15
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: Failed to allocate Data-In PDUs." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ERROR: Failed to allocate response PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0ERROR: Failed to allocate Data-In PDUs." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: Failed to allocate output buffer while processing a SCSI command [Session=0x%10!p!,BufferLen=%11!d!,Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0ERROR: ProcessSessionReinstatement: Cannot reinstate session that is not in the failed state." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0ERROR: DoSessionReinstatement: Failed to start new session." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: %10!s!: Cannot find connection with Cid %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0ERROR: %10!s!: Failed to add new connection for reinstatement (CID=0x%11!08x!, Error=0x%12!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0ERROR: %10!s!: Failed to queue login pdu resumption request (CID=0x%11!08x!, Error=0x%12!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0ERROR: HandleLoginRequest: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0ERROR: First login PDU rejected (status 0x%10!04x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0ERROR: Invalid connection state %10!s! [Session=0x%11!p!,Connection=0x%12!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0ERROR: Failed to parse login request parameters. Reject" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ERROR: HandleTextRequest: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0ERROR: Failed to parse text request PDU (0x%10!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0ERROR: Failed to get target name (0x%10!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0ERROR: SendTargets=<Nothing> is received without a connected target." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0ERROR: 'All' is not supported on Normal session." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0ERROR: %10!s!: Failed to enumerate local portals (0x%11!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0ERROR: %10!s!: Failed to get host resource group name (0x%11!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0ERROR: Failed to get host name: 0x%10!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0ERROR: Failed to get connection address: 0x%10!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0ERROR: %10!s!: Buffer too small for SendTargets response. (%11!I64u! < %12!I64u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0ERROR: Failed to allocate response PDU." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0ERROR: HandleLogoutRequest: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0ERROR: Invalid reason code %10!d! in Logout Request PDU [Session=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0ERROR: HandleScsiCommandRequest: Invalid command sequence number [CmdSn=0x%10!08x!,ExpCmdSN=0x%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+ca752a6e-ee87-c49c-e24c-32885ba0dfa2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0ERROR: Failed to allocate output buffer while processing a SCSI command [Session=0x%10!p!,BufferLen=%11!d!,Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Unable to get the hCluster handle %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Unable to Enumerate Cluster Nodes %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Unable to Enumerate Cluster Resource Groups %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Unable to Enumerate Cluster Resources %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: Failed to allocate name buffer for cluster notification (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: Failed to allocate name buffer to store computer name for cluster notification (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: ClusterEventsNotificationThread: Failed to open cluster (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: Failed to create cluster notification port (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: Rescan failed with %10!d!. A rescan will be retried." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: Rescan failed with %10!d!. A rescan will be retried." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: Failed to retrieve next cluster notification (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s! (%11!d!): ERROR: Cluster state is changing." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0WARN: NotifyServiceStatusChangeEx: NotifyServiceStatusChange is lagging, sleeping for a bit and will try again." //   LEVEL=TRACELVL_WARN
+{
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: MonitorClusterStateTransitionThread: Failed to initialize COM (0x%10!08x!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: MonitorClusterStateTransitionThread: Failed to open the SCM (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WARN: MonitorClusterStateTransitionThread: Cannot open cluster service (%10!d!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WARN: MonitorClusterStateTransitionThread: Cluster service was deleted, closing handle and waiting for it to be recreated." //   LEVEL=TRACELVL_WARN
+{
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WARN: MonitorClusterStateTransitionThread: Failed to register for service status change notification (%10!d!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: MonitorClusterStateTransitionThread: wait for StopEvent failed Err: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WARN: MonitorClusterStateTransitionThread: Cluster service has been marked for deletion, closing handle and waiting for it to be recreated." //   LEVEL=TRACELVL_WARN
+{
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WARN: MonitorClusterStateTransitionThread: Failed to retrieve the service status change notification, exiting thread (%10!d!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WARN: MonitorClusterStateTransitionThread: Cannot open cluster service to wait for it to start. (Err: %10!d!)." //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ERROR: MonitorClusterStateTransitionThread: The cluster service has been stopped." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ERROR: MonitorClusterStateTransitionThread: The service notification message indicates the cluster service is neither running nor stopped (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ERROR: ClusterOpenEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ERROR: ClusterEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ERROR: OpenClusterGroup failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WARN: ClusterGroupStateUnknown ignored: %10!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ERROR: Failed to get cluster group state: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ERROR: GetGroupGuid failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: ClusterOpenEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ERROR: ClusterEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0ERROR: OpenClusterNode failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0WARN: ClusterNodeStateUnknown ignored: %10!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0ERROR: Failed to get cluster node state: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR: OpenClusterNode failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ERROR: ClusterOpenEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: ClusterEnum failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0ERROR: Resource %10!s! did not find a mathcing group. Rescan needed" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0ERROR: OpenClusterResource failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0WARN: ClusterResourceStateUnknown ignored: %10!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0ERROR: GetClusterResourceState failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0ERROR: GetResourceGuid failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0ERROR: ClusterResourceControl failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0ERROR: GetGroupGuid(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0ERROR: Resource %10!s! did not find a matching group. Rescan needed" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0WARN: failed to get new resource '%10!s!' IP address: %11!u!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0ERROR: GetGroupGuid(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+d2824761-9c68-e9c0-e139-f6bf12aa6bd2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0WARN: failed to get resource '%10!s!' IP address: %11!u!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to allocate text parameter buffer." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Invalid new buffer size [New=%10!d!, Curr=%11!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: failed to allocate text parameters buffer." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: CUnicodeUTF8String::Assign(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: Failed to allocate buffer for m_pParamsBufferUnicode." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: Failed to allocate buffer for pszCurrKey." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+dbb31a86-b716-813a-a5c4-d74a39475fd1iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: Failed to allocate buffer for pszCurrValue." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: %!FUNC! 578 SetVirtualDiskInformation() for vhdx %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: %10!s!: %11!s! does not exist." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: %10!s!: Failed to open virtual disk %11!s!. Error: %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: %10!s!: Failed to attach virtual disk %11!s!. Error: %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: %10!s!: Failed to set per-request FUA on virtual disk %11!s!. Error: %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WARN: %10!s!: Failed to detach virtual disk: %11!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: GetVirtualDiskInformation failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: GetVirtualDiskInformation failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: GetVirtualDiskInformation failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: GetVirtualDiskInformation failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: GetVirtualDiskInformation failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0VHD zeroing in progress. CVhdxDevice %10!p! %11!s! GLE=%12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0Failed delayed initialization CVhdxDevice %10!p! %11!s! GLE=%12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: Failed to open file R %10!s! (Error=%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: Failed to open file RW %10!s! (Error=%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %10!s!: Failed to re-open file %11!s! handle [WTD=%12!d!,Error=%13!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: Failed to re-associate volume %10!s! to IOCP [WTD=%11!d!,Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ERROR, %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR, %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0ERROR: Failed to add new device instance of file %10!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: %10!s!: Failed to allocate buffer for management context" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0ERROR: Failed to reopen file %10!s! (Error=%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ERROR: VHDX File Read: LUN=%10!I64d!,ByteOffSet=%11!I64d!,SizeBytes=%12!I64d!,ErrorCode=%13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLong -- 13
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: %10!s!: Invalid device instance %11!d! (%12!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0ERROR: %10!s!: Aligned, no R2T write request failed (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ERROR: %10!s!: Aligned, multiple R2T write failed (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0ERROR: %!FUNC! 2588: _malloca failed" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0ERROR: Failed to allocate write buffer while processing a SCSI command (WRITE) [Session=0x%10!p!,BufferLen=%11!I64u!,Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemLong -- 12
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ERROR: %10!s!: Unaligned write failed (%11!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0ERROR: VHDX File Write: LUN=%10!I64d!,ByteOffSet=%11!I64d!,SizeBytes=%12!I64d!,ErrorCode=%13!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLongLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLong -- 13
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0ERROR: Failed to launch async operation thread for VhdxDevice %10!p! GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ERROR: Failed to create diff file: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0ERROR: %!FUNC! 3111 CreateFile(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0ERROR:%!FUNC! 3218: GetFileSizeEx failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0ERROR:%!FUNC! 3224: GetFileSizeEx failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%!FUNC! 3278:ERROR: Rollback of Vhd %10!s! cancelled, GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%!FUNC! 3396:ERROR: Rollback of Vhd %10!s! cancelled, GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ERROR: Failed to build diff file: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0INFO: Start committing diff file." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR:%!FUNC! 3553: GetDevicePathFromShadow failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0ERROR:%!FUNC! 3567: CreateFile failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0ERROR:%!FUNC! 3576: GetFileSizeEx failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0ERROR:%!FUNC! 3583: SetFilePointerEx failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ERROR:%!FUNC! 3590: SetEndOfFile failed: %10!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: Rollback of Vhd %10!s! cancelled, GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Unable to duplicate VHD handle for online resize VhdxDevice %10!p! GLE %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0ERROR: Zero initialization of vhd %10!s! cancelled, GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0ERROR: %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0VhdxDevice %10!p! GetVirtualDiskOperationProgress failed GLE=%11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+de1a54fb-31f1-4e18-bdc3-15843621cb26iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0ERROR: ExecCmd: Unable to open vhd instance (%10!d!) %11!s! GLE %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0OpenWTDiskSnapshots() [WTD=%10!d!], CreateVssCoordinator failed [Error=%11!d!], retry after 100ms" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0OpenWTDiskSnapshots() [WTD=%10!d!], CreateVssCoordinator failed [Error=%11!d!] after retries" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0OpenWTDiskSnapshots: Failed to enumerate snapshot registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0OpenWTDiskSnapshots: Failed to load the registry settings into the Snapshot object [id=%10!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0OpenWTDiskSnapshots: Snapshot marked for deletion [id=%10!s!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0OpenWTDiskSnapshots: OUT OF MEMORY Exception thrown [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0OpenWTDiskSnapshots: Exception thrown [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0WARN: AddSnapshot: Snapshot Set Id not found: %10!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemGuid -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: AddSnapshot failed with not enough memory." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0_get_ExportedWTD failed: %10!0x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: %10!s! failed (SnapshotSet: %11!s!): %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemGuid -- 11
+Arg, ItemLong -- 12
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s! failed (SnapshotSet: %11!s!): %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemGuid -- 11
+Arg, ItemLong -- 12
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ERROR: %10!s! failed: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0ERROR: Failed create the Snapshot Set %10!s! [Error=%11!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemGuid -- 10
+Arg, ItemLong -- 11
+}
+
+e7f971d6-5c53-52e3-d571-27f9b39c9761iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0LoadSnapshotsFromReg: Failed to enumerate snapshot registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: CloseDeviceInstance: Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: CPseudoScsiDevice::ExecTaskManagement: Invalid device instance (%10!d!)." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR, %10!s! failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: Failed to re-associate volume %10!s! to IOCP [WTD=%11!d!,Error=%12!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: GetVdsLunInfo failed: %10!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: Failed to allocate mode page buffer." //   LEVEL=TRACELVL_ERROR
+{
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: DoInquiry(PAGE_CODE_VPD_IDENTIFICATION_PAGE) failed: %10!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: Unsupported Page Code 0x%10!02x! specified in the INQUIRY Command [ITT=0x%11!08x!,LUN=%12!I64d!,WTD=%13!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemLongLong -- 12
+Arg, ItemLong -- 13
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: Invalid SCSI PERSISTENT RESERVE IN [ITT=0x%10!08x!,LUN=%11!I64d!,WTD=%12!d!,ServiceAction=%13!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0ERROR: Invalid SCSI PERSISTENT RESERVE OUT invalid scope [ITT=0x%10!08x!,LUN=%11!I64d!,WTD=%12!d!,Scope=%13!d!,Initiator=0x%14!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0ERROR: Invalid SCSI PERSISTENT RESERVE OUT invalid service action [ITT=0x%10!08x!,LUN=%11!I64d!,WTD=%12!d!,ServiceAction=%13!d!,Initiator=0x%14!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0ERROR: SCSI PERSISTENT RESERVE OUT - %10!u! [not registered but reservation key != 0 (%11!I64u!)]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemULongLong -- 11
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0ERROR: SCSI PERSISTENT RESERVE OUT - RESERVATION ACTION REGISTER [registered but reservation key not matched (%10!I64u! != %11!I64u!)]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemULongLong -- 10
+Arg, ItemULongLong -- 11
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0ERROR: GetVendorSpecificId failed: %10!x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0ERROR: %!FUNC! failed to open reg key '%10!s!\%11!s!' (%12!u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0ERROR: %!FUNC! failed to allocate memory (%10!u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0ERROR: %!FUNC! failed to read from '%10!s!\%11!s!\%12!s!' (%13!u!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemWString -- 12
+Arg, ItemLong -- 13
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0ERROR: SavePRInfoToReg: Failed to open PRInfo registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0ERROR: SavePRInfoToReg: Failed to save PRInfo to registry value %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0ERROR: DeletePRInfoFromReg: Failed to open PRInfo registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0ERROR: DeletePRInfoFromReg: Failed to delete registry value %10!s! [Error=%11!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+ea50c545-00ae-c0ed-66bc-ca9f5b0ea22eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0ERROR: SCSI command 0x%10!02x! not handled [LUN=%11!I64d!,WTD=%12!d!] %13!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLongLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemHEXDump -- 13
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: %10!s! %11!d! --> %12!d! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %10!s! %11!d! --> 0x%12!x! " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: %10!s! %11!d! --> SetLastError(%12!d!) " //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: Volume %10!s! has a dependency on volume/path %11!s!. hr = %12!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemWString -- 11
+Arg, ItemLong -- 12
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: %!FUNC! 4705 invalid path '%10!s!'" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: %!FUNC! 4726 failed to open '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: %!FUNC! 4742 failed to get disk DUID for '%10!s!' (0x%11!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: %10!s! %11!u! TraceError 0x%12!x! [%13!p! %14!p! %15!p! %16!p! %17!p! %18!p! %19!p! %20!p! %21!p! %22!p! %23!p! %24!p! %25!p! %26!p! %27!p! %28!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemString -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+Arg, ItemPtr -- 16
+Arg, ItemPtr -- 17
+Arg, ItemPtr -- 18
+Arg, ItemPtr -- 19
+Arg, ItemPtr -- 20
+Arg, ItemPtr -- 21
+Arg, ItemPtr -- 22
+Arg, ItemPtr -- 23
+Arg, ItemPtr -- 24
+Arg, ItemPtr -- 25
+Arg, ItemPtr -- 26
+Arg, ItemPtr -- 27
+Arg, ItemPtr -- 28
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: EnumResources failed to enumerate target server resource in group %10!s!: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemGuid -- 10
+Arg, ItemLong -- 11
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WARN: No target server resource is found in group %10!s!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemGuid -- 10
+}
+
+f3f29fa1-b220-a0b1-40b3-e687c7e53f2eiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ERROR: OpenResource failed to open %10!s!: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WARN: Failed to open reg key '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0WARN: Failed to open reg key '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WARN: Canonical name is not available '%10!s!'" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WARN: Failed to GetAddrInfoW '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0WARN: Failed to retrieve NETBIOS name: %10!d!" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WARN: The host name is empty." //   LEVEL=TRACELVL_WARN
+{
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: AssignNullTerminated(%10!s!) failed: %11!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: Failed to allocate memory for server name (%10!s!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0WARN: Failed to read reg value '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WARN: Failed to read reg value '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WARN: Invalid value for reg value '%10!s!' (%11!d!)" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f58d40a7-5adb-7aa7-f616-f93d6721aaebiscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: Failed to determine # of cores [%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to create timer callback for iSNS registration [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: CSnsMgr::Cleanup(): DeleteTimerQueueTimer() return failure [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: RefreshConfig: Failed to get cluster key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: RefreshConfig: Failed to open Sns Server registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WARNING: RefreshConfig: Failed to enumerate iSNS server registry values [Error=%10!d!]" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: %!FUNC! 671 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0ERROR: Failed to register host during portal change registration [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0ERROR: CacheInitiator: Failed to open cached initiators cluster registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ERROR: CacheInitiator: Failed to save cached initiator to cluster registry [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0ERROR: Failed to open cached initiators registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0ERROR: CacheInitiator: Failed to save cached initiator to cluster [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0ERROR: Failed to enumerate iSNS servers [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: Failed to enumerate cached initiator [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: LoadSnsServersFromRegClustered: Failed to retrieve cluster key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: LoadSnsServersFromRegClustered: Failed to open Sns Server registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WARNING: LoadSnsServersFromRegClustered: Failed to enumerate iSNS server registry values [Error=%10!d!]" //   LEVEL=TRACELVL_WARN
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ERROR: Failed to open Sns Server registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0ERROR: Failed to enumerate iSNS server registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0ERROR: %!FUNC! 1520 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0ERROR: Failed to add iSNS server [hr=0x%10!08x!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0ERROR: SaveSnsServerToReg: Failed to open cluster registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0ERROR: SaveSnsServerToReg: Failed to open Sns Server cluster registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0ERROR: SaveSnsServerToReg: Failed to write iSNS server name to cluster registry [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0ERROR: SaveSnsServerToReg: Failed to open Sns Server registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: SaveSnsServerToReg: Failed to write iSNS server name to registry [Error=%10!d!]" //   L
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0ERROR: SaveSnsServerToReg: Failed to write iSNS server name to registry [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0ERROR: DeleteSnsServerFromReg: Failed to open cluster registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0ERROR: DeleteSnsServerFromReg: Failed to open Sns Server cluster registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0ERROR: DeleteSnsServerFromReg: Failed to write iSNS server name to cluster registry [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0ERROR: DeleteSnsServerFromReg: Failed to open Sns Server registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0ERROR: DeleteSnsServerFromReg: Failed to delete iSNS server registry value [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0ERROR: Failed to discover iSNS servers via DHCP [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0ERROR: GetCachedInitiators: Failed to open cached initiators registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0ERROR: Failed to enumerate cached initiators registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ERROR: %!FUNC! 2238 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: DeleteExpiredInitiatorsFromCache: Failed to open cached initiators registry key [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ERROR: DeleteExpiredInitiatorsFromCache: Failed to enumerate cached initiators registry values [Error=%10!d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0ERROR: %!FUNC! 2423 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+f640dd02-2cb8-5a1a-6864-a5b9b9aa1b40iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0ERROR: Failed to register host during update registration [Error=%10!d!]." //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0ERROR: Failed to load host %10!s! chap info: %11!08x!, continue still" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0ERROR: Failed to load host %10!s! chap info: %11!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0ERROR: Failed to load host: %10!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0ERROR: Failed to load host: %10!08x!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0ERROR: ExecCmd() session index %10!d! out of range [Session=0x%11!p!,ITT=0x%12!08x!,LUN=%13!I64d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLong -- 13
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0ERROR: ExecCmd() invalid session index %10!d! [Session=0x%11!p!,ITT=0x%12!08x!,LUN=%13!I64d!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLongLong -- 13
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR: ExecCmd() session index %10!d! out of range [Session=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR: ExecCmd() invalid session index %10!d! [Session=0x%11!p!]" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0ERROR: 0x%10!x! %11!s! %12!d!" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemString -- 11
+Arg, ItemLong -- 12
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0ERROR: %!FUNC! 4372 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0ERROR: %!FUNC!: First IdnToNameprepUnicode(%10!s!) failed (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0ERROR: %!FUNC!: Second IdnToNameprepUnicode(%10!s!) failed (%11!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemLong -- 11
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0ERROR: Failed to load CHAP (%10!d!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0ERROR: Failed to load CHAP (%10!x!)" //   LEVEL=TRACELVL_ERROR
+{
+Arg, ItemLong -- 10
+}
+
+f844c9da-445c-f490-6a5e-305315e1a3c2iscsitgt // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ERROR: %!FUNC! 6231 out of memory" //   LEVEL=TRACELVL_ERROR
+{
+}
+

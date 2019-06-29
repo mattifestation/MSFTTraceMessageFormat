@@ -1,0 +1,238 @@
+00b440f9-ed19-329a-e6fb-f6504da13961 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Reporting error to developer: %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemWString -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Error capturing client process info - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Error activating device broker - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error creating event - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error creating device trigger for trigger type %10!s! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemEnum(DeviceTriggerType) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error creating background condition for trigger type %10!s! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemEnum(DeviceTriggerType) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error creating background condition for trigger type %10!s! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemEnum(DeviceTriggerType) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0Error creating background condition for trigger type %10!s! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemEnum(DeviceTriggerType) -- 10
+Arg, ItemHRESULT -- 11
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0RequestAsync: failed to get client TID - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0RequestDeviceOperation failed - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Error copying IAsyncOperation back to client - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0RequestAsync - missing required parameter "DeviceId" - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0RequestAsync - getting policy limits failed - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0RequestAsync - ExpectedDuration must be >= 0 - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0RequestAsync - ExpectedDuration greater than allowed by policy - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0RequestAsync - creating trigger details failed - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0RequestAsync - missing required parameter "DeviceId" - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+cfeeb470-4a8c-34c9-58ac-24a712ccd0fc Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0RequestAsync - creating trigger details failed - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Aggregation not supported - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Expected event data size %10!d!, not %11!d! - %12!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Error activating device broker - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error - could not find task information for trigger %10!p! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Error beginning background task for trigger %10!p! - %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemPtr -- 10
+Arg, ItemHRESULT -- 11
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Error changing state of trigger details - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Error copying trigger details interface to caller - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0MapAepServiceIdToDeviceInterfaceId failed, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0MapAepIdToDeviceInterfaceId failed, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Error copying pszDeviceId - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Error copying Arguments - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Error copying DeviceId - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Error copying Arguments - %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DevGetObjects failed when trying to look for DeviceInterface corresponding to AEP Service, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Failed to copy device interface id, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0DevGetObjects failed when trying to look for DeviceInterface corresponding to AEP Service, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0DevGetObjects failed when trying to get BR interfaces that are child to %10!s!, hr = %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to copy device interface id, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0DevGetObjects failed when trying to get LE interfaces that are child to %10!s!, hr = %11!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemWString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+f6a0febb-0859-3abf-6aa2-a47e83cfbea7 Windows.Devices.Background // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to copy device interface id, hr = %10!s!" //   FLAG=WPP_ERROR
+{
+Arg, ItemHRESULT -- 10
+}
+

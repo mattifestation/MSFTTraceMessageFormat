@@ -1,0 +1,137 @@
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Expected WNF_USB_ERROR_NOTIFICATION_DATA buffer of size %10!u!, actual size %11!u!." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Received notification of type %10!s! for connector ID 0x%11!I64x!." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+Arg, ItemWString -- 10
+Arg, ItemLongLongX -- 11
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Error type disabled. Not showing toast..." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0Unknown USB error type: %10!u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+Arg, ItemLong -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=UsbErrorWNFNotificationCallback
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::Worker
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0RtlQueryWnfStateData failed. Status: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::Worker
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::Worker
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0CoCreateInstance failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0CreateSettingsEndpoint failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0CreateAppEndpoint failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0SetAppToastMirroringSetting failed. Ignoring the error... %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0Converting AppEndpoint to AppEndpoint2 for notification mirroring failed. Ignoring the error... %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0LoadStringW for notification title resource failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0LoadStringW for notification body resource failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0PostNotification failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::ShowToast
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%!FUNC! Entry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::RemoveToasts
+{
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0CoCreateInstance failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::RemoveToasts
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0CreateAppEndpoint failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::RemoveToasts
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0RemoveNotifications failed. %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::RemoveToasts
+{
+Arg, ItemHRESULT -- 10
+}
+
+8a33344f-ebc1-362a-a4dc-1c6169f0ca46 UsbTask // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%!FUNC! Exit" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_ALL FUNC=CUsbNotificationTaskHandler::RemoveToasts
+{
+}
+

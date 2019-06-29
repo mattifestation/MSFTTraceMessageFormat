@@ -1,0 +1,453 @@
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Couldn't allocate pool for registry path" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Will service %10!d! port devices" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0Couldn't allocate string for device object name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Could not store %10!s! in DeviceMap" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0Stored %10!s! in DeviceMap" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Received %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_KBDCLASS_IOCTL) -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Insufficient buffer when processing %12!s!, returning %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_KBDCLASS_IOCTL) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0ERROR_ASSERT: DeviceObject 0x%10!p! Irp 0x%11!p! IoAcquireRemoveLock failed %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0ERROR_ASSERT: DeviceObject 0x%10!p! Irp 0x%11!p! IoAcquireRemoveLock port %12!d! failed %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Returning failure %12!s! for %13!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+Arg, ItemEnum(_KBDCLASS_IOCTL) -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0DeviceObject 0x%10!p! Irp 0x%11!p! %12!s! returning %13!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemEnum(_KBDCLASS_IOCTL) -- 12
+Arg, ItemNTSTATUS -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0DeviceObject 0x%10!p! Irp %11!p! Failed create because PnP and Not started" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0DeviceObject 0x%10!p! Irp %11!p! Could not enable/disable interrupts for port device object @ 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Create failed (%12!s!) port device object @ 0x%13!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+Arg, ItemPtr -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Could not enable/disable interrupts for port device object @ 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Could not enable/disable interrupts for port device object @ 0x%12!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_CREATECLOSE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Queue size 0x%12!x!, read length 0x%13!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Bytes to end of queue 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Moving 0x%12!x! bytes first from 0x%13!p! to 0x%14!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Moving 0x%12!x! bytes then from 0x%13!p! to 0x%14!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Okay to log overflow" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0DeviceObject 0x%10!p! Irp 0x%11!p! New DataIn 0x%12!p!, DataOut 0x%13!p!, new InputCount %14!ld!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0DeviceObject 0x%10!p! Irp 0x%11!p! was cancelled, cancel Routine was NOT called" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0DeviceObject 0x%10!p! Irp 0x%11!p! was cancelled, cancel Routine was called" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Port queue length 0x%12!x!. Read length 0x%13!x!. Moving from 0x%14!p! to irp SystemBuffer 0x%15!p!." //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+Arg, ItemLong -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0DeviceObject 0x%10!p! Irp 0x%11!p! SysTime %12!s!  Moving 0x%13!x! bytes" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemTimestamp -- 12
+Arg, ItemLong -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0DeviceObject 0x%10!p! Bytes remaining after move to SystemBuffer 0x%11!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0DeviceObject 0x%10!p! Unused bytes in class queue 0x%11!x!, remaining bytes in port queue 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0DeviceObject 0x%10!p! Total number of bytes to move to class queue 0x%11!x!. Number of bytes to end of class buffer 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemLong -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0DeviceObject 0x%10!p! Moving 0x%11!x! bytes first from 0x%12!p! to 0x%13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0DeviceObject 0x%10!p! Moving 0x%11!x! bytes then from 0x%12!p! to 0x%13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0DeviceObject 0x%10!p! Changed InputCount to %11!ld! entries in the class queue. DataIn 0x%12!p!, DataOut 0x%13!p!. Input data items consumed = %14!d!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_READ
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+Arg, ItemLong -- 14
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0Couldn't allocate table for Rtl query to parameters for %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Couldn't allocate string for path to parameters for %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0parameters path is %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0RtlQueryRegistryValues failed with %10!s!" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0Keyboard class base name = %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0overriding KeyboardInputDataQueueLength = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0KeyboardInputDataQueueLength = 0x%10!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0MaximumPortsServiced = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Connection Type = %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemLong -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Couldn't allocate string for device object name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Could not create device object named %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Creating device object named %10!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Could not create class device object = %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Could not allocate input data queue for %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemWString -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0Couldn't allocate table for Rtl query" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0RtlQueryRegistryValues failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0DeviceObject 0x%10!p! Irp 0x%11!p! Received PnP irp %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListByte(IRP_MN_START_DEVICE,IRP_MN_QUERY_REMOVE_DEVICE,IRP_MN_REMOVE_DEVICE,IRP_MN_CANCEL_REMOVE_DEVICE,IRP_MN_STOP_DEVICE,IRP_MN_QUERY_STOP_DEVICE,IRP_MN_CANCEL_STOP_DEVICE,IRP_MN_QUERY_DEVICE_RELATIONS,IRP_MN_QUERY_INTERFACE,IRP_MN_QUERY_CAPABILITIES,IRP_MN_QUERY_RESOURCES,IRP_MN_QUERY_RESOURCE_REQUIREMENTS,IRP_MN_QUERY_DEVICE_TEXT,IRP_MN_FILTER_RESOURCE_REQUIREMENTS,IRP_MN_PNP_14,IRP_MN_READ_CONFIG,IRP_MN_WRITE_CONFIG,IRP_MN_EJECT,IRP_MN_SET_LOCK,IRP_MN_QUERY_ID,IRP_MN_QUERY_PNP_DEVICE_STATE,IRP_MN_QUERY_BUS_INFORMATION,IRP_MN_DEVICE_USAGE_NOTIFICATION,IRP_MN_SURPRISE_REMOVAL) -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0Couldn't allocate string for port device object name" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_DRIVER
+{
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0DeviceObject 0x%10!p! Canceling IOCTL_KEYBOARD_SET_INDICATORS Irp 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0DeviceObject 0x%10!p! Freeing IOCTL_KEYBOARD_SET_INDICATORS Irp 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0DeviceObject 0x%10!p! Failed alloc pool -> no WaitWake Irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0DeviceObject 0x%10!p! WaitWake Irp 0x%11!p! completed. Status=%12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0DeviceObject 0x%10!p! WaitWake IRP 0x%11!p! has failing status %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0DeviceObject 0x%10!p! WaitWake IRP 0x%11!p! failed with default case %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0DeviceObject 0x%10!p! KeyboardToggleWaitWake failed with %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0DeviceObject 0x%10!p! Irp 0x%11!p! IRP_MN_SET_POWER for %12!s!%13!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemString -- 12
+Arg, ItemLong -- 13
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0DeviceObject 0x%10!p! Received WaitWake Irp 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0DeviceObject 0x%10!p! Failed alloc pool -> no WaitWake Irp" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=TRACE_FLAG_POWER
+{
+Arg, ItemPtr -- 10
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0DeviceObject 0x%10!p! Freeing IOCTL_KEYBOARD_SET_INDICATORS Irp 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+02adfbfe-7f40-3f9a-791e-da140aa72879 kbdclass // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0DeviceObject 0x%10!p! Creating IOCTL_KEYBOARD_SET_INDICATORS Irp 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=TRACE_FLAG_IOCTL
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+

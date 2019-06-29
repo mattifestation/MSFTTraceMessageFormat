@@ -1,0 +1,596 @@
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0SleepstudyHelper_Initialize: Enter, InitializeHandle: 0x%10!p!, Tag: 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0SleepstudyHelper_CsStateChange: Init 0x%10!p! Context 0x%11!p! BlockerStartTime %12!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0SleepstudyHelper_CsStateChange: Init 0x%10!p! Context 0x%11!p! BlockerTotalTime %12!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0SleepstudyHelper_CsStateChange: Init 0x%10!p! Context 0x%11!p! currentTime %12!I64u! BlockerStartTime %13!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemULongLong -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0SleepstudyHelper_CsStateChange: Init 0x%10!p! Context 0x%11!p! timeSinceLastStateChange %12!I64u! BlockerTotalTime %13!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemULongLong -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0SleepstudyHelper_CsStateChange: Context 0x%10!p! blockerTotalTime %11!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0SleepstudyHelper_CsStateChange: Releasing Unregistered Context 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0SleepstudyHelper_CsStateChange: Releasing Unregistered InitHandle 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0SleepstudyHelper_CsStateChange: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0SleepstudyHelper_EventWriteSleepStudyBlocker: Enter, Context 0x%10!p!, BlockerTotalTime %11!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0SleepstudyHelper_EventWriteSleepStudyBlocker: Failed RtlUnicodeStringPrintf %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0SleepstudyHelper_Initialize: InitializeHandle cannot be NULL, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0SleepstudyHelper_EventWriteSleepStudyBlocker: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0SleepstudyHelper_GetDeviceStringProperty: Enter, Device 0x%10!p!, DeviceProperty %11!#010x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0SleepstudyHelper_GetDeviceStringProperty: Invalid argument Device" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0SleepstudyHelper_GetDeviceStringProperty: Invalid argument PropertyString" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0SleepstudyHelper_GetDeviceStringProperty: IoGetDeviceProperty failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0SleepstudyHelper_GetDeviceStringProperty: Failed to allocate for DeviceProperty %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0SleepstudyHelper_GetDeviceStringProperty: Failed to fetch DeviceProperty %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0SleepstudyHelper_GetDeviceStringProperty: PropertyString %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPWString -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0SleepstudyHelper_GetDeviceStringProperty: Exit %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0SleepstudyHelper_IdleResiliencySettingCallback: Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0SleepstudyHelper_Initialize: Tag cannot be NULL, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0SleepstudyHelper_IdleResiliencySettingCallback: idleResiliencyEngaged %10!d!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemLong -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0SleepstudyHelper_IdleResiliencySettingCallback: gContext is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0SleepstudyHelper_IdleResiliencySettingCallback: Duplicate idle resiliency event." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0SleepstudyHelper_IdleResiliencySettingCallback: Entering IR, Init 0x%10!p! Context 0x%11!p! BlockerStartTime %12!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0SleepstudyHelper_IdleResiliencySettingCallback: Exiting IR, Init 0x%10!p! Context 0x%11!p! currentTime %12!I64u! BlockerStartTime %13!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemULongLong -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0SleepstudyHelper_IdleResiliencySettingCallback: Exiting IR, Init 0x%10!p! Context 0x%11!p! timeSinceLastStateChange %12!I64u! BlockerTotalTime %13!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemULongLong -- 12
+Arg, ItemULongLong -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0SleepstudyHelper_IdleResiliencySettingCallback: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0SleepstudyHelper_GetPdoFriendlyName: Entry, Pdo: 0x%10!p!, FriendlyName: 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0SleepstudyHelper_GetPdoFriendlyName: Invalid argument Pdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0SleepstudyHelper_GetPdoFriendlyName: Invalid argument FriendlyName" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0SleepstudyHelper_Initialize: cannot allocate SleepstudyGlobalContext, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0SleepstudyHelper_GetPdoFriendlyName: Failed SleepstudyHelper_GetDeviceStringProperty for DevicePropertyDeviceDescription %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0SleepstudyHelper_GetPdoFriendlyName: Failed SleepstudyHelper_GetDeviceStringProperty for DevicePropertyHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0SleepstudyHelper_GetPdoFriendlyName: Failed RtlUnicodeStringPrintf Hardware ID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0SleepstudyHelper_GetPdoFriendlyName: Exit, Pdo: 0x%10!p!, status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0SleepstudyHelper_Initialize: SleepstudyHelper_SubscribeCsChange failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0SleepstudyHelper_Initialize: PoRegisterPowerSettingCallback failed with %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0SleepstudyHelper_Initialize: cannot allocate SleepstudyGlobalContext, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0SleepstudyHelper_Initialize: SS_LIBRARY Initialized 0x%10!p!, Tag 0x%11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0SleepstudyHelper_Initialize: Exit %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0SleepstudyHelper_Uninitialize: Enter, InitializeHandle: 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0SleepstudyHelper_Uninitialize: InitializeHandle cannot be NULL, %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0SleepstudyHelper_Uninitialize: Still in CS so defer deleting objects until later." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0SleepstudyHelper_Uninitialize: Uninitializing." //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0SleepstudyHelper_Uninitialize: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0SleepstudyHelper_GlobalDerefLocked: Enter, gContext->RefCount: %10!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemULongLong -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0SleepstudyHelper_GlobalDerefLocked: Calling PoUnregisterPowerSettingCallback" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0SleepstudyHelper_GlobalDerefLocked: Calling SleepstudyHelper_UnsubscribeCsChange" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0SleepstudyHelper_GlobalDerefLocked: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0SleepstudyHelper_GenerateGuid: Enter" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0SleepstudyHelper_GenerateGuid: Invalid argument pGuid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0SleepstudyHelper_GenerateGuid: Invalid argument ComponentUid" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0SleepstudyHelper_GenerateGuid: Generated GUID: %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemGuid -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0SleepstudyHelper_GenerateGuid: Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0SleepstudyHelper_RegisterPdoWithParentPdo: Enter, InitializeHandle: 0x%10!p!, ParentPdo: 0x%11!p!, ComponentPdo: 0x%12!p!, Handle: 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0SleepstudyHelper_RegisterPdoWithParentPdo: Invalid argument ParentPdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0SleepstudyHelper_RegisterPdoWithParentPdo: Invalid argument ComponentPdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0SleepstudyHelper_RegisterPdoWithParentPdo: SleepstudyHelper_GetPdoFriendlyName Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0SleepstudyHelper_RegisterPdoWithParentPdo: Exit %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0SleepstudyHelper_RegisterPdoWithParentHandle: Enter, InitializeHandle: 0x%10!p!, ParentHandle: 0x%11!p!, ComponentPdo: 0x%12!p!, Handle: 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0SleepstudyHelper_RegisterPdoWithParentHandle: Invalid argument ParentHandle" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0SleepstudyHelper_RegisterPdoWithParentHandle: Invalid argument ComponentPdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0SleepstudyHelper_RegisterPdoWithParentHandle: SleepstudyHelper_GetPdoFriendlyName Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0SleepstudyHelper_RegisterPdoWithParentHandle: Exit %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0SleepstudyHelper_RegisterPdoWithParentGuid: Enter, InitializeHandle: 0x%10!p!, ParentGuid: %11!s!, ComponentPdo: 0x%12!p!, Handle: 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0SleepstudyHelper_RegisterPdoWithParentGuid: Invalid argument ComponentPdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0SleepstudyHelper_RegisterPdoWithParentGuid: SleepstudyHelper_GetPdoFriendlyName Failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0SleepstudyHelper_RegisterPdoWithParentGuid: Exit %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0SleepstudyHelper_RegisterComponentEx: Enter, InitializeHandle: 0x%10!p!, ParentGuid: %11!s!, ComponentGuid: %12!s!, Handle: 0x%13!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemGuid -- 11
+Arg, ItemGuid -- 12
+Arg, ItemPtr -- 13
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0SleepstudyHelper_RegisterComponentEx: Invalid argument InitializeHandle" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0SleepstudyHelper_RegisterComponentEx: Invalid argument Handle" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0SleepstudyHelper_RegisterComponentEx: Failed to allocate pCsContext" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0SleepstudyHelper_RegisterComponentEx: New pCsContext SS_COMPONENT 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0SleepstudyHelper_RegisterComponentEx: New pCsContext ParentGuid {%10!s!}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0SleepstudyHelper_RegisterComponentEx: New pCsContext ComponentGuid {%10!s!}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0SleepstudyHelper_RegisterComponentEx: Failed to allocate FriendlyName" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0SleepstudyHelper_RegisterComponentEx: Failed RtlUnicodeStringPrintf %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0SleepstudyHelper_RegisterComponentEx: New pCsContext FriendlyName %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPWString -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0SleepstudyHelper_RegisterComponentEx: Exit, %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0SleepstudyHelper_UnregisterComponent: Enter, Handle 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0SleepstudyHelper_UnregisterComponent: Invalid argument Handle" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0SleepstudyHelper_UnregisterComponent: Handle already unregistered previously." //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0SleepstudyHelper_UnregisterComponent: Context 0x%10!p! currentTime %11!I64u! BlockerStartTime %12!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0SleepstudyHelper_UnregisterComponent: Context 0x%10!p! timeSinceLastStateChange %11!I64u! BlockerTotalTime %12!I64u!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemULongLong -- 11
+Arg, ItemULongLong -- 12
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0SleepstudyHelper_UnregisterComponent: Releasing Context 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0SleepstudyHelper_UnregisterComponent: Context marked for deletion on CS exit 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0SleepstudyHelper_UnregisterComponent: Exit, Handle 0x%10!p!, status: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0SleepstudyHelper_UpdateFriendlyName: Enter, Handle 0x%10!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0SleepstudyHelper_UpdateFriendlyName: Invalid argument Handle" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0SleepstudyHelper_UpdateFriendlyName: Failed to allocate FriendlyName" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0SleepstudyHelper_UpdateFriendlyName: Failed RtlUnicodeStringPrintf %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0SleepstudyHelper_UpdateFriendlyName: Friendly Name updatedFriendlyName %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPWString -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0SleepstudyHelper_UpdateFriendlyName: Exit, %10!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0SleepstudyHelper_CsStateChange: Enter, Context 0x%10!p!, PdcCsEntry %11!#010x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=General
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0SleepstudyHelper_CsStateChange: gContext is NULL" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+
+f64a7241-7c50-356c-2cf9-a444867abc61 sleepstudyhelper // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0SleepstudyHelper_CsStateChange: No change in CS state" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=General
+{
+}
+

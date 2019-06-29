@@ -1,0 +1,636 @@
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::SetEventSink
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0Missing recommended DEVPKEY_Sensor_Manufacturer enumeration property" //   LEVEL=SensorsV2Api_Warning FUNC=CSensorV2::InitializeStaticProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0Missing recommended DEVPKEY_Sensor_Model enumeration property" //   LEVEL=SensorsV2Api_Warning FUNC=CSensorV2::InitializeStaticProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0Missing recommended DEVPKEY_Sensor_ConnectionType enumeration property" //   LEVEL=SensorsV2Api_Warning FUNC=CSensorV2::InitializeStaticProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0Missing DEVPKEY_Sensor_Name, attempt to generate one" //   LEVEL=SensorsV2Api_Info FUNC=CSensorV2::InitializeStaticProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0Missing required PKEY_Sensor_MinimumDataInterval_Ms property, %10!s!, %11!s!" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::InitializeSettingsProperties
+{
+Arg, ItemHRESULT -- 10
+Arg, ItemWString -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0Invalid vartype %10!d! for SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL, expected VT_UI4 or VT_NULL" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::UpdateSettingProperties
+{
+Arg, ItemLong -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetID
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 160 "%0Value (%10!d!) is below the minimum (%11!d!) for SENSOR_PROPERTY_CURRENT_REPORT_INTERVAL" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::UpdateSettingProperties
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 162 "%0Invalid vartype %10!d! for SENSOR_PROPERTY_CHANGE_SENSITIVITY, expected VT_UNKNOWN or VT_NULL" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::UpdateSettingProperties
+{
+Arg, ItemLong -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 163 "%0Null pointer for SENSOR_PROPERTY_CHANGE_SENSITIVITY" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::UpdateSettingProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 169 "%0Could not restart sensor data with new settings (report interval %10!d!), attempting to revert to previous settings (report interval %11!d!), %12!s!" //   LEVEL=SensorsV2Api_Error FUNC=CSensorV2::UpdateSettingProperties
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemHRESULT -- 12
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pID HR=E_POINTER FUNC=CSensorV2::GetID
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetID
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetCategory
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pSensorCategory HR=E_POINTER FUNC=CSensorV2::GetCategory
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetCategory
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetType
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pSensorType HR=E_POINTER FUNC=CSensorV2::GetType
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=S_OK FUNC=CSensorV2::GetType
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetFriendlyName
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pFriendlyName HR=E_POINTER FUNC=CSensorV2::GetFriendlyName
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetFriendlyName
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetProperty
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pProperty HR=E_POINTER FUNC=CSensorV2::GetProperty
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetProperty
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::Connect
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::Connect
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::Disconnect
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::Disconnect
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppProperties HR=E_POINTER FUNC=CSensorV2::GetProperties
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0 Parameters (pKeys=%10!p!)" //   LEVEL=SensorsV2Api_PublicApi PARAM=1 FUNC=CSensorV2::GetProperties
+{
+Arg, ItemPtr -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetProperties
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetSupportedDataFields
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppDataFields HR=E_POINTER FUNC=CSensorV2::GetSupportedDataFields
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetSupportedDataFields
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::SetProperties
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppResults HR=E_POINTER FUNC=CSensorV2::SetProperties
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::SetProperties
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::SupportsDataField
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pIsSupported HR=E_POINTER FUNC=CSensorV2::SupportsDataField
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::SupportsDataField
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetState
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pState HR=E_POINTER FUNC=CSensorV2::GetState
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetState
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetData
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppDataReport HR=E_POINTER FUNC=CSensorV2::GetData
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetData
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::SupportsEvent
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pIsSupported HR=E_POINTER FUNC=CSensorV2::SupportsEvent
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::SupportsEvent
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::GetEventInterest
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppValues && pCount HR=E_POINTER FUNC=CSensorV2::GetEventInterest
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::GetEventInterest
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::SetEventInterest
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2::SetEventInterest
+{
+Arg, ItemHRESULT -- 10
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2::SetEventSink
+{
+}
+
+2b0f0ec7-b626-357f-72d2-744b1be03d8b SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0 Parameters (pEvents=%10!p!)" //   LEVEL=SensorsV2Api_PublicApi PARAM=1 FUNC=CSensorV2::SetEventSink
+{
+Arg, ItemPtr -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetID
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pID HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetID
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetID
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetCategory
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pSensorCategory HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetCategory
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetCategory
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetFriendlyName
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pFriendlyName HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetFriendlyName
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetFriendlyName
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetProperty
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pProperty HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetProperty
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetProperty
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetSupportedDataFields
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppDataFields HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetSupportedDataFields
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetSupportedDataFields
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::SetProperties
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppResults HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::SetProperties
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=S_OK FUNC=SimpleDeviceOrientationSensor::SetProperties
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::SupportsDataField
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pIsSupported HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::SupportsDataField
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::SupportsDataField
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetState
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pState HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetState
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetState
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetData
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppDataReport HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetData
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetData
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::SupportsEvent
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pIsSupported HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::SupportsEvent
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::SupportsEvent
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::GetEventInterest
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppValues && pCount HR=E_POINTER FUNC=SimpleDeviceOrientationSensor::GetEventInterest
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::GetEventInterest
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::SetEventInterest
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::SetEventInterest
+{
+Arg, ItemHRESULT -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=SimpleDeviceOrientationSensor::SetEventSink
+{
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0 Parameters (pEvents=%10!p!)" //   LEVEL=SensorsV2Api_PublicApi PARAM=1 FUNC=SimpleDeviceOrientationSensor::SetEventSink
+{
+Arg, ItemPtr -- 10
+}
+
+93fb340b-549c-3fd8-b634-2dce6c4515b0 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=SimpleDeviceOrientationSensor::SetEventSink
+{
+Arg, ItemHRESULT -- 10
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2DataReport::GetTimestamp
+{
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pTimeStamp HR=E_POINTER FUNC=CSensorV2DataReport::GetTimestamp
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2DataReport::GetTimestamp
+{
+Arg, ItemHRESULT -- 10
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2DataReport::GetSensorValue
+{
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=pValue HR=E_POINTER FUNC=CSensorV2DataReport::GetSensorValue
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0 Parameters (key: %10!s!.%11!d!)" //   LEVEL=SensorsV2Api_PublicApi PARAM=1 FUNC=CSensorV2DataReport::GetSensorValue
+{
+Arg, ItemGuid -- 10
+Arg, ItemLong -- 11
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2DataReport::GetSensorValue
+{
+Arg, ItemHRESULT -- 10
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0 Enter()" //   LEVEL=SensorsV2Api_PublicApi FUNC=CSensorV2DataReport::GetSensorValues
+{
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0 PreCondition (%10!s!=nullptr, hr=%11!s!)" //   LEVEL=SensorsV2Api_PublicApi POINTER=ppValues HR=E_POINTER FUNC=CSensorV2DataReport::GetSensorValues
+{
+Arg, ItemString -- 10
+Arg, ItemHRESULT -- 11
+}
+
+fdd0aa4b-bd34-3ca6-9ba1-796f05253505 SensorsV2Api.Com // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0 Exit (hr=%10!s!)" //   LEVEL=SensorsV2Api_PublicApi EXIT=1 HR=hr FUNC=CSensorV2DataReport::GetSensorValues
+{
+Arg, ItemHRESULT -- 10
+}
+

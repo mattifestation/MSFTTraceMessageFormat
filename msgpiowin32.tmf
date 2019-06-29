@@ -1,0 +1,577 @@
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Connected Standby: Enter. Disabling interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Connected Standby:  Exit. Enabling interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0(H) Indicator state change : %10!s! : old state : %11!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_LAPTOPSLATE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0(H) Indicator state change : %10!s! : old state : %11!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_DOCKMODE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0WdfRegistryOpenKey failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRegistryAssignULong failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0ZwFlushKey failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0Indicator state update : %10!s! : new state : %11!s!" //   LEVEL=TL_INFO IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_LAPTOPSLATE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0Indicator state update : %10!s! : new state : %11!s!" //   LEVEL=TL_INFO IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_DOCKMODE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0Skipping indicator update due to failure : %10!s! : new state : %11!u!" //   LEVEL=TL_ERROR IFRLOG=IndicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemLong -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0Invalid length %10!u! specified in EvtIoWrite, expected 1, %11!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0(S) Indicator state change : %10!s! : old state : %11!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_LAPTOPSLATE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0(S) Indicator state change : %10!s! : old state : %11!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+Arg, ItemEnum(_DOCKMODE_INDICATOR_STATE) -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0Invalid length %10!u! specified in EvtIoRead, expected 1, %11!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0WdfRequestRetrieveOutputMemory failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Received %10!u! resource descriptors, expected 1, %11!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Received 0 resource descriptors, assuming indicator status will be injected via WriteFile" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Received resource descriptor type other than interrupt : %10!u!, %11!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0IoConnectInterruptEx failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0Connected interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0PoRegisterPowerSettingCallback failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Disconnecting interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemEnum(_INDICATOR_TYPE) -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfDeviceCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=recorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfWorkItemCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+4a8442ad-e26f-3bff-6adf-bba89f571aab msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WdfDeviceCreateDeviceInterface failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=indicatorContext->RecorderLog FLAGS=Indicator
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0WdfIoQueueRetrieveNextRequest failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Requeuing PowerButtonPressAndHold timer because HID request is not available" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0HID Usage Report: %10!s!, %11!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_HID_REPORTID) -- 10
+Arg, ItemEnum(_HID_KEYBOARD_KEY) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0WdfRequestRequeue failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0WdfIoQueueRetrieveNextRequest failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0Requeuing PowerButtonLongPressAndHold timer because HID request is not available" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0HID Usage Report: %10!s!, %11!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_HID_REPORTID) -- 10
+Arg, ItemEnum(_HID_KEYBOARD_KEY) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0WdfRequestRequeue failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0HID Usage Report: %10!s!, %11!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_HID_REPORTID) -- 10
+Arg, ItemEnum(_HID_KEYBOARD_KEY) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0HID Usage Report: %10!s!, %11!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_HID_REPORTID) -- 10
+Arg, ItemEnum(_HID_VOLUME_KEY) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0HID Usage Report: %10!s!, %11!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_HID_REPORTID) -- 10
+Arg, ItemEnum(_HID_POWER_KEY) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0WdfRequestRetrieveOutputBuffer failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0WdfRequestForwardToIoQueue failed %10!s!, completing request here" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0Power Button is Single Edge : %10!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!04u! : (%11!c!) %12!s!, Current states - POWER:%13!s!, WINDOWS:%14!s!, VOLUME_UP:%15!s!, VOLUME_DOWN:%16!s!, ROTATION_LOCK:%17!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemChar -- 11
+Arg, ItemEnum(_BUTTON_TYPE) -- 12
+Arg, ItemEnum(_BUTTON_STATE) -- 13
+Arg, ItemEnum(_BUTTON_STATE) -- 14
+Arg, ItemEnum(_BUTTON_STATE) -- 15
+Arg, ItemEnum(_BUTTON_STATE) -- 16
+Arg, ItemEnum(_BUTTON_STATE) -- 17
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0WdfRequestRequeue failed %10!s!, completing request here" //   LEVEL=TL_ERROR IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0ExAllocatePoolWithTag failed, completing IRP_MN_QUERY_ID with %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0Failed to open %10!s! reg key %11!s!, assuming exclusive device access" //   LEVEL=TL_ERROR IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to read %10!s! reg key value %11!s!, assuming exclusive device access" //   LEVEL=TL_ERROR IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0More than expected resources received %10!u!, expected %11!u!, %12!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Encountered resource descriptor type other than Interrupt %10!u!, %11!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0IoConnectInterruptEx failed %10!s! for %11!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemEnum(_BUTTON_TYPE) -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0Connected interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_BUTTON_TYPE) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0Disconnect interrupt for %10!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_BUTTON_TYPE) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0Invalid length %10!u! specified in EvtIoRead, expected %11!u!, %12!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemLong -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfRequestRetrieveOutputMemory failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0Invalid length %10!u! specified in EvtIoWrite %11!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfRequestRetrieveInputMemory failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0Invalid button type %10!u! specified in EvtIoWrite %11!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemLong -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0Disable interrupt : %10!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_BUTTON_TYPE) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0Enable  interrupt : %10!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemEnum(_BUTTON_TYPE) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0Connected Standby: Enter" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Audio: Start" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Connected Standby: Exit" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0Audio: Stop" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0Failed to evaluate SRC_ ACPI method %10!s!, assuming single edge power button" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0Invalid data returned from SRC_ ACPI method %10!s!, assuming single edge power button" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0WdfIoTargetSendIoctlSynchronously IOCTL_ACPI_EVAL_METHOD failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WdfIoTargetSendIoctlSynchronously IOCTL_ACPI_EVAL_METHOD returned no data" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0WdfPdoInitAllocate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0WdfDeviceInitAssignSDDLString failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0WdfPdoInitAssignRawDevice failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfPdoInitAssignDeviceID failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WdfPdoInitAddHardwareID failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0WdfPdoInitAssignInstanceID failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0WdfDeviceCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0WdfDeviceCreateDeviceInterface failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0WdfFdoAddStaticChild failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=recorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0WdfDeviceCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=recorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0Button_CheckPowerButtonPressAndHoldSupport failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=recorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0WdfIoQueueCreate failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0ExAllocateTimerInternal failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0ExAllocateTimerInternal failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0Button_IsDsmFunctionSupported failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0Windows Button Array _DSM method not supported on this platform" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0Button_PrepareInputParametersForDsmMethod failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0Button_EvaluateAcpiMethod failed %10!s!" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0Windows Button Array _DSM method returned invalid data" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0Windows Button Array _DSM method returned invalid data" //   LEVEL=TL_ERROR IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0Power Button Press and Hold supported : %10!s!" //   LEVEL=TL_INFO IFRLOG=buttonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemListLong(false,true) -- 10
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0Failed to open %10!s! reg key %11!s!, assuming long press disabled" //   LEVEL=TL_ERROR IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0Failed to read %10!s! reg key value %11!s!, assuming long press disabled" //   LEVEL=TL_ERROR IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemWString -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+f719c271-33a1-31f5-7e72-97af42bf25a3 msgpiowin32 // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!s! reg key value: %11!s!" //   LEVEL=TL_INFO IFRLOG=ButtonContext->RecorderLog FLAGS=Button
+{
+Arg, ItemWString -- 10
+Arg, ItemString -- 11
+}
+

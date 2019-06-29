@@ -1,0 +1,1370 @@
+3bc080c1-7e68-3cf3-657e-ef850d50dea5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0VPCI DriverEntry" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+}
+
+3bc080c1-7e68-3cf3-657e-ef850d50dea5 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Driver unloading" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_INIT
+{
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!p!: Cleaning up VPCI bus FDO context (thread %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!p!: Destroying VPCI bus FDO context (thread %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0Root FDO WdfDeviceCreate %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!p!: FDO context created" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!p!: WdfWaitLockCreate failed on ReportDeviceLock %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!p!: FdoCreateVmbusChannel failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!p!: FdoProtocolCommunication failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!p!: Creating device interface %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!p!: Send VpciMsgQueryProtocolVersion packet (version %11!#x!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!p!: VmbChannelSendSynchronousRequest failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!p!: Invalid completion length: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: Protocol Accepted 0x%11!x!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!p!: Protocol failed in VSP %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: Deferring processing of VPCI packet (completion context %11!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!p!: Received VPCI packet too short (BufSize: %11!u!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!p!: Received VPCI packet %11!s! (completion context %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_MESSAGE) -- 11
+Arg, ItemPtr -- 12
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!p!: Send VPCI completion packet (completion context %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!p!: Vmbus channel closed (channel context: %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0Failed to create the KMCL channel: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0Failed to allocate channel context: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0Failed to enable the KMCL channel: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!p!: Disabling channel %11!p! (channel context %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!p!: Reporting child devices to PnP manager (channel context %11!p!, caller %12!p!, thread %13!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!p!: WdfChildListRetrieveNextDevice %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!p!: WdfChildListRetrieveNextDevice returned unsuccessful childInfo.status %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!p!: Failed to remove missing device %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!p!: %11!s! request for slot 0x%12!x!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_PDO_EVENT) -- 11
+Arg, ItemLong -- 12
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!p!: Failed to reference pdo" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!p!: Failed to create IoResList: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!p!: Failed to create IoResReqList: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!p!: Failed to add resource reqs. %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0VmBus channel send failed %10!s! (caller %11!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0Invalid completion length: %10!u! (caller %11!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0Failure completion status received from the VSP %10!s! (caller %11!p!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemNTSTATUS -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!p!: VPCI bus turned on" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!p!: Send VpciMsgFdoD0Entry" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!p!: Received VpciMsgFdoD0Entry completion (completion status: %11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!p!: VPCI bus turned off" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!p!: Send VpciMsgFdoD0Exit" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!p!: Received VpciMsgFdoD0Exit completion (completion status: %11!s!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!p!: VPCI bus self managed I/O cleaup" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!p!: WdfChildListRetrieveNextDevice %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!p!: WdfChildListRetrieveNextDevice returned unsuccessful childInfo.status %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!p!: RefBySlot: referencing PDO %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 54 "%0%10!p!: Requesting child eject for Pdo %11!p! (thread %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!p!: WdfChildListRetrieveNextDevice %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!p!: EjectPdo: ejecting PDO %11!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0Failed to allocate VmBus packet" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0Failed to allocate VmBus packet context" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+}
+
+5d997c42-de2d-3cf6-9703-4c30eb3037c9 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0Failed to allocate VPCI_COMPLETION_BUFFER with data size %10!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0Missing device capabilities for PDO %10!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 100 "%0%10!p!: PdoPrepareHardware - %11!s! (from save raw and traslated)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 101 "%0%10!p!: PdoPrepareHardware - Interrupt resource contains descriptors without CM_RESOURCE_INTERRUPT_MESSAGE set" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 102 "%0%10!p!: GetInterruptConnectionData failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 103 "%0%10!p!: PdoPrepareHardware too many resources requested: %11!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 104 "%0%10!p!: Driver for pdo %11!p! did not filter out I/O resource" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 105 "%0%10!p!: PdoPrepareHardware - not handled by state machine" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 106 "%0%10!p!: PnP unblocked by Pdo state machine with failure status %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 107 "%0%10!p!: PdoPrepareHardware - %11!s! (update registry)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 108 "%0%10!p!: Releasing hardware resources (translated resources %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 109 "%0%10!p!: VF turned on" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0Invalid capability pointer 0x%10!x! for PDO %11!p!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemLong -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 110 "%0%10!p!: PDoD0Entry - %11!s! (from BlockPnpStatus machine)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 111 "%0%10!p!: PDoD0Entry - %11!s! (program interrupts)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 112 "%0%10!p!: PdoD0Entry %11!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 113 "%0%10!p!: - Assigned Resources Message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 114 "%0%10!p!: + Assigned Resources Message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 115 "%0%10!p!: Send VpciMsgAssignedResources (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 116 "%0%10!p!: VmbPacketSend() for VpciMsgAssignedResources failed (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 117 "%0%10!p!: VF turned off" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 118 "%0%10!p!: PdoD0Exit %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 119 "%0%10!p!: Received VpciMsgDevicePowerStateChange completion (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!p!: Received VpciMsgReadBlock completion (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 120 "%0%10!p!: - Power Message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 121 "%0%10!p!: + Power Message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 122 "%0%10!p!: Send VpciMsgDevicePowerStateChange (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 123 "%0%10!p!: VmbPacketSend() failed for VpciMsgDevicePowerStateChange (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 124 "%0%10!p!: - Power Message" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 125 "%0%10!p!: - Self-send PnP" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 126 "%0%10!p!: + Self-send PnP" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_REFCOUNTS
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 127 "%0%10!p!: Send VpciMsgEjectComplete packet (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 128 "%0%10!p!: VmbChannelSendSynchronousRequest failed for VpciMsgEjectComplete (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 129 "%0%10!p!: Send VpciMsgQueryStopFailed packet (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!p!: Completion status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 130 "%0%10!p!: VmbChannelSendSynchronousRequest failed for VpciMsgQueryStopFailed (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 131 "%0%10!p!: Send VpciMsgReleaseResources packet (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 132 "%0%10!p!: VmbChannelSendSynchronousRequest failed for VpciMsgReleaseResources (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 133 "%0%10!p!: Ejecting VF (thread %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 134 "%0%10!p!: EvtDeviceEject - not handled by state machine" //   LEVEL=TRACE_LEVEL_WARNING FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 135 "%0%10!p!: Ejected VF: %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 136 "%0GetDmaAdapter(%10!p!, %11!p!, %12!p!) -> %13!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 137 "%0GetBusData(%10!p!, %11!x!, %12!p!, %13!x!, %14!x!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 138 "%0%10!p!: GetBusData - invalid read" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 139 "%0SetBusData(%10!p!, %11!d!, %12!p!,%13!d!, %14!d!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+Arg, ItemPtr -- 12
+Arg, ItemLong -- 13
+Arg, ItemLong -- 14
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!p!: Invalid completion message length: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 140 "%0%10!p!: SetBusData - invalid write" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 141 "%0TranslateBusAddress(%10!p!, %11!I64x!, %12!d!, %13!p!, %14!p!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemLongLongX -- 11
+Arg, ItemLong -- 12
+Arg, ItemPtr -- 13
+Arg, ItemPtr -- 14
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 142 "%0%10!p!: Got PowerSystemShutdown - Injecting DeviceReleaseHardware event at state %11!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 143 "%0%10!p!: From %11!s! To %12!s! %13!s! (caller %14!p!, thread %15!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 12
+Arg, ItemEnum(_VPCI_PDO_EVENT) -- 13
+Arg, ItemPtr -- 14
+Arg, ItemPtr -- 15
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 144 "%0%10!p!: From %11!s! To %12!s!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 11
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 145 "%0WdfWaitLockCreate[RequestorsLock] failed: %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 146 "%0%10!p!: Creating SendPnpBlockingReadyEventWorkItem for instance PDO %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 147 "%0%10!p!: Requested PNP blocking (Global PNP blocking state: %11!s!, Number of PDOs blocking PNP: %12!ld!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PNP_BLOCKING_STATE) -- 11
+Arg, ItemLong -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 148 "%0%10!p!: Solicit QDR IRP to the PNP manager" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 149 "%0Enqueue SendPnpBlockingReadyEventWorkIte for %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!p!: Failure status received from VSP: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 150 "%0Invalid PnpBlocker.State: %10!d!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemLong -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 151 "%0QDR IRP arrived for %10!p! when it was not being expected (PnpBlocker.State: %11!s!)" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_PNP_BLOCKING_STATE) -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 152 "%0Pending QDR IRP %10!p! from the PNP manager for %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 153 "%0Enqueue SendPnpBlockingReadyEventWorkItem for %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 154 "%0Send %10!p! PdoEventPnPManagerBlockingReady event" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 155 "%0State machine for PDO context %10!p! was no longer expecting the event PdoEventPnPManagerBlockingReady" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 156 "%0PnP manager blocking already stopped for %10!p!" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 157 "%0%10!p!: done blocking PnP manager (number of PDOs still blocking PnP: %11!ld!)" //   LEVEL=TRACE_LEVEL_VERBOSE FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 158 "%0Unpending QDR IRP %10!p! for %11!p!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 159 "%0QDR IRP solicited by %10!p! did not arrive before all requestors stopped blocking the PnP manager" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!p!: WdfRequestRetrieveInputBuffer failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!p!: WdfRequestRetrieveOutputBuffer failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!p!: Invalid BytesRequested: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!p!: Send VpciMsgReadBlock (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!p!, VmbPacketSend() failed for VpciMsgReadBlock (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!p!: Received VpciMsgWriteBlock completion (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!p!: Completion status: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!p!: Invalid completion message length: %11!u!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemLong -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!p!: Failure status received from VSP: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!p!: WdfRequestRetrieveInputBuffer failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!p!: Send VpciMsgWriteBlock (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!p!: VmbPacketSend() failed for VpciMsgWriteBlock (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PDO_INTERFACE
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0WdfIoQueueRetrieveNextRequest() failed %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!p!: Cleaning up VF Pdo context (Pdo state: %11!s!, Fdo %12!p!, thread %13!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemEnum(_VPCI_PDO_STATE_NAME) -- 11
+Arg, ItemPtr -- 12
+Arg, ItemPtr -- 13
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!p!: Destroying VF Pdo context (Fdo %11!p!, thread %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0WdfPdoInitAssignDeviceID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0WdfPdoInitAddHardwareID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0WdfPdoInitAddCompatibleID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0RtlUnicodeStringPrintf %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0WdfPdoInitAddDeviceText %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0RtlIntegerToUnicodeString %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0WdfPdoInitAssignInstanceID %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback (pnp) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0WdfDeviceInitAssignWdmIrpPreprocessCallback (power) %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0WdfDeviceCreate %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 55 "%0%10!p!: Adding VF Pdo context %11!p! (thread %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 56 "%0%10!p!: PnpBlockerInitRequestor failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 57 "%0%10!p!: Creating default queue for instance PDO %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 58 "%0%10!p!: Creating invalidate block queue for instance PDO %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 59 "%0%10!p!: Creating invalidate block work item for instance PDO %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 60 "%0%10!p!: PdoScanPciCapabilities failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 61 "%0%10!p!: WdfDeviceAddQueryInterface failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 62 "%0%10!p!: WdfDeviceAddQueryInterface failed for VPCI_INTERFACE_STANDARD: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 63 "%0%10!p!: WdfDeviceAddQueryInterface failed for PCI_MSIX_TABLE_CONFIG_INTERFACE: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 64 "%0%10!p!: PdoCreatePacket %11!s!: PowerPacket" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 65 "%0%10!p!: PdoCreatePacket %11!s!: TranslatePacket" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 66 "%0%10!p!: WdfObjectCreate %11!s!: TranslatePacketData" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 67 "%0%10!p!: PdoCreatePacket %11!s!: ReadWriteBlockPacket" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 68 "%0%10!p!: Failed to allocate ResourceRequirementsBuffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 69 "%0%10!p!: Failed to allocate ResourcesBuffer" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 70 "%0%10!p!: Creating default queue for instance PDO %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 71 "%0%10!p!: IoAllocateIrp failed %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 72 "%0%10!p!: WdfWaitLockCreate failed: %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 73 "%0%10!p!: IoAllocateWorkItem failed for AssignedResourcesCompleteWorkItem %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 74 "%0%10!p!: IoAllocateWorkItem failed for SelfSendPnpWorkItem %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 75 "%0%10!p!: IoAllocateWorkItem failed for PowerWorkItem %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 76 "%0%10!p!: Send VpciMsgGetResources packet (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 77 "%0%10!p!: VmbChannelSendSynchronousRequest failed for VpciMsgGetResources (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 78 "%0%10!p!: Received Error reply for VpciMsgGetResources (Pdo %11!p!): %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 79 "%0%10!p!: Received VpciMsgGetResources completion (Pdo %11!p!, count %12!u!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemLong -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 80 "%0%10!p!: WdfCmResourceListAppendDescriptor %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 81 "%0INF specified a DevicePolicy out of range" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 82 "%0INF specified a DevicePolicy out of range" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_PNP
+{
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 83 "%0GetMessagePolicy %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 84 "%0WdfIoResourceListAppendDescriptor %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 85 "%0WdfIoResourceListAppendDescriptor %10!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemNTSTATUS -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 86 "%0%10!p!: Send VpciMsgCurrentResourceRequirements packet (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 87 "%0%10!p!: VmbChannelSendSynchronousRequest failed for VpciMsgCurrentResourceRequirements (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 88 "%0%10!p!: Received VpciMsgCurrentResourceRequirements completion (Pdo %11!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_VPCI_MSG
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 89 "%0%10!p!: query requirements reply: - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 90 "%0%10!p!: PdoGetMessageCount failed - %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 91 "%0%10!p!: WdfIoResourceListCreate %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 92 "%0%10!p!: WdfIoResourceListAppendDescriptor %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 93 "%0%10!p!: The VSP sent invalid resources!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 94 "%0%10!p!: The VSP sent invalid resources %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 95 "%0%10!p!: WdfIoResourceListAppendDescriptor %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 96 "%0%10!p!: WdfIoResourceListAppendDescriptor %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 97 "%0%10!p!: WdfIoResourceRequirementsListAppendIoResList %11!s!" //   LEVEL=TRACE_LEVEL_ERROR FLAGS=DBG_INIT
+{
+Arg, ItemPtr -- 10
+Arg, ItemNTSTATUS -- 11
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 98 "%0%10!p!: Received VpciMsgAssignedResources completion (Pdo %11!p!) %12!s!" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemNTSTATUS -- 12
+}
+
+b678f21d-5f80-3204-be0f-c310346012b3 sys // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 99 "%0%10!p!: Preparing hardware resources (raw resources %11!p!, translated resources %12!p!)" //   LEVEL=TRACE_LEVEL_INFORMATION FLAGS=DBG_PNP
+{
+Arg, ItemPtr -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+}
+

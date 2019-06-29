@@ -1,0 +1,355 @@
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 10 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 11 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Failed to init log.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 12 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   METHODRETURNHRESULTLEVEL=EntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 13 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 14 "%0%10!s!<--this(%11!p!):%!FUNC!()" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 15 "%0%10!s!-->this(%11!p!):%!FUNC!(pszRoot = "%12!s!")" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemWString -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 16 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=false
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 17 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=false
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 18 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=CheckForDir()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 19 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 20 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=FindNext()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 21 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=true
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 22 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=FindNext()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 23 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=true
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 24 "%0%10!s!-->this(%11!p!):%!FUNC!(void)" //   METHODENTRYLEVEL=EntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 25 "%0%10!s!WARN: ASSERTION FAILED - expression "%11!s!" is false." //   ASSERTLEVEL=Warning COMPNAME=WDTF expr=!'Error attempting to find file on CDROM, find depth is negative?'
+{
+Arg, ItemString -- 10
+Arg, ItemString -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 26 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=false
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 27 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=bRetVal
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 28 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=FindNext()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 29 "%0%10!s!<--this(%11!p!):%!FUNC!(): %12!s!" //   RETURNVOIDLEVEL=EntryExit COMPNAME=WDTF BOOLRETVAL=CheckForDir()
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemListLong(false,true) -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 30 "%0%10!s!o->this(%11!p!):%!FUNC!(pMainTarget = %12!p!, MoreTargets = %13!s!)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemPtr -- 12
+Arg, ItemVariant -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 31 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=E_POINTER
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 32 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=hr ERRMSG='CDROMPlugin: SetTarget() - Failed to get drive letter for volume'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 33 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_WDTF_ACTION_DEVICE_NOT_CONFIGURED_PROPERLY_FOR_PLUGIN ERRMSG=L'No Drive letter assigned to optical media device'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 34 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Volume::IsMediaPresent'), &bIsPresent)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 35 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_WDTF_ACTION_DEVICE_NOT_CONFIGURED_PROPERLY_FOR_PLUGIN ERRMSG=L'No Media is present in the optical media device '
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 36 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=pMainTarget->Eval(CComBSTR(L'Volume::HasFiles'), &bHasFiles)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 37 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_WDTF_ACTION_DEVICE_NOT_CONFIGURED_PROPERLY_FOR_PLUGIN ERRMSG=L'No files on Media present in the optical media device '
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 38 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! Contained method failed: Bailing out!" //   PROPAGATE_LEVEL=COMEntryExit COMPNAME=WDTF HR=m_pTarget->GetValue(CComBSTR(L'UniqueTargetName'), &m_DisplayName)
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 39 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 40 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 41 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Already Opened.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 42 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='No files were found on the drive. Please add files or change media.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 43 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 44 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 45 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Already Closed.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 46 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 47 "%0%10!s!o->this(%11!p!):%!FUNC!(void)" //   COMENTRYLEVEL=COMEntryExit COMPNAME=WDTF
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 48 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=E_FAIL ERRMSG='Not Yet Opened.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 49 "%0%10!s!INFO:File: %11!s!" //   TRACEINFOLEVEL=Info COMPNAME=WDTFNoisy
+{
+Arg, ItemString -- 10
+Arg, ItemWString -- 11
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 50 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(dwOpenError) ERRMSG=strErrMsg
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 51 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(dwReadError) ERRMSG=strErrMsg
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 52 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s! - Error %13!s!" //   COMReportError=COMEntryExit COMPNAME=WDTF HR=HRESULT_FROM_WIN32(GetLastError()) ERRMSG='Finding Next File.'
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+Arg, ItemWString -- 13
+}
+
+52d7d546-c651-3073-8beb-ab3a4b26ea1a WDTF_Action_SimpleIO_CDROM // SRC=Unknown_cxx00 MJ= MN=
+#typev Unknown_cxx00 53 "%0%10!s!o<-this(%11!p!):%!FUNC!(): %12!s!" //   COMRETURNLEVEL=COMEntryExit COMPNAME=WDTF HR=S_OK
+{
+Arg, ItemString -- 10
+Arg, ItemPtr -- 11
+Arg, ItemHRESULT -- 12
+}
+
